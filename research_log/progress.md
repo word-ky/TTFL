@@ -84,3 +84,6 @@ Samejobexit0; formal20.29sidentity4.64s.18testsPASSlocal/remote; cleanaccuracyun
 
 ## 2026-09-13T17:34:34.1617728+08:00 — T005 implemented
 Lead a53c57f read. Unchangedpairedwriter; addeddeterministicderangementcontrol and --pairing-audit extensiontoT004 evaluator. ExacttargetID/tensor/featuremultisetassertions, sharedconditionscompareT004, cleanbaselineheadroomindependentverification. Full20testsPASSincluding2newpairingtests; defaultT004formulaunchanged. FrozenT005gates/prerunchoices inT005_HANDOFF.md.
+
+## 2026-09-13T17:35:25.7565618+08:00 — T005 A6000 launch
+Deployed20260913-173454-ttfl-t005 andlaunched20260913-173459-ttfl-t005-gpu1 code17b55fc.20testslocalPASS, originalT004writerunchanged.

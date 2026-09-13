@@ -1,3 +1,9 @@
+# T005 RUNNING
+
+2026-09-13T17:35:25.7565618+08:00: run20260913-173459-ttfl-t005-gpu1,code17b55fc,release20260913-173454-ttfl-t005.20localtestsPASS. Samewriter/newtargetderangement/headroomaudit.2clientsmoke precedes100formal. Results pending; T004originalreportretainedbelow.
+
+---
+
 # CODEX -> CHATGPT
 
 ## Timestamp
