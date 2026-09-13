@@ -1,0 +1,17 @@
+bank,target,selector,0.0,0.25,0.5,0.75,1.0,1.25,1.5
+A,brightness_dark,J_ray,0,0,0,1,81,18,0
+A,brightness_dark,PC_ray_safe,100,0,0,0,0,0,0
+A,contrast_low,J_ray,0,0,0,11,41,47,1
+A,contrast_low,PC_ray_safe,100,0,0,0,0,0,0
+A,gaussian_noise,J_ray,0,0,0,44,55,1,0
+A,gaussian_noise,PC_ray_safe,34,3,2,5,3,8,45
+A,gaussian_blur,J_ray,0,1,2,26,34,21,16
+A,gaussian_blur,PC_ray_safe,96,0,0,0,0,0,4
+B,brightness_dark,J_ray,0,0,0,1,94,0,5
+B,brightness_dark,PC_ray_safe,100,0,0,0,0,0,0
+B,contrast_low,J_ray,0,0,0,10,42,46,2
+B,contrast_low,PC_ray_safe,100,0,0,0,0,0,0
+B,gaussian_noise,J_ray,0,0,0,33,65,2,0
+B,gaussian_noise,PC_ray_safe,33,5,4,4,1,8,45
+B,gaussian_blur,J_ray,0,1,7,29,31,22,10
+B,gaussian_blur,PC_ray_safe,94,0,0,0,0,1,5

@@ -1,0 +1,5602 @@
+[
+  {
+    "client": 0,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 0,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 0,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 0,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 0,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 0,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 0,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 0,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 1,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 1,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 1,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 1,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 1,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 1,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 1,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 1,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 2,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 2,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 2,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 2,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 2,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 2,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 2,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 2,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 3,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 3,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 3,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 3,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 3,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 3,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 3,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 3,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 4,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 4,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 4,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 4,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 4,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.5
+  },
+  {
+    "client": 4,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.5
+  },
+  {
+    "client": 4,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 4,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 5,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 5,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 5,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 5,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 5,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 5,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.25
+  },
+  {
+    "client": 5,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 5,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 6,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 6,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 6,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 6,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 6,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 6,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 6,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 6,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 7,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 7,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 7,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 7,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 7,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.75
+  },
+  {
+    "client": 7,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 7,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 7,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 8,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 8,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 8,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 8,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 8,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 8,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 8,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 8,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 9,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 9,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 9,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 9,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 9,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 9,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 9,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 9,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 10,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 10,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 10,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 10,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 10,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.75
+  },
+  {
+    "client": 10,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.25
+  },
+  {
+    "client": 10,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 10,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 11,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 11,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 11,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 11,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 11,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 11,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 11,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 11,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 12,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 12,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 12,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 12,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 12,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 12,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 12,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 12,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 13,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 13,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 13,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 13,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 13,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 13,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 13,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 13,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 14,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 14,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 14,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 14,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 14,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.75
+  },
+  {
+    "client": 14,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.25
+  },
+  {
+    "client": 14,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 14,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 15,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 15,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 15,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 15,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 15,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 15,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 15,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 15,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 16,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 16,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 16,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 16,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 16,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 16,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 16,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 16,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 17,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 17,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 17,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 17,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 17,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 17,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 17,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 17,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 18,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 18,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 18,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 18,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 18,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 18,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.5
+  },
+  {
+    "client": 18,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 18,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 19,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 19,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 19,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 19,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 19,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.75
+  },
+  {
+    "client": 19,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 19,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 19,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 20,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 20,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 20,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 20,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 20,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 20,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 20,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 20,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 21,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 21,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 21,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 21,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 21,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 21,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 21,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 21,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 22,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 22,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 22,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 22,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 22,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 22,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 22,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 22,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 23,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 23,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 23,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 23,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 23,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 23,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.75
+  },
+  {
+    "client": 23,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 23,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 24,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 24,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 24,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 24,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 24,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 24,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 24,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 24,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 25,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 25,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 25,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 25,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 25,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 25,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 25,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 25,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 26,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 26,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 26,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 26,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 26,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 26,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 26,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 26,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 27,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 27,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 27,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 27,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 27,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 27,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 27,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 27,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 28,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 28,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 28,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 28,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 28,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.25
+  },
+  {
+    "client": 28,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.25
+  },
+  {
+    "client": 28,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 28,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 29,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 29,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 29,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 29,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 29,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 29,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 29,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.25,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 29,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.25,
+    "PC_ray_safe": 1.25
+  },
+  {
+    "client": 30,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 30,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 30,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 30,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 30,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 30,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 30,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 30,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 31,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 31,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 31,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 31,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 31,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 31,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 31,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 31,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 32,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 32,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 32,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 32,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 32,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 32,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 32,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 32,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 33,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 33,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 33,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 33,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 33,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 33,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 33,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 33,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 34,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 34,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 34,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 34,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 34,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.0
+  },
+  {
+    "client": 34,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 34,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 34,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 35,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 35,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 35,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 35,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 35,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 35,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 35,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 35,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 36,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 36,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 36,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 36,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 36,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.0
+  },
+  {
+    "client": 36,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.25
+  },
+  {
+    "client": 36,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 36,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 37,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 37,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 37,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 37,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 37,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 37,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 37,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 37,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 38,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 38,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 38,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 38,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 38,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 38,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 38,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 38,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 39,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 39,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 39,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 39,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 39,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 39,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 39,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 39,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.75
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 41,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 41,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 41,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 41,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 41,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 41,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 41,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 41,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 42,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 42,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 42,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 42,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 42,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 42,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 42,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 42,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 43,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 43,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 43,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 43,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 43,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 43,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 43,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 43,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 44,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 44,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 44,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 44,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 44,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 44,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 44,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 44,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 45,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 45,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 45,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 45,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 45,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 45,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 45,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 45,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 46,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 46,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 46,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 46,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 46,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 46,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 46,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 46,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 47,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 47,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 47,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 47,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 47,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.25
+  },
+  {
+    "client": 47,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.25
+  },
+  {
+    "client": 47,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 47,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 48,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 48,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 48,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 48,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 48,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 48,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 48,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 48,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 49,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 49,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 49,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 49,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 49,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.25
+  },
+  {
+    "client": 49,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.25
+  },
+  {
+    "client": 49,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 49,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 50,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 50,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 50,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 50,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 50,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 50,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 50,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 50,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 51,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 51,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 51,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 51,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 51,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 51,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 51,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 51,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 52,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 52,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 52,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 52,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 52,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 52,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.75
+  },
+  {
+    "client": 52,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 52,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 53,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 53,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 53,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 53,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 53,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 53,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 53,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 53,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 54,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 54,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 54,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 54,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 54,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.25
+  },
+  {
+    "client": 54,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.25
+  },
+  {
+    "client": 54,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 54,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 55,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 55,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 55,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 55,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 55,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 55,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 55,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 55,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 56,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 56,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 56,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 56,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 56,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.25
+  },
+  {
+    "client": 56,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.5
+  },
+  {
+    "client": 56,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 56,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 57,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 57,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 57,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 57,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 57,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 57,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 57,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 57,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 58,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 58,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 58,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 58,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 58,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 58,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 58,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 58,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.5,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 59,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 59,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 59,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 59,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 59,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 59,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 59,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 59,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 60,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 60,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 60,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 60,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 60,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 60,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 60,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 60,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 61,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 61,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 61,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 61,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 61,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 61,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 61,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 61,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 62,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 62,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 62,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 62,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 62,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 62,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 62,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 62,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 63,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 63,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 63,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 63,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 63,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 63,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 63,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 63,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 64,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 64,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 64,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 64,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 64,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 64,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 64,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 64,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 65,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 65,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 65,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 65,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 65,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 65,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 65,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 65,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 66,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 66,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 66,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 66,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 66,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 66,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.0
+  },
+  {
+    "client": 66,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 66,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 67,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 67,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 67,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 67,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 67,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 67,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 67,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 67,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 68,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 68,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 68,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 68,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 68,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 68,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 68,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 68,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 69,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 69,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 69,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 69,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 69,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 69,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 69,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 69,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 70,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 70,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 70,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 70,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 70,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 70,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 70,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 70,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 71,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 71,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 71,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 71,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 71,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 71,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 71,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 71,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 72,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 72,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 72,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 72,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 72,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 72,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 72,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 72,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 73,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 73,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 73,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 73,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 73,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 73,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 73,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 73,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 74,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 74,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 74,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 74,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 74,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 74,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 74,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 74,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 75,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 75,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 75,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 75,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 75,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.75
+  },
+  {
+    "client": 75,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.5
+  },
+  {
+    "client": 75,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 75,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 76,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 76,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 76,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 76,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 76,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 76,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 76,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 76,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 77,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 77,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 77,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 77,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 77,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 77,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 77,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 77,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 78,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 78,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 78,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 78,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 78,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 78,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 78,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 78,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 79,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 79,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 79,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 79,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 79,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.0
+  },
+  {
+    "client": 79,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.25
+  },
+  {
+    "client": 79,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 79,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 80,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 80,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 80,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 80,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 80,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.25
+  },
+  {
+    "client": 80,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 80,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 80,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 81,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 81,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 81,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 81,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 81,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 81,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 81,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 81,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 82,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 82,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 82,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 82,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 82,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.25
+  },
+  {
+    "client": 82,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 82,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 82,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 83,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 83,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 83,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 83,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 83,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.25
+  },
+  {
+    "client": 83,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.25
+  },
+  {
+    "client": 83,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 83,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 84,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 84,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 84,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 84,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 84,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 84,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.75
+  },
+  {
+    "client": 84,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 84,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 85,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 85,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 85,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 85,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 85,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 85,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.25
+  },
+  {
+    "client": 85,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 85,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 86,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 86,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 86,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 86,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 86,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.25
+  },
+  {
+    "client": 86,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 86,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 86,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 87,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 87,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 87,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 87,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 87,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.25
+  },
+  {
+    "client": 87,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.25
+  },
+  {
+    "client": 87,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 87,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 88,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 88,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 88,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 88,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 88,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 88,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 88,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 88,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 89,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 89,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 89,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 89,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 89,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.5
+  },
+  {
+    "client": 89,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.25
+  },
+  {
+    "client": 89,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 89,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 90,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 90,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 90,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 90,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 90,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 90,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 90,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 90,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 91,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 91,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 91,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 91,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 91,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 91,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 91,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 91,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 92,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 92,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 92,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 92,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 92,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 92,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 92,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 92,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.5,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 93,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 93,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 93,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 93,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 93,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 93,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 93,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 93,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 94,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 94,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 94,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 94,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 94,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 94,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 94,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 94,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 95,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 95,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 95,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 95,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 95,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 95,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 95,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 95,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 96,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 96,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 96,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 96,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 96,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 96,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 96,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 96,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 97,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 97,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 97,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 97,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 97,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.25
+  },
+  {
+    "client": 97,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 97,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 97,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 98,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 98,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 98,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 98,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 98,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 98,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 1.0,
+    "PC_ray_safe": 1.5
+  },
+  {
+    "client": 98,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 98,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 0.5,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 99,
+    "bank": "A",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 99,
+    "bank": "B",
+    "target": "brightness_dark",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 99,
+    "bank": "A",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 99,
+    "bank": "B",
+    "target": "contrast_low",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 99,
+    "bank": "A",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 99,
+    "bank": "B",
+    "target": "gaussian_noise",
+    "J_ray": 0.75,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 99,
+    "bank": "A",
+    "target": "gaussian_blur",
+    "J_ray": 1.25,
+    "PC_ray_safe": 0.0
+  },
+  {
+    "client": 99,
+    "bank": "B",
+    "target": "gaussian_blur",
+    "J_ray": 1.0,
+    "PC_ray_safe": 0.0
+  }
+]

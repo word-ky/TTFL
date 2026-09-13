@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-09-14T01:37:42+08:00",
+  "lead": "7d42fe2",
+  "runtime": "87f1bdedd94a63f3fb052d8b3d7e6affb9165e9d",
+  "run": "20260914-013254-ttfl-t012-gpu1",
+  "decision": "T012-B / AMP-B",
+  "raw": "research_log/t012_receipts/20260914-013254-ttfl-t012-gpu1/artifacts/t012_context_amplitude",
+  "remote": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-013254-ttfl-t012-gpu1/artifacts/t012_context_amplitude",
+  "results": "results/t012_context_amplitude/RESULTS.md",
+  "next": "Await Lead"
+}

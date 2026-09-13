@@ -1,0 +1,72 @@
+[autodl] run_id=20260914-013254-ttfl-t012-gpu1
+[autodl] started_at=2026-09-14T01:32:59+08:00
+test_bn_only_moments (test_affine.AffineTest.test_bn_only_moments) ... ok
+test_neutral_logits (test_affine.AffineTest.test_neutral_logits) ... ok
+test_only_fast_state_and_reset (test_affine.AffineTest.test_only_fast_state_and_reset) ... ok
+test_same_checkpoint_all_methods (test_affine.AffineTest.test_same_checkpoint_all_methods) ... ok
+test_fixed_selectors (test_amplitude_ray.AmplitudeRayTest.test_fixed_selectors) ... ok
+test_scaling_endpoints_and_immutability (test_amplitude_ray.AmplitudeRayTest.test_scaling_endpoints_and_immutability) ... ok
+test_disjoint_balanced_spread_order_independent (test_balanced_pool.BalancedPoolTest.test_disjoint_balanced_spread_order_independent) ... ok
+test_exact_semantic_controls (test_balanced_pool.BalancedPoolTest.test_exact_semantic_controls) ... ok
+test_train_checkpoint_and_metrics (test_baseline.BaselineTest.test_train_checkpoint_and_metrics) ... ok
+test_deterministic_by_sample_not_order_and_no_mutation (test_covariate.CovariateTest.test_deterministic_by_sample_not_order_and_no_mutation) ... ok
+test_formulas_and_identity (test_covariate.CovariateTest.test_formulas_and_identity) ... ok
+test_weighted_gate_and_paired_summary (test_covariate.CovariateTest.test_weighted_gate_and_paired_summary) ... ok
+test_balanced_and_disjoint (test_data.DataTest.test_balanced_and_disjoint) ... ok
+test_preprocess (test_data.DataTest.test_preprocess) ... ok
+test_retrieval_both_bounds_and_nonpositive_gain (test_identification_gates.IdentificationGateTest.test_retrieval_both_bounds_and_nonpositive_gain) ... ok
+test_total_and_per_context (test_identification_gates.IdentificationGateTest.test_total_and_per_context) ... ok
+test_clamp_and_constant_variance (test_moments.MomentsTest.test_clamp_and_constant_variance) ... ok
+test_reference_stream_matches_direct (test_moments.MomentsTest.test_reference_stream_matches_direct) ... ok
+test_sequential_formula_frozen_no_labels_or_optimizer (test_moments.MomentsTest.test_sequential_formula_frozen_no_labels_or_optimizer) ... ok
+test_clean_half_point (test_natural_gates.NaturalGateTest.test_clean_half_point) ... ok
+test_total_and_context_floor (test_natural_gates.NaturalGateTest.test_total_and_context_floor) ... ok
+test_common_prefix_and_unavailable_size (test_natural_support.NaturalSupportTest.test_common_prefix_and_unavailable_size) ... ok
+test_common_size_exclusions_and_determinism (test_natural_support.NaturalSupportTest.test_common_size_exclusions_and_determinism) ... ok
+test_exact_identity_three_variances (test_neutral_oracle.NeutralOracleTest.test_exact_identity_three_variances) ... ok
+test_known_residual_and_cap (test_neutral_oracle.NeutralOracleTest.test_known_residual_and_cap) ... ok
+test_model_identity_and_sequential_contract (test_neutral_oracle.NeutralOracleTest.test_model_identity_and_sequential_contract) ... ok
+test_identity_formula_and_constant (test_paired_oracle.PairedOracleTest.test_identity_formula_and_constant) ... ok
+test_known_affine_and_cap (test_paired_oracle.PairedOracleTest.test_known_affine_and_cap) ... ok
+test_sequential_frozen_api (test_paired_oracle.PairedOracleTest.test_sequential_frozen_api) ... ok
+test_derangement_deterministic_label_free (test_pairing.PairingTest.test_derangement_deterministic_label_free) ... ok
+test_target_multiset_both_layers_preserved (test_pairing.PairingTest.test_target_multiset_both_layers_preserved) ... ok
+test_four_shapes_neutral_frozen_and_classes (test_pfllib_operator.PFLModelTest.test_four_shapes_neutral_frozen_and_classes) ... ok
+test_support_only_high_numbered_classes (test_pfllib_operator.PFLModelTest.test_support_only_high_numbered_classes) ... ok
+test_admissibility_and_fixed_tie (test_prediction_consistency.PredictionConsistencyTest.test_admissibility_and_fixed_tie) ... ok
+test_js_known_values (test_prediction_consistency.PredictionConsistencyTest.test_js_known_values) ... ok
+test_zero_determinism_immutability (test_prediction_consistency.PredictionConsistencyTest.test_zero_determinism_immutability) ... ok
+test_extrema_ties_and_target_histogram (test_semantic_pairing.SemanticPairingTest.test_extrema_ties_and_target_histogram) ... ok
+test_random_distinct_deterministic_label_independent (test_semantic_pairing.SemanticPairingTest.test_random_distinct_deterministic_label_independent) ... ok
+test_correlation_constant_and_centered_example (test_semantic_summary.SemanticSummaryTest.test_correlation_constant_and_centered_example) ... ok
+test_tau_and_strict_marginal_bounds (test_semantic_summary.SemanticSummaryTest.test_tau_and_strict_marginal_bounds) ... ok
+test_exact_bank_reference_zero_and_heldout_formula (test_source_signature.SourceSignatureTest.test_exact_bank_reference_zero_and_heldout_formula) ... ok
+test_microbatch_partition_exact_and_ordered (test_source_signature.SourceSignatureTest.test_microbatch_partition_exact_and_ordered) ... ok
+test_squared_distance_margin_and_tie_order (test_source_signature.SourceSignatureTest.test_squared_distance_margin_and_tie_order) ... ok
+test_sequential_path_and_immutability (test_state_consistency.StateConsistencyTest.test_sequential_path_and_immutability) ... ok
+test_zero_first_tie_order (test_state_consistency.StateConsistencyTest.test_zero_first_tie_order) ... ok
+test_zero_signature_and_score_exact (test_state_consistency.StateConsistencyTest.test_zero_signature_and_score_exact) ... ok
+test_nonpositive_headroom_and_half_point_floor (test_transfer_gate.TransferGateTest.test_nonpositive_headroom_and_half_point_floor) ... ok
+test_recovery_and_both_context_margins (test_transfer_gate.TransferGateTest.test_recovery_and_both_context_margins) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 1.122s
+
+OK
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+T012_ENDPOINT_PREFLIGHT_PASS
+T012_SOURCE_CLIENT_DONE 19
+T012_SOURCE_CLIENT_DONE 39
+T012_SOURCE_CLIENT_DONE 59
+T012_SOURCE_CLIENT_DONE 79
+T012_SOURCE_CLIENT_DONE 99
+T012_SOURCE_FROZEN {"timestamp": "2026-09-13T17:33:41.563113+00:00", "scores_sha256": "04b4efb00709127aa1abf41820b7c09d840152e58aa7b246bd9db58724d610c0", "choices_sha256": "a00cac4b593e3e6f58c687333975630c8d8d317ee8eed5b7827b49d577a1fb1a", "rows": 5600, "choices": 800, "new_query_amplitude_opened": false}
+T012_QUERY_CLIENT_DONE 19
+T012_QUERY_CLIENT_DONE 39
+T012_QUERY_CLIENT_DONE 59
+T012_QUERY_CLIENT_DONE 79
+T012_QUERY_CLIENT_DONE 99
+T012_DONE {"new_query_evaluations": 4000, "seconds": 62.73470211029053}
+[autodl] finished_at=2026-09-14T01:34:08+08:00
+[autodl] exit_code=0

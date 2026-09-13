@@ -1,0 +1,7 @@
+{
+  "all_8_states_7_alphas_finite": true,
+  "zero_logit_error": 0.0,
+  "one_logit_error": 0.0,
+  "one_state_exact": true,
+  "immutable": true
+}

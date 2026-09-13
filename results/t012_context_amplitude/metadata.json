@@ -1,0 +1,27 @@
+{
+  "code_commit": "87f1bdedd94a63f3fb052d8b3d7e6affb9165e9d",
+  "checkpoint_sha256": "260657670e4b5beefebc7403487ead624a4ec7e19dd0958c7b281c28713cb9fb",
+  "frozen_code_hashes": {
+    "src/adaptation/paired_affine_oracle_neutral.py": "a6876677a72fe5f147a5ae8e30de4866344df86872f15633f0169d9436c96c0d",
+    "src/data/covariate.py": "297faeb32abbb7d26d9c083d463fe9e65e9d8606151ac7b7eb5cb995e53d7174",
+    "src/context/source_signature.py": "84542fb2381c23073c7504fcc0bfc06546eacffa04b86809372a5ed27d8ca695",
+    "src/models/pfllib.py": "22acbc42950652b62dd01fba765ddc7204e2dba665643e47bb9dc2edf79162d3",
+    "src/context/state_consistency.py": "497ef9d1428b36cdb1e539ab6d7f7499727e1d558e96e4db5de9629ef47e71e1",
+    "src/context/prediction_consistency.py": "0f6aa26de21b4e0252e553ffe993968e7f71926c2678a2dc5c3c48d5905835d4"
+  },
+  "states_sha256": "0d9d5aca7b625a94f24d0802e611838e21772ffd10f81ddf3ef8ecfcc5cb141a",
+  "support_manifest_sha256": "ba139b530bc231b13dc5f0fe9a370a25050bb74f1264eadc938472f56216afac",
+  "prototypes_sha256": "9138f7849f92fbfa820cb7c5eaf815fc209dd3178eca64cf4cc02ab9522b6347",
+  "scaling_helper_sha256": "159b31f8a92a4f2e35e8d386ab76bb73a8ded5615479482ddb95770d72758db8",
+  "gpu": "NVIDIA RTX A6000",
+  "seconds": 62.73450040817261,
+  "alphas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5
+  ]
+}
