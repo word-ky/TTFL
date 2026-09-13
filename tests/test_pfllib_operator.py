@@ -6,6 +6,15 @@ from src.eval.common import state_hash,evaluate
 
 
 class PFLModelTest(unittest.TestCase):
+    def test_support_only_high_numbered_classes(self):
+        torch.set_num_threads(2)
+        model=ContextFedAvgCNN(3,200,1600).eval()
+        x,y=torch.randn(3,3,32,32),torch.tensor([198,199,199])
+        adapted,state,_=adapt(model,x,y,1,.01)
+        result,_=evaluate(adapted,x,y,state,num_classes=200)
+        self.assertTrue(torch.isfinite(torch.tensor(result['loss'])))
+        self.assertIsNotNone(result['per_class_accuracy'][199])
+
     def test_four_shapes_neutral_frozen_and_classes(self):
         torch.set_num_threads(2)
         for channels,size,classes,dim in [(1,28,10,1024),(3,32,10,1600),(3,32,100,1600),(3,64,200,10816)]:

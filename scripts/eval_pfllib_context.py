@@ -62,8 +62,8 @@ def main():
             rows.append(dict(client=cid,method=method,context=context,n_query=len(qy),n_support=len(y),
                              baseline_accuracy=base['accuracy'],gain_pp=result['accuracy']-base['accuracy'],
                              neutral_max_abs_diff=neutral,checkpoint_sha256=sha,prediction_key=key,
-                             support_loss_before=evaluate(model,x,y)[0]['loss'],
-                             support_loss_after=evaluate(m,x,y,state,bias)[0]['loss'],
+                             support_loss_before=evaluate(model,x,y,num_classes=cfg['num_classes'])[0]['loss'],
+                             support_loss_after=evaluate(m,x,y,state,bias,num_classes=cfg['num_classes'])[0]['loss'],
                              loss_trajectory=losses,**result,**state_norms(state)))
         record(model,None,'none','none',sx,sy)
         record(model,new_state(model,.01,cfg['seed']+cid),'random_no_write','random',sx,sy)
@@ -85,7 +85,8 @@ def main():
     (out/'context_records.json').write_text(json.dumps(rows,indent=2))
     (out/'context_summary.json').write_text(json.dumps({'rows':summary,'bn':'N/A: upstream FedAvgCNN has no BN',
                     'setting':'Static client label-skew, supervised support. Not dynamic context proof.',
-                    'prior_reference':'uniform classes with Laplace1 support histogram'},indent=2))
+                    'prior_reference':'uniform classes with Laplace1 support histogram',
+                    'evaluation_source_sha256':hashlib.file_digest(Path(__file__).open('rb'),'sha256').hexdigest()},indent=2))
     (out/'support_indices.json').write_text(json.dumps(support_ids))
     np.savez_compressed(out/'context_predictions.npz',**predictions)
     print('CONTEXT_DONE',json.dumps(summary),flush=True)
