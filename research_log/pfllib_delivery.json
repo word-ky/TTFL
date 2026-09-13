@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-09-13T13:11:24.6872934+08:00",
+  "status": "COMPLETE",
+  "evidence_commit": "79084717506a96ee7bb877bcc65500c272321cb7",
+  "runtime_commits": [
+    "af29ce6235c4afa63db67e004942ad87eab937c8",
+    "5db9d154450d4a0fdbe7608b132318801c3df894"
+  ],
+  "runs": {
+    "MNIST": "20260913-123718-ttfl-pfl-gpu0",
+    "Cifar100": "20260913-124228-ttfl-pfl-c100-fixed",
+    "Cifar10": "20260913-123718-ttfl-pfl-gpu0",
+    "TinyImagenet": "20260913-124728-ttfl-pfl-tiny-gpu0"
+  },
+  "num_clients": 100,
+  "participants_per_round": 10,
+  "join_ratio": 0.1,
+  "rounds": 100,
+  "local_epochs": 1,
+  "alpha": 0.1,
+  "seed": 7,
+  "device": "CUDA / RTX A6000",
+  "remote_code_root": "/home/wenchang/asdasdsad/wjq/TTFL",
+  "remote_data_run_root": "/media/wenchang/F/wjq/TTFL",
+  "all_jobs_finished": true,
+  "results": "results/pfllib_100c/RESULTS.md",
+  "verified_datasets": 4,
+  "verified_context_records": 4000,
+  "focused_tests_passed": 9,
+  "conclusion": "No distinct affine operator advantage over prior baseline; static label-skew protocol does not establish dynamic context adaptation.",
+  "next_action": "Await explicit research instruction."
+}
