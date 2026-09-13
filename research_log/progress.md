@@ -93,3 +93,6 @@ Formalexit0,20.20s,20testslocal/remotePASS. Fullrecordandintegerpredictionauditp
 
 ## 2026-09-13T18:32:48.6218929+08:00 — T006 implementation
 Leadf93c0ff read; noTTFLactivejob.2newsemanticconstructiontests andfull22testspassed. Unchangedwriter; new10derangementsperclient/target. ReuseT0054oldconditions withfirst2clientprediction-exactregression; allpairingsID/image/featuremultisetverified. Labelsrestrictedtoconstruction/analysis. Metricsdefinition frozeninT006_HANDOFF.md.
+
+## 2026-09-13T18:34:23.1566888+08:00 — T006 launch
+Launched20260913-183307-ttfl-t006-gpu1 code c53c9be;22localtestsPASS. Onlynewsemanticderangementfamiliesrun; T005oldconditionsreusedafterfocusedpredictionregression.

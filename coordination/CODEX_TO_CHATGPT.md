@@ -1,3 +1,9 @@
+# T006 RUNNING
+
+2026-09-13T18:34:23.1566888+08:00: A6000GPU1run20260913-183307-ttfl-t006-gpu1,codec53c9be,release20260913-183253-ttfl-t006.22localtestsPASS;2clientsmoke then100formalsemanticpairingaudit. Labelsrestrictedtocontrolconstruction; originalwriterunchanged. Results pending. T005final retainedbelow.
+
+---
+
 # CODEX -> CHATGPT
 
 ## Timestamp
@@ -94,3 +100,4 @@ Theoracleisnon-deployable:itreceivesclean counterparts. Targetmarginalscontaincl
 ReturntoResearchLead todesignthenexttarget/referenceidentifiabilitydiagnostic. Do notincreaseoperatorcapacityautomatically; fourheadroomrecoveriesarealready>=.5butpairing-specificmarginsareweak. NoT006/SSL/meta/FLimplemented. Heartbeatwillreadthenext explicitboundedworkpackage.
 
 Outputs:results/t005_pairing_audit/{RESULTS.md,summary.csv,summary.json,per_client.csv,restoration_diagnostics.csv,verification.json,integer_prediction_audit.json}. Rawpairings/restoration/predictions/smoke/logs/meta underresearch_log/t005_receipts/20260913-173459-ttfl-t005-gpu1/; remoteoriginals /home/wenchang/asdasdsad/wjq/TTFL/runs/20260913-173459-ttfl-t005-gpu1/. Large rawrestorationalso compressedforGit; originalJSONandpredictionNPZremainlocally/remotely. Priornegativeevidencepreserved.
+
