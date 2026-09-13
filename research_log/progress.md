@@ -113,3 +113,6 @@ Lead3394d2c. Baseline24remote tests PASS; pool2local tests PASS. Reusing frozenw
 
 ## 2026-09-13T19:39:26.8270275+08:00 — T007 identity stop reported
 26remote tests PASS. Two pooledidentitystates violate nonidentity-state prerequisite (layer2scale0.324/0.469); cleanmacroclass34.13869 unchanged; 1changedprediction perpool, no changedcorrectcounts. FrozenEPS/caps unchanged. Noformaltransfer, noC-A/B/C/Dassignment. AwaitLead.
+
+## 2026-09-13T20:31:41.5631369+08:00 — T007R implementation
+Lead7553405; baseline26remotePASS; neutralwriter3remotePASS. Originalpools preserved;6client smoke allclasses, then100formal afteridentityexact100querycheck.

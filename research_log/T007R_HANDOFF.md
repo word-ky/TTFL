@@ -1,0 +1,7 @@
+# T007R active — neutral residual writer and balanced transfer
+
+Lead7553405 read in full. Authorized separate new writer; historical paired_affine_oracle.py unchanged. Baseline26remote tests PASS before edit. New neutral writer3focusedremote tests PASS: random/constant/nearzero identity exact, knownaffine/cap, sequentialmodel192state/frozenAPI.
+
+Reuse map: existingpoolreceipt SHA c6b1692e6fae8db52dec5dfe036af03bdc696de359a7b35f5bf64fe1152e49d0; no selection calls. Existing PFLlib data/model/evaluate/corrupt/hash utilities. New residualridge only changes prior center, EPS1e-5/clamp[-8,8] remain. Pool corruption RNG uses eachsample's original clientID and originalID, matching frozen convention. Fit identity2states, verify all100cleanqueries exactstate/logits/predictions BEFORE40corruptionstates. Oneglobalstate perpool/context/target reused allclients. Cleanidentity reused across4targets. Allmetrics primarymacroclass, secondaryweighted/macroclient, gates fromLead3394d2c unchanged.
+
+Smoke uses first6clients: first2 existingquerylabel counts omit4classes, first6 containall10, so macroclass denominator is defined. This choice uses only class availability for engineering smoke, never accuracy; formal usesall100. Noquery-basedstate/poolselection. Full31tests before6clientsmoke and100formal. Identityprerequisite checked all100 inbothsmoke/formal. Preserve oldpreflight evidence before replacing compactresults. NoT008.
