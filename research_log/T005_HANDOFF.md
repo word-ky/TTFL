@@ -1,4 +1,4 @@
-# T005 ACTIVE — Pairing-Specificity + Headroom Audit
+# T005 COMPLETE / P-B — Pairing-Specificity + Headroom Audit
 
 Heartbeat17:31+08 fetchedLead a53c57f; read and fast-forwarded. No duplicateTTFL job. OriginalT004O-B unchanged. Samewriter src/adaptation/paired_affine_oracle.py, samecorruptions andcheckpoint,192affine,eps1e-5/cap[-8,8], sequentialsource/cleantarget. Onlynewcontrol permutes clean target by deterministic cyclicderangement: offset=1+sample_seed(7,client,0,target_pairing)%(n-1), samepermutationbothlayers. Labels/query excluded. IDs/tensors/features checked exactmultisets via inversepermutation. Recordoffsets/source-targetIDs. No >1supportfixedpoints; singleton wouldidentity butrecorded.
 
@@ -6,3 +6,6 @@ ReuseT004evaluator with explicit --pairing-audit flag, preservingdefaultT004. Ne
 
 ## 2026-09-13T17:35:25.7565618+08:00 — RUNNING
 Run20260913-173459-ttfl-t005-gpu1,release20260913-173454-ttfl-t005,code17b55fcebc9e80bfca78f8f3f0ecb9c45ee85912,A6000GPU1. Output /home/wenchang/asdasdsad/wjq/TTFL/runs/20260913-173459-ttfl-t005-gpu1/artifacts/{t005_pairing_audit,t005_smoke}.20tests then2clientsmoke/formal100. Monitor samejob, no duplicates.
+
+## 2026-09-13T17:40:17.0028085+08:00 — COMPLETE / P-B
+Run20260913-173459-ttfl-t005-gpu1 exit0at17:35:35+08.20testsPASS;2smoke/formal100green.2000records/1600writers,0oldconditionaccuracyerror, frozenwriterhashverifiedagainst68ce150.100derangements support30..64 exactimage/featuremultisets;0queryoverlap. All4headroomrecovery>=.5; onlyDarkpassesall2ppmargins =>P-B. Darkpairgap301/15039=2.001462863pp borderline, onefewer netcorrectfails; nostage/gatechange. PairgapsContrast-2.8393/Noise1.6158/Blur1.9350. Integerprediction/headroomauditpassed.1cap>10%episode(client16Darkpermutedlayer2,7/64). Finalreportandresults/t005_pairing_audit ready; allrawfetchedcompressedcopyincluded. NoT006.

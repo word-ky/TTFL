@@ -1,0 +1,137 @@
+[autodl] run_id=20260913-173459-ttfl-t005-gpu1
+[autodl] started_at=2026-09-13T17:35:06+08:00
+test_bn_only_moments (test_affine.AffineTest.test_bn_only_moments) ... ok
+test_neutral_logits (test_affine.AffineTest.test_neutral_logits) ... ok
+test_only_fast_state_and_reset (test_affine.AffineTest.test_only_fast_state_and_reset) ... ok
+test_same_checkpoint_all_methods (test_affine.AffineTest.test_same_checkpoint_all_methods) ... ok
+test_train_checkpoint_and_metrics (test_baseline.BaselineTest.test_train_checkpoint_and_metrics) ... ok
+test_deterministic_by_sample_not_order_and_no_mutation (test_covariate.CovariateTest.test_deterministic_by_sample_not_order_and_no_mutation) ... ok
+test_formulas_and_identity (test_covariate.CovariateTest.test_formulas_and_identity) ... ok
+test_weighted_gate_and_paired_summary (test_covariate.CovariateTest.test_weighted_gate_and_paired_summary) ... ok
+test_balanced_and_disjoint (test_data.DataTest.test_balanced_and_disjoint) ... ok
+test_preprocess (test_data.DataTest.test_preprocess) ... ok
+test_clamp_and_constant_variance (test_moments.MomentsTest.test_clamp_and_constant_variance) ... ok
+test_reference_stream_matches_direct (test_moments.MomentsTest.test_reference_stream_matches_direct) ... ok
+test_sequential_formula_frozen_no_labels_or_optimizer (test_moments.MomentsTest.test_sequential_formula_frozen_no_labels_or_optimizer) ... ok
+test_identity_formula_and_constant (test_paired_oracle.PairedOracleTest.test_identity_formula_and_constant) ... ok
+test_known_affine_and_cap (test_paired_oracle.PairedOracleTest.test_known_affine_and_cap) ... ok
+test_sequential_frozen_api (test_paired_oracle.PairedOracleTest.test_sequential_frozen_api) ... ok
+test_derangement_deterministic_label_free (test_pairing.PairingTest.test_derangement_deterministic_label_free) ... ok
+test_target_multiset_both_layers_preserved (test_pairing.PairingTest.test_target_multiset_both_layers_preserved) ... ok
+test_four_shapes_neutral_frozen_and_classes (test_pfllib_operator.PFLModelTest.test_four_shapes_neutral_frozen_and_classes) ... ok
+test_support_only_high_numbered_classes (test_pfllib_operator.PFLModelTest.test_support_only_high_numbered_classes) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.794s
+
+OK
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+T005_CLIENT_DONE 0
+T005_CLIENT_DONE 1
+T005_DONE {"case": "P-A", "passed": 2, "specificity": [{"target": "brightness_dark", "correct_gain_pp": 20.938628955007893, "correct_minus_wrong_alt_pp": 22.38267217140766, "correct_minus_noise_pp": 22.021661427154438, "clean_acc": 25.631769587847298, "headroom_pp": 21.29963969926111, "recovery_fraction": 0.983050852063674, "pairing_advantage_pp": 22.021661427154438, "passed": true, "paired": {"oracle_target_permuted": {"mean": 20.272954739630222, "median": 20.272954739630222, "fraction_positive": 1.0, "p10": 15.367721803486347, "p25": 17.2071841545403, "p75": 23.338725324720144, "p90": 25.178187675774097}, "oracle_wrong_alt": {"mean": 20.553853549063206, "median": 20.553853549063206, "fraction_positive": 1.0, "p10": 15.423901565372944, "p25": 17.347633559256792, "p75": 23.76007353886962, "p90": 25.683805532753468}, "oracle_noise_source": {"mean": 20.272954739630222, "median": 20.272954739630222, "fraction_positive": 1.0, "p10": 15.367721803486347, "p25": 17.2071841545403, "p75": 23.338725324720144, "p90": 25.178187675774097}}}, {"target": "contrast_low", "correct_gain_pp": 11.552346385141249, "correct_minus_wrong_alt_pp": 7.942238019691907, "correct_minus_noise_pp": 11.913357215129942, "clean_acc": 25.631769587847298, "headroom_pp": 22.021661341418962, "recovery_fraction": 0.524590139047015, "pairing_advantage_pp": 11.913357215129942, "passed": true, "paired": {"oracle_target_permuted": {"mean": 10.838724114000797, "median": 10.838724114000797, "fraction_positive": 1.0, "p10": 7.824310250580311, "p25": 8.954715449362993, "p75": 12.722732778638601, "p90": 13.853137977421284}, "oracle_wrong_alt": {"mean": 7.076381519436836, "median": 7.076381519436836, "fraction_positive": 1.0, "p10": 4.64759923517704, "p25": 5.558392591774464, "p75": 8.594370447099209, "p90": 9.505163803696632}, "oracle_noise_source": {"mean": 10.838724114000797, "median": 10.838724114000797, "fraction_positive": 1.0, "p10": 7.824310250580311, "p25": 8.954715449362993, "p75": 12.722732778638601, "p90": 13.853137977421284}}}, {"target": "gaussian_noise", "correct_gain_pp": 0.7220216740985208, "correct_minus_wrong_alt_pp": -5.054151024736651, "correct_minus_noise_pp": 18.050541301066264, "clean_acc": 25.631769587847298, "headroom_pp": 5.054152544439912, "recovery_fraction": 0.14285711951706304, "pairing_advantage_pp": 18.050541301066264, "passed": false, "paired": {"oracle_target_permuted": {"mean": 16.510611586272717, "median": 16.510611586272717, "fraction_positive": 1.0, "p10": 12.191011272370815, "p25": 13.810861390084028, "p75": 19.210361782461405, "p90": 20.830211900174618}, "oracle_wrong_alt": {"mean": -5.949948355555534, "median": -5.949948355555534, "fraction_positive": 0.0, "p10": -8.462716564536095, "p25": -7.5204284861683846, "p75": -4.379468224942684, "p90": -3.437180146574974}, "oracle_noise_source": {"mean": 16.510611586272717, "median": 16.510611586272717, "fraction_positive": 1.0, "p10": 12.191011272370815, "p25": 13.810861390084028, "p75": 19.210361782461405, "p90": 20.830211900174618}}}, {"target": "gaussian_blur", "correct_gain_pp": 5.054152730031994, "correct_minus_wrong_alt_pp": -3.2490972792628874, "correct_minus_noise_pp": 22.021661798338595, "clean_acc": 25.631769587847298, "headroom_pp": 5.4151631031010545, "recovery_fraction": 0.9333334257536354, "pairing_advantage_pp": 22.021661798338595, "passed": false, "paired": {"oracle_target_permuted": {"mean": 20.721258409321308, "median": 20.721258409321308, "fraction_positive": 1.0, "p10": 17.07354459911585, "p25": 18.441437277942896, "p75": 23.00107954069972, "p90": 24.368972219526768}, "oracle_wrong_alt": {"mean": -3.8729995489120483, "median": -3.8729995489120483, "fraction_positive": 0.0, "p10": -5.623084902763367, "p25": -4.966802895069122, "p75": -2.7791962027549744, "p90": -2.12291419506073}, "oracle_noise_source": {"mean": 20.721258409321308, "median": 20.721258409321308, "fraction_positive": 1.0, "p10": 17.07354459911585, "p25": 18.441437277942896, "p75": 23.00107954069972, "p90": 24.368972219526768}}}]}
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+T005_CLIENT_DONE 0
+T005_CLIENT_DONE 1
+T005_CLIENT_DONE 2
+T005_CLIENT_DONE 3
+T005_CLIENT_DONE 4
+T005_CLIENT_DONE 5
+T005_CLIENT_DONE 6
+T005_CLIENT_DONE 7
+T005_CLIENT_DONE 8
+T005_CLIENT_DONE 9
+T005_CLIENT_DONE 10
+T005_CLIENT_DONE 11
+T005_CLIENT_DONE 12
+T005_CLIENT_DONE 13
+T005_CLIENT_DONE 14
+T005_CLIENT_DONE 15
+T005_CLIENT_DONE 16
+T005_CLIENT_DONE 17
+T005_CLIENT_DONE 18
+T005_CLIENT_DONE 19
+T005_CLIENT_DONE 20
+T005_CLIENT_DONE 21
+T005_CLIENT_DONE 22
+T005_CLIENT_DONE 23
+T005_CLIENT_DONE 24
+T005_CLIENT_DONE 25
+T005_CLIENT_DONE 26
+T005_CLIENT_DONE 27
+T005_CLIENT_DONE 28
+T005_CLIENT_DONE 29
+T005_CLIENT_DONE 30
+T005_CLIENT_DONE 31
+T005_CLIENT_DONE 32
+T005_CLIENT_DONE 33
+T005_CLIENT_DONE 34
+T005_CLIENT_DONE 35
+T005_CLIENT_DONE 36
+T005_CLIENT_DONE 37
+T005_CLIENT_DONE 38
+T005_CLIENT_DONE 39
+T005_CLIENT_DONE 40
+T005_CLIENT_DONE 41
+T005_CLIENT_DONE 42
+T005_CLIENT_DONE 43
+T005_CLIENT_DONE 44
+T005_CLIENT_DONE 45
+T005_CLIENT_DONE 46
+T005_CLIENT_DONE 47
+T005_CLIENT_DONE 48
+T005_CLIENT_DONE 49
+T005_CLIENT_DONE 50
+T005_CLIENT_DONE 51
+T005_CLIENT_DONE 52
+T005_CLIENT_DONE 53
+T005_CLIENT_DONE 54
+T005_CLIENT_DONE 55
+T005_CLIENT_DONE 56
+T005_CLIENT_DONE 57
+T005_CLIENT_DONE 58
+T005_CLIENT_DONE 59
+T005_CLIENT_DONE 60
+T005_CLIENT_DONE 61
+T005_CLIENT_DONE 62
+T005_CLIENT_DONE 63
+T005_CLIENT_DONE 64
+T005_CLIENT_DONE 65
+T005_CLIENT_DONE 66
+T005_CLIENT_DONE 67
+T005_CLIENT_DONE 68
+T005_CLIENT_DONE 69
+T005_CLIENT_DONE 70
+T005_CLIENT_DONE 71
+T005_CLIENT_DONE 72
+T005_CLIENT_DONE 73
+T005_CLIENT_DONE 74
+T005_CLIENT_DONE 75
+T005_CLIENT_DONE 76
+T005_CLIENT_DONE 77
+T005_CLIENT_DONE 78
+T005_CLIENT_DONE 79
+T005_CLIENT_DONE 80
+T005_CLIENT_DONE 81
+T005_CLIENT_DONE 82
+T005_CLIENT_DONE 83
+T005_CLIENT_DONE 84
+T005_CLIENT_DONE 85
+T005_CLIENT_DONE 86
+T005_CLIENT_DONE 87
+T005_CLIENT_DONE 88
+T005_CLIENT_DONE 89
+T005_CLIENT_DONE 90
+T005_CLIENT_DONE 91
+T005_CLIENT_DONE 92
+T005_CLIENT_DONE 93
+T005_CLIENT_DONE 94
+T005_CLIENT_DONE 95
+T005_CLIENT_DONE 96
+T005_CLIENT_DONE 97
+T005_CLIENT_DONE 98
+T005_CLIENT_DONE 99
+T005_DONE {"case": "P-B", "passed": 1, "specificity": [{"target": "brightness_dark", "correct_gain_pp": 15.898663796528062, "correct_minus_wrong_alt_pp": 17.826983550558744, "correct_minus_noise_pp": 2.3206330786958667, "clean_acc": 34.21770074923788, "headroom_pp": 16.576900185519385, "recovery_fraction": 0.9590854513569557, "pairing_advantage_pp": 2.0014629345221238, "passed": true, "paired": {"oracle_target_permuted": {"mean": 3.4036586210131645, "median": 5.468456819653511, "fraction_positive": 0.66, "p10": -21.39041304588318, "p25": -7.08812028169632, "p75": 14.216418843716383, "p90": 24.672461114823832}, "oracle_wrong_alt": {"mean": 15.780242439359426, "median": 11.614173278212547, "fraction_positive": 0.86, "p10": -8.723838329315186, "p25": 3.7990850396454334, "p75": 27.24951347336173, "p90": 50.74386082589627}, "oracle_noise_source": {"mean": 3.514334094710648, "median": 4.826073534786701, "fraction_positive": 0.64, "p10": -21.87301456928253, "p25": -7.758618891239166, "p75": 14.73492793738842, "p90": 28.16054314374924}}}, {"target": "contrast_low", "correct_gain_pp": 8.172086157818494, "correct_minus_wrong_alt_pp": 4.847396976988314, "correct_minus_noise_pp": -3.198351044537514, "clean_acc": 34.21770074923788, "headroom_pp": 14.129928966233102, "recovery_fraction": 0.5783529540274179, "pairing_advantage_pp": -2.8392845938523834, "passed": false, "paired": {"oracle_target_permuted": {"mean": -1.758441646117717, "median": 1.8000641837716103, "fraction_positive": 0.54, "p10": -26.670334935188293, "p25": -8.642705529928207, "p75": 10.159574262797832, "p90": 16.021621292456988}, "oracle_wrong_alt": {"mean": 4.543219748418778, "median": 1.8872946500778198, "fraction_positive": 0.65, "p10": -5.230879187583923, "p25": -0.5380952381528914, "p75": 8.205882413312793, "p90": 16.828570663929}, "oracle_noise_source": {"mean": -1.3625488537363708, "median": 2.237094845622778, "fraction_positive": 0.54, "p10": -27.908056378364563, "p25": -10.444075614213943, "p75": 11.217948980629444, "p90": 16.961266025900844}}}, {"target": "gaussian_noise", "correct_gain_pp": 2.3339317386000253, "correct_minus_wrong_alt_pp": 4.741006774944381, "correct_minus_noise_pp": 2.54006226465566, "clean_acc": 34.21770074923788, "headroom_pp": 3.470975530663086, "recovery_fraction": 0.6724137689769761, "pairing_advantage_pp": 1.6157987527456363, "passed": false, "paired": {"oracle_target_permuted": {"mean": 2.710229219868779, "median": 5.000000447034836, "fraction_positive": 0.62, "p10": -21.19867444038391, "p25": -5.605259537696838, "p75": 14.33282159268856, "p90": 20.395143125206243}, "oracle_wrong_alt": {"mean": 4.393121984787285, "median": 3.5699155181646347, "fraction_positive": 0.61, "p10": -14.304511323571205, "p25": -1.727510616183281, "p75": 11.629273183643818, "p90": 25.186711326241497}, "oracle_noise_source": {"mean": 4.02836795989424, "median": 6.8686868995428085, "fraction_positive": 0.63, "p10": -21.06917381286621, "p25": -4.476705193519592, "p75": 16.10526256263256, "p90": 21.93429078906775}}}, {"target": "gaussian_blur", "correct_gain_pp": 2.34723028367884, "correct_minus_wrong_alt_pp": 6.077531591777124, "correct_minus_noise_pp": 2.3405807462212316, "clean_acc": 34.21770074923788, "headroom_pp": 3.224948441438947, "recovery_fraction": 0.7278349797839013, "pairing_advantage_pp": 1.9349686786787785, "passed": false, "paired": {"oracle_target_permuted": {"mean": 3.1531919850967824, "median": 5.0581395626068115, "fraction_positive": 0.64, "p10": -20.102160573005676, "p25": -3.740561753511429, "p75": 14.865422993898392, "p90": 21.902689859271053}, "oracle_wrong_alt": {"mean": 6.007876205723733, "median": 2.2940850351005793, "fraction_positive": 0.62, "p10": -5.575385242700577, "p25": -0.5622753407806158, "p75": 12.523291632533073, "p90": 23.36808085441594}, "oracle_noise_source": {"mean": 4.0761378346942365, "median": 4.3930018320679665, "fraction_positive": 0.62, "p10": -19.790697991847992, "p25": -5.194804817438126, "p75": 16.266289725899696, "p90": 23.33502545952797}}}]}
+[autodl] finished_at=2026-09-13T17:35:35+08:00
+[autodl] exit_code=0

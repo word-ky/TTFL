@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-09-13T17:40:17.0028085+08:00",
+  "status": "COMPLETE",
+  "case": "P-B",
+  "passed_corruptions": 1,
+  "required_corruptions": 2,
+  "runtime_commit": "17b55fcebc9e80bfca78f8f3f0ecb9c45ee85912",
+  "run_id": "20260913-173459-ttfl-t005-gpu1",
+  "release_id": "20260913-173454-ttfl-t005",
+  "dark_pairing_advantage_pp": 2.001462863222289,
+  "integer_prediction_audit": "PASS",
+  "heartbeat_id": "ttfl-chatgpt",
+  "results": "results/t005_pairing_audit",
+  "raw": "research_log/t005_receipts/20260913-173459-ttfl-t005-gpu1",
+  "next_action": "Receive next explicitLead task; do not enlargeoperator orrepeatcompletedT005."
+}

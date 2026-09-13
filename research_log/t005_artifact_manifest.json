@@ -1,0 +1,94 @@
+[
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\meta.json",
+    "sha256": "38df8813bf8c52f1733c17a97599da1e87e3dff2f9fb461e68cd18fd50c84ce9"
+  },
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\run.sh",
+    "sha256": "915d802c4c10adc1155e4ace2dd8df315880dba20f8ac6667dd14fee814f7e8c"
+  },
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\train.log",
+    "sha256": "c30d0295c95a49d0805a6ba997e8cba0673ab37eeededfd67da3c42e6dfd29bb"
+  },
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\artifacts\\t005_pairing_audit\\pairings.json",
+    "sha256": "9f3d6c5d58ced65964fecd24cc115fa23d67f6d6e067ae7e951e916a6ef21960"
+  },
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\artifacts\\t005_pairing_audit\\per_client.csv",
+    "sha256": "3510096b74ca15a4fb392b4574c89c5a1caa4c11578ec9915a0a0d12c5a34250"
+  },
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\artifacts\\t005_pairing_audit\\predictions.npz",
+    "sha256": "51d8ea8cb71907cf3fafd79827ffb47131f630096ae0ff051a6ea4ba149f6c84"
+  },
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\artifacts\\t005_pairing_audit\\raw_records.json",
+    "sha256": "02305243806c52c96ef248c4917e17ddf686296d809cbe7c1a2e916e0aab690e"
+  },
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\artifacts\\t005_pairing_audit\\raw_restoration.json",
+    "sha256": "047d5fcbf22999220c3477497d8fdbe6c1042e6d6d02f3a4dfe857b4a5a8fd17"
+  },
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\artifacts\\t005_pairing_audit\\raw_restoration.json.gz",
+    "sha256": "fdd5a1fdd0e3ed5f7b0a412a293fa232c86fbb7c444d1fdd8fc9b8e3ab997f2e"
+  },
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\artifacts\\t005_pairing_audit\\restoration_diagnostics.csv",
+    "sha256": "684cae56c423279ea248ee34ab5ddbad9cf209343cb34fbad5d58209af6d69ab"
+  },
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\artifacts\\t005_pairing_audit\\summary.csv",
+    "sha256": "e1d89a92d664ec0aab7fdeb1bbbac50b750cbe224426329674ece646d2e7ed8c"
+  },
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\artifacts\\t005_pairing_audit\\summary.json",
+    "sha256": "3e8654cf821df1784a4bbc6b1995cfabbd3e489df2e3dd2357f8b3ec863ac52b"
+  },
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\artifacts\\t005_pairing_audit\\verification.json",
+    "sha256": "182b9c00b1e055a0b924a31512230ac4edcc9cb27f428bf0d2bde05b9257d999"
+  },
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\artifacts\\t005_smoke\\pairings.json",
+    "sha256": "684ae3b92f0ba624f69f339b46b03c86fb0cc13673e78bb93966cc1774f14a3c"
+  },
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\artifacts\\t005_smoke\\per_client.csv",
+    "sha256": "2c07fad69e2e68c696da595492e2a376ff4724d732c3838747e2f3c0bad57928"
+  },
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\artifacts\\t005_smoke\\predictions.npz",
+    "sha256": "13d257b7dcaa704dfd2e1b175101828b9435d9d4b1b59a4fc32bd7552d185779"
+  },
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\artifacts\\t005_smoke\\raw_records.json",
+    "sha256": "a5c6aa634afe27f45a9480b4f9741f543b3ea7c6e9de571537a87fb8eaf3d221"
+  },
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\artifacts\\t005_smoke\\raw_restoration.json",
+    "sha256": "2a74c79a1bcfb377b1feb1003b9e4fffd088625d434e89524a3d9390e29f201e"
+  },
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\artifacts\\t005_smoke\\raw_restoration.json.gz",
+    "sha256": "e3872d0143093751e819723a550bf21b8ea84101fba668b877ea02aa2f5d29d0"
+  },
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\artifacts\\t005_smoke\\restoration_diagnostics.csv",
+    "sha256": "98f27903411bb3345deb019e73abca738499d2191ee8478868a47097dbbb6578"
+  },
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\artifacts\\t005_smoke\\summary.csv",
+    "sha256": "5b036f9190b5cb7737cfa76c14a37294bf1943171629ee3e57247b5c80e0ef68"
+  },
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\artifacts\\t005_smoke\\summary.json",
+    "sha256": "4afa757df9b92093556838019dc3ddfdd5f821b8a32ce3cc856574450b097b99"
+  },
+  {
+    "path": "research_log\\t005_receipts\\20260913-173459-ttfl-t005-gpu1\\artifacts\\t005_smoke\\verification.json",
+    "sha256": "92bc4183d6fb85633c48ed4f5cc51aff1b1ce3cde33d51410118852d3ea5a8c0"
+  }
+]

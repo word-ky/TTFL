@@ -1,0 +1,70 @@
+[
+  {
+    "target": "brightness_dark",
+    "query_count": 15039,
+    "correct_counts": {
+      "none": 2653,
+      "oracle_correct_pair": 5044,
+      "oracle_target_permuted": 4743,
+      "oracle_wrong_alt": 2363,
+      "oracle_noise_source": 4695
+    },
+    "clean_correct": 5146,
+    "headroom_count": 2493,
+    "gain_count": 2391,
+    "recovery_fraction": 0.9590854392298436,
+    "pairing_advantage_pp": 2.001462863222289,
+    "passed": true
+  },
+  {
+    "target": "contrast_low",
+    "query_count": 15039,
+    "correct_counts": {
+      "none": 3021,
+      "oracle_correct_pair": 4250,
+      "oracle_target_permuted": 4677,
+      "oracle_wrong_alt": 3521,
+      "oracle_noise_source": 4731
+    },
+    "clean_correct": 5146,
+    "headroom_count": 2125,
+    "gain_count": 1229,
+    "recovery_fraction": 0.5783529411764706,
+    "pairing_advantage_pp": -2.8392845268967353,
+    "passed": false
+  },
+  {
+    "target": "gaussian_noise",
+    "query_count": 15039,
+    "correct_counts": {
+      "none": 4624,
+      "oracle_correct_pair": 4975,
+      "oracle_target_permuted": 4732,
+      "oracle_wrong_alt": 4262,
+      "oracle_noise_source": 4593
+    },
+    "clean_correct": 5146,
+    "headroom_count": 522,
+    "gain_count": 351,
+    "recovery_fraction": 0.6724137931034483,
+    "pairing_advantage_pp": 1.6157989228007181,
+    "passed": false
+  },
+  {
+    "target": "gaussian_blur",
+    "query_count": 15039,
+    "correct_counts": {
+      "none": 4661,
+      "oracle_correct_pair": 5014,
+      "oracle_target_permuted": 4723,
+      "oracle_wrong_alt": 4100,
+      "oracle_noise_source": 4662
+    },
+    "clean_correct": 5146,
+    "headroom_count": 485,
+    "gain_count": 353,
+    "recovery_fraction": 0.7278350515463917,
+    "pairing_advantage_pp": 1.9349690803909834,
+    "passed": false
+  }
+]

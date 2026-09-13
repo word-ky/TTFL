@@ -1,0 +1,29 @@
+{
+  "records": 2000,
+  "writer_episodes": 1600,
+  "zero_state_exact": true,
+  "global_hash_unchanged_each_episode": true,
+  "support_query_overlap": 0,
+  "matched_ids": true,
+  "query_and_labels_excluded_from_writer": true,
+  "nonfinite_count": 0,
+  "t002_none_max_error_pp": 0.0,
+  "prediction_max_error_pp": 6.05216392557395e-06,
+  "cap_gt10pct_layer_episodes": 1,
+  "clean_identity": {
+    "none": 34.21770074923788,
+    "oracle": 34.21770074923788,
+    "delta": 0.0,
+    "passed": true,
+    "clients": 100,
+    "checkpoint_sha256": "260657670e4b5beefebc7403487ead624a4ec7e19dd0958c7b281c28713cb9fb",
+    "code_commit": "68ce150cca164d40ee44aa786dac2c74386d77d3",
+    "seconds": 4.638595819473267,
+    "per_client_max_abs_delta": 0.0
+  },
+  "target_derangements": true,
+  "target_image_and_feature_multisets_exact": true,
+  "clean_identity_focused_delta_pp": 0.0,
+  "t004_reused_conditions_max_error_pp": 0.0,
+  "writer_sha256": "99824a64af46ad500c8be742c0775435bf7566188935eb59d39d7acca86a11dd"
+}
