@@ -36,3 +36,9 @@ Run20260913-123913-ttfl-pfl-c100-gpu1 completed2roundbaseline thencontextfailed 
 
 ## 2026-09-13T12:44:53.6275462+08:00 — repaired CIFAR100 and completed MNIST
 Cifar100 fixedrun20260913-124228-ttfl-pfl-c100-fixed active onGPU1,9remotetests andsaved-smoke evaluationpassed thenformal100roundtraining. GPU0MNIST formalbaseline/contextcomplete; Cifar10active. Tinydataretrytest94/100, noTinytrainingyet. Analysis/export scripts added forcomplete receipts, not changingactive scientificcode.
+
+## 2026-09-13T12:46:51.1029787+08:00 — first completed dataset evidence
+MNISTfull100rounds:FedAvg92.497577,affinecorrect94.755145,wrong92.018699,shuffled94.686734,priorcorrect98.244114. ThesearecompleteMNISTresults, nootherdataconfigtuning. Prior/shuffled explainmuchofgain; noindependentoperatoradvantageclaimed. Tinydataretryexit0at12:44:19+08;4datasetsready. AwaitonefreeGPUforTiny100rounds.
+
+## 2026-09-13T12:47:35.9322716+08:00 — CIFAR10 complete, TinyImageNet dispatch
+GPU0 MNIST+Cifar10 run20260913-123718-ttfl-pfl-gpu0 exit0at12:47:10. CIFAR10FedAvg34.217701,affine57.277745,prior79.194095,shuffled58.049072,noise59.937496:largeaffinegainisnotsemanticcontextproof; simplerpriorandshuffled/noiseoutperform. Cifar100formaltrainingcomplete,clientcontextevalinprogress. TinyreadyandGPU0free:launchTinyImageNet smoke+100roundsonGPU0withclassfix5db9d15.
