@@ -21,6 +21,7 @@ from scripts.eval_pfllib_covariate_context import CHECKPOINT_SHA,sha,write_csv
 from scripts.eval_t007r import POOL_SHA
 from scripts.eval_t008_source_identifiability import retrieval_gate
 from scripts.analyze_prior_receipts import ranks
+from utils.data_utils import read_data
 
 CONTEXTS=('clean',)+TARGETS
 

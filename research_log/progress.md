@@ -134,3 +134,9 @@ ID-A+RET-A.40/40source-onlycontext IDs correct,4/4jointretrieval with1.0oracle-g
 
 ## 2026-09-13T22:45:41.9414191+08:00 — T009 implementation
 Lead25e6ea7;36baseline remotePASS;2natural-support tests localPASS. Evaluationonly; unchangedsignature/prototypes/states. Kchosenfromcounts, labelauditafterdecisions/retrieval.
+
+## 2026-09-13T22:46:19.7567206+08:00 — T009 run
+20260913-224559-ttfl-t009-gpu1 runtime d136746. Frozen objectsunchanged; manifest/K beforefeatures.
+
+## 2026-09-13T22:46:58.8541622+08:00 — T009 import failure fixed
+First runfailedbeforeanydecisions atread_data missingimport. Addedexistingutility import, noformula/protocolchange. Failedrun224559preserved; nextsameIDsK verified.
