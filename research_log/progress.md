@@ -90,3 +90,6 @@ Deployed20260913-173454-ttfl-t005 andlaunched20260913-173459-ttfl-t005-gpu1 code
 
 ## 2026-09-13T17:40:17.0028085+08:00 — T005 COMPLETE / P-B
 Formalexit0,20.20s,20testslocal/remotePASS. Fullrecordandintegerpredictionauditpassed; all4recoveryfractions.9591/.5784/.6724/.7278 butpairgaps2.00146/-2.83928/1.61580/1.93497;1/4PASS=>P-B. Darkjust301netcorrect/15039gateborderline; explicitlyreported. Unchangedwriterhash99824a.. andoldconditionperclientaccuracyerror0.1capwarningclient16Darkpermutedlayer2. Noquerytuning/rerun/newstage. Results/rawreceipts/derangements savedprojectlocally, compressedlargeJSON,finalcoordinationreportwritten.
+
+## 2026-09-13T18:32:48.6218929+08:00 — T006 implementation
+Leadf93c0ff read; noTTFLactivejob.2newsemanticconstructiontests andfull22testspassed. Unchangedwriter; new10derangementsperclient/target. ReuseT0054oldconditions withfirst2clientprediction-exactregression; allpairingsID/image/featuremultisetverified. Labelsrestrictedtoconstruction/analysis. Metricsdefinition frozeninT006_HANDOFF.md.
