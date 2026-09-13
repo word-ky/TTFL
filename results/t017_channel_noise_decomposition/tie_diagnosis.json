@@ -1,0 +1,1824 @@
+[
+  {
+    "client": 15,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "salt": "T013-S1",
+    "train_half": 1,
+    "P00_state": "brightness_dark",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "brightness_dark",
+      "gaussian_noise"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 2.223862092882574e-16,
+    "true_utilities": [
+      "0",
+      "3/125",
+      "-1/625",
+      "3/125",
+      "0"
+    ]
+  },
+  {
+    "client": 15,
+    "bank": "B",
+    "context": "brightness_dark",
+    "salt": "T013-S0",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.9634995339004498e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 15,
+    "bank": "B",
+    "context": "brightness_dark",
+    "salt": "T013-S3",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.6132216401765164e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 15,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "salt": "T013-S2",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 3.8997659537463107e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 21,
+    "bank": "A",
+    "context": "brightness_dark",
+    "salt": "T013-S0",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 3.91697093866585e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 21,
+    "bank": "A",
+    "context": "brightness_dark",
+    "salt": "T013-S2",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 4.7322422846667137e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 21,
+    "bank": "A",
+    "context": "brightness_dark",
+    "salt": "T013-S3",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 3.5089135669113806e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 21,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "salt": "T013-S1",
+    "train_half": 1,
+    "P00_state": "brightness_dark",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "brightness_dark",
+      "gaussian_noise"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 7.414827387709915e-17,
+    "true_utilities": [
+      "0",
+      "8/311",
+      "-1/622",
+      "8/311",
+      "0"
+    ]
+  },
+  {
+    "client": 21,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "salt": "T013-S3",
+    "train_half": 0,
+    "P00_state": "brightness_dark",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "brightness_dark",
+      "gaussian_noise"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 8.125759354654094e-17,
+    "true_utilities": [
+      "0",
+      "17/645",
+      "-2/645",
+      "17/645",
+      "0"
+    ]
+  },
+  {
+    "client": 21,
+    "bank": "B",
+    "context": "brightness_dark",
+    "salt": "T013-S0",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 3.128942849834515e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 21,
+    "bank": "B",
+    "context": "brightness_dark",
+    "salt": "T013-S2",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 3.776317827152407e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 21,
+    "bank": "B",
+    "context": "brightness_dark",
+    "salt": "T013-S3",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 2.880447818249861e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 21,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "salt": "T013-S2",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.657439004347989e-16,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 38,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "salt": "T013-S1",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "gaussian_noise"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 2.933218030713756e-17,
+    "true_utilities": [
+      "0",
+      "-103/739",
+      "-135/739",
+      "0",
+      "-21/739"
+    ]
+  },
+  {
+    "client": 38,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "salt": "T013-S2",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "gaussian_noise"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.0783249912455654e-17,
+    "true_utilities": [
+      "0",
+      "-117/763",
+      "-181/763",
+      "0",
+      "-24/763"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "clean",
+    "salt": "T013-S1",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 4.183212727777175e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "clean",
+    "salt": "T013-S2",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 3.3747105530159195e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "clean",
+    "salt": "T013-S3",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 4.1237287746556233e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "brightness_dark",
+    "salt": "T013-S0",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 2.019947551541727e-18,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "brightness_dark",
+    "salt": "T013-S1",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 6.652468190164053e-19,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "brightness_dark",
+    "salt": "T013-S1",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.348449017763348e-18,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "brightness_dark",
+    "salt": "T013-S2",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 6.634798951943166e-19,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "brightness_dark",
+    "salt": "T013-S2",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.3520984061740742e-18,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "brightness_dark",
+    "salt": "T013-S3",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 2.058792696763683e-18,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "contrast_low",
+    "salt": "T013-S0",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 5.573408758158417e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "contrast_low",
+    "salt": "T013-S0",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 4.547727604121252e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "contrast_low",
+    "salt": "T013-S1",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 4.6198183983741654e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "contrast_low",
+    "salt": "T013-S1",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 5.4852916236420775e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "contrast_low",
+    "salt": "T013-S2",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 5.436264465405939e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "contrast_low",
+    "salt": "T013-S2",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 4.7019559197146326e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "contrast_low",
+    "salt": "T013-S3",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 4.332219474397106e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "contrast_low",
+    "salt": "T013-S3",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 5.770238088512327e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "salt": "T013-S0",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 4.429081215259933e-18,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "salt": "T013-S0",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.0610164639769502e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "salt": "T013-S1",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 7.172369472679342e-18,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "salt": "T013-S1",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 6.8344782637663534e-18,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "salt": "T013-S2",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 6.301265815440078e-18,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "salt": "T013-S2",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 9.529162200461153e-18,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "salt": "T013-S3",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 6.413943195908745e-18,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "salt": "T013-S3",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 7.133963210442772e-18,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "salt": "T013-S0",
+    "train_half": 0,
+    "P00_state": "brightness_dark",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "brightness_dark",
+      "gaussian_noise"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 8.423407934823573e-17,
+    "true_utilities": [
+      "0",
+      "1/215",
+      "0",
+      "1/215",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "salt": "T013-S2",
+    "train_half": 0,
+    "P00_state": "brightness_dark",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "brightness_dark",
+      "gaussian_noise"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 8.663755902759619e-17,
+    "true_utilities": [
+      "0",
+      "1/630",
+      "0",
+      "1/630",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "clean",
+    "salt": "T013-S1",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 4.438903510504492e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "clean",
+    "salt": "T013-S2",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 3.616527600113075e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "clean",
+    "salt": "T013-S3",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 4.3334140447978467e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "brightness_dark",
+    "salt": "T013-S0",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 2.460667618458235e-18,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "brightness_dark",
+    "salt": "T013-S0",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.184237892933496e-18,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "brightness_dark",
+    "salt": "T013-S1",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.3010250151448107e-18,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "brightness_dark",
+    "salt": "T013-S1",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 2.342668372706242e-18,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "brightness_dark",
+    "salt": "T013-S2",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.6004730538856597e-18,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "brightness_dark",
+    "salt": "T013-S2",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 2.042943298890959e-18,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "brightness_dark",
+    "salt": "T013-S3",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.1288739861352126e-18,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "brightness_dark",
+    "salt": "T013-S3",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 2.545676955202896e-18,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "contrast_low",
+    "salt": "T013-S0",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.8413524663667934e-16,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "contrast_low",
+    "salt": "T013-S0",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.8311800761431033e-16,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "contrast_low",
+    "salt": "T013-S1",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.9603575500792796e-16,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "contrast_low",
+    "salt": "T013-S1",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.7105050232872244e-16,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "contrast_low",
+    "salt": "T013-S2",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.9892366473165626e-16,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "contrast_low",
+    "salt": "T013-S2",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.6829559770238128e-16,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "contrast_low",
+    "salt": "T013-S3",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.8937004501817454e-16,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "contrast_low",
+    "salt": "T013-S3",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.7772389422577096e-16,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "salt": "T013-S0",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.0494498016483456e-16,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "salt": "T013-S0",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.021405182655144e-16,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "salt": "T013-S1",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.0234638743564357e-16,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "salt": "T013-S1",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.0475491442027687e-16,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "salt": "T013-S2",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.0525683003104014e-16,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "salt": "T013-S2",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.0181991910332318e-16,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "salt": "T013-S3",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 1.1043332473061902e-16,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "salt": "T013-S3",
+    "train_half": 1,
+    "P00_state": "clean",
+    "noise_free_state": "brightness_dark",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 9.656704965867134e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 81,
+    "bank": "A",
+    "context": "contrast_low",
+    "salt": "T013-S2",
+    "train_half": 1,
+    "P00_state": "brightness_dark",
+    "noise_free_state": "contrast_low",
+    "true_argmax": [
+      "brightness_dark",
+      "contrast_low"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 2.871957170151228e-17,
+    "true_utilities": [
+      "0",
+      "513/15080",
+      "513/15080",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "client": 93,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "salt": "T013-S2",
+    "train_half": 0,
+    "P00_state": "clean",
+    "noise_free_state": "gaussian_noise",
+    "true_argmax": [
+      "clean",
+      "brightness_dark",
+      "contrast_low",
+      "gaussian_noise",
+      "gaussian_blur"
+    ],
+    "noise_free_in_true_argmax": true,
+    "true_utility_regret": "0",
+    "perturbed_advantage": 8.252600737654915e-17,
+    "true_utilities": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  }
+]

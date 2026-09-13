@@ -215,3 +215,9 @@ T016 STOPPED AT PREFLIGHT
 2026-09-14T06:46:17+08:00. Lead2bad2a0; runtimee94adc67af83b553a3673aa4fb1971ec68caf4dc; run20260914-063758-ttfl-t016r-cachedexit0.71testsPASS;2000matrices,4000mixtures,32000choicesfrozen;0newforwards. CAL-SEM-A=False,CAL-SRC-A=False. Read results/t016_confusion_debiased_semantics/RESULTS.md. Preserve stopped2e51d81provenance. No nextstage; awaitLead.
 
 2026-09-14 07:36 +08 Lead3246221 synchronized. Start T017 with fixed protocol and historical/noise-free checks; prior T016R exit0 confirmed.
+
+2026-09-14 07:39 +08 T017 preflight launched run20260914-073926-ttfl-t017-preflight, runtime2f7b88b. Protocol/seeds saved before diagnostics; bootstrap contingent on exact P00 sanity.
+
+# T017 STOP — NOISE-FREE EXACT-P00 TIES
+
+2026-09-14T07:43:02+08:00. Lead3246221;runtime2f7b88b0bee6f3b587d42f21837f86a8356536b9;run20260914-073926-ttfl-t017-preflight;80testsPASS;historical replayPASS; inverseerror5.27e-15 but71/8000state changes all exactP00ties,zero trueutilityregret.25/40querycountrows change−.067to+.020pp. MandatoryexactP00invariantfails;bootstrap0. Read results/t017_channel_noise_decomposition/RESULTS.md. AwaitLead; no automaticretry or scientifictaxonomy.

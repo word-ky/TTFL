@@ -1,0 +1,32 @@
+{
+  "status": "STOP_NOISE_FREE_P00_INVARIANT",
+  "scientific_taxonomy": "NOT_EXECUTED",
+  "MATCHED_K20_EXPLAINS": "NOT_EXECUTED",
+  "MATCHED_K20_WOULD_PASS": "NOT_EXECUTED",
+  "SCALE_RECOVERABLE": "NOT_EXECUTED",
+  "full_tests_passed": 80,
+  "historical_replay_pass": true,
+  "emission_mean_max_error": 6.661338147750939e-16,
+  "noise_free_pi_max_error": 5.2735593669694936e-15,
+  "total_choices": 8000,
+  "changed_choices": 71,
+  "all_changed_choices_in_exact_true_argmax": true,
+  "all_changed_choices_true_template_regret_zero": true,
+  "unique_affected_clients": [
+    15,
+    21,
+    38,
+    40,
+    81,
+    93
+  ],
+  "changed_macroclass_rows": 25,
+  "macroclass_delta_range_pp": [
+    -0.06698010763471106,
+    0.020010237796081715
+  ],
+  "max_perturbed_utility_advantage": 2.223862092882574e-16,
+  "bootstrap_replicas_executed": 0,
+  "new_model_forwards": 0,
+  "diagnosis": "Float64 inverse recovers true prevalence to numerical precision; tiny residual masses split exact P00 utility ties. Selected-state identity/query-metric equality fails despite zero true-template regret. No sampling/mismatch conclusion."
+}

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-09-14T07:43:02+08:00",
+  "lead": "3246221",
+  "runtime": "2f7b88b0bee6f3b587d42f21837f86a8356536b9",
+  "run": "20260914-073926-ttfl-t017-preflight",
+  "status": "STOP_NOISE_FREE_P00_INVARIANT",
+  "raw": "research_log/t017_receipts/20260914-073926-ttfl-t017-preflight/artifacts/t017_channel_noise_decomposition",
+  "results": "results/t017_channel_noise_decomposition",
+  "next": "Await explicit Lead treatment of noise-free ties; no bootstrap"
+}

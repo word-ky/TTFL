@@ -1,0 +1,52 @@
+[
+  {
+    "path": "research_log/t017_receipts/20260914-073926-ttfl-t017-preflight/artifacts/t017_channel_noise_decomposition/historical_replay.json",
+    "bytes": 8956,
+    "sha256": "ea155761933b6cd36be3d2fe3c27b666f6573a25d75a6a446f1638c67c006b8a"
+  },
+  {
+    "path": "research_log/t017_receipts/20260914-073926-ttfl-t017-preflight/artifacts/t017_channel_noise_decomposition/matched_emission_receipt.json",
+    "bytes": 1109004,
+    "sha256": "37ba57c0c3141aa81f6d3a84a7dc86987d79bb7f0eb441354b3899b30194911c"
+  },
+  {
+    "path": "research_log/t017_receipts/20260914-073926-ttfl-t017-preflight/artifacts/t017_channel_noise_decomposition/metadata.json",
+    "bytes": 165,
+    "sha256": "5602a5977960ab5097854b14baff382d424984761def79517ecd55a6aa719f33"
+  },
+  {
+    "path": "research_log/t017_receipts/20260914-073926-ttfl-t017-preflight/artifacts/t017_channel_noise_decomposition/noise_free_choice_mismatches.json.gz",
+    "bytes": 6168,
+    "sha256": "a9bbddf23c03e7eb5660ed649cc483639ee6b43aa1c640a39bb11d8fa7a035f2"
+  },
+  {
+    "path": "research_log/t017_receipts/20260914-073926-ttfl-t017-preflight/artifacts/t017_channel_noise_decomposition/noise_free_inverse.csv",
+    "bytes": 62878,
+    "sha256": "6538c7f444ef2967adee642817fab9c77452c1a6e20970848c892f1752868f62"
+  },
+  {
+    "path": "research_log/t017_receipts/20260914-073926-ttfl-t017-preflight/artifacts/t017_channel_noise_decomposition/noise_free_replay.json",
+    "bytes": 11972,
+    "sha256": "872fcb4c637adb6e1e52f6be69716f730b492c143209508389cc8003d276f28a"
+  },
+  {
+    "path": "research_log/t017_receipts/20260914-073926-ttfl-t017-preflight/artifacts/t017_channel_noise_decomposition/protocol_freeze.json",
+    "bytes": 1091,
+    "sha256": "5d59286d0f85025c2298b51eaa1b96e297dc9f704547da11163c747d607b81fe"
+  },
+  {
+    "path": "research_log/t017_receipts/20260914-073926-ttfl-t017-preflight/artifacts/t017_channel_noise_decomposition/tie_diagnosis.json",
+    "bytes": 32052,
+    "sha256": "ec99c8915f1d460076ebbebc30d7397ab2b161daf77bc87a5901167bb2365553"
+  },
+  {
+    "path": "research_log/t017_receipts/20260914-073926-ttfl-t017-preflight/artifacts/t017_channel_noise_decomposition/verification.json",
+    "bytes": 13709,
+    "sha256": "637b218a03d8e339ee47c5a6317e8b791603bc15af1a4cd8bf50081767ff82e7"
+  },
+  {
+    "path": "research_log/t017_receipts/20260914-073926-ttfl-t017-preflight/train.log",
+    "bytes": 16522,
+    "sha256": "ae9386ed2fb67f74395d5516ef280032ffaa7b7fe98a5ff0a9bd6cde6b965f86"
+  }
+]

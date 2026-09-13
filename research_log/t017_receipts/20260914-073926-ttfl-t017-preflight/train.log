@@ -1,0 +1,99 @@
+[autodl] run_id=20260914-073926-ttfl-t017-preflight
+[autodl] started_at=2026-09-14T07:39:31+08:00
+test_bn_only_moments (test_affine.AffineTest.test_bn_only_moments) ... ok
+test_neutral_logits (test_affine.AffineTest.test_neutral_logits) ... ok
+test_only_fast_state_and_reset (test_affine.AffineTest.test_only_fast_state_and_reset) ... ok
+test_same_checkpoint_all_methods (test_affine.AffineTest.test_same_checkpoint_all_methods) ... ok
+test_fixed_selectors (test_amplitude_ray.AmplitudeRayTest.test_fixed_selectors) ... ok
+test_scaling_endpoints_and_immutability (test_amplitude_ray.AmplitudeRayTest.test_scaling_endpoints_and_immutability) ... ok
+test_disjoint_balanced_spread_order_independent (test_balanced_pool.BalancedPoolTest.test_disjoint_balanced_spread_order_independent) ... ok
+test_exact_semantic_controls (test_balanced_pool.BalancedPoolTest.test_exact_semantic_controls) ... ok
+test_train_checkpoint_and_metrics (test_baseline.BaselineTest.test_train_checkpoint_and_metrics) ... ok
+test_clean_controls_and_no_eval_api (test_class_factorization.ClassFactorizationTest.test_clean_controls_and_no_eval_api) ... ok
+test_leave_one_out_changes (test_class_factorization.ClassFactorizationTest.test_leave_one_out_changes) ... ok
+test_zero_denominator_observed_contract (test_class_factorization.ClassFactorizationTest.test_zero_denominator_observed_contract) ... ok
+test_known_confusion_recovery (test_confusion_prevalence.ConfusionPrevalenceTest.test_known_confusion_recovery) ... ok
+test_raw_logits_baseline (test_confusion_prevalence.ConfusionPrevalenceTest.test_raw_logits_baseline) ... ok
+test_simplex (test_confusion_prevalence.ConfusionPrevalenceTest.test_simplex) ... ok
+test_soft_channel_and_label_isolation (test_confusion_prevalence.ConfusionPrevalenceTest.test_soft_channel_and_label_isolation) ... ok
+test_source_branch_no_hidden_context (test_confusion_prevalence.ConfusionPrevalenceTest.test_source_branch_no_hidden_context) ... ok
+test_target_exclusion_and_exact_columns (test_confusion_prevalence.ConfusionPrevalenceTest.test_target_exclusion_and_exact_columns) ... ok
+test_deterministic_by_sample_not_order_and_no_mutation (test_covariate.CovariateTest.test_deterministic_by_sample_not_order_and_no_mutation) ... ok
+test_formulas_and_identity (test_covariate.CovariateTest.test_formulas_and_identity) ... ok
+test_weighted_gate_and_paired_summary (test_covariate.CovariateTest.test_weighted_gate_and_paired_summary) ... ok
+test_balanced_and_disjoint (test_data.DataTest.test_balanced_and_disjoint) ... ok
+test_preprocess (test_data.DataTest.test_preprocess) ... ok
+test_equal_client_leave_one_out_and_ties (test_disjoint_factorization.DisjointFactorizationTest.test_equal_client_leave_one_out_and_ties) ... ok
+test_label_blind_partition (test_disjoint_factorization.DisjointFactorizationTest.test_label_blind_partition) ... ok
+test_aggregate_tables_exact (test_historical_replay.HistoricalReplayTest.test_aggregate_tables_exact) ... ok
+test_identical_rows (test_historical_replay.HistoricalReplayTest.test_identical_rows) ... ok
+test_large_JS_fails (test_historical_replay.HistoricalReplayTest.test_large_JS_fails) ... ok
+test_non_JS_numeric_string_fails (test_historical_replay.HistoricalReplayTest.test_non_JS_numeric_string_fails) ... ok
+test_nonfinite_JS_fails (test_historical_replay.HistoricalReplayTest.test_nonfinite_JS_fails) ... ok
+test_order_and_identifiers_fail (test_historical_replay.HistoricalReplayTest.test_order_and_identifiers_fail) ... ok
+test_roundoff_JS_only (test_historical_replay.HistoricalReplayTest.test_roundoff_JS_only) ... ok
+test_schema_and_row_count_exact (test_historical_replay.HistoricalReplayTest.test_schema_and_row_count_exact) ... ok
+test_retrieval_both_bounds_and_nonpositive_gain (test_identification_gates.IdentificationGateTest.test_retrieval_both_bounds_and_nonpositive_gain) ... ok
+test_total_and_per_context (test_identification_gates.IdentificationGateTest.test_total_and_per_context) ... ok
+test_average_and_simplex (test_matched_channel.MatchedChannelTest.test_average_and_simplex) ... ok
+test_composition_fixed (test_matched_channel.MatchedChannelTest.test_composition_fixed) ... ok
+test_exact_template_and_count_lookup (test_matched_channel.MatchedChannelTest.test_exact_template_and_count_lookup) ... ok
+test_mismatch_percentile (test_matched_channel.MatchedChannelTest.test_mismatch_percentile) ... ok
+test_no_model_or_artifact_mutation (test_matched_channel.MatchedChannelTest.test_no_model_or_artifact_mutation) ... ok
+test_noise_free_full_rank (test_matched_channel.MatchedChannelTest.test_noise_free_full_rank) ... ok
+test_pool_means (test_matched_channel.MatchedChannelTest.test_pool_means) ... ok
+test_seeded_bootstrap (test_matched_channel.MatchedChannelTest.test_seeded_bootstrap) ... ok
+test_target_pool_exclusion (test_matched_channel.MatchedChannelTest.test_target_pool_exclusion) ... ok
+test_clamp_and_constant_variance (test_moments.MomentsTest.test_clamp_and_constant_variance) ... ok
+test_reference_stream_matches_direct (test_moments.MomentsTest.test_reference_stream_matches_direct) ... ok
+test_sequential_formula_frozen_no_labels_or_optimizer (test_moments.MomentsTest.test_sequential_formula_frozen_no_labels_or_optimizer) ... ok
+test_clean_half_point (test_natural_gates.NaturalGateTest.test_clean_half_point) ... ok
+test_total_and_context_floor (test_natural_gates.NaturalGateTest.test_total_and_context_floor) ... ok
+test_common_prefix_and_unavailable_size (test_natural_support.NaturalSupportTest.test_common_prefix_and_unavailable_size) ... ok
+test_common_size_exclusions_and_determinism (test_natural_support.NaturalSupportTest.test_common_size_exclusions_and_determinism) ... ok
+test_exact_identity_three_variances (test_neutral_oracle.NeutralOracleTest.test_exact_identity_three_variances) ... ok
+test_known_residual_and_cap (test_neutral_oracle.NeutralOracleTest.test_known_residual_and_cap) ... ok
+test_model_identity_and_sequential_contract (test_neutral_oracle.NeutralOracleTest.test_model_identity_and_sequential_contract) ... ok
+test_identity_formula_and_constant (test_paired_oracle.PairedOracleTest.test_identity_formula_and_constant) ... ok
+test_known_affine_and_cap (test_paired_oracle.PairedOracleTest.test_known_affine_and_cap) ... ok
+test_sequential_frozen_api (test_paired_oracle.PairedOracleTest.test_sequential_frozen_api) ... ok
+test_derangement_deterministic_label_free (test_pairing.PairingTest.test_derangement_deterministic_label_free) ... ok
+test_target_multiset_both_layers_preserved (test_pairing.PairingTest.test_target_multiset_both_layers_preserved) ... ok
+test_four_shapes_neutral_frozen_and_classes (test_pfllib_operator.PFLModelTest.test_four_shapes_neutral_frozen_and_classes) ... ok
+test_support_only_high_numbered_classes (test_pfllib_operator.PFLModelTest.test_support_only_high_numbered_classes) ... ok
+test_admissibility_and_fixed_tie (test_prediction_consistency.PredictionConsistencyTest.test_admissibility_and_fixed_tie) ... ok
+test_js_known_values (test_prediction_consistency.PredictionConsistencyTest.test_js_known_values) ... ok
+test_zero_determinism_immutability (test_prediction_consistency.PredictionConsistencyTest.test_zero_determinism_immutability) ... ok
+test_choice_no_labels_and_exact_ties (test_semantic_mixture.SemanticMixtureTest.test_choice_no_labels_and_exact_ties) ... ok
+test_clean_zero_and_determinism (test_semantic_mixture.SemanticMixtureTest.test_clean_zero_and_determinism) ... ok
+test_normalization_branch_isolation (test_semantic_mixture.SemanticMixtureTest.test_normalization_branch_isolation) ... ok
+test_privileged_phase_requires_frozen_choices (test_semantic_mixture.SemanticMixtureTest.test_privileged_phase_requires_frozen_choices) ... ok
+test_extrema_ties_and_target_histogram (test_semantic_pairing.SemanticPairingTest.test_extrema_ties_and_target_histogram) ... ok
+test_random_distinct_deterministic_label_independent (test_semantic_pairing.SemanticPairingTest.test_random_distinct_deterministic_label_independent) ... ok
+test_correlation_constant_and_centered_example (test_semantic_summary.SemanticSummaryTest.test_correlation_constant_and_centered_example) ... ok
+test_tau_and_strict_marginal_bounds (test_semantic_summary.SemanticSummaryTest.test_tau_and_strict_marginal_bounds) ... ok
+test_exact_bank_reference_zero_and_heldout_formula (test_source_signature.SourceSignatureTest.test_exact_bank_reference_zero_and_heldout_formula) ... ok
+test_microbatch_partition_exact_and_ordered (test_source_signature.SourceSignatureTest.test_microbatch_partition_exact_and_ordered) ... ok
+test_squared_distance_margin_and_tie_order (test_source_signature.SourceSignatureTest.test_squared_distance_margin_and_tie_order) ... ok
+test_sequential_path_and_immutability (test_state_consistency.StateConsistencyTest.test_sequential_path_and_immutability) ... ok
+test_zero_first_tie_order (test_state_consistency.StateConsistencyTest.test_zero_first_tie_order) ... ok
+test_zero_signature_and_score_exact (test_state_consistency.StateConsistencyTest.test_zero_signature_and_score_exact) ... ok
+test_nonpositive_headroom_and_half_point_floor (test_transfer_gate.TransferGateTest.test_nonpositive_headroom_and_half_point_floor) ... ok
+test_recovery_and_both_context_margins (test_transfer_gate.TransferGateTest.test_recovery_and_both_context_margins) ... ok
+
+----------------------------------------------------------------------
+Ran 80 tests in 1.132s
+
+OK
+T017_HISTORY_PASS
+T017_PREFLIGHT_RESULT {"max_pi_error": 5.2735593669694936e-15, "episodes": 1000, "choices": 8000, "choice_mismatches": 71, "metric_mismatches": [{"salt": "T013-S0", "bank": "A", "context": "brightness_dark", "macroclass_delta_pp": 0.013378938061333705, "class_correct": [204, 1322, 1206, 328, 1, 70, 1075, 211, 929, 0], "P00_class_correct": [204, 1322, 1206, 327, 1, 70, 1075, 210, 929, 0]}, {"salt": "T013-S0", "bank": "A", "context": "gaussian_noise", "macroclass_delta_pp": 0.006747638326585695, "class_correct": [248, 1327, 638, 173, 3, 791, 1143, 327, 1002, 0], "P00_class_correct": [248, 1327, 638, 172, 3, 791, 1143, 327, 1002, 0]}, {"salt": "T013-S0", "bank": "A", "context": "gaussian_blur", "macroclass_delta_pp": 0.01989389920424403, "class_correct": [303, 1257, 849, 235, 45, 797, 1132, 377, 1029, 11], "P00_class_correct": [303, 1257, 849, 235, 45, 797, 1132, 377, 1029, 8]}, {"salt": "T013-S0", "bank": "B", "context": "brightness_dark", "macroclass_delta_pp": 0.013378938061333705, "class_correct": [210, 1333, 1180, 280, 1, 74, 1067, 221, 947, 0], "P00_class_correct": [210, 1333, 1180, 279, 1, 74, 1067, 220, 947, 0]}, {"salt": "T013-S0", "bank": "B", "context": "contrast_low", "macroclass_delta_pp": 0.006666666666666667, "class_correct": [215, 997, 909, 108, 52, 605, 1195, 37, 913, 0], "P00_class_correct": [215, 997, 909, 108, 52, 604, 1195, 37, 913, 0]}, {"salt": "T013-S0", "bank": "B", "context": "gaussian_noise", "macroclass_delta_pp": 0.006631299734748011, "class_correct": [234, 1327, 623, 176, 3, 820, 1141, 336, 1000, 0], "P00_class_correct": [234, 1327, 623, 176, 3, 820, 1141, 335, 1000, 0]}, {"salt": "T013-S1", "bank": "A", "context": "brightness_dark", "macroclass_delta_pp": 0.013378938061333705, "class_correct": [205, 1328, 1208, 320, 2, 70, 1075, 208, 929, 0], "P00_class_correct": [205, 1328, 1208, 319, 2, 70, 1075, 207, 929, 0]}, {"salt": "T013-S1", "bank": "A", "context": "gaussian_noise", "macroclass_delta_pp": 0.006747638326585695, "class_correct": [249, 1331, 637, 173, 3, 792, 1151, 322, 999, 0], "P00_class_correct": [249, 1331, 637, 172, 3, 792, 1151, 322, 999, 0]}, {"salt": "T013-S1", "bank": "A", "context": "gaussian_blur", "macroclass_delta_pp": -0.06698010763471106, "class_correct": [308, 1264, 849, 234, 40, 797, 1132, 372, 1019, 8], "P00_class_correct": [308, 1264, 849, 235, 47, 797, 1132, 372, 1021, 8]}, {"salt": "T013-S1", "bank": "B", "context": "brightness_dark", "macroclass_delta_pp": 0.013378938061333705, "class_correct": [211, 1340, 1180, 280, 3, 74, 1067, 221, 943, 0], "P00_class_correct": [211, 1340, 1180, 279, 3, 74, 1067, 220, 943, 0]}, {"salt": "T013-S1", "bank": "B", "context": "contrast_low", "macroclass_delta_pp": 0.006666666666666667, "class_correct": [215, 998, 932, 107, 56, 561, 1192, 28, 913, 0], "P00_class_correct": [215, 998, 932, 107, 56, 560, 1192, 28, 913, 0]}, {"salt": "T013-S1", "bank": "B", "context": "gaussian_noise", "macroclass_delta_pp": 0.006631299734748011, "class_correct": [235, 1332, 625, 174, 3, 822, 1140, 331, 998, 0], "P00_class_correct": [235, 1332, 625, 174, 3, 822, 1140, 330, 998, 0]}, {"salt": "T013-S2", "bank": "A", "context": "brightness_dark", "macroclass_delta_pp": 0.013378938061333705, "class_correct": [205, 1326, 1207, 325, 2, 70, 1075, 208, 928, 0], "P00_class_correct": [205, 1326, 1207, 324, 2, 70, 1075, 207, 928, 0]}, {"salt": "T013-S2", "bank": "A", "context": "contrast_low", "macroclass_delta_pp": -0.006631299734748011, "class_correct": [233, 943, 966, 127, 47, 561, 1195, 34, 953, 0], "P00_class_correct": [233, 943, 966, 127, 47, 561, 1195, 35, 953, 0]}, {"salt": "T013-S2", "bank": "A", "context": "gaussian_noise", "macroclass_delta_pp": 0.013378938061333705, "class_correct": [248, 1326, 637, 165, 3, 792, 1149, 328, 1004, 0], "P00_class_correct": [248, 1326, 637, 164, 3, 792, 1149, 327, 1004, 0]}, {"salt": "T013-S2", "bank": "A", "context": "gaussian_blur", "macroclass_delta_pp": 0.020010237796081715, "class_correct": [300, 1259, 849, 230, 44, 797, 1132, 375, 1028, 10], "P00_class_correct": [300, 1259, 849, 229, 44, 797, 1132, 375, 1028, 8]}, {"salt": "T013-S2", "bank": "B", "context": "brightness_dark", "macroclass_delta_pp": 0.013378938061333705, "class_correct": [211, 1344, 1180, 281, 2, 74, 1067, 221, 946, 0], "P00_class_correct": [211, 1344, 1180, 280, 2, 74, 1067, 220, 946, 0]}, {"salt": "T013-S2", "bank": "B", "context": "contrast_low", "macroclass_delta_pp": 0.006666666666666667, "class_correct": [212, 997, 936, 110, 55, 573, 1188, 35, 913, 0], "P00_class_correct": [212, 997, 936, 110, 55, 572, 1188, 35, 913, 0]}, {"salt": "T013-S2", "bank": "B", "context": "gaussian_noise", "macroclass_delta_pp": 0.013134948661248836, "class_correct": [239, 1328, 627, 174, 3, 814, 1140, 336, 1002, 0], "P00_class_correct": [237, 1329, 627, 174, 3, 814, 1140, 335, 1002, 0]}, {"salt": "T013-S3", "bank": "A", "context": "brightness_dark", "macroclass_delta_pp": 0.013378938061333705, "class_correct": [204, 1327, 1201, 325, 1, 70, 1075, 216, 928, 0], "P00_class_correct": [204, 1327, 1201, 324, 1, 70, 1075, 215, 928, 0]}, {"salt": "T013-S3", "bank": "A", "context": "gaussian_noise", "macroclass_delta_pp": 0.006747638326585695, "class_correct": [249, 1328, 638, 174, 3, 792, 1145, 327, 998, 0], "P00_class_correct": [249, 1328, 638, 173, 3, 792, 1145, 327, 998, 0]}, {"salt": "T013-S3", "bank": "A", "context": "gaussian_blur", "macroclass_delta_pp": -0.013404825737265416, "class_correct": [303, 1256, 848, 233, 45, 797, 1135, 369, 1027, 8], "P00_class_correct": [303, 1256, 848, 233, 47, 797, 1135, 369, 1027, 8]}, {"salt": "T013-S3", "bank": "B", "context": "brightness_dark", "macroclass_delta_pp": 0.013378938061333705, "class_correct": [210, 1336, 1180, 280, 1, 74, 1067, 221, 947, 0], "P00_class_correct": [210, 1336, 1180, 279, 1, 74, 1067, 220, 947, 0]}, {"salt": "T013-S3", "bank": "B", "context": "contrast_low", "macroclass_delta_pp": 0.006666666666666667, "class_correct": [215, 997, 898, 112, 54, 615, 1201, 35, 913, 0], "P00_class_correct": [215, 997, 898, 112, 54, 614, 1201, 35, 913, 0]}, {"salt": "T013-S3", "bank": "B", "context": "gaussian_noise", "macroclass_delta_pp": 0.006631299734748011, "class_correct": [234, 1330, 624, 177, 3, 821, 1137, 336, 1000, 0], "P00_class_correct": [234, 1330, 624, 177, 3, 821, 1137, 335, 1000, 0]}], "noise_free_inverse_within_existing_1e8_tolerance": true, "exact_P00_choices": false, "exact_P00_metrics": false}
+Traceback (most recent call last):
+  File "/home/wenchang/asdasdsad/wjq/TTFL/releases/20260914-073913-ttfl-t017-preflight/scripts/preflight_t017.py", line 124, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/wenchang/asdasdsad/wjq/TTFL/releases/20260914-073913-ttfl-t017-preflight/scripts/preflight_t017.py", line 121, in main
+    assert status=='PREFLIGHT_PASS','Mandatory noise-free/P00 invariant failed; stop before bootstrap'
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Mandatory noise-free/P00 invariant failed; stop before bootstrap
+[autodl] finished_at=2026-09-14T07:39:46+08:00
+[autodl] exit_code=1
