@@ -1,0 +1,235 @@
+[autodl] run_id=20260913-153752-ttfl-t003-gpu0
+[autodl] started_at=2026-09-13T15:37:57+08:00
+test_bn_only_moments (test_affine.AffineTest.test_bn_only_moments) ... ok
+test_neutral_logits (test_affine.AffineTest.test_neutral_logits) ... ok
+test_only_fast_state_and_reset (test_affine.AffineTest.test_only_fast_state_and_reset) ... ok
+test_same_checkpoint_all_methods (test_affine.AffineTest.test_same_checkpoint_all_methods) ... ok
+test_train_checkpoint_and_metrics (test_baseline.BaselineTest.test_train_checkpoint_and_metrics) ... ok
+test_deterministic_by_sample_not_order_and_no_mutation (test_covariate.CovariateTest.test_deterministic_by_sample_not_order_and_no_mutation) ... ok
+test_formulas_and_identity (test_covariate.CovariateTest.test_formulas_and_identity) ... ok
+test_weighted_gate_and_paired_summary (test_covariate.CovariateTest.test_weighted_gate_and_paired_summary) ... ok
+test_balanced_and_disjoint (test_data.DataTest.test_balanced_and_disjoint) ... ok
+test_preprocess (test_data.DataTest.test_preprocess) ... ok
+test_clamp_and_constant_variance (test_moments.MomentsTest.test_clamp_and_constant_variance) ... ok
+test_reference_stream_matches_direct (test_moments.MomentsTest.test_reference_stream_matches_direct) ... ok
+test_sequential_formula_frozen_no_labels_or_optimizer (test_moments.MomentsTest.test_sequential_formula_frozen_no_labels_or_optimizer) ... ok
+test_four_shapes_neutral_frozen_and_classes (test_pfllib_operator.PFLModelTest.test_four_shapes_neutral_frozen_and_classes) ... ok
+test_support_only_high_numbered_classes (test_pfllib_operator.PFLModelTest.test_support_only_high_numbered_classes) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.793s
+
+OK
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+REFERENCE_CLIENT_DONE 0
+REFERENCE_CLIENT_DONE 1
+REFERENCE_CLIENT_DONE 2
+REFERENCE_CLIENT_DONE 3
+REFERENCE_CLIENT_DONE 4
+REFERENCE_CLIENT_DONE 5
+REFERENCE_CLIENT_DONE 6
+REFERENCE_CLIENT_DONE 7
+REFERENCE_CLIENT_DONE 8
+REFERENCE_CLIENT_DONE 9
+REFERENCE_CLIENT_DONE 10
+REFERENCE_CLIENT_DONE 11
+REFERENCE_CLIENT_DONE 12
+REFERENCE_CLIENT_DONE 13
+REFERENCE_CLIENT_DONE 14
+REFERENCE_CLIENT_DONE 15
+REFERENCE_CLIENT_DONE 16
+REFERENCE_CLIENT_DONE 17
+REFERENCE_CLIENT_DONE 18
+REFERENCE_CLIENT_DONE 19
+REFERENCE_CLIENT_DONE 20
+REFERENCE_CLIENT_DONE 21
+REFERENCE_CLIENT_DONE 22
+REFERENCE_CLIENT_DONE 23
+REFERENCE_CLIENT_DONE 24
+REFERENCE_CLIENT_DONE 25
+REFERENCE_CLIENT_DONE 26
+REFERENCE_CLIENT_DONE 27
+REFERENCE_CLIENT_DONE 28
+REFERENCE_CLIENT_DONE 29
+REFERENCE_CLIENT_DONE 30
+REFERENCE_CLIENT_DONE 31
+REFERENCE_CLIENT_DONE 32
+REFERENCE_CLIENT_DONE 33
+REFERENCE_CLIENT_DONE 34
+REFERENCE_CLIENT_DONE 35
+REFERENCE_CLIENT_DONE 36
+REFERENCE_CLIENT_DONE 37
+REFERENCE_CLIENT_DONE 38
+REFERENCE_CLIENT_DONE 39
+REFERENCE_CLIENT_DONE 40
+REFERENCE_CLIENT_DONE 41
+REFERENCE_CLIENT_DONE 42
+REFERENCE_CLIENT_DONE 43
+REFERENCE_CLIENT_DONE 44
+REFERENCE_CLIENT_DONE 45
+REFERENCE_CLIENT_DONE 46
+REFERENCE_CLIENT_DONE 47
+REFERENCE_CLIENT_DONE 48
+REFERENCE_CLIENT_DONE 49
+REFERENCE_CLIENT_DONE 50
+REFERENCE_CLIENT_DONE 51
+REFERENCE_CLIENT_DONE 52
+REFERENCE_CLIENT_DONE 53
+REFERENCE_CLIENT_DONE 54
+REFERENCE_CLIENT_DONE 55
+REFERENCE_CLIENT_DONE 56
+REFERENCE_CLIENT_DONE 57
+REFERENCE_CLIENT_DONE 58
+REFERENCE_CLIENT_DONE 59
+REFERENCE_CLIENT_DONE 60
+REFERENCE_CLIENT_DONE 61
+REFERENCE_CLIENT_DONE 62
+REFERENCE_CLIENT_DONE 63
+REFERENCE_CLIENT_DONE 64
+REFERENCE_CLIENT_DONE 65
+REFERENCE_CLIENT_DONE 66
+REFERENCE_CLIENT_DONE 67
+REFERENCE_CLIENT_DONE 68
+REFERENCE_CLIENT_DONE 69
+REFERENCE_CLIENT_DONE 70
+REFERENCE_CLIENT_DONE 71
+REFERENCE_CLIENT_DONE 72
+REFERENCE_CLIENT_DONE 73
+REFERENCE_CLIENT_DONE 74
+REFERENCE_CLIENT_DONE 75
+REFERENCE_CLIENT_DONE 76
+REFERENCE_CLIENT_DONE 77
+REFERENCE_CLIENT_DONE 78
+REFERENCE_CLIENT_DONE 79
+REFERENCE_CLIENT_DONE 80
+REFERENCE_CLIENT_DONE 81
+REFERENCE_CLIENT_DONE 82
+REFERENCE_CLIENT_DONE 83
+REFERENCE_CLIENT_DONE 84
+REFERENCE_CLIENT_DONE 85
+REFERENCE_CLIENT_DONE 86
+REFERENCE_CLIENT_DONE 87
+REFERENCE_CLIENT_DONE 88
+REFERENCE_CLIENT_DONE 89
+REFERENCE_CLIENT_DONE 90
+REFERENCE_CLIENT_DONE 91
+REFERENCE_CLIENT_DONE 92
+REFERENCE_CLIENT_DONE 93
+REFERENCE_CLIENT_DONE 94
+REFERENCE_CLIENT_DONE 95
+REFERENCE_CLIENT_DONE 96
+REFERENCE_CLIENT_DONE 97
+REFERENCE_CLIENT_DONE 98
+REFERENCE_CLIENT_DONE 99
+REFERENCE_DONE 44961 bc46da4b4e958880df3ee440e466d27b5ee35ce0523ad8577f94c0aed7788acb
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+T003_CLIENT_DONE 0
+T003_CLIENT_DONE 1
+T003_DONE {"passed": 2, "specificity": [{"target": "brightness_dark", "correct_gain_pp": 23.104694082203327, "correct_minus_wrong_clean_pp": 22.382672507961413, "correct_minus_wrong_alt_pp": 25.631769804707613, "correct_minus_noise_pp": 26.353791498642966, "passed": true, "wrong_clean_paired": {"mean": 21.45046046935022, "median": 21.45046046935022, "fraction_positive": 1.0, "p10": 18.835546700283885, "p25": 19.81613936368376, "p75": 23.084781575016677, "p90": 24.065374238416553}, "wrong_alt_paired": {"mean": 23.978550219908357, "median": 23.978550219908357, "fraction_positive": 1.0, "p10": 19.341164650395513, "p25": 21.08018423896283, "p75": 26.876916200853884, "p90": 28.6159357894212}}, {"target": "contrast_low", "correct_gain_pp": 10.830325082226889, "correct_minus_wrong_clean_pp": 10.469314252238195, "correct_minus_wrong_alt_pp": 6.498194749497335, "correct_minus_noise_pp": 10.469314082112124, "passed": true, "wrong_clean_paired": {"mean": 9.490977320820093, "median": 9.490977320820093, "fraction_positive": 1.0, "p10": 6.746680308133364, "p25": 7.775791687890887, "p75": 11.206162953749299, "p90": 12.235274333506823}, "wrong_alt_paired": {"mean": 6.176937744021416, "median": 6.176937744021416, "fraction_positive": 1.0, "p10": 5.275791510939598, "p25": 5.61372134834528, "p75": 6.740154139697552, "p90": 7.078083977103233}}, {"target": "gaussian_noise", "correct_gain_pp": -1.4440427914208023, "correct_minus_wrong_clean_pp": -0.36101055866113896, "correct_minus_wrong_alt_pp": -13.357401381008028, "correct_minus_noise_pp": -12.635378940333528, "passed": false, "wrong_clean_paired": {"mean": -0.05674697458744049, "median": -0.05674697458744049, "fraction_positive": 0.5, "p10": -0.910225585103035, "p25": -0.590171106159687, "p75": 0.47667715698480606, "p90": 0.796731635928154}, "wrong_alt_paired": {"mean": -14.652140066027641, "median": -14.652140066027641, "fraction_positive": 0.0, "p10": -18.28396402299404, "p25": -16.92203003913164, "p75": -12.382250092923641, "p90": -11.020316109061241}}, {"target": "gaussian_blur", "correct_gain_pp": 3.9711185821772474, "correct_minus_wrong_clean_pp": 5.7761732367832295, "correct_minus_wrong_alt_pp": -1.4440431868126247, "correct_minus_noise_pp": -2.88808853079696, "passed": false, "wrong_clean_paired": {"mean": 4.94268536567688, "median": 4.94268536567688, "fraction_positive": 1.0, "p10": 2.60469913482666, "p25": 3.4814439713954926, "p75": 6.403926759958267, "p90": 7.2806715965271}, "wrong_alt_paired": {"mean": -2.0202018320560455, "median": -2.0202018320560455, "fraction_positive": 0.0, "p10": -3.636363297700882, "p25": -3.0303027480840683, "p75": -1.0101009160280228, "p90": -0.404040366411209}}], "clean_sanity": {"before": 25.631769587847298, "after": 22.74368217060282, "delta": -2.888087417244481}}
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+T003_CLIENT_DONE 0
+T003_CLIENT_DONE 1
+T003_CLIENT_DONE 2
+T003_CLIENT_DONE 3
+T003_CLIENT_DONE 4
+T003_CLIENT_DONE 5
+T003_CLIENT_DONE 6
+T003_CLIENT_DONE 7
+T003_CLIENT_DONE 8
+T003_CLIENT_DONE 9
+T003_CLIENT_DONE 10
+T003_CLIENT_DONE 11
+T003_CLIENT_DONE 12
+T003_CLIENT_DONE 13
+T003_CLIENT_DONE 14
+T003_CLIENT_DONE 15
+T003_CLIENT_DONE 16
+T003_CLIENT_DONE 17
+T003_CLIENT_DONE 18
+T003_CLIENT_DONE 19
+T003_CLIENT_DONE 20
+T003_CLIENT_DONE 21
+T003_CLIENT_DONE 22
+T003_CLIENT_DONE 23
+T003_CLIENT_DONE 24
+T003_CLIENT_DONE 25
+T003_CLIENT_DONE 26
+T003_CLIENT_DONE 27
+T003_CLIENT_DONE 28
+T003_CLIENT_DONE 29
+T003_CLIENT_DONE 30
+T003_CLIENT_DONE 31
+T003_CLIENT_DONE 32
+T003_CLIENT_DONE 33
+T003_CLIENT_DONE 34
+T003_CLIENT_DONE 35
+T003_CLIENT_DONE 36
+T003_CLIENT_DONE 37
+T003_CLIENT_DONE 38
+T003_CLIENT_DONE 39
+T003_CLIENT_DONE 40
+T003_CLIENT_DONE 41
+T003_CLIENT_DONE 42
+T003_CLIENT_DONE 43
+T003_CLIENT_DONE 44
+T003_CLIENT_DONE 45
+T003_CLIENT_DONE 46
+T003_CLIENT_DONE 47
+T003_CLIENT_DONE 48
+T003_CLIENT_DONE 49
+T003_CLIENT_DONE 50
+T003_CLIENT_DONE 51
+T003_CLIENT_DONE 52
+T003_CLIENT_DONE 53
+T003_CLIENT_DONE 54
+T003_CLIENT_DONE 55
+T003_CLIENT_DONE 56
+T003_CLIENT_DONE 57
+T003_CLIENT_DONE 58
+T003_CLIENT_DONE 59
+T003_CLIENT_DONE 60
+T003_CLIENT_DONE 61
+T003_CLIENT_DONE 62
+T003_CLIENT_DONE 63
+T003_CLIENT_DONE 64
+T003_CLIENT_DONE 65
+T003_CLIENT_DONE 66
+T003_CLIENT_DONE 67
+T003_CLIENT_DONE 68
+T003_CLIENT_DONE 69
+T003_CLIENT_DONE 70
+T003_CLIENT_DONE 71
+T003_CLIENT_DONE 72
+T003_CLIENT_DONE 73
+T003_CLIENT_DONE 74
+T003_CLIENT_DONE 75
+T003_CLIENT_DONE 76
+T003_CLIENT_DONE 77
+T003_CLIENT_DONE 78
+T003_CLIENT_DONE 79
+T003_CLIENT_DONE 80
+T003_CLIENT_DONE 81
+T003_CLIENT_DONE 82
+T003_CLIENT_DONE 83
+T003_CLIENT_DONE 84
+T003_CLIENT_DONE 85
+T003_CLIENT_DONE 86
+T003_CLIENT_DONE 87
+T003_CLIENT_DONE 88
+T003_CLIENT_DONE 89
+T003_CLIENT_DONE 90
+T003_CLIENT_DONE 91
+T003_CLIENT_DONE 92
+T003_CLIENT_DONE 93
+T003_CLIENT_DONE 94
+T003_CLIENT_DONE 95
+T003_CLIENT_DONE 96
+T003_CLIENT_DONE 97
+T003_CLIENT_DONE 98
+T003_CLIENT_DONE 99
+T003_DONE {"passed": 1, "specificity": [{"target": "brightness_dark", "correct_gain_pp": 6.150675015413178, "correct_minus_wrong_clean_pp": 12.04202405825558, "correct_minus_wrong_alt_pp": 12.687013739262593, "correct_minus_noise_pp": 10.63900555436189, "passed": true, "wrong_clean_paired": {"mean": 10.50055639166385, "median": 9.789272025227547, "fraction_positive": 0.85, "p10": -9.547872245311735, "p25": 3.06052757659927, "p75": 22.60113898664713, "p90": 33.144805990159526}, "wrong_alt_paired": {"mean": 10.828879859764129, "median": 11.592892883345485, "fraction_positive": 0.84, "p10": -10.543603897094727, "p25": 2.777777938172221, "p75": 26.240718632470816, "p90": 36.151403710246086}}, {"target": "contrast_low", "correct_gain_pp": -0.7114833881137841, "correct_minus_wrong_clean_pp": 5.7783097442994045, "correct_minus_wrong_alt_pp": 4.175809599758033, "correct_minus_noise_pp": 3.843340857046851, "passed": false, "wrong_clean_paired": {"mean": 5.3579199821688235, "median": 3.827838972210884, "fraction_positive": 0.68, "p10": -9.89534929394722, "p25": 0.0, "p75": 12.441770359873772, "p90": 21.765079945325855}, "wrong_alt_paired": {"mean": 3.9600254530087113, "median": 3.180308360606432, "fraction_positive": 0.65, "p10": -9.428442120552063, "p25": 0.0, "p75": 8.533463813364506, "p90": 18.33214402198792}}, {"target": "gaussian_noise", "correct_gain_pp": -7.813019453838891, "correct_minus_wrong_clean_pp": 3.391182848133269, "correct_minus_wrong_alt_pp": -0.9841080176100263, "correct_minus_noise_pp": -13.870602847155045, "passed": false, "wrong_clean_paired": {"mean": 3.380391679238528, "median": 2.690945193171501, "fraction_positive": 0.7, "p10": -0.855533881112933, "p25": 0.0, "p75": 5.470587685704231, "p90": 9.836363866925241}, "wrong_alt_paired": {"mean": -1.2552839256823063, "median": -3.3385099843144417, "fraction_positive": 0.37, "p10": -17.334667444229126, "p25": -9.8451629281044, "p75": 5.366580933332443, "p90": 19.499999135732654}}, {"target": "gaussian_blur", "correct_gain_pp": -7.892812170502953, "correct_minus_wrong_clean_pp": 1.7620852349045002, "correct_minus_wrong_alt_pp": 2.0347097094249236, "correct_minus_noise_pp": -8.650841114070186, "passed": false, "wrong_clean_paired": {"mean": 1.2350390362553298, "median": 0.5342354997992516, "fraction_positive": 0.51, "p10": -6.291605830192566, "p25": -1.1105353012681007, "p75": 3.2366071827709675, "p90": 8.812643662095077}, "wrong_alt_paired": {"mean": 2.318684223573655, "median": 1.246408373117447, "fraction_positive": 0.53, "p10": -10.6855808198452, "p25": -1.9967536441981792, "p75": 9.026521816849709, "p90": 18.20574074983597}}], "clean_sanity": {"before": 34.21770074923788, "after": 24.13059388642146, "delta": -10.087106862816414}}
+[autodl] finished_at=2026-09-13T15:39:10+08:00
+[autodl] exit_code=0

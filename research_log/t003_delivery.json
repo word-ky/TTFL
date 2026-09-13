@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-09-13T15:46:06.2026404+08:00",
+  "status": "COMPLETE",
+  "case": "M-B",
+  "passed_corruptions": 1,
+  "required_corruptions": 2,
+  "runtime_commit": "7bc31ded5e2a0dc6ad7e20b7688240c34c24c366",
+  "run_id": "20260913-153752-ttfl-t003-gpu0",
+  "release_id": "20260913-153748-ttfl-t003",
+  "reference_samples": 44961,
+  "reference_sha256": "bc46da4b4e958880df3ee440e466d27b5ee35ce0523ad8577f94c0aed7788acb",
+  "clean_sanity_gain_pp": -10.087106862816414,
+  "heartbeat_id": "ttfl-chatgpt",
+  "heartbeat_minutes": 15,
+  "results": "results/t003_moment_context",
+  "raw": "research_log/t003_receipts/20260913-153752-ttfl-t003-gpu0",
+  "next_action": "Receive next explicit Lead task; do not rerun T003 or infer capacity-only failure."
+}

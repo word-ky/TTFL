@@ -1,0 +1,118 @@
+[
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\meta.json",
+    "sha256": "ea3d0082adc054b2d6c232947a89dc5f60032aa1a2647ff8c47257a14466e18f"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\run.sh",
+    "sha256": "9e0f72168bc6d46eeb1530384177ec5a34337b9d00ddec93fe595627a83fe57d"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\train.log",
+    "sha256": "40c7bef282b32b1b6e3d412368b5c3a2cf93a089364dbf3bbabaea3314be1f68"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_moment_context\\clean_sanity.csv",
+    "sha256": "70c8363a4b1f03940f0724e97d126cd6d0f0abef9fb11905709b18a89bbe1d9f"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_moment_context\\identities.json",
+    "sha256": "7fddba9cb107bf427044547c10b5dd620bb306cc84382bc6150587ebdb3e7952"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_moment_context\\moment_diagnostics.csv",
+    "sha256": "7f37754811889db6738fce8efe3901ab0c98456619afe969096de877d04a30ae"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_moment_context\\per_client.csv",
+    "sha256": "9b4b2e31bfe4d2b5ce8df574002ebcb38412082e3a2bb21b9a42d8c83c241400"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_moment_context\\predictions.npz",
+    "sha256": "801506214311b8fd8269b2fb86d53259f62315d2d73b8fe131732805dc68fa28"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_moment_context\\raw_records.json",
+    "sha256": "3031f68934aeeeb2ffe411a5df40d33496b1400a0a0b0de1081925ad87c1df74"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_moment_context\\reference_moments.json",
+    "sha256": "930df184dcec6cc67c578346ca3918169c512a04a8dc5c1bf214a01c219bebd2"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_moment_context\\reference_moments.pt",
+    "sha256": "bc46da4b4e958880df3ee440e466d27b5ee35ce0523ad8577f94c0aed7788acb"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_moment_context\\RESULTS.md",
+    "sha256": "431750a886d2261dba52a364940fe5d598823017df6aa3d1008c8c9a7bf7e465"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_moment_context\\summary.csv",
+    "sha256": "69afee75bc5e160c2e3abccd7bb2e30ef72c8b6cee09703050d0e60a8a5c3211"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_moment_context\\summary.json",
+    "sha256": "89969921260c9085ac0de21339d273ada8878969ad6bc75a340d14007d788a1f"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_moment_context\\verification.json",
+    "sha256": "f6ab3ce01686b2022f0c41bf3612d5658d86b12257ccf6877397fe8bdbb07966"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_moment_context\\writer_diagnostics.json",
+    "sha256": "725cab6eb2c78b19109cb2dbd2de08d01afd8491e9cc1dee553fdd851cffe173"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_moment_context\\writer_diagnostics.json.gz",
+    "sha256": "c6c54385fd02cf601d563a33c52eb4080e481c108f3e2c5c0a71ca6aabe16e0a"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_smoke\\clean_sanity.csv",
+    "sha256": "ee56bf90cc0c1ff240a44efe53eeb73921a19dcdceda5f74c86e812d7189d037"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_smoke\\identities.json",
+    "sha256": "030b37d757ef7754cd0c0c5de005131130221bfd5068140b60ae64d30d5a1543"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_smoke\\moment_diagnostics.csv",
+    "sha256": "72fa44514b7b21ea1b956cfbebabc441b6b6d03563f1d6970569e7a8581d1165"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_smoke\\per_client.csv",
+    "sha256": "ec6ba22a012d720ca18f52b59561d4820de09a32c06a3c8425076648ea7a7542"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_smoke\\predictions.npz",
+    "sha256": "b4f0c69a551ce61b1de67417090430a645c00de7ace566d5d314436f0d152e97"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_smoke\\raw_records.json",
+    "sha256": "a5e1064dfbbd6699261b67ef2acb7a9f5a31311a53cdb9a6e4d5d1309554653d"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_smoke\\RESULTS.md",
+    "sha256": "4a51929bd816a1d72eb67444eeae3794c83fe980ddeaa099ead1681c73c54e31"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_smoke\\summary.csv",
+    "sha256": "462f820e5ebacda9346bbf59e36ea4d4e1d54a05bb9db86dbcfa51b35d5adea1"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_smoke\\summary.json",
+    "sha256": "f86360d1cd1db90ee1df5fbe54ac3747bf1d0998a54ce3c8f27c78bed7a16cbe"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_smoke\\verification.json",
+    "sha256": "d283e65eba9a57721d4c4db342d98f90aa9b0c61e5441edc938c5a335be863af"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_smoke\\writer_diagnostics.json",
+    "sha256": "0362b9bc6c57feba3f78257fe0fa9adf41231217fd0aa9020fbca09ccef87e4a"
+  },
+  {
+    "path": "research_log\\t003_receipts\\20260913-153752-ttfl-t003-gpu0\\artifacts\\t003_smoke\\writer_diagnostics.json.gz",
+    "sha256": "753d056c2c3bf5c1b5063b43f9e7e779bb74e0cd046609a121132d2e218f8266"
+  }
+]

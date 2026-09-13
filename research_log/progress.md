@@ -69,3 +69,6 @@ Deployed20260913-153748-ttfl-t003 and launched20260913-153752-ttfl-t003-gpu0. Re
 
 ## 2026-09-13T15:40:19.7832584+08:00 — observed remote connectivity failure
 Two SSH connecttimeouts while readingT003 existingrun. Last observedformalclient21. No execution result inferred from timeout; retry same run.
+
+## 2026-09-13T15:45:32.1551416+08:00 — T003 COMPLETE / M-B
+Samejobexit0 aftermonitorSSHtimeouts. Allrawfetched; corruptionfileshashsameT002/T003. Ref44961trainonly,15testslocal/remotePASS,2000queryrecords/1700writers. Darkgain6.151pp andgaps12.042/12.687/10.639 =>PASS; othersfail,1/4overallM-B. Clean sanity-10.087pp with77clientsworse despitezero clamp; reportreference mismatch ascompetingexplanation, notcapacityconclusion.204layerepisodes>10%clamp; allmomentsmismatchdecrease. Cleanpredictionsrecalculatedmaxerror3.84e-6pp. Finalreport/compactresults andcompressedrawdiagnostics prepared. Updatedheartbeatgenericlatesttaskprompt toavoidstaleT002 naming; no nextexperiment.

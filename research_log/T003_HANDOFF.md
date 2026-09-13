@@ -1,4 +1,4 @@
-# T003 ACTIVE — Moment-Written Fast Context Operator
+# T003 COMPLETE / M-B — Moment-Written Fast Context Operator
 
 Lead2b5e7a8 fetched/read and fast-forwarded on2026-09-13. No duplicate TTFL job active; previousT002 complete. Keep15-minute heartbeat; no next stage without instruction.
 
@@ -13,3 +13,6 @@ A6000GPU0 run20260913-153752-ttfl-t003-gpu0, release20260913-153748-ttfl-t003, c
 
 ## 2026-09-13T15:40:19.7832584+08:00 — SSH connection timeout
 Two consecutive log reads to existinghost202.101.162.22:8220 timed out duringSSHconnection (exit255). Last successful observation formalT003 completedclient21; reference andsmoke already finished. Remote tmux job may continue; completion unverified. Reconnect to20260913-153752-ttfl-t003-gpu0 and fetch its artifacts; do not launch duplicate/reference recomputation.
+
+## 2026-09-13T15:45:32.1551416+08:00 — COMPLETE / M-B
+Connection recovered; samejob completed15:39:10+08 exit0, no rerun. Ref44961trainonly, referencehashbc46da4b4e958880df3ee440e466d27b5ee35ce0523ad8577f94c0aed7788acb. Formal2000records/1700writers/3400layerdiagnostics,15testsPASS. Darkonlypasses(1/4), clean sanity34.218->24.131(-10.087pp;77clientsworse). M-Badjudication incompactsummary, rawoutputunchanged. Ref mismatch/labelskew remainscompetingcause; do notinfercapacityalone. Allmomentmismatchesdecrease;204layerepisodes>10%clamp, mostlyDarklayer1(5/32forallclients). Results andfinalCODEX_TO_CHATGPT ready. Allrawreceiptsfetched underresearch_log/t003_receipts; predictionNPZ ignored,largewriterdiagnostics retainedrawandcompressed. Heartbeatnowfollowslatesttasks(genericprompt), remains15minutesACTIVE. No unsolicitednextstage.

@@ -1,0 +1,6 @@
+{
+  "runId": "20260913-153752-ttfl-t003-gpu0",
+  "releaseId": "20260913-153748-ttfl-t003",
+  "sessionName": "autodl-20260913-153752-ttfl-t003-gpu0",
+  "command": "CUDA_VISIBLE_DEVICES=0 TTFL_COMMIT=7bc31ded5e2a0dc6ad7e20b7688240c34c24c366 bash scripts/run_t003.sh"
+}

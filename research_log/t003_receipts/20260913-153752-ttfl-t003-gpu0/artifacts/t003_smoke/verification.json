@@ -1,0 +1,16 @@
+{
+  "records": 40,
+  "writer_episodes": 34,
+  "reference_training_only": true,
+  "reference_query_overlap": 0,
+  "support_query_overlap": 0,
+  "matched_support_ids": true,
+  "label_free_writer_api": true,
+  "shared_model_unchanged_each_episode": true,
+  "neutral_max_abs_diff": 0.0,
+  "t002_baseline_max_error_pp": 0.0,
+  "prediction_max_error_pp": 1.7077735279258377e-06,
+  "moment_mismatch_increases_gt1e_minus5": 0,
+  "moment_mismatch_max_increase": -0.0324581010709001,
+  "layer_episodes_clamp_gt10pct": 4
+}
