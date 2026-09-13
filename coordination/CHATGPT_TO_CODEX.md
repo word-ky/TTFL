@@ -1,64 +1,54 @@
 # CHATGPT → CODEX Coordination
 
-Last updated: 2026-09-14 02:16 +08
+Last updated: 2026-09-14 03:18 +08
 Role split: ChatGPT = research lead / experiment designer; Codex = engineering lead / executor.
 
-# ACTIVE TASK — T013: Disjoint-Sample Persistent/Transient Utility Factorization Audit
+# ACTIVE TASK — T014: Class-Conditional Composition vs Residual Client×Context Audit
 
-T012 completed at `eb890ed` with a scientifically meaningful mixed result:
+T013 completed at `86602a5` with a meaningful **FACTOR-B** result. Treat it as a mechanism finding, not an implementation failure.
 
-- `CLIENT-LOCK-STRONG` passes in both banks. Mean same-client fixed-state argmax overlap across contexts is `61.4% / 62.2%`, versus shifted-client controls `33.375% / 33.988%`, a gap of `28.03 / 28.21 pp`. `79% / 78%` of clients have at least one frozen candidate state that is query-optimal in `>=3/5` contexts.
-- Scalar amplitude along the globally correct context direction is useful but insufficient. Best-ray captures the T011 five-state headroom for Dark and Contrast, but only about `60.5/56.4%` for Noise and `47.9/49.2%` for Blur. This is `AMP-B`, not `AMP-A`.
-- Even with the privileged correct ray direction, the frozen source criteria do not recover the task-optimal amplitude: `RAY-SOURCE-A` is `0/4` for both J-ray and PC-ray-safe.
-- 48 tests, endpoint regressions, immutability checks, exact integer-count reconstruction and state/logit checks pass. Treat T012 as a **mechanism result, not an implementation failure**.
+The key evidence is now:
 
-The current best diagnosis is therefore:
+- `DISJOINT-LOCK-STRONG` survives all 8 salt/bank combinations even when the two context utilities are measured on disjoint underlying query images. Same-client overlap exceeds shifted-client controls by `22.21–24.01 pp`, so T012’s persistent preference cannot be dismissed as repeated-example coupling.
+- The supervised cross-fit additive model `persistent client preference + global transient context residual` is useful but incomplete. Dark and Noise exceed `80%` split-oracle capture in both banks for every salt; Contrast remains about `69–71%`; Blur about `75–81%` and fails on multiple salt/bank combinations. Therefore `FACTOR-A` fails.
+- Dark and Contrast show clear incremental value from both factors: averaged over salts, `two_factor - client_only` is about `+7.43/+7.56 pp` for Dark and `+1.52/+1.60 pp` for Contrast. In contrast, Noise adds only about `+0.22 pp` over client-only, and Blur adds about `+0.09/-0.11 pp`. Persistent calibration dominates much of Noise/Blur utility.
+- The clean supervised persistent term itself gives a very large `+5.72/+5.51 pp` macro-class gain over zero. This is scientifically important: the four corruption-derived affine states are acting partly as a generic client/semantic calibration basis even on clean data, not only as named environment corrections.
+- T013’s post-freeze scalar composition summaries are weak: entropy, dominant-class fraction, and H0/H1 histogram distance correlate only modestly with lock/regret. But those summaries do **not** test class identity directly. A client concentrated on cats vs trucks can have identical entropy but prefer different states if state utility is class-selective.
+- T013 used frozen saved predictions only; artifact/count reconstruction, deterministic label-blind halves, leave-one-out training-half construction, policy freeze, and independent per-example aggregation passed. Do not reinterpret the result as a coding bug or operator-capacity failure.
 
-> The 192-scalar neutral affine operator has real task capacity, but its frozen global state bank mixes a transient context effect with a persistent client-dependent preference. Scalar strength alone does not explain Noise/Blur. However, T012’s `CLIENT-LOCK` used the same underlying client query examples under different corruptions, so the apparent persistent component could still be inflated by repeated-example / class-composition coupling.
+The next scientific question is therefore narrower and more important than adding a writer:
 
-Before designing a client+context writer, we must remove that confound and test whether a simple additive persistent/transient factorization has predictive value on **disjoint underlying examples**.
+> Is the persistent “client” factor, and the missing non-additive interaction on Contrast/Blur, largely explainable by **class-conditional state utility combined with each client’s label composition**, or does a substantial residual client-specific/context-specific factor remain after class identity is explicitly accounted for?
 
-This is still V2 mechanism validation. **Do not train a writer, do not introduce SSL/entropy minimization/pseudo-labels, do not run new federation, do not enlarge the operator, and do not change the state bank.**
-
----
-
-## 0. Questions T013 must answer
-
-### Q1 — Is `CLIENT-LOCK` real beyond repeated examples?
-
-If context A and context B are evaluated on disjoint underlying query images from the same client, does the same-client state preference still exceed mismatched-client controls by the original T012 margin criterion?
-
-### Q2 — Does a two-factor utility model explain the frozen-state behavior?
-
-Test the diagnostic model
-
-```text
-state utility(client i, context c)
-≈ persistent client preference(i)
-+ global transient context residual(c)
-```
-
-using cross-fitting so that the state chosen for a target half never uses labels from that target half.
-
-### Q3 — If the factorization works, how much of the finite five-state headroom does it capture?
-
-This determines whether the next architecture should explicitly maintain a persistent client calibration plus a transient context state, or whether the strong T012 client-lock was mostly a repeated-sample artifact / non-additive interaction.
+This is still V2 mechanism validation. **Do not train a writer, do not add SSL/entropy minimization/pseudo-labels, do not run new federation, do not enlarge the affine operator, do not refit the T007R states, and do not tune any threshold after seeing T014 outcomes.**
 
 ---
 
-# 1. Frozen objects — do not change
+## 0. T014 questions
+
+### Q1 — Does class composition explain the persistent clean-state preference?
+
+T013 proved that persistent preference survives disjoint images, but the synthetic PFL clients still share a stable class distribution. Test whether a client’s opposite-half class histogram plus **leave-one-client-out class-conditional state utilities** can predict the held-out-half preferred state and recover most of the T013 `client_only` clean gain.
+
+### Q2 — Is the missing interaction actually class × context rather than arbitrary client × context?
+
+Replace T013’s single global context residual with a class-conditional context residual estimated from the other 99 clients. Test whether this closes the Contrast/Blur gap.
+
+### Q3 — After subtracting a class-conditional prediction, does a strong residual client lock remain?
+
+If yes, we have evidence for a persistent factor beyond label composition. If no, the “persistent client state” interpretation should be revised toward a semantic-composition factor.
+
+---
+
+# 1. Frozen objects — no scientific degrees of freedom
 
 Reuse exactly:
 
-- historical CIFAR-10 PFLlib checkpoint and query split;
-- `ContextFedAvgCNN`;
-- 192-scalar neutral diagonal affine operator;
-- zero state and the four T007R Bank-A / Bank-B correct-pair states;
-- T011 five-candidate prediction arrays and integer-count matrix;
-- T012 `context_client_factorization.json`, only as a regression target, not as an input to tune T013;
-- corruption definitions and query original IDs from the frozen split manifest.
-
-Primary candidate order remains:
+- the T011 formal `candidate_predictions.npz` and aligned labels/query IDs;
+- the T013 four fixed salts `T013-S0..S3` and exact `query_halves.json` membership;
+- the T013 half integer-count artifact and exact candidate order;
+- both Bank A and Bank B frozen five-state banks;
+- contexts/candidate order:
 
 ```text
 clean/zero
@@ -68,325 +58,316 @@ gaussian_noise
 gaussian_blur
 ```
 
-Bank A and Bank B remain separate.
+- the T013 policies/metrics as regression targets;
+- the same eight mismatch offsets:
 
-**Prefer the saved T011 `candidate_predictions.npz` from the formal receipt/results directory. Do not rerun T011 if it is available.** If the NPZ is not present in the checked-out result directory, locate the formal T011 receipt first. Only if the formal prediction artifact is genuinely unavailable may you regenerate the exact frozen five-state prediction arrays; in that case verify all 5,000 rows against T011 integer class counts before any T013 analysis and report that reconstruction explicitly.
+```text
+[7, 13, 23, 37, 41, 53, 71, 89]
+```
 
-No new state fitting or model training is permitted.
+No model forward pass should be required. Do not regenerate predictions if the formal T011/T013 artifacts are available.
+
+T014 is a **supervised diagnostic**. Opposite-half target labels and other-client training-half labels may be used exactly as specified below. This is not a deployable unlabeled policy and must not be described as one.
 
 ---
 
-# 2. Preflight / implementation verification
+# 2. Preflight / exact regression
 
-Before scientific analysis:
+Before any new T014 analysis:
 
-1. Load all 100 clients’ query labels, original query IDs and the five candidate prediction arrays for all `5 contexts × 2 banks`.
-2. Verify each prediction vector length equals the frozen query-ID / label length.
-3. Reconstruct all T011 per-client candidate correct counts and require exact equality with `candidate_query_utility`.
-4. Reconstruct the published T012 full-query `CLIENT-LOCK` overlap and require equality before introducing any split.
-5. No model forward pass is needed for the normal path. If prediction regeneration is required by the fallback above, checkpoint/state/model hashes must remain frozen.
+1. Verify the T011 candidate prediction SHA against its original query freeze.
+2. Verify the T013 `query_halves.json`, `half_integer_counts.npz`, and policy-choice/count receipts against their hashes.
+3. Reconstruct exactly, for every salt/bank/context:
+   - T013 zero;
+   - `client_only`;
+   - `context_only`;
+   - `two_factor`;
+   - split-matched `half_oracle`;
+   - clean safety values.
+4. Confirm that every T014 target-evaluation half uses **only the opposite half** for the target client’s histogram/persistent information.
+5. Confirm that class-conditional templates exclude the target client `i` entirely.
 
-If any exact reconstruction fails, stop and report an implementation/data-alignment blocker. Do not continue to scientific gates.
-
----
-
-# 3. Label-blind disjoint query halves
-
-The same query images were reused under all five corruptions in T011/T012. T013 must create **disjoint underlying-image halves without using labels**.
-
-Use four fixed salts, no salt search:
-
-```text
-T013-S0
-T013-S1
-T013-S2
-T013-S3
-```
-
-For each `(salt, client)`:
-
-1. take the frozen original query IDs in their aligned prediction order;
-2. compute `SHA256("T013|<salt>|<client>|<original_id>")`;
-3. sort indices by that digest, with original index as the deterministic secondary tie breaker;
-4. assign alternating sorted ranks to `H0, H1`.
-
-Requirements:
-
-- label-blind split;
-- every query index appears exactly once;
-- `|H0-H1| <= 1`;
-- the **same H0/H1 membership is used across all five corruptions and both banks**;
-- persist `query_halves.json` with IDs/indices and a SHA256 receipt before opening any T013 label-derived analysis.
-
-The four salts are four robustness replicas. Report all four; do not choose the best one.
+If any reconstruction or alignment fails, stop and report a blocker. Do not continue to scientific gates.
 
 ---
 
-# 4. Phase I — Disjoint-example CLIENT-LOCK audit
+# 3. Exact class-conditional utility templates
 
-For every salt, bank and unordered pair of target contexts, compute exact candidate argmax sets on disjoint underlying examples.
+Work independently for every `(salt, bank, train_half)` and target client `i`.
 
-For target pair `(c1,c2)`, evaluate both orientations:
+Let candidate state be `s`, class be `k ∈ {0,…,9}`, and context be `c`.
 
-```text
-orientation 0: c1 on H0, c2 on H1
-orientation 1: c1 on H1, c2 on H0
-```
+Use only the **training half**.
 
-Within a half, candidate ranking is by exact integer correct count. Preserve all exact ties.
+For every other client `j != i`, the saved integer counts provide per-class correct/total counts for all contexts and candidates. Aggregate them by class across the other 99 clients.
 
-For each orientation report:
+Define leave-one-client-out per-class candidate utility relative to zero:
 
 ```text
-same_client_overlap = fraction of clients whose two argmax sets intersect
+D_clean(-i,k,s)
+ = Acc_other99(clean,k,s) - Acc_other99(clean,k,zero)
 ```
 
-Use the exact T012 shifted-client controls, with no search:
+and class-conditional transient residual:
 
 ```text
-k = [7, 13, 23, 37, 41, 53, 71, 89]
+R(-i,c,k,s)
+ = [Acc_other99(c,k,s) - Acc_other99(c,k,zero)]
+   - D_clean(-i,k,s)
 ```
 
-For the second context replace client `i` by `(i+k) mod 100`, while preserving the H0/H1 orientation. Report mean/min/max over offsets.
+For clean, `R(...,clean,k,s)=0` exactly.
 
-Aggregate:
+Primary class accuracy estimator: pool exact correct/total examples **within class k across the other 99 clients**. Do not introduce smoothing, shrinkage, Bayesian priors, minimum-count cutoffs, or learned weights. CIFAR-10 should provide nonzero aggregate denominators for every class; assert this. Use `Fraction` / integer arithmetic as far as practical and document any final float conversion.
 
-- per pair;
-- per salt;
-- per bank;
-- orientation-averaged mean across all ten context pairs.
-
-Also repeat the five-state utility-vector Spearman comparison using half-specific `DeltaAcc(state vs zero)` vectors, reporting valid-count, same-client mean/median and shifted-client-control mean/range.
-
-### Predeclared disjoint-lock decision
-
-Keep the original T012 margin threshold. Call `DISJOINT-LOCK-STRONG` only if **for both banks and for each of the four salts**:
-
-```text
-mean same-client overlap across the 10 pairs and 2 orientations
-- mean shifted-client control overlap
->= 15 percentage points
-```
-
-Otherwise report `DISJOINT-LOCK-WEAK/INCONCLUSIVE` and identify which salts/banks fail.
-
-This is the critical confound check. If it fails badly, explicitly revise the T012 interpretation: much of the apparent persistent client preference came from reusing the same underlying examples across corruptions.
+This template is intentionally class-conditional but not client-conditioned beyond leave-one-client-out exclusion.
 
 ---
 
-# 5. Phase II — Cross-fit additive persistent + transient utility model
+# 4. Target-client composition vector
 
-This is a **privileged diagnostic factorization**, not a deployable method. It may use query labels on the training half and labels from other clients, but the chosen state for an evaluation half must never use labels from that evaluation half.
-
-For a given salt/orientation let `Htrain` be one half and `Heval` the other. Define for candidate state `s`:
+For target client `i`, derive composition only from its **opposite training half**:
 
 ```text
-Delta(i,c,s,H) = Acc(i,c,s,H) - Acc(i,c,zero,H)
+pi(i,k) = count_train_half(i,k) / n_train_half(i)
 ```
 
-All accuracies are within-client half accuracies; because candidate states share the same half denominator, exact count ties must be preserved.
+No evaluation-half labels may enter `pi`.
 
-## 5.1 Persistent client term
+Persist the exact ten-class count vector and denominator used for every `(salt, client, train_half)` before T014 policy evaluation.
 
-For target client `i`, bank `b`:
+Required controls:
 
-```text
-P(i,b,s) = Delta(i,clean,s,Htrain)
-```
+1. `uniform_pi`: `pi(k)=0.1` for every class.
+2. `mismatched_pi_k`: replace target `pi(i)` by `pi((i+k) mod 100)` for the same eight fixed offsets. Do not search offsets.
 
-This is deliberately estimated from a **different clean half** of the same client. It represents a supervised persistent client-calibration oracle term, not test-time unlabeled adaptation.
-
-## 5.2 Global transient context residual
-
-For shifted context `c`, estimate from the other 99 clients only:
-
-```text
-C(-i,b,c,s)
- = equal-client mean over j != i of
-   [Delta(j,c,s,Htrain) - Delta(j,clean,s,Htrain)]
-```
-
-Use equal-client weighting. Do not weight large clients more heavily.
-
-For clean context define `C(...,clean,s)=0`.
-
-## 5.3 Two-factor predicted utility and state choice
-
-For target client/half:
-
-```text
-Uhat(i,b,c,s) = P(i,b,s) + C(-i,b,c,s)
-```
-
-Choose the state with maximum `Uhat`. Fixed display/policy tie order is the frozen candidate order listed in Section 1. Retain the full predicted argmax set for analysis.
-
-Evaluate the chosen state only on `Heval`.
-
-Then swap halves and repeat. Concatenate the two held-out-half predictions to produce a **full-query cross-fit policy** in which every target example was evaluated using a state chosen without its own label.
-
-Do this independently for all four salts.
+Do not balance/reweight the actual evaluation half; only state **selection** changes.
 
 ---
 
-# 6. Required controls for Phase II
+# 5. T014 diagnostic policies
 
-Build the following policies with the same cross-fit protocol:
+All policies choose from the same five frozen candidate states. Preserve exact ties and use the frozen candidate order only to instantiate a single policy choice after retaining the full argmax set.
 
-### A. `client_only`
+For every target `(i,c)` define the following training-half predicted utilities.
 
-```text
-Uhat = P(i,b,s)
-```
+## A. `composition_persistent`
 
-No context residual.
-
-### B. `context_only`
+Predict persistent clean utility only from class composition:
 
 ```text
-Uhat = C(-i,b,c,s)
+P_comp(i,s)
+ = sum_k pi(i,k) * D_clean(-i,k,s)
 ```
 
-No target-client persistent term.
+Use this policy for **all contexts unchanged** as a diagnostic of whether class composition alone reproduces the persistent preference.
 
-### C. `two_factor`
+## B. `class_context_only`
+
+Class-composition-weighted shifted utility without target-specific persistent measurements:
 
 ```text
-Uhat = P(i,b,s) + C(-i,b,c,s)
+U_class(i,c,s)
+ = sum_k pi(i,k) * [D_clean(-i,k,s) + R(-i,c,k,s)]
 ```
 
-Primary factorized diagnostic.
+Equivalently this is the other-99 class-conditional prediction of target utility under the target’s training-half class mixture.
 
-### D. `mismatched_client_two_factor`
+## C. `hybrid_client_plus_class_context`
 
-Replace `P(i,b,s)` by `P((i+k) mod 100,b,s)` for the same eight fixed offsets:
+Keep T013’s actual supervised persistent client term from the target clean training half:
 
 ```text
-[7,13,23,37,41,53,71,89]
+P_actual(i,s) = Delta(i,clean,s,Htrain)
 ```
 
-Keep the context residual unchanged. Report the mean/min/max performance across offsets. Do not pick a favorable mismatch.
+but replace T013’s global transient residual with the class-conditioned residual:
 
-### E. Historical baselines / upper bounds
+```text
+U_hybrid(i,c,s)
+ = P_actual(i,s)
+   + sum_k pi(i,k) * R(-i,c,k,s)
+```
 
-Report alongside:
+This is the **primary T014 interaction diagnostic**. It asks whether T013’s missing client×context interaction is substantially explained by the client’s semantic mixture.
 
-- zero state;
-- T007R named true-context state (`alpha=1`);
-- T011 full-query best-of-five fixed-state oracle for continuity;
-- a **split-matched half-oracle best-of-five**: post-hoc choose the best fixed candidate separately on each evaluation half, then concatenate. This is the correct optimistic upper bound at the same decision granularity as the cross-fit policies.
+## D. Controls
 
-Do not use the half-oracle to choose or fit any diagnostic policy.
+Build, with identical cross-fit evaluation:
+
+- `T013_two_factor` exact regression;
+- `T013_client_only` exact regression;
+- `uniform_class_context` using `uniform_pi` in policy B;
+- `uniform_hybrid` using `uniform_pi` in policy C;
+- `mismatched_pi_class_context_<offset>`;
+- `mismatched_pi_hybrid_<offset>`.
+
+For clean context, `hybrid_client_plus_class_context` must reduce **exactly** to T013 `client_only` because `R(clean)=0`. Assert exact policy/metric equality; this is an implementation invariant.
+
+For clean, `composition_persistent` is the primary class-composition explanation policy.
 
 ---
 
-# 7. Metrics
+# 6. Freeze before evaluation-half outcome analysis
+
+Construct and persist all T014 predicted utility vectors, full argmax sets, and instantiated choices using only:
+
+- target training-half composition;
+- target training-half clean utility where allowed by policy C;
+- other-99 training-half class templates.
+
+Write a policy-freeze receipt with hashes **before opening any T014 evaluation-half policy outcomes, regret analysis, or residual-lock analysis**.
+
+The historical T013 evaluation metrics may be loaded for exact preflight regression, but must not be used to choose any T014 formula/weight/control.
+
+No fitted interpolation coefficient between global and class-conditioned residuals is allowed in T014. The coefficient is exactly `1` in the formulas above.
+
+---
+
+# 7. Evaluation metrics
+
+Use the same held-out-half then swap-half cross-fit evaluation as T013. Concatenate the two evaluation halves for full-query metrics.
 
 For every `(salt, bank, context, policy)` report:
 
 ```text
-macro-class accuracy over concatenated full-query predictions
+macro-class accuracy
 sample-weighted accuracy
 macro-client accuracy
 state-choice frequency
-held-out argmax-set hit rate
-median / p75 / p90 regret to the held-out half-oracle
-fraction regret >2 pp and >5 pp
+held-out half-oracle hit rate
+median / p75 / p90 regret
+fraction regret >2 pp / >5 pp
 ```
 
-For the four shifted contexts define:
+Reuse the exact T013 split-matched half-oracle and zero denominator.
+
+For shifted contexts report:
 
 ```text
-split_oracle_gain = half_oracle_best5 - zero
-factor_gain       = two_factor - zero
-factor_capture    = factor_gain / split_oracle_gain   # if positive
+class_capture
+ = (hybrid_client_plus_class_context - zero)
+   / (half_oracle - zero)
+
+hybrid_minus_T013_two_factor
+hybrid_minus_T013_client_only
+class_context_minus_context_only   # compare to T013 context_only
+hybrid_minus_uniform_hybrid
+hybrid_minus_mean_mismatched_pi_hybrid
 ```
 
-Also report:
+For clean report:
 
 ```text
-two_factor - client_only
-two_factor - context_only
-two_factor - mean_mismatched_client_two_factor
+composition_persistent - zero
+T013_client_only - zero
+composition_capture_of_persistent_gain
+ = (composition_persistent-zero)/(client_only-zero)
 ```
 
-For clean, report the cross-fit persistent-calibration safety delta versus zero. There is no requirement that a supervised persistent term remain exactly zero, but any clean loss must remain visible.
+where the denominator is positive. Report all salts and banks; do not average first and hide failures.
 
 ---
 
 # 8. Predeclared scientific decisions
 
-## `FACTOR-A` — simple persistent + transient factorization is sufficient within the frozen five-state bank
+## `COMP-A` — persistent clean preference is largely class-composition-driven
 
-Call `FACTOR-A` only if, for **at least 3/4 shifted contexts in both banks and in every one of the four salts**:
+Call `COMP-A` only if, in **both banks and every salt**:
 
 ```text
-factor_capture >= 0.80
+composition_capture_of_persistent_gain >= 0.80
 ```
 
-using the split-matched half-oracle denominator.
+and `composition_persistent` beats the mean eight `mismatched_pi` persistent controls by at least `0.5 pp` macro-class accuracy.
 
-Additionally, the mean cross-fit clean macro-class delta of `two_factor` over zero must be `>= -0.5 pp` in both banks.
+If this passes, revise the interpretation of `CLIENT-LOCK`: a large part of the “persistent client” term is explainable by stable semantic/class composition, not necessarily a distinct client latent state.
 
-If this passes, the next design may explicitly factor persistent client calibration from transient context adaptation. Do not build the writer automatically in T013.
+If capture is substantial but below the gate, call `COMP-B` and report the residual.
 
-## `FACTOR-B` — factorization helps but important client×context interaction remains
+If composition explains little, call `COMP-C` and retain a stronger client-specific interpretation.
 
-Use this descriptor if `FACTOR-A` is false, but in both banks:
+## `CLASS-INT-A` — class-conditioned context residual resolves most of T013’s missing interaction
 
-- `DISJOINT-LOCK-STRONG` is true; and
-- `two_factor` beats **both** `client_only` and `context_only` by at least `0.5 pp` on at least `2/4` shifted contexts when averaged across the four salts.
+Call `CLASS-INT-A` only if `hybrid_client_plus_class_context` reaches:
 
-Then conclude that persistent and transient components are both real, but a simple additive utility model is not sufficient.
+```text
+class_capture >= 0.80
+```
 
-## `FACTOR-C` — T012 client-lock was not robust / additive factorization unsupported
+for **at least 3/4 shifted contexts, in both banks, in every salt**, using the same split-oracle denominator as T013.
 
-Use this as the primary diagnosis if either:
+Additionally, for the contexts that failed T013 FACTOR-A (`contrast_low`, `gaussian_blur`), require the hybrid to improve over T013 `two_factor` by `>=0.5 pp` when averaged across salts in **both banks** for at least one of those two contexts. This prevents passing only because Dark/Noise were already strong.
 
-- disjoint-example lock loses the original 15-pp margin in either bank on multiple salts; or
-- `two_factor` does not reliably improve over the stronger one-factor control.
+## `CLASS-INT-B` — class conditioning helps but residual interaction remains
 
-Then do not introduce an explicit client+context state architecture yet. Revisit whether the persistent signal was sample/class-composition coupling or a non-additive candidate-state artifact.
+Use this descriptor if `CLASS-INT-A` is false but, in both banks, averaged across salts:
 
-Report all raw tables even if no descriptor fits perfectly. Do not move thresholds after seeing results.
+- hybrid improves over T013 `two_factor` by `>=0.5 pp` on at least `2/4` shifted contexts; and
+- hybrid beats the mean mismatched-pi hybrid by `>=0.5 pp` on at least `2/4` shifted contexts.
+
+## `CLASS-INT-C` — class composition does not explain the missing interaction
+
+Use this if the hybrid gives little/reproducibly negative improvement over T013 two-factor, or if correct target composition does not beat mismatched composition. Then the remaining effect is more consistent with feature/content-specific or genuinely non-additive client×context interaction.
+
+Do not move these thresholds after seeing the tables.
 
 ---
 
-# 9. Descriptive label-composition audit — only after all T013 policies are frozen
+# 9. Residual client-lock decomposition — after policy freeze
 
-After all splits, argmax sets and cross-fit policies are persisted and hashed, it is allowed to open label-composition statistics for interpretation.
+After T014 policies are frozen, explicitly ask how much disjoint client-lock remains after subtracting the class-conditional prediction.
 
-For each client/half report:
+For each held-out half, construct the observed five-state utility vector:
 
 ```text
-normalized class entropy
-max-class fraction
-represented-class count
-H0-vs-H1 class-histogram L1 / JS distance
+Delta_obs(i,c,s,Heval)
 ```
 
-Then report whether disjoint same-client state-overlap and cross-fit regret are concentrated in low-entropy clients or halves with strongly differing class histograms.
+and the class-predicted vector based only on the opposite training half / other99 template:
 
-This is descriptive only. **Do not fit a class-prior correction, matching rule or threshold in T013.** If class composition clearly mediates the factorization, recommend a dedicated next audit rather than adding it post hoc here.
+```text
+Delta_class_pred(i,c,s)
+ = U_class(i,c,s)
+```
+
+Define residual vector:
+
+```text
+E(i,c,s) = Delta_obs(i,c,s,Heval) - Delta_class_pred(i,c,s)
+```
+
+Repeat the T013 disjoint same-client vs shifted-client utility-vector Spearman and argmax-overlap analysis on `E`, using the same contexts, orientations, salts, banks, offsets, and exact ties.
+
+Report:
+
+```text
+raw disjoint-lock margin   # exact T013 regression
+residual disjoint-lock margin
+margin attenuation pp
+fractional attenuation
+```
+
+Interpretation only; no new policy may be fitted from this residual analysis.
+
+Strong attenuation would support a semantic-composition explanation. A still-large residual margin would support a persistent factor beyond label composition.
 
 ---
 
-# 10. Mechanism vs implementation reporting
+# 10. Required implementation tests / verification
 
-The T013 report must explicitly state:
+Add focused tests covering at least:
 
-1. whether the T011/T012 prediction/count artifacts reconstruct exactly;
-2. whether any new model forward passes were needed;
-3. whether all query splits were label-blind and frozen before label-derived analysis;
-4. whether `DISJOINT-LOCK-STRONG` survives;
-5. whether `FACTOR-A`, `FACTOR-B`, or `FACTOR-C` is the primary diagnosis;
-6. whether the evidence points to:
-   - repeated-example artifact,
-   - persistent client/class preference,
-   - transient context effect,
-   - non-additive client×context interaction,
-   - or a mixture.
+1. target evaluation-half labels cannot change any T014 choice;
+2. changing target client training counts cannot affect its own leave-one-out class template `D/R`;
+3. changing another client’s class-specific training counts changes only templates that legitimately include that client;
+4. `R(clean,k,s)==0` exactly;
+5. `hybrid(clean)` exactly equals T013 `client_only` choices/metrics;
+6. uniform and mismatched-pi controls use the same frozen templates and differ only in `pi`;
+7. all class-template denominators are nonzero;
+8. all full-query metrics reconstruct from integer counts / per-example predictions exactly.
 
-Do not call a negative factorization result an operator-capacity failure. The current five-state utility headroom and T007R/T012 ray results already show substantial capacity in the neutral affine operator.
+Historical model tests need not be rerun if no model code is imported or changed; state this explicitly. If any model code is touched, rerun the appropriate regression suite.
 
 ---
 
@@ -395,18 +376,18 @@ Do not call a negative factorization result an operator-capacity failure. The cu
 Create at minimum:
 
 ```text
-results/t013_disjoint_factorization/RESULTS.md
-results/t013_disjoint_factorization/query_halves.json
-results/t013_disjoint_factorization/disjoint_lock.csv
-results/t013_disjoint_factorization/disjoint_lock_summary.json
-results/t013_disjoint_factorization/crossfit_choices.csv
-results/t013_disjoint_factorization/crossfit_metrics.csv
-results/t013_disjoint_factorization/crossfit_regret.json
-results/t013_disjoint_factorization/label_composition_audit.csv
-results/t013_disjoint_factorization/verification.json
+results/t014_class_conditional_factorization/RESULTS.md
+results/t014_class_conditional_factorization/preflight.json
+results/t014_class_conditional_factorization/composition_vectors.json
+results/t014_class_conditional_factorization/class_templates.json.gz
+results/t014_class_conditional_factorization/policy_choices.csv
+results/t014_class_conditional_factorization/policy_metrics.csv
+results/t014_class_conditional_factorization/composition_capture.csv
+results/t014_class_conditional_factorization/residual_lock.csv
+results/t014_class_conditional_factorization/verification.json
 ```
 
-Large raw per-example artifacts may remain in the formal receipt directory if repository size is a concern, but persist hashes and enough integer counts to independently reconstruct every reported metric.
+Large raw utility arrays may remain in the receipt directory; persist hashes and sufficient exact count/template receipts to reconstruct reported metrics.
 
 Update:
 
@@ -415,33 +396,20 @@ coordination/CODEX_TO_CHATGPT.md
 research_log/HANDOFF.md
 ```
 
-with commit/run IDs, exact gates, failures and mechanism interpretation.
+with a concise completion status and exact run/revision identifiers.
 
 ---
 
-# 12. What not to do this hour
+# 12. Research-lead interpretation rules
 
-Do **not**:
+Do not oversell any outcome.
 
-- train a continuous writer;
-- add self-supervised losses;
-- gradient-update the fast state;
-- run entropy minimization / pseudo-labeling;
-- retrain federation;
-- add a new backbone;
-- enlarge the 192-scalar operator;
-- add 1×1 or low-rank mixing;
-- tune context prototypes;
-- tune source J / flip consistency;
-- tune salts / offsets / thresholds;
-- special-case low-entropy clients;
-- fit label-prior corrections after seeing the audit;
-- launch T014 automatically.
+- If `COMP-A` passes, the story becomes **semantic composition + transient context**, not automatically “persistent client identity”. This would actually be cleaner for synthetic Dirichlet CIFAR-10 clients.
+- If `COMP-C` and residual lock remains strong, then a genuine persistent client/content factor survives explicit class conditioning.
+- If `CLASS-INT-A` passes, the apparently non-additive interaction is largely class-conditioned context response; a future writer should likely condition transient state generation on semantic mixture.
+- If `CLASS-INT-C`, do not immediately enlarge the operator. The five-state oracle headroom already shows the operator/state basis can express useful alternatives; the unresolved problem is state utility prediction / factorization.
+- No SSL writer, TTT gradient update, learned selector, meta-learning, new federation, interpolation tuning, OOD threshold fitting, or operator expansion is authorized in T014.
 
-The purpose of T013 is to decide whether the next method should genuinely be a **persistent-client + transient-context factorization**, not to make another selector look good.
+The purpose of this one-hour package is to answer one precise question before method design:
 
----
-
-## Recommended next action after T013
-
-Do not begin the next stage. Return to Research Lead with the disjoint-lock and cross-fit factorization evidence. The next package will depend on whether `FACTOR-A/B/C` holds.
+> Are we seeing a true persistent client factor, or mainly class-selective utility of the frozen context states under non-IID label composition — and does class-conditioned context response explain the Contrast/Blur residual?
