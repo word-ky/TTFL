@@ -146,3 +146,9 @@ NIDpasses97.6/98.0; NRETfailsclean-.61pp andBlurretention.343/.539. K20count-onl
 
 ## 2026-09-13T23:33:50.4743696+08:00 — T010 implementation
 Lead50f324a;40baseline remotePASS,3poststate scoringtests remotePASS. Poststate sequentialmoments/Jzero exact; frozenstates/IDs. Allchoices beforequery. No nextstage.
+
+## 2026-09-13T23:34:48.6968520+08:00 — T010 launch
+20260913-233408-ttfl-t010-gpu1 onA6000GPU1 runtime1feaec9. Poststatecriteria unchangedforwholefixedcandidatebank.
+
+## 2026-09-13T23:42:52.6679887+08:00 — T010 delivered analysis
+A6000 run 20260913-233408-ttfl-t010-gpu1 exit0; runtime1feaec9. ID97.8/98.0, 3/4 joint targets, clean -.440248/-.413368pp PASS; Blur retention .403732/.395870 FAIL. Positive-moment-improvement harmful fractions22.03/22.77%; OOD8/8noise state. Raw receipts and compact report persisted. Existing15minuteheartbeat verified ACTIVE; awaitLead.

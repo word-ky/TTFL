@@ -18,3 +18,7 @@ research_log/t007r_receipts/**/raw_records.json
 research_log/t007r_receipts/**/raw_restoration.json
 research_log/t009_receipts/**/source_decisions.json
 research_log/t009_receipts/**/mixed_query_records.json
+research_log/t010_receipts/**/mixed_query_records.json
+research_log/t010_receipts/**/state_scores.json
+results/t010_state_consistency/mixed_query_records.json
+results/t010_state_consistency/state_scores.json

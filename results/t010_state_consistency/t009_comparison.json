@@ -1,0 +1,114 @@
+{
+  "changes": [
+    {
+      "bank": "A",
+      "target": "clean",
+      "corrected": 3,
+      "preserved_errors": 5,
+      "new_errors": 0,
+      "changed_wrong_to_wrong": 0
+    },
+    {
+      "bank": "A",
+      "target": "brightness_dark",
+      "corrected": 0,
+      "preserved_errors": 0,
+      "new_errors": 0,
+      "changed_wrong_to_wrong": 0
+    },
+    {
+      "bank": "A",
+      "target": "contrast_low",
+      "corrected": 0,
+      "preserved_errors": 0,
+      "new_errors": 2,
+      "changed_wrong_to_wrong": 0
+    },
+    {
+      "bank": "A",
+      "target": "gaussian_noise",
+      "corrected": 0,
+      "preserved_errors": 0,
+      "new_errors": 0,
+      "changed_wrong_to_wrong": 0
+    },
+    {
+      "bank": "A",
+      "target": "gaussian_blur",
+      "corrected": 1,
+      "preserved_errors": 3,
+      "new_errors": 1,
+      "changed_wrong_to_wrong": 0
+    },
+    {
+      "bank": "A",
+      "target": "all",
+      "corrected": 4,
+      "preserved_errors": 8,
+      "new_errors": 3,
+      "changed_wrong_to_wrong": 0
+    },
+    {
+      "bank": "B",
+      "target": "clean",
+      "corrected": 3,
+      "preserved_errors": 4,
+      "new_errors": 1,
+      "changed_wrong_to_wrong": 0
+    },
+    {
+      "bank": "B",
+      "target": "brightness_dark",
+      "corrected": 0,
+      "preserved_errors": 0,
+      "new_errors": 0,
+      "changed_wrong_to_wrong": 0
+    },
+    {
+      "bank": "B",
+      "target": "contrast_low",
+      "corrected": 0,
+      "preserved_errors": 0,
+      "new_errors": 1,
+      "changed_wrong_to_wrong": 0
+    },
+    {
+      "bank": "B",
+      "target": "gaussian_noise",
+      "corrected": 0,
+      "preserved_errors": 0,
+      "new_errors": 0,
+      "changed_wrong_to_wrong": 0
+    },
+    {
+      "bank": "B",
+      "target": "gaussian_blur",
+      "corrected": 1,
+      "preserved_errors": 2,
+      "new_errors": 2,
+      "changed_wrong_to_wrong": 0
+    },
+    {
+      "bank": "B",
+      "target": "all",
+      "corrected": 4,
+      "preserved_errors": 6,
+      "new_errors": 4,
+      "changed_wrong_to_wrong": 0
+    }
+  ],
+  "hard_pairs": [
+    {
+      "bank": "A",
+      "clean_nonzero": 5,
+      "blur_zero": 1,
+      "blur_contrast": 3
+    },
+    {
+      "bank": "B",
+      "clean_nonzero": 5,
+      "blur_zero": 1,
+      "blur_contrast": 3
+    }
+  ]
+}

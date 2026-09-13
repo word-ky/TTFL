@@ -1,0 +1,19 @@
+{
+  "frozen_hashes_unchanged": true,
+  "score_calls": 5240,
+  "zero_regression_checks": 1048,
+  "zero_psi_max_error": 0.0,
+  "zero_J_max_error": 0.0,
+  "all_candidate_states_unchanged": true,
+  "model_unchanged_every_episode": true,
+  "finite_scores_states": true,
+  "support_ids_exact_T009": true,
+  "no_label_query_inputs_to_score": true,
+  "selections_before_query": true,
+  "no_state_fits": true,
+  "no_query_tuning": true,
+  "historical_metrics_max_error_pp": 0.0,
+  "query_reuse_T007R": 14,
+  "query_reuse_T009": 985,
+  "new_query_evaluations": 1
+}

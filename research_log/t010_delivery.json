@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-09-13T23:42:52+08:00",
+  "lead": "50f324a",
+  "runtime": "1feaec9bd809434ca15cf20d862f46d77de4f9a2",
+  "run": "20260913-233408-ttfl-t010-gpu1",
+  "decision": "SC-A",
+  "raw": "research_log/t010_receipts/20260913-233408-ttfl-t010-gpu1/artifacts/t010_state_consistency",
+  "remote": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260913-233408-ttfl-t010-gpu1/artifacts/t010_state_consistency",
+  "results": "results/t010_state_consistency/RESULTS.md",
+  "next": "Await Lead review"
+}
