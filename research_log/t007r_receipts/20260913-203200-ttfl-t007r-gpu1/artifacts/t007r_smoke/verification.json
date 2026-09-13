@@ -6,7 +6,7 @@
   "clean_queries": 15039,
   "all_metric_deltas": 0.0,
   "model_hash_unchanged": true,
-  "records": 5600,
+  "records": 336,
   "global_writer_fits": 42,
   "corruption_fits": 40,
   "exact_committed_pools": true,
@@ -20,31 +20,5 @@
   "labels_query_excluded_from_writer": true,
   "model_unchanged_every_fit_evaluation": true,
   "nonfinite_count": 0,
-  "cap_gt10pct_layers": 0,
-  "independent_count_max_error_pp": 7.105427357601002e-15,
-  "independent_fraction_gate_match": true,
-  "clean_correct_counts": [
-    281,
-    1156,
-    760,
-    189,
-    1,
-    273,
-    1202,
-    227,
-    1057,
-    0
-  ],
-  "clean_class_counts": [
-    1516,
-    1495,
-    1509,
-    1482,
-    1492,
-    1500,
-    1527,
-    1508,
-    1502,
-    1508
-  ]
+  "cap_gt10pct_layers": 0
 }

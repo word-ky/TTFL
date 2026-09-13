@@ -1451,8 +1451,5 @@
       "abs_difference": 0.2763660585042089
     }
   ],
-  "cap_flags": [],
-  "decision": "C-A",
-  "joint_pass_count": 3,
-  "interpretation": "Transferable covariate state under the balanced paired-clean diagnostic; not a deployable unlabeled method."
+  "cap_flags": []
 }

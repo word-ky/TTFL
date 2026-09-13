@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-09-13T20:38:02+08:00",
+  "decision": "C-A",
+  "lead": "7553405",
+  "runtime": "5794dbf",
+  "run": "20260913-203200-ttfl-t007r-gpu1",
+  "raw": "research_log/t007r_receipts/20260913-203200-ttfl-t007r-gpu1",
+  "results": "results/t007_balanced_transfer/RESULTS.md",
+  "remote": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260913-203200-ttfl-t007r-gpu1/artifacts/t007r_transfer",
+  "joint_pass": 3,
+  "next": "Await Lead; no SSL or next stage"
+}

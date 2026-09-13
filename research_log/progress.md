@@ -116,3 +116,9 @@ Lead3394d2c. Baseline24remote tests PASS; pool2local tests PASS. Reusing frozenw
 
 ## 2026-09-13T20:31:41.5631369+08:00 — T007R implementation
 Lead7553405; baseline26remotePASS; neutralwriter3remotePASS. Originalpools preserved;6client smoke allclasses, then100formal afteridentityexact100querycheck.
+
+## 2026-09-13T20:33:23.6337037+08:00 — T007R run
+20260913-203200-ttfl-t007r-gpu1 onGPU1. Code5794dbf. Frozenpools/corruptions/checkpoint.
+
+## 2026-09-13T20:38:02.8249020+08:00 — T007R COMPLETE C-A
+Residualwriter exactidentity;31tests passed. A6000run20260913-203200-ttfl-t007r-gpu1,37.17sformal.3/4jointPASS; NoiseB0.499741262FAIL. Independentcount/Fractionauditpasses. 42globalstates,5600records. Capmax6.25percent notzero; no>10percent flags. Results/receipts/oldpreflight persisted. AwaitLead; noSSL/nextstage.

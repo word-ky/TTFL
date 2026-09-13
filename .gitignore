@@ -14,3 +14,5 @@ research_log/t003_receipts/**/writer_diagnostics.json
 research_log/t004_receipts/**/raw_restoration.json
 research_log/t005_receipts/**/raw_restoration.json
 research_log/t006_receipts/**/raw_restoration.json
+research_log/t007r_receipts/**/raw_records.json
+research_log/t007r_receipts/**/raw_restoration.json

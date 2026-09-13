@@ -1,0 +1,154 @@
+[autodl] run_id=20260913-203200-ttfl-t007r-gpu1
+[autodl] started_at=2026-09-13T20:32:07+08:00
+test_bn_only_moments (test_affine.AffineTest.test_bn_only_moments) ... ok
+test_neutral_logits (test_affine.AffineTest.test_neutral_logits) ... ok
+test_only_fast_state_and_reset (test_affine.AffineTest.test_only_fast_state_and_reset) ... ok
+test_same_checkpoint_all_methods (test_affine.AffineTest.test_same_checkpoint_all_methods) ... ok
+test_disjoint_balanced_spread_order_independent (test_balanced_pool.BalancedPoolTest.test_disjoint_balanced_spread_order_independent) ... ok
+test_exact_semantic_controls (test_balanced_pool.BalancedPoolTest.test_exact_semantic_controls) ... ok
+test_train_checkpoint_and_metrics (test_baseline.BaselineTest.test_train_checkpoint_and_metrics) ... ok
+test_deterministic_by_sample_not_order_and_no_mutation (test_covariate.CovariateTest.test_deterministic_by_sample_not_order_and_no_mutation) ... ok
+test_formulas_and_identity (test_covariate.CovariateTest.test_formulas_and_identity) ... ok
+test_weighted_gate_and_paired_summary (test_covariate.CovariateTest.test_weighted_gate_and_paired_summary) ... ok
+test_balanced_and_disjoint (test_data.DataTest.test_balanced_and_disjoint) ... ok
+test_preprocess (test_data.DataTest.test_preprocess) ... ok
+test_clamp_and_constant_variance (test_moments.MomentsTest.test_clamp_and_constant_variance) ... ok
+test_reference_stream_matches_direct (test_moments.MomentsTest.test_reference_stream_matches_direct) ... ok
+test_sequential_formula_frozen_no_labels_or_optimizer (test_moments.MomentsTest.test_sequential_formula_frozen_no_labels_or_optimizer) ... ok
+test_exact_identity_three_variances (test_neutral_oracle.NeutralOracleTest.test_exact_identity_three_variances) ... ok
+test_known_residual_and_cap (test_neutral_oracle.NeutralOracleTest.test_known_residual_and_cap) ... ok
+test_model_identity_and_sequential_contract (test_neutral_oracle.NeutralOracleTest.test_model_identity_and_sequential_contract) ... ok
+test_identity_formula_and_constant (test_paired_oracle.PairedOracleTest.test_identity_formula_and_constant) ... ok
+test_known_affine_and_cap (test_paired_oracle.PairedOracleTest.test_known_affine_and_cap) ... ok
+test_sequential_frozen_api (test_paired_oracle.PairedOracleTest.test_sequential_frozen_api) ... ok
+test_derangement_deterministic_label_free (test_pairing.PairingTest.test_derangement_deterministic_label_free) ... ok
+test_target_multiset_both_layers_preserved (test_pairing.PairingTest.test_target_multiset_both_layers_preserved) ... ok
+test_four_shapes_neutral_frozen_and_classes (test_pfllib_operator.PFLModelTest.test_four_shapes_neutral_frozen_and_classes) ... ok
+test_support_only_high_numbered_classes (test_pfllib_operator.PFLModelTest.test_support_only_high_numbered_classes) ... ok
+test_extrema_ties_and_target_histogram (test_semantic_pairing.SemanticPairingTest.test_extrema_ties_and_target_histogram) ... ok
+test_random_distinct_deterministic_label_independent (test_semantic_pairing.SemanticPairingTest.test_random_distinct_deterministic_label_independent) ... ok
+test_correlation_constant_and_centered_example (test_semantic_summary.SemanticSummaryTest.test_correlation_constant_and_centered_example) ... ok
+test_tau_and_strict_marginal_bounds (test_semantic_summary.SemanticSummaryTest.test_tau_and_strict_marginal_bounds) ... ok
+test_nonpositive_headroom_and_half_point_floor (test_transfer_gate.TransferGateTest.test_nonpositive_headroom_and_half_point_floor) ... ok
+test_recovery_and_both_context_margins (test_transfer_gate.TransferGateTest.test_recovery_and_both_context_margins) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.846s
+
+OK
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+T007R_IDENTITY_PASS {"all_192_state_values_zero": true, "max_clean_logit_diff": 0.0, "changed_clean_predictions": 0, "clean_clients": 100, "clean_queries": 15039, "all_metric_deltas": 0.0, "model_hash_unchanged": true}
+T007R_CLIENT_DONE 0
+T007R_CLIENT_DONE 1
+T007R_CLIENT_DONE 2
+T007R_CLIENT_DONE 3
+T007R_CLIENT_DONE 4
+T007R_CLIENT_DONE 5
+T007R_DONE {"verification": {"all_192_state_values_zero": true, "max_clean_logit_diff": 0.0, "changed_clean_predictions": 0, "clean_clients": 100, "clean_queries": 15039, "all_metric_deltas": 0.0, "model_hash_unchanged": true, "records": 336, "global_writer_fits": 42, "corruption_fits": 40, "exact_committed_pools": true, "pools_disjoint": true, "pool_query_overlap": 0, "target_multisets_exact": true, "same_class_fraction": 1.0, "cross_class_fraction": 0.0, "zero_pair_fixed_points": true, "old_hashes_unchanged": true, "labels_query_excluded_from_writer": true, "model_unchanged_every_fit_evaluation": true, "nonfinite_count": 0, "cap_gt10pct_layers": 0}, "passes": {"brightness_dark": true, "contrast_low": true, "gaussian_noise": false, "gaussian_blur": false}, "gates": [{"pool": "A", "target": "brightness_dark", "headroom_pp": 20.664704840097258, "tau_pp": 5.1661762100243145, "recovery": 0.6727464071670463, "correct_wrong_pp": 18.308370545973574, "correct_noise_pp": 16.389249461354595, "passed": true, "instance_advantage_pp": 17.214401401513545, "semantic_advantage_pp": -3.397226118123733, "hard_pair_gap_pp": 13.817175283389812}, {"pool": "A", "target": "contrast_low", "headroom_pp": 23.372301081478973, "tau_pp": 5.843075270369743, "recovery": 0.7528987482031674, "correct_wrong_pp": 15.205388540755216, "correct_noise_pp": 21.969791392690965, "passed": true, "instance_advantage_pp": 18.636458059357633, "semantic_advantage_pp": -3.179834813775905, "hard_pair_gap_pp": 15.456623245581728}, {"pool": "A", "target": "gaussian_noise", "headroom_pp": 3.835848279497533, "tau_pp": 0.9589620698743833, "recovery": 0.33366895206986935, "correct_wrong_pp": 2.461111634630818, "correct_noise_pp": 25.189171443518305, "passed": false, "instance_advantage_pp": 21.42105550148932, "semantic_advantage_pp": -0.845410628019323, "hard_pair_gap_pp": 20.575644873469997}, {"pool": "A", "target": "gaussian_blur", "headroom_pp": 6.903169813408244, "tau_pp": 1.725792453352061, "recovery": 0.8790477246841149, "correct_wrong_pp": 13.140837678292769, "correct_noise_pp": 26.910162151473223, "passed": true, "instance_advantage_pp": 23.14204620944424, "semantic_advantage_pp": -1.7391304347826093, "hard_pair_gap_pp": 21.40291577466163}, {"pool": "B", "target": "brightness_dark", "headroom_pp": 20.664704840097258, "tau_pp": 5.1661762100243145, "recovery": 0.9229632079900075, "correct_wrong_pp": 22.36791576990236, "correct_noise_pp": 26.370564982930254, "passed": true, "instance_advantage_pp": 16.47536473359256, "semantic_advantage_pp": 8.975767492597786, "hard_pair_gap_pp": 25.451132226190346}, {"pool": "B", "target": "contrast_low", "headroom_pp": 23.372301081478973, "tau_pp": 5.843075270369743, "recovery": 0.7447469141744019, "correct_wrong_pp": 15.014861421468662, "correct_noise_pp": 22.38312900770393, "passed": true, "instance_advantage_pp": 14.537562543624144, "semantic_advantage_pp": 7.844008103475144, "hard_pair_gap_pp": 22.381570647099288}, {"pool": "B", "target": "gaussian_noise", "headroom_pp": 3.835848279497533, "tau_pp": 0.9589620698743833, "recovery": 0.33366895206986935, "correct_wrong_pp": 2.1138502004128554, "correct_noise_pp": 26.445210090861302, "passed": false, "instance_advantage_pp": 15.718234868794916, "semantic_advantage_pp": 8.41514726507714, "hard_pair_gap_pp": 24.133382133872054}, {"pool": "B", "target": "gaussian_blur", "headroom_pp": 6.903169813408244, "tau_pp": 1.725792453352061, "recovery": 0.1624073868669784, "correct_wrong_pp": 6.995115445614019, "correct_noise_pp": 23.219110851726278, "passed": false, "instance_advantage_pp": 10.404711599739368, "semantic_advantage_pp": 10.526725884369643, "hard_pair_gap_pp": 20.93143748410901}]}
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+T007R_IDENTITY_PASS {"all_192_state_values_zero": true, "max_clean_logit_diff": 0.0, "changed_clean_predictions": 0, "clean_clients": 100, "clean_queries": 15039, "all_metric_deltas": 0.0, "model_hash_unchanged": true}
+T007R_CLIENT_DONE 0
+T007R_CLIENT_DONE 1
+T007R_CLIENT_DONE 2
+T007R_CLIENT_DONE 3
+T007R_CLIENT_DONE 4
+T007R_CLIENT_DONE 5
+T007R_CLIENT_DONE 6
+T007R_CLIENT_DONE 7
+T007R_CLIENT_DONE 8
+T007R_CLIENT_DONE 9
+T007R_CLIENT_DONE 10
+T007R_CLIENT_DONE 11
+T007R_CLIENT_DONE 12
+T007R_CLIENT_DONE 13
+T007R_CLIENT_DONE 14
+T007R_CLIENT_DONE 15
+T007R_CLIENT_DONE 16
+T007R_CLIENT_DONE 17
+T007R_CLIENT_DONE 18
+T007R_CLIENT_DONE 19
+T007R_CLIENT_DONE 20
+T007R_CLIENT_DONE 21
+T007R_CLIENT_DONE 22
+T007R_CLIENT_DONE 23
+T007R_CLIENT_DONE 24
+T007R_CLIENT_DONE 25
+T007R_CLIENT_DONE 26
+T007R_CLIENT_DONE 27
+T007R_CLIENT_DONE 28
+T007R_CLIENT_DONE 29
+T007R_CLIENT_DONE 30
+T007R_CLIENT_DONE 31
+T007R_CLIENT_DONE 32
+T007R_CLIENT_DONE 33
+T007R_CLIENT_DONE 34
+T007R_CLIENT_DONE 35
+T007R_CLIENT_DONE 36
+T007R_CLIENT_DONE 37
+T007R_CLIENT_DONE 38
+T007R_CLIENT_DONE 39
+T007R_CLIENT_DONE 40
+T007R_CLIENT_DONE 41
+T007R_CLIENT_DONE 42
+T007R_CLIENT_DONE 43
+T007R_CLIENT_DONE 44
+T007R_CLIENT_DONE 45
+T007R_CLIENT_DONE 46
+T007R_CLIENT_DONE 47
+T007R_CLIENT_DONE 48
+T007R_CLIENT_DONE 49
+T007R_CLIENT_DONE 50
+T007R_CLIENT_DONE 51
+T007R_CLIENT_DONE 52
+T007R_CLIENT_DONE 53
+T007R_CLIENT_DONE 54
+T007R_CLIENT_DONE 55
+T007R_CLIENT_DONE 56
+T007R_CLIENT_DONE 57
+T007R_CLIENT_DONE 58
+T007R_CLIENT_DONE 59
+T007R_CLIENT_DONE 60
+T007R_CLIENT_DONE 61
+T007R_CLIENT_DONE 62
+T007R_CLIENT_DONE 63
+T007R_CLIENT_DONE 64
+T007R_CLIENT_DONE 65
+T007R_CLIENT_DONE 66
+T007R_CLIENT_DONE 67
+T007R_CLIENT_DONE 68
+T007R_CLIENT_DONE 69
+T007R_CLIENT_DONE 70
+T007R_CLIENT_DONE 71
+T007R_CLIENT_DONE 72
+T007R_CLIENT_DONE 73
+T007R_CLIENT_DONE 74
+T007R_CLIENT_DONE 75
+T007R_CLIENT_DONE 76
+T007R_CLIENT_DONE 77
+T007R_CLIENT_DONE 78
+T007R_CLIENT_DONE 79
+T007R_CLIENT_DONE 80
+T007R_CLIENT_DONE 81
+T007R_CLIENT_DONE 82
+T007R_CLIENT_DONE 83
+T007R_CLIENT_DONE 84
+T007R_CLIENT_DONE 85
+T007R_CLIENT_DONE 86
+T007R_CLIENT_DONE 87
+T007R_CLIENT_DONE 88
+T007R_CLIENT_DONE 89
+T007R_CLIENT_DONE 90
+T007R_CLIENT_DONE 91
+T007R_CLIENT_DONE 92
+T007R_CLIENT_DONE 93
+T007R_CLIENT_DONE 94
+T007R_CLIENT_DONE 95
+T007R_CLIENT_DONE 96
+T007R_CLIENT_DONE 97
+T007R_CLIENT_DONE 98
+T007R_CLIENT_DONE 99
+T007R_DONE {"verification": {"all_192_state_values_zero": true, "max_clean_logit_diff": 0.0, "changed_clean_predictions": 0, "clean_clients": 100, "clean_queries": 15039, "all_metric_deltas": 0.0, "model_hash_unchanged": true, "records": 5600, "global_writer_fits": 42, "corruption_fits": 40, "exact_committed_pools": true, "pools_disjoint": true, "pool_query_overlap": 0, "target_multisets_exact": true, "same_class_fraction": 1.0, "cross_class_fraction": 0.0, "zero_pair_fixed_points": true, "old_hashes_unchanged": true, "labels_query_excluded_from_writer": true, "model_unchanged_every_fit_evaluation": true, "nonfinite_count": 0, "cap_gt10pct_layers": 0}, "passes": {"brightness_dark": true, "contrast_low": true, "gaussian_noise": false, "gaussian_blur": true}, "gates": [{"pool": "A", "target": "brightness_dark", "headroom_pp": 16.592663465557475, "tau_pp": 4.148165866389369, "recovery": 0.8889777870620689, "correct_wrong_pp": 17.39267024790198, "correct_noise_pp": 19.41172638749933, "passed": true, "instance_advantage_pp": 17.76777282227931, "semantic_advantage_pp": -4.181646552875268, "hard_pair_gap_pp": 13.58612626940404}, {"pool": "A", "target": "contrast_low", "headroom_pp": 14.183425932058018, "tau_pp": 3.5458564830145045, "recovery": 0.606779312277674, "correct_wrong_pp": 5.828302013321405, "correct_noise_pp": 18.416302085084872, "passed": true, "instance_advantage_pp": 14.100998879644568, "semantic_advantage_pp": -4.464657776639573, "hard_pair_gap_pp": 9.636341103004995}, {"pool": "A", "target": "gaussian_noise", "headroom_pp": 3.4620460683082896, "tau_pp": 0.8655115170770724, "recovery": 0.5265423113245371, "correct_wrong_pp": 2.1171231204278946, "correct_noise_pp": 22.162640408763913, "passed": true, "instance_advantage_pp": 19.545807437216993, "semantic_advantage_pp": -3.9984161676651766, "hard_pair_gap_pp": 15.547391269551817}, {"pool": "A", "target": "gaussian_blur", "headroom_pp": 3.2371107435941653, "tau_pp": 0.8092776858985413, "recovery": 0.6632212062060434, "correct_wrong_pp": 3.250362492471112, "correct_noise_pp": 22.850375148835703, "passed": true, "instance_advantage_pp": 20.07092345020785, "semantic_advantage_pp": -5.019062206015402, "hard_pair_gap_pp": 15.051861244192448}, {"pool": "B", "target": "brightness_dark", "headroom_pp": 16.592663465557475, "tau_pp": 4.148165866389369, "recovery": 0.8967084304107321, "correct_wrong_pp": 16.93522114781063, "correct_noise_pp": 22.424807666744606, "passed": true, "instance_advantage_pp": 10.298248977425715, "semantic_advantage_pp": 10.393006575060665, "hard_pair_gap_pp": 20.691255552486382}, {"pool": "B", "target": "contrast_low", "headroom_pp": 14.183425932058018, "tau_pp": 3.5458564830145045, "recovery": 0.5750628628925474, "correct_wrong_pp": 5.418069458232907, "correct_noise_pp": 19.39402576084783, "passed": true, "instance_advantage_pp": 8.103198012857206, "semantic_advantage_pp": 7.792466298619662, "hard_pair_gap_pp": 15.895664311476867}, {"pool": "B", "target": "gaussian_noise", "headroom_pp": 3.4620460683082896, "tau_pp": 0.8655115170770724, "recovery": 0.49974126220554255, "correct_wrong_pp": 1.8690912042703758, "correct_noise_pp": 23.90969014177021, "passed": false, "instance_advantage_pp": 10.443707158331119, "semantic_advantage_pp": 10.048859447104434, "hard_pair_gap_pp": 20.492566605435552}, {"pool": "B", "target": "gaussian_blur", "headroom_pp": 3.2371107435941653, "tau_pp": 0.8092776858985413, "recovery": 0.6513029915246306, "correct_wrong_pp": 4.655684102216284, "correct_noise_pp": 24.437674433380984, "passed": true, "instance_advantage_pp": 10.775617085840654, "semantic_advantage_pp": 9.904450114022119, "hard_pair_gap_pp": 20.680067199862773}]}
+[autodl] finished_at=2026-09-13T20:33:02+08:00
+[autodl] exit_code=0
