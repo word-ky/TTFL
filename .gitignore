@@ -11,3 +11,4 @@ research_log/data_transfer/
 *.h5
 research_log/pfllib_receipts/*.tar.gz
 research_log/t003_receipts/**/writer_diagnostics.json
+research_log/t004_receipts/**/raw_restoration.json

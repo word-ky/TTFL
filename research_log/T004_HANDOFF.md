@@ -1,4 +1,4 @@
-# T004 ACTIVE — paired-clean affine oracle
+# T004 COMPLETE / O-B — paired-clean affine oracle
 
 Heartbeat2026-09-13 16:33+08 detected Lead ec2b54a. Read task and fast-forwarded. ExistingT003 complete, no duplicatejob. Reuse samecheckpoint, exactT002IDs/corruptions,192affine. New label-free paired_clean_oracle(model,clean_support,source_support) only; no query passed. Frozen clean featuretargets, sequentially corrected source path. Original requested covariance/(variance+1e-5), slope cap[-8,8], no tuning. Collect actual before/afterMSE, ratio(undefined whenbefore0), state/cap diagnostics.
 
@@ -6,3 +6,6 @@ First run full100client clean->clean sanity before formalcorruption; accuracy to
 
 ## 2026-09-13T16:38:52.5929915+08:00 — RUNNING
 Run20260913-163821-ttfl-t004-gpu1,release20260913-163809-ttfl-t004,code68ce150cca164d40ee44aa786dac2c74386d77d3. A6000GPU1 (~50.6GBfree;GPU0otherjob~45GBfree). Output /home/wenchang/asdasdsad/wjq/TTFL/runs/20260913-163821-ttfl-t004-gpu1/artifacts/t004_paired_oracle. Mandatoryidentity100 -> smoke2 -> formal100. Monitor samejob; do notduplicate.
+
+## 2026-09-13T16:43:56.6900389+08:00 — COMPLETE / O-B
+Run20260913-163821-ttfl-t004-gpu1 finished16:39:03+08 exit0.18testslocal/remotePASS. Cleanidentity100clientaccuracyexactunchanged34.217701%; maxperclientdelta0; maxlogitdiff.005154. Coefficientcaveat layer2maxabs(a-1)=.998002 fromlowvariance(~1.97e-8 vseps1e-5), confirmedtargetedauditclient15/channel29 inresearch_log/t004_identity_low_variance.json; noformulachange. Formal2000records/1600writers,zerononfinite,modelunchanged,0IDoverlap,0T002baselineerror. OnlyDarkPASS(1/4); gains15.899/8.172/2.334/2.347pp,noisegaps2.321/-3.198/2.540/2.341. O-Bshift-specificcapacity underthisoracle; notglobaltheoreticalrejection. Finalresults/t004_paired_oracle andCODEX_TO_CHATGPT complete. Rawretrievedunderresearch_log/t004_receipts; fullrestorationjson preservedandcompressed. NoT005.

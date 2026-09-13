@@ -1,0 +1,138 @@
+[autodl] run_id=20260913-163821-ttfl-t004-gpu1
+[autodl] started_at=2026-09-13T16:38:25+08:00
+test_bn_only_moments (test_affine.AffineTest.test_bn_only_moments) ... ok
+test_neutral_logits (test_affine.AffineTest.test_neutral_logits) ... ok
+test_only_fast_state_and_reset (test_affine.AffineTest.test_only_fast_state_and_reset) ... ok
+test_same_checkpoint_all_methods (test_affine.AffineTest.test_same_checkpoint_all_methods) ... ok
+test_train_checkpoint_and_metrics (test_baseline.BaselineTest.test_train_checkpoint_and_metrics) ... ok
+test_deterministic_by_sample_not_order_and_no_mutation (test_covariate.CovariateTest.test_deterministic_by_sample_not_order_and_no_mutation) ... ok
+test_formulas_and_identity (test_covariate.CovariateTest.test_formulas_and_identity) ... ok
+test_weighted_gate_and_paired_summary (test_covariate.CovariateTest.test_weighted_gate_and_paired_summary) ... ok
+test_balanced_and_disjoint (test_data.DataTest.test_balanced_and_disjoint) ... ok
+test_preprocess (test_data.DataTest.test_preprocess) ... ok
+test_clamp_and_constant_variance (test_moments.MomentsTest.test_clamp_and_constant_variance) ... ok
+test_reference_stream_matches_direct (test_moments.MomentsTest.test_reference_stream_matches_direct) ... ok
+test_sequential_formula_frozen_no_labels_or_optimizer (test_moments.MomentsTest.test_sequential_formula_frozen_no_labels_or_optimizer) ... ok
+test_identity_formula_and_constant (test_paired_oracle.PairedOracleTest.test_identity_formula_and_constant) ... ok
+test_known_affine_and_cap (test_paired_oracle.PairedOracleTest.test_known_affine_and_cap) ... ok
+test_sequential_frozen_api (test_paired_oracle.PairedOracleTest.test_sequential_frozen_api) ... ok
+test_four_shapes_neutral_frozen_and_classes (test_pfllib_operator.PFLModelTest.test_four_shapes_neutral_frozen_and_classes) ... ok
+test_support_only_high_numbered_classes (test_pfllib_operator.PFLModelTest.test_support_only_high_numbered_classes) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.923s
+
+OK
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+IDENTITY_DONE {"none": 34.21770074923788, "oracle": 34.21770074923788, "delta": 0.0, "passed": true, "clients": 100, "checkpoint_sha256": "260657670e4b5beefebc7403487ead624a4ec7e19dd0958c7b281c28713cb9fb", "code_commit": "68ce150cca164d40ee44aa786dac2c74386d77d3", "seconds": 4.638595819473267, "per_client_max_abs_delta": 0.0}
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+T004_CLIENT_DONE 0
+T004_CLIENT_DONE 1
+T004_DONE {"case": "O-A", "passed": 2, "specificity": [{"target": "brightness_dark", "correct_gain_pp": 20.938628955007893, "correct_minus_wrong_alt_pp": 22.38267217140766, "correct_minus_noise_pp": 22.021661427154438, "wrong_clean_minus_none_pp": 0.0, "passed": true, "paired": {"oracle_wrong_clean": {"mean": 19.430258125066757, "median": 19.430258125066757, "fraction_positive": 1.0, "p10": 15.199182480573654, "p25": 16.785835847258568, "p75": 22.074680402874947, "p90": 23.66133376955986}, "oracle_wrong_alt": {"mean": 20.553853549063206, "median": 20.553853549063206, "fraction_positive": 1.0, "p10": 15.423901565372944, "p25": 17.347633559256792, "p75": 23.76007353886962, "p90": 25.683805532753468}, "oracle_noise_source": {"mean": 20.272954739630222, "median": 20.272954739630222, "fraction_positive": 1.0, "p10": 15.367721803486347, "p25": 17.2071841545403, "p75": 23.338725324720144, "p90": 25.178187675774097}}}, {"target": "contrast_low", "correct_gain_pp": 11.552346385141249, "correct_minus_wrong_alt_pp": 7.942238019691907, "correct_minus_noise_pp": 11.913357215129942, "wrong_clean_minus_none_pp": 0.0, "passed": true, "paired": {"oracle_wrong_clean": {"mean": 10.333673609420657, "median": 10.333673609420657, "fraction_positive": 1.0, "p10": 6.915219342336059, "p25": 8.197139692492783, "p75": 12.470207526348531, "p90": 13.752127876505256}, "oracle_wrong_alt": {"mean": 7.076381519436836, "median": 7.076381519436836, "fraction_positive": 1.0, "p10": 4.64759923517704, "p25": 5.558392591774464, "p75": 8.594370447099209, "p90": 9.505163803696632}, "oracle_noise_source": {"mean": 10.838724114000797, "median": 10.838724114000797, "fraction_positive": 1.0, "p10": 7.824310250580311, "p25": 8.954715449362993, "p75": 12.722732778638601, "p90": 13.853137977421284}}}, {"target": "gaussian_noise", "correct_gain_pp": 0.7220216740985208, "correct_minus_wrong_alt_pp": -5.054151024736651, "correct_minus_noise_pp": 18.050541301066264, "wrong_clean_minus_none_pp": 0.0, "passed": false, "paired": {"oracle_wrong_clean": {"mean": 0.7859494537115097, "median": 0.7859494537115097, "fraction_positive": 1.0, "p10": 0.6066279858350754, "p25": 0.6738735362887383, "p75": 0.8980253711342812, "p90": 0.965270921587944}, "oracle_wrong_alt": {"mean": -5.949948355555534, "median": -5.949948355555534, "fraction_positive": 0.0, "p10": -8.462716564536095, "p25": -7.5204284861683846, "p75": -4.379468224942684, "p90": -3.437180146574974}, "oracle_noise_source": {"mean": 16.510611586272717, "median": 16.510611586272717, "fraction_positive": 1.0, "p10": 12.191011272370815, "p25": 13.810861390084028, "p75": 19.210361782461405, "p90": 20.830211900174618}}}, {"target": "gaussian_blur", "correct_gain_pp": 5.054152730031994, "correct_minus_wrong_alt_pp": -3.2490972792628874, "correct_minus_noise_pp": 22.021661798338595, "wrong_clean_minus_none_pp": 0.0, "passed": false, "paired": {"oracle_wrong_clean": {"mean": 5.053343251347542, "median": 5.053343251347542, "fraction_positive": 1.0, "p10": 5.051072612404823, "p25": 5.051924102008343, "p75": 5.054762400686741, "p90": 5.05561389029026}, "oracle_wrong_alt": {"mean": -3.8729995489120483, "median": -3.8729995489120483, "fraction_positive": 0.0, "p10": -5.623084902763367, "p25": -4.966802895069122, "p75": -2.7791962027549744, "p90": -2.12291419506073}, "oracle_noise_source": {"mean": 20.721258409321308, "median": 20.721258409321308, "fraction_positive": 1.0, "p10": 17.07354459911585, "p25": 18.441437277942896, "p75": 23.00107954069972, "p90": 24.368972219526768}}}]}
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+T004_CLIENT_DONE 0
+T004_CLIENT_DONE 1
+T004_CLIENT_DONE 2
+T004_CLIENT_DONE 3
+T004_CLIENT_DONE 4
+T004_CLIENT_DONE 5
+T004_CLIENT_DONE 6
+T004_CLIENT_DONE 7
+T004_CLIENT_DONE 8
+T004_CLIENT_DONE 9
+T004_CLIENT_DONE 10
+T004_CLIENT_DONE 11
+T004_CLIENT_DONE 12
+T004_CLIENT_DONE 13
+T004_CLIENT_DONE 14
+T004_CLIENT_DONE 15
+T004_CLIENT_DONE 16
+T004_CLIENT_DONE 17
+T004_CLIENT_DONE 18
+T004_CLIENT_DONE 19
+T004_CLIENT_DONE 20
+T004_CLIENT_DONE 21
+T004_CLIENT_DONE 22
+T004_CLIENT_DONE 23
+T004_CLIENT_DONE 24
+T004_CLIENT_DONE 25
+T004_CLIENT_DONE 26
+T004_CLIENT_DONE 27
+T004_CLIENT_DONE 28
+T004_CLIENT_DONE 29
+T004_CLIENT_DONE 30
+T004_CLIENT_DONE 31
+T004_CLIENT_DONE 32
+T004_CLIENT_DONE 33
+T004_CLIENT_DONE 34
+T004_CLIENT_DONE 35
+T004_CLIENT_DONE 36
+T004_CLIENT_DONE 37
+T004_CLIENT_DONE 38
+T004_CLIENT_DONE 39
+T004_CLIENT_DONE 40
+T004_CLIENT_DONE 41
+T004_CLIENT_DONE 42
+T004_CLIENT_DONE 43
+T004_CLIENT_DONE 44
+T004_CLIENT_DONE 45
+T004_CLIENT_DONE 46
+T004_CLIENT_DONE 47
+T004_CLIENT_DONE 48
+T004_CLIENT_DONE 49
+T004_CLIENT_DONE 50
+T004_CLIENT_DONE 51
+T004_CLIENT_DONE 52
+T004_CLIENT_DONE 53
+T004_CLIENT_DONE 54
+T004_CLIENT_DONE 55
+T004_CLIENT_DONE 56
+T004_CLIENT_DONE 57
+T004_CLIENT_DONE 58
+T004_CLIENT_DONE 59
+T004_CLIENT_DONE 60
+T004_CLIENT_DONE 61
+T004_CLIENT_DONE 62
+T004_CLIENT_DONE 63
+T004_CLIENT_DONE 64
+T004_CLIENT_DONE 65
+T004_CLIENT_DONE 66
+T004_CLIENT_DONE 67
+T004_CLIENT_DONE 68
+T004_CLIENT_DONE 69
+T004_CLIENT_DONE 70
+T004_CLIENT_DONE 71
+T004_CLIENT_DONE 72
+T004_CLIENT_DONE 73
+T004_CLIENT_DONE 74
+T004_CLIENT_DONE 75
+T004_CLIENT_DONE 76
+T004_CLIENT_DONE 77
+T004_CLIENT_DONE 78
+T004_CLIENT_DONE 79
+T004_CLIENT_DONE 80
+T004_CLIENT_DONE 81
+T004_CLIENT_DONE 82
+T004_CLIENT_DONE 83
+T004_CLIENT_DONE 84
+T004_CLIENT_DONE 85
+T004_CLIENT_DONE 86
+T004_CLIENT_DONE 87
+T004_CLIENT_DONE 88
+T004_CLIENT_DONE 89
+T004_CLIENT_DONE 90
+T004_CLIENT_DONE 91
+T004_CLIENT_DONE 92
+T004_CLIENT_DONE 93
+T004_CLIENT_DONE 94
+T004_CLIENT_DONE 95
+T004_CLIENT_DONE 96
+T004_CLIENT_DONE 97
+T004_CLIENT_DONE 98
+T004_CLIENT_DONE 99
+T004_DONE {"case": "O-B", "passed": 1, "specificity": [{"target": "brightness_dark", "correct_gain_pp": 15.898663796528062, "correct_minus_wrong_alt_pp": 17.826983550558744, "correct_minus_noise_pp": 2.3206330786958667, "wrong_clean_minus_none_pp": 0.0, "passed": true, "paired": {"oracle_wrong_clean": {"mean": 14.090837663970888, "median": 10.63522002659738, "fraction_positive": 0.86, "p10": -7.112403512001037, "p25": 3.272969915997237, "p75": 22.17034325003624, "p90": 43.141946047544536}, "oracle_wrong_alt": {"mean": 15.780242439359426, "median": 11.614173278212547, "fraction_positive": 0.86, "p10": -8.723838329315186, "p25": 3.7990850396454334, "p75": 27.24951347336173, "p90": 50.74386082589627}, "oracle_noise_source": {"mean": 3.514334094710648, "median": 4.826073534786701, "fraction_positive": 0.64, "p10": -21.87301456928253, "p25": -7.758618891239166, "p75": 14.73492793738842, "p90": 28.16054314374924}}}, {"target": "contrast_low", "correct_gain_pp": 8.172086157818494, "correct_minus_wrong_alt_pp": 4.847396976988314, "correct_minus_noise_pp": -3.198351044537514, "wrong_clean_minus_none_pp": 0.0, "passed": false, "paired": {"oracle_wrong_clean": {"mean": 6.9724306161515415, "median": 3.5149499773979187, "fraction_positive": 0.7, "p10": -5.0785136222839355, "p25": 0.0, "p75": 12.007505260407925, "p90": 21.295167319476604}, "oracle_wrong_alt": {"mean": 4.543219748418778, "median": 1.8872946500778198, "fraction_positive": 0.65, "p10": -5.230879187583923, "p25": -0.5380952381528914, "p75": 8.205882413312793, "p90": 16.828570663929}, "oracle_noise_source": {"mean": -1.3625488537363708, "median": 2.237094845622778, "fraction_positive": 0.54, "p10": -27.908056378364563, "p25": -10.444075614213943, "p75": 11.217948980629444, "p90": 16.961266025900844}}}, {"target": "gaussian_noise", "correct_gain_pp": 2.3339317386000253, "correct_minus_wrong_alt_pp": 4.741006774944381, "correct_minus_noise_pp": 2.54006226465566, "wrong_clean_minus_none_pp": 0.006649386804308932, "passed": false, "paired": {"oracle_wrong_clean": {"mean": 2.285532786976546, "median": 1.0126646608114243, "fraction_positive": 0.64, "p10": -1.1997967958450317, "p25": 0.0, "p75": 4.401965998113155, "p90": 7.640041112899784}, "oracle_wrong_alt": {"mean": 4.393121984787285, "median": 3.5699155181646347, "fraction_positive": 0.61, "p10": -14.304511323571205, "p25": -1.727510616183281, "p75": 11.629273183643818, "p90": 25.186711326241497}, "oracle_noise_source": {"mean": 4.02836795989424, "median": 6.8686868995428085, "fraction_positive": 0.63, "p10": -21.06917381286621, "p25": -4.476705193519592, "p75": 16.10526256263256, "p90": 21.93429078906775}}}, {"target": "gaussian_blur", "correct_gain_pp": 2.34723028367884, "correct_minus_wrong_alt_pp": 6.077531591777124, "correct_minus_noise_pp": 2.3405807462212316, "wrong_clean_minus_none_pp": 0.006649377886798646, "passed": false, "paired": {"oracle_wrong_clean": {"mean": 1.7220394597388804, "median": 0.6674081087112427, "fraction_positive": 0.56, "p10": -6.666666343808174, "p25": -1.0686274617910385, "p75": 4.765967279672623, "p90": 8.4885422885418}, "oracle_wrong_alt": {"mean": 6.007876205723733, "median": 2.2940850351005793, "fraction_positive": 0.62, "p10": -5.575385242700577, "p25": -0.5622753407806158, "p75": 12.523291632533073, "p90": 23.36808085441594}, "oracle_noise_source": {"mean": 4.0761378346942365, "median": 4.3930018320679665, "fraction_positive": 0.62, "p10": -19.790697991847992, "p25": -5.194804817438126, "p75": 16.266289725899696, "p90": 23.33502545952797}}}]}
+[autodl] finished_at=2026-09-13T16:39:03+08:00
+[autodl] exit_code=0

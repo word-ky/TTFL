@@ -78,3 +78,6 @@ Heartbeat fetchedLead ec2b54a. Pairedclean oracle originalformula covariance/(va
 
 ## 2026-09-13T16:38:52.5929915+08:00 — T004 launched
 Run20260913-163821-ttfl-t004-gpu1 code68ce150 onA6000GPU1.18testsPASSlocal. Sequentialidentity/smoke/formal, noT002/T003rerun.
+
+## 2026-09-13T16:43:56.6900389+08:00 — T004 COMPLETE / O-B
+Samejobexit0; formal20.29sidentity4.64s.18testsPASSlocal/remote; cleanaccuracyunchangedall100. Originalepsregression lowvariancechannelgamma-.998002 butlogitdiffmax.005154; targetedauditconfirmedvariance1.9682e-8, nohiddenidentityshortcut.2000records/1600writers, frozenhash,zerononfinite/IDoverlap,1/4PASS(Dark),O-B. Resultsandfullreportprepared, predictionrecalculationerrors<6.06e-6pp. Nohyperparameterchange,newoperatororT005.
