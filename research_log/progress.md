@@ -30,3 +30,6 @@ MNIST/Cifar10/Cifar100 partitions complete. GPU0 run20260913-123718-ttfl-pfl-gpu
 
 ## 2026-09-13T12:40:16.4418505+08:00 — two GPU datasets active
 GPU0 run20260913-123718-ttfl-pfl-gpu0 passed MNIST2round+2clientcontext smoke, main100rounds reachedround40. GPU1 run20260913-123913-ttfl-pfl-c100-gpu1 launched Cifar100 smoke/main onphysicalGPU1. Tinydata retry20260913-123833-ttfl-pfl-tinydata writingclientdata; Tinytrainingnotyetlaunched. CIFAR archivesmatchofficialMD5 c58f30108f718f92721af3b95e74349a / eb9058c3a382ffc7106e4002c42a8d85.
+
+## 2026-09-13T12:42:32.5327952+08:00 — observed CIFAR100 smoke evaluator repair
+Run20260913-123913-ttfl-pfl-c100-gpu1 completed2roundbaseline thencontextfailed beforemain: supportstatistics callstilldefault10classes; supportonlyclassIDs>=10 led min(empty). Fixedtwo calls to passactualnum_classes, added highnumbered-only regression. Local9testsPASS3.733s. Commit5db9d15. No baseline/datachange. Resumecontextfromexistingsmokecheckpoint; formalCifar100runnotpreviouslystarted. MNIST/Cifar10have10classesandcontinueoriginalrun unaffected.
