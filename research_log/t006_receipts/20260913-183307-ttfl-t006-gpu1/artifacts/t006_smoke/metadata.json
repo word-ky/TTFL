@@ -1,0 +1,18 @@
+{
+  "code_commit": "c53c9be6d901e54430136fa721437b9480827c01",
+  "clients": 2,
+  "smoke": true,
+  "checkpoint_sha256": "260657670e4b5beefebc7403487ead624a4ec7e19dd0958c7b281c28713cb9fb",
+  "writer_sha256": "99824a64af46ad500c8be742c0775435bf7566188935eb59d39d7acca86a11dd",
+  "corruption_sha256": "297faeb32abbb7d26d9c083d463fe9e65e9d8606151ac7b7eb5cb995e53d7174",
+  "t005_summary_sha256": "3e8654cf821df1784a4bbc6b1995cfabbd3e489df2e3dd2357f8b3ec863ac52b",
+  "clean_acc": 34.21770074923788,
+  "eps": 1e-05,
+  "coefficient_cap": [
+    -8,
+    8
+  ],
+  "gpu": "NVIDIA RTX A6000",
+  "seconds": 2.021268129348755,
+  "peak_gpu_gib": 0.04797506332397461
+}

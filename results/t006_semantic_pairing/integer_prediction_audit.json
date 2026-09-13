@@ -1,0 +1,134 @@
+[
+  {
+    "target": "brightness_dark",
+    "query_count": 15039,
+    "clean_correct": 5146,
+    "correct_counts": {
+      "none": 2653,
+      "correct_pair": 5044,
+      "wrong_alt": 2363,
+      "noise_source": 4695,
+      "low_semantic_derangement": 4668,
+      "high_semantic_derangement": 4919,
+      "random_derangement_0": 4716,
+      "random_derangement_1": 4814,
+      "random_derangement_2": 4914,
+      "random_derangement_3": 4792,
+      "random_derangement_4": 4845,
+      "random_derangement_5": 4788,
+      "random_derangement_6": 4721,
+      "random_derangement_7": 4684
+    },
+    "flags": {
+      "headroom_pp": 16.5769000598444,
+      "tau_pp": 4.1442250149611,
+      "recovery_correct": 0.9590854392298439,
+      "instance_advantage_pp": 0.8311722853913182,
+      "semantic_advantage_pp": 1.668993949065765,
+      "marginal_gap_pp": 2.500166234457083,
+      "correct_minus_random_mean_pp": 1.7271760090431556,
+      "S_A": false,
+      "S_B": false,
+      "S_C": true
+    }
+  },
+  {
+    "target": "contrast_low",
+    "query_count": 15039,
+    "clean_correct": 5146,
+    "correct_counts": {
+      "none": 3021,
+      "correct_pair": 4250,
+      "wrong_alt": 3521,
+      "noise_source": 4731,
+      "low_semantic_derangement": 4578,
+      "high_semantic_derangement": 4750,
+      "random_derangement_0": 4647,
+      "random_derangement_1": 4644,
+      "random_derangement_2": 4851,
+      "random_derangement_3": 4724,
+      "random_derangement_4": 4666,
+      "random_derangement_5": 4736,
+      "random_derangement_6": 4601,
+      "random_derangement_7": 4533
+    },
+    "flags": {
+      "headroom_pp": 14.12992885165237,
+      "tau_pp": 3.5324822129130924,
+      "recovery_correct": 0.5783529411764708,
+      "instance_advantage_pp": -3.324689141565262,
+      "semantic_advantage_pp": 1.14369306469845,
+      "marginal_gap_pp": -2.180996076866812,
+      "correct_minus_random_mean_pp": -2.8276481149012547,
+      "S_A": false,
+      "S_B": false,
+      "S_C": true
+    }
+  },
+  {
+    "target": "gaussian_noise",
+    "query_count": 15039,
+    "clean_correct": 5146,
+    "correct_counts": {
+      "none": 4624,
+      "correct_pair": 4975,
+      "wrong_alt": 4262,
+      "noise_source": 4593,
+      "low_semantic_derangement": 4731,
+      "high_semantic_derangement": 4867,
+      "random_derangement_0": 4683,
+      "random_derangement_1": 4778,
+      "random_derangement_2": 4847,
+      "random_derangement_3": 4774,
+      "random_derangement_4": 4847,
+      "random_derangement_5": 4792,
+      "random_derangement_6": 4723,
+      "random_derangement_7": 4580
+    },
+    "flags": {
+      "headroom_pp": 3.470975463794133,
+      "tau_pp": 0.8677438659485333,
+      "recovery_correct": 0.6724137931034487,
+      "instance_advantage_pp": 0.7181328545780943,
+      "semantic_advantage_pp": 0.9043154465057555,
+      "marginal_gap_pp": 1.6224483010838497,
+      "correct_minus_random_mean_pp": 1.4761619788549751,
+      "S_A": false,
+      "S_B": true,
+      "S_C": false
+    }
+  },
+  {
+    "target": "gaussian_blur",
+    "query_count": 15039,
+    "clean_correct": 5146,
+    "correct_counts": {
+      "none": 4661,
+      "correct_pair": 5014,
+      "wrong_alt": 4100,
+      "noise_source": 4662,
+      "low_semantic_derangement": 4724,
+      "high_semantic_derangement": 4896,
+      "random_derangement_0": 4722,
+      "random_derangement_1": 4766,
+      "random_derangement_2": 4857,
+      "random_derangement_3": 4799,
+      "random_derangement_4": 4815,
+      "random_derangement_5": 4775,
+      "random_derangement_6": 4714,
+      "random_derangement_7": 4615
+    },
+    "flags": {
+      "headroom_pp": 3.2249484673183026,
+      "tau_pp": 0.8062371168295757,
+      "recovery_correct": 0.7278350515463925,
+      "instance_advantage_pp": 0.7846266374094029,
+      "semantic_advantage_pp": 1.14369306469845,
+      "marginal_gap_pp": 1.9283197021078529,
+      "correct_minus_random_mean_pp": 1.7030720127668069,
+      "S_A": false,
+      "S_B": true,
+      "S_C": false
+    }
+  }
+]

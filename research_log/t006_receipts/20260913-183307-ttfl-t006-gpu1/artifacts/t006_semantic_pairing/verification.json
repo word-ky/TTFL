@@ -1,0 +1,19 @@
+{
+  "records": 5600,
+  "new_writer_episodes": 4000,
+  "focused_old_writer_regressions": 24,
+  "old_prediction_regression_exact": true,
+  "old_condition_accuracy_max_error_pp": 0.0,
+  "all_derangements": true,
+  "target_multisets_exact_ids_images_features": true,
+  "labels_only_control_construction": true,
+  "labels_query_excluded_from_writer": true,
+  "high_ge_low_each_client": true,
+  "deterministic_random_offsets": true,
+  "support_query_overlap": 0,
+  "model_unchanged_each_episode": true,
+  "zero_state_exact": true,
+  "nonfinite_count": 0,
+  "prediction_max_error_pp": 6.471361430726574e-06,
+  "cap_gt10pct_layer_episodes": 9
+}

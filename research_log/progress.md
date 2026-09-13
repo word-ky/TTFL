@@ -96,3 +96,11 @@ Leadf93c0ff read; noTTFLactivejob.2newsemanticconstructiontests andfull22testspa
 
 ## 2026-09-13T18:34:23.1566888+08:00 — T006 launch
 Launched20260913-183307-ttfl-t006-gpu1 code c53c9be;22localtestsPASS. Onlynewsemanticderangementfamiliesrun; T005oldconditionsreusedafterfocusedpredictionregression.
+
+## 2026-09-13T18:42:47+08:00 — T006 complete
+
+Run 20260913-183307-ttfl-t006-gpu1; S-B on Noise/Blur. S-A0/4; Dark/Contrast numerical S-C only, random semantic variation narrow. Local OpenMP analysis conflict resolved by remote analysis (no override). Report, raw receipts, integer audit and manifest persisted. Await Lead, no T007.
+
+## 2026-09-13T18:43:52+08:00 — T006 complete
+
+Run 20260913-183307-ttfl-t006-gpu1; S-B on Noise/Blur. S-A0/4; Dark/Contrast numerical S-C only, random semantic variation narrow. Local OpenMP analysis conflict resolved by remote analysis (no override). Report, raw receipts, integer audit and manifest persisted. Await Lead, no T007.
