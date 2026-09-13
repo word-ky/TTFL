@@ -1,0 +1,9 @@
+.autodl/
+__pycache__/
+*.pyc
+.venv/
+research_log/remote_runs/
+*.pt
+*.npz
+*.zip
+research_log/data_transfer/
