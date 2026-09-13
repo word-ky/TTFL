@@ -81,3 +81,6 @@ Run20260913-163821-ttfl-t004-gpu1 code68ce150 onA6000GPU1.18testsPASSlocal. Sequ
 
 ## 2026-09-13T16:43:56.6900389+08:00 — T004 COMPLETE / O-B
 Samejobexit0; formal20.29sidentity4.64s.18testsPASSlocal/remote; cleanaccuracyunchangedall100. Originalepsregression lowvariancechannelgamma-.998002 butlogitdiffmax.005154; targetedauditconfirmedvariance1.9682e-8, nohiddenidentityshortcut.2000records/1600writers, frozenhash,zerononfinite/IDoverlap,1/4PASS(Dark),O-B. Resultsandfullreportprepared, predictionrecalculationerrors<6.06e-6pp. Nohyperparameterchange,newoperatororT005.
+
+## 2026-09-13T17:34:34.1617728+08:00 — T005 implemented
+Lead a53c57f read. Unchangedpairedwriter; addeddeterministicderangementcontrol and --pairing-audit extensiontoT004 evaluator. ExacttargetID/tensor/featuremultisetassertions, sharedconditionscompareT004, cleanbaselineheadroomindependentverification. Full20testsPASSincluding2newpairingtests; defaultT004formulaunchanged. FrozenT005gates/prerunchoices inT005_HANDOFF.md.
