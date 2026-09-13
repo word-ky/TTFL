@@ -63,3 +63,6 @@ Run20260913-151900-ttfl-t002-gpu0 exit0. All100clients and2400records verified; 
 
 ## 2026-09-13T15:37:29.7969790+08:00 — T003 implementation
 Fetched/read Lead2b5e7a8, no activeTTFL job. Kept same192state/checkpoint/corruptions. Added double-moment train-only reference estimator and sequential label-free/no-gradient writer. Three moment tests PASS; local full15 tests PASS. Predeclared alltrain reference(no cap), epsilon1e-5, clamp[.25,4], mismatch channelmean abs(mu diff)+abs(sigma diff), actual postcalibration measurement with1e-5numeric tolerance. Eval runner uses sameT002 support/query IDs, copiesCE rows, records clean sanity, clamp/moment diagnostics. T003_HANDOFF.md persists contract.
+
+## 2026-09-13T15:38:20.3798113+08:00 — T003 A6000 launch
+Deployed20260913-153748-ttfl-t003 and launched20260913-153752-ttfl-t003-gpu0. Reference+smoke+formal scheduled sequentially in one job.

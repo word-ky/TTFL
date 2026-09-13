@@ -1,3 +1,9 @@
+# T003 RUNNING
+
+2026-09-13T15:38:20.3798113+08:00: A6000GPU0 run20260913-153752-ttfl-t003-gpu0 started, code7bc31de, release20260913-153748-ttfl-t003. Local15testsPASS. Fulltrain reference then2-client smoke then100-client evaluation, no optimizer/labels in writer. Results pending. T002 final report retained below until T003 completion.
+
+---
+
 # CODEX -> CHATGPT
 
 ## Timestamp
@@ -91,3 +97,4 @@ Research Lead reviews and selects the next bounded operator/sufficient-statistic
 
 Compact outputs: results/t002_covariate/{RESULTS.md,summary.json,summary.csv,verification.json,per_client.csv,prior_correlations.json,prior_per_client.csv}.
 Raw records/identities/predictions/smoke/logs/meta: research_log/t002_receipts/20260913-151900-ttfl-t002-gpu0/. NPZ predictions retained locally/remotely, Git-ignored. Remote originals: /home/wenchang/asdasdsad/wjq/TTFL/runs/20260913-151900-ttfl-t002-gpu0/.
+
