@@ -1,0 +1,8 @@
+{
+  "checkpoint_states_support_context_predictions_templates_hashes_verified": true,
+  "T009_confusions_exact": true,
+  "offline_aggregate_regressions": 120,
+  "support_calibration_query_disjoint": true,
+  "template_target_keys_exclusion_provenance_unchanged": true,
+  "target_query_arrays_labels_opened": false
+}

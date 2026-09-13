@@ -1,0 +1,3 @@
+gate,status,reason
+CAL-SEM-A,NOT_EXECUTED,preflight comparison stopped before calibration
+CAL-SRC-A,NOT_EXECUTED,preflight comparison stopped before calibration

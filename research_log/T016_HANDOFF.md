@@ -1,3 +1,3 @@
-# T016 ACTIVE
+# T016 STOPPED AT PREFLIGHT
 
-Lead 6476c995ff8eff5d3da57e6f48ae65aef4e90253; 2026-09-14 05:36 +08. Execute fixed cross-fitted hard/soft confusion pseudoinverse + simplex projection, frozen T015 K20 logits and T014 templates. No new training, support changes or tuning. Preserve all T015 conclusions. Hard calibration uses other-client T011 queries as explicitly permitted offline labeled calibration; soft uses other-client T015 support logits and saved matching labels. Target exclusion is episode-specific; evaluation outcomes remain inaccessible to source choice. Historical T015 preflight is a separate replay, not a source estimator input. Stop after CAL-SEM-A/CAL-SRC-A delivery.
+2026-09-14T05:47:38+08:00. Run 20260914-054411-ttfl-t016-cached, runtime6fd685e, 63 tests PASS. Historical aggregate/gate/count/choice replay exact; two episode JS strings differ by4.44e-16. Added overstrict comparison stopped before calibration. CAL-SEM-A/CAL-SRC-A NOT EXECUTED, not scientific FAIL. Read results/t016_confusion_debiased_semantics/RESULTS.md. No automatic retry; await Lead. Existing T015 conclusions unchanged.

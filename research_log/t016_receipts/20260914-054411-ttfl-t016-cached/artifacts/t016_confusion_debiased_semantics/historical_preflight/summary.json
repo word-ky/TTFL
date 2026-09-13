@@ -1,0 +1,86 @@
+{
+  "SUPPORT_COMP_A": true,
+  "SEM_EST_A": false,
+  "SEM_SRC_A": false,
+  "joint_capture": {
+    "SUPPORT_COMP": {
+      "brightness_dark": true,
+      "contrast_low": true,
+      "gaussian_noise": true,
+      "gaussian_blur": true
+    },
+    "SEM_EST": {
+      "brightness_dark": true,
+      "contrast_low": false,
+      "gaussian_noise": false,
+      "gaussian_blur": false
+    },
+    "SEM_SRC": {
+      "brightness_dark": true,
+      "contrast_low": false,
+      "gaussian_noise": false,
+      "gaussian_blur": false
+    }
+  },
+  "clean_pass": {
+    "P00": true,
+    "P01": true,
+    "P11": true
+  },
+  "uniform_advantage": [
+    {
+      "bank": "A",
+      "target": "brightness_dark",
+      "mean_P11_minus_uniform": 0.0,
+      "passed": false
+    },
+    {
+      "bank": "B",
+      "target": "brightness_dark",
+      "mean_P11_minus_uniform": 0.0,
+      "passed": false
+    },
+    {
+      "bank": "A",
+      "target": "contrast_low",
+      "mean_P11_minus_uniform": 0.024382738357283502,
+      "passed": false
+    },
+    {
+      "bank": "B",
+      "target": "contrast_low",
+      "mean_P11_minus_uniform": 0.09753617603971787,
+      "passed": false
+    },
+    {
+      "bank": "A",
+      "target": "gaussian_noise",
+      "mean_P11_minus_uniform": 0.533300229280097,
+      "passed": true
+    },
+    {
+      "bank": "B",
+      "target": "gaussian_noise",
+      "mean_P11_minus_uniform": 0.5154498734260491,
+      "passed": true
+    },
+    {
+      "bank": "A",
+      "target": "gaussian_blur",
+      "mean_P11_minus_uniform": 0.9571012881055732,
+      "passed": true
+    },
+    {
+      "bank": "B",
+      "target": "gaussian_blur",
+      "mean_P11_minus_uniform": 0.932921052582768,
+      "passed": true
+    }
+  ],
+  "uniform_joint": {
+    "brightness_dark": false,
+    "contrast_low": false,
+    "gaussian_noise": true,
+    "gaussian_blur": true
+  }
+}

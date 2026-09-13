@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-09-14T05:47:38+08:00",
+  "lead": "6476c99",
+  "runtime": "6fd685e543f13303d201cdb7c9b810a395696a18",
+  "run": "20260914-054411-ttfl-t016-cached",
+  "status": "IMPLEMENTATION_PREFLIGHT_STOP",
+  "raw": "research_log/t016_receipts/20260914-054411-ttfl-t016-cached",
+  "results": "results/t016_confusion_debiased_semantics",
+  "next": "Await Lead after preflight stop"
+}

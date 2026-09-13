@@ -1,0 +1,66 @@
+{
+  "historical_all56000_utilities_argmaxes_exactly_replayed": true,
+  "historical_all280_macroclass_metrics_integer_reconstructed": true,
+  "historical_freeze_mixture_logits_choice_hashes_verified": true,
+  "historical_220_quality_summary_rows_exact": true,
+  "historical_96_gate_rows_exact": true,
+  "historical_episode_quality_comparison": [
+    {
+      "file": "mixture_quality.csv",
+      "rows": 220,
+      "different_fields": 0,
+      "max_absolute_difference": 0,
+      "historical_sha256": "50a9480a580408bf131cad2a0629d7fd7ed1913874aee62260c19df5f8165a07",
+      "rerun_sha256": "50a9480a580408bf131cad2a0629d7fd7ed1913874aee62260c19df5f8165a07"
+    },
+    {
+      "file": "mixture_quality_episodes.csv",
+      "rows": 4000,
+      "different_fields": 2,
+      "max_absolute_difference": 4.440892098500626e-16,
+      "historical_sha256": "355140a264d4975c769342658883829ba6a3d18ed9223b2208cea898a2e6e1bf",
+      "rerun_sha256": "3f9e4741b0041daa361f119edb5e05d3c7fc5e437584802ef395b1b84d5f442f"
+    },
+    {
+      "file": "scientific_gates.csv",
+      "rows": 96,
+      "different_fields": 0,
+      "max_absolute_difference": 0,
+      "historical_sha256": "649f199477b320b7a5b25a1a45a73f2e7517750c27ce1a97c3af3df3755b8cec",
+      "rerun_sha256": "649f199477b320b7a5b25a1a45a73f2e7517750c27ce1a97c3af3df3755b8cec"
+    }
+  ],
+  "observed_differences": [
+    {
+      "file": "mixture_quality_episodes.csv",
+      "row": 3186,
+      "client": "79",
+      "bank": "A",
+      "target": "gaussian_noise",
+      "estimator": "pi_oracle_state_soft",
+      "field": "JS",
+      "rerun": "0.2809442888638962",
+      "historical": "0.28094428886389666",
+      "absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "file": "mixture_quality_episodes.csv",
+      "row": 3187,
+      "client": "79",
+      "bank": "A",
+      "target": "gaussian_noise",
+      "estimator": "pi_source_state_soft",
+      "field": "JS",
+      "rerun": "0.2809442888638962",
+      "historical": "0.28094428886389666",
+      "absolute_difference": 4.440892098500626e-16
+    }
+  ],
+  "full_regression_tests_passed": 63,
+  "T016_target_exclusion_unit_tests_passed": true,
+  "T016_full_data_disjointness_check": "not reached after comparison stop; T015 prior receipt remains unchanged",
+  "T016_calibration_phase": "not reached",
+  "T016_source_freeze": "absent",
+  "T016_target_evaluation": "not reached",
+  "no_new_model_or_state_updates": true
+}

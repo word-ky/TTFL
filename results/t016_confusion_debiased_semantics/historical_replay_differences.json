@@ -1,0 +1,26 @@
+[
+  {
+    "file": "mixture_quality_episodes.csv",
+    "row": 3186,
+    "client": "79",
+    "bank": "A",
+    "target": "gaussian_noise",
+    "estimator": "pi_oracle_state_soft",
+    "field": "JS",
+    "rerun": "0.2809442888638962",
+    "historical": "0.28094428886389666",
+    "absolute_difference": 4.440892098500626e-16
+  },
+  {
+    "file": "mixture_quality_episodes.csv",
+    "row": 3187,
+    "client": "79",
+    "bank": "A",
+    "target": "gaussian_noise",
+    "estimator": "pi_source_state_soft",
+    "field": "JS",
+    "rerun": "0.2809442888638962",
+    "historical": "0.28094428886389666",
+    "absolute_difference": 4.440892098500626e-16
+  }
+]

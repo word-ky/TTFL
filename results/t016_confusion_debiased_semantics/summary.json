@@ -1,0 +1,13 @@
+{
+  "status": "IMPLEMENTATION_PREFLIGHT_STOP",
+  "CAL_SEM_A": "NOT_EXECUTED",
+  "CAL_SRC_A": "NOT_EXECUTED",
+  "primary": "soft_emission_pinv (planned, not executed)",
+  "tests_passed": 63,
+  "reason": "New exact string comparison of per-episode floating JS rejected two 4.44e-16 differences. Historical aggregate quality and gate rows match exactly.",
+  "scientific_conclusion": null,
+  "calibration_matrices_built": 0,
+  "source_choices_frozen": 0,
+  "new_forwards": 0,
+  "formal_attempts": 1
+}
