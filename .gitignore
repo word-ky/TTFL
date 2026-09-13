@@ -30,3 +30,7 @@ research_log/t012_receipts/**/amplitude_source_scores.json
 research_log/t012_receipts/**/amplitude_query_utility.json
 results/t012_context_amplitude/amplitude_source_scores.json
 results/t012_context_amplitude/amplitude_query_utility.json
+research_log/t013_receipts/**/crossfit_choices.json
+research_log/t013_receipts/**/crossfit_regret.json
+results/t013_disjoint_factorization/crossfit_choices.json
+results/t013_disjoint_factorization/crossfit_regret.json

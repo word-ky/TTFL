@@ -4,3 +4,9 @@
 
 2026-09-14T02:30:00.5655263+08:00 — implementationready
 Twofocusedtests PASS. Fullpipeline historical5000rows/T012overlap preflight, IDhashsplit freeze, exactFractiontrain-only LOO choices, policyfreezebeforeentropy, per-exampleindependentaggregatecheck. Formaloutput research_log/t013_receipts/20260914-t013-local/artifacts/t013_disjoint_factorization; noGPUneeded, no modelimport.
+
+2026-09-14T02:30:18.8169602+08:00 — formal localrunstarted
+Runtime089c918 outputresearch_log/t013_receipts/20260914-t013-local/artifacts/t013_disjoint_factorization, consoleparent/run.log. Resumeexisting process/session ifactive; no duplicate.
+
+## 2026-09-14T02:34:27.1485796+08:00 — COMPLETE
+Localruntime089c918,42.59s, noGPU/modelforward. T0115000counts/T012fullqueryoverlap exact. FourIDhashsplitsfreeze;120000trainhalfpolicychoicesfreeze beforecomposition. Independentper-exampleconcatandFraction600metricgatesPASS. DISJOINT-LOCKall8pass22.21–24.01pp. FACTOR-Afalse2/4joint;FACTOR-BtrueDark/Contrastcontroladvantages. Cleanmean+5.718668/+5.511444pp. Reportresults/t013_disjoint_factorization/RESULTS.md; noT014.

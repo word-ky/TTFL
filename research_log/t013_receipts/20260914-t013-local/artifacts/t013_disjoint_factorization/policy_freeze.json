@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-09-13T18:30:39.425519+00:00",
+  "choices_sha256": "4d2b1bf8091f14b36690ba33e89c9874d12e7c4e9013655f37419402ca3206cd",
+  "argmax_sha256": "ab1cf99800416458a0297f2ba1c5fc6cabb3b64bf49cfe8ccf3f5d12284d51ed",
+  "counts_sha256": "41938b48c2eb7bb5dae846306e0952c5b2253680862c8f0ba26722c7699a9763",
+  "choice_rows": 120000,
+  "composition_audit_opened": false
+}

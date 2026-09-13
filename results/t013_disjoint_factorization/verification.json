@@ -1,0 +1,19 @@
+{
+  "T011_predictions_sha256": "0fa2cfc36400e6dc85c4adf7406ccf574daf2fa8443ee5380ecfd44ee8c49c0a",
+  "T011_5000_counts_exact": true,
+  "T012_full_query_overlap_exact": true,
+  "new_model_forward_passes": 0,
+  "label_blind_disjoint_complete_splits": true,
+  "splits_shared_contexts_banks": true,
+  "split_frozen_before_T013_half_analysis": true,
+  "exact_fraction_utilities_equal_client_leave_one_out": true,
+  "diagnostic_policies_train_half_only": true,
+  "oracle_controls_explicit": true,
+  "policies_argmax_frozen_before_composition": true,
+  "independent_per_example_aggregate_reconstruction": true,
+  "macroclass_max_error_pp": 1.4210854715202004e-14,
+  "no_training_or_policy_salt_offset_tuning": true,
+  "independent_exact_fraction_factor_gates": true,
+  "independent_report_macroclass_error_pp": 0.0,
+  "focused_tests_passed": 2
+}

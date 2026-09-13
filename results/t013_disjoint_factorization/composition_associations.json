@@ -1,0 +1,226 @@
+[
+  {
+    "salt": "T013-S0",
+    "bank": "A",
+    "feature": "normalized_entropy",
+    "spearman_same_client_overlap": -0.09981800654932965,
+    "spearman_two_factor_regret": 0.021904216064528418
+  },
+  {
+    "salt": "T013-S0",
+    "bank": "A",
+    "feature": "max_class_fraction",
+    "spearman_same_client_overlap": 0.11050288491133656,
+    "spearman_two_factor_regret": 0.031369577487572596
+  },
+  {
+    "salt": "T013-S0",
+    "bank": "A",
+    "feature": "halves_histogram_L1",
+    "spearman_same_client_overlap": 0.028036809360167534,
+    "spearman_two_factor_regret": 0.1605827712599669
+  },
+  {
+    "salt": "T013-S0",
+    "bank": "A",
+    "feature": "halves_histogram_JS",
+    "spearman_same_client_overlap": 0.08038878508262948,
+    "spearman_two_factor_regret": 0.22532928704074456
+  },
+  {
+    "salt": "T013-S0",
+    "bank": "B",
+    "feature": "normalized_entropy",
+    "spearman_same_client_overlap": -0.12484499019082253,
+    "spearman_two_factor_regret": 0.06306891080459674
+  },
+  {
+    "salt": "T013-S0",
+    "bank": "B",
+    "feature": "max_class_fraction",
+    "spearman_same_client_overlap": 0.13200577508919387,
+    "spearman_two_factor_regret": -0.01737909434350066
+  },
+  {
+    "salt": "T013-S0",
+    "bank": "B",
+    "feature": "halves_histogram_L1",
+    "spearman_same_client_overlap": 0.02858685772607337,
+    "spearman_two_factor_regret": 0.19988423058287516
+  },
+  {
+    "salt": "T013-S0",
+    "bank": "B",
+    "feature": "halves_histogram_JS",
+    "spearman_same_client_overlap": 0.08997276908077735,
+    "spearman_two_factor_regret": 0.22449382257468078
+  },
+  {
+    "salt": "T013-S1",
+    "bank": "A",
+    "feature": "normalized_entropy",
+    "spearman_same_client_overlap": -0.12038337735031472,
+    "spearman_two_factor_regret": 0.030098368777910604
+  },
+  {
+    "salt": "T013-S1",
+    "bank": "A",
+    "feature": "max_class_fraction",
+    "spearman_same_client_overlap": 0.13622626537978247,
+    "spearman_two_factor_regret": -0.02040517477865311
+  },
+  {
+    "salt": "T013-S1",
+    "bank": "A",
+    "feature": "halves_histogram_L1",
+    "spearman_same_client_overlap": 0.03207897080416074,
+    "spearman_two_factor_regret": 0.07843195188317946
+  },
+  {
+    "salt": "T013-S1",
+    "bank": "A",
+    "feature": "halves_histogram_JS",
+    "spearman_same_client_overlap": 0.06926818918569584,
+    "spearman_two_factor_regret": 0.14420311931929833
+  },
+  {
+    "salt": "T013-S1",
+    "bank": "B",
+    "feature": "normalized_entropy",
+    "spearman_same_client_overlap": -0.10606802270475255,
+    "spearman_two_factor_regret": 0.022171960806406422
+  },
+  {
+    "salt": "T013-S1",
+    "bank": "B",
+    "feature": "max_class_fraction",
+    "spearman_same_client_overlap": 0.1213784963853851,
+    "spearman_two_factor_regret": -0.032754745909795775
+  },
+  {
+    "salt": "T013-S1",
+    "bank": "B",
+    "feature": "halves_histogram_L1",
+    "spearman_same_client_overlap": 0.03709550874707322,
+    "spearman_two_factor_regret": 0.13573495645768774
+  },
+  {
+    "salt": "T013-S1",
+    "bank": "B",
+    "feature": "halves_histogram_JS",
+    "spearman_same_client_overlap": 0.05977686741436622,
+    "spearman_two_factor_regret": 0.13516998265349342
+  },
+  {
+    "salt": "T013-S2",
+    "bank": "A",
+    "feature": "normalized_entropy",
+    "spearman_same_client_overlap": -0.07882176889272982,
+    "spearman_two_factor_regret": 0.1065212449849051
+  },
+  {
+    "salt": "T013-S2",
+    "bank": "A",
+    "feature": "max_class_fraction",
+    "spearman_same_client_overlap": 0.11524667907285492,
+    "spearman_two_factor_regret": -0.08228971210398132
+  },
+  {
+    "salt": "T013-S2",
+    "bank": "A",
+    "feature": "halves_histogram_L1",
+    "spearman_same_client_overlap": -0.03174546987580368,
+    "spearman_two_factor_regret": 0.026454281564078287
+  },
+  {
+    "salt": "T013-S2",
+    "bank": "A",
+    "feature": "halves_histogram_JS",
+    "spearman_same_client_overlap": -0.013735111017109716,
+    "spearman_two_factor_regret": 0.04851254589166163
+  },
+  {
+    "salt": "T013-S2",
+    "bank": "B",
+    "feature": "normalized_entropy",
+    "spearman_same_client_overlap": -0.08664668087773808,
+    "spearman_two_factor_regret": 0.09503567605956181
+  },
+  {
+    "salt": "T013-S2",
+    "bank": "B",
+    "feature": "max_class_fraction",
+    "spearman_same_client_overlap": 0.1331830469790134,
+    "spearman_two_factor_regret": -0.08541419784880785
+  },
+  {
+    "salt": "T013-S2",
+    "bank": "B",
+    "feature": "halves_histogram_L1",
+    "spearman_same_client_overlap": -0.08298621362728761,
+    "spearman_two_factor_regret": 0.06437949075514399
+  },
+  {
+    "salt": "T013-S2",
+    "bank": "B",
+    "feature": "halves_histogram_JS",
+    "spearman_same_client_overlap": -0.031241832888300305,
+    "spearman_two_factor_regret": 0.09195652066885515
+  },
+  {
+    "salt": "T013-S3",
+    "bank": "A",
+    "feature": "normalized_entropy",
+    "spearman_same_client_overlap": -0.10902769643867846,
+    "spearman_two_factor_regret": 0.12050247858703336
+  },
+  {
+    "salt": "T013-S3",
+    "bank": "A",
+    "feature": "max_class_fraction",
+    "spearman_same_client_overlap": 0.11975631596948255,
+    "spearman_two_factor_regret": -0.12543960137167065
+  },
+  {
+    "salt": "T013-S3",
+    "bank": "A",
+    "feature": "halves_histogram_L1",
+    "spearman_same_client_overlap": 0.0009149572621070204,
+    "spearman_two_factor_regret": 0.1378902962878764
+  },
+  {
+    "salt": "T013-S3",
+    "bank": "A",
+    "feature": "halves_histogram_JS",
+    "spearman_same_client_overlap": 0.005912247617235691,
+    "spearman_two_factor_regret": 0.18643236554429082
+  },
+  {
+    "salt": "T013-S3",
+    "bank": "B",
+    "feature": "normalized_entropy",
+    "spearman_same_client_overlap": -0.09929445707867726,
+    "spearman_two_factor_regret": 0.13994967163850297
+  },
+  {
+    "salt": "T013-S3",
+    "bank": "B",
+    "feature": "max_class_fraction",
+    "spearman_same_client_overlap": 0.11108801656965357,
+    "spearman_two_factor_regret": -0.138975083373643
+  },
+  {
+    "salt": "T013-S3",
+    "bank": "B",
+    "feature": "halves_histogram_L1",
+    "spearman_same_client_overlap": 0.049842124768257834,
+    "spearman_two_factor_regret": 0.17400816448599712
+  },
+  {
+    "salt": "T013-S3",
+    "bank": "B",
+    "feature": "halves_histogram_JS",
+    "spearman_same_client_overlap": 0.053276935464107944,
+    "spearman_two_factor_regret": 0.2028584942920576
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-09-14T02:33:54+08:00",
+  "lead": "9d6ada0",
+  "runtime": "089c918d38273c06b85074c6e51224b5b4c0bf28",
+  "run": "20260914-t013-local",
+  "decision": "FACTOR-B",
+  "raw": "research_log/t013_receipts/20260914-t013-local/artifacts/t013_disjoint_factorization",
+  "results": "results/t013_disjoint_factorization/RESULTS.md",
+  "next": "Await Lead"
+}

@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-09-13T18:30:10.210401+00:00",
+  "T011_5000_count_rows_exact": true,
+  "T012_full_query_overlap_exact": true,
+  "all_lengths_aligned": true,
+  "new_forward_passes": 0
+}

@@ -173,3 +173,6 @@ Runtime87f1bde run20260914-013254-ttfl-t012-gpu1. Strongclientlock28pp overlapex
 
 ## 2026-09-14T02:26:44.4896662+08:00 — T013 started
 Existing T011NPZlocated; deterministichalves andFractionleaveoneouthelperfocusedtests, no newforwards planned.
+
+## 2026-09-14T02:34:27.1485796+08:00 — T013 COMPLETE FACTOR-B
+Existingprediction-onlyCPUrun089c918. Disjointexampleslocksurvivesall4saltsbothbanks. AdditivecrossfithelpsDark/Contrastbutnot>=80percentoracleon3/4contexts.2focusedtests,5000oldrows/T012overlap and600newmetricindependentcountchecksPASS. Allchoicesfreezebeforecomposition. No newstate/writer/forwards.
