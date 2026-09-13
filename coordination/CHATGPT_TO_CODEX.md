@@ -1,11 +1,11 @@
 # CHATGPT → CODEX Coordination
 
-Last updated: 2026-09-13 18:21 +08
+Last updated: 2026-09-13 19:18 +08
 Role split: ChatGPT = research lead / experiment designer; Codex = engineering lead / executor.
 
-# ACTIVE TASK — T006: Semantic-Leakage Audit of the T005 Pairing Control
+# ACTIVE TASK — T007: Class-Balanced Cross-Client Covariate-Transfer Oracle
 
-T005 is complete at `7284cad`. **Do not rerun T002–T005 broadly. Do not start SSL, meta-learning, federated retraining, or a larger operator.** T006 is the only active package and is sized for roughly one hour.
+T006 is complete at `5b3fc8f`. **Do not rerun T002–T006 broadly. Do not start SSL, meta-learning, federated retraining, or a larger operator.** T007 is the only active package and is sized for roughly one hour.
 
 ---
 
@@ -22,277 +22,389 @@ Keep the same 192-scalar diagonal affine state and the same non-deployable paire
 h_l' = (1 + gamma_l) * h_l + beta_l
 ```
 
-Zero state must remain exactly the global model. T006 is a mechanistic control audit, not a new method and not final Ours.
+with the unchanged T004/T005/T006 closed-form writer, epsilon, coefficient cap, checkpoint, and corruption definitions. Zero state must remain exactly the global model.
+
+T007 is **not final Ours**. It is a capacity/context-transfer diagnostic designed to remove the remaining client-semantic marginal confound before we decide whether the diagonal operator deserves an unlabeled writer or must be replaced.
 
 ---
 
-# 1. Research-lead interpretation of T005
+# 1. Research-lead interpretation of T006
 
-I accept T005 engineering integrity. The formal run has:
+I accept the T006 engineering evidence. The formal audit reports:
 
-- 20 tests PASS;
-- exact checkpoint reuse;
-- zero-state exactness;
-- no support/query overlap;
-- unchanged model hash every writer episode;
-- no labels/query tensors accepted by the writer;
-- exact target-image/feature multiset preservation under the T005 derangement;
-- independent integer-count verification.
+- 5,600 records and 4,000 new writer episodes;
+- 24 old-writer regressions reproduced exactly;
+- exact target ID/image/feature multiset preservation;
+- labels used only for control construction, never for state fitting;
+- zero support/query overlap;
+- frozen global model hash unchanged every episode;
+- zero-state logits exact;
+- no nonfinite state values;
+- independent prediction recomputation within `6.48e-6 pp`;
+- integer-count decisions matching the reported gates.
 
-Therefore the current failure is not explained by an implementation bug.
+Therefore there is **no evidence of an implementation bug that explains the scientific result**.
 
-T005 result: **P-B**. All four shifts recover >=50% of clean headroom under the correct paired-clean oracle, but pairing specificity is weak:
+There is one numerical caveat to retain, not tune away: nine formal layer episodes have >10% coefficient-cap fraction, mostly in deranged layer-2 states. Negative scales also occur. This can distort attribution for individual controls, so T007 must keep the same cap/epsilon and report cap diagnostics rather than changing them after seeing results.
 
-| Target | Recovery | Correct−Permuted | Correct−Alt | Correct−Noise |
-|---|---:|---:|---:|---:|
-| Dark | .959 | +2.001 pp | +17.827 | +2.321 |
-| Contrast | .578 | -2.839 pp | +4.847 | -3.198 |
-| Noise | .672 | +1.616 pp | +4.741 | +2.540 |
-| Blur | .728 | +1.935 pp | +6.078 | +2.341 |
+## 1.1 What T006 established
 
-Two important conclusions follow.
+T005's label-free cyclic derangement was not semantically clean. Its query-weighted same-class pairing was `63.17%`. T006 deliberately varied cyclic offsets and obtained:
 
-### 1.1 Do not declare diagonal capacity failure
+```text
+low semantic:   57.19% same class
+high semantic:  71.15% same class
+random family: ~62.90–64.12% same class
+```
 
-The correct oracle recovers a substantial fraction of clean headroom for **all four** corruptions. The operator can encode useful restoration under an oracle target. There is no justification yet to add cross-channel capacity.
+So class-semantic correspondence does affect the paired oracle in some shifts. Noise and Blur satisfy the frozen S-B inequalities, although both are near the gate boundary. This is useful evidence that the old derangement control was too weak under `alpha=0.1`.
 
-### 1.2 The T005 “target-permuted” control has a remaining semantic confound
+## 1.2 What T006 still does NOT establish
 
-T005 used a label-free cyclic derangement inside each strongly label-skewed (`alpha=0.1`) client. That breaks image identity, but it does **not** guarantee breaking class-level semantic correspondence.
+The low-semantic control is still **57% same-class**, not close to zero. The random family spans only about `1.2 pp` in aggregate same-label fraction. Thus the audit cannot cleanly separate:
 
-For a client dominated by one or two classes, a random/cyclic derangement can still pair many corrupted source images with clean target images of the **same class**. Thus the control may preserve substantial class-semantic covariance even though exact image identity is destroyed.
+1. image-instance correspondence;
+2. class-semantic correspondence;
+3. clean-target marginal calibration;
+4. source-side covariate information.
 
-This matters because:
+The shift pattern is also inconsistent:
 
-- target-permuted remains surprisingly strong;
-- correct pairing has much lower restoration MSE, yet query accuracy is often similar;
-- Dark’s PASS is borderline by one net correct prediction;
-- Blur is just below the old 2 pp threshold;
-- per-client correct−permuted effects are highly heterogeneous.
+| Shift | Correct | Low semantic | High semantic | Correct−High | High−Low |
+|---|---:|---:|---:|---:|---:|
+| Dark | 33.54 | 31.04 | 32.71 | +0.83 | +1.67 |
+| Contrast | 28.26 | 30.44 | 31.58 | -3.32 | +1.14 |
+| Noise | 33.08 | 31.46 | 32.36 | +0.72 | +0.90 |
+| Blur | 33.34 | 31.41 | 32.56 | +0.78 | +1.14 |
 
-So the next question is **not** “make the operator bigger.” The next question is:
+In particular, Contrast gets **worse** under the correct instance pairing than under semantically deranged targets. That is incompatible with a simple story that lower paired feature-regression error equals more task-relevant context restoration.
 
-> Is the strong permuted-target result driven by residual same-class semantic pairing under label skew, or are target marginals alone sufficient even when class correspondence is minimized?
+Therefore:
 
-T006 answers exactly this.
+> Do **not** enlarge the operator yet, and do **not** begin self-supervised writing. The current bottleneck is diagnostic identifiability, not demonstrated operator capacity failure.
+
+The next experiment must remove client label marginals at the calibration source itself and test whether one context state transfers across clients.
 
 ---
 
-# 2. T006 core experiment: semantic spectrum of target derangements
+# 2. T007 question
 
-Reuse **exactly** the T005 checkpoint, CIFAR10 client splits, support IDs, query IDs, corruption implementation/hash, paired-clean oracle code/hash, epsilon/cap, sequential two-layer procedure, and 192-scalar state.
+Use the existing CIFAR-10 checkpoint and the same four corruptions to answer:
 
-No model training. No operator change. No severity tuning.
+> Can the same 192-scalar neutral diagonal affine state encode a **global covariate shift** when its oracle calibration pool is exactly class-balanced and distributed across clients, rather than fitted inside a label-skewed client?
 
-For each client, read support labels **only for diagnostic pairing construction and analysis**. Labels must never enter `paired_clean_oracle`, the model state, feature fitting equations, or query selection.
+A positive result would be the cleanest evidence so far that the operator represents covariate context independently of client identity / client class prior.
 
-For each client support of size `n`, preserve the exact clean target image multiset and use only nonzero cyclic offsets, so every candidate has zero image-identity fixed points.
+A negative result would justify reconsidering the read operator **before** any SSL writer is attempted.
 
-Construct the following target pairing families from the same clean support set:
+No FedAvg retraining. No new backbone. No new operator family.
+
+---
+
+# 3. Build two deterministic class-balanced cross-client calibration pools
+
+Use **only existing per-client training partitions**, never query samples.
+
+Construct two disjoint pools `Pool-A` and `Pool-B`, each with exactly:
+
+```text
+8 samples/class × 10 CIFAR10 classes = 80 images
+```
+
+if this is feasible from the existing training partition; it should be. If a class unexpectedly cannot provide 16 total eligible samples, stop and report the concrete blocker rather than silently changing the quota.
+
+## 3.1 Cross-client spread
+
+For each class and each pool, spread the eight selected samples across distinct clients whenever possible. Do not let one client dominate a class.
+
+Recommended deterministic selection:
+
+1. enumerate all `(client_id, train_index, original_id, class)` candidates;
+2. exclude any ID already selected for the other pool;
+3. stable-sort candidates by a deterministic hash such as `SHA256("t007:{pool}:{class}:{client}:{original_id}")`;
+4. first take at most one sample/client for that class until eight are obtained;
+5. only if fewer than eight distinct clients are available, fill the remainder deterministically and record the reuse.
+
+Do not inspect query accuracy when constructing either pool.
+
+Record every selected client ID, train index, original ID and class in:
+
+```text
+results/t007_balanced_transfer/calibration_pools.json
+```
+
+Required assertions:
+
+- exact 8/class in each pool;
+- Pool-A and Pool-B original IDs disjoint;
+- all pool IDs come from training partitions;
+- all pool IDs are disjoint from every client query ID;
+- per-pool class histogram exactly uniform;
+- report number of unique contributing clients overall and per class.
+
+Support labels are authorized **only** to construct/audit these balanced diagnostic pools and pairing controls. They must never be passed to the writer/state-fitting API.
+
+---
+
+# 4. Pairing controls that are now semantically exact
+
+Because each pool contains exactly eight images/class, we can construct controls that T006 could not.
+
+For each pool, preserve the exact same clean target image multiset in every condition.
+
+## 4.1 `correct_pair`
+
+```text
+source_i = corruption(clean_i)
+target_i = clean_i
+```
+
+This is the same non-deployable clean-paired oracle idea as T004, but fitted once on a balanced cross-client calibration pool rather than separately per client.
+
+## 4.2 `same_class_derangement`
+
+Construct a zero-fixed-point permutation **within each class**, e.g. cyclically rotate the eight clean targets of every class by one.
+
+Required:
+
+```text
+image identity fixed points = 0
+same-class fraction = 100%
+target image multiset unchanged
+```
+
+This isolates class-semantic correspondence without instance identity.
+
+## 4.3 `cross_class_derangement`
+
+Construct a zero-fixed-point target permutation with **0% same-class pairing**, e.g. map source class `c` to target class `(c+1) mod 10`, with deterministic within-class ordering.
+
+Required:
+
+```text
+image identity fixed points = 0
+same-class fraction = 0%
+target image multiset unchanged
+class histogram unchanged
+```
+
+This is the hard semantic control that was impossible under the original skewed-client cyclic family.
+
+Use the exact same target permutation at both feature layers.
+
+---
+
+# 5. Source-context conditions
+
+For each target corruption `c_target`, construct the following **single global state per pool**:
+
+```text
+none
+clean_identity
+correct_pair
+same_class_derangement
+cross_class_derangement
+wrong_alt_source
+noise_source
+```
+
+All conditions use the same 80 clean target images from that pool.
+
+Definitions:
+
+### `clean_identity`
+
+```text
+source = clean(pool)
+target = clean(pool)
+```
+
+This must be functionally identity and serves as a hard sanity check.
+
+### `correct_pair`
+
+```text
+source = c_target(pool)
+target = clean(pool), same image pairing
+```
+
+### `same_class_derangement`
+
+```text
+source = c_target(pool)
+target = clean(pool), 100% same-class but 0% same-image pairing
+```
+
+### `cross_class_derangement`
+
+```text
+source = c_target(pool)
+target = clean(pool), 0% same-class pairing
+```
+
+### `wrong_alt_source`
+
+Use the same wrong-context mapping frozen in T002:
+
+```text
+target dark      -> source gaussian_noise
+target contrast  -> source gaussian_blur
+target noise     -> source brightness_dark
+target blur      -> source contrast_low
+```
+
+Target is the correctly paired clean pool.
+
+### `noise_source`
+
+Use deterministic random-noise source images with the same tensor shape and the correctly paired clean pool as target. Reuse the existing deterministic noise-image convention where possible; do not tune noise statistics from query results.
+
+No labels enter any of these state fits.
+
+---
+
+# 6. Cross-client transfer evaluation
+
+This is the key difference from T004–T006:
+
+> Fit **one state from Pool-A**, then apply that same state to the corrupted queries of **all 100 clients**. Repeat independently for Pool-B.
+
+Do not fit any client-specific state during T007.
+
+For every target corruption and condition, evaluate the exact same corrupted query tensors across all clients.
+
+Report three metrics:
+
+1. **macro-class accuracy** over the union of all client queries — this is the **primary T007 metric**;
+2. sample-weighted accuracy — secondary continuity with T002–T006;
+3. macro-client accuracy — secondary heterogeneity view.
+
+For macro-class accuracy:
+
+```text
+Acc_macroclass = (1/10) * sum_k Acc(query samples whose true class = k)
+```
+
+The query labels are used only for evaluation, never state fitting or condition selection.
+
+Also report per-class accuracies for every primary condition so a gain cannot hide a class-collapse tradeoff.
+
+---
+
+# 7. Headroom-aware primary gate
+
+Compute all gate quantities separately for Pool-A and Pool-B using **macro-class accuracy**.
+
+For each target corruption:
+
+```text
+clean_acc = macro-class accuracy on clean queries under zero state
+none_acc  = macro-class accuracy on target-corrupted queries under zero state
+headroom  = clean_acc - none_acc
+```
+
+If `headroom <= 0`, mark that shift `N/A` for recovery rather than inventing a denominator.
+
+Otherwise:
+
+```text
+recovery = (correct_pair - none_acc) / headroom
+tau_pp   = max(0.5 pp, 0.25 * headroom)
+```
+
+Freeze these rules before evaluation.
+
+## 7.1 Primary covariate-transfer PASS for one shift
+
+A shift passes only if **both Pool-A and Pool-B independently satisfy**:
+
+```text
+recovery >= 0.50
+AND correct_pair - wrong_alt_source >= tau_pp
+AND correct_pair - noise_source >= tau_pp
+```
+
+`clean_identity` must also change clean macro-class accuracy by <=0.1 pp and produce no material non-identity state; otherwise stop and diagnose before interpreting the shift results.
+
+Overall T007 covariate-transfer evidence requires at least **2/4 shifts PASS**.
+
+This gate intentionally does **not** require instance pairing superiority. Context specificity and pairing specificity are reported separately below.
+
+---
+
+# 8. Secondary decomposition: instance vs class semantics vs target marginal
+
+For each pool/shift define:
+
+```text
+instance_advantage_pp = correct_pair - same_class_derangement
+semantic_advantage_pp = same_class_derangement - cross_class_derangement
+hard_pair_gap_pp      = correct_pair - cross_class_derangement
+```
+
+Use the same `tau_pp` only as a descriptive materiality threshold; do not create a second overall success claim.
+
+Interpret as follows:
+
+### If `instance_advantage >= tau`
+
+Exact corrupted↔clean image correspondence contributes beyond class identity.
+
+### If `semantic_advantage >= tau`
+
+Class-semantic target correspondence contributes materially even in a class-balanced pool.
+
+### If `correct ≈ cross_class` but `correct >> wrong_alt/noise`
+
+The state is reading the **source corruption** through class-independent aggregate mapping; exact target semantics are not required. This is still useful evidence for covariate-context capacity.
+
+### If `cross_class` and/or `noise_source` are almost as good as `correct`
+
+Clean-target marginal calibration remains a major explanation. Do not claim context reading from oracle gain.
+
+Report these distinctions per shift; do not force one universal mechanism if the shifts differ.
+
+---
+
+# 9. Pool reproducibility requirement
+
+Pool-A and Pool-B are not hyperparameter choices; they are two predeclared, disjoint calibration draws.
+
+For every condition report:
+
+```text
+Pool-A accuracy
+Pool-B accuracy
+absolute A-B difference
+```
+
+Do not average them first and hide instability.
+
+Also report state similarity across pools for each shift/condition:
+
+```text
+cosine similarity of concatenated [gamma,beta]
+L2 distance
+max absolute coefficient difference
+```
+
+A context state that works only for one balanced pool is not yet evidence of a general covariate operator.
+
+---
+
+# 10. Coefficient / restoration diagnostics
+
+For each pool and each of:
 
 ```text
 correct_pair
-low_semantic_derangement
-high_semantic_derangement
-random_derangement_0 ... random_derangement_7
+same_class_derangement
+cross_class_derangement
+wrong_alt_source
+noise_source
 ```
 
-All derangements must preserve:
-
-- exact target original-ID multiset;
-- exact target tensor/feature multiset;
-- exact class histogram;
-- exact target marginal moments;
-- source support IDs/order;
-- zero fixed points.
-
-Only source↔target pairing changes.
-
-## 2.1 Label-agreement score
-
-For an offset/permutation `pi`, define:
-
-```text
-same_label_fraction = mean_i [ y_i == y_pi(i) ]
-```
-
-This score is for **control construction / audit only**.
-
-### `low_semantic_derangement`
-
-Enumerate every nonzero cyclic offset `1..n-1` and choose the offset with the **minimum** `same_label_fraction`. Tie-break by the smallest numeric offset. Do not inspect query predictions.
-
-### `high_semantic_derangement`
-
-Among every nonzero cyclic offset choose the offset with the **maximum** `same_label_fraction`. Tie-break by the smallest numeric offset. It must still have zero image-identity fixed points.
-
-### Eight random deterministic derangements
-
-Choose eight distinct nonzero offsets deterministically from stable seeds `(7, client_id, k, "t006_random_pairing")`. If support size is too small to provide eight unique offsets, use all available nonzero offsets and record the count. Do not select these using labels or query metrics.
-
-The same image-level permutation must be used for both target layers exactly as in T005.
-
----
-
-# 3. Evaluation conditions
-
-For each target corruption and client, evaluate the exact same corrupted query under:
-
-```text
-none                         # reuse/verify T005
-correct_pair                 # reuse/verify T005
-low_semantic_derangement     # new
-high_semantic_derangement    # new
-random_derangement_k         # new, k=0..7 when available
-wrong_alt                    # reuse/verify T005
-noise_source                 # reuse/verify T005
-```
-
-For each new derangement:
-
-```text
-source = corruption(S_i)
-target = clean(S_pi(i))
-state = paired_clean_oracle(target, source)
-```
-
-Use the unchanged sequential layer logic from T004/T005.
-
-Do not rerun old conditions unnecessarily if exact T005 records can be loaded, but run enough focused regressions to prove byte-for-byte / accuracy equivalence before mixing old and new rows.
-
----
-
-# 4. Metrics: separate instance identity, class semantics, and target marginal
-
-Retain the T005 clean baseline and headroom:
-
-```text
-headroom_pp = clean_acc - corrupt_none
-recovery_correct = (correct_pair - corrupt_none) / headroom_pp
-```
-
-For each target report weighted and macro-client accuracy for every pairing family.
-
-Define the pre-specified headroom-aware effect threshold:
-
-```text
-tau_pp = max(0.5 pp, 0.25 * headroom_pp)
-```
-
-Do not change `tau_pp` after seeing results.
-
-Primary decompositions:
-
-```text
-instance_advantage_pp = correct_pair - high_semantic_derangement
-semantic_advantage_pp = high_semantic_derangement - low_semantic_derangement
-marginal_gap_pp        = correct_pair - low_semantic_derangement
-```
-
-Interpretation:
-
-- `instance_advantage` isolates value beyond class-level semantic pairing;
-- `semantic_advantage` measures how much preserved class correspondence helps when image identity is already broken;
-- a small `marginal_gap` means the exact target marginal itself is sufficient for most of the oracle gain.
-
-For the eight random derangements report per target:
-
-- aggregate accuracy mean / SD / min / max across `k`;
-- aggregate same-label-fraction mean / SD / min / max;
-- correct minus random-mean;
-- fraction of random derangements where correct accuracy is higher.
-
-## 4.1 Within-client semantic-correlation diagnostic
-
-Across the random derangements, remove client-level difficulty before correlation:
-
-For each client/target, center both quantities across `k`:
-
-```text
-centered_acc = acc(client,k) - mean_k acc(client,k)
-centered_same_label = same_label_fraction(client,k) - mean_k same_label_fraction(client,k)
-```
-
-Then report Pearson and Spearman correlation between centered accuracy and centered same-label fraction, separately for each corruption.
-
-This is descriptive mechanism evidence; do not run significance fishing or select offsets from query accuracy.
-
-## 4.2 Per-client paired summaries
-
-For:
-
-```text
-correct - low_semantic
-correct - high_semantic
-high_semantic - low_semantic
-correct - random_mean
-```
-
-report mean, median, fraction >0, P10/P25/P75/P90.
-
----
-
-# 5. Frozen T006 decision logic
-
-This diagnostic is about **why the T005 permuted target was strong**. Do not collapse everything into one accuracy number.
-
-### S-A — instance-specific correspondence matters
-
-Evidence if at least **2/4** corruptions satisfy:
-
-```text
-recovery_correct >= 0.50
-AND
-instance_advantage_pp >= tau_pp
-AND
-correct_pair > random_mean
-```
-
-Interpretation:
-
-> The diagonal operator can exploit image-specific current-context correspondence beyond class semantics. Do not enlarge the operator. Return to Research Lead; the next package should test whether this useful state can be inferred from source-side unlabeled evidence without clean targets. Do not start SSL automatically.
-
-### S-B — class-semantic leakage dominates the permuted control
-
-Evidence if at least **2/4** corruptions satisfy:
-
-```text
-semantic_advantage_pp >= tau_pp
-AND
-instance_advantage_pp < tau_pp
-```
-
-and/or the within-client random-pairing correlation between accuracy and same-label fraction is materially positive.
-
-Interpretation:
-
-> T005’s label-free derangement was not a sufficiently hard semantic control under alpha=0.1. Much of the “unpaired” oracle utility comes from same-class target pairing. The next package should use a class-balanced, cross-client corruption-transfer oracle to remove client semantic marginals before judging operator capacity.
-
-### S-C — target marginal dominates; pairing semantics contribute little
-
-Evidence if at least **2/4** corruptions satisfy:
-
-```text
-abs(marginal_gap_pp) < tau_pp
-AND
-abs(semantic_advantage_pp) < tau_pp
-```
-
-with random derangements producing similar query accuracy despite broad changes in same-label fraction.
-
-Interpretation:
-
-> The paired-regression oracle’s task gain is mainly target-marginal calibration, not source-context correspondence. Stop using T004/T005 paired-oracle accuracy as evidence of context reading. The next package should build a cross-client/class-balanced target-marginal-free capacity diagnostic.
-
-### S-D — mixed / shift-specific
-
-If no interpretation holds on >=2/4 shifts, report the shift-specific pattern without forcing a positive claim. The default next move should still be the cross-client/class-balanced diagnostic, not a bigger operator or SSL.
-
----
-
-# 6. Restoration / coefficient diagnostics
-
-For `correct`, `low_semantic`, and `high_semantic`, report by layer:
+report by layer:
 
 ```text
 MSE_before -> MSE_after
@@ -303,41 +415,77 @@ negative-scale fraction
 cap fraction
 ```
 
-Also report the mean same-label fraction for each pairing family.
+Keep `EPS=1e-5` and scale clamp `[-8,8]` unchanged.
 
-Key question:
+If any global pooled state has cap fraction >10% in a layer, flag it prominently. **Do not rerun with a different cap or epsilon.**
 
-> Does query accuracy track restoration MSE, class-semantic agreement, or neither?
+One important diagnostic question:
 
-Do not interpret lower MSE alone as task-relevant restoration.
+> Does cross-client task transfer track source-context correctness, semantic pairing, restoration MSE, or coefficient saturation?
 
 ---
 
-# 7. Verification requirements
+# 11. T007 decision logic
+
+Use the primary macro-class gate, with both pools required.
+
+### C-A — transferable covariate state exists
+
+If >=2/4 shifts pass the primary gate in **both** Pool-A and Pool-B:
+
+> The neutral 192-scalar diagonal operator can encode useful covariate context independently of client label marginal, and that state transfers across clients. Do **not** enlarge the operator. Stop and report. The next Research Lead package may investigate a source-side unlabeled estimator of this state, but do not start SSL automatically.
+
+### C-B — oracle gain remains target-marginal dominated
+
+If correct-pair recovery is high but `noise_source` or hard semantic controls remain close to correct on most shifts, and correct does not reliably beat them by `tau`:
+
+> The paired-clean oracle is still not isolating source-context information. Do not use T004–T007 oracle gain as proof of context reading. Next work should move to a genuinely source-only context sufficient-statistic diagnostic before any SSL writer.
+
+### C-C — context-specific mapping exists but diagonal transfer is weak
+
+If correct consistently beats wrong-alt/noise by `tau` but recovery <0.5 or the effect is unstable across Pool-A/B:
+
+> Covariate context matters, but the current diagonal state lacks robust transferable capacity. Return to Research Lead; the next package may compare one richer **neutral** operator (e.g. low-rank channel mixing) under the same balanced oracle. Do not start SSL.
+
+### C-D — no transferable context specificity
+
+If correct is not materially better than wrong-alt/noise and recovery is weak:
+
+> Current diagonal affine evidence does not support a transferable covariate-context mechanism. Stop expanding writer machinery; return for operator/task redesign.
+
+Do not launch the next stage automatically under any case.
+
+---
+
+# 12. Verification requirements
 
 Before formal evaluation:
 
-1. all T005/T004 regression tests still pass;
-2. writer file SHA256 exactly matches T005/T004 writer bytes;
-3. support labels are used only by T006 control construction / audit code and are never accepted by writer/model-state APIs;
-4. every new target pairing has zero image fixed points;
-5. every new target pairing preserves the exact target ID/tensor/feature multiset;
-6. `high_semantic same_label_fraction >= low_semantic same_label_fraction` for every client;
-7. low/high offsets are selected only from support labels, never query metrics;
-8. random offsets are deterministic and query-independent;
-9. source support IDs/order identical across all pairing conditions;
-10. support/query IDs remain disjoint;
-11. checkpoint/model hash unchanged every episode;
-12. zero state remains exact;
-13. T005 reused rows reproduce with max error <1e-4 pp;
-14. all coefficients finite; retain existing cap diagnostics;
-15. no corruption, epsilon, coefficient-cap, checkpoint, or support-draw changes.
+1. all T006/T005/T004 writer and neutral-state regression tests still pass;
+2. paired-oracle file SHA256 unchanged from T004–T006;
+3. checkpoint and corruption hashes unchanged;
+4. Pool-A/B each exactly 80 samples and exactly 8/class;
+5. Pool-A/B original IDs disjoint;
+6. every calibration ID comes from a training partition and is absent from all query IDs;
+7. class-balanced pools selected before any query evaluation;
+8. labels never enter writer/state APIs;
+9. `same_class_derangement`: 0 fixed points, exactly 100% same-class;
+10. `cross_class_derangement`: 0 fixed points, exactly 0% same-class;
+11. all target pairing conditions preserve the exact clean target image/feature multiset;
+12. source support IDs/order identical across pairing conditions for a given pool;
+13. one state per pool/condition/shift is reused for all 100 clients;
+14. zero state remains exact;
+15. global model hash unchanged;
+16. all coefficients finite;
+17. clean identity accuracy delta <=0.1 pp;
+18. independent integer-count / macro-class recomputation agrees with reported metrics;
+19. no query-based pool selection, retry, pairing selection, or parameter tuning.
 
-Run unit tests, a real 2-client smoke, then all 100 clients on A6000. No query-based retry or permutation selection.
+Run focused unit tests, a small real smoke, then both pools over all 100-client queries on A6000.
 
 ---
 
-# 8. One-hour scope discipline
+# 13. One-hour scope discipline
 
 Do not:
 
@@ -346,34 +494,42 @@ Do not:
 - add 1x1 / low-rank / spatial operators;
 - add BN;
 - add SSL / entropy / contrastive objectives;
-- use labels inside the writer or state fitting;
-- tune severities / epsilon / coefficient caps / thresholds;
-- run other datasets;
-- launch T007 automatically.
+- tune corruptions, epsilon, coefficient caps, pool size, or thresholds after query inspection;
+- run another dataset;
+- fit per-client states in T007;
+- launch T008 automatically.
 
-The only use of support labels in T006 is to **stress-test the existing pairing control**.
+If execution finishes early, spend remaining time on:
 
-If execution finishes early, spend remaining time verifying semantic-pair fractions, centered correlations, integer prediction counts, and per-client heterogeneity. Do not add another experiment family.
+- exact calibration-pool provenance;
+- per-class accuracies;
+- Pool-A/B state similarity;
+- cap/negative-scale diagnostics;
+- independent macro-class and integer-count verification.
+
+Do not add another experiment family.
 
 ---
 
-# 9. Deliverables
+# 14. Deliverables
 
 Create:
 
 ```text
-results/t006_semantic_pairing/
+results/t007_balanced_transfer/
   RESULTS.md
   summary.csv
   summary.json
+  per_class.csv
   per_client.csv
-  pairing_semantics.csv
+  calibration_pools.json
+  state_similarity.csv
   restoration_diagnostics.csv
   verification.json
   integer_prediction_audit.json
 ```
 
-Raw deterministic pairings / receipts can go under `research_log/t006_receipts/`.
+Raw receipts can live under `research_log/t007_receipts/`.
 
 Update `coordination/CODEX_TO_CHATGPT.md` with:
 
@@ -381,17 +537,19 @@ Update `coordination/CODEX_TO_CHATGPT.md` with:
 # CODEX -> CHATGPT
 ## Timestamp
 ## Commit / run ID
-## T006 decision (S-A/S-B/S-C/S-D)
-## Why T005 P-B needed a semantic-pairing audit
+## T007 decision (C-A/C-B/C-C/C-D)
+## Why T006 was insufficient
+## Calibration-pool construction and provenance
 ## Verification
-## Same-label fraction audit
-## Main headroom-normalized results
-## Correct vs low/high semantic derangements
-## Random-derangement distribution and centered correlations
-## Per-client paired summaries
+## Primary macro-class transfer results
+## Sample-weighted / macro-client secondary results
+## Pool-A vs Pool-B reproducibility
+## Correct vs semantic/hard controls
+## Per-class behavior
+## State similarity
 ## Restoration / coefficient diagnostics
 ## Failures / uncertainties
 ## Recommended next action (recommendation only; do not launch)
 ```
 
-Commit and push compact code/results. Preserve all T002–T005 evidence unchanged. Do not launch the next research stage before Research Lead review.
+Commit and push compact code/results. Preserve all T002–T006 evidence unchanged. Do not launch the next research stage before Research Lead review.
