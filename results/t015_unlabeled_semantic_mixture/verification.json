@@ -1,0 +1,22 @@
+{
+  "all_frozen_hashes_verified": true,
+  "T009_context_confusions_exact": true,
+  "T014_offline_aggregate_regressions": 120,
+  "support_query_calibration_ids_disjoint": true,
+  "phaseA_no_support_labels_no_target_query_outcomes": true,
+  "phaseB_privileged_choices_before_query": true,
+  "model_states_unchanged_every_support_forward": true,
+  "forward_calls": 1820,
+  "query_forward_calls": 0,
+  "mixtures_normalized_finite_nonnegative": true,
+  "clean_zero_mixture_branches_exact": true,
+  "T014_all1600_template_exclusions_reconstructed_after_freeze": true,
+  "all280_metrics_per_example_integer_reconstructed": true,
+  "no_new_fit_or_tuning": true,
+  "independent_numpy_mixture_max_error": 2.220446049250313e-16,
+  "all56000_utilities_and_argmax_exactly_reconstructed": true,
+  "all280_metrics_count_reconstructed": true,
+  "independent_fraction_gates": true,
+  "freeze_hashes_unchanged": true,
+  "full_regression_tests_passed": 57
+}

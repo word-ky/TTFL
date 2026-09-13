@@ -4,3 +4,9 @@
 
 2026-09-14T04:39:30.1352399+08:00 — implementationready
 Threeinitialfocusedremote testsPASS; addedexplicitPhaseAfreeze-prerequisite test(requiredLeadtest7). Full57test runnerbeforeformal. EvaluatorPhaseA4mixtures/40000choices, PhaseB16000privilegedchoices, onlythenT011query andT013halfcounts. Oldaggregated120metricpreflight; template1600target-exclusion recheckedafterfreeze. Noqueryforwards.
+
+2026-09-14T04:40:17.9474007+08:00 — launched
+Run20260914-043941-ttfl-t015-gpu1 release20260914-043936-ttfl-t015 runtime099c5f1b5fa07bf930d94aac46a5a4a8957d0786. Full57tests first, thenPhaseA/B/query. Checkexisting run,no duplicate.
+
+## 2026-09-14T04:46:45.7346289+08:00 — COMPLETE
+Run043941 exit0,31.13s A6000GPU1;57tests.1820supportforwards,0query. PhaseA40000choices beforelabels; PhaseB16000beforequery. IndependentNumPyposteriorerror2.22e-16, all56000Fractionutilities and280counts/gatesPASS. SUPPORT-COMP4/4PASS; SEM-EST/SEM-SRC1/4FAIL. P10=P00allshifts, semanticestimatorprimarybottleneck; Blurcoupledadditionalloss. Cleanpasses. Fullreportresults/t015_unlabeled_semantic_mixture/RESULTS.md; noT016.

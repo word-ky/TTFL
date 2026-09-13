@@ -185,3 +185,9 @@ Savedprediction-onlyrun78de03c; compositionexplainscleanpreference andclassconte
 
 ## 2026-09-14T04:36:02.9826656+08:00 — T015 started
 Leadffb85ee;sourceposteriorhelper, stagedfreeze evaluation planned. Existing noTTFLremotejobs; T014templatespresentremote.
+
+## 2026-09-14T04:40:17.9474007+08:00 — T015 launch
+A6000GPU1 run20260914-043941-ttfl-t015-gpu1 runtime099c5f1; stagedlabel-free/privilegedfreeze; noqueryforwards.
+
+## 2026-09-14T04:46:45.7346289+08:00 — T015 COMPLETE
+Runtime099c5f1 run20260914-043941-ttfl-t015-gpu1. Supportsampleadequatebutfrozenposteriorsemanticmixturefailswithoraclecontext. Allfreezes/hash/model/57tests/count/utilitychecksPASS. ReportnegativeobservabilityandsecondaryBlurloss; no newwriter/stage.

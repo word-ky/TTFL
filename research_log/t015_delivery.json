@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-09-14T04:46:07+08:00",
+  "lead": "ffb85ee",
+  "runtime": "099c5f1b5fa07bf930d94aac46a5a4a8957d0786",
+  "run": "20260914-043941-ttfl-t015-gpu1",
+  "decision": "SUPPORT-COMP-A PASS; SEM-EST-A/SEM-SRC-A FAIL",
+  "raw": "research_log/t015_receipts/20260914-043941-ttfl-t015-gpu1/artifacts/t015_unlabeled_semantic_mixture",
+  "remote": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-043941-ttfl-t015-gpu1/artifacts/t015_unlabeled_semantic_mixture",
+  "results": "results/t015_unlabeled_semantic_mixture/RESULTS.md",
+  "next": "Await Lead"
+}

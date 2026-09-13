@@ -1,0 +1,76 @@
+[autodl] run_id=20260914-043941-ttfl-t015-gpu1
+[autodl] started_at=2026-09-14T04:39:45+08:00
+test_bn_only_moments (test_affine.AffineTest.test_bn_only_moments) ... ok
+test_neutral_logits (test_affine.AffineTest.test_neutral_logits) ... ok
+test_only_fast_state_and_reset (test_affine.AffineTest.test_only_fast_state_and_reset) ... ok
+test_same_checkpoint_all_methods (test_affine.AffineTest.test_same_checkpoint_all_methods) ... ok
+test_fixed_selectors (test_amplitude_ray.AmplitudeRayTest.test_fixed_selectors) ... ok
+test_scaling_endpoints_and_immutability (test_amplitude_ray.AmplitudeRayTest.test_scaling_endpoints_and_immutability) ... ok
+test_disjoint_balanced_spread_order_independent (test_balanced_pool.BalancedPoolTest.test_disjoint_balanced_spread_order_independent) ... ok
+test_exact_semantic_controls (test_balanced_pool.BalancedPoolTest.test_exact_semantic_controls) ... ok
+test_train_checkpoint_and_metrics (test_baseline.BaselineTest.test_train_checkpoint_and_metrics) ... ok
+test_clean_controls_and_no_eval_api (test_class_factorization.ClassFactorizationTest.test_clean_controls_and_no_eval_api) ... ok
+test_leave_one_out_changes (test_class_factorization.ClassFactorizationTest.test_leave_one_out_changes) ... ok
+test_zero_denominator_observed_contract (test_class_factorization.ClassFactorizationTest.test_zero_denominator_observed_contract) ... ok
+test_deterministic_by_sample_not_order_and_no_mutation (test_covariate.CovariateTest.test_deterministic_by_sample_not_order_and_no_mutation) ... ok
+test_formulas_and_identity (test_covariate.CovariateTest.test_formulas_and_identity) ... ok
+test_weighted_gate_and_paired_summary (test_covariate.CovariateTest.test_weighted_gate_and_paired_summary) ... ok
+test_balanced_and_disjoint (test_data.DataTest.test_balanced_and_disjoint) ... ok
+test_preprocess (test_data.DataTest.test_preprocess) ... ok
+test_equal_client_leave_one_out_and_ties (test_disjoint_factorization.DisjointFactorizationTest.test_equal_client_leave_one_out_and_ties) ... ok
+test_label_blind_partition (test_disjoint_factorization.DisjointFactorizationTest.test_label_blind_partition) ... ok
+test_retrieval_both_bounds_and_nonpositive_gain (test_identification_gates.IdentificationGateTest.test_retrieval_both_bounds_and_nonpositive_gain) ... ok
+test_total_and_per_context (test_identification_gates.IdentificationGateTest.test_total_and_per_context) ... ok
+test_clamp_and_constant_variance (test_moments.MomentsTest.test_clamp_and_constant_variance) ... ok
+test_reference_stream_matches_direct (test_moments.MomentsTest.test_reference_stream_matches_direct) ... ok
+test_sequential_formula_frozen_no_labels_or_optimizer (test_moments.MomentsTest.test_sequential_formula_frozen_no_labels_or_optimizer) ... ok
+test_clean_half_point (test_natural_gates.NaturalGateTest.test_clean_half_point) ... ok
+test_total_and_context_floor (test_natural_gates.NaturalGateTest.test_total_and_context_floor) ... ok
+test_common_prefix_and_unavailable_size (test_natural_support.NaturalSupportTest.test_common_prefix_and_unavailable_size) ... ok
+test_common_size_exclusions_and_determinism (test_natural_support.NaturalSupportTest.test_common_size_exclusions_and_determinism) ... ok
+test_exact_identity_three_variances (test_neutral_oracle.NeutralOracleTest.test_exact_identity_three_variances) ... ok
+test_known_residual_and_cap (test_neutral_oracle.NeutralOracleTest.test_known_residual_and_cap) ... ok
+test_model_identity_and_sequential_contract (test_neutral_oracle.NeutralOracleTest.test_model_identity_and_sequential_contract) ... ok
+test_identity_formula_and_constant (test_paired_oracle.PairedOracleTest.test_identity_formula_and_constant) ... ok
+test_known_affine_and_cap (test_paired_oracle.PairedOracleTest.test_known_affine_and_cap) ... ok
+test_sequential_frozen_api (test_paired_oracle.PairedOracleTest.test_sequential_frozen_api) ... ok
+test_derangement_deterministic_label_free (test_pairing.PairingTest.test_derangement_deterministic_label_free) ... ok
+test_target_multiset_both_layers_preserved (test_pairing.PairingTest.test_target_multiset_both_layers_preserved) ... ok
+test_four_shapes_neutral_frozen_and_classes (test_pfllib_operator.PFLModelTest.test_four_shapes_neutral_frozen_and_classes) ... ok
+test_support_only_high_numbered_classes (test_pfllib_operator.PFLModelTest.test_support_only_high_numbered_classes) ... ok
+test_admissibility_and_fixed_tie (test_prediction_consistency.PredictionConsistencyTest.test_admissibility_and_fixed_tie) ... ok
+test_js_known_values (test_prediction_consistency.PredictionConsistencyTest.test_js_known_values) ... ok
+test_zero_determinism_immutability (test_prediction_consistency.PredictionConsistencyTest.test_zero_determinism_immutability) ... ok
+test_choice_no_labels_and_exact_ties (test_semantic_mixture.SemanticMixtureTest.test_choice_no_labels_and_exact_ties) ... ok
+test_clean_zero_and_determinism (test_semantic_mixture.SemanticMixtureTest.test_clean_zero_and_determinism) ... ok
+test_normalization_branch_isolation (test_semantic_mixture.SemanticMixtureTest.test_normalization_branch_isolation) ... ok
+test_privileged_phase_requires_frozen_choices (test_semantic_mixture.SemanticMixtureTest.test_privileged_phase_requires_frozen_choices) ... ok
+test_extrema_ties_and_target_histogram (test_semantic_pairing.SemanticPairingTest.test_extrema_ties_and_target_histogram) ... ok
+test_random_distinct_deterministic_label_independent (test_semantic_pairing.SemanticPairingTest.test_random_distinct_deterministic_label_independent) ... ok
+test_correlation_constant_and_centered_example (test_semantic_summary.SemanticSummaryTest.test_correlation_constant_and_centered_example) ... ok
+test_tau_and_strict_marginal_bounds (test_semantic_summary.SemanticSummaryTest.test_tau_and_strict_marginal_bounds) ... ok
+test_exact_bank_reference_zero_and_heldout_formula (test_source_signature.SourceSignatureTest.test_exact_bank_reference_zero_and_heldout_formula) ... ok
+test_microbatch_partition_exact_and_ordered (test_source_signature.SourceSignatureTest.test_microbatch_partition_exact_and_ordered) ... ok
+test_squared_distance_margin_and_tie_order (test_source_signature.SourceSignatureTest.test_squared_distance_margin_and_tie_order) ... ok
+test_sequential_path_and_immutability (test_state_consistency.StateConsistencyTest.test_sequential_path_and_immutability) ... ok
+test_zero_first_tie_order (test_state_consistency.StateConsistencyTest.test_zero_first_tie_order) ... ok
+test_zero_signature_and_score_exact (test_state_consistency.StateConsistencyTest.test_zero_signature_and_score_exact) ... ok
+test_nonpositive_headroom_and_half_point_floor (test_transfer_gate.TransferGateTest.test_nonpositive_headroom_and_half_point_floor) ... ok
+test_recovery_and_both_context_margins (test_transfer_gate.TransferGateTest.test_recovery_and_both_context_margins) ... ok
+
+----------------------------------------------------------------------
+Ran 57 tests in 1.104s
+
+OK
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+T015_SUPPORT_DONE 19
+T015_SUPPORT_DONE 39
+T015_SUPPORT_DONE 59
+T015_SUPPORT_DONE 79
+T015_SUPPORT_DONE 99
+T015_PHASE_A_FROZEN {"timestamp": "2026-09-13T20:40:09.724655+00:00", "mixtures_sha256": "f49ea4416779eb86ec6186f405f6b67fbf314913c6fde1a6eeb67b3a70f2d018", "choices_sha256": "e1662d9110b5b55f5d9538d2d0a57fb2d73806640f2732d6bf51d4e366f12896", "logits_sha256": "76065d742ae6cb666b050f99a35dfa471148482df9c19bab2f82babdc94d8462", "choices": 40000, "support_labels_opened": false, "target_query_outcomes_opened": false}
+T015_PHASE_B_FROZEN
+T015_DONE {"seconds": 31.131906270980835, "forward_calls": 1820}
+[autodl] finished_at=2026-09-14T04:40:22+08:00
+[autodl] exit_code=0

@@ -1,0 +1,6 @@
+{
+  "runId": "20260914-043941-ttfl-t015-gpu1",
+  "releaseId": "20260914-043936-ttfl-t015",
+  "sessionName": "autodl-20260914-043941-ttfl-t015-gpu1",
+  "command": "CUDA_VISIBLE_DEVICES=1 TTFL_COMMIT=099c5f1b5fa07bf930d94aac46a5a4a8957d0786 bash scripts/run_t015.sh"
+}
