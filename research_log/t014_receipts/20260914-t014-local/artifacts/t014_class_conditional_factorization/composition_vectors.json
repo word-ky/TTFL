@@ -1,0 +1,14402 @@
+[
+  {
+    "salt": "T013-S0",
+    "client": 0,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      16,
+      0,
+      0,
+      0,
+      0,
+      5,
+      68,
+      0,
+      0
+    ],
+    "denominator": 89
+  },
+  {
+    "salt": "T013-S0",
+    "client": 0,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      11,
+      0,
+      0,
+      1,
+      0,
+      4,
+      73,
+      0,
+      0
+    ],
+    "denominator": 89
+  },
+  {
+    "salt": "T013-S0",
+    "client": 1,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      6,
+      0,
+      41,
+      0,
+      1
+    ],
+    "denominator": 50
+  },
+  {
+    "salt": "T013-S0",
+    "client": 1,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      2,
+      0,
+      45,
+      0,
+      0
+    ],
+    "denominator": 49
+  },
+  {
+    "salt": "T013-S0",
+    "client": 2,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      3,
+      0,
+      62
+    ],
+    "denominator": 70
+  },
+  {
+    "salt": "T013-S0",
+    "client": 2,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      7,
+      0,
+      0,
+      0,
+      1,
+      0,
+      62
+    ],
+    "denominator": 70
+  },
+  {
+    "salt": "T013-S0",
+    "client": 3,
+    "train_half": 0,
+    "class_counts": [
+      108,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 108
+  },
+  {
+    "salt": "T013-S0",
+    "client": 3,
+    "train_half": 1,
+    "class_counts": [
+      108,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 108
+  },
+  {
+    "salt": "T013-S0",
+    "client": 4,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      18,
+      0,
+      0,
+      2,
+      33
+    ],
+    "denominator": 53
+  },
+  {
+    "salt": "T013-S0",
+    "client": 4,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      16,
+      0,
+      0,
+      0,
+      34
+    ],
+    "denominator": 52
+  },
+  {
+    "salt": "T013-S0",
+    "client": 5,
+    "train_half": 0,
+    "class_counts": [
+      41,
+      0,
+      24,
+      0,
+      0,
+      14,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 79
+  },
+  {
+    "salt": "T013-S0",
+    "client": 5,
+    "train_half": 1,
+    "class_counts": [
+      40,
+      0,
+      22,
+      0,
+      0,
+      17,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 79
+  },
+  {
+    "salt": "T013-S0",
+    "client": 6,
+    "train_half": 0,
+    "class_counts": [
+      2,
+      0,
+      0,
+      50,
+      0,
+      0,
+      79,
+      0,
+      0,
+      0
+    ],
+    "denominator": 131
+  },
+  {
+    "salt": "T013-S0",
+    "client": 6,
+    "train_half": 1,
+    "class_counts": [
+      6,
+      0,
+      0,
+      60,
+      0,
+      0,
+      64,
+      0,
+      0,
+      0
+    ],
+    "denominator": 130
+  },
+  {
+    "salt": "T013-S0",
+    "client": 7,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      19,
+      0,
+      80,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 99
+  },
+  {
+    "salt": "T013-S0",
+    "client": 7,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      12,
+      0,
+      86,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 98
+  },
+  {
+    "salt": "T013-S0",
+    "client": 8,
+    "train_half": 0,
+    "class_counts": [
+      17,
+      1,
+      0,
+      0,
+      3,
+      76,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 97
+  },
+  {
+    "salt": "T013-S0",
+    "client": 8,
+    "train_half": 1,
+    "class_counts": [
+      18,
+      0,
+      0,
+      0,
+      3,
+      75,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 96
+  },
+  {
+    "salt": "T013-S0",
+    "client": 9,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      0,
+      3,
+      0,
+      0,
+      0,
+      70,
+      14,
+      0
+    ],
+    "denominator": 88
+  },
+  {
+    "salt": "T013-S0",
+    "client": 9,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      77,
+      10,
+      0
+    ],
+    "denominator": 88
+  },
+  {
+    "salt": "T013-S0",
+    "client": 10,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      5,
+      30,
+      30,
+      76,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 141
+  },
+  {
+    "salt": "T013-S0",
+    "client": 10,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      3,
+      36,
+      28,
+      74,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 141
+  },
+  {
+    "salt": "T013-S0",
+    "client": 11,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      52,
+      0,
+      0,
+      0,
+      1,
+      0,
+      37,
+      0
+    ],
+    "denominator": 90
+  },
+  {
+    "salt": "T013-S0",
+    "client": 11,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      52,
+      0,
+      0,
+      0,
+      0,
+      0,
+      38,
+      0
+    ],
+    "denominator": 90
+  },
+  {
+    "salt": "T013-S0",
+    "client": 12,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      0,
+      8,
+      0,
+      0,
+      0,
+      9,
+      64,
+      0,
+      0
+    ],
+    "denominator": 82
+  },
+  {
+    "salt": "T013-S0",
+    "client": 12,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      10,
+      0,
+      0,
+      0,
+      2,
+      69,
+      0,
+      0
+    ],
+    "denominator": 82
+  },
+  {
+    "salt": "T013-S0",
+    "client": 13,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      31,
+      0,
+      4,
+      1,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S0",
+    "client": 13,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      30,
+      0,
+      4,
+      1,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S0",
+    "client": 14,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      2,
+      34,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 36
+  },
+  {
+    "salt": "T013-S0",
+    "client": 14,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      35,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 35
+  },
+  {
+    "salt": "T013-S0",
+    "client": 15,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      2,
+      116,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 118
+  },
+  {
+    "salt": "T013-S0",
+    "client": 15,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      118,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 118
+  },
+  {
+    "salt": "T013-S0",
+    "client": 16,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      8,
+      0
+    ],
+    "denominator": 11
+  },
+  {
+    "salt": "T013-S0",
+    "client": 16,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      7,
+      0
+    ],
+    "denominator": 10
+  },
+  {
+    "salt": "T013-S0",
+    "client": 17,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      11,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      33,
+      0
+    ],
+    "denominator": 44
+  },
+  {
+    "salt": "T013-S0",
+    "client": 17,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      34,
+      0
+    ],
+    "denominator": 43
+  },
+  {
+    "salt": "T013-S0",
+    "client": 18,
+    "train_half": 0,
+    "class_counts": [
+      3,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 5
+  },
+  {
+    "salt": "T013-S0",
+    "client": 18,
+    "train_half": 1,
+    "class_counts": [
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 5
+  },
+  {
+    "salt": "T013-S0",
+    "client": 19,
+    "train_half": 0,
+    "class_counts": [
+      8,
+      0,
+      27,
+      0,
+      0,
+      3,
+      0,
+      8,
+      0,
+      0
+    ],
+    "denominator": 46
+  },
+  {
+    "salt": "T013-S0",
+    "client": 19,
+    "train_half": 1,
+    "class_counts": [
+      7,
+      0,
+      33,
+      0,
+      0,
+      1,
+      0,
+      4,
+      0,
+      0
+    ],
+    "denominator": 45
+  },
+  {
+    "salt": "T013-S0",
+    "client": 20,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      76,
+      0,
+      0,
+      0
+    ],
+    "denominator": 76
+  },
+  {
+    "salt": "T013-S0",
+    "client": 20,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      76,
+      0,
+      0,
+      0
+    ],
+    "denominator": 76
+  },
+  {
+    "salt": "T013-S0",
+    "client": 21,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      1,
+      120,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 121
+  },
+  {
+    "salt": "T013-S0",
+    "client": 21,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      2,
+      119,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 121
+  },
+  {
+    "salt": "T013-S0",
+    "client": 22,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      47,
+      41,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 88
+  },
+  {
+    "salt": "T013-S0",
+    "client": 22,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      45,
+      42,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 87
+  },
+  {
+    "salt": "T013-S0",
+    "client": 23,
+    "train_half": 0,
+    "class_counts": [
+      35,
+      0,
+      14,
+      0,
+      0,
+      0,
+      0,
+      0,
+      21,
+      0
+    ],
+    "denominator": 70
+  },
+  {
+    "salt": "T013-S0",
+    "client": 23,
+    "train_half": 1,
+    "class_counts": [
+      42,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      17,
+      1
+    ],
+    "denominator": 70
+  },
+  {
+    "salt": "T013-S0",
+    "client": 24,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      1,
+      24,
+      0,
+      62
+    ],
+    "denominator": 90
+  },
+  {
+    "salt": "T013-S0",
+    "client": 24,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      2,
+      17,
+      0,
+      67
+    ],
+    "denominator": 89
+  },
+  {
+    "salt": "T013-S0",
+    "client": 25,
+    "train_half": 0,
+    "class_counts": [
+      10,
+      3,
+      1,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 18
+  },
+  {
+    "salt": "T013-S0",
+    "client": 25,
+    "train_half": 1,
+    "class_counts": [
+      2,
+      7,
+      2,
+      0,
+      6,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 18
+  },
+  {
+    "salt": "T013-S0",
+    "client": 26,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      5,
+      0,
+      0,
+      0,
+      2,
+      135,
+      0,
+      0,
+      0
+    ],
+    "denominator": 142
+  },
+  {
+    "salt": "T013-S0",
+    "client": 26,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      6,
+      0,
+      0,
+      0,
+      2,
+      134,
+      0,
+      0,
+      0
+    ],
+    "denominator": 142
+  },
+  {
+    "salt": "T013-S0",
+    "client": 27,
+    "train_half": 0,
+    "class_counts": [
+      2,
+      96,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 98
+  },
+  {
+    "salt": "T013-S0",
+    "client": 27,
+    "train_half": 1,
+    "class_counts": [
+      1,
+      96,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 97
+  },
+  {
+    "salt": "T013-S0",
+    "client": 28,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      0,
+      0,
+      6,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 13
+  },
+  {
+    "salt": "T013-S0",
+    "client": 28,
+    "train_half": 1,
+    "class_counts": [
+      2,
+      0,
+      0,
+      2,
+      7,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 13
+  },
+  {
+    "salt": "T013-S0",
+    "client": 29,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      191,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 191
+  },
+  {
+    "salt": "T013-S0",
+    "client": 29,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      191,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 191
+  },
+  {
+    "salt": "T013-S0",
+    "client": 30,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      66,
+      0,
+      1,
+      71,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 138
+  },
+  {
+    "salt": "T013-S0",
+    "client": 30,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      52,
+      0,
+      0,
+      85,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 137
+  },
+  {
+    "salt": "T013-S0",
+    "client": 31,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      99,
+      0
+    ],
+    "denominator": 101
+  },
+  {
+    "salt": "T013-S0",
+    "client": 31,
+    "train_half": 1,
+    "class_counts": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      99,
+      0
+    ],
+    "denominator": 101
+  },
+  {
+    "salt": "T013-S0",
+    "client": 32,
+    "train_half": 0,
+    "class_counts": [
+      24,
+      0,
+      10,
+      0,
+      31,
+      16,
+      0,
+      0,
+      18,
+      0
+    ],
+    "denominator": 99
+  },
+  {
+    "salt": "T013-S0",
+    "client": 32,
+    "train_half": 1,
+    "class_counts": [
+      26,
+      0,
+      4,
+      0,
+      31,
+      10,
+      0,
+      0,
+      28,
+      0
+    ],
+    "denominator": 99
+  },
+  {
+    "salt": "T013-S0",
+    "client": 33,
+    "train_half": 0,
+    "class_counts": [
+      70,
+      0,
+      0,
+      62,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 132
+  },
+  {
+    "salt": "T013-S0",
+    "client": 33,
+    "train_half": 1,
+    "class_counts": [
+      62,
+      0,
+      0,
+      70,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 132
+  },
+  {
+    "salt": "T013-S0",
+    "client": 34,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      5,
+      42,
+      0,
+      0,
+      2,
+      0,
+      2,
+      0
+    ],
+    "denominator": 51
+  },
+  {
+    "salt": "T013-S0",
+    "client": 34,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      6,
+      41,
+      0,
+      0,
+      3,
+      0,
+      1,
+      0
+    ],
+    "denominator": 51
+  },
+  {
+    "salt": "T013-S0",
+    "client": 35,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      21,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      67,
+      0
+    ],
+    "denominator": 88
+  },
+  {
+    "salt": "T013-S0",
+    "client": 35,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      24,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      63,
+      0
+    ],
+    "denominator": 87
+  },
+  {
+    "salt": "T013-S0",
+    "client": 36,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      0,
+      1
+    ],
+    "denominator": 9
+  },
+  {
+    "salt": "T013-S0",
+    "client": 36,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      5,
+      0,
+      1
+    ],
+    "denominator": 9
+  },
+  {
+    "salt": "T013-S0",
+    "client": 37,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      12,
+      0,
+      0,
+      2,
+      5,
+      0,
+      1,
+      20
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S0",
+    "client": 37,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      17,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      21
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S0",
+    "client": 38,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12,
+      1
+    ],
+    "denominator": 13
+  },
+  {
+    "salt": "T013-S0",
+    "client": 38,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12,
+      0
+    ],
+    "denominator": 12
+  },
+  {
+    "salt": "T013-S0",
+    "client": 39,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      80,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 80
+  },
+  {
+    "salt": "T013-S0",
+    "client": 39,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      80,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 80
+  },
+  {
+    "salt": "T013-S0",
+    "client": 40,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      1,
+      0,
+      121
+    ],
+    "denominator": 125
+  },
+  {
+    "salt": "T013-S0",
+    "client": 40,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      5,
+      0,
+      1,
+      0,
+      1,
+      0,
+      118
+    ],
+    "denominator": 125
+  },
+  {
+    "salt": "T013-S0",
+    "client": 41,
+    "train_half": 0,
+    "class_counts": [
+      3,
+      1,
+      0,
+      37,
+      0,
+      0,
+      0,
+      1,
+      1,
+      7
+    ],
+    "denominator": 50
+  },
+  {
+    "salt": "T013-S0",
+    "client": 41,
+    "train_half": 1,
+    "class_counts": [
+      5,
+      2,
+      0,
+      40,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0
+    ],
+    "denominator": 50
+  },
+  {
+    "salt": "T013-S0",
+    "client": 42,
+    "train_half": 0,
+    "class_counts": [
+      13,
+      56,
+      91,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 160
+  },
+  {
+    "salt": "T013-S0",
+    "client": 42,
+    "train_half": 1,
+    "class_counts": [
+      5,
+      64,
+      91,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 160
+  },
+  {
+    "salt": "T013-S0",
+    "client": 43,
+    "train_half": 0,
+    "class_counts": [
+      38,
+      0,
+      0,
+      0,
+      61,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 99
+  },
+  {
+    "salt": "T013-S0",
+    "client": 43,
+    "train_half": 1,
+    "class_counts": [
+      44,
+      0,
+      0,
+      0,
+      55,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 99
+  },
+  {
+    "salt": "T013-S0",
+    "client": 44,
+    "train_half": 0,
+    "class_counts": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      13,
+      21
+    ],
+    "denominator": 37
+  },
+  {
+    "salt": "T013-S0",
+    "client": 44,
+    "train_half": 1,
+    "class_counts": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      10,
+      24
+    ],
+    "denominator": 37
+  },
+  {
+    "salt": "T013-S0",
+    "client": 45,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      4,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "denominator": 7
+  },
+  {
+    "salt": "T013-S0",
+    "client": 45,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      5,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 6
+  },
+  {
+    "salt": "T013-S0",
+    "client": 46,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      7,
+      33,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S0",
+    "client": 46,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      6,
+      33,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 39
+  },
+  {
+    "salt": "T013-S0",
+    "client": 47,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      5,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      9,
+      0
+    ],
+    "denominator": 16
+  },
+  {
+    "salt": "T013-S0",
+    "client": 47,
+    "train_half": 1,
+    "class_counts": [
+      1,
+      3,
+      6,
+      1,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "denominator": 16
+  },
+  {
+    "salt": "T013-S0",
+    "client": 48,
+    "train_half": 0,
+    "class_counts": [
+      3,
+      0,
+      0,
+      0,
+      49,
+      0,
+      0,
+      15,
+      0,
+      14
+    ],
+    "denominator": 81
+  },
+  {
+    "salt": "T013-S0",
+    "client": 48,
+    "train_half": 1,
+    "class_counts": [
+      4,
+      0,
+      0,
+      0,
+      49,
+      0,
+      0,
+      10,
+      0,
+      17
+    ],
+    "denominator": 80
+  },
+  {
+    "salt": "T013-S0",
+    "client": 49,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      18,
+      0,
+      83,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 101
+  },
+  {
+    "salt": "T013-S0",
+    "client": 49,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      21,
+      0,
+      80,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 101
+  },
+  {
+    "salt": "T013-S0",
+    "client": 50,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      2,
+      41,
+      0,
+      0,
+      15,
+      0,
+      0,
+      3,
+      0
+    ],
+    "denominator": 61
+  },
+  {
+    "salt": "T013-S0",
+    "client": 50,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      40,
+      0,
+      0,
+      19,
+      0,
+      0,
+      1,
+      0
+    ],
+    "denominator": 60
+  },
+  {
+    "salt": "T013-S0",
+    "client": 51,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "denominator": 6
+  },
+  {
+    "salt": "T013-S0",
+    "client": 51,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6
+    ],
+    "denominator": 6
+  },
+  {
+    "salt": "T013-S0",
+    "client": 52,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      12,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 12
+  },
+  {
+    "salt": "T013-S0",
+    "client": 52,
+    "train_half": 1,
+    "class_counts": [
+      4,
+      0,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 12
+  },
+  {
+    "salt": "T013-S0",
+    "client": 53,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      17,
+      0,
+      1,
+      4,
+      0,
+      0,
+      39,
+      0,
+      0
+    ],
+    "denominator": 61
+  },
+  {
+    "salt": "T013-S0",
+    "client": 53,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      10,
+      0,
+      0,
+      5,
+      0,
+      0,
+      45,
+      0,
+      0
+    ],
+    "denominator": 60
+  },
+  {
+    "salt": "T013-S0",
+    "client": 54,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      0,
+      11,
+      0,
+      0,
+      0,
+      17,
+      90,
+      0,
+      0
+    ],
+    "denominator": 119
+  },
+  {
+    "salt": "T013-S0",
+    "client": 54,
+    "train_half": 1,
+    "class_counts": [
+      1,
+      0,
+      15,
+      0,
+      0,
+      0,
+      20,
+      82,
+      0,
+      0
+    ],
+    "denominator": 118
+  },
+  {
+    "salt": "T013-S0",
+    "client": 55,
+    "train_half": 0,
+    "class_counts": [
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      100,
+      0
+    ],
+    "denominator": 105
+  },
+  {
+    "salt": "T013-S0",
+    "client": 55,
+    "train_half": 1,
+    "class_counts": [
+      3,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      101,
+      0
+    ],
+    "denominator": 105
+  },
+  {
+    "salt": "T013-S0",
+    "client": 56,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      6,
+      9,
+      5,
+      0,
+      7,
+      0,
+      0,
+      32
+    ],
+    "denominator": 59
+  },
+  {
+    "salt": "T013-S0",
+    "client": 56,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      10,
+      7,
+      4,
+      0,
+      6,
+      0,
+      0,
+      32
+    ],
+    "denominator": 59
+  },
+  {
+    "salt": "T013-S0",
+    "client": 57,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      14,
+      0,
+      24,
+      7,
+      3,
+      11,
+      0,
+      0,
+      0
+    ],
+    "denominator": 59
+  },
+  {
+    "salt": "T013-S0",
+    "client": 57,
+    "train_half": 1,
+    "class_counts": [
+      1,
+      10,
+      0,
+      26,
+      5,
+      1,
+      14,
+      0,
+      0,
+      1
+    ],
+    "denominator": 58
+  },
+  {
+    "salt": "T013-S0",
+    "client": 58,
+    "train_half": 0,
+    "class_counts": [
+      4,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      9
+    ],
+    "denominator": 14
+  },
+  {
+    "salt": "T013-S0",
+    "client": 58,
+    "train_half": 1,
+    "class_counts": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      13
+    ],
+    "denominator": 14
+  },
+  {
+    "salt": "T013-S0",
+    "client": 59,
+    "train_half": 0,
+    "class_counts": [
+      14,
+      16,
+      0,
+      0,
+      0,
+      9,
+      8,
+      0,
+      0,
+      0
+    ],
+    "denominator": 47
+  },
+  {
+    "salt": "T013-S0",
+    "client": 59,
+    "train_half": 1,
+    "class_counts": [
+      23,
+      14,
+      0,
+      0,
+      0,
+      4,
+      6,
+      0,
+      0,
+      0
+    ],
+    "denominator": 47
+  },
+  {
+    "salt": "T013-S0",
+    "client": 60,
+    "train_half": 0,
+    "class_counts": [
+      238,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 238
+  },
+  {
+    "salt": "T013-S0",
+    "client": 60,
+    "train_half": 1,
+    "class_counts": [
+      237,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 237
+  },
+  {
+    "salt": "T013-S0",
+    "client": 61,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      5,
+      0,
+      0
+    ],
+    "denominator": 8
+  },
+  {
+    "salt": "T013-S0",
+    "client": 61,
+    "train_half": 1,
+    "class_counts": [
+      2,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      2,
+      0,
+      0
+    ],
+    "denominator": 7
+  },
+  {
+    "salt": "T013-S0",
+    "client": 62,
+    "train_half": 0,
+    "class_counts": [
+      8,
+      0,
+      0,
+      0,
+      0,
+      4,
+      5,
+      0,
+      0,
+      21
+    ],
+    "denominator": 38
+  },
+  {
+    "salt": "T013-S0",
+    "client": 62,
+    "train_half": 1,
+    "class_counts": [
+      7,
+      0,
+      1,
+      0,
+      0,
+      2,
+      7,
+      0,
+      0,
+      20
+    ],
+    "denominator": 37
+  },
+  {
+    "salt": "T013-S0",
+    "client": 63,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      55,
+      12,
+      0,
+      41,
+      0,
+      0,
+      0
+    ],
+    "denominator": 108
+  },
+  {
+    "salt": "T013-S0",
+    "client": 63,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      2,
+      44,
+      13,
+      1,
+      47,
+      0,
+      0,
+      0
+    ],
+    "denominator": 107
+  },
+  {
+    "salt": "T013-S0",
+    "client": 64,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      36,
+      0,
+      11,
+      2,
+      0,
+      11,
+      4
+    ],
+    "denominator": 64
+  },
+  {
+    "salt": "T013-S0",
+    "client": 64,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      37,
+      0,
+      14,
+      1,
+      0,
+      5,
+      6
+    ],
+    "denominator": 63
+  },
+  {
+    "salt": "T013-S0",
+    "client": 65,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      76,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 76
+  },
+  {
+    "salt": "T013-S0",
+    "client": 65,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      76,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 76
+  },
+  {
+    "salt": "T013-S0",
+    "client": 66,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      2,
+      3,
+      0,
+      87
+    ],
+    "denominator": 97
+  },
+  {
+    "salt": "T013-S0",
+    "client": 66,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      2,
+      5,
+      1,
+      83
+    ],
+    "denominator": 97
+  },
+  {
+    "salt": "T013-S0",
+    "client": 67,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      7,
+      2,
+      0,
+      0,
+      8,
+      0,
+      23,
+      1,
+      0
+    ],
+    "denominator": 41
+  },
+  {
+    "salt": "T013-S0",
+    "client": 67,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      5,
+      0,
+      0,
+      0,
+      6,
+      0,
+      25,
+      4,
+      1
+    ],
+    "denominator": 41
+  },
+  {
+    "salt": "T013-S0",
+    "client": 68,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      30,
+      0,
+      3,
+      0,
+      0,
+      0,
+      9,
+      0,
+      73
+    ],
+    "denominator": 115
+  },
+  {
+    "salt": "T013-S0",
+    "client": 68,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      38,
+      0,
+      2,
+      2,
+      0,
+      0,
+      15,
+      0,
+      57
+    ],
+    "denominator": 114
+  },
+  {
+    "salt": "T013-S0",
+    "client": 69,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      8,
+      3,
+      0,
+      0,
+      0,
+      59,
+      0,
+      0
+    ],
+    "denominator": 71
+  },
+  {
+    "salt": "T013-S0",
+    "client": 69,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      3,
+      8,
+      2,
+      0,
+      0,
+      0,
+      58,
+      0,
+      0
+    ],
+    "denominator": 71
+  },
+  {
+    "salt": "T013-S0",
+    "client": 70,
+    "train_half": 0,
+    "class_counts": [
+      7,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      31,
+      0
+    ],
+    "denominator": 39
+  },
+  {
+    "salt": "T013-S0",
+    "client": 70,
+    "train_half": 1,
+    "class_counts": [
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      27,
+      0
+    ],
+    "denominator": 38
+  },
+  {
+    "salt": "T013-S0",
+    "client": 71,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      16,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "denominator": 18
+  },
+  {
+    "salt": "T013-S0",
+    "client": 71,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      14,
+      1,
+      0,
+      0,
+      3,
+      0
+    ],
+    "denominator": 18
+  },
+  {
+    "salt": "T013-S0",
+    "client": 72,
+    "train_half": 0,
+    "class_counts": [
+      16,
+      0,
+      0,
+      3,
+      1,
+      22,
+      0,
+      0,
+      39,
+      0
+    ],
+    "denominator": 81
+  },
+  {
+    "salt": "T013-S0",
+    "client": 72,
+    "train_half": 1,
+    "class_counts": [
+      11,
+      0,
+      0,
+      3,
+      0,
+      24,
+      0,
+      0,
+      42,
+      0
+    ],
+    "denominator": 80
+  },
+  {
+    "salt": "T013-S0",
+    "client": 73,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      37,
+      24,
+      51,
+      0,
+      0
+    ],
+    "denominator": 114
+  },
+  {
+    "salt": "T013-S0",
+    "client": 73,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      51,
+      20,
+      41,
+      0,
+      0
+    ],
+    "denominator": 114
+  },
+  {
+    "salt": "T013-S0",
+    "client": 74,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      2,
+      0,
+      5,
+      0,
+      0,
+      75,
+      0,
+      0,
+      0
+    ],
+    "denominator": 82
+  },
+  {
+    "salt": "T013-S0",
+    "client": 74,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      2,
+      0,
+      4,
+      0,
+      0,
+      76,
+      0,
+      0,
+      0
+    ],
+    "denominator": 82
+  },
+  {
+    "salt": "T013-S0",
+    "client": 75,
+    "train_half": 0,
+    "class_counts": [
+      10,
+      43,
+      0,
+      47,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 100
+  },
+  {
+    "salt": "T013-S0",
+    "client": 75,
+    "train_half": 1,
+    "class_counts": [
+      18,
+      42,
+      0,
+      40,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 100
+  },
+  {
+    "salt": "T013-S0",
+    "client": 76,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      7,
+      0,
+      0,
+      0,
+      1,
+      50,
+      26,
+      0,
+      0
+    ],
+    "denominator": 84
+  },
+  {
+    "salt": "T013-S0",
+    "client": 76,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      11,
+      0,
+      0,
+      0,
+      1,
+      41,
+      30,
+      0,
+      0
+    ],
+    "denominator": 83
+  },
+  {
+    "salt": "T013-S0",
+    "client": 77,
+    "train_half": 0,
+    "class_counts": [
+      40,
+      0,
+      46,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 86
+  },
+  {
+    "salt": "T013-S0",
+    "client": 77,
+    "train_half": 1,
+    "class_counts": [
+      43,
+      0,
+      43,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 86
+  },
+  {
+    "salt": "T013-S0",
+    "client": 78,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      12,
+      35,
+      0,
+      0,
+      2,
+      0
+    ],
+    "denominator": 49
+  },
+  {
+    "salt": "T013-S0",
+    "client": 78,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      14,
+      31,
+      0,
+      0,
+      4,
+      0
+    ],
+    "denominator": 49
+  },
+  {
+    "salt": "T013-S0",
+    "client": 79,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      7,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 9
+  },
+  {
+    "salt": "T013-S0",
+    "client": 79,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      7,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 9
+  },
+  {
+    "salt": "T013-S0",
+    "client": 80,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      32,
+      7,
+      0,
+      0
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S0",
+    "client": 80,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      33,
+      5,
+      2,
+      0
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S0",
+    "client": 81,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      9,
+      0,
+      0
+    ],
+    "denominator": 9
+  },
+  {
+    "salt": "T013-S0",
+    "client": 81,
+    "train_half": 1,
+    "class_counts": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      0,
+      0
+    ],
+    "denominator": 8
+  },
+  {
+    "salt": "T013-S0",
+    "client": 82,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      10,
+      0,
+      6,
+      0,
+      66,
+      0,
+      0
+    ],
+    "denominator": 82
+  },
+  {
+    "salt": "T013-S0",
+    "client": 82,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      9,
+      0,
+      70,
+      0,
+      0
+    ],
+    "denominator": 81
+  },
+  {
+    "salt": "T013-S0",
+    "client": 83,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      3,
+      9,
+      0,
+      0,
+      42,
+      201,
+      0
+    ],
+    "denominator": 255
+  },
+  {
+    "salt": "T013-S0",
+    "client": 83,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      3,
+      3,
+      0,
+      0,
+      46,
+      202,
+      0
+    ],
+    "denominator": 254
+  },
+  {
+    "salt": "T013-S0",
+    "client": 84,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      30,
+      1,
+      0,
+      1,
+      95,
+      0,
+      0,
+      0
+    ],
+    "denominator": 127
+  },
+  {
+    "salt": "T013-S0",
+    "client": 84,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      37,
+      3,
+      0,
+      1,
+      86,
+      0,
+      0,
+      0
+    ],
+    "denominator": 127
+  },
+  {
+    "salt": "T013-S0",
+    "client": 85,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      39,
+      72,
+      0,
+      0,
+      0
+    ],
+    "denominator": 111
+  },
+  {
+    "salt": "T013-S0",
+    "client": 85,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      41,
+      70,
+      0,
+      0,
+      0
+    ],
+    "denominator": 111
+  },
+  {
+    "salt": "T013-S0",
+    "client": 86,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      2,
+      0,
+      6,
+      12,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 20
+  },
+  {
+    "salt": "T013-S0",
+    "client": 86,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      9,
+      9,
+      2,
+      0,
+      0,
+      0
+    ],
+    "denominator": 20
+  },
+  {
+    "salt": "T013-S0",
+    "client": 87,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      57,
+      0,
+      4,
+      0,
+      0,
+      14,
+      0
+    ],
+    "denominator": 75
+  },
+  {
+    "salt": "T013-S0",
+    "client": 87,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      55,
+      0,
+      3,
+      0,
+      0,
+      17,
+      0
+    ],
+    "denominator": 75
+  },
+  {
+    "salt": "T013-S0",
+    "client": 88,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      0,
+      9,
+      5,
+      0,
+      18,
+      0,
+      0,
+      6
+    ],
+    "denominator": 39
+  },
+  {
+    "salt": "T013-S0",
+    "client": 88,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      8,
+      10,
+      0,
+      19,
+      0,
+      0,
+      1
+    ],
+    "denominator": 38
+  },
+  {
+    "salt": "T013-S0",
+    "client": 89,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      50,
+      17,
+      1,
+      4,
+      6,
+      0
+    ],
+    "denominator": 78
+  },
+  {
+    "salt": "T013-S0",
+    "client": 89,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      44,
+      18,
+      5,
+      6,
+      4,
+      0
+    ],
+    "denominator": 77
+  },
+  {
+    "salt": "T013-S0",
+    "client": 90,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      12,
+      31,
+      7,
+      21,
+      0,
+      0,
+      0,
+      6
+    ],
+    "denominator": 78
+  },
+  {
+    "salt": "T013-S0",
+    "client": 90,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      16,
+      27,
+      8,
+      23,
+      0,
+      0,
+      0,
+      3
+    ],
+    "denominator": 77
+  },
+  {
+    "salt": "T013-S0",
+    "client": 91,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      16,
+      0,
+      0,
+      0,
+      7,
+      0,
+      69
+    ],
+    "denominator": 92
+  },
+  {
+    "salt": "T013-S0",
+    "client": 91,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      9,
+      0,
+      0,
+      0,
+      8,
+      0,
+      74
+    ],
+    "denominator": 91
+  },
+  {
+    "salt": "T013-S0",
+    "client": 92,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      39,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0
+    ],
+    "denominator": 48
+  },
+  {
+    "salt": "T013-S0",
+    "client": 92,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      30,
+      0,
+      8,
+      0,
+      0,
+      0,
+      0,
+      10,
+      0
+    ],
+    "denominator": 48
+  },
+  {
+    "salt": "T013-S0",
+    "client": 93,
+    "train_half": 0,
+    "class_counts": [
+      6,
+      9,
+      0,
+      0,
+      94,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 109
+  },
+  {
+    "salt": "T013-S0",
+    "client": 93,
+    "train_half": 1,
+    "class_counts": [
+      11,
+      2,
+      0,
+      0,
+      96,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 109
+  },
+  {
+    "salt": "T013-S0",
+    "client": 94,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      17,
+      1,
+      0,
+      0,
+      129,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 147
+  },
+  {
+    "salt": "T013-S0",
+    "client": 94,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      27,
+      0,
+      0,
+      0,
+      119,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 146
+  },
+  {
+    "salt": "T013-S0",
+    "client": 95,
+    "train_half": 0,
+    "class_counts": [
+      5,
+      11,
+      0,
+      0,
+      0,
+      2,
+      1,
+      0,
+      0,
+      0
+    ],
+    "denominator": 19
+  },
+  {
+    "salt": "T013-S0",
+    "client": 95,
+    "train_half": 1,
+    "class_counts": [
+      2,
+      11,
+      0,
+      1,
+      1,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 19
+  },
+  {
+    "salt": "T013-S0",
+    "client": 96,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      0,
+      18,
+      4,
+      0,
+      0,
+      1,
+      0,
+      84
+    ],
+    "denominator": 108
+  },
+  {
+    "salt": "T013-S0",
+    "client": 96,
+    "train_half": 1,
+    "class_counts": [
+      1,
+      0,
+      0,
+      18,
+      8,
+      0,
+      2,
+      1,
+      0,
+      77
+    ],
+    "denominator": 107
+  },
+  {
+    "salt": "T013-S0",
+    "client": 97,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      66,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      18
+    ],
+    "denominator": 85
+  },
+  {
+    "salt": "T013-S0",
+    "client": 97,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      71,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      14
+    ],
+    "denominator": 85
+  },
+  {
+    "salt": "T013-S0",
+    "client": 98,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      18,
+      3,
+      7,
+      1,
+      3
+    ],
+    "denominator": 33
+  },
+  {
+    "salt": "T013-S0",
+    "client": 98,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      18,
+      1,
+      6,
+      0,
+      5
+    ],
+    "denominator": 33
+  },
+  {
+    "salt": "T013-S0",
+    "client": 99,
+    "train_half": 0,
+    "class_counts": [
+      11,
+      1,
+      0,
+      6,
+      27,
+      22,
+      0,
+      0,
+      0,
+      6
+    ],
+    "denominator": 73
+  },
+  {
+    "salt": "T013-S0",
+    "client": 99,
+    "train_half": 1,
+    "class_counts": [
+      12,
+      0,
+      1,
+      2,
+      30,
+      20,
+      0,
+      3,
+      0,
+      4
+    ],
+    "denominator": 72
+  },
+  {
+    "salt": "T013-S1",
+    "client": 0,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      17,
+      0,
+      0,
+      1,
+      0,
+      4,
+      67,
+      0,
+      0
+    ],
+    "denominator": 89
+  },
+  {
+    "salt": "T013-S1",
+    "client": 0,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      5,
+      74,
+      0,
+      0
+    ],
+    "denominator": 89
+  },
+  {
+    "salt": "T013-S1",
+    "client": 1,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      5,
+      0,
+      41,
+      0,
+      1
+    ],
+    "denominator": 50
+  },
+  {
+    "salt": "T013-S1",
+    "client": 1,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      3,
+      0,
+      45,
+      0,
+      0
+    ],
+    "denominator": 49
+  },
+  {
+    "salt": "T013-S1",
+    "client": 2,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      2,
+      0,
+      62
+    ],
+    "denominator": 70
+  },
+  {
+    "salt": "T013-S1",
+    "client": 2,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      2,
+      0,
+      62
+    ],
+    "denominator": 70
+  },
+  {
+    "salt": "T013-S1",
+    "client": 3,
+    "train_half": 0,
+    "class_counts": [
+      108,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 108
+  },
+  {
+    "salt": "T013-S1",
+    "client": 3,
+    "train_half": 1,
+    "class_counts": [
+      108,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 108
+  },
+  {
+    "salt": "T013-S1",
+    "client": 4,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      16,
+      0,
+      0,
+      0,
+      37
+    ],
+    "denominator": 53
+  },
+  {
+    "salt": "T013-S1",
+    "client": 4,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      18,
+      0,
+      0,
+      2,
+      30
+    ],
+    "denominator": 52
+  },
+  {
+    "salt": "T013-S1",
+    "client": 5,
+    "train_half": 0,
+    "class_counts": [
+      43,
+      0,
+      19,
+      0,
+      0,
+      17,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 79
+  },
+  {
+    "salt": "T013-S1",
+    "client": 5,
+    "train_half": 1,
+    "class_counts": [
+      38,
+      0,
+      27,
+      0,
+      0,
+      14,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 79
+  },
+  {
+    "salt": "T013-S1",
+    "client": 6,
+    "train_half": 0,
+    "class_counts": [
+      5,
+      0,
+      0,
+      51,
+      0,
+      0,
+      75,
+      0,
+      0,
+      0
+    ],
+    "denominator": 131
+  },
+  {
+    "salt": "T013-S1",
+    "client": 6,
+    "train_half": 1,
+    "class_counts": [
+      3,
+      0,
+      0,
+      59,
+      0,
+      0,
+      68,
+      0,
+      0,
+      0
+    ],
+    "denominator": 130
+  },
+  {
+    "salt": "T013-S1",
+    "client": 7,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      15,
+      0,
+      84,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 99
+  },
+  {
+    "salt": "T013-S1",
+    "client": 7,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      16,
+      0,
+      82,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 98
+  },
+  {
+    "salt": "T013-S1",
+    "client": 8,
+    "train_half": 0,
+    "class_counts": [
+      19,
+      1,
+      0,
+      0,
+      2,
+      75,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 97
+  },
+  {
+    "salt": "T013-S1",
+    "client": 8,
+    "train_half": 1,
+    "class_counts": [
+      16,
+      0,
+      0,
+      0,
+      4,
+      76,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 96
+  },
+  {
+    "salt": "T013-S1",
+    "client": 9,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      76,
+      10,
+      0
+    ],
+    "denominator": 88
+  },
+  {
+    "salt": "T013-S1",
+    "client": 9,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      0,
+      2,
+      0,
+      0,
+      0,
+      71,
+      14,
+      0
+    ],
+    "denominator": 88
+  },
+  {
+    "salt": "T013-S1",
+    "client": 10,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      3,
+      33,
+      27,
+      78,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 141
+  },
+  {
+    "salt": "T013-S1",
+    "client": 10,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      5,
+      33,
+      31,
+      72,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 141
+  },
+  {
+    "salt": "T013-S1",
+    "client": 11,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      53,
+      0,
+      0,
+      0,
+      1,
+      0,
+      36,
+      0
+    ],
+    "denominator": 90
+  },
+  {
+    "salt": "T013-S1",
+    "client": 11,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      51,
+      0,
+      0,
+      0,
+      0,
+      0,
+      39,
+      0
+    ],
+    "denominator": 90
+  },
+  {
+    "salt": "T013-S1",
+    "client": 12,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      0,
+      8,
+      0,
+      0,
+      0,
+      9,
+      64,
+      0,
+      0
+    ],
+    "denominator": 82
+  },
+  {
+    "salt": "T013-S1",
+    "client": 12,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      10,
+      0,
+      0,
+      0,
+      2,
+      69,
+      0,
+      0
+    ],
+    "denominator": 82
+  },
+  {
+    "salt": "T013-S1",
+    "client": 13,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      31,
+      0,
+      3,
+      1,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S1",
+    "client": 13,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      30,
+      0,
+      5,
+      1,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S1",
+    "client": 14,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      36,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 36
+  },
+  {
+    "salt": "T013-S1",
+    "client": 14,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      2,
+      33,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 35
+  },
+  {
+    "salt": "T013-S1",
+    "client": 15,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      118,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 118
+  },
+  {
+    "salt": "T013-S1",
+    "client": 15,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      2,
+      116,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 118
+  },
+  {
+    "salt": "T013-S1",
+    "client": 16,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0,
+      7,
+      0
+    ],
+    "denominator": 11
+  },
+  {
+    "salt": "T013-S1",
+    "client": 16,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      8,
+      0
+    ],
+    "denominator": 10
+  },
+  {
+    "salt": "T013-S1",
+    "client": 17,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      35,
+      0
+    ],
+    "denominator": 44
+  },
+  {
+    "salt": "T013-S1",
+    "client": 17,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      11,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      32,
+      0
+    ],
+    "denominator": 43
+  },
+  {
+    "salt": "T013-S1",
+    "client": 18,
+    "train_half": 0,
+    "class_counts": [
+      4,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 5
+  },
+  {
+    "salt": "T013-S1",
+    "client": 18,
+    "train_half": 1,
+    "class_counts": [
+      4,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 5
+  },
+  {
+    "salt": "T013-S1",
+    "client": 19,
+    "train_half": 0,
+    "class_counts": [
+      9,
+      0,
+      27,
+      0,
+      0,
+      4,
+      0,
+      6,
+      0,
+      0
+    ],
+    "denominator": 46
+  },
+  {
+    "salt": "T013-S1",
+    "client": 19,
+    "train_half": 1,
+    "class_counts": [
+      6,
+      0,
+      33,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0
+    ],
+    "denominator": 45
+  },
+  {
+    "salt": "T013-S1",
+    "client": 20,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      76,
+      0,
+      0,
+      0
+    ],
+    "denominator": 76
+  },
+  {
+    "salt": "T013-S1",
+    "client": 20,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      76,
+      0,
+      0,
+      0
+    ],
+    "denominator": 76
+  },
+  {
+    "salt": "T013-S1",
+    "client": 21,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      1,
+      120,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 121
+  },
+  {
+    "salt": "T013-S1",
+    "client": 21,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      2,
+      119,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 121
+  },
+  {
+    "salt": "T013-S1",
+    "client": 22,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      40,
+      48,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 88
+  },
+  {
+    "salt": "T013-S1",
+    "client": 22,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      52,
+      35,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 87
+  },
+  {
+    "salt": "T013-S1",
+    "client": 23,
+    "train_half": 0,
+    "class_counts": [
+      31,
+      0,
+      14,
+      0,
+      0,
+      0,
+      0,
+      0,
+      25,
+      0
+    ],
+    "denominator": 70
+  },
+  {
+    "salt": "T013-S1",
+    "client": 23,
+    "train_half": 1,
+    "class_counts": [
+      46,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      13,
+      1
+    ],
+    "denominator": 70
+  },
+  {
+    "salt": "T013-S1",
+    "client": 24,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      3,
+      1,
+      19,
+      0,
+      66
+    ],
+    "denominator": 90
+  },
+  {
+    "salt": "T013-S1",
+    "client": 24,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      2,
+      22,
+      0,
+      63
+    ],
+    "denominator": 89
+  },
+  {
+    "salt": "T013-S1",
+    "client": 25,
+    "train_half": 0,
+    "class_counts": [
+      9,
+      4,
+      2,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 18
+  },
+  {
+    "salt": "T013-S1",
+    "client": 25,
+    "train_half": 1,
+    "class_counts": [
+      3,
+      6,
+      1,
+      0,
+      7,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 18
+  },
+  {
+    "salt": "T013-S1",
+    "client": 26,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      7,
+      0,
+      0,
+      0,
+      3,
+      132,
+      0,
+      0,
+      0
+    ],
+    "denominator": 142
+  },
+  {
+    "salt": "T013-S1",
+    "client": 26,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      4,
+      0,
+      0,
+      0,
+      1,
+      137,
+      0,
+      0,
+      0
+    ],
+    "denominator": 142
+  },
+  {
+    "salt": "T013-S1",
+    "client": 27,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      97,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 98
+  },
+  {
+    "salt": "T013-S1",
+    "client": 27,
+    "train_half": 1,
+    "class_counts": [
+      2,
+      95,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 97
+  },
+  {
+    "salt": "T013-S1",
+    "client": 28,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      0,
+      0,
+      3,
+      7,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 13
+  },
+  {
+    "salt": "T013-S1",
+    "client": 28,
+    "train_half": 1,
+    "class_counts": [
+      2,
+      0,
+      0,
+      5,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 13
+  },
+  {
+    "salt": "T013-S1",
+    "client": 29,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      191,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 191
+  },
+  {
+    "salt": "T013-S1",
+    "client": 29,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      191,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 191
+  },
+  {
+    "salt": "T013-S1",
+    "client": 30,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      61,
+      0,
+      0,
+      77,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 138
+  },
+  {
+    "salt": "T013-S1",
+    "client": 30,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      57,
+      0,
+      1,
+      79,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 137
+  },
+  {
+    "salt": "T013-S1",
+    "client": 31,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      99,
+      0
+    ],
+    "denominator": 101
+  },
+  {
+    "salt": "T013-S1",
+    "client": 31,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      99,
+      0
+    ],
+    "denominator": 101
+  },
+  {
+    "salt": "T013-S1",
+    "client": 32,
+    "train_half": 0,
+    "class_counts": [
+      27,
+      0,
+      7,
+      0,
+      28,
+      12,
+      0,
+      0,
+      25,
+      0
+    ],
+    "denominator": 99
+  },
+  {
+    "salt": "T013-S1",
+    "client": 32,
+    "train_half": 1,
+    "class_counts": [
+      23,
+      0,
+      7,
+      0,
+      34,
+      14,
+      0,
+      0,
+      21,
+      0
+    ],
+    "denominator": 99
+  },
+  {
+    "salt": "T013-S1",
+    "client": 33,
+    "train_half": 0,
+    "class_counts": [
+      62,
+      0,
+      0,
+      70,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 132
+  },
+  {
+    "salt": "T013-S1",
+    "client": 33,
+    "train_half": 1,
+    "class_counts": [
+      70,
+      0,
+      0,
+      62,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 132
+  },
+  {
+    "salt": "T013-S1",
+    "client": 34,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      4,
+      43,
+      0,
+      0,
+      3,
+      0,
+      1,
+      0
+    ],
+    "denominator": 51
+  },
+  {
+    "salt": "T013-S1",
+    "client": 34,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      7,
+      40,
+      0,
+      0,
+      2,
+      0,
+      2,
+      0
+    ],
+    "denominator": 51
+  },
+  {
+    "salt": "T013-S1",
+    "client": 35,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      23,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      65,
+      0
+    ],
+    "denominator": 88
+  },
+  {
+    "salt": "T013-S1",
+    "client": 35,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      22,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      65,
+      0
+    ],
+    "denominator": 87
+  },
+  {
+    "salt": "T013-S1",
+    "client": 36,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0
+    ],
+    "denominator": 9
+  },
+  {
+    "salt": "T013-S1",
+    "client": 36,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      6,
+      0,
+      2
+    ],
+    "denominator": 9
+  },
+  {
+    "salt": "T013-S1",
+    "client": 37,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      15,
+      0,
+      0,
+      0,
+      4,
+      0,
+      1,
+      20
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S1",
+    "client": 37,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      14,
+      0,
+      0,
+      2,
+      2,
+      0,
+      1,
+      21
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S1",
+    "client": 38,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12,
+      1
+    ],
+    "denominator": 13
+  },
+  {
+    "salt": "T013-S1",
+    "client": 38,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12,
+      0
+    ],
+    "denominator": 12
+  },
+  {
+    "salt": "T013-S1",
+    "client": 39,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      80,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 80
+  },
+  {
+    "salt": "T013-S1",
+    "client": 39,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      80,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 80
+  },
+  {
+    "salt": "T013-S1",
+    "client": 40,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      4,
+      0,
+      1,
+      0,
+      1,
+      0,
+      119
+    ],
+    "denominator": 125
+  },
+  {
+    "salt": "T013-S1",
+    "client": 40,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      1,
+      0,
+      120
+    ],
+    "denominator": 125
+  },
+  {
+    "salt": "T013-S1",
+    "client": 41,
+    "train_half": 0,
+    "class_counts": [
+      3,
+      1,
+      0,
+      43,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2
+    ],
+    "denominator": 50
+  },
+  {
+    "salt": "T013-S1",
+    "client": 41,
+    "train_half": 1,
+    "class_counts": [
+      5,
+      2,
+      0,
+      34,
+      0,
+      0,
+      0,
+      1,
+      3,
+      5
+    ],
+    "denominator": 50
+  },
+  {
+    "salt": "T013-S1",
+    "client": 42,
+    "train_half": 0,
+    "class_counts": [
+      11,
+      56,
+      93,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 160
+  },
+  {
+    "salt": "T013-S1",
+    "client": 42,
+    "train_half": 1,
+    "class_counts": [
+      7,
+      64,
+      89,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 160
+  },
+  {
+    "salt": "T013-S1",
+    "client": 43,
+    "train_half": 0,
+    "class_counts": [
+      40,
+      0,
+      0,
+      0,
+      59,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 99
+  },
+  {
+    "salt": "T013-S1",
+    "client": 43,
+    "train_half": 1,
+    "class_counts": [
+      42,
+      0,
+      0,
+      0,
+      57,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 99
+  },
+  {
+    "salt": "T013-S1",
+    "client": 44,
+    "train_half": 0,
+    "class_counts": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      11,
+      22
+    ],
+    "denominator": 37
+  },
+  {
+    "salt": "T013-S1",
+    "client": 44,
+    "train_half": 1,
+    "class_counts": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12,
+      23
+    ],
+    "denominator": 37
+  },
+  {
+    "salt": "T013-S1",
+    "client": 45,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      4,
+      0,
+      2,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "denominator": 7
+  },
+  {
+    "salt": "T013-S1",
+    "client": 45,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      5,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 6
+  },
+  {
+    "salt": "T013-S1",
+    "client": 46,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      8,
+      32,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S1",
+    "client": 46,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      5,
+      34,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 39
+  },
+  {
+    "salt": "T013-S1",
+    "client": 47,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      2,
+      5,
+      1,
+      0,
+      0,
+      0,
+      0,
+      7,
+      0
+    ],
+    "denominator": 16
+  },
+  {
+    "salt": "T013-S1",
+    "client": 47,
+    "train_half": 1,
+    "class_counts": [
+      1,
+      6,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      0
+    ],
+    "denominator": 16
+  },
+  {
+    "salt": "T013-S1",
+    "client": 48,
+    "train_half": 0,
+    "class_counts": [
+      3,
+      0,
+      0,
+      0,
+      48,
+      0,
+      0,
+      13,
+      0,
+      17
+    ],
+    "denominator": 81
+  },
+  {
+    "salt": "T013-S1",
+    "client": 48,
+    "train_half": 1,
+    "class_counts": [
+      4,
+      0,
+      0,
+      0,
+      50,
+      0,
+      0,
+      12,
+      0,
+      14
+    ],
+    "denominator": 80
+  },
+  {
+    "salt": "T013-S1",
+    "client": 49,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      18,
+      0,
+      83,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 101
+  },
+  {
+    "salt": "T013-S1",
+    "client": 49,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      21,
+      0,
+      80,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 101
+  },
+  {
+    "salt": "T013-S1",
+    "client": 50,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      39,
+      0,
+      0,
+      18,
+      0,
+      0,
+      3,
+      0
+    ],
+    "denominator": 61
+  },
+  {
+    "salt": "T013-S1",
+    "client": 50,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      42,
+      0,
+      0,
+      16,
+      0,
+      0,
+      1,
+      0
+    ],
+    "denominator": 60
+  },
+  {
+    "salt": "T013-S1",
+    "client": 51,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "denominator": 6
+  },
+  {
+    "salt": "T013-S1",
+    "client": 51,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6
+    ],
+    "denominator": 6
+  },
+  {
+    "salt": "T013-S1",
+    "client": 52,
+    "train_half": 0,
+    "class_counts": [
+      3,
+      0,
+      9,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 12
+  },
+  {
+    "salt": "T013-S1",
+    "client": 52,
+    "train_half": 1,
+    "class_counts": [
+      1,
+      0,
+      11,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 12
+  },
+  {
+    "salt": "T013-S1",
+    "client": 53,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      11,
+      0,
+      0,
+      7,
+      0,
+      0,
+      43,
+      0,
+      0
+    ],
+    "denominator": 61
+  },
+  {
+    "salt": "T013-S1",
+    "client": 53,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      16,
+      0,
+      1,
+      2,
+      0,
+      0,
+      41,
+      0,
+      0
+    ],
+    "denominator": 60
+  },
+  {
+    "salt": "T013-S1",
+    "client": 54,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      0,
+      13,
+      0,
+      0,
+      0,
+      22,
+      83,
+      0,
+      0
+    ],
+    "denominator": 119
+  },
+  {
+    "salt": "T013-S1",
+    "client": 54,
+    "train_half": 1,
+    "class_counts": [
+      1,
+      0,
+      13,
+      0,
+      0,
+      0,
+      15,
+      89,
+      0,
+      0
+    ],
+    "denominator": 118
+  },
+  {
+    "salt": "T013-S1",
+    "client": 55,
+    "train_half": 0,
+    "class_counts": [
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      101,
+      0
+    ],
+    "denominator": 105
+  },
+  {
+    "salt": "T013-S1",
+    "client": 55,
+    "train_half": 1,
+    "class_counts": [
+      4,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      100,
+      0
+    ],
+    "denominator": 105
+  },
+  {
+    "salt": "T013-S1",
+    "client": 56,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      8,
+      9,
+      4,
+      0,
+      7,
+      0,
+      0,
+      31
+    ],
+    "denominator": 59
+  },
+  {
+    "salt": "T013-S1",
+    "client": 56,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      8,
+      7,
+      5,
+      0,
+      6,
+      0,
+      0,
+      33
+    ],
+    "denominator": 59
+  },
+  {
+    "salt": "T013-S1",
+    "client": 57,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      13,
+      0,
+      26,
+      6,
+      2,
+      11,
+      0,
+      0,
+      1
+    ],
+    "denominator": 59
+  },
+  {
+    "salt": "T013-S1",
+    "client": 57,
+    "train_half": 1,
+    "class_counts": [
+      1,
+      11,
+      0,
+      24,
+      6,
+      2,
+      14,
+      0,
+      0,
+      0
+    ],
+    "denominator": 58
+  },
+  {
+    "salt": "T013-S1",
+    "client": 58,
+    "train_half": 0,
+    "class_counts": [
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      11
+    ],
+    "denominator": 14
+  },
+  {
+    "salt": "T013-S1",
+    "client": 58,
+    "train_half": 1,
+    "class_counts": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      11
+    ],
+    "denominator": 14
+  },
+  {
+    "salt": "T013-S1",
+    "client": 59,
+    "train_half": 0,
+    "class_counts": [
+      19,
+      13,
+      0,
+      0,
+      0,
+      7,
+      8,
+      0,
+      0,
+      0
+    ],
+    "denominator": 47
+  },
+  {
+    "salt": "T013-S1",
+    "client": 59,
+    "train_half": 1,
+    "class_counts": [
+      18,
+      17,
+      0,
+      0,
+      0,
+      6,
+      6,
+      0,
+      0,
+      0
+    ],
+    "denominator": 47
+  },
+  {
+    "salt": "T013-S1",
+    "client": 60,
+    "train_half": 0,
+    "class_counts": [
+      238,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 238
+  },
+  {
+    "salt": "T013-S1",
+    "client": 60,
+    "train_half": 1,
+    "class_counts": [
+      237,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 237
+  },
+  {
+    "salt": "T013-S1",
+    "client": 61,
+    "train_half": 0,
+    "class_counts": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      4,
+      0,
+      0
+    ],
+    "denominator": 8
+  },
+  {
+    "salt": "T013-S1",
+    "client": 61,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      0,
+      3,
+      0,
+      0
+    ],
+    "denominator": 7
+  },
+  {
+    "salt": "T013-S1",
+    "client": 62,
+    "train_half": 0,
+    "class_counts": [
+      6,
+      0,
+      1,
+      0,
+      0,
+      4,
+      7,
+      0,
+      0,
+      20
+    ],
+    "denominator": 38
+  },
+  {
+    "salt": "T013-S1",
+    "client": 62,
+    "train_half": 1,
+    "class_counts": [
+      9,
+      0,
+      0,
+      0,
+      0,
+      2,
+      5,
+      0,
+      0,
+      21
+    ],
+    "denominator": 37
+  },
+  {
+    "salt": "T013-S1",
+    "client": 63,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      1,
+      52,
+      13,
+      1,
+      41,
+      0,
+      0,
+      0
+    ],
+    "denominator": 108
+  },
+  {
+    "salt": "T013-S1",
+    "client": 63,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      1,
+      47,
+      12,
+      0,
+      47,
+      0,
+      0,
+      0
+    ],
+    "denominator": 107
+  },
+  {
+    "salt": "T013-S1",
+    "client": 64,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      38,
+      0,
+      15,
+      2,
+      0,
+      5,
+      4
+    ],
+    "denominator": 64
+  },
+  {
+    "salt": "T013-S1",
+    "client": 64,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      35,
+      0,
+      10,
+      1,
+      0,
+      11,
+      6
+    ],
+    "denominator": 63
+  },
+  {
+    "salt": "T013-S1",
+    "client": 65,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      76,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 76
+  },
+  {
+    "salt": "T013-S1",
+    "client": 65,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      76,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 76
+  },
+  {
+    "salt": "T013-S1",
+    "client": 66,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      7,
+      0,
+      3,
+      3,
+      0,
+      84
+    ],
+    "denominator": 97
+  },
+  {
+    "salt": "T013-S1",
+    "client": 66,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      1,
+      5,
+      1,
+      86
+    ],
+    "denominator": 97
+  },
+  {
+    "salt": "T013-S1",
+    "client": 67,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      7,
+      1,
+      0,
+      0,
+      10,
+      0,
+      22,
+      0,
+      1
+    ],
+    "denominator": 41
+  },
+  {
+    "salt": "T013-S1",
+    "client": 67,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      5,
+      1,
+      0,
+      0,
+      4,
+      0,
+      26,
+      5,
+      0
+    ],
+    "denominator": 41
+  },
+  {
+    "salt": "T013-S1",
+    "client": 68,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      29,
+      0,
+      1,
+      0,
+      0,
+      0,
+      13,
+      0,
+      72
+    ],
+    "denominator": 115
+  },
+  {
+    "salt": "T013-S1",
+    "client": 68,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      39,
+      0,
+      4,
+      2,
+      0,
+      0,
+      11,
+      0,
+      58
+    ],
+    "denominator": 114
+  },
+  {
+    "salt": "T013-S1",
+    "client": 69,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      7,
+      1,
+      0,
+      0,
+      0,
+      62,
+      0,
+      0
+    ],
+    "denominator": 71
+  },
+  {
+    "salt": "T013-S1",
+    "client": 69,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      3,
+      9,
+      4,
+      0,
+      0,
+      0,
+      55,
+      0,
+      0
+    ],
+    "denominator": 71
+  },
+  {
+    "salt": "T013-S1",
+    "client": 70,
+    "train_half": 0,
+    "class_counts": [
+      8,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      29,
+      0
+    ],
+    "denominator": 39
+  },
+  {
+    "salt": "T013-S1",
+    "client": 70,
+    "train_half": 1,
+    "class_counts": [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      29,
+      0
+    ],
+    "denominator": 38
+  },
+  {
+    "salt": "T013-S1",
+    "client": 71,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      17,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "denominator": 18
+  },
+  {
+    "salt": "T013-S1",
+    "client": 71,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      13,
+      2,
+      0,
+      0,
+      3,
+      0
+    ],
+    "denominator": 18
+  },
+  {
+    "salt": "T013-S1",
+    "client": 72,
+    "train_half": 0,
+    "class_counts": [
+      14,
+      0,
+      0,
+      3,
+      1,
+      27,
+      0,
+      0,
+      36,
+      0
+    ],
+    "denominator": 81
+  },
+  {
+    "salt": "T013-S1",
+    "client": 72,
+    "train_half": 1,
+    "class_counts": [
+      13,
+      0,
+      0,
+      3,
+      0,
+      19,
+      0,
+      0,
+      45,
+      0
+    ],
+    "denominator": 80
+  },
+  {
+    "salt": "T013-S1",
+    "client": 73,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      45,
+      19,
+      48,
+      0,
+      0
+    ],
+    "denominator": 114
+  },
+  {
+    "salt": "T013-S1",
+    "client": 73,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      43,
+      25,
+      44,
+      0,
+      0
+    ],
+    "denominator": 114
+  },
+  {
+    "salt": "T013-S1",
+    "client": 74,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      77,
+      0,
+      0,
+      0
+    ],
+    "denominator": 82
+  },
+  {
+    "salt": "T013-S1",
+    "client": 74,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      4,
+      0,
+      4,
+      0,
+      0,
+      74,
+      0,
+      0,
+      0
+    ],
+    "denominator": 82
+  },
+  {
+    "salt": "T013-S1",
+    "client": 75,
+    "train_half": 0,
+    "class_counts": [
+      16,
+      40,
+      0,
+      44,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 100
+  },
+  {
+    "salt": "T013-S1",
+    "client": 75,
+    "train_half": 1,
+    "class_counts": [
+      12,
+      45,
+      0,
+      43,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 100
+  },
+  {
+    "salt": "T013-S1",
+    "client": 76,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      7,
+      0,
+      0,
+      0,
+      1,
+      51,
+      25,
+      0,
+      0
+    ],
+    "denominator": 84
+  },
+  {
+    "salt": "T013-S1",
+    "client": 76,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      11,
+      0,
+      0,
+      0,
+      1,
+      40,
+      31,
+      0,
+      0
+    ],
+    "denominator": 83
+  },
+  {
+    "salt": "T013-S1",
+    "client": 77,
+    "train_half": 0,
+    "class_counts": [
+      36,
+      0,
+      50,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 86
+  },
+  {
+    "salt": "T013-S1",
+    "client": 77,
+    "train_half": 1,
+    "class_counts": [
+      47,
+      0,
+      39,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 86
+  },
+  {
+    "salt": "T013-S1",
+    "client": 78,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      10,
+      35,
+      0,
+      0,
+      4,
+      0
+    ],
+    "denominator": 49
+  },
+  {
+    "salt": "T013-S1",
+    "client": 78,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      16,
+      31,
+      0,
+      0,
+      2,
+      0
+    ],
+    "denominator": 49
+  },
+  {
+    "salt": "T013-S1",
+    "client": 79,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      7,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 9
+  },
+  {
+    "salt": "T013-S1",
+    "client": 79,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      7,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 9
+  },
+  {
+    "salt": "T013-S1",
+    "client": 80,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      33,
+      5,
+      2,
+      0
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S1",
+    "client": 80,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      32,
+      7,
+      0,
+      0
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S1",
+    "client": 81,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "denominator": 9
+  },
+  {
+    "salt": "T013-S1",
+    "client": 81,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "denominator": 8
+  },
+  {
+    "salt": "T013-S1",
+    "client": 82,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      6,
+      0,
+      6,
+      0,
+      70,
+      0,
+      0
+    ],
+    "denominator": 82
+  },
+  {
+    "salt": "T013-S1",
+    "client": 82,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      6,
+      0,
+      9,
+      0,
+      66,
+      0,
+      0
+    ],
+    "denominator": 81
+  },
+  {
+    "salt": "T013-S1",
+    "client": 83,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      1,
+      7,
+      0,
+      0,
+      46,
+      201,
+      0
+    ],
+    "denominator": 255
+  },
+  {
+    "salt": "T013-S1",
+    "client": 83,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      5,
+      5,
+      0,
+      0,
+      42,
+      202,
+      0
+    ],
+    "denominator": 254
+  },
+  {
+    "salt": "T013-S1",
+    "client": 84,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      26,
+      3,
+      0,
+      2,
+      96,
+      0,
+      0,
+      0
+    ],
+    "denominator": 127
+  },
+  {
+    "salt": "T013-S1",
+    "client": 84,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      41,
+      1,
+      0,
+      0,
+      85,
+      0,
+      0,
+      0
+    ],
+    "denominator": 127
+  },
+  {
+    "salt": "T013-S1",
+    "client": 85,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      38,
+      73,
+      0,
+      0,
+      0
+    ],
+    "denominator": 111
+  },
+  {
+    "salt": "T013-S1",
+    "client": 85,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      42,
+      69,
+      0,
+      0,
+      0
+    ],
+    "denominator": 111
+  },
+  {
+    "salt": "T013-S1",
+    "client": 86,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      1,
+      0,
+      8,
+      11,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 20
+  },
+  {
+    "salt": "T013-S1",
+    "client": 86,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      1,
+      0,
+      7,
+      10,
+      2,
+      0,
+      0,
+      0
+    ],
+    "denominator": 20
+  },
+  {
+    "salt": "T013-S1",
+    "client": 87,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      55,
+      0,
+      1,
+      0,
+      0,
+      19,
+      0
+    ],
+    "denominator": 75
+  },
+  {
+    "salt": "T013-S1",
+    "client": 87,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      57,
+      0,
+      6,
+      0,
+      0,
+      12,
+      0
+    ],
+    "denominator": 75
+  },
+  {
+    "salt": "T013-S1",
+    "client": 88,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      9,
+      8,
+      0,
+      19,
+      0,
+      0,
+      3
+    ],
+    "denominator": 39
+  },
+  {
+    "salt": "T013-S1",
+    "client": 88,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      0,
+      8,
+      7,
+      0,
+      18,
+      0,
+      0,
+      4
+    ],
+    "denominator": 38
+  },
+  {
+    "salt": "T013-S1",
+    "client": 89,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      45,
+      19,
+      5,
+      4,
+      5,
+      0
+    ],
+    "denominator": 78
+  },
+  {
+    "salt": "T013-S1",
+    "client": 89,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      49,
+      16,
+      1,
+      6,
+      5,
+      0
+    ],
+    "denominator": 77
+  },
+  {
+    "salt": "T013-S1",
+    "client": 90,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      14,
+      27,
+      8,
+      22,
+      0,
+      0,
+      0,
+      7
+    ],
+    "denominator": 78
+  },
+  {
+    "salt": "T013-S1",
+    "client": 90,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      14,
+      31,
+      7,
+      22,
+      0,
+      0,
+      0,
+      2
+    ],
+    "denominator": 77
+  },
+  {
+    "salt": "T013-S1",
+    "client": 91,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      11,
+      0,
+      0,
+      0,
+      8,
+      0,
+      73
+    ],
+    "denominator": 92
+  },
+  {
+    "salt": "T013-S1",
+    "client": 91,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      14,
+      0,
+      0,
+      0,
+      7,
+      0,
+      70
+    ],
+    "denominator": 91
+  },
+  {
+    "salt": "T013-S1",
+    "client": 92,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      32,
+      0,
+      8,
+      0,
+      0,
+      0,
+      0,
+      8,
+      0
+    ],
+    "denominator": 48
+  },
+  {
+    "salt": "T013-S1",
+    "client": 92,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      37,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "denominator": 48
+  },
+  {
+    "salt": "T013-S1",
+    "client": 93,
+    "train_half": 0,
+    "class_counts": [
+      9,
+      3,
+      0,
+      0,
+      97,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 109
+  },
+  {
+    "salt": "T013-S1",
+    "client": 93,
+    "train_half": 1,
+    "class_counts": [
+      8,
+      8,
+      0,
+      0,
+      93,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 109
+  },
+  {
+    "salt": "T013-S1",
+    "client": 94,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      25,
+      1,
+      0,
+      0,
+      121,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 147
+  },
+  {
+    "salt": "T013-S1",
+    "client": 94,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      19,
+      0,
+      0,
+      0,
+      127,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 146
+  },
+  {
+    "salt": "T013-S1",
+    "client": 95,
+    "train_half": 0,
+    "class_counts": [
+      2,
+      11,
+      0,
+      1,
+      0,
+      4,
+      1,
+      0,
+      0,
+      0
+    ],
+    "denominator": 19
+  },
+  {
+    "salt": "T013-S1",
+    "client": 95,
+    "train_half": 1,
+    "class_counts": [
+      5,
+      11,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 19
+  },
+  {
+    "salt": "T013-S1",
+    "client": 96,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      1,
+      0,
+      19,
+      5,
+      0,
+      1,
+      2,
+      0,
+      79
+    ],
+    "denominator": 108
+  },
+  {
+    "salt": "T013-S1",
+    "client": 96,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      17,
+      7,
+      0,
+      1,
+      0,
+      0,
+      82
+    ],
+    "denominator": 107
+  },
+  {
+    "salt": "T013-S1",
+    "client": 97,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      66,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      18
+    ],
+    "denominator": 85
+  },
+  {
+    "salt": "T013-S1",
+    "client": 97,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      71,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      14
+    ],
+    "denominator": 85
+  },
+  {
+    "salt": "T013-S1",
+    "client": 98,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      18,
+      1,
+      6,
+      1,
+      5
+    ],
+    "denominator": 33
+  },
+  {
+    "salt": "T013-S1",
+    "client": 98,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      18,
+      3,
+      7,
+      0,
+      3
+    ],
+    "denominator": 33
+  },
+  {
+    "salt": "T013-S1",
+    "client": 99,
+    "train_half": 0,
+    "class_counts": [
+      14,
+      1,
+      1,
+      6,
+      28,
+      16,
+      0,
+      1,
+      0,
+      6
+    ],
+    "denominator": 73
+  },
+  {
+    "salt": "T013-S1",
+    "client": 99,
+    "train_half": 1,
+    "class_counts": [
+      9,
+      0,
+      0,
+      2,
+      29,
+      26,
+      0,
+      2,
+      0,
+      4
+    ],
+    "denominator": 72
+  },
+  {
+    "salt": "T013-S2",
+    "client": 0,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      15,
+      0,
+      0,
+      1,
+      0,
+      4,
+      69,
+      0,
+      0
+    ],
+    "denominator": 89
+  },
+  {
+    "salt": "T013-S2",
+    "client": 0,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      12,
+      0,
+      0,
+      0,
+      0,
+      5,
+      72,
+      0,
+      0
+    ],
+    "denominator": 89
+  },
+  {
+    "salt": "T013-S2",
+    "client": 1,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      3,
+      0,
+      44,
+      0,
+      1
+    ],
+    "denominator": 50
+  },
+  {
+    "salt": "T013-S2",
+    "client": 1,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      5,
+      0,
+      42,
+      0,
+      0
+    ],
+    "denominator": 49
+  },
+  {
+    "salt": "T013-S2",
+    "client": 2,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      9,
+      0,
+      0,
+      0,
+      3,
+      0,
+      58
+    ],
+    "denominator": 70
+  },
+  {
+    "salt": "T013-S2",
+    "client": 2,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      1,
+      0,
+      66
+    ],
+    "denominator": 70
+  },
+  {
+    "salt": "T013-S2",
+    "client": 3,
+    "train_half": 0,
+    "class_counts": [
+      108,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 108
+  },
+  {
+    "salt": "T013-S2",
+    "client": 3,
+    "train_half": 1,
+    "class_counts": [
+      108,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 108
+  },
+  {
+    "salt": "T013-S2",
+    "client": 4,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      14,
+      0,
+      0,
+      0,
+      38
+    ],
+    "denominator": 53
+  },
+  {
+    "salt": "T013-S2",
+    "client": 4,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      20,
+      0,
+      0,
+      2,
+      29
+    ],
+    "denominator": 52
+  },
+  {
+    "salt": "T013-S2",
+    "client": 5,
+    "train_half": 0,
+    "class_counts": [
+      35,
+      0,
+      28,
+      0,
+      0,
+      16,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 79
+  },
+  {
+    "salt": "T013-S2",
+    "client": 5,
+    "train_half": 1,
+    "class_counts": [
+      46,
+      0,
+      18,
+      0,
+      0,
+      15,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 79
+  },
+  {
+    "salt": "T013-S2",
+    "client": 6,
+    "train_half": 0,
+    "class_counts": [
+      2,
+      0,
+      0,
+      61,
+      0,
+      0,
+      68,
+      0,
+      0,
+      0
+    ],
+    "denominator": 131
+  },
+  {
+    "salt": "T013-S2",
+    "client": 6,
+    "train_half": 1,
+    "class_counts": [
+      6,
+      0,
+      0,
+      49,
+      0,
+      0,
+      75,
+      0,
+      0,
+      0
+    ],
+    "denominator": 130
+  },
+  {
+    "salt": "T013-S2",
+    "client": 7,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      18,
+      0,
+      81,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 99
+  },
+  {
+    "salt": "T013-S2",
+    "client": 7,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      13,
+      0,
+      85,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 98
+  },
+  {
+    "salt": "T013-S2",
+    "client": 8,
+    "train_half": 0,
+    "class_counts": [
+      21,
+      1,
+      0,
+      0,
+      1,
+      74,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 97
+  },
+  {
+    "salt": "T013-S2",
+    "client": 8,
+    "train_half": 1,
+    "class_counts": [
+      14,
+      0,
+      0,
+      0,
+      5,
+      77,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 96
+  },
+  {
+    "salt": "T013-S2",
+    "client": 9,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      0,
+      2,
+      0,
+      0,
+      0,
+      70,
+      15,
+      0
+    ],
+    "denominator": 88
+  },
+  {
+    "salt": "T013-S2",
+    "client": 9,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      77,
+      9,
+      0
+    ],
+    "denominator": 88
+  },
+  {
+    "salt": "T013-S2",
+    "client": 10,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      5,
+      33,
+      30,
+      73,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 141
+  },
+  {
+    "salt": "T013-S2",
+    "client": 10,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      3,
+      33,
+      28,
+      77,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 141
+  },
+  {
+    "salt": "T013-S2",
+    "client": 11,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      52,
+      0,
+      0,
+      0,
+      1,
+      0,
+      37,
+      0
+    ],
+    "denominator": 90
+  },
+  {
+    "salt": "T013-S2",
+    "client": 11,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      52,
+      0,
+      0,
+      0,
+      0,
+      0,
+      38,
+      0
+    ],
+    "denominator": 90
+  },
+  {
+    "salt": "T013-S2",
+    "client": 12,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      1,
+      12,
+      0,
+      0,
+      0,
+      8,
+      60,
+      0,
+      0
+    ],
+    "denominator": 82
+  },
+  {
+    "salt": "T013-S2",
+    "client": 12,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      3,
+      73,
+      0,
+      0
+    ],
+    "denominator": 82
+  },
+  {
+    "salt": "T013-S2",
+    "client": 13,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      35,
+      0,
+      1,
+      2,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S2",
+    "client": 13,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      26,
+      0,
+      7,
+      0,
+      7,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S2",
+    "client": 14,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      35,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 36
+  },
+  {
+    "salt": "T013-S2",
+    "client": 14,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      34,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 35
+  },
+  {
+    "salt": "T013-S2",
+    "client": 15,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      1,
+      117,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 118
+  },
+  {
+    "salt": "T013-S2",
+    "client": 15,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      1,
+      117,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 118
+  },
+  {
+    "salt": "T013-S2",
+    "client": 16,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      8,
+      0
+    ],
+    "denominator": 11
+  },
+  {
+    "salt": "T013-S2",
+    "client": 16,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      7,
+      0
+    ],
+    "denominator": 10
+  },
+  {
+    "salt": "T013-S2",
+    "client": 17,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      34,
+      0
+    ],
+    "denominator": 44
+  },
+  {
+    "salt": "T013-S2",
+    "client": 17,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      33,
+      0
+    ],
+    "denominator": 43
+  },
+  {
+    "salt": "T013-S2",
+    "client": 18,
+    "train_half": 0,
+    "class_counts": [
+      4,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 5
+  },
+  {
+    "salt": "T013-S2",
+    "client": 18,
+    "train_half": 1,
+    "class_counts": [
+      4,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 5
+  },
+  {
+    "salt": "T013-S2",
+    "client": 19,
+    "train_half": 0,
+    "class_counts": [
+      9,
+      0,
+      29,
+      0,
+      0,
+      2,
+      0,
+      6,
+      0,
+      0
+    ],
+    "denominator": 46
+  },
+  {
+    "salt": "T013-S2",
+    "client": 19,
+    "train_half": 1,
+    "class_counts": [
+      6,
+      0,
+      31,
+      0,
+      0,
+      2,
+      0,
+      6,
+      0,
+      0
+    ],
+    "denominator": 45
+  },
+  {
+    "salt": "T013-S2",
+    "client": 20,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      76,
+      0,
+      0,
+      0
+    ],
+    "denominator": 76
+  },
+  {
+    "salt": "T013-S2",
+    "client": 20,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      76,
+      0,
+      0,
+      0
+    ],
+    "denominator": 76
+  },
+  {
+    "salt": "T013-S2",
+    "client": 21,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      2,
+      119,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 121
+  },
+  {
+    "salt": "T013-S2",
+    "client": 21,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      1,
+      120,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 121
+  },
+  {
+    "salt": "T013-S2",
+    "client": 22,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      44,
+      44,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 88
+  },
+  {
+    "salt": "T013-S2",
+    "client": 22,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      48,
+      39,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 87
+  },
+  {
+    "salt": "T013-S2",
+    "client": 23,
+    "train_half": 0,
+    "class_counts": [
+      34,
+      0,
+      12,
+      0,
+      0,
+      0,
+      0,
+      0,
+      23,
+      1
+    ],
+    "denominator": 70
+  },
+  {
+    "salt": "T013-S2",
+    "client": 23,
+    "train_half": 1,
+    "class_counts": [
+      43,
+      0,
+      12,
+      0,
+      0,
+      0,
+      0,
+      0,
+      15,
+      0
+    ],
+    "denominator": 70
+  },
+  {
+    "salt": "T013-S2",
+    "client": 24,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      1,
+      23,
+      0,
+      63
+    ],
+    "denominator": 90
+  },
+  {
+    "salt": "T013-S2",
+    "client": 24,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      2,
+      18,
+      0,
+      66
+    ],
+    "denominator": 89
+  },
+  {
+    "salt": "T013-S2",
+    "client": 25,
+    "train_half": 0,
+    "class_counts": [
+      5,
+      3,
+      2,
+      0,
+      7,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 18
+  },
+  {
+    "salt": "T013-S2",
+    "client": 25,
+    "train_half": 1,
+    "class_counts": [
+      7,
+      7,
+      1,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 18
+  },
+  {
+    "salt": "T013-S2",
+    "client": 26,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      1,
+      139,
+      0,
+      0,
+      0
+    ],
+    "denominator": 142
+  },
+  {
+    "salt": "T013-S2",
+    "client": 26,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      3,
+      130,
+      0,
+      0,
+      0
+    ],
+    "denominator": 142
+  },
+  {
+    "salt": "T013-S2",
+    "client": 27,
+    "train_half": 0,
+    "class_counts": [
+      3,
+      95,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 98
+  },
+  {
+    "salt": "T013-S2",
+    "client": 27,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      97,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 97
+  },
+  {
+    "salt": "T013-S2",
+    "client": 28,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      0,
+      0,
+      4,
+      7,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 13
+  },
+  {
+    "salt": "T013-S2",
+    "client": 28,
+    "train_half": 1,
+    "class_counts": [
+      2,
+      0,
+      0,
+      4,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 13
+  },
+  {
+    "salt": "T013-S2",
+    "client": 29,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      191,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 191
+  },
+  {
+    "salt": "T013-S2",
+    "client": 29,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      191,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 191
+  },
+  {
+    "salt": "T013-S2",
+    "client": 30,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      61,
+      0,
+      0,
+      77,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 138
+  },
+  {
+    "salt": "T013-S2",
+    "client": 30,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      57,
+      0,
+      1,
+      79,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 137
+  },
+  {
+    "salt": "T013-S2",
+    "client": 31,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      99,
+      0
+    ],
+    "denominator": 101
+  },
+  {
+    "salt": "T013-S2",
+    "client": 31,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      99,
+      0
+    ],
+    "denominator": 101
+  },
+  {
+    "salt": "T013-S2",
+    "client": 32,
+    "train_half": 0,
+    "class_counts": [
+      21,
+      0,
+      8,
+      0,
+      35,
+      11,
+      0,
+      0,
+      24,
+      0
+    ],
+    "denominator": 99
+  },
+  {
+    "salt": "T013-S2",
+    "client": 32,
+    "train_half": 1,
+    "class_counts": [
+      29,
+      0,
+      6,
+      0,
+      27,
+      15,
+      0,
+      0,
+      22,
+      0
+    ],
+    "denominator": 99
+  },
+  {
+    "salt": "T013-S2",
+    "client": 33,
+    "train_half": 0,
+    "class_counts": [
+      56,
+      0,
+      0,
+      76,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 132
+  },
+  {
+    "salt": "T013-S2",
+    "client": 33,
+    "train_half": 1,
+    "class_counts": [
+      76,
+      0,
+      0,
+      56,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 132
+  },
+  {
+    "salt": "T013-S2",
+    "client": 34,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      8,
+      40,
+      0,
+      0,
+      2,
+      0,
+      1,
+      0
+    ],
+    "denominator": 51
+  },
+  {
+    "salt": "T013-S2",
+    "client": 34,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      3,
+      43,
+      0,
+      0,
+      3,
+      0,
+      2,
+      0
+    ],
+    "denominator": 51
+  },
+  {
+    "salt": "T013-S2",
+    "client": 35,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      23,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      65,
+      0
+    ],
+    "denominator": 88
+  },
+  {
+    "salt": "T013-S2",
+    "client": 35,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      22,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      65,
+      0
+    ],
+    "denominator": 87
+  },
+  {
+    "salt": "T013-S2",
+    "client": 36,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      6,
+      0,
+      0
+    ],
+    "denominator": 9
+  },
+  {
+    "salt": "T013-S2",
+    "client": 36,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      2
+    ],
+    "denominator": 9
+  },
+  {
+    "salt": "T013-S2",
+    "client": 37,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      17,
+      0,
+      0,
+      1,
+      4,
+      0,
+      0,
+      18
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S2",
+    "client": 37,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      12,
+      0,
+      0,
+      1,
+      2,
+      0,
+      2,
+      23
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S2",
+    "client": 38,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12,
+      1
+    ],
+    "denominator": 13
+  },
+  {
+    "salt": "T013-S2",
+    "client": 38,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12,
+      0
+    ],
+    "denominator": 12
+  },
+  {
+    "salt": "T013-S2",
+    "client": 39,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      80,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 80
+  },
+  {
+    "salt": "T013-S2",
+    "client": 39,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      80,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 80
+  },
+  {
+    "salt": "T013-S2",
+    "client": 40,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      2,
+      0,
+      120
+    ],
+    "denominator": 125
+  },
+  {
+    "salt": "T013-S2",
+    "client": 40,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      5,
+      0,
+      1,
+      0,
+      0,
+      0,
+      119
+    ],
+    "denominator": 125
+  },
+  {
+    "salt": "T013-S2",
+    "client": 41,
+    "train_half": 0,
+    "class_counts": [
+      4,
+      2,
+      0,
+      37,
+      0,
+      0,
+      0,
+      1,
+      2,
+      4
+    ],
+    "denominator": 50
+  },
+  {
+    "salt": "T013-S2",
+    "client": 41,
+    "train_half": 1,
+    "class_counts": [
+      4,
+      1,
+      0,
+      40,
+      0,
+      0,
+      0,
+      0,
+      2,
+      3
+    ],
+    "denominator": 50
+  },
+  {
+    "salt": "T013-S2",
+    "client": 42,
+    "train_half": 0,
+    "class_counts": [
+      4,
+      60,
+      96,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 160
+  },
+  {
+    "salt": "T013-S2",
+    "client": 42,
+    "train_half": 1,
+    "class_counts": [
+      14,
+      60,
+      86,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 160
+  },
+  {
+    "salt": "T013-S2",
+    "client": 43,
+    "train_half": 0,
+    "class_counts": [
+      37,
+      0,
+      0,
+      0,
+      62,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 99
+  },
+  {
+    "salt": "T013-S2",
+    "client": 43,
+    "train_half": 1,
+    "class_counts": [
+      45,
+      0,
+      0,
+      0,
+      54,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 99
+  },
+  {
+    "salt": "T013-S2",
+    "client": 44,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      15,
+      20
+    ],
+    "denominator": 37
+  },
+  {
+    "salt": "T013-S2",
+    "client": 44,
+    "train_half": 1,
+    "class_counts": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      8,
+      25
+    ],
+    "denominator": 37
+  },
+  {
+    "salt": "T013-S2",
+    "client": 45,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      5,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 7
+  },
+  {
+    "salt": "T013-S2",
+    "client": 45,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      4,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "denominator": 6
+  },
+  {
+    "salt": "T013-S2",
+    "client": 46,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      6,
+      34,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S2",
+    "client": 46,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      7,
+      32,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 39
+  },
+  {
+    "salt": "T013-S2",
+    "client": 47,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      3,
+      4,
+      1,
+      0,
+      0,
+      0,
+      0,
+      8,
+      0
+    ],
+    "denominator": 16
+  },
+  {
+    "salt": "T013-S2",
+    "client": 47,
+    "train_half": 1,
+    "class_counts": [
+      2,
+      5,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0
+    ],
+    "denominator": 16
+  },
+  {
+    "salt": "T013-S2",
+    "client": 48,
+    "train_half": 0,
+    "class_counts": [
+      5,
+      0,
+      0,
+      0,
+      49,
+      0,
+      0,
+      13,
+      0,
+      14
+    ],
+    "denominator": 81
+  },
+  {
+    "salt": "T013-S2",
+    "client": 48,
+    "train_half": 1,
+    "class_counts": [
+      2,
+      0,
+      0,
+      0,
+      49,
+      0,
+      0,
+      12,
+      0,
+      17
+    ],
+    "denominator": 80
+  },
+  {
+    "salt": "T013-S2",
+    "client": 49,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      18,
+      0,
+      83,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 101
+  },
+  {
+    "salt": "T013-S2",
+    "client": 49,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      21,
+      0,
+      80,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 101
+  },
+  {
+    "salt": "T013-S2",
+    "client": 50,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      2,
+      40,
+      0,
+      0,
+      17,
+      0,
+      0,
+      2,
+      0
+    ],
+    "denominator": 61
+  },
+  {
+    "salt": "T013-S2",
+    "client": 50,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      41,
+      0,
+      0,
+      17,
+      0,
+      0,
+      2,
+      0
+    ],
+    "denominator": 60
+  },
+  {
+    "salt": "T013-S2",
+    "client": 51,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6
+    ],
+    "denominator": 6
+  },
+  {
+    "salt": "T013-S2",
+    "client": 51,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "denominator": 6
+  },
+  {
+    "salt": "T013-S2",
+    "client": 52,
+    "train_half": 0,
+    "class_counts": [
+      2,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 12
+  },
+  {
+    "salt": "T013-S2",
+    "client": 52,
+    "train_half": 1,
+    "class_counts": [
+      2,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 12
+  },
+  {
+    "salt": "T013-S2",
+    "client": 53,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      13,
+      0,
+      0,
+      7,
+      0,
+      0,
+      41,
+      0,
+      0
+    ],
+    "denominator": 61
+  },
+  {
+    "salt": "T013-S2",
+    "client": 53,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      14,
+      0,
+      1,
+      2,
+      0,
+      0,
+      43,
+      0,
+      0
+    ],
+    "denominator": 60
+  },
+  {
+    "salt": "T013-S2",
+    "client": 54,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      0,
+      11,
+      0,
+      0,
+      0,
+      19,
+      88,
+      0,
+      0
+    ],
+    "denominator": 119
+  },
+  {
+    "salt": "T013-S2",
+    "client": 54,
+    "train_half": 1,
+    "class_counts": [
+      1,
+      0,
+      15,
+      0,
+      0,
+      0,
+      18,
+      84,
+      0,
+      0
+    ],
+    "denominator": 118
+  },
+  {
+    "salt": "T013-S2",
+    "client": 55,
+    "train_half": 0,
+    "class_counts": [
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      100,
+      0
+    ],
+    "denominator": 105
+  },
+  {
+    "salt": "T013-S2",
+    "client": 55,
+    "train_half": 1,
+    "class_counts": [
+      3,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      101,
+      0
+    ],
+    "denominator": 105
+  },
+  {
+    "salt": "T013-S2",
+    "client": 56,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      10,
+      8,
+      4,
+      0,
+      7,
+      0,
+      0,
+      30
+    ],
+    "denominator": 59
+  },
+  {
+    "salt": "T013-S2",
+    "client": 56,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      6,
+      8,
+      5,
+      0,
+      6,
+      0,
+      0,
+      34
+    ],
+    "denominator": 59
+  },
+  {
+    "salt": "T013-S2",
+    "client": 57,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      14,
+      0,
+      23,
+      7,
+      3,
+      10,
+      0,
+      0,
+      1
+    ],
+    "denominator": 59
+  },
+  {
+    "salt": "T013-S2",
+    "client": 57,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      10,
+      0,
+      27,
+      5,
+      1,
+      15,
+      0,
+      0,
+      0
+    ],
+    "denominator": 58
+  },
+  {
+    "salt": "T013-S2",
+    "client": 58,
+    "train_half": 0,
+    "class_counts": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12
+    ],
+    "denominator": 14
+  },
+  {
+    "salt": "T013-S2",
+    "client": 58,
+    "train_half": 1,
+    "class_counts": [
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      10
+    ],
+    "denominator": 14
+  },
+  {
+    "salt": "T013-S2",
+    "client": 59,
+    "train_half": 0,
+    "class_counts": [
+      18,
+      13,
+      0,
+      0,
+      0,
+      8,
+      8,
+      0,
+      0,
+      0
+    ],
+    "denominator": 47
+  },
+  {
+    "salt": "T013-S2",
+    "client": 59,
+    "train_half": 1,
+    "class_counts": [
+      19,
+      17,
+      0,
+      0,
+      0,
+      5,
+      6,
+      0,
+      0,
+      0
+    ],
+    "denominator": 47
+  },
+  {
+    "salt": "T013-S2",
+    "client": 60,
+    "train_half": 0,
+    "class_counts": [
+      238,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 238
+  },
+  {
+    "salt": "T013-S2",
+    "client": 60,
+    "train_half": 1,
+    "class_counts": [
+      237,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 237
+  },
+  {
+    "salt": "T013-S2",
+    "client": 61,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      6,
+      0,
+      0
+    ],
+    "denominator": 8
+  },
+  {
+    "salt": "T013-S2",
+    "client": 61,
+    "train_half": 1,
+    "class_counts": [
+      1,
+      0,
+      0,
+      0,
+      2,
+      3,
+      0,
+      1,
+      0,
+      0
+    ],
+    "denominator": 7
+  },
+  {
+    "salt": "T013-S2",
+    "client": 62,
+    "train_half": 0,
+    "class_counts": [
+      8,
+      0,
+      0,
+      0,
+      0,
+      4,
+      5,
+      0,
+      0,
+      21
+    ],
+    "denominator": 38
+  },
+  {
+    "salt": "T013-S2",
+    "client": 62,
+    "train_half": 1,
+    "class_counts": [
+      7,
+      0,
+      1,
+      0,
+      0,
+      2,
+      7,
+      0,
+      0,
+      20
+    ],
+    "denominator": 37
+  },
+  {
+    "salt": "T013-S2",
+    "client": 63,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      2,
+      47,
+      9,
+      1,
+      49,
+      0,
+      0,
+      0
+    ],
+    "denominator": 108
+  },
+  {
+    "salt": "T013-S2",
+    "client": 63,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      52,
+      16,
+      0,
+      39,
+      0,
+      0,
+      0
+    ],
+    "denominator": 107
+  },
+  {
+    "salt": "T013-S2",
+    "client": 64,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      36,
+      0,
+      14,
+      2,
+      0,
+      7,
+      5
+    ],
+    "denominator": 64
+  },
+  {
+    "salt": "T013-S2",
+    "client": 64,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      37,
+      0,
+      11,
+      1,
+      0,
+      9,
+      5
+    ],
+    "denominator": 63
+  },
+  {
+    "salt": "T013-S2",
+    "client": 65,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      76,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 76
+  },
+  {
+    "salt": "T013-S2",
+    "client": 65,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      76,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 76
+  },
+  {
+    "salt": "T013-S2",
+    "client": 66,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      4,
+      2,
+      1,
+      85
+    ],
+    "denominator": 97
+  },
+  {
+    "salt": "T013-S2",
+    "client": 66,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0,
+      6,
+      0,
+      85
+    ],
+    "denominator": 97
+  },
+  {
+    "salt": "T013-S2",
+    "client": 67,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      6,
+      1,
+      0,
+      0,
+      5,
+      0,
+      28,
+      1,
+      0
+    ],
+    "denominator": 41
+  },
+  {
+    "salt": "T013-S2",
+    "client": 67,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      6,
+      1,
+      0,
+      0,
+      9,
+      0,
+      20,
+      4,
+      1
+    ],
+    "denominator": 41
+  },
+  {
+    "salt": "T013-S2",
+    "client": 68,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      35,
+      0,
+      4,
+      2,
+      0,
+      0,
+      14,
+      0,
+      60
+    ],
+    "denominator": 115
+  },
+  {
+    "salt": "T013-S2",
+    "client": 68,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      33,
+      0,
+      1,
+      0,
+      0,
+      0,
+      10,
+      0,
+      70
+    ],
+    "denominator": 114
+  },
+  {
+    "salt": "T013-S2",
+    "client": 69,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      7,
+      2,
+      0,
+      0,
+      0,
+      61,
+      0,
+      0
+    ],
+    "denominator": 71
+  },
+  {
+    "salt": "T013-S2",
+    "client": 69,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      3,
+      9,
+      3,
+      0,
+      0,
+      0,
+      56,
+      0,
+      0
+    ],
+    "denominator": 71
+  },
+  {
+    "salt": "T013-S2",
+    "client": 70,
+    "train_half": 0,
+    "class_counts": [
+      4,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      34,
+      0
+    ],
+    "denominator": 39
+  },
+  {
+    "salt": "T013-S2",
+    "client": 70,
+    "train_half": 1,
+    "class_counts": [
+      13,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      24,
+      0
+    ],
+    "denominator": 38
+  },
+  {
+    "salt": "T013-S2",
+    "client": 71,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      15,
+      1,
+      0,
+      0,
+      2,
+      0
+    ],
+    "denominator": 18
+  },
+  {
+    "salt": "T013-S2",
+    "client": 71,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      15,
+      1,
+      0,
+      0,
+      2,
+      0
+    ],
+    "denominator": 18
+  },
+  {
+    "salt": "T013-S2",
+    "client": 72,
+    "train_half": 0,
+    "class_counts": [
+      15,
+      0,
+      0,
+      2,
+      0,
+      21,
+      0,
+      0,
+      43,
+      0
+    ],
+    "denominator": 81
+  },
+  {
+    "salt": "T013-S2",
+    "client": 72,
+    "train_half": 1,
+    "class_counts": [
+      12,
+      0,
+      0,
+      4,
+      1,
+      25,
+      0,
+      0,
+      38,
+      0
+    ],
+    "denominator": 80
+  },
+  {
+    "salt": "T013-S2",
+    "client": 73,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      46,
+      18,
+      47,
+      0,
+      0
+    ],
+    "denominator": 114
+  },
+  {
+    "salt": "T013-S2",
+    "client": 73,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      42,
+      26,
+      45,
+      0,
+      0
+    ],
+    "denominator": 114
+  },
+  {
+    "salt": "T013-S2",
+    "client": 74,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      0,
+      4,
+      0,
+      0,
+      77,
+      0,
+      0,
+      0
+    ],
+    "denominator": 82
+  },
+  {
+    "salt": "T013-S2",
+    "client": 74,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      3,
+      0,
+      5,
+      0,
+      0,
+      74,
+      0,
+      0,
+      0
+    ],
+    "denominator": 82
+  },
+  {
+    "salt": "T013-S2",
+    "client": 75,
+    "train_half": 0,
+    "class_counts": [
+      16,
+      42,
+      0,
+      42,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 100
+  },
+  {
+    "salt": "T013-S2",
+    "client": 75,
+    "train_half": 1,
+    "class_counts": [
+      12,
+      43,
+      0,
+      45,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 100
+  },
+  {
+    "salt": "T013-S2",
+    "client": 76,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      6,
+      0,
+      0,
+      0,
+      2,
+      50,
+      26,
+      0,
+      0
+    ],
+    "denominator": 84
+  },
+  {
+    "salt": "T013-S2",
+    "client": 76,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      12,
+      0,
+      0,
+      0,
+      0,
+      41,
+      30,
+      0,
+      0
+    ],
+    "denominator": 83
+  },
+  {
+    "salt": "T013-S2",
+    "client": 77,
+    "train_half": 0,
+    "class_counts": [
+      39,
+      0,
+      47,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 86
+  },
+  {
+    "salt": "T013-S2",
+    "client": 77,
+    "train_half": 1,
+    "class_counts": [
+      44,
+      0,
+      42,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 86
+  },
+  {
+    "salt": "T013-S2",
+    "client": 78,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      12,
+      33,
+      0,
+      0,
+      4,
+      0
+    ],
+    "denominator": 49
+  },
+  {
+    "salt": "T013-S2",
+    "client": 78,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      14,
+      33,
+      0,
+      0,
+      2,
+      0
+    ],
+    "denominator": 49
+  },
+  {
+    "salt": "T013-S2",
+    "client": 79,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      7,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 9
+  },
+  {
+    "salt": "T013-S2",
+    "client": 79,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      7,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 9
+  },
+  {
+    "salt": "T013-S2",
+    "client": 80,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      36,
+      3,
+      1,
+      0
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S2",
+    "client": 80,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      29,
+      9,
+      1,
+      0
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S2",
+    "client": 81,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "denominator": 9
+  },
+  {
+    "salt": "T013-S2",
+    "client": 81,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "denominator": 8
+  },
+  {
+    "salt": "T013-S2",
+    "client": 82,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      5,
+      0,
+      8,
+      0,
+      69,
+      0,
+      0
+    ],
+    "denominator": 82
+  },
+  {
+    "salt": "T013-S2",
+    "client": 82,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      7,
+      0,
+      7,
+      0,
+      67,
+      0,
+      0
+    ],
+    "denominator": 81
+  },
+  {
+    "salt": "T013-S2",
+    "client": 83,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      2,
+      6,
+      0,
+      0,
+      39,
+      208,
+      0
+    ],
+    "denominator": 255
+  },
+  {
+    "salt": "T013-S2",
+    "client": 83,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      4,
+      6,
+      0,
+      0,
+      49,
+      195,
+      0
+    ],
+    "denominator": 254
+  },
+  {
+    "salt": "T013-S2",
+    "client": 84,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      32,
+      1,
+      0,
+      2,
+      92,
+      0,
+      0,
+      0
+    ],
+    "denominator": 127
+  },
+  {
+    "salt": "T013-S2",
+    "client": 84,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      35,
+      3,
+      0,
+      0,
+      89,
+      0,
+      0,
+      0
+    ],
+    "denominator": 127
+  },
+  {
+    "salt": "T013-S2",
+    "client": 85,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      43,
+      68,
+      0,
+      0,
+      0
+    ],
+    "denominator": 111
+  },
+  {
+    "salt": "T013-S2",
+    "client": 85,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      37,
+      74,
+      0,
+      0,
+      0
+    ],
+    "denominator": 111
+  },
+  {
+    "salt": "T013-S2",
+    "client": 86,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      1,
+      0,
+      9,
+      9,
+      1,
+      0,
+      0,
+      0
+    ],
+    "denominator": 20
+  },
+  {
+    "salt": "T013-S2",
+    "client": 86,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      1,
+      0,
+      6,
+      12,
+      1,
+      0,
+      0,
+      0
+    ],
+    "denominator": 20
+  },
+  {
+    "salt": "T013-S2",
+    "client": 87,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      55,
+      0,
+      4,
+      0,
+      0,
+      16,
+      0
+    ],
+    "denominator": 75
+  },
+  {
+    "salt": "T013-S2",
+    "client": 87,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      57,
+      0,
+      3,
+      0,
+      0,
+      15,
+      0
+    ],
+    "denominator": 75
+  },
+  {
+    "salt": "T013-S2",
+    "client": 88,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      9,
+      8,
+      0,
+      18,
+      0,
+      0,
+      4
+    ],
+    "denominator": 39
+  },
+  {
+    "salt": "T013-S2",
+    "client": 88,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      0,
+      8,
+      7,
+      0,
+      19,
+      0,
+      0,
+      3
+    ],
+    "denominator": 38
+  },
+  {
+    "salt": "T013-S2",
+    "client": 89,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      48,
+      17,
+      3,
+      5,
+      5,
+      0
+    ],
+    "denominator": 78
+  },
+  {
+    "salt": "T013-S2",
+    "client": 89,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      46,
+      18,
+      3,
+      5,
+      5,
+      0
+    ],
+    "denominator": 77
+  },
+  {
+    "salt": "T013-S2",
+    "client": 90,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      13,
+      27,
+      6,
+      27,
+      0,
+      0,
+      0,
+      5
+    ],
+    "denominator": 78
+  },
+  {
+    "salt": "T013-S2",
+    "client": 90,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      15,
+      31,
+      9,
+      17,
+      0,
+      0,
+      0,
+      4
+    ],
+    "denominator": 77
+  },
+  {
+    "salt": "T013-S2",
+    "client": 91,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      16,
+      0,
+      0,
+      0,
+      6,
+      0,
+      70
+    ],
+    "denominator": 92
+  },
+  {
+    "salt": "T013-S2",
+    "client": 91,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      9,
+      0,
+      0,
+      0,
+      9,
+      0,
+      73
+    ],
+    "denominator": 91
+  },
+  {
+    "salt": "T013-S2",
+    "client": 92,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      34,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      8,
+      0
+    ],
+    "denominator": 48
+  },
+  {
+    "salt": "T013-S2",
+    "client": 92,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      35,
+      0,
+      8,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "denominator": 48
+  },
+  {
+    "salt": "T013-S2",
+    "client": 93,
+    "train_half": 0,
+    "class_counts": [
+      6,
+      7,
+      0,
+      0,
+      96,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 109
+  },
+  {
+    "salt": "T013-S2",
+    "client": 93,
+    "train_half": 1,
+    "class_counts": [
+      11,
+      4,
+      0,
+      0,
+      94,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 109
+  },
+  {
+    "salt": "T013-S2",
+    "client": 94,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      22,
+      0,
+      0,
+      0,
+      125,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 147
+  },
+  {
+    "salt": "T013-S2",
+    "client": 94,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      22,
+      1,
+      0,
+      0,
+      123,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 146
+  },
+  {
+    "salt": "T013-S2",
+    "client": 95,
+    "train_half": 0,
+    "class_counts": [
+      3,
+      10,
+      0,
+      1,
+      1,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 19
+  },
+  {
+    "salt": "T013-S2",
+    "client": 95,
+    "train_half": 1,
+    "class_counts": [
+      4,
+      12,
+      0,
+      0,
+      0,
+      2,
+      1,
+      0,
+      0,
+      0
+    ],
+    "denominator": 19
+  },
+  {
+    "salt": "T013-S2",
+    "client": 96,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      0,
+      17,
+      7,
+      0,
+      1,
+      0,
+      0,
+      82
+    ],
+    "denominator": 108
+  },
+  {
+    "salt": "T013-S2",
+    "client": 96,
+    "train_half": 1,
+    "class_counts": [
+      1,
+      0,
+      0,
+      19,
+      5,
+      0,
+      1,
+      2,
+      0,
+      79
+    ],
+    "denominator": 107
+  },
+  {
+    "salt": "T013-S2",
+    "client": 97,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      66,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      19
+    ],
+    "denominator": 85
+  },
+  {
+    "salt": "T013-S2",
+    "client": 97,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      71,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      13
+    ],
+    "denominator": 85
+  },
+  {
+    "salt": "T013-S2",
+    "client": 98,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      20,
+      2,
+      6,
+      0,
+      3
+    ],
+    "denominator": 33
+  },
+  {
+    "salt": "T013-S2",
+    "client": 98,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      16,
+      2,
+      7,
+      1,
+      5
+    ],
+    "denominator": 33
+  },
+  {
+    "salt": "T013-S2",
+    "client": 99,
+    "train_half": 0,
+    "class_counts": [
+      13,
+      1,
+      1,
+      3,
+      27,
+      19,
+      0,
+      0,
+      0,
+      9
+    ],
+    "denominator": 73
+  },
+  {
+    "salt": "T013-S2",
+    "client": 99,
+    "train_half": 1,
+    "class_counts": [
+      10,
+      0,
+      0,
+      5,
+      30,
+      23,
+      0,
+      3,
+      0,
+      1
+    ],
+    "denominator": 72
+  },
+  {
+    "salt": "T013-S3",
+    "client": 0,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      16,
+      0,
+      0,
+      0,
+      0,
+      7,
+      66,
+      0,
+      0
+    ],
+    "denominator": 89
+  },
+  {
+    "salt": "T013-S3",
+    "client": 0,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      11,
+      0,
+      0,
+      1,
+      0,
+      2,
+      75,
+      0,
+      0
+    ],
+    "denominator": 89
+  },
+  {
+    "salt": "T013-S3",
+    "client": 1,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      4,
+      0,
+      43,
+      0,
+      0
+    ],
+    "denominator": 50
+  },
+  {
+    "salt": "T013-S3",
+    "client": 1,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      4,
+      0,
+      43,
+      0,
+      1
+    ],
+    "denominator": 49
+  },
+  {
+    "salt": "T013-S3",
+    "client": 2,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      7,
+      0,
+      0,
+      0,
+      2,
+      0,
+      61
+    ],
+    "denominator": 70
+  },
+  {
+    "salt": "T013-S3",
+    "client": 2,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      2,
+      0,
+      63
+    ],
+    "denominator": 70
+  },
+  {
+    "salt": "T013-S3",
+    "client": 3,
+    "train_half": 0,
+    "class_counts": [
+      108,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 108
+  },
+  {
+    "salt": "T013-S3",
+    "client": 3,
+    "train_half": 1,
+    "class_counts": [
+      108,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 108
+  },
+  {
+    "salt": "T013-S3",
+    "client": 4,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      18,
+      0,
+      0,
+      1,
+      32
+    ],
+    "denominator": 53
+  },
+  {
+    "salt": "T013-S3",
+    "client": 4,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      16,
+      0,
+      0,
+      1,
+      35
+    ],
+    "denominator": 52
+  },
+  {
+    "salt": "T013-S3",
+    "client": 5,
+    "train_half": 0,
+    "class_counts": [
+      39,
+      0,
+      24,
+      0,
+      0,
+      16,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 79
+  },
+  {
+    "salt": "T013-S3",
+    "client": 5,
+    "train_half": 1,
+    "class_counts": [
+      42,
+      0,
+      22,
+      0,
+      0,
+      15,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 79
+  },
+  {
+    "salt": "T013-S3",
+    "client": 6,
+    "train_half": 0,
+    "class_counts": [
+      4,
+      0,
+      0,
+      55,
+      0,
+      0,
+      72,
+      0,
+      0,
+      0
+    ],
+    "denominator": 131
+  },
+  {
+    "salt": "T013-S3",
+    "client": 6,
+    "train_half": 1,
+    "class_counts": [
+      4,
+      0,
+      0,
+      55,
+      0,
+      0,
+      71,
+      0,
+      0,
+      0
+    ],
+    "denominator": 130
+  },
+  {
+    "salt": "T013-S3",
+    "client": 7,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      15,
+      0,
+      84,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 99
+  },
+  {
+    "salt": "T013-S3",
+    "client": 7,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      16,
+      0,
+      82,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 98
+  },
+  {
+    "salt": "T013-S3",
+    "client": 8,
+    "train_half": 0,
+    "class_counts": [
+      16,
+      0,
+      0,
+      0,
+      3,
+      78,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 97
+  },
+  {
+    "salt": "T013-S3",
+    "client": 8,
+    "train_half": 1,
+    "class_counts": [
+      19,
+      1,
+      0,
+      0,
+      3,
+      73,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 96
+  },
+  {
+    "salt": "T013-S3",
+    "client": 9,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      0,
+      2,
+      1,
+      0,
+      0,
+      73,
+      11,
+      0
+    ],
+    "denominator": 88
+  },
+  {
+    "salt": "T013-S3",
+    "client": 9,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      74,
+      13,
+      0
+    ],
+    "denominator": 88
+  },
+  {
+    "salt": "T013-S3",
+    "client": 10,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      5,
+      33,
+      27,
+      76,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 141
+  },
+  {
+    "salt": "T013-S3",
+    "client": 10,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      3,
+      33,
+      31,
+      74,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 141
+  },
+  {
+    "salt": "T013-S3",
+    "client": 11,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      55,
+      0,
+      0,
+      0,
+      1,
+      0,
+      34,
+      0
+    ],
+    "denominator": 90
+  },
+  {
+    "salt": "T013-S3",
+    "client": 11,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      49,
+      0,
+      0,
+      0,
+      0,
+      0,
+      41,
+      0
+    ],
+    "denominator": 90
+  },
+  {
+    "salt": "T013-S3",
+    "client": 12,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      9,
+      0,
+      0,
+      0,
+      6,
+      67,
+      0,
+      0
+    ],
+    "denominator": 82
+  },
+  {
+    "salt": "T013-S3",
+    "client": 12,
+    "train_half": 1,
+    "class_counts": [
+      1,
+      1,
+      9,
+      0,
+      0,
+      0,
+      5,
+      66,
+      0,
+      0
+    ],
+    "denominator": 82
+  },
+  {
+    "salt": "T013-S3",
+    "client": 13,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      31,
+      0,
+      4,
+      1,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S3",
+    "client": 13,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      30,
+      0,
+      4,
+      1,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S3",
+    "client": 14,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      35,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 36
+  },
+  {
+    "salt": "T013-S3",
+    "client": 14,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      34,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 35
+  },
+  {
+    "salt": "T013-S3",
+    "client": 15,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      2,
+      116,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 118
+  },
+  {
+    "salt": "T013-S3",
+    "client": 15,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      118,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 118
+  },
+  {
+    "salt": "T013-S3",
+    "client": 16,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      8,
+      0
+    ],
+    "denominator": 11
+  },
+  {
+    "salt": "T013-S3",
+    "client": 16,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0,
+      7,
+      0
+    ],
+    "denominator": 10
+  },
+  {
+    "salt": "T013-S3",
+    "client": 17,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      34,
+      0
+    ],
+    "denominator": 44
+  },
+  {
+    "salt": "T013-S3",
+    "client": 17,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      33,
+      0
+    ],
+    "denominator": 43
+  },
+  {
+    "salt": "T013-S3",
+    "client": 18,
+    "train_half": 0,
+    "class_counts": [
+      4,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 5
+  },
+  {
+    "salt": "T013-S3",
+    "client": 18,
+    "train_half": 1,
+    "class_counts": [
+      4,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 5
+  },
+  {
+    "salt": "T013-S3",
+    "client": 19,
+    "train_half": 0,
+    "class_counts": [
+      8,
+      0,
+      29,
+      0,
+      0,
+      2,
+      0,
+      7,
+      0,
+      0
+    ],
+    "denominator": 46
+  },
+  {
+    "salt": "T013-S3",
+    "client": 19,
+    "train_half": 1,
+    "class_counts": [
+      7,
+      0,
+      31,
+      0,
+      0,
+      2,
+      0,
+      5,
+      0,
+      0
+    ],
+    "denominator": 45
+  },
+  {
+    "salt": "T013-S3",
+    "client": 20,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      76,
+      0,
+      0,
+      0
+    ],
+    "denominator": 76
+  },
+  {
+    "salt": "T013-S3",
+    "client": 20,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      76,
+      0,
+      0,
+      0
+    ],
+    "denominator": 76
+  },
+  {
+    "salt": "T013-S3",
+    "client": 21,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      2,
+      119,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 121
+  },
+  {
+    "salt": "T013-S3",
+    "client": 21,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      1,
+      120,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 121
+  },
+  {
+    "salt": "T013-S3",
+    "client": 22,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      41,
+      47,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 88
+  },
+  {
+    "salt": "T013-S3",
+    "client": 22,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      51,
+      36,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 87
+  },
+  {
+    "salt": "T013-S3",
+    "client": 23,
+    "train_half": 0,
+    "class_counts": [
+      36,
+      0,
+      11,
+      0,
+      0,
+      0,
+      0,
+      0,
+      22,
+      1
+    ],
+    "denominator": 70
+  },
+  {
+    "salt": "T013-S3",
+    "client": 23,
+    "train_half": 1,
+    "class_counts": [
+      41,
+      0,
+      13,
+      0,
+      0,
+      0,
+      0,
+      0,
+      16,
+      0
+    ],
+    "denominator": 70
+  },
+  {
+    "salt": "T013-S3",
+    "client": 24,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      20,
+      0,
+      67
+    ],
+    "denominator": 90
+  },
+  {
+    "salt": "T013-S3",
+    "client": 24,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      3,
+      2,
+      21,
+      0,
+      62
+    ],
+    "denominator": 89
+  },
+  {
+    "salt": "T013-S3",
+    "client": 25,
+    "train_half": 0,
+    "class_counts": [
+      4,
+      6,
+      1,
+      0,
+      6,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 18
+  },
+  {
+    "salt": "T013-S3",
+    "client": 25,
+    "train_half": 1,
+    "class_counts": [
+      8,
+      4,
+      2,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 18
+  },
+  {
+    "salt": "T013-S3",
+    "client": 26,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      6,
+      0,
+      0,
+      0,
+      2,
+      134,
+      0,
+      0,
+      0
+    ],
+    "denominator": 142
+  },
+  {
+    "salt": "T013-S3",
+    "client": 26,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      5,
+      0,
+      0,
+      0,
+      2,
+      135,
+      0,
+      0,
+      0
+    ],
+    "denominator": 142
+  },
+  {
+    "salt": "T013-S3",
+    "client": 27,
+    "train_half": 0,
+    "class_counts": [
+      2,
+      96,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 98
+  },
+  {
+    "salt": "T013-S3",
+    "client": 27,
+    "train_half": 1,
+    "class_counts": [
+      1,
+      96,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 97
+  },
+  {
+    "salt": "T013-S3",
+    "client": 28,
+    "train_half": 0,
+    "class_counts": [
+      2,
+      0,
+      0,
+      3,
+      5,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 13
+  },
+  {
+    "salt": "T013-S3",
+    "client": 28,
+    "train_half": 1,
+    "class_counts": [
+      1,
+      0,
+      0,
+      5,
+      6,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 13
+  },
+  {
+    "salt": "T013-S3",
+    "client": 29,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      191,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 191
+  },
+  {
+    "salt": "T013-S3",
+    "client": 29,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      191,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 191
+  },
+  {
+    "salt": "T013-S3",
+    "client": 30,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      58,
+      0,
+      0,
+      80,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 138
+  },
+  {
+    "salt": "T013-S3",
+    "client": 30,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      60,
+      0,
+      1,
+      76,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 137
+  },
+  {
+    "salt": "T013-S3",
+    "client": 31,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      99,
+      0
+    ],
+    "denominator": 101
+  },
+  {
+    "salt": "T013-S3",
+    "client": 31,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      99,
+      0
+    ],
+    "denominator": 101
+  },
+  {
+    "salt": "T013-S3",
+    "client": 32,
+    "train_half": 0,
+    "class_counts": [
+      26,
+      0,
+      7,
+      0,
+      31,
+      13,
+      0,
+      0,
+      22,
+      0
+    ],
+    "denominator": 99
+  },
+  {
+    "salt": "T013-S3",
+    "client": 32,
+    "train_half": 1,
+    "class_counts": [
+      24,
+      0,
+      7,
+      0,
+      31,
+      13,
+      0,
+      0,
+      24,
+      0
+    ],
+    "denominator": 99
+  },
+  {
+    "salt": "T013-S3",
+    "client": 33,
+    "train_half": 0,
+    "class_counts": [
+      74,
+      0,
+      0,
+      58,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 132
+  },
+  {
+    "salt": "T013-S3",
+    "client": 33,
+    "train_half": 1,
+    "class_counts": [
+      58,
+      0,
+      0,
+      74,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 132
+  },
+  {
+    "salt": "T013-S3",
+    "client": 34,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      5,
+      41,
+      0,
+      0,
+      3,
+      0,
+      2,
+      0
+    ],
+    "denominator": 51
+  },
+  {
+    "salt": "T013-S3",
+    "client": 34,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      6,
+      42,
+      0,
+      0,
+      2,
+      0,
+      1,
+      0
+    ],
+    "denominator": 51
+  },
+  {
+    "salt": "T013-S3",
+    "client": 35,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      24,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      64,
+      0
+    ],
+    "denominator": 88
+  },
+  {
+    "salt": "T013-S3",
+    "client": 35,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      21,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      66,
+      0
+    ],
+    "denominator": 87
+  },
+  {
+    "salt": "T013-S3",
+    "client": 36,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      7,
+      0,
+      0
+    ],
+    "denominator": 9
+  },
+  {
+    "salt": "T013-S3",
+    "client": 36,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      2
+    ],
+    "denominator": 9
+  },
+  {
+    "salt": "T013-S3",
+    "client": 37,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      14,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      23
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S3",
+    "client": 37,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      15,
+      0,
+      0,
+      1,
+      5,
+      0,
+      1,
+      18
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S3",
+    "client": 38,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12,
+      1
+    ],
+    "denominator": 13
+  },
+  {
+    "salt": "T013-S3",
+    "client": 38,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12,
+      0
+    ],
+    "denominator": 12
+  },
+  {
+    "salt": "T013-S3",
+    "client": 39,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      80,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 80
+  },
+  {
+    "salt": "T013-S3",
+    "client": 39,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      80,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 80
+  },
+  {
+    "salt": "T013-S3",
+    "client": 40,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      6,
+      0,
+      1,
+      0,
+      1,
+      0,
+      117
+    ],
+    "denominator": 125
+  },
+  {
+    "salt": "T013-S3",
+    "client": 40,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      1,
+      0,
+      122
+    ],
+    "denominator": 125
+  },
+  {
+    "salt": "T013-S3",
+    "client": 41,
+    "train_half": 0,
+    "class_counts": [
+      5,
+      2,
+      0,
+      40,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2
+    ],
+    "denominator": 50
+  },
+  {
+    "salt": "T013-S3",
+    "client": 41,
+    "train_half": 1,
+    "class_counts": [
+      3,
+      1,
+      0,
+      37,
+      0,
+      0,
+      0,
+      1,
+      3,
+      5
+    ],
+    "denominator": 50
+  },
+  {
+    "salt": "T013-S3",
+    "client": 42,
+    "train_half": 0,
+    "class_counts": [
+      9,
+      64,
+      87,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 160
+  },
+  {
+    "salt": "T013-S3",
+    "client": 42,
+    "train_half": 1,
+    "class_counts": [
+      9,
+      56,
+      95,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 160
+  },
+  {
+    "salt": "T013-S3",
+    "client": 43,
+    "train_half": 0,
+    "class_counts": [
+      42,
+      0,
+      0,
+      0,
+      57,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 99
+  },
+  {
+    "salt": "T013-S3",
+    "client": 43,
+    "train_half": 1,
+    "class_counts": [
+      40,
+      0,
+      0,
+      0,
+      59,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 99
+  },
+  {
+    "salt": "T013-S3",
+    "client": 44,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      12,
+      23
+    ],
+    "denominator": 37
+  },
+  {
+    "salt": "T013-S3",
+    "client": 44,
+    "train_half": 1,
+    "class_counts": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      11,
+      22
+    ],
+    "denominator": 37
+  },
+  {
+    "salt": "T013-S3",
+    "client": 45,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      3,
+      0,
+      2,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "denominator": 7
+  },
+  {
+    "salt": "T013-S3",
+    "client": 45,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 6
+  },
+  {
+    "salt": "T013-S3",
+    "client": 46,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      5,
+      35,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S3",
+    "client": 46,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      8,
+      31,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 39
+  },
+  {
+    "salt": "T013-S3",
+    "client": 47,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      4,
+      5,
+      1,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "denominator": 16
+  },
+  {
+    "salt": "T013-S3",
+    "client": 47,
+    "train_half": 1,
+    "class_counts": [
+      1,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      9,
+      0
+    ],
+    "denominator": 16
+  },
+  {
+    "salt": "T013-S3",
+    "client": 48,
+    "train_half": 0,
+    "class_counts": [
+      4,
+      0,
+      0,
+      0,
+      54,
+      0,
+      0,
+      10,
+      0,
+      13
+    ],
+    "denominator": 81
+  },
+  {
+    "salt": "T013-S3",
+    "client": 48,
+    "train_half": 1,
+    "class_counts": [
+      3,
+      0,
+      0,
+      0,
+      44,
+      0,
+      0,
+      15,
+      0,
+      18
+    ],
+    "denominator": 80
+  },
+  {
+    "salt": "T013-S3",
+    "client": 49,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      23,
+      0,
+      78,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 101
+  },
+  {
+    "salt": "T013-S3",
+    "client": 49,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      16,
+      0,
+      85,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 101
+  },
+  {
+    "salt": "T013-S3",
+    "client": 50,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      41,
+      0,
+      0,
+      18,
+      0,
+      0,
+      2,
+      0
+    ],
+    "denominator": 61
+  },
+  {
+    "salt": "T013-S3",
+    "client": 50,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      2,
+      40,
+      0,
+      0,
+      16,
+      0,
+      0,
+      2,
+      0
+    ],
+    "denominator": 60
+  },
+  {
+    "salt": "T013-S3",
+    "client": 51,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "denominator": 6
+  },
+  {
+    "salt": "T013-S3",
+    "client": 51,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6
+    ],
+    "denominator": 6
+  },
+  {
+    "salt": "T013-S3",
+    "client": 52,
+    "train_half": 0,
+    "class_counts": [
+      2,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 12
+  },
+  {
+    "salt": "T013-S3",
+    "client": 52,
+    "train_half": 1,
+    "class_counts": [
+      2,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 12
+  },
+  {
+    "salt": "T013-S3",
+    "client": 53,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      16,
+      0,
+      1,
+      4,
+      0,
+      0,
+      40,
+      0,
+      0
+    ],
+    "denominator": 61
+  },
+  {
+    "salt": "T013-S3",
+    "client": 53,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      11,
+      0,
+      0,
+      5,
+      0,
+      0,
+      44,
+      0,
+      0
+    ],
+    "denominator": 60
+  },
+  {
+    "salt": "T013-S3",
+    "client": 54,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      0,
+      11,
+      0,
+      0,
+      0,
+      18,
+      89,
+      0,
+      0
+    ],
+    "denominator": 119
+  },
+  {
+    "salt": "T013-S3",
+    "client": 54,
+    "train_half": 1,
+    "class_counts": [
+      1,
+      0,
+      15,
+      0,
+      0,
+      0,
+      19,
+      83,
+      0,
+      0
+    ],
+    "denominator": 118
+  },
+  {
+    "salt": "T013-S3",
+    "client": 55,
+    "train_half": 0,
+    "class_counts": [
+      4,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      100,
+      0
+    ],
+    "denominator": 105
+  },
+  {
+    "salt": "T013-S3",
+    "client": 55,
+    "train_half": 1,
+    "class_counts": [
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      101,
+      0
+    ],
+    "denominator": 105
+  },
+  {
+    "salt": "T013-S3",
+    "client": 56,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      5,
+      9,
+      5,
+      0,
+      8,
+      0,
+      0,
+      32
+    ],
+    "denominator": 59
+  },
+  {
+    "salt": "T013-S3",
+    "client": 56,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      11,
+      7,
+      4,
+      0,
+      5,
+      0,
+      0,
+      32
+    ],
+    "denominator": 59
+  },
+  {
+    "salt": "T013-S3",
+    "client": 57,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      13,
+      0,
+      23,
+      4,
+      2,
+      16,
+      0,
+      0,
+      0
+    ],
+    "denominator": 59
+  },
+  {
+    "salt": "T013-S3",
+    "client": 57,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      11,
+      0,
+      27,
+      8,
+      2,
+      9,
+      0,
+      0,
+      1
+    ],
+    "denominator": 58
+  },
+  {
+    "salt": "T013-S3",
+    "client": 58,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      13
+    ],
+    "denominator": 14
+  },
+  {
+    "salt": "T013-S3",
+    "client": 58,
+    "train_half": 1,
+    "class_counts": [
+      4,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      9
+    ],
+    "denominator": 14
+  },
+  {
+    "salt": "T013-S3",
+    "client": 59,
+    "train_half": 0,
+    "class_counts": [
+      18,
+      17,
+      0,
+      0,
+      0,
+      8,
+      4,
+      0,
+      0,
+      0
+    ],
+    "denominator": 47
+  },
+  {
+    "salt": "T013-S3",
+    "client": 59,
+    "train_half": 1,
+    "class_counts": [
+      19,
+      13,
+      0,
+      0,
+      0,
+      5,
+      10,
+      0,
+      0,
+      0
+    ],
+    "denominator": 47
+  },
+  {
+    "salt": "T013-S3",
+    "client": 60,
+    "train_half": 0,
+    "class_counts": [
+      238,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 238
+  },
+  {
+    "salt": "T013-S3",
+    "client": 60,
+    "train_half": 1,
+    "class_counts": [
+      237,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 237
+  },
+  {
+    "salt": "T013-S3",
+    "client": 61,
+    "train_half": 0,
+    "class_counts": [
+      2,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      3,
+      0,
+      0
+    ],
+    "denominator": 8
+  },
+  {
+    "salt": "T013-S3",
+    "client": 61,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      0,
+      4,
+      0,
+      0
+    ],
+    "denominator": 7
+  },
+  {
+    "salt": "T013-S3",
+    "client": 62,
+    "train_half": 0,
+    "class_counts": [
+      9,
+      0,
+      1,
+      0,
+      0,
+      3,
+      8,
+      0,
+      0,
+      17
+    ],
+    "denominator": 38
+  },
+  {
+    "salt": "T013-S3",
+    "client": 62,
+    "train_half": 1,
+    "class_counts": [
+      6,
+      0,
+      0,
+      0,
+      0,
+      3,
+      4,
+      0,
+      0,
+      24
+    ],
+    "denominator": 37
+  },
+  {
+    "salt": "T013-S3",
+    "client": 63,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      53,
+      10,
+      1,
+      44,
+      0,
+      0,
+      0
+    ],
+    "denominator": 108
+  },
+  {
+    "salt": "T013-S3",
+    "client": 63,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      2,
+      46,
+      15,
+      0,
+      44,
+      0,
+      0,
+      0
+    ],
+    "denominator": 107
+  },
+  {
+    "salt": "T013-S3",
+    "client": 64,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      39,
+      0,
+      11,
+      1,
+      0,
+      7,
+      6
+    ],
+    "denominator": 64
+  },
+  {
+    "salt": "T013-S3",
+    "client": 64,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      34,
+      0,
+      14,
+      2,
+      0,
+      9,
+      4
+    ],
+    "denominator": 63
+  },
+  {
+    "salt": "T013-S3",
+    "client": 65,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      76,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 76
+  },
+  {
+    "salt": "T013-S3",
+    "client": 65,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      76,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 76
+  },
+  {
+    "salt": "T013-S3",
+    "client": 66,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      1,
+      3,
+      1,
+      86
+    ],
+    "denominator": 97
+  },
+  {
+    "salt": "T013-S3",
+    "client": 66,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      3,
+      5,
+      0,
+      84
+    ],
+    "denominator": 97
+  },
+  {
+    "salt": "T013-S3",
+    "client": 67,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      4,
+      1,
+      0,
+      0,
+      11,
+      0,
+      21,
+      4,
+      0
+    ],
+    "denominator": 41
+  },
+  {
+    "salt": "T013-S3",
+    "client": 67,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      8,
+      1,
+      0,
+      0,
+      3,
+      0,
+      27,
+      1,
+      1
+    ],
+    "denominator": 41
+  },
+  {
+    "salt": "T013-S3",
+    "client": 68,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      38,
+      0,
+      3,
+      2,
+      0,
+      0,
+      9,
+      0,
+      63
+    ],
+    "denominator": 115
+  },
+  {
+    "salt": "T013-S3",
+    "client": 68,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      30,
+      0,
+      2,
+      0,
+      0,
+      0,
+      15,
+      0,
+      67
+    ],
+    "denominator": 114
+  },
+  {
+    "salt": "T013-S3",
+    "client": 69,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      5,
+      3,
+      0,
+      0,
+      0,
+      62,
+      0,
+      0
+    ],
+    "denominator": 71
+  },
+  {
+    "salt": "T013-S3",
+    "client": 69,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      3,
+      11,
+      2,
+      0,
+      0,
+      0,
+      55,
+      0,
+      0
+    ],
+    "denominator": 71
+  },
+  {
+    "salt": "T013-S3",
+    "client": 70,
+    "train_half": 0,
+    "class_counts": [
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      30,
+      0
+    ],
+    "denominator": 39
+  },
+  {
+    "salt": "T013-S3",
+    "client": 70,
+    "train_half": 1,
+    "class_counts": [
+      9,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      28,
+      0
+    ],
+    "denominator": 38
+  },
+  {
+    "salt": "T013-S3",
+    "client": 71,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      16,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    "denominator": 18
+  },
+  {
+    "salt": "T013-S3",
+    "client": 71,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      14,
+      2,
+      0,
+      0,
+      2,
+      0
+    ],
+    "denominator": 18
+  },
+  {
+    "salt": "T013-S3",
+    "client": 72,
+    "train_half": 0,
+    "class_counts": [
+      12,
+      0,
+      0,
+      2,
+      0,
+      24,
+      0,
+      0,
+      43,
+      0
+    ],
+    "denominator": 81
+  },
+  {
+    "salt": "T013-S3",
+    "client": 72,
+    "train_half": 1,
+    "class_counts": [
+      15,
+      0,
+      0,
+      4,
+      1,
+      22,
+      0,
+      0,
+      38,
+      0
+    ],
+    "denominator": 80
+  },
+  {
+    "salt": "T013-S3",
+    "client": 73,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      2,
+      0,
+      1,
+      0,
+      49,
+      16,
+      46,
+      0,
+      0
+    ],
+    "denominator": 114
+  },
+  {
+    "salt": "T013-S3",
+    "client": 73,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      39,
+      28,
+      46,
+      0,
+      0
+    ],
+    "denominator": 114
+  },
+  {
+    "salt": "T013-S3",
+    "client": 74,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      0,
+      6,
+      0,
+      0,
+      75,
+      0,
+      0,
+      0
+    ],
+    "denominator": 82
+  },
+  {
+    "salt": "T013-S3",
+    "client": 74,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      3,
+      0,
+      3,
+      0,
+      0,
+      76,
+      0,
+      0,
+      0
+    ],
+    "denominator": 82
+  },
+  {
+    "salt": "T013-S3",
+    "client": 75,
+    "train_half": 0,
+    "class_counts": [
+      13,
+      46,
+      0,
+      41,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 100
+  },
+  {
+    "salt": "T013-S3",
+    "client": 75,
+    "train_half": 1,
+    "class_counts": [
+      15,
+      39,
+      0,
+      46,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 100
+  },
+  {
+    "salt": "T013-S3",
+    "client": 76,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      8,
+      0,
+      0,
+      0,
+      2,
+      47,
+      27,
+      0,
+      0
+    ],
+    "denominator": 84
+  },
+  {
+    "salt": "T013-S3",
+    "client": 76,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      44,
+      29,
+      0,
+      0
+    ],
+    "denominator": 83
+  },
+  {
+    "salt": "T013-S3",
+    "client": 77,
+    "train_half": 0,
+    "class_counts": [
+      38,
+      0,
+      48,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 86
+  },
+  {
+    "salt": "T013-S3",
+    "client": 77,
+    "train_half": 1,
+    "class_counts": [
+      45,
+      0,
+      41,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 86
+  },
+  {
+    "salt": "T013-S3",
+    "client": 78,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      14,
+      33,
+      0,
+      0,
+      2,
+      0
+    ],
+    "denominator": 49
+  },
+  {
+    "salt": "T013-S3",
+    "client": 78,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      12,
+      33,
+      0,
+      0,
+      4,
+      0
+    ],
+    "denominator": 49
+  },
+  {
+    "salt": "T013-S3",
+    "client": 79,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 9
+  },
+  {
+    "salt": "T013-S3",
+    "client": 79,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      6,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 9
+  },
+  {
+    "salt": "T013-S3",
+    "client": 80,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      29,
+      9,
+      1,
+      0
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S3",
+    "client": 80,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      36,
+      3,
+      1,
+      0
+    ],
+    "denominator": 40
+  },
+  {
+    "salt": "T013-S3",
+    "client": 81,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "denominator": 9
+  },
+  {
+    "salt": "T013-S3",
+    "client": 81,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    "denominator": 8
+  },
+  {
+    "salt": "T013-S3",
+    "client": 82,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      12,
+      0,
+      68,
+      0,
+      0
+    ],
+    "denominator": 82
+  },
+  {
+    "salt": "T013-S3",
+    "client": 82,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      10,
+      0,
+      3,
+      0,
+      68,
+      0,
+      0
+    ],
+    "denominator": 81
+  },
+  {
+    "salt": "T013-S3",
+    "client": 83,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      4,
+      5,
+      0,
+      0,
+      41,
+      205,
+      0
+    ],
+    "denominator": 255
+  },
+  {
+    "salt": "T013-S3",
+    "client": 83,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      2,
+      7,
+      0,
+      0,
+      47,
+      198,
+      0
+    ],
+    "denominator": 254
+  },
+  {
+    "salt": "T013-S3",
+    "client": 84,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      29,
+      2,
+      0,
+      1,
+      95,
+      0,
+      0,
+      0
+    ],
+    "denominator": 127
+  },
+  {
+    "salt": "T013-S3",
+    "client": 84,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      38,
+      2,
+      0,
+      1,
+      86,
+      0,
+      0,
+      0
+    ],
+    "denominator": 127
+  },
+  {
+    "salt": "T013-S3",
+    "client": 85,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      37,
+      74,
+      0,
+      0,
+      0
+    ],
+    "denominator": 111
+  },
+  {
+    "salt": "T013-S3",
+    "client": 85,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      43,
+      68,
+      0,
+      0,
+      0
+    ],
+    "denominator": 111
+  },
+  {
+    "salt": "T013-S3",
+    "client": 86,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      1,
+      0,
+      9,
+      10,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 20
+  },
+  {
+    "salt": "T013-S3",
+    "client": 86,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      1,
+      0,
+      6,
+      11,
+      2,
+      0,
+      0,
+      0
+    ],
+    "denominator": 20
+  },
+  {
+    "salt": "T013-S3",
+    "client": 87,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      58,
+      0,
+      3,
+      0,
+      0,
+      14,
+      0
+    ],
+    "denominator": 75
+  },
+  {
+    "salt": "T013-S3",
+    "client": 87,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      54,
+      0,
+      4,
+      0,
+      0,
+      17,
+      0
+    ],
+    "denominator": 75
+  },
+  {
+    "salt": "T013-S3",
+    "client": 88,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      0,
+      4,
+      9,
+      0,
+      19,
+      0,
+      0,
+      6
+    ],
+    "denominator": 39
+  },
+  {
+    "salt": "T013-S3",
+    "client": 88,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      13,
+      6,
+      0,
+      18,
+      0,
+      0,
+      1
+    ],
+    "denominator": 38
+  },
+  {
+    "salt": "T013-S3",
+    "client": 89,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      56,
+      12,
+      1,
+      5,
+      4,
+      0
+    ],
+    "denominator": 78
+  },
+  {
+    "salt": "T013-S3",
+    "client": 89,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      38,
+      23,
+      5,
+      5,
+      6,
+      0
+    ],
+    "denominator": 77
+  },
+  {
+    "salt": "T013-S3",
+    "client": 90,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      1,
+      14,
+      31,
+      6,
+      22,
+      0,
+      0,
+      0,
+      4
+    ],
+    "denominator": 78
+  },
+  {
+    "salt": "T013-S3",
+    "client": 90,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      14,
+      27,
+      9,
+      22,
+      0,
+      0,
+      0,
+      5
+    ],
+    "denominator": 77
+  },
+  {
+    "salt": "T013-S3",
+    "client": 91,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      12,
+      0,
+      0,
+      0,
+      7,
+      0,
+      73
+    ],
+    "denominator": 92
+  },
+  {
+    "salt": "T013-S3",
+    "client": 91,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      13,
+      0,
+      0,
+      0,
+      8,
+      0,
+      70
+    ],
+    "denominator": 91
+  },
+  {
+    "salt": "T013-S3",
+    "client": 92,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      34,
+      0,
+      7,
+      0,
+      0,
+      0,
+      0,
+      7,
+      0
+    ],
+    "denominator": 48
+  },
+  {
+    "salt": "T013-S3",
+    "client": 92,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      35,
+      0,
+      7,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0
+    ],
+    "denominator": 48
+  },
+  {
+    "salt": "T013-S3",
+    "client": 93,
+    "train_half": 0,
+    "class_counts": [
+      9,
+      7,
+      0,
+      0,
+      93,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 109
+  },
+  {
+    "salt": "T013-S3",
+    "client": 93,
+    "train_half": 1,
+    "class_counts": [
+      8,
+      4,
+      0,
+      0,
+      97,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 109
+  },
+  {
+    "salt": "T013-S3",
+    "client": 94,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      25,
+      0,
+      0,
+      0,
+      122,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 147
+  },
+  {
+    "salt": "T013-S3",
+    "client": 94,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      19,
+      1,
+      0,
+      0,
+      126,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 146
+  },
+  {
+    "salt": "T013-S3",
+    "client": 95,
+    "train_half": 0,
+    "class_counts": [
+      4,
+      12,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "denominator": 19
+  },
+  {
+    "salt": "T013-S3",
+    "client": 95,
+    "train_half": 1,
+    "class_counts": [
+      3,
+      10,
+      0,
+      1,
+      1,
+      3,
+      1,
+      0,
+      0,
+      0
+    ],
+    "denominator": 19
+  },
+  {
+    "salt": "T013-S3",
+    "client": 96,
+    "train_half": 0,
+    "class_counts": [
+      1,
+      0,
+      0,
+      17,
+      6,
+      0,
+      1,
+      2,
+      0,
+      81
+    ],
+    "denominator": 108
+  },
+  {
+    "salt": "T013-S3",
+    "client": 96,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      1,
+      0,
+      19,
+      6,
+      0,
+      1,
+      0,
+      0,
+      80
+    ],
+    "denominator": 107
+  },
+  {
+    "salt": "T013-S3",
+    "client": 97,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      69,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      16
+    ],
+    "denominator": 85
+  },
+  {
+    "salt": "T013-S3",
+    "client": 97,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      68,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      16
+    ],
+    "denominator": 85
+  },
+  {
+    "salt": "T013-S3",
+    "client": 98,
+    "train_half": 0,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      4,
+      16,
+      3,
+      7,
+      1,
+      2
+    ],
+    "denominator": 33
+  },
+  {
+    "salt": "T013-S3",
+    "client": 98,
+    "train_half": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      1,
+      6,
+      0,
+      6
+    ],
+    "denominator": 33
+  },
+  {
+    "salt": "T013-S3",
+    "client": 99,
+    "train_half": 0,
+    "class_counts": [
+      8,
+      1,
+      0,
+      4,
+      35,
+      16,
+      0,
+      2,
+      0,
+      7
+    ],
+    "denominator": 73
+  },
+  {
+    "salt": "T013-S3",
+    "client": 99,
+    "train_half": 1,
+    "class_counts": [
+      15,
+      0,
+      1,
+      4,
+      22,
+      26,
+      0,
+      1,
+      0,
+      3
+    ],
+    "denominator": 72
+  }
+]

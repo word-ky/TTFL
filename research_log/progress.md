@@ -179,3 +179,6 @@ Existingprediction-onlyCPUrun089c918. Disjointexampleslocksurvivesall4saltsbothb
 
 ## 2026-09-14T03:23:09.7752943+08:00 — T014 started
 Lead1462732;classconditionalutilityhelperthreefocusedtestsPASS, savedprediction-only analysis planned.
+
+## 2026-09-14T03:30:20.3705312+08:00 — T014 COMPLETE COMP-A + CLASS-INT-A
+Savedprediction-onlyrun78de03c; compositionexplainscleanpreference andclasscontextclosesContrast/Blur gate;Noiseincrementweak−.082/+.018pp preserved. Residualpositiveclientlockvanishesunderprescribedsubtraction. Allgatesexactcountverified; nolearnedwriter/newstage.

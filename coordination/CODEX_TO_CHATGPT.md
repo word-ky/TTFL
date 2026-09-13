@@ -2,165 +2,141 @@
 
 ## Timestamp / commit / run
 
-2026-09-14T02:33:54+08:00. Lead9d6ada0; runtime 089c918d38273c06b85074c6e51224b5b4c0bf28; local run 20260914-t013-local; 42.59s; CPU analysis of saved predictions only. No new model forward pass or GPU job was needed. Enclosing delivery commit contains this report.
+2026-09-14T03:29:52+08:00. Lead1462732; runtime 78de03cdcc22daf1e4924a93b491331a2d7b3d13; local saved-prediction run 20260914-t014-local; 51.41s. One formal analysis, no model forward pass, GPU job or training. Enclosing delivery commit contains the independent report.
 
-## Frozen evidence / implementation verification
+## Preflight and frozen evidence
 
-The formal T011 candidate_predictions.npz exists and its SHA matches its original query-freeze receipt. All5,000 per-client/state class-correct/total rows reconstruct exactly; every prediction/label vector length matches the frozen original query-ID length. All T012 full-query pair overlaps and eight-offset mean controls reproduce before splitting. No fallback prediction regeneration, state/model modification or training.
+T011 prediction SHA matches its original freeze. T013 split, choices, class-count artifact and count-receipt hashes match. Every half per-class correct/total array reconstructs from T011 predictions. All600 historical T013 policy metrics and clean safety reconstruct exactly before new analysis, including zero/client-only/context-only/two-factor/half-oracle. Four salts, original half memberships, five candidates, two banks and eight offsets are unchanged.
 
-Two focused tests pass: label-blind complete/disjoint deterministic splitting and exact equal-client leave-one-out utilities with ties. Policy utilities use Fraction arithmetic. Test changes the target client’s shifted training counts and confirms its leave-one-out context term is unaffected. The API accepts only training-half counts and denominators. Historical model tests were not rerun because this task has no model code or forward pass.
+Three focused tests PASS: evaluation-label-free interfaces and choice invariance; target exclusion and legitimate changes to other templates; exact clean residual0/hybrid equivalence; uniform/mismatched composition controls on fixed templates; nonzero class denominators. No model code was imported or changed, so historical model tests were not rerun. Saved-prediction per-example concatenation independently verifies all1,240 new policy metrics; exact Fraction report error0.
 
-## Label-blind disjoint halves
+## Exact class templates and composition
 
-Four fixed salts T013-S0..S3. SHA256(T013|salt|client|original_id) order with index tiebreak; alternating ranks become H0/H1. Every index appears once, no overlap, size difference<=1. Membership is identical across contexts/banks. query_halves.json frozen at 2026-09-13T18:30:10.417117+00:00, SHA 38af1dd67b0125d032a06ab3b40e991b5239eef5f5c0c1795312467fb9cf6fc4, before T013 half-derived analysis. Required historical full-query count regression accessed historical labels first; it did not influence the split.
+For each salt/bank/training orientation/target client, pool correct/total examples within each class across the other99 clients. D is clean utility versus zero; R is shifted utility minus D. All class denominators are positive, with no smoothing, cutoff, shrinkage or learned weight. The target composition is its opposite training-half ten-class histogram. Target evaluation-half labels never enter template construction, composition, actual clean persistent utility or policy choice.
 
-## Disjoint-example CLIENT-LOCK
+class_templates.json.gz stores1,600 templates as exact numerator/denominator strings for utility[c][class][state], plus other99 class denominators; D=utility[clean] and R=utility[c]−D. composition_vectors.json stores800 exact target histograms/denominators. All template, mixture, hybrid and argmax arithmetic uses Fraction; only reported accuracies/correlations are converted to float.
 
-| salt | bank | mean_same_overlap | mean_control_overlap | difference_pp | passed |
+## Policies / freeze
+
+31 fixed policies: composition_persistent, class_context_only, hybrid_client_plus_class_context, two T013 regression policies, two uniform controls, and eight offsets for each of persistent/class-context/hybrid mismatched-pi controls. The extra persistent mismatch controls are required by COMP-A. All controls retain identical target-excluded templates and actual persistent term where applicable; only pi changes.
+
+All248,000 predicted utility vectors, full argmax sets and choices frozen at 2026-09-13T19:27:04.842806+00:00, before T014 evaluation or residual analysis. Utility SHA f256810d99fde7d5d436b973edb1cc5adb7cdecd02b15f00757435b5ee72baa2; template SHA cd272ab8de6c9bb582972b0d700fe412af9b6bdc6287c4bc955723d311fd7289. Frozen candidate order resolves exact ties only after the full argmax set is retained. Clean hybrid utility, choice and metric equal T013 client_only exactly because R(clean)=0.
+
+**This is a supervised, context-privileged diagnostic, not a deployable unlabeled method.** It uses target opposite-half labels and other-client training-half labels. Both cross-fit orientations are concatenated; no evaluation data are reweighted. Historical query-selected half-oracle remains an optimistic diagnostic denominator, not a policy-learning target.
+
+## Policy accuracy / regret
+
+Macro-class accuracy averaged over all four salts for readability; every salt/bank/context/policy remains in policy_metrics.csv with weighted accuracy, macro-client accuracy, selection counts, half-oracle hit rate and regret median/p75/p90/>2/>5pp:
+
+| bank | target | T013_zero | T013_client_only | T013_two_factor | composition_persistent | class_context_only | hybrid_client_plus_class_context | uniform_hybrid | T013_half_oracle |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| A | clean | 34.138690 | 39.857358 | 39.857358 | 40.411844 | 40.411844 | 39.857358 | 39.857358 | 40.995225 |
+| A | brightness_dark | 17.546026 | 25.613593 | 33.043927 | 26.151948 | 35.466289 | 34.931746 | 33.362024 | 35.879543 |
+| A | contrast_low | 19.955264 | 28.366562 | 29.885422 | 28.714773 | 33.739205 | 33.208331 | 29.915458 | 34.175340 |
+| A | gaussian_noise | 30.676644 | 36.912367 | 37.130695 | 37.374381 | 37.615401 | 37.048923 | 37.102367 | 38.082635 |
+| A | gaussian_blur | 30.901579 | 38.464626 | 38.556368 | 39.231565 | 39.995770 | 39.384411 | 38.695250 | 40.665880 |
+| B | clean | 34.138690 | 39.650134 | 39.650134 | 40.275622 | 40.275622 | 39.650134 | 39.650134 | 40.878239 |
+| B | brightness_dark | 17.546026 | 25.490595 | 33.047307 | 26.116844 | 35.443927 | 34.986188 | 33.088699 | 35.859442 |
+| B | contrast_low | 19.955264 | 28.198676 | 29.803546 | 28.726965 | 33.604517 | 33.042362 | 29.906017 | 34.037413 |
+| B | gaussian_noise | 30.676644 | 36.779287 | 36.999457 | 37.423156 | 37.658753 | 37.017241 | 37.016188 | 38.159925 |
+| B | gaussian_blur | 30.901579 | 38.478654 | 38.366666 | 39.332223 | 39.981846 | 39.379369 | 38.411736 | 40.711123 |
+
+State-choice counts sum to200 client-half decisions per row. Half regret preserves integer correct-count ties. The full exact count receipts and frozen utility/template receipts support reconstruction; no evaluation-half outcome changes a formula or coefficient.
+
+## Persistent clean composition capture / COMP decision
+
+| salt | bank | composition_gain | client_gain | composition_capture | composition_minus_mismatch_mean | passed |
+| --- | --- | --- | --- | --- | --- | --- |
+| T013-S0 | A | 6.265601 | 5.772385 | 1.085444 | 7.666268 | True |
+| T013-S0 | B | 6.147287 | 5.614276 | 1.094939 | 7.545257 | True |
+| T013-S1 | A | 6.265067 | 5.683543 | 1.102317 | 7.695242 | True |
+| T013-S1 | B | 6.094397 | 5.341656 | 1.140919 | 7.588601 | True |
+| T013-S2 | A | 6.270973 | 5.837041 | 1.074341 | 7.642987 | True |
+| T013-S2 | B | 6.146349 | 5.565887 | 1.104289 | 7.557341 | True |
+| T013-S3 | A | 6.290977 | 5.581702 | 1.127071 | 7.740419 | True |
+| T013-S3 | B | 6.159693 | 5.523958 | 1.115087 | 7.582507 | True |
+
+**COMP-A PASS in both banks and every salt.** Composition-only clean gain is about6.09–6.29pp, capturing107.4–114.1% of T013 client-only gain, and beats mean mismatched persistent composition by7.55–7.74pp. Capture above1 is valid: pooled class templates can outperform noisy client-half persistent measurements. This is not a causal percentage of variance explained.
+
+The interpretation of client-lock should therefore shift toward stable semantic/class composition in these synthetic non-IID CIFAR-10 clients. A separate latent client-identity variable is not required to explain most of this observed clean preference. This does not prove no other persistent client/content factor exists outside this experiment.
+
+## Class-conditioned interaction / per-salt capture
+
+| salt | bank | target | class_capture | hybrid_minus_two_factor | hybrid_minus_client_only | class_context_minus_context_only | hybrid_minus_uniform | hybrid_minus_mismatch_mean | mismatch_mean | mismatch_min | mismatch_max |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| T013-S0 | A | brightness_dark | 0.9485582645756337 | 1.782238214907339 | 9.544012938484874 | 10.740717993851394 | 1.5329229587911486 | 5.320877027257085 | 29.582671083108387 | 28.15542829332609 | 31.23111311546954 |
+| T013-S0 | A | contrast_low | 0.9360728541250418 | 3.333812389016126 | 4.876810345632639 | 5.117163798102374 | 3.2604516064588727 | 4.406110018130215 | 28.8325506636845 | 27.904947016687334 | 29.463950440751802 |
+| T013-S0 | A | gaussian_noise | 0.8555820839698569 | 0.06703135372705374 | 0.15205895413619608 | 6.065873046885654 | 0.10733234423415049 | 0.13916344717179002 | 36.887277550826006 | 36.69951820643318 | 37.09312731690229 |
+| T013-S0 | A | gaussian_blur | 0.8677903605766305 | 0.5703799310108709 | 0.8291956334689949 | 10.239023998667603 | 0.5159014534874675 | 0.9041142631700136 | 38.44599493121939 | 37.85997362940161 | 38.77234519295535 |
+| T013-S0 | B | brightness_dark | 0.9531945770007147 | 1.6982170996567862 | 9.481595132115253 | 15.336701494079316 | 1.6061721416286672 | 5.270313784169402 | 29.68239259965901 | 28.082699970887113 | 31.539928801881167 |
+| T013-S0 | B | contrast_low | 0.9218729239501363 | 3.118535115080341 | 4.71291014893317 | 5.50378249936678 | 3.130869394832333 | 4.276610524583934 | 28.683068729736817 | 27.863632330730713 | 29.35363317834526 |
+| T013-S0 | B | gaussian_noise | 0.8359437322510507 | 0.03272687272366921 | 0.14570397213007424 | 6.135635551590624 | -0.03979760300974699 | 0.06744629924288408 | 36.87405610333069 | 36.66942554350921 | 37.07936292635166 |
+| T013-S0 | B | gaussian_blur | 0.8602790734523034 | 0.7458389188439073 | 0.7977949314441224 | 11.578604704028027 | 0.7582997874121381 | 0.9039992145213613 | 38.40924645553734 | 37.90312640942133 | 38.786470647854216 |
+| T013-S1 | A | brightness_dark | 0.9502456914651606 | 2.4811065331192514 | 9.361708685286672 | 8.684138318011916 | 1.4468374674176028 | 5.152629040245783 | 29.81926377968113 | 28.230551312712706 | 31.28627843154399 |
+| T013-S1 | A | contrast_low | 0.9275805707889918 | 3.256065302160167 | 5.0778125691450136 | 5.212830199232589 | 3.2426562021419083 | 4.361962890731328 | 28.809202004430716 | 28.15240498304915 | 29.832427762726383 |
+| T013-S1 | A | gaussian_noise | 0.8549817068668548 | -0.07848722353507022 | 0.21977276744925425 | 5.598162438188712 | 0.0013807919330449932 | 0.14528435774044676 | 36.92048532135271 | 36.61864920383924 | 37.11128602488518 |
+| T013-S1 | A | gaussian_blur | 0.8537873042993526 | 0.7461537247463857 | 0.9666447681507139 | 10.078763290242565 | 0.5778200692144201 | 1.0708215505643168 | 38.226995181361744 | 37.776119483825745 | 38.49363958788246 |
+| T013-S1 | B | brightness_dark | 0.9559492695973222 | 2.60767441704921 | 9.356970964037036 | 15.317290511119351 | 2.108989365946788 | 5.27750670410384 | 29.768357048001043 | 28.382025084334828 | 31.144724892478212 |
+| T013-S1 | B | contrast_low | 0.931114628347284 | 3.188835253652781 | 4.860516446538949 | 5.405354647533886 | 2.9331781457991855 | 4.278886939142443 | 28.822673419223534 | 28.16531768107869 | 29.279272641298864 |
+| T013-S1 | B | gaussian_noise | 0.8192311905417563 | 0.03523505240300349 | 0.35077938167749456 | 6.434347290106101 | -0.01921608612775725 | 0.003792938157387122 | 36.85088965805672 | 36.69379377184656 | 37.02059581392686 |
+| T013-S1 | B | gaussian_blur | 0.86986388018527 | 1.1364787363939002 | 1.0162936585804307 | 11.537519390155603 | 1.0778214475430368 | 1.270645647437667 | 38.18122016725002 | 37.88986348920893 | 38.45683833844386 |
+| T013-S2 | A | brightness_dark | 0.9459835597412203 | 1.6696902925910517 | 8.985575221452509 | 12.99446091706281 | 1.7452093209151025 | 5.2944132591273645 | 29.623242476068107 | 28.226279988831042 | 31.196801502373354 |
+| T013-S2 | A | contrast_low | 0.9247098782586772 | 3.318891156337258 | 4.408511846117069 | 5.210978475411768 | 3.358547182552269 | 4.277449875362597 | 28.858810122766997 | 27.85507189050942 | 29.956667492055278 |
+| T013-S2 | A | gaussian_noise | 0.8635369045554995 | -0.15788235252297395 | 0.007891527962981015 | 5.098641286129929 | -0.19827677861814857 | -0.13952753396708054 | 37.1862236681197 | 36.986096497045764 | 37.273079248379034 |
+| T013-S2 | A | gaussian_blur | 0.8678110878637695 | 0.9506085208793726 | 0.7274615263683534 | 10.23966462011306 | 0.7312758057664909 | 1.1561714343722314 | 38.24963272945294 | 37.32081307666284 | 38.76109650025831 |
+| T013-S2 | B | brightness_dark | 0.946169835786214 | 1.5721050905625344 | 9.214267797245446 | 15.276730859730531 | 1.6728610389539205 | 5.263324199516442 | 29.63677360145849 | 28.185567959933987 | 31.431666265812666 |
+| T013-S2 | B | contrast_low | 0.9326999733390292 | 3.3551174235681667 | 4.624271690917434 | 5.530724872275208 | 3.2152869129952792 | 4.454500758653871 | 28.630463266690487 | 27.664176779490624 | 29.198639832483387 |
+| T013-S2 | B | gaussian_noise | 0.8571572082821179 | -0.031169618939958267 | 0.21516021185237774 | 6.153700623440851 | -0.03773388776324405 | -0.011304034086444733 | 37.066792649852125 | 36.93415251763304 | 37.13404485504662 |
+| T013-S2 | B | gaussian_blur | 0.8666049321996802 | 1.1413106482619508 | 0.8234952883348235 | 11.703449588239431 | 1.1013863711858345 | 1.3763156749155443 | 38.07481947237918 | 37.46374961875075 | 38.50604526744037 |
+| T013-S3 | A | brightness_dark | 0.9484262404227378 | 1.6182421902561859 | 9.381313680407814 | 12.51349120380818 | 1.553918666584124 | 5.140629345127042 | 29.79325758637972 | 28.0615557565795 | 31.268243736817944 |
+| T013-S3 | A | contrast_low | 0.9396763668691055 | 3.3828679231193712 | 5.003942873472533 | 5.169953786569543 | 3.3098377399147534 | 4.42543445596512 | 28.861805922565242 | 28.096672436949486 | 29.544330806344718 |
+| T013-S3 | A | gaussian_noise | 0.8677121885516296 | -0.15774887786762387 | 0.16650412652794758 | 6.254592494669255 | -0.1242114046720114 | 0.013656475424823752 | 37.04313010637238 | 36.900433681348154 | 37.147012910371565 |
+| T013-S3 | A | gaussian_blur | 0.885892402234775 | 1.045031674789607 | 1.1558393708362216 | 10.23307861788515 | 0.9316475334184176 | 1.3666671035526994 | 38.117248051118665 | 37.38472290073963 | 38.653457978222995 |
+| T013-S3 | B | brightness_dark | 0.9539614123590333 | 1.8775269535472687 | 9.929537428207956 | 15.223252311730464 | 2.2019318924299243 | 5.063722137802833 | 29.982360249635416 | 28.376459026257738 | 31.978305505806713 |
+| T013-S3 | B | contrast_low | 0.931689446837492 | 3.2927759403013517 | 5.177043689024404 | 5.531705705986381 | 3.2660426940742098 | 4.307560707887044 | 28.715681775952984 | 27.918909721690657 | 29.159380978916943 |
+| T013-S3 | B | gaussian_noise | 0.8772741916571176 | 0.03434357986175101 | 0.2401718361854872 | 6.182754682279295 | 0.1009563216749121 | 0.1984991787547926 | 37.01878929059064 | 36.902141270518314 | 37.129826126522985 |
+| T013-S3 | B | gaussian_blur | 0.8601518974379933 | 1.0271855934828509 | 0.9652790774379825 | 11.690871950498499 | 0.9330243474090977 | 1.2410791691449783 | 38.060151749195015 | 37.48796460948645 | 38.453454889404526 |
+
+| bank | target | mean_hybrid_minus_two_factor | mean_hybrid_minus_mismatch | gain_pass | mismatch_pass |
 | --- | --- | --- | --- | --- | --- |
-| T013-S0 | A | 0.613500 | 0.373375 | 24.012500 | True |
-| T013-S0 | B | 0.614500 | 0.380875 | 23.362500 | True |
-| T013-S1 | A | 0.605500 | 0.377312 | 22.818750 | True |
-| T013-S1 | B | 0.613000 | 0.387875 | 22.512500 | True |
-| T013-S2 | A | 0.623000 | 0.385875 | 23.712500 | True |
-| T013-S2 | B | 0.609000 | 0.382312 | 22.668750 | True |
-| T013-S3 | A | 0.617500 | 0.387062 | 23.043750 | True |
-| T013-S3 | B | 0.605500 | 0.383375 | 22.212500 | True |
+| A | brightness_dark | 1.887819 | 5.227137 | True | True |
+| A | contrast_low | 3.322909 | 4.367739 | True | True |
+| A | gaussian_noise | -0.081772 | 0.039644 | False | False |
+| A | gaussian_blur | 0.828043 | 1.124444 | True | True |
+| B | brightness_dark | 1.938881 | 5.218717 | True | True |
+| B | contrast_low | 3.238816 | 4.329390 | True | True |
+| B | gaussian_noise | 0.017784 | 0.064609 | False | False |
+| B | gaussian_blur | 1.012703 | 1.198010 | True | True |
 
-**DISJOINT-LOCK-STRONG passes all8 salt/bank combinations.** Margins22.2125–24.0125pp exceed the unchanged15pp gate. These margins are smaller than T012’s28.0–28.2pp, but remain substantial on disjoint underlying images. Repeated-example coupling therefore cannot explain away persistent client preference. Class-composition coupling is still possible because disjoint samples from a client share its distribution.
+**CLASS-INT-A PASS:4/4 shifted contexts meet80% capture in both banks under every salt.** Mean hybrid gain over T013 two_factor is+3.323/+3.239pp for Contrast and+.828/+1.013pp for Blur, so the additional failed-context improvement condition passes. Dark gains+1.888/+1.939pp. Noise changes−.082/+.018pp and gains only+.040/+.065pp over mismatched composition; preserve this weak/negative incremental result rather than claiming uniform improvement.
 
-disjoint_lock.csv retains every pair, orientation and offset summary. orientation_averaged_pair_overlap.csv supplies per-pair values; disjoint_utility_similarity.csv supplies valid counts, same-client mean/median Spearman and control mean/range. The JSON retains all individual offset statistics. Utility ranks use exact half correct counts, equivalent to half-specific DeltaAcc ranks.
+Class-conditioned transient response explains enough of the missing Contrast/Blur interaction to pass the fixed gate, but it does not eliminate all half-oracle regret. No coefficient tuning or interpolation between global and class-conditioned residuals was performed.
 
-## Cross-fit factorization and policy freeze
+## Residual disjoint client-lock
 
-For each target half, persistent P is the same client’s clean utility on the opposite half. Context C is the equal-client mean of shifted-minus-clean utilities from the other99 clients on that training orientation. two_factor chooses argmax(P+C). client_only uses P; context_only uses C; eight mismatches replace P with client(i+k)%100 while keeping the same C(-i). All predicted argmax sets are retained; the first frozen candidate wins policy ties.
+| salt | bank | raw_margin_pp | residual_margin_pp | attenuation_pp | fractional_attenuation | residual_above_original_15pp |
+| --- | --- | --- | --- | --- | --- | --- |
+| T013-S0 | A | 24.012500 | -3.556250 | 27.568750 | 1.148100 | False |
+| T013-S0 | B | 23.362500 | -3.493750 | 26.856250 | 1.149545 | False |
+| T013-S1 | A | 22.818750 | -5.006250 | 27.825000 | 1.219392 | False |
+| T013-S1 | B | 22.512500 | -4.175000 | 26.687500 | 1.185453 | False |
+| T013-S2 | A | 23.712500 | -4.093750 | 27.806250 | 1.172641 | False |
+| T013-S2 | B | 22.668750 | -3.718750 | 26.387500 | 1.164047 | False |
+| T013-S3 | A | 23.043750 | -4.375000 | 27.418750 | 1.189856 | False |
+| T013-S3 | B | 22.212500 | -5.018750 | 27.231250 | 1.225943 | False |
 
-All120,000 half-policy choices and8,000 exact half-argmax sets were saved before composition analysis. Policy freeze 2026-09-13T18:30:39.425519+00:00; choices SHA 4d2b1bf8091f14b36690ba33e89c9874d12e7c4e9013655f37419402ca3206cd. Every example receives a state selected using its opposite-half labels, never its own evaluation-half labels, for the cross-fit diagnostic policies. Half-oracle and historical full-query oracle are explicitly privileged comparison policies and do use evaluated labels.
+Residual E uses held-out observed state utility minus the opposite-half/other99 class-predicted utility. Subtraction and residual argmax ties use exact fractions. Raw margins exactly reproduce T013. Residual margins range−5.019 to−3.494pp, with none retaining the original15pp margin. Thus the strong positive lock vanishes under this prescribed class-conditioned subtraction.
 
-**This is supervised diagnostic factorization with a known context and other-client label access. It is not an unlabeled writer or deployable adaptation method.** Concatenating the swapped evaluation halves reconstructs each full-query policy.
+Fractional attenuation exceeds1 because the residual overlap contrast changes sign; it must not be read as “more than100% of causal signal explained.” Residualization changes ties and noise structure and uses cross-fitted estimated templates, so a small negative margin is not proof of a biological/statistical anti-client effect. The narrow conclusion is that no large positive residual lock remains by this test.
 
-## Cross-fit metrics and oracle granularity
-
-Main macro-class accuracy, averaged across all four salts (all per-salt metrics remain in crossfit_metrics.csv):
-
-| bank | target | zero | true_state | full_query_oracle | half_oracle | client_only | context_only | two_factor | mismatch_mean |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| A | clean | 34.138690 | 34.138690 | 40.723160 | 40.995225 | 39.857358 | 34.138690 | 39.857358 | 32.719017 |
-| A | brightness_dark | 17.546026 | 32.296536 | 35.712121 | 35.879543 | 25.613593 | 24.233087 | 33.043927 | 27.725936 |
-| A | contrast_low | 19.955264 | 28.561473 | 33.993166 | 34.175340 | 28.366562 | 28.561473 | 29.885422 | 25.213045 |
-| A | gaussian_noise | 30.676644 | 32.499558 | 37.825842 | 38.082635 | 36.912367 | 31.861084 | 37.130695 | 30.376176 |
-| A | gaussian_blur | 30.901579 | 33.048500 | 40.343614 | 40.665880 | 38.464626 | 29.798137 | 38.556368 | 30.720294 |
-| B | clean | 34.138690 | 34.138690 | 40.572038 | 40.878239 | 39.650134 | 34.138690 | 39.650134 | 32.693556 |
-| B | brightness_dark | 17.546026 | 32.424808 | 35.686070 | 35.859442 | 25.490595 | 20.155433 | 33.047307 | 27.652445 |
-| B | contrast_low | 19.955264 | 28.111626 | 33.862340 | 34.037413 | 28.198676 | 28.111626 | 29.803546 | 25.036584 |
-| B | gaussian_noise | 30.676644 | 32.406771 | 37.894827 | 38.159925 | 36.779287 | 31.432144 | 36.999457 | 29.947931 |
-| B | gaussian_blur | 30.901579 | 33.009919 | 40.374218 | 40.711123 | 38.478654 | 28.354235 | 38.366666 | 30.234160 |
-
-The split-matched half-oracle chooses a fixed state separately per evaluation half and is the prescribed gain denominator. Both oracles maximize on the same outcomes used to report them, so they are optimistic diagnostics. All exact ties are preserved; display/policy order remains clean,dark,contrast,noise,blur. State-frequency counts sum to200 decisions per salt/bank/context/policy; regret and hit rate are unweighted over those200 client halves.
-
-crossfit_metrics.csv contains all600 salt/bank/context/policy rows, including every mismatch offset: macro-class, sample-weighted, macro-client accuracy, selection frequencies, half-oracle hit rate, regret median/p75/p90 and >2/>5pp fractions. Raw per-half regrets are in crossfit_regret.json.gz. Integer_count_receipts.json plus the formal half-count artifact allow reconstruction. An independent per-example concatenation path exactly matches every policy’s class counts; historical full-query best-of-five matches T011.
-
-## Factor capture and mismatch controls
-
-| salt | bank | target | factor_capture | two_minus_client | two_minus_context | two_minus_mean_mismatch | mismatch_mean | mismatch_min | mismatch_max |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T013-S0 | A | clean | 0.8407814275959522 | 0.0 | 5.772385024505814 | 7.295535858997333 | 32.61553908527702 | 31.51476411152267 | 33.692104728892495 |
-| T013-S0 | A | brightness_dark | 0.8511620566559701 | 7.761774723577536 | 8.35401211724269 | 5.454635466866205 | 27.66667442859193 | 26.213552503233068 | 29.366974033427216 |
-| T013-S0 | A | contrast_low | 0.7011411307135998 | 1.5429979566165122 | 1.3433748722925731 | 4.59897188993306 | 25.30587640286553 | 23.15459230540695 | 26.968040547085508 |
-| T013-S0 | A | gaussian_noise | 0.846550169407927 | 0.08502760040914234 | 5.459382956565222 | 6.670674848427449 | 30.288734795843297 | 28.844701380600306 | 31.534295580564223 |
-| T013-S0 | A | gaussian_blur | 0.8092038129842752 | 0.25881570245812413 | 8.981592087686208 | 8.178772557410392 | 30.60095670596814 | 29.358545990881318 | 32.08628069580212 |
-| T013-S0 | B | clean | 0.8343843888725231 | 0.0 | 5.614275925269238 | 6.9863734880622435 | 32.766592356975536 | 31.176062023722803 | 33.633765845212395 |
-| T013-S0 | B | brightness_dark | 0.8601997418852331 | 7.783378032458467 | 13.099056219200062 | 5.280358145817598 | 27.97413113835403 | 26.059173025840888 | 29.116909731260737 |
-| T013-S0 | B | contrast_low | 0.7008023855183328 | 1.594375033852829 | 1.7295186294162088 | 4.810629697786023 | 25.030514441454386 | 22.601433554531365 | 26.764442665085102 |
-| T013-S0 | B | gaussian_noise | 0.8315768620485834 | 0.11297709940640503 | 5.430793507343744 | 6.974544369257906 | 29.934231160591995 | 27.924867638211214 | 30.824912500099337 |
-| T013-S0 | B | gaussian_blur | 0.7840005364330102 | 0.051956012600215054 | 10.213171766057302 | 8.445618559765219 | 30.12178819144958 | 29.049815493383445 | 31.581213840969713 |
-| T013-S1 | A | clean | 0.8311610930193293 | 0.0 | 5.683542616938382 | 7.076731865110514 | 32.74550067159641 | 31.71251564044934 | 33.772679904801414 |
-| T013-S1 | A | brightness_dark | 0.8149490729968152 | 6.88060215216742 | 5.72024624320601 | 4.953488430443308 | 27.537297856364354 | 26.241513395214792 | 29.559426962777273 |
-| T013-S1 | A | contrast_low | 0.6990480679612018 | 1.8217472669848458 | 1.3536261724958607 | 4.59175896841146 | 25.32334062459042 | 23.760242264788616 | 26.923164808627934 |
-| T013-S1 | A | gaussian_noise | 0.8654847306224718 | 0.2982599909843245 | 5.057074390213513 | 6.570493451017103 | 30.573763451611125 | 29.777364997620296 | 31.480607302300914 |
-| T013-S1 | A | gaussian_blur | 0.7779132508302802 | 0.22049104340432815 | 8.753525831487352 | 7.762782363386395 | 30.78888064379328 | 29.511544086221505 | 32.06314377030927 |
-| T013-S1 | B | clean | 0.791394995981064 | 0.0 | 5.341655786001336 | 6.903167922208263 | 32.57717778356161 | 30.499693119852616 | 34.016052704580126 |
-| T013-S1 | B | brightness_dark | 0.8135019764087258 | 6.749296546987826 | 12.282756270084109 | 4.90639657713788 | 27.531792757917795 | 25.326244490380247 | 29.056677570797092 |
-| T013-S1 | B | contrast_low | 0.7052585341021192 | 1.671681192886168 | 1.8010995948889974 | 4.855608200023245 | 25.057116904689952 | 22.928956613302834 | 26.241123188884877 |
-| T013-S1 | B | gaussian_noise | 0.8145588899749421 | 0.3155443292744911 | 5.566470037681851 | 6.841645055576781 | 29.977802488234328 | 28.45861074523629 | 30.79847896262415 |
-| T013-S1 | B | gaussian_blur | 0.7542441535980053 | -0.12018507781346931 | 9.961152093136292 | 8.082863942801202 | 30.23252313549258 | 28.875566834421207 | 31.23426731754606 |
-| T013-S2 | A | clean | 0.8562457063897874 | 0.0 | 5.837041401649558 | 7.204925106441637 | 32.77080621497646 | 31.69946957890279 | 33.9164451409764 |
-| T013-S2 | A | brightness_dark | 0.8550594707509253 | 7.315884928861457 | 10.767865872887686 | 5.359536856373597 | 27.888428586230823 | 25.85699759395081 | 29.950205869241522 |
-| T013-S2 | A | contrast_low | 0.6918737985948574 | 1.0896206897798106 | 1.2558954212863211 | 4.660656717028768 | 25.15671212476357 | 23.227542031135226 | 26.941113504923067 |
-| T013-S2 | A | gaussian_noise | 0.884939748979879 | 0.16577388048595496 | 4.718165991039013 | 6.720124864361618 | 30.48445362231398 | 29.465548049315668 | 31.98519340664388 |
-| T013-S2 | A | gaussian_blur | 0.7708065265034073 | -0.22314699451101927 | 8.657058467253474 | 7.534187499314009 | 30.92100814363179 | 29.559116465622143 | 32.05164541393109 |
-| T013-S2 | B | clean | 0.8284023780111666 | 0.0 | 5.565886602053769 | 7.0435944527847685 | 32.66098206903754 | 30.903795067131195 | 33.577515474401615 |
-| T013-S2 | B | brightness_dark | 0.8604563230517165 | 7.642162706682912 | 13.172559645440833 | 5.752422956715322 | 27.575569753697074 | 25.324578219540793 | 28.93622928270607 |
-| T013-S2 | B | contrast_low | 0.6943610986852492 | 1.269154267349267 | 1.6182210919519897 | 4.701704268432742 | 25.028142333343446 | 23.069553837771128 | 26.7516142732859 |
-| T013-S2 | B | gaussian_noise | 0.8613456255490337 | 0.246329830792336 | 5.614194890915407 | 7.121625154698895 | 29.96503308000674 | 28.406847182161297 | 31.20464682299374 |
-| T013-S2 | B | gaussian_blur | 0.7509187561810896 | -0.31781535992712723 | 9.955589513875285 | 7.944792434802138 | 30.36503206423064 | 29.317839505246287 | 31.342836183106456 |
-| T013-S3 | A | clean | 0.8082926137462065 | 0.0 | 5.58170240373355 | 6.976169944425593 | 32.7442223790765 | 31.93848660820517 | 33.83913628667903 |
-| T013-S3 | A | brightness_dark | 0.8601587184580783 | 7.763071490151628 | 10.401234646824262 | 5.504300012088925 | 27.81134472916165 | 25.66974047627749 | 29.392279843445515 |
-| T013-S3 | A | contrast_low | 0.7012420232721792 | 1.6210749503531616 | 1.342899034904976 | 4.838122542353751 | 25.06624991305724 | 23.016770826008038 | 27.49587076086516 |
-| T013-S3 | A | gaussian_noise | 0.8891663518582318 | 0.3242530043955714 | 5.843822939485405 | 7.056785212922004 | 30.157750246742825 | 29.112224669251095 | 31.38674919748659 |
-| T013-S3 | A | gaussian_blur | 0.7780213490494479 | 0.11080769604661458 | 8.640746304189433 | 7.868552119923953 | 30.570331359957805 | 29.176827947340318 | 31.797217636523975 |
-| T013-S3 | B | clean | 0.8170254395228569 | 0.0 | 5.523958162687494 | 6.893175669988456 | 32.76947241246758 | 31.441426956513855 | 33.87844935534021 |
-| T013-S3 | B | brightness_dark | 0.851613838660861 | 8.052010474660689 | 13.013122368919413 | 5.640269950485671 | 27.52828548340531 | 25.510883661650272 | 28.46387938847843 |
-| T013-S3 | B | contrast_low | 0.6969289905597436 | 1.8842677487230521 | 1.6188410337144743 | 4.699903040618292 | 25.030563502920383 | 22.756219507554075 | 26.99247096800551 |
-| T013-S3 | B | gaussian_noise | 0.872667805280545 | 0.2058282563237362 | 5.657793541190831 | 7.268285811637568 | 29.914659077846114 | 28.450345205967462 | 30.89584880313063 |
-| T013-S3 | B | gaussian_blur | 0.75496472249597 | -0.061906516044868444 | 9.919810339699648 | 8.056747570747591 | 30.217297754109552 | 28.891219081470787 | 31.266655294129166 |
-
-Dark and Noise exceed80% split-oracle capture in both banks under every salt. Contrast remains about69–71%; Blur about75–81% and fails under multiple salts. Thus only2/4 shifted targets pass the all-salt/all-bank requirement. No salt or mismatch offset is selected for favorable performance.
-
-## Clean calibration safety
-
-| salt | bank | delta_pp |
-| --- | --- | --- |
-| T013-S0 | A | 5.772385024505814 |
-| T013-S0 | B | 5.614275925269238 |
-| T013-S1 | A | 5.683542616938382 |
-| T013-S1 | B | 5.341655786001336 |
-| T013-S2 | A | 5.837041401649558 |
-| T013-S2 | B | 5.565886602053769 |
-| T013-S3 | A | 5.58170240373355 |
-| T013-S3 | B | 5.523958162687494 |
-
-| bank | mean_delta_pp |
-| --- | --- |
-| A | 5.718668 |
-| B | 5.511444 |
-
-Clean two_factor equals client_only because its transient term is exactly0. Cross-fit clean gain averages+5.718668 /+5.511444pp, passing the allowed−.5pp limit. This is supervised persistent calibration gain, not evidence of clean zero neutrality being violated or of label-free context adaptation.
-
-## FACTOR decision
-
-**FACTOR-A FAIL; FACTOR-B is the primary diagnosis.** Disjoint lock survives every salt/bank, and on Dark and Contrast the two-factor policy beats both single-factor controls by>=.5pp after averaging all salts, in each bank:
-
-| bank | target | mean_two_minus_client | mean_two_minus_context | passed |
-| --- | --- | --- | --- | --- |
-| A | brightness_dark | 7.430333 | 8.810840 | True |
-| A | contrast_low | 1.518860 | 1.323949 | True |
-| A | gaussian_noise | 0.218329 | 5.269612 | False |
-| A | gaussian_blur | 0.091742 | 8.758231 | False |
-| B | brightness_dark | 7.556712 | 12.891874 | True |
-| B | contrast_low | 1.604870 | 1.691920 | True |
-| B | gaussian_noise | 0.220170 | 5.567313 | False |
-| B | gaussian_blur | -0.111988 | 10.012431 | False |
-
-On Noise, two_factor improves only~.22pp over client_only. On Blur the gain over client_only is+.092pp in A and−.112pp in B. Persistent calibration accounts for much of their gain; the simple global additive transient residual adds little. Both persistent and transient effects have predictive value, but additive utility is not sufficient under the frozen gate. Residual client×context interaction, estimation noise and finite-half oracle optimism remain possible explanations; this audit does not isolate their individual contributions.
-
-## Post-freeze label-composition audit
-
-label_composition_audit.csv records all800 client/salt/half rows: normalized entropy, maximum class fraction, represented classes and H0/H1 histogram L1/JS. Only after all policies and argmax sets were frozen were entropy/histogram-distance statistics computed. Continuous descriptive associations were used; no threshold, label-prior correction or matching rule was fitted.
-
-| feature | overlap_rho_min | overlap_rho_max | regret_rho_min | regret_rho_max |
-| --- | --- | --- | --- | --- |
-| normalized_entropy | -0.124845 | -0.078822 | 0.021904 | 0.139950 |
-| max_class_fraction | 0.110503 | 0.136226 | -0.138975 | 0.031370 |
-| halves_histogram_L1 | -0.082986 | 0.049842 | 0.026454 | 0.199884 |
-| halves_histogram_JS | -0.031242 | 0.089973 | 0.048513 | 0.225329 |
-
-Across salts/banks, overlap is weakly higher with lower entropy (Spearman−.125 to−.079) and higher dominant-class share (+.111 to+.136). Half histogram mismatch has little relation to overlap, but weak positive association with two-factor regret (L1+.026 to+.200; JS+.049 to+.225). These modest descriptive associations do not establish that composition explains the persistent signal. They motivate a dedicated composition audit if Research Lead considers it necessary.
+residual_lock.csv retains all pairs/orientations; residual_utility_similarity.csv provides valid counts, same-client Spearman mean/median and shifted-control ranges. residual_lock_summary.json retains every offset statistic. Exact residual vectors are in residual_utilities.json.gz. No policy was fitted from these residuals.
 
 ## Mechanism vs implementation conclusion
 
-Exact artifact regressions, label-blind split checks, training-half-only factor construction, freeze hashes and count reconstructions all pass. The result is a mechanism finding. Persistent client preference survives disjoint examples and a transient context residual helps on Dark/Contrast. The additive model leaves important residual error, especially on Contrast/Blur; do not call this an operator-capacity failure. The current affine bank and ray evidence already show useful capacity.
+All artifact regressions, exclusion/half boundaries, clean invariants, freeze hashes and independent count checks pass. This is a mechanism finding: stable semantic composition explains most persistent preference, and class-dependent context response resolves much of the previous additive model’s missing interaction within the frozen five-state bank. The evidence favors semantic composition plus transient context over automatically calling the former client identity.
+
+The result remains specific to this frozen checkpoint, state bank, corruption set and synthetic PFLlib split (not the official CIFAR-10 test benchmark). Correct class composition and utility templates are supervised here. Neither a label-free composition estimator nor a writer has been tested; residual feature/content effects beyond these diagnostics are not ruled out.
 
 ## Recommended next action
 
-Return FACTOR-B evidence to Research Lead. A next bounded audit should distinguish class-composition-driven persistence from non-additive client×context effects before implementing a writer. No explicit new state architecture, T014, SSL, gradient adaptation, federation, operator expansion or post-hoc correction was started.
+Return COMP-A + CLASS-INT-A and the attenuated residual lock to Research Lead. A next bounded design/audit may ask how semantic mixture can be estimated without labels and how it conditions transient state utility, but no such estimator, writer, SSL/TTT update, new federation, operator expansion or T015 was implemented.

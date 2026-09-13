@@ -34,3 +34,4 @@ research_log/t013_receipts/**/crossfit_choices.json
 research_log/t013_receipts/**/crossfit_regret.json
 results/t013_disjoint_factorization/crossfit_choices.json
 results/t013_disjoint_factorization/crossfit_regret.json
+research_log/t014_receipts/**/policy_choices.csv

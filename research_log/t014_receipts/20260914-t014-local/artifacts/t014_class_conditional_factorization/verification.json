@@ -1,0 +1,16 @@
+{
+  "new_model_forward_passes": 0,
+  "T011_T013_hashes_verified": true,
+  "all_T013_600_metrics_reconstructed": true,
+  "exact_same_halves": true,
+  "target_opposite_half_only": true,
+  "other99_template_excludes_target": true,
+  "all_class_denominators_positive": true,
+  "template_and_policy_arithmetic_exact_Fraction": true,
+  "all_clean_hybrid_choices_metrics_equal_client_only": true,
+  "controls_share_templates_only_pi_changes": true,
+  "all_1240_metrics_independently_reconstructed_per_example": true,
+  "raw_disjoint_lock_T013_exact": true,
+  "policy_freeze_hashes_unchanged": true,
+  "focused_tests_passed": 3
+}

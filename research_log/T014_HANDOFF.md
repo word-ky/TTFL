@@ -4,3 +4,9 @@
 
 2026-09-14T03:26:32.0447568+08:00 — implementationready
 Threefocusedtests PASS. Classpooled99templates exactFraction;31policies includes8mismatchedpersistentgatecontrols. Freeze248000fullutility/argmaxchoices beforeevaluation/residual. Perexampleindependent1240metricchecks. Output research_log/t014_receipts/20260914-t014-local/artifacts/t014_class_conditional_factorization. Noformalrunyet.
+
+2026-09-14T03:27:07.0975809+08:00 — formalrunstarted
+Runtime78de03c localCPU20260914-t014-local. ExistingT011NPZ+T013halfcounts, noforwards. Currentprocesswrites run.logandartifacts; no duplicate.
+
+## 2026-09-14T03:30:20.3705312+08:00 — COMPLETE
+Runtime78de03c local51.41s, noforwards. COMP-Aall8:107.4–114.1percentcapture;CLASS-INT-A4/4jointallsaltsbanks. Contrast+3.323/+3.239pp,Blur+.828/+1.013pp vsT013twofactor. Residualmargin−3.49to−5.02pp;semanticcompositionexplanation.248000utilitiesfrozenbeforeT014eval/residual;1240newmetrics/600oldmetrics independentcounts,3focusedtests andclean/exclusioninvariantsPASS. Read results/t014_class_conditional_factorization/RESULTS.md; superviseddiagnostic only; noT015.

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-09-14T03:29:52+08:00",
+  "lead": "1462732",
+  "runtime": "78de03cdcc22daf1e4924a93b491331a2d7b3d13",
+  "run": "20260914-t014-local",
+  "decision": "COMP-A + CLASS-INT-A",
+  "raw": "research_log/t014_receipts/20260914-t014-local/artifacts/t014_class_conditional_factorization",
+  "results": "results/t014_class_conditional_factorization/RESULTS.md",
+  "next": "Await Lead"
+}

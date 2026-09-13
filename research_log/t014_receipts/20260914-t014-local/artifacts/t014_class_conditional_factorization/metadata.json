@@ -1,0 +1,10 @@
+{
+  "code_commit": "78de03cdcc22daf1e4924a93b491331a2d7b3d13",
+  "timestamp": "2026-09-13T19:27:29.105534+00:00",
+  "seconds": 51.40602707862854,
+  "execution": "local CPU frozen saved predictions",
+  "policies": 31,
+  "choice_rows": 248000,
+  "metric_rows": 1240,
+  "template_rows": 1600
+}

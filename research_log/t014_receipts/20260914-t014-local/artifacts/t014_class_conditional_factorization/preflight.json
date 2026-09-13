@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-13T19:26:40.570876+00:00",
+  "T011_prediction_sha_verified": true,
+  "T013_splits_choices_counts_hashes_verified": true,
+  "all_half_counts_reconstructed": true,
+  "T013_all_600_policy_count_metrics_exact": true,
+  "clean_safety_exact": true,
+  "new_model_forward_passes": 0
+}

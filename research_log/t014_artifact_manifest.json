@@ -1,0 +1,92 @@
+[
+  {
+    "path": "research_log/t014_receipts/20260914-t014-local/artifacts/t014_class_conditional_factorization/class_templates.json.gz",
+    "bytes": 337520,
+    "sha256": "cd272ab8de6c9bb582972b0d700fe412af9b6bdc6287c4bc955723d311fd7289"
+  },
+  {
+    "path": "research_log/t014_receipts/20260914-t014-local/artifacts/t014_class_conditional_factorization/composition_capture.csv",
+    "bytes": 808,
+    "sha256": "c4f1c47327734228c31ee10bea4ea9c8b9b656adb13a671a38f775ca242b93c3"
+  },
+  {
+    "path": "research_log/t014_receipts/20260914-t014-local/artifacts/t014_class_conditional_factorization/composition_vectors.json",
+    "bytes": 184584,
+    "sha256": "5900c165520aa85fcd4351e68619b3b93f3cd11d28a6a82b89164c49e15ac9ed"
+  },
+  {
+    "path": "research_log/t014_receipts/20260914-t014-local/artifacts/t014_class_conditional_factorization/integer_count_receipts.json",
+    "bytes": 538638,
+    "sha256": "67b2ec7882fba4a7683e862897068164db446e096e035435609ade723ec54e92"
+  },
+  {
+    "path": "research_log/t014_receipts/20260914-t014-local/artifacts/t014_class_conditional_factorization/interaction_capture.csv",
+    "bytes": 6412,
+    "sha256": "71c276886b19361524d720ce1233abade9b3cd52f80f29daf410098827ae9501"
+  },
+  {
+    "path": "research_log/t014_receipts/20260914-t014-local/artifacts/t014_class_conditional_factorization/metadata.json",
+    "bytes": 299,
+    "sha256": "cd61a6658c4c51e5c6c6d082cfe2442019ce844bc218709ffb47a15c74246116"
+  },
+  {
+    "path": "research_log/t014_receipts/20260914-t014-local/artifacts/t014_class_conditional_factorization/policy_choices.csv",
+    "bytes": 23218613,
+    "sha256": "56e6b4f79c68ea1b17fa6d388592879c36b50ec2bf2b5056794c9b92ede2c189"
+  },
+  {
+    "path": "research_log/t014_receipts/20260914-t014-local/artifacts/t014_class_conditional_factorization/policy_freeze.json",
+    "bytes": 518,
+    "sha256": "20d53c1e3f2b49dc7e5d717b0bfc9a7aeb752bc2c65bf842206f6c1ca24fd060"
+  },
+  {
+    "path": "research_log/t014_receipts/20260914-t014-local/artifacts/t014_class_conditional_factorization/policy_metrics.csv",
+    "bytes": 345875,
+    "sha256": "ec3faada39a6c609a956480f41a2b3cc9048b38a2f9a34587db74947a1d4a5c9"
+  },
+  {
+    "path": "research_log/t014_receipts/20260914-t014-local/artifacts/t014_class_conditional_factorization/policy_metrics.json",
+    "bytes": 783417,
+    "sha256": "73181f16b0a0e530dec403e98b4908f40bf7017bb97037e1dbbbaa5557b29321"
+  },
+  {
+    "path": "research_log/t014_receipts/20260914-t014-local/artifacts/t014_class_conditional_factorization/policy_utilities.json.gz",
+    "bytes": 8736028,
+    "sha256": "f256810d99fde7d5d436b973edb1cc5adb7cdecd02b15f00757435b5ee72baa2"
+  },
+  {
+    "path": "research_log/t014_receipts/20260914-t014-local/artifacts/t014_class_conditional_factorization/preflight.json",
+    "bytes": 310,
+    "sha256": "1c644e599e52b55919b8ed6ae93efba1bc3ce8bc461887769cb3c1981e274b7f"
+  },
+  {
+    "path": "research_log/t014_receipts/20260914-t014-local/artifacts/t014_class_conditional_factorization/residual_lock.csv",
+    "bytes": 9756,
+    "sha256": "66d057f35bb6d7ae57fbd7f8d64fd2b69b7fd87eb83adf32f428f3d46dc90da5"
+  },
+  {
+    "path": "research_log/t014_receipts/20260914-t014-local/artifacts/t014_class_conditional_factorization/residual_lock_summary.json",
+    "bytes": 250263,
+    "sha256": "263d83af21e659fee6e1b006b5d3f29fa95fdef2a9949358ab68f2d7bd40203c"
+  },
+  {
+    "path": "research_log/t014_receipts/20260914-t014-local/artifacts/t014_class_conditional_factorization/residual_utilities.json.gz",
+    "bytes": 318692,
+    "sha256": "51f73ad85ac4037546c5c88b2fb59e12a00ee40dc53271f57391b6dae6ed806e"
+  },
+  {
+    "path": "research_log/t014_receipts/20260914-t014-local/artifacts/t014_class_conditional_factorization/summary.json",
+    "bytes": 6665,
+    "sha256": "06f2f6cdf11ab5a7c2fcbad1391ffbf5515e3982f8f575bb34e19d0ff4f9c369"
+  },
+  {
+    "path": "research_log/t014_receipts/20260914-t014-local/artifacts/t014_class_conditional_factorization/verification.json",
+    "bytes": 636,
+    "sha256": "e33b775125501004770f67edcbb4fd795a3518f9c5f6c72eb6275df66a6af444"
+  },
+  {
+    "path": "research_log/t014_receipts/20260914-t014-local/run.log",
+    "bytes": 5356,
+    "sha256": "600b815241050542d826491bc71b20d79caf0f156392b2e660c89ab3d173b3a0"
+  }
+]

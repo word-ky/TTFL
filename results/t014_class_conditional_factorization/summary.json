@@ -1,0 +1,227 @@
+{
+  "COMP_A": true,
+  "CLASS_INT_A": true,
+  "CLASS_INT_B": false,
+  "CLASS_INT_descriptor": "CLASS-INT-A",
+  "joint_capture": {
+    "brightness_dark": true,
+    "contrast_low": true,
+    "gaussian_noise": true,
+    "gaussian_blur": true
+  },
+  "contrast_or_blur_increment": true,
+  "advantages": [
+    {
+      "bank": "A",
+      "target": "brightness_dark",
+      "mean_hybrid_minus_two_factor": 1.887819307718457,
+      "mean_hybrid_minus_mismatch": 5.227137167939318,
+      "gain_pass": true,
+      "mismatch_pass": true
+    },
+    {
+      "bank": "A",
+      "target": "contrast_low",
+      "mean_hybrid_minus_two_factor": 3.322909192658231,
+      "mean_hybrid_minus_mismatch": 4.367739310047315,
+      "gain_pass": true,
+      "mismatch_pass": true
+    },
+    {
+      "bank": "A",
+      "target": "gaussian_noise",
+      "mean_hybrid_minus_two_factor": -0.08177177504965358,
+      "mean_hybrid_minus_mismatch": 0.039644186592495,
+      "gain_pass": false,
+      "mismatch_pass": false
+    },
+    {
+      "bank": "A",
+      "target": "gaussian_blur",
+      "mean_hybrid_minus_two_factor": 0.828043462856559,
+      "mean_hybrid_minus_mismatch": 1.1244435879148154,
+      "gain_pass": true,
+      "mismatch_pass": true
+    },
+    {
+      "bank": "B",
+      "target": "brightness_dark",
+      "mean_hybrid_minus_two_factor": 1.9388808902039498,
+      "mean_hybrid_minus_mismatch": 5.21871670639813,
+      "gain_pass": true,
+      "mismatch_pass": true
+    },
+    {
+      "bank": "B",
+      "target": "contrast_low",
+      "mean_hybrid_minus_two_factor": 3.23881593315066,
+      "mean_hybrid_minus_mismatch": 4.329389732566823,
+      "gain_pass": true,
+      "mismatch_pass": true
+    },
+    {
+      "bank": "B",
+      "target": "gaussian_noise",
+      "mean_hybrid_minus_two_factor": 0.01778397151211636,
+      "mean_hybrid_minus_mismatch": 0.06460859551715477,
+      "gain_pass": false,
+      "mismatch_pass": false
+    },
+    {
+      "bank": "B",
+      "target": "gaussian_blur",
+      "mean_hybrid_minus_two_factor": 1.0127034742456522,
+      "mean_hybrid_minus_mismatch": 1.1980099265048878,
+      "gain_pass": true,
+      "mismatch_pass": true
+    }
+  ],
+  "composition_capture": [
+    {
+      "salt": "T013-S0",
+      "bank": "A",
+      "composition_gain": 6.2656007085288214,
+      "client_gain": 5.772385024505814,
+      "composition_capture": 1.0854440031164123,
+      "composition_minus_mismatch_mean": 7.666267641595313,
+      "passed": true
+    },
+    {
+      "salt": "T013-S0",
+      "bank": "B",
+      "composition_gain": 6.147286877013512,
+      "client_gain": 5.614275925269238,
+      "composition_capture": 1.094938502994705,
+      "composition_minus_mismatch_mean": 7.545256640717926,
+      "passed": true
+    },
+    {
+      "salt": "T013-S1",
+      "bank": "A",
+      "composition_gain": 6.265066669860899,
+      "client_gain": 5.683542616938382,
+      "composition_capture": 1.1023171799907736,
+      "composition_minus_mismatch_mean": 7.695241750034337,
+      "passed": true
+    },
+    {
+      "salt": "T013-S1",
+      "bank": "B",
+      "composition_gain": 6.094397235930378,
+      "client_gain": 5.341655786001336,
+      "composition_capture": 1.1409191232242484,
+      "composition_minus_mismatch_mean": 7.588600564624343,
+      "passed": true
+    },
+    {
+      "salt": "T013-S2",
+      "bank": "A",
+      "composition_gain": 6.270973379261179,
+      "client_gain": 5.837041401649558,
+      "composition_capture": 1.0743410827082691,
+      "composition_minus_mismatch_mean": 7.64298736674882,
+      "passed": true
+    },
+    {
+      "salt": "T013-S2",
+      "bank": "B",
+      "composition_gain": 6.146349105188737,
+      "client_gain": 5.565886602053769,
+      "composition_capture": 1.104289315366357,
+      "composition_minus_mismatch_mean": 7.557340779306308,
+      "passed": true
+    },
+    {
+      "salt": "T013-S3",
+      "bank": "A",
+      "composition_gain": 6.290977073255364,
+      "client_gain": 5.58170240373355,
+      "composition_capture": 1.1270713875837213,
+      "composition_minus_mismatch_mean": 7.740419053360532,
+      "passed": true
+    },
+    {
+      "salt": "T013-S3",
+      "bank": "B",
+      "composition_gain": 6.159693498860587,
+      "client_gain": 5.523958162687494,
+      "composition_capture": 1.1150869209088645,
+      "composition_minus_mismatch_mean": 7.582506657291749,
+      "passed": true
+    }
+  ],
+  "residual_lock": [
+    {
+      "salt": "T013-S0",
+      "bank": "A",
+      "raw_margin_pp": 24.0125,
+      "residual_margin_pp": -3.55625,
+      "attenuation_pp": 27.56875,
+      "fractional_attenuation": 1.1480999479437792,
+      "residual_above_original_15pp": false
+    },
+    {
+      "salt": "T013-S0",
+      "bank": "B",
+      "raw_margin_pp": 23.3625,
+      "residual_margin_pp": -3.49375,
+      "attenuation_pp": 26.85625,
+      "fractional_attenuation": 1.149545211342964,
+      "residual_above_original_15pp": false
+    },
+    {
+      "salt": "T013-S1",
+      "bank": "A",
+      "raw_margin_pp": 22.81875,
+      "residual_margin_pp": -5.00625,
+      "attenuation_pp": 27.825,
+      "fractional_attenuation": 1.2193919474116681,
+      "residual_above_original_15pp": false
+    },
+    {
+      "salt": "T013-S1",
+      "bank": "B",
+      "raw_margin_pp": 22.5125,
+      "residual_margin_pp": -4.175,
+      "attenuation_pp": 26.6875,
+      "fractional_attenuation": 1.1854525263742366,
+      "residual_above_original_15pp": false
+    },
+    {
+      "salt": "T013-S2",
+      "bank": "A",
+      "raw_margin_pp": 23.7125,
+      "residual_margin_pp": -4.09375,
+      "attenuation_pp": 27.80625,
+      "fractional_attenuation": 1.1726410121244069,
+      "residual_above_original_15pp": false
+    },
+    {
+      "salt": "T013-S2",
+      "bank": "B",
+      "raw_margin_pp": 22.66875,
+      "residual_margin_pp": -3.71875,
+      "attenuation_pp": 26.3875,
+      "fractional_attenuation": 1.1640474221119383,
+      "residual_above_original_15pp": false
+    },
+    {
+      "salt": "T013-S3",
+      "bank": "A",
+      "raw_margin_pp": 23.04375,
+      "residual_margin_pp": -4.375,
+      "attenuation_pp": 27.41875,
+      "fractional_attenuation": 1.1898562516951452,
+      "residual_above_original_15pp": false
+    },
+    {
+      "salt": "T013-S3",
+      "bank": "B",
+      "raw_margin_pp": 22.2125,
+      "residual_margin_pp": -5.01875,
+      "attenuation_pp": 27.23125,
+      "fractional_attenuation": 1.2259425998874507,
+      "residual_above_original_15pp": false
+    }
+  ]
+}
