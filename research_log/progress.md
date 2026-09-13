@@ -24,3 +24,9 @@ Full run exit0 at11:39:01+08, remote7testsPASS0.956s,446records. Downloaded comp
 
 ## 2026-09-13T12:34:59.5154541+08:00 — user-directed PFLlib migration
 User requests4datasets(MNIST/Cifar10/Cifar100/TinyImagenet),100clients,10percentGPU. Read fetchedLead5647af7 T001B; currentuserbenchmarktakespriority, no oldSVHNrunstarted. PFLlib official0169ba7 subset imported; codeb365411 baselinehealthrun20260913-123218-ttfl-pfl-health exit0,100clients10selected2rounds onCUDA. Smoke command metadata used pending-baseline-import before final receipt: exactsourceb365411, no scientificresult. PFLdata on/media/wenchang/F/wjq/TTFL due/home19GB. Missing sklearn/matplotlib/ujson installedprojectvenv; resultingnumpy2.5.3/imports and actualFedAvghealthPASS. Added PFLneutraladapter; local8testsPASS3.511s(allfourshapes+multiclassmetrics), priorT001regressionPASS. Defaultalpha.1/100rounds/1localepoch stated; no user override received.
+
+## 2026-09-13T12:38:40.9086069+08:00 — real-data dispatch and acquisition ordering failure
+MNIST/Cifar10/Cifar100 partitions complete. GPU0 run20260913-123718-ttfl-pfl-gpu0 launched with testedaf29ce6. Tiny preparation reachedarchivebeforeSCPfinished:BadZipFile duringopen, noextractionortraining. This was executionordering error; uploadnowcomplete248100043bytes. RerunonlyTinydata after transfercompletion; no changes to partition/experiments or extra validators. Preserveoriginal20260913-123506 data log.
+
+## 2026-09-13T12:40:16.4418505+08:00 — two GPU datasets active
+GPU0 run20260913-123718-ttfl-pfl-gpu0 passed MNIST2round+2clientcontext smoke, main100rounds reachedround40. GPU1 run20260913-123913-ttfl-pfl-c100-gpu1 launched Cifar100 smoke/main onphysicalGPU1. Tinydata retry20260913-123833-ttfl-pfl-tinydata writingclientdata; Tinytrainingnotyetlaunched. CIFAR archivesmatchofficialMD5 c58f30108f718f92721af3b95e74349a / eb9058c3a382ffc7106e4002c42a8d85.
