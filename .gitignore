@@ -22,3 +22,7 @@ research_log/t010_receipts/**/mixed_query_records.json
 research_log/t010_receipts/**/state_scores.json
 results/t010_state_consistency/mixed_query_records.json
 results/t010_state_consistency/state_scores.json
+research_log/t011_receipts/**/candidate_query_utility.json
+research_log/t011_receipts/**/source_candidate_scores.json
+results/t011_task_proximal/candidate_query_utility.json
+results/t011_task_proximal/source_candidate_scores.json

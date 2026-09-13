@@ -1,0 +1,400 @@
+{
+  "PC_RET_A": false,
+  "PC_ALIGN": false,
+  "joint_shift_pass": {
+    "brightness_dark": false,
+    "contrast_low": false,
+    "gaussian_noise": false,
+    "gaussian_blur": false
+  },
+  "alignment_gates": [
+    {
+      "bank": "A",
+      "nonnegative_spearman_contexts": 2,
+      "lower_harm_contexts": 1,
+      "passed": false
+    },
+    {
+      "bank": "B",
+      "nonnegative_spearman_contexts": 2,
+      "lower_harm_contexts": 1,
+      "passed": false
+    }
+  ],
+  "identification": [
+    {
+      "bank": "A",
+      "confusion": [
+        [
+          30,
+          0,
+          14,
+          51,
+          5
+        ],
+        [
+          28,
+          0,
+          3,
+          69,
+          0
+        ],
+        [
+          30,
+          0,
+          0,
+          70,
+          0
+        ],
+        [
+          24,
+          0,
+          46,
+          23,
+          7
+        ],
+        [
+          43,
+          0,
+          3,
+          53,
+          1
+        ]
+      ],
+      "correct": 54,
+      "total": 500
+    },
+    {
+      "bank": "B",
+      "confusion": [
+        [
+          30,
+          0,
+          17,
+          48,
+          5
+        ],
+        [
+          26,
+          0,
+          3,
+          71,
+          0
+        ],
+        [
+          35,
+          0,
+          0,
+          65,
+          0
+        ],
+        [
+          23,
+          0,
+          57,
+          17,
+          3
+        ],
+        [
+          41,
+          0,
+          3,
+          55,
+          1
+        ]
+      ],
+      "correct": 48,
+      "total": 500
+    }
+  ],
+  "balanced": [
+    {
+      "bank": "A",
+      "confusion": [
+        [
+          3,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          2,
+          0
+        ]
+      ],
+      "correct": 3,
+      "total": 20
+    },
+    {
+      "bank": "B",
+      "confusion": [
+        [
+          2,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          2,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          3,
+          0
+        ]
+      ],
+      "correct": 2,
+      "total": 20
+    }
+  ],
+  "retrieval": [
+    {
+      "bank": "A",
+      "target": "brightness_dark",
+      "none": 17.54602645421106,
+      "oracle": 32.296535703287994,
+      "selected_mixed": 18.851160837751305,
+      "wrong_alt": 14.903865455386004,
+      "tau_pp": 4.14816586638937,
+      "retained_recovery": 0.08848063219389661,
+      "selected_wrong_margin": 3.947295382365302,
+      "passed": false,
+      "sample_weighted": 18.91748121550635,
+      "macro_client": 18.49034567483195
+    },
+    {
+      "bank": "A",
+      "target": "contrast_low",
+      "none": 19.95526398771052,
+      "oracle": 28.561473420506015,
+      "selected_mixed": 19.38982043070883,
+      "wrong_alt": 22.733171407184603,
+      "tau_pp": 3.545856483014505,
+      "retained_recovery": -0.06570181232715122,
+      "selected_wrong_margin": -3.343350976475772,
+      "passed": false,
+      "sample_weighted": 19.515925260988098,
+      "macro_client": 20.03036739444689
+    },
+    {
+      "bank": "A",
+      "target": "gaussian_noise",
+      "none": 30.67664385146025,
+      "oracle": 32.499557590179315,
+      "selected_mixed": 25.25648563827317,
+      "wrong_alt": 30.382434469751427,
+      "tau_pp": 0.8655115170770731,
+      "retained_recovery": -2.9733487098493896,
+      "selected_wrong_margin": -5.125948831478257,
+      "passed": false,
+      "sample_weighted": 25.280936232462263,
+      "macro_client": 23.370777099711987
+    },
+    {
+      "bank": "A",
+      "target": "gaussian_blur",
+      "none": 30.901579176174376,
+      "oracle": 33.04849966816344,
+      "selected_mixed": 32.176629959777976,
+      "wrong_alt": 29.798137175692325,
+      "tau_pp": 0.8092776858985407,
+      "retained_recovery": 0.5938975329367241,
+      "selected_wrong_margin": 2.3784927840856525,
+      "passed": false,
+      "sample_weighted": 32.26278342974932,
+      "macro_client": 31.222371547538984
+    },
+    {
+      "bank": "B",
+      "target": "brightness_dark",
+      "none": 17.54602645421106,
+      "oracle": 32.424807666744606,
+      "selected_mixed": 18.766265811067953,
+      "wrong_alt": 15.489586518933978,
+      "tau_pp": 4.14816586638937,
+      "retained_recovery": 0.08201205054544333,
+      "selected_wrong_margin": 3.276679292133976,
+      "passed": false,
+      "sample_weighted": 18.837688676108783,
+      "macro_client": 18.669974712098007
+    },
+    {
+      "bank": "B",
+      "target": "contrast_low",
+      "none": 19.95526398771052,
+      "oracle": 28.1116255098242,
+      "selected_mixed": 19.622645475456643,
+      "wrong_alt": 22.693556051591294,
+      "tau_pp": 3.545856483014505,
+      "retained_recovery": -0.040780256165947965,
+      "selected_wrong_margin": -3.070910576134652,
+      "passed": false,
+      "sample_weighted": 19.755302879180796,
+      "macro_client": 19.894967211738518
+    },
+    {
+      "bank": "B",
+      "target": "gaussian_noise",
+      "none": 30.67664385146025,
+      "oracle": 32.40677112345036,
+      "selected_mixed": 22.532555729910545,
+      "wrong_alt": 30.537679919179997,
+      "tau_pp": 0.8655115170770731,
+      "retained_recovery": -4.707219089253347,
+      "selected_wrong_margin": -8.005124189269452,
+      "passed": false,
+      "sample_weighted": 22.548041758095618,
+      "macro_client": 19.660656839268572
+    },
+    {
+      "bank": "B",
+      "target": "gaussian_blur",
+      "none": 30.901579176174376,
+      "oracle": 33.00991908737378,
+      "selected_mixed": 32.17082122921488,
+      "wrong_alt": 28.354234985157493,
+      "tau_pp": 0.8092776858985407,
+      "retained_recovery": 0.6020101627343628,
+      "selected_wrong_margin": 3.8165862440573877,
+      "passed": false,
+      "sample_weighted": 32.25613405146619,
+      "macro_client": 31.18037033160572
+    }
+  ],
+  "clean_safety": [
+    {
+      "bank": "A",
+      "none": 34.13868991976854,
+      "selected": 35.303839133824304,
+      "delta_pp": 1.1651492140557662,
+      "passed": true
+    },
+    {
+      "bank": "B",
+      "none": 34.13868991976854,
+      "selected": 34.40806834955554,
+      "delta_pp": 0.2693784297870038,
+      "passed": true
+    }
+  ],
+  "best_of_five": [
+    {
+      "bank": "A",
+      "target": "clean",
+      "query_best_policy_macro_class": 40.72316021868589,
+      "zero_macro_class": 34.13868991976854,
+      "best_gain_pp": 6.584470298917348
+    },
+    {
+      "bank": "A",
+      "target": "brightness_dark",
+      "query_best_policy_macro_class": 35.71212098775697,
+      "zero_macro_class": 17.54602645421106,
+      "best_gain_pp": 18.16609453354591
+    },
+    {
+      "bank": "A",
+      "target": "contrast_low",
+      "query_best_policy_macro_class": 33.993165573204436,
+      "zero_macro_class": 19.95526398771052,
+      "best_gain_pp": 14.037901585493914
+    },
+    {
+      "bank": "A",
+      "target": "gaussian_noise",
+      "query_best_policy_macro_class": 37.82584247081631,
+      "zero_macro_class": 30.67664385146025,
+      "best_gain_pp": 7.149198619356064
+    },
+    {
+      "bank": "A",
+      "target": "gaussian_blur",
+      "query_best_policy_macro_class": 40.34361420160645,
+      "zero_macro_class": 30.901579176174376,
+      "best_gain_pp": 9.44203502543207
+    },
+    {
+      "bank": "B",
+      "target": "clean",
+      "query_best_policy_macro_class": 40.5720382255828,
+      "zero_macro_class": 34.13868991976854,
+      "best_gain_pp": 6.433348305814263
+    },
+    {
+      "bank": "B",
+      "target": "brightness_dark",
+      "query_best_policy_macro_class": 35.686069885278705,
+      "zero_macro_class": 17.54602645421106,
+      "best_gain_pp": 18.140043431067642
+    },
+    {
+      "bank": "B",
+      "target": "contrast_low",
+      "query_best_policy_macro_class": 33.8623402598192,
+      "zero_macro_class": 19.95526398771052,
+      "best_gain_pp": 13.907076272108677
+    },
+    {
+      "bank": "B",
+      "target": "gaussian_noise",
+      "query_best_policy_macro_class": 37.89482730277534,
+      "zero_macro_class": 30.67664385146025,
+      "best_gain_pp": 7.218183451315092
+    },
+    {
+      "bank": "B",
+      "target": "gaussian_blur",
+      "query_best_policy_macro_class": 40.37421759118641,
+      "zero_macro_class": 30.901579176174376,
+      "best_gain_pp": 9.472638415012032
+    }
+  ],
+  "decision": "P-C",
+  "decision_rationale": "PC-safe fails retrieval and alignment; substantial true-state regret plus best-of-five headroom identifies client/state mismatch alongside poor source utility ranking. P-D is not supported."
+}

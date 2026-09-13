@@ -1,0 +1,5 @@
+[autodl] run_id=20260914-003444-ttfl-t011-gpu1
+[autodl] started_at=2026-09-14T00:34:48+08:00
+scripts/run_t011.sh: 第 2 行： set: pipefail: 无效的选项名
+[autodl] finished_at=2026-09-14T00:34:48+08:00
+[autodl] exit_code=2

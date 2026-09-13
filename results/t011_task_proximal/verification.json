@@ -1,0 +1,20 @@
+{
+  "frozen_hashes_unchanged": true,
+  "score_calls": 5240,
+  "zero_regression_checks": 1048,
+  "zero_logit_max_error": 0.0,
+  "model_states_unchanged_every_episode": true,
+  "all_finite": true,
+  "source_label_query_free": true,
+  "source_frozen_before_query": true,
+  "no_fitting_or_tuning": true,
+  "query_rows": 5000,
+  "query_reused": 2616,
+  "new_query_evaluations": 2384,
+  "independent_5000_prediction_count_checks": true,
+  "independent_source_selection_checks": true,
+  "independent_fraction_retrieval_gates": true,
+  "historical_aggregate_max_error_pp": 7.105427357601002e-15,
+  "source_freeze_hashes_match": true,
+  "tests_passed": 46
+}

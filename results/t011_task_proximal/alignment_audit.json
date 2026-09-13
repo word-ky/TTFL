@@ -1,0 +1,307 @@
+{
+  "candidate_universe": "All five candidates including zero; 500 rows per bank/context. DeltaJ compared on identical full matrix, not T010 selected-only subset.",
+  "groups": [
+    {
+      "bank": "A",
+      "target": "clean",
+      "DeltaC": {
+        "n": 500,
+        "pearson": -0.014649076451019863,
+        "spearman": 0.2571167060485297,
+        "positive_fraction": 0.212,
+        "positive_n": 106,
+        "harmful_n": 32,
+        "harmful_fraction": 0.3018867924528302,
+        "median_delta_acc_positive": 0.6860902255639099
+      },
+      "DeltaJ": {
+        "n": 500,
+        "pearson": -0.14707561498166735,
+        "spearman": 0.0878919638442704,
+        "positive_fraction": 0.01,
+        "positive_n": 5,
+        "harmful_n": 3,
+        "harmful_fraction": 0.6,
+        "median_delta_acc_positive": -6.545454545454546
+      }
+    },
+    {
+      "bank": "A",
+      "target": "brightness_dark",
+      "DeltaC": {
+        "n": 500,
+        "pearson": -0.16886721842612787,
+        "spearman": -0.3745598129028387,
+        "positive_fraction": 0.208,
+        "positive_n": 104,
+        "harmful_n": 53,
+        "harmful_fraction": 0.5096153846153846,
+        "median_delta_acc_positive": -0.3893939393939394
+      },
+      "DeltaJ": {
+        "n": 500,
+        "pearson": 0.29100002973803374,
+        "spearman": 0.3609732244445455,
+        "positive_fraction": 0.59,
+        "positive_n": 295,
+        "harmful_n": 69,
+        "harmful_fraction": 0.23389830508474577,
+        "median_delta_acc_positive": 3.5714285714285716
+      }
+    },
+    {
+      "bank": "A",
+      "target": "contrast_low",
+      "DeltaC": {
+        "n": 500,
+        "pearson": -0.07216592858488671,
+        "spearman": -0.27329942900508397,
+        "positive_fraction": 0.2,
+        "positive_n": 100,
+        "harmful_n": 42,
+        "harmful_fraction": 0.42,
+        "median_delta_acc_positive": 0.0
+      },
+      "DeltaJ": {
+        "n": 500,
+        "pearson": 0.007717119502006398,
+        "spearman": 0.13618643273169015,
+        "positive_fraction": 0.4,
+        "positive_n": 200,
+        "harmful_n": 44,
+        "harmful_fraction": 0.22,
+        "median_delta_acc_positive": 2.65005265005265
+      }
+    },
+    {
+      "bank": "A",
+      "target": "gaussian_noise",
+      "DeltaC": {
+        "n": 500,
+        "pearson": -0.13208993078024417,
+        "spearman": 0.12104578872285744,
+        "positive_fraction": 0.3,
+        "positive_n": 150,
+        "harmful_n": 62,
+        "harmful_fraction": 0.41333333333333333,
+        "median_delta_acc_positive": 0.0
+      },
+      "DeltaJ": {
+        "n": 500,
+        "pearson": -0.17477406408722893,
+        "spearman": 0.2630603141785181,
+        "positive_fraction": 0.2,
+        "positive_n": 100,
+        "harmful_n": 20,
+        "harmful_fraction": 0.2,
+        "median_delta_acc_positive": 0.9349060725207514
+      }
+    },
+    {
+      "bank": "A",
+      "target": "gaussian_blur",
+      "DeltaC": {
+        "n": 500,
+        "pearson": 0.05712596089672878,
+        "spearman": 0.07441820680019245,
+        "positive_fraction": 0.18,
+        "positive_n": 90,
+        "harmful_n": 33,
+        "harmful_fraction": 0.36666666666666664,
+        "median_delta_acc_positive": 0.6382113821138211
+      },
+      "DeltaJ": {
+        "n": 500,
+        "pearson": -0.04308474873436291,
+        "spearman": -0.04261086758847816,
+        "positive_fraction": 0.242,
+        "positive_n": 121,
+        "harmful_n": 49,
+        "harmful_fraction": 0.4049586776859504,
+        "median_delta_acc_positive": 0.0
+      }
+    },
+    {
+      "bank": "A",
+      "target": "all",
+      "DeltaC": {
+        "n": 2500,
+        "pearson": 0.01611781984394925,
+        "spearman": 0.015680870956071662,
+        "positive_fraction": 0.22,
+        "positive_n": 550,
+        "harmful_n": 222,
+        "harmful_fraction": 0.4036363636363636,
+        "median_delta_acc_positive": 0.0
+      },
+      "DeltaJ": {
+        "n": 2500,
+        "pearson": -0.020160107418085545,
+        "spearman": 0.2575626119846716,
+        "positive_fraction": 0.2884,
+        "positive_n": 721,
+        "harmful_n": 185,
+        "harmful_fraction": 0.2565880721220527,
+        "median_delta_acc_positive": 1.768172888015717
+      }
+    },
+    {
+      "bank": "B",
+      "target": "clean",
+      "DeltaC": {
+        "n": 500,
+        "pearson": -0.03165469588116548,
+        "spearman": 0.26320232548931766,
+        "positive_fraction": 0.238,
+        "positive_n": 119,
+        "harmful_n": 36,
+        "harmful_fraction": 0.3025210084033613,
+        "median_delta_acc_positive": 0.6134969325153374
+      },
+      "DeltaJ": {
+        "n": 500,
+        "pearson": -0.1564732711291331,
+        "spearman": 0.12326740168631108,
+        "positive_fraction": 0.01,
+        "positive_n": 5,
+        "harmful_n": 3,
+        "harmful_fraction": 0.6,
+        "median_delta_acc_positive": -6.909090909090909
+      }
+    },
+    {
+      "bank": "B",
+      "target": "brightness_dark",
+      "DeltaC": {
+        "n": 500,
+        "pearson": -0.14749383714679756,
+        "spearman": -0.331350345995044,
+        "positive_fraction": 0.218,
+        "positive_n": 109,
+        "harmful_n": 49,
+        "harmful_fraction": 0.44954128440366975,
+        "median_delta_acc_positive": 0.0
+      },
+      "DeltaJ": {
+        "n": 500,
+        "pearson": 0.2626096870873436,
+        "spearman": 0.33340555759492246,
+        "positive_fraction": 0.578,
+        "positive_n": 289,
+        "harmful_n": 70,
+        "harmful_fraction": 0.2422145328719723,
+        "median_delta_acc_positive": 2.525252525252525
+      }
+    },
+    {
+      "bank": "B",
+      "target": "contrast_low",
+      "DeltaC": {
+        "n": 500,
+        "pearson": -0.06361550910977853,
+        "spearman": -0.2569182516754105,
+        "positive_fraction": 0.2,
+        "positive_n": 100,
+        "harmful_n": 42,
+        "harmful_fraction": 0.42,
+        "median_delta_acc_positive": 0.0
+      },
+      "DeltaJ": {
+        "n": 500,
+        "pearson": 0.011656474147038926,
+        "spearman": 0.12302114487316755,
+        "positive_fraction": 0.4,
+        "positive_n": 200,
+        "harmful_n": 47,
+        "harmful_fraction": 0.235,
+        "median_delta_acc_positive": 2.2266204849084614
+      }
+    },
+    {
+      "bank": "B",
+      "target": "gaussian_noise",
+      "DeltaC": {
+        "n": 500,
+        "pearson": -0.15985866777807822,
+        "spearman": 0.03041964857179671,
+        "positive_fraction": 0.334,
+        "positive_n": 167,
+        "harmful_n": 75,
+        "harmful_fraction": 0.4491017964071856,
+        "median_delta_acc_positive": 0.0
+      },
+      "DeltaJ": {
+        "n": 500,
+        "pearson": -0.15374361166165038,
+        "spearman": 0.25486084795304176,
+        "positive_fraction": 0.2,
+        "positive_n": 100,
+        "harmful_n": 20,
+        "harmful_fraction": 0.2,
+        "median_delta_acc_positive": 0.9349060725207514
+      }
+    },
+    {
+      "bank": "B",
+      "target": "gaussian_blur",
+      "DeltaC": {
+        "n": 500,
+        "pearson": 0.055246488647934924,
+        "spearman": 0.10224232289586806,
+        "positive_fraction": 0.192,
+        "positive_n": 96,
+        "harmful_n": 31,
+        "harmful_fraction": 0.3229166666666667,
+        "median_delta_acc_positive": 0.72681897705053
+      },
+      "DeltaJ": {
+        "n": 500,
+        "pearson": -0.0623786146666113,
+        "spearman": -0.05390298559178917,
+        "positive_fraction": 0.242,
+        "positive_n": 121,
+        "harmful_n": 52,
+        "harmful_fraction": 0.4297520661157025,
+        "median_delta_acc_positive": 0.0
+      }
+    },
+    {
+      "bank": "B",
+      "target": "all",
+      "DeltaC": {
+        "n": 2500,
+        "pearson": 0.0011153815822363736,
+        "spearman": 0.012151472148651416,
+        "positive_fraction": 0.2364,
+        "positive_n": 591,
+        "harmful_n": 233,
+        "harmful_fraction": 0.3942470389170897,
+        "median_delta_acc_positive": 0.0
+      },
+      "DeltaJ": {
+        "n": 2500,
+        "pearson": -0.016110921764759888,
+        "spearman": 0.2519662930835599,
+        "positive_fraction": 0.286,
+        "positive_n": 715,
+        "harmful_n": 192,
+        "harmful_fraction": 0.26853146853146853,
+        "median_delta_acc_positive": 1.4285714285714286
+      }
+    }
+  ],
+  "gates": [
+    {
+      "bank": "A",
+      "nonnegative_spearman_contexts": 2,
+      "lower_harm_contexts": 1,
+      "passed": false
+    },
+    {
+      "bank": "B",
+      "nonnegative_spearman_contexts": 2,
+      "lower_harm_contexts": 1,
+      "passed": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-09-14T00:41:15+08:00",
+  "lead": "941731c",
+  "runtime": "f32367413cae9f6629b5648d2dd665a73c8c078c",
+  "run": "20260914-003521-ttfl-t011-gpu1-lf",
+  "failed_launch": "20260914-003444-ttfl-t011-gpu1",
+  "decision": "P-C",
+  "raw": "research_log/t011_receipts/20260914-003521-ttfl-t011-gpu1-lf/artifacts/t011_task_proximal",
+  "remote": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-003521-ttfl-t011-gpu1-lf/artifacts/t011_task_proximal",
+  "results": "results/t011_task_proximal/RESULTS.md",
+  "next": "Await Lead review"
+}

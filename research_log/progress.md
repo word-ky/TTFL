@@ -155,3 +155,9 @@ A6000 run 20260913-233408-ttfl-t010-gpu1 exit0; runtime1feaec9. ID97.8/98.0, 3/4
 
 ## 2026-09-14T00:34:28.2406804+08:00 — T011 implementation
 Lead941731c; fixed prediction consistency helper and fullcandidate evaluator.3focusedtests PASS; no formalrun yet. No changed frozen code or states.
+
+## 2026-09-14T00:35:01.1360148+08:00 — T011 launch
+A6000GPU1 run20260914-003444-ttfl-t011-gpu1 runtimef323674; full46tests before formal scoring.
+
+## 2026-09-14T00:41:37.4304104+08:00 — T011 COMPLETE P-C
+Run003521-lf finished; initial003444launchCRLFfailurebeforetests corrected withLF only.46tests,5000candidateprediction/countchecks, sourcefreezeSHAandhistoricalaggregate checksPASS. PC-RET0/4FAIL; PC-ALIGNFAILbothbanks. True-state regret and best-of-fiveheadroom rejectcapacity-only diagnosis. Results andfullmatrixpersisted; no nextstage.
