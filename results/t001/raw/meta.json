@@ -1,0 +1,6 @@
+{
+  "runId": "20260913-113757-ttfl-t001-full",
+  "releaseId": "20260913-113613-ttfl-t001",
+  "sessionName": "autodl-20260913-113757-ttfl-t001-full",
+  "command": "TTFL_COMMIT=c0f6717de9722a7d9a983bb5769ab1788234c765 bash scripts/run_a6000.sh"
+}

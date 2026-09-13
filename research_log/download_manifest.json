@@ -1,0 +1,38 @@
+{
+  "MNIST-M.zip": {
+    "bytes": 146914983,
+    "sha256": "bd899e2c286f1267955a73f6a374f31fc98764380bb8928dbfee37d8ab0393d6"
+  },
+  "USPS/usps.t.bz2": {
+    "bytes": 1831726,
+    "sha256": "a9c0164e797d60142a50604917f0baa604f326e9a689698763793fa5d12ffc4e"
+  },
+  "USPS/usps.bz2": {
+    "bytes": 6579383,
+    "sha256": "3771e9dd6ba685185f89867b6e249233dd74652389f263963b3b741e994b034f"
+  },
+  "SVHN/train_32x32.mat": {
+    "bytes": 182040794,
+    "sha256": "435e94d69a87fde4fd4d7f3dd208dfc32cb6ae8af2240d066de1df7508d083b8"
+  },
+  "SVHN/test_32x32.mat": {
+    "bytes": 64275384,
+    "sha256": "cdce80dfb2a2c4c6160906d0bd7c68ec5a99d7ca4831afa54f09182025b6a75b"
+  },
+  "MNIST/MNIST/raw/t10k-labels-idx1-ubyte.gz": {
+    "bytes": 4542,
+    "sha256": "f7ae60f92e00ec6debd23a6088c31dbd2371eca3ffa0defaefb259924204aec6"
+  },
+  "MNIST/MNIST/raw/train-images-idx3-ubyte.gz": {
+    "bytes": 9912422,
+    "sha256": "440fcabf73cc546fa21475e81ea370265605f56be210a4024d2ca8f203523609"
+  },
+  "MNIST/MNIST/raw/train-labels-idx1-ubyte.gz": {
+    "bytes": 28881,
+    "sha256": "3552534a0a558bbed6aed32b30c495cca23d567ec52cac8be1a0730e8010255c"
+  },
+  "MNIST/MNIST/raw/t10k-images-idx3-ubyte.gz": {
+    "bytes": 1648877,
+    "sha256": "8d422c7b0a1c1c79245a5bcf07fe86e33eeafee792b84584aec276f5a2dbc4e6"
+  }
+}

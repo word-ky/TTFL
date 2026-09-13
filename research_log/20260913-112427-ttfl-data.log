@@ -1,0 +1,23 @@
+[autodl] run_id=20260913-112427-ttfl-data
+[autodl] started_at=2026-09-13T11:24:33+08:00
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
+Failed to download (trying next):
+HTTP Error 404: Not Found
+
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz
+Failed to download (trying next):
+<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+
+Traceback (most recent call last):
+  File "/home/wenchang/asdasdsad/wjq/TTFL/releases/20260913-112423-ttfl-data/scripts/prepare_data.py", line 42, in <module>
+    main()
+  File "/home/wenchang/asdasdsad/wjq/TTFL/releases/20260913-112423-ttfl-data/scripts/prepare_data.py", line 20, in main
+    ds = cls(str(root / cls.__name__), train=train, download=True)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wenchang/asdasdsad/wjq/TTFL/.venv/lib/python3.12/site-packages/torchvision/datasets/mnist.py", line 100, in __init__
+    self.download()
+  File "/home/wenchang/asdasdsad/wjq/TTFL/.venv/lib/python3.12/site-packages/torchvision/datasets/mnist.py", line 196, in download
+    raise RuntimeError(f"Error downloading {filename}")
+RuntimeError: Error downloading train-images-idx3-ubyte.gz
+[autodl] finished_at=2026-09-13T11:24:38+08:00
+[autodl] exit_code=1

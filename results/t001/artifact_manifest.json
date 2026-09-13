@@ -1,0 +1,47 @@
+[
+  {
+    "name": "baseline.json",
+    "bytes": 622,
+    "sha256": "489d62f53063a1e52dc264df20d228d8fb7ef310330902c9d8de9a12ba3d3a12"
+  },
+  {
+    "name": "config.json",
+    "bytes": 767,
+    "sha256": "36c1c8f90f427ca882c0040895d2317f33bae0113aee07ffe5f39dedec60141e"
+  },
+  {
+    "name": "environment.json",
+    "bytes": 199,
+    "sha256": "30d0270f8e719a784e65caca942b0674674f195e0d6f5cffb16c5f75acbd9257"
+  },
+  {
+    "name": "global.pt",
+    "bytes": 463490,
+    "sha256": "ffcf2dfa205c72094a54f592b1fef8b44dc830a3242acc6d917909b85c1df997"
+  },
+  {
+    "name": "predictions.npz",
+    "bytes": 1076905,
+    "sha256": "42ab117fc9b64552ae7e93f56c3acf7c51127c72c99346c3d8c855020e87bcf6"
+  },
+  {
+    "name": "records.csv",
+    "bytes": 155501,
+    "sha256": "a30ca5f1bd81143ebb00b640a50f5dcb3deb818042f6e9602afecfce418c5b53"
+  },
+  {
+    "name": "records.json",
+    "bytes": 531947,
+    "sha256": "ec9df19b2efdb87462dc32889498f4e3f63db05aeec9328315284162b345985c"
+  },
+  {
+    "name": "split_manifest.json",
+    "bytes": 813511,
+    "sha256": "bb36a58bb791909ca9b6c49ebf4a6b0b0730e343ba8c031c8e31c00146a79a69"
+  },
+  {
+    "name": "training.json",
+    "bytes": 1836,
+    "sha256": "73e964d9a73041bb84dd610688447e8b5bdddd4c8aacd9b339212008f619fccf"
+  }
+]

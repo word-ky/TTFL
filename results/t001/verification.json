@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "records": 446,
+  "queries": 3000,
+  "support_seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "checkpoint_sha256": "ffcf2dfa205c72094a54f592b1fef8b44dc830a3242acc6d917909b85c1df997",
+  "max_accuracy_recompute_error_pp": 1.8914540618197861e-06,
+  "max_class_accuracy_recompute_error_pp": 4.343658318362031e-06,
+  "support_query_overlap": 0,
+  "source_query_overlap": 0,
+  "neutral_max_abs_diff": 0.0,
+  "scope": "Receipt arithmetic, IDs, recorded shared hash and downloaded checkpoint. Runtime frozen-state assertions passed; no additional experiment."
+}

@@ -1,0 +1,76 @@
+[autodl] run_id=20260913-113757-ttfl-t001-full
+[autodl] started_at=2026-09-13T11:38:04+08:00
+test_bn_only_moments (test_affine.AffineTest.test_bn_only_moments) ... ok
+test_neutral_logits (test_affine.AffineTest.test_neutral_logits) ... ok
+test_only_fast_state_and_reset (test_affine.AffineTest.test_only_fast_state_and_reset) ... <frozen importlib._bootstrap>:488: DeprecationWarning: Type google._upb._message.MessageMapContainer uses PyType_Spec with a metaclass that has custom tp_new. This is deprecated and will no longer be allowed in Python 3.14.
+<frozen importlib._bootstrap>:488: DeprecationWarning: Type google._upb._message.ScalarMapContainer uses PyType_Spec with a metaclass that has custom tp_new. This is deprecated and will no longer be allowed in Python 3.14.
+ok
+test_same_checkpoint_all_methods (test_affine.AffineTest.test_same_checkpoint_all_methods) ... ok
+test_train_checkpoint_and_metrics (test_baseline.BaselineTest.test_train_checkpoint_and_metrics) ... ok
+test_balanced_and_disjoint (test_data.DataTest.test_balanced_and_disjoint) ... ok
+test_preprocess (test_data.DataTest.test_preprocess) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.956s
+
+OK
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+/home/wenchang/asdasdsad/wjq/TTFL/releases/20260913-113613-ttfl-t001/src/data/digits.py:47: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  x, y = torch.as_tensor(np.asarray(ds.data).copy()), torch.tensor(ds.targets)
+source_loaded MNIST 6000
+source_loaded USPS 6000
+source_loaded MNISTM 6000
+train {'epoch': 1, 'loss': 0.5123800619045893, 'accuracy': 84.41666666666666}
+train {'epoch': 2, 'loss': 0.17310347820652855, 'accuracy': 94.72777777777777}
+train {'epoch': 3, 'loss': 0.1084419297112359, 'accuracy': 96.61111111111111}
+train {'epoch': 4, 'loss': 0.07631936109066009, 'accuracy': 97.77777777777777}
+train {'epoch': 5, 'loss': 0.050702298677629896, 'accuracy': 98.59444444444443}
+train {'epoch': 6, 'loss': 0.03297292952073945, 'accuracy': 99.20555555555556}
+train {'epoch': 7, 'loss': 0.02336465941535102, 'accuracy': 99.5111111111111}
+train {'epoch': 8, 'loss': 0.0161600653173195, 'accuracy': 99.72777777777779}
+train {'epoch': 9, 'loss': 0.01021432193948163, 'accuracy': 99.87222222222222}
+train {'epoch': 10, 'loss': 0.022440949321620995, 'accuracy': 99.45555555555555}
+train {'epoch': 11, 'loss': 0.027287591002053684, 'accuracy': 99.17777777777778}
+train {'epoch': 12, 'loss': 0.0356708213823537, 'accuracy': 98.9}
+train {'epoch': 13, 'loss': 0.026560875850419205, 'accuracy': 99.2}
+train {'epoch': 14, 'loss': 0.010535956330597401, 'accuracy': 99.77222222222221}
+train {'epoch': 15, 'loss': 0.004295913947125276, 'accuracy': 99.96111111111111}
+train {'epoch': 16, 'loss': 0.0023494831445212993, 'accuracy': 99.98333333333333}
+train {'epoch': 17, 'loss': 0.0024761193721658655, 'accuracy': 99.97222222222221}
+train {'epoch': 18, 'loss': 0.0017164930103139744, 'accuracy': 99.98333333333333}
+train {'epoch': 19, 'loss': 0.0012465348852177462, 'accuracy': 99.9888888888889}
+train {'epoch': 20, 'loss': 0.001295751073759877, 'accuracy': 99.97777777777777}
+context_done 11 correct
+context_done 11 wrong_MNIST
+context_done 11 wrong_USPS
+context_done 11 wrong_MNISTM
+context_done 11 shuffled
+context_done 11 noise
+context_done 22 correct
+context_done 22 wrong_MNIST
+context_done 22 wrong_USPS
+context_done 22 wrong_MNISTM
+context_done 22 shuffled
+context_done 22 noise
+context_done 33 correct
+context_done 33 wrong_MNIST
+context_done 33 wrong_USPS
+context_done 33 wrong_MNISTM
+context_done 33 shuffled
+context_done 33 noise
+context_done 44 correct
+context_done 44 wrong_MNIST
+context_done 44 wrong_USPS
+context_done 44 wrong_MNISTM
+context_done 44 shuffled
+context_done 44 noise
+context_done 55 correct
+context_done 55 wrong_MNIST
+context_done 55 wrong_USPS
+context_done 55 wrong_MNISTM
+context_done 55 shuffled
+context_done 55 noise
+DONE 446 records baseline 41.63333177566528
+[autodl] finished_at=2026-09-13T11:39:01+08:00
+[autodl] exit_code=0
