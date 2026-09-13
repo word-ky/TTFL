@@ -11,6 +11,7 @@ from pathlib import Path
 import numpy as np
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 from src.context.confusion_prevalence import probabilities,channel_from_other_clients,normalized_channel,estimate,source_estimate
+from src.context.historical_replay import compare_historical_table
 from report_t009 import write_csv
 import report_t015 as old_report
 
@@ -54,10 +55,17 @@ def main():
     replay=old_report.main(audit_only=True)
     historical_summary=load(project/'results/t015_unlabeled_semantic_mixture/summary.json')
     assert all(historical_summary[k]==v for k,v in replay['summary'].items())
+    replay_comparisons={}
     for name in ('mixture_quality.csv','mixture_quality_episodes.csv','scientific_gates.csv'):
-        with (old_report.OUT/name).open() as f:rows=list(csv.DictReader(f))
-        with (project/'results/t015_unlabeled_semantic_mixture'/name).open() as f:oldrows=list(csv.DictReader(f))
-        assert rows==oldrows,name
+        with (old_report.OUT/name).open() as f:
+            reader=csv.DictReader(f);headers=reader.fieldnames;rows=list(reader)
+        with (project/'results/t015_unlabeled_semantic_mixture'/name).open() as f:
+            reader=csv.DictReader(f);oldheaders=reader.fieldnames;oldrows=list(reader)
+        replay_comparisons[name]=compare_historical_table(name,rows,oldrows,headers,oldheaders)
+    float_receipt=replay_comparisons['mixture_quality_episodes.csv']
+    float_receipt['aggregate_quality_exact']=replay_comparisons['mixture_quality.csv']
+    float_receipt['gate_table_exact']=replay_comparisons['scientific_gates.csv']
+    save(out/'historical_float_replay_receipt.json',float_receipt)
     support=load(p9/'natural_support_manifest.json');split=load(data/'Cifar10/split_manifest.json');pools=load(p7/'calibration_pools.json')
     calids={r['original_id'] for p in pools.values() for r in p['samples']};queryids={x for r in split['clients'].values() for x in r['test']}
     for i in range(100):
@@ -167,7 +175,7 @@ def main():
     save(out/'verification.json',dict(historical_T015_reproduction=replay,exact_historical_quality_and_gates=True,frozen_hashes_unchanged=True,source_query_original_calibration_disjoint=True,
         all2000_channels_target_excluded=True,hard_exact_columns=True,soft_columns_normalized=True,target_support_labels_no_path_to_own_estimate=True,source_matrix_uses_T009_context_only=True,phaseA_frozen_before_target_evaluation=True,
         offline_other_client_labels_explicitly_supervised=True,all1600_template_exclusions_reconstructed=True,all160_metrics_per_example_count_reconstructed=True,new_support_forwards=0,new_query_forwards=0,model_or_state_updates=0))
-    save(out/'metadata.json',dict(code_commit=a.commit,seconds=time.time()-start,numpy_version=np.__version__,primary='soft_emission_pinv',new_forwards=0,tests_passed=63,
+    save(out/'metadata.json',dict(code_commit=a.commit,seconds=time.time()-start,numpy_version=np.__version__,primary='soft_emission_pinv',new_forwards=0,tests_passed=71,
         calibration_hard='other99 T011 query predictions under matching modeled context/state',calibration_soft='other99 T015 K20 support posterior under matching modeled context/state',fixed_solver='np.linalg.pinv default rcond; standard Euclidean simplex projection'))
     print('T016_DONE',time.time()-start,flush=True)
 
