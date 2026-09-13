@@ -131,3 +131,6 @@ Leade20ef8f. Baseline31remotePASS; signature/microbatch3remotePASS. No activeTTF
 
 ## 2026-09-13T21:36:30.1842543+08:00 — T008 COMPLETE
 ID-A+RET-A.40/40source-onlycontext IDs correct,4/4jointretrieval with1.0oracle-gain retention.36tests andindependentdistance/countauditsPASS;48predictionregressions exact. OODnoise8/8mapsGaussianNoise despitehighmargin; retainlimitation. T007RNoiseoriginalFAIL unchanged. AwaitLead.
+
+## 2026-09-13T22:45:41.9414191+08:00 — T009 implementation
+Lead25e6ea7;36baseline remotePASS;2natural-support tests localPASS. Evaluationonly; unchangedsignature/prototypes/states. Kchosenfromcounts, labelauditafterdecisions/retrieval.
