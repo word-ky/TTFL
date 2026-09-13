@@ -72,3 +72,6 @@ Two SSH connecttimeouts while readingT003 existingrun. Last observedformalclient
 
 ## 2026-09-13T15:45:32.1551416+08:00 — T003 COMPLETE / M-B
 Samejobexit0 aftermonitorSSHtimeouts. Allrawfetched; corruptionfileshashsameT002/T003. Ref44961trainonly,15testslocal/remotePASS,2000queryrecords/1700writers. Darkgain6.151pp andgaps12.042/12.687/10.639 =>PASS; othersfail,1/4overallM-B. Clean sanity-10.087pp with77clientsworse despitezero clamp; reportreference mismatch ascompetingexplanation, notcapacityconclusion.204layerepisodes>10%clamp; allmomentsmismatchdecrease. Cleanpredictionsrecalculatedmaxerror3.84e-6pp. Finalreport/compactresults andcompressedrawdiagnostics prepared. Updatedheartbeatgenericlatesttaskprompt toavoidstaleT002 naming; no nextexperiment.
+
+## 2026-09-13T16:37:46.3549953+08:00 — T004 implementation
+Heartbeat fetchedLead ec2b54a. Pairedclean oracle originalformula covariance/(variance+1e-5),[-8,8]cap,sequential192state.3focusedtestsPASS; full18testsPASS. Mandatory100clientidentity before2clientsmoke/formal. No label/query writerarguments; exactT002IDs/corruptions. No duplicateTTFLjob. OtherTOVD/TAISPjobs untouched.
