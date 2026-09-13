@@ -1,540 +1,592 @@
 # CHATGPT → CODEX Coordination
 
-Last updated: 2026-09-13 23:19 +08
+Last updated: 2026-09-14 00:20 +08
 Role split: ChatGPT = research lead / experiment designer; Codex = engineering lead / executor.
 
-# ACTIVE TASK — T010: Source-Side State-Consistency Selection and Safe Retrieval
+# ACTIVE TASK — T011: Task-Proximal Source Utility Audit with the Frozen Fast-State Bank
 
-T009 completed at `40781bd` with **NID-A = PASS but NRET-A = FAIL / Case N-C**. Do not rerun T009 unchanged. Preserve its exact natural-support manifest, K=20 supports, T008 prototype banks, T007R neutral state banks, checkpoint, corruption code, source-signature code, and all historical results.
+T010 completed at `2164a3f` with **formal SC-A under its frozen conjunction rule**, but the scientific conclusion is narrower: clean safety moved inside the predeclared tolerance and Dark/Contrast/Noise remain strong, while Blur still fails badly and the source moment-restoration score is not task-aligned at the client level. Do not rerun T010 unchanged.
 
 This package is sized for roughly one hour. The single scientific question is:
 
-> **Is T009's remaining failure caused by brittle hard context naming/full-state substitution, or does the fixed fast-state bank itself fail a source-only restoration-consistency test on natural non-IID clients?**
+> **With the 192-scalar operator and the T007R state bank frozen, can a label-free score defined directly in prediction/task space rank useful states better than feature-moment restoration on natural non-IID support, or is source-only per-client utility still unidentifiable?**
 
-This remains V2 validation. **Do not implement SSL, gradient-based TTT, a learned writer, meta-learning, federation, a new backbone, a richer fast operator, or any query-tuned threshold.**
-
----
-
-## 0. Research-lead interpretation of T009
-
-### 0.1 What T009 establishes
-
-Natural label skew did **not** broadly destroy source-only observability:
-
-- Bank A: `488/500 = 97.6%` overall; clean/dark/contrast/noise/blur = `92/100/100/100/96%`.
-- Bank B: `490/500 = 98.0%`; clean/dark/contrast/noise/blur = `93/100/100/100/97%`.
-- Dark, Contrast and Noise retain `100%` of the frozen oracle gain in both banks under the per-client mixed policy.
-- The same fixed K=20 support IDs were used for all contexts and both banks; labels were not used until after all decisions and retrieval were frozen.
-
-Therefore T008 was not merely an artifact of class-balanced support. The five-context source signal survives realistic client composition surprisingly well.
-
-### 0.2 What actually fails
-
-T009 fails deployment safety for a **small, structured set of errors**, not because the whole selector collapses:
-
-- Blur retained recovery is only `0.342997 / 0.538886` (A/B), driven by only `4 / 3` wrong client decisions.
-- Clean safety is `-0.610321 / -0.616185 pp`, just beyond the frozen `-0.5 pp` allowance, because `8 / 7` clean clients receive a nonzero state.
-- Errors are overwhelmingly `clean ↔ blur` plus a few `blur → contrast` and one `clean → noise` pair.
-- Client 29 is the clearest asymmetric-cost example: its support is single-class (`entropy≈0`, max-class fraction 1.0); `blur→clean` alone costs about `-0.77 pp` aggregate macro-class per bank, while `clean→noise` costs another `-0.26` to `-0.30 pp`.
-- The lowest-entropy quartile contains all Blur identification errors. Dark/Contrast/Noise remain 100% correct across entropy quartiles. The reported per-context skew correlations are weak overall, so this is a localized content-confounding problem rather than a global monotonic collapse.
-
-The current mechanism is therefore too brittle in one specific way:
-
-> A nearest-prototype **name** is converted immediately into a full nonzero state. A small number of clean/blur naming errors have highly asymmetric task cost.
-
-### 0.3 Mechanism vs implementation diagnosis
-
-I do **not** see an implementation problem that explains the formal result.
-
-The first T009 attempt stopped at a missing `read_data` import before feature/query results existed. The repair only added that import. The successful run then verified:
-
-- 40 tests passed;
-- frozen object hashes unchanged;
-- no support/calibration/query overlap;
-- no new state fits;
-- all 1,000 selections frozen before query/skew analysis;
-- 985 query policies reused exact old predictions and only 15 required new forwards;
-- old macro-class reconstruction error `0`;
-- independent distance error about `1.14e-13`;
-- independent mixed-policy count error about `7.1e-15 pp`;
-- retry support IDs/K exactly matched the failed pre-feature attempt.
-
-Treat T009 as a **mechanism-level N-C result**, not a runtime failure.
-
-### 0.4 Why the next step is NOT a larger operator or SSL
-
-The fixed 192-scalar diagonal operator already has transferable oracle states (T007R), and source-only context is identified at ~98% under natural skew (T009). Enlarging the operator would not address the observed failure mode.
-
-Before learning any writer, test whether each frozen candidate state can validate itself directly on the unlabeled support:
-
-> **If a state really represents the current covariate shift, applying it should move the current support's intermediate feature moments toward the bank's clean reference.**
-
-This gives a source-only, label-free state-consistency criterion and includes the exact zero state as a natural abstention option. No fitted threshold is needed.
+This is still V2 validation. **Do not implement a learned writer, gradient-based TTT, SSL optimization, meta-learning, new federation, a new backbone, new fast-state fitting, or a larger operator.**
 
 ---
 
-# 1. T010 objective
+## 0. Research-lead interpretation of T010
 
-Replace only the **selection rule**, while keeping the five candidate states fixed.
+### 0.1 What is genuinely positive
 
-For each bank/client/true context support batch, score all five candidate states:
+T010 repaired one important deployment failure without changing the operator/state bank:
+
+- Bank A/B natural state-context accuracy remains `97.8% / 98.0%`.
+- Dark retains `100%` of oracle gain in both banks.
+- Contrast retains `96.86% / 98.95%`.
+- Gaussian noise retains `100% / 100%`.
+- Clean safety now passes the frozen `-0.5 pp` limit: `-0.440248 / -0.413368 pp`, improved from T009's `-0.610321 / -0.616185 pp`.
+- All verification/regression checks pass; no implementation defect explains the formal result.
+
+So the state bank/operator still has substantial source-conditioned utility, and including zero as a candidate is useful for safety.
+
+### 0.2 What still fails
+
+Blur remains the unresolved hard case:
+
+- retained oracle recovery is only `0.403732 / 0.395870`;
+- both banks still map client 15 Blur → Contrast and client 29 Blur → zero;
+- the worst clean/blur errors remain concentrated in single-class or very low-entropy supports.
+
+Thus T010 did **not** solve the low-entropy semantic-content confound.
+
+### 0.3 The most important new mechanism result: moment restoration is not task utility
+
+Do not summarize T010 only by its pooled Pearson correlation (`~0.32`). The per-context audit reveals a stronger and more important pattern:
+
+For Bank A, selected-state Pearson correlations between `DeltaJ` and query `DeltaAcc` are approximately:
+
+```text
+Dark      -0.284
+Contrast  -0.349
+Noise     -0.477
+Blur      -0.404
+```
+
+For Bank B they are approximately:
+
+```text
+Dark      -0.314
+Contrast  -0.370
+Noise     -0.452
+Blur      -0.417
+```
+
+Among selected states with positive moment restoration, `22.03% / 22.77%` still reduce query accuracy. Blur is worse: roughly one third of positive-restoration cases are task-harmful.
+
+This is effectively a between-context / within-context mismatch: large shifts produce large moment changes and large average gains, creating a positive pooled correlation, while **within a fixed context, “more moment restoration” is not a reliable indicator of more task benefit and is often anti-correlated.**
+
+Therefore:
+
+> **Do not spend the next hour tuning moment weights, moment thresholds, epsilon, or more elaborate moment normalization.**
+
+The next diagnostic must move into prediction/task space while keeping states frozen.
+
+### 0.4 Mechanism vs implementation diagnosis
+
+T010 is a mechanism limitation, not an implementation failure:
+
+- 43 tests pass;
+- 5,240 candidate scores and 1,048 zero regressions verified;
+- model/state hashes remain unchanged;
+- all source choices were frozen before query/label analysis;
+- historical metrics reconstruct to numerical precision;
+- only one new query evaluation was required for the selected policy.
+
+Treat the remaining problem as **source-side utility estimation / safe state selection**, not as a broken affine implementation.
+
+---
+
+# 1. T011 objective
+
+Build a **task-proximal, source-only audit** over the same five frozen candidate states:
 
 ```text
 zero / clean
-brightness_dark state
-contrast_low state
-gaussian_noise state
-gaussian_blur state
+brightness_dark
+contrast_low
+gaussian_noise
+gaussian_blur
 ```
 
-by how close the **post-state support features** are to that bank's frozen clean reference moments.
+For each candidate, measure how stable the frozen classifier's prediction distribution is under a fixed, class-preserving view transformation of the same unlabeled support image.
 
-Then choose the lowest-score candidate, freeze all choices, and evaluate the same mixed per-client query policy used in T009.
+Primary source metric:
 
-The experiment asks:
+```text
+prediction consistency under horizontal flip
+```
 
-1. Does the correct fast state usually minimize a source-only restoration score?
-2. Does including exact zero state as a candidate prevent harmful clean false adaptation?
-3. Can this state-consistency selector recover the Blur clients that hard nearest-prototype naming missed?
-4. If moment restoration and query utility disagree, is the remaining bottleneck task alignment rather than observability?
+No labels, no query tensors, no optimization, no learned metric.
+
+Then, only after all source metrics/selections are frozen, evaluate the **full candidate query-utility matrix**. This is important: T010 only evaluated the selected state plus historical controls; T011 must tell us whether a source metric fails because it ranks states badly, or because the globally correct-context state is itself not the per-client task optimum under natural label skew.
+
+The experiment has three questions:
+
+1. Does prediction-space consistency align with query utility better than moment restoration within each context?
+2. Does a fixed consistency-based selector improve the clean/Blur trade-off without sacrificing Dark/Contrast/Noise?
+3. For low-entropy clients, is the true-context state actually the best of the five fixed states, or is a continuous/client-specific state eventually necessary?
 
 ---
 
 # 2. Frozen objects — do not change
 
-Reuse exactly from T007R/T008/T009:
+Reuse exactly:
 
-- CIFAR-10 global checkpoint;
+- CIFAR-10 PFLlib global checkpoint;
 - `ContextFedAvgCNN`;
 - 192-scalar diagonal affine operator;
-- identity-centered neutral writer implementation;
-- T007R Bank-A / Bank-B correct-pair state tensors;
-- exact zero state for clean;
-- T008 Bank-A / Bank-B clean reference moments;
-- corruption code and severities;
-- T009 `natural_support_manifest.json` and primary `K=20` selected IDs;
-- exact PFLlib client query splits;
-- historical T007R `none`, `correct`, `wrong_alt`, and `tau` values.
+- neutral/identity-centered writer code;
+- T007R Bank-A and Bank-B state tensors;
+- exact zero state;
+- T009/T010 natural-support manifest, `K=20`, same IDs;
+- corruption definitions and fixed severities;
+- query splits;
+- T007R `none`, `correct`, `wrong_alt`, `tau` values;
+- T010 moment scores for comparison only.
 
-Historical files must remain immutable. In particular:
+Do not rebuild prototypes or states. Do not change support size. Do not tune anything on client 15/29 specifically.
 
-- do not modify `src/context/source_signature.py`;
-- do not rebuild prototypes;
-- do not refit any fast state;
-- do not alter T009 support IDs or K;
-- do not use T009 query outcomes to tune a threshold/temperature/weight.
-
-Bank A and Bank B remain independent evaluators, not an ensemble.
+Bank A and Bank B remain separate evaluations. Do not ensemble them in the primary result.
 
 ---
 
-# 3. Define the post-state source restoration score
+# 3. Define the prediction-consistency source score
 
-Add a new isolated helper, e.g.:
-
-```text
-src/context/state_consistency.py
-```
-
-For bank `b`, source support tensor `S`, and candidate fast state `s`, run the frozen model through the two spatial blocks with the affine state applied at the **same insertion points used by `ContextFedAvgCNN.forward`**.
-
-For layer `l` after applying that layer's candidate affine:
+Add an isolated helper, e.g.:
 
 ```text
-mu_l(s)    = channel mean over batch and spatial dims
-sigma_l(s) = sqrt(channel population variance + 1e-6)
+src/context/prediction_consistency.py
 ```
 
-Using the unchanged Bank-b clean reference `(mu0_l, sigma0_l)`, construct:
+For source support `S` and candidate state `s`:
+
+1. run the model on the original source images under `s`;
+2. horizontally flip each image (`torch.flip(x, dims=[-1])`) and run the same state `s`;
+3. compute softmax probabilities at temperature exactly `1.0`;
+4. compute per-image Jensen-Shannon divergence between original and flipped predictions;
+5. average over the K=20 support images.
+
+Let:
 
 ```text
-r_mu_l    = (mu_l(s) - mu0_l) / (sigma0_l + 1e-6)
-r_sigma_l = log((sigma_l(s) + 1e-6) / (sigma0_l + 1e-6))
+C(S; s) = mean_i JS(p_s(x_i), p_s(flip(x_i)))
 ```
 
-Concatenate both layers exactly analogously to the T008/T009 source signature:
+Lower is more prediction-consistent.
+
+Also persist descriptive source metrics for each candidate:
 
 ```text
-psi_b(S; s) = [r_mu_1, r_sigma_1, r_mu_2, r_sigma_2]  # 192-D
+flip_top1_agreement
+mean_entropy_original
+mean_entropy_flip
+mean_top1_top2_prob_margin_original
+mean_JS_to_zero_on_original
 ```
 
-Primary source-only score:
+These descriptive metrics must **not** be combined into a learned/fitted score in T011.
+
+Use double precision for the reduction/JS calculation after logits if convenient, but do not change model precision.
+
+---
+
+# 4. Predeclared consistency selector
+
+Freeze exactly one new policy before seeing query outcomes.
+
+For each candidate `s`, compute `C(S;s)` and the flip top-1 agreement `A(S;s)`.
+
+Define a nonzero candidate as admissible only if:
 
 ```text
-J_b(S; s) = ||psi_b(S; s)||_2^2
+C(S;s) < C(S;zero)
+AND
+A(S;s) >= A(S;zero)
 ```
 
-Candidate selection:
+No epsilon margin and no fitted threshold.
+
+Selection:
 
 ```text
-s* = argmin_s J_b(S; s)
+if no nonzero state is admissible:
+    choose zero
+else:
+    choose the admissible nonzero state with minimum C(S;s)
 ```
 
-Candidate order for exact ties must be frozen as:
+Tie order:
 
 ```text
 clean/zero, brightness_dark, contrast_low, gaussian_noise, gaussian_blur
 ```
 
-There is **no learned parameter and no threshold**. Zero state is a normal candidate; if it has the minimum score, the policy abstains from adaptation.
+Call this policy `PC-safe`.
 
-Important implementation detail: layer-2 moments must be computed after layer-1 candidate state has already modified the features, exactly matching the actual forward path. Do not score the two layers independently on zero-state activations.
-
----
-
-# 4. Required sanity tests before the formal run
-
-Add focused tests before evaluating 100 clients.
-
-### 4.1 Zero-state regression
-
-For arbitrary deterministic tensors:
-
-- `psi(S; zero)` must reproduce the existing `source_signature(model,S,bank_reference)` vector within tight float tolerance;
-- `J(S; zero)` must equal the squared norm of that historical signature.
-
-This is the most important implementation regression.
-
-### 4.2 Exact neutrality
-
-Applying zero state through the new scoring path must not alter logits/features relative to the ordinary zero-state path beyond normal floating-point equality/tolerance.
-
-### 4.3 Candidate-state immutability
-
-All five states must remain finite and byte/hash-identical to the frozen T007R artifacts. Model hash must remain unchanged after every score computation.
-
-### 4.4 Small balanced sanity, descriptive only
-
-On the already frozen T008 held-out balanced microbatches, report the state-consistency selector's 5-way confusion matrix for A→B and B→A. Do **not** tune anything from it and do not create a new gate. This only tells us whether the state score behaves coherently before the natural-client test.
-
-If 4.1 or 4.2 fails, stop and report an implementation blocker. Do not proceed with scientifically uninterpretable scores.
+Important: do not create alternative selectors after inspecting query results. The descriptive metrics exist for mechanism analysis only.
 
 ---
 
-# 5. Formal natural-client selection
+# 5. Required pre-query sanity tests
 
-Use the exact T009 K=20 natural supports.
+Before formal evaluation:
 
-For each:
+### 5.1 Zero-state prediction regression
+
+For deterministic tensors, logits under zero state in the new helper must match the ordinary model path exactly/tightly.
+
+### 5.2 Flip determinism
+
+Repeated scoring of the same tensor/state must return identical logits, probabilities, JS score, agreement, and selected state.
+
+### 5.3 State/model immutability
+
+All state hashes and model hash unchanged after every source score computation.
+
+### 5.4 No-label API
+
+The scoring/selector helper must accept only pixels/model/state; no labels, query objects, client entropy, class histogram, or historical T009/T010 decision may enter.
+
+### 5.5 Balanced descriptive sanity
+
+On the frozen T008 balanced microbatches, report `PC-safe` five-way confusion for each bank. Descriptive only; no tuning and no new threshold.
+
+If zero regression or immutability fails, stop and report implementation blocker.
+
+---
+
+# 6. Formal source scoring and freeze
+
+For every:
 
 ```text
-100 clients × 5 true contexts × 2 banks
+100 clients × 5 true contexts × 2 banks × 5 candidate states
 ```
 
-compute all five candidate state scores.
+compute and persist source metrics.
 
-Persist per decision:
+Required per-candidate fields:
 
 ```text
 client
 bank
 true_context
-selected_state
-J_zero
-J_dark
-J_contrast
-J_noise
-J_blur
-best_score
-second_score
-score_margin = second_score - best_score
-zero_improvement = J_zero - best_score
+candidate
+consistency_js
+flip_top1_agreement
+entropy_original
+entropy_flip
+prob_margin_original
+js_to_zero_original
+moment_J_from_T010  # joined after source scoring, for comparison
 ```
 
-Also record the rank of the true-context candidate (`1..5`).
+Required per-decision fields:
 
-The same original support IDs must be used as T009; assert the manifest SHA.
+```text
+selected_state_PC_safe
+zero_consistency
+selected_consistency
+consistency_improvement = C_zero - C_selected
+selected_agreement
+zero_agreement
+true_state_rank_by_consistency
+```
 
 ### Freeze rule
 
-Write **all 1,000 state-consistency selections and all candidate scores before opening any new query result or support-label statistic**.
+All 1,000 primary decisions and all 5,000 candidate source-score rows must be written and hashed **before any new full candidate query matrix is evaluated or opened**.
 
-Do not inspect T009 harmful-client query outcomes while implementing a special case. Client 29 is evidence for the problem, not permission to hand-code a fix.
-
----
-
-# 6. Selection diagnostics
-
-Although the primary goal is safe retrieval, candidate states have known context identities, so report selection specificity exactly:
-
-For each bank:
-
-```text
-overall 5-way state-selection accuracy / 500
-per-context accuracy / 100
-5x5 confusion matrix
-true-state median rank
-fraction true-state rank=1 / <=2
-median J(correct)
-median J(zero)
-median J(frozen T007R wrong-alt state)
-```
-
-Also report separately for T009's historically difficult pairs:
-
-```text
-clean -> nonzero counts by selected state
-blur -> zero count
-blur -> contrast count
-```
-
-Do not change any gate from query results.
-
-For descriptive comparison only, show which T009 hard-nearest-prototype errors are corrected, preserved, or newly introduced by state consistency.
+Do not use query outcomes from T009/T010 to special-case known bad clients.
 
 ---
 
-# 7. Freeze the primary T010 gates now
+# 7. Full candidate query-utility matrix
 
-Use the same natural-support identification gate as T009 for state-selection specificity:
-
-A bank satisfies `SC-ID` if:
+After the source freeze, evaluate every one of the five frozen states on every client/context/bank query:
 
 ```text
-overall state-context accuracy >= 90%
-AND each of the five contexts >= 80%
+100 clients × 5 target contexts × 2 banks × 5 states
 ```
 
-Overall `SC-ID-A` requires both banks.
+Reuse exact historical predictions wherever available; compute only missing combinations.
 
-This is intentionally unchanged from T009 so we can tell whether direct state scoring preserves context specificity.
+For each candidate row record:
+
+```text
+client
+bank
+target
+candidate
+query_accuracy
+DeltaAcc_vs_zero
+class_total
+class_correct
+```
+
+Persist predictions or sufficient exact integer counts for independent reconstruction.
+
+This matrix is diagnostic and essential. It allows us to distinguish:
+
+- bad source ranking;
+- true-context state not being client-optimal;
+- fixed bank lacking useful state diversity.
+
+Do not use the matrix to refit the selector.
 
 ---
 
-# 8. Per-client selected-state retrieval
+# 8. Primary PC-safe retrieval gates
 
-Only after all 1,000 source-side selections are persisted, evaluate the selected candidate on each client's corresponding query.
-
-Exactly as in T009:
-
-```text
-selected clean -> exact zero state
-selected corruption c -> frozen Bank-b T007R correct-pair state for c
-```
-
-Reuse old predictions whenever the exact `(client, target, bank, state)` prediction already exists. Compute only missing selected-state predictions.
+Use the exact same retrieval/safety gates as T010 so the new source score is directly comparable.
 
 For each bank/shift report:
 
 ```text
 none_acc
-oracle_correct_state_acc
-state_consistency_mixed_acc
+T007R correct-context oracle_acc
+PC_safe_mixed_acc
 wrong_alt_acc
 tau_pp
 retained_recovery
-selected_minus_wrong_pp
+PC_safe_minus_wrong_pp
 ```
-
-Use T007R's frozen values.
 
 A shifted target passes one bank iff:
 
 ```text
 oracle_gain > 0
 AND retained_recovery >= 0.90
-AND state_consistency_mixed_acc - wrong_alt_acc >= tau_pp
+AND PC_safe_mixed_acc - wrong_alt_acc >= tau_pp
 ```
 
-Joint shift pass requires both banks, exactly as T009.
+Joint shift pass requires both banks.
 
-### Clean safety
-
-Run the mixed selected policy on clean queries and require in each bank:
+Clean safety in each bank:
 
 ```text
-selected_clean_macro_class >= zero_state_clean_macro_class - 0.5 pp
+PC_safe_clean_macro_class >= zero_clean_macro_class - 0.5 pp
 ```
 
-### Overall `SC-RET-A`
-
-Require:
+Overall `PC-RET-A` requires:
 
 ```text
-at least 3/4 shifts joint-pass across both banks
-AND clean safety passes both banks
+>= 3/4 shifts joint-pass
+AND clean safety in both banks
 ```
 
-Do not weaken the 0.5 pp clean allowance because T009 missed it by only ~0.11 pp. The point of this experiment is to remove brittle false adaptation, not to move the gate.
+Do not loosen any historical threshold.
 
 ---
 
-# 9. Mechanism audit: does source restoration predict task utility?
+# 9. Task-alignment audit: prediction consistency vs moment restoration
 
-After query predictions are frozen, perform one descriptive audit; do not fit a model.
+This is the central scientific deliverable.
 
-For each client/context/bank compute:
-
-```text
-DeltaJ(candidate) = J_zero - J(candidate)
-DeltaAcc(candidate) = query accuracy(candidate) - query accuracy(zero)
-```
-
-For the selected state and the true state separately report:
-
-- Pearson/Spearman correlation between `DeltaJ` and `DeltaAcc`;
-- median `DeltaAcc` when `DeltaJ > 0`;
-- fraction of cases where `DeltaJ > 0` but `DeltaAcc < 0`;
-- the 10 largest **restoration/task disagreements** (`DeltaJ` strongly positive but task accuracy drops).
-
-This is crucial for interpretation:
-
-- strong agreement means source moment restoration is a meaningful state-selection proxy;
-- frequent `DeltaJ>0` / `DeltaAcc<0` means moment normalization can be semantically harmful even though it looks physically consistent.
-
-No regression fitting, no significance package, no threshold selection.
-
----
-
-# 10. Label-skew audit for selector errors
-
-Reuse T009's already frozen support-label statistics; do not recompute or use them for selection.
-
-For state-consistency selection, report by the same four entropy quartiles:
+For every candidate state, define:
 
 ```text
-clean selection accuracy
-blur selection accuracy
-overall state-context accuracy
-median score margin
+DeltaC = C_zero - C_candidate   # positive means improved prediction consistency
+DeltaJ = J_zero - J_candidate   # reuse T010 moment score
+DeltaAcc = Acc_candidate - Acc_zero
 ```
 
-List the worst clean/blur state-selection errors with entropy and max-class fraction.
+For each bank and each target context separately report for `DeltaC` vs `DeltaAcc`:
 
-Question to answer:
+- Pearson correlation;
+- Spearman correlation;
+- fraction `DeltaC > 0`;
+- harmful fraction among `DeltaC > 0` (`DeltaAcc < 0`);
+- median `DeltaAcc` among `DeltaC > 0`.
 
-> Does direct state-consistency remove the low-entropy clean/blur confound, or does the same semantic-content failure remain even without prototype naming?
+Report the identical per-context statistics for T010 `DeltaJ` side-by-side.
 
----
+Also report all-context pooled values, but **do not use pooled correlation alone to claim alignment**.
 
-# 11. OOD carry-forward — descriptive, no threshold
+The key comparison is within-context.
 
-Use the eight already frozen T008 random-noise OOD supports.
+### Predeclared alignment interpretation
 
-For each bank, score all five states with the same `J` criterion and report:
+Call prediction consistency `PC-ALIGN` provisionally useful only if, in **both banks**:
 
 ```text
-selected-state histogram
-fraction selecting zero
-J_zero / J_best distribution
-zero_improvement distribution
+at least 3/4 shifted contexts have nonnegative Spearman(DeltaC, DeltaAcc)
+AND
+for at least 3/4 shifted contexts, harmful_fraction(DeltaC>0)
+    is lower than the corresponding T010 harmful_fraction(DeltaJ>0)
 ```
 
-Do **not** create an OOD threshold in T010.
+This is a relative mechanistic gate, not a tuned performance threshold.
 
-T009 showed a large absolute-distance gap in this limited control (`known max ≈42/48`, T008 noise min ≈84/85), but that is not yet a validated open-set threshold. Keep OOD rejection separate from the in-distribution clean/blur safety question.
-
----
-
-# 12. Required verification
-
-Assert and record:
-
-1. T009 natural-support manifest SHA unchanged;
-2. checkpoint SHA unchanged;
-3. neutral writer/operator code hashes unchanged;
-4. corruption code unchanged;
-5. T007R state artifact hashes unchanged;
-6. T008 bank clean-reference artifact/prototype hashes unchanged;
-7. `source_signature.py` unchanged;
-8. `psi(S; zero)` matches historical source signature within tight tolerance;
-9. `J_zero` equals historical signature squared norm;
-10. all candidate states and scores finite;
-11. same support IDs used for all candidates/context/banks exactly as T009;
-12. labels/query tensors never enter state scoring;
-13. all 1,000 primary selections/scores frozen before query evaluation;
-14. model hash unchanged after every scoring/evaluation episode;
-15. historical T007R/T009 aggregate metrics reproduce exactly where reused;
-16. mixed macro-class metrics independently recomputed from integer correct/total counts;
-17. no query outcome changes candidate set, score, support, metric, or gate;
-18. no state fitting or parameter learning occurs.
-
-Run focused new tests plus existing relevant T009/T008/T007R regressions. No FL training.
+If the pooled correlation is positive but the within-context values remain negative, explicitly call out the same between-context confounding seen in T010.
 
 ---
 
-# 13. Suggested artifacts
+# 10. Is the true-context state actually client-optimal?
 
-Prefer:
+Using the frozen full query matrix, compute for each client/context/bank:
 
 ```text
-src/context/state_consistency.py
-scripts/eval_t010_state_consistency.py
-scripts/report_t010.py
+best_query_acc = max over the five candidates
+true_state_acc
+true_state_regret = best_query_acc - true_state_acc
 ```
 
-Write:
+Because per-client query sets can be small, handle ties explicitly.
+
+Report by context/bank:
+
+- fraction where true-context state is in the argmax set;
+- fraction with `true_state_regret > 0`;
+- fraction with regret `> 2 pp` and `> 5 pp`;
+- median / p75 / p90 regret;
+- identity of the query-best candidate when true state is not best.
+
+Then repeat by the frozen T009 entropy quartiles for Clean and Blur.
+
+This result determines the next branch:
+
+- if true state is nearly always query-optimal but source scores miss it, the bottleneck is **source utility estimation**;
+- if low-entropy Blur clients often prefer a different fixed state, the bottleneck is **global-state/client mismatch**, motivating continuous per-client state amplitude/direction later;
+- if even the best of five states cannot help, revisit state-bank/operator capacity.
+
+Do not use query-best labels to modify T011 selection.
+
+---
+
+# 11. Clean/Blur error ledger
+
+For the historically difficult clients, report PC-safe vs T009 vs T010 decisions and task cost, but do not hand-fix them.
+
+At minimum include all cases where:
 
 ```text
-results/t010_state_consistency/
-    RESULTS.md
-    metadata.json
-    verification.json
-    balanced_sanity.csv
-    state_scores.csv
-    confusion_A.csv
-    confusion_B.csv
-    retrieval.csv
-    clean_safety.csv
-    restoration_task_audit.json
-    skew_audit.csv
-    ood_state_scores.csv
+true context in {clean, gaussian_blur}
+AND
+PC-safe selected != true context
 ```
 
-Large raw predictions may remain compressed/ignored if integer count receipts and hashes are preserved.
+with:
+
+```text
+client
+bank
+support entropy
+max-class fraction
+T009 selected
+T010 selected
+T011 PC-safe selected
+C_zero / C_true / C_selected
+flip agreement zero/true/selected
+true-state query accuracy
+selected-state query accuracy
+query-best state/accuracy
+```
+
+This should tell us whether prediction consistency removes the low-entropy failure or merely renames it.
 
 ---
 
-# 14. Decision rules / next research branch
+# 12. OOD carry-forward
 
-### Case SC-A — state consistency fixes safe retrieval
+Use the exact eight frozen T008 random-noise supports.
 
-If `SC-ID-A` and `SC-RET-A` both pass:
+Compute all five candidate prediction-consistency scores and PC-safe choice.
 
-> The remaining T009 failure was mainly the brittle prototype-name → full-state handoff. We now have a source-only, label-free, zero-inclusive state-selection rule that is safe under natural client skew. Stop and report. **Do not start SSL automatically.** The next Research Lead package should test unseen corruption severities / continuous state interpolation and then explicit OOD rejection.
+Report:
 
-### Case SC-B — clean safety passes but Blur recovery still fails
+```text
+selected histogram
+fraction zero
+C_zero / C_best
+flip agreement zero/best
+entropy zero/best
+```
 
-> Zero-inclusive consistency prevents harmful clean adaptation, but missed/ambiguous Blur states remain. The state bank is viable; the next diagnostic should test **continuous interpolation along the clean↔shift state direction**, still source-only and without learning.
+No OOD threshold, no OOD gate, no claim of open-set success. This is descriptive only.
 
-### Case SC-C — the same low-entropy clean/blur errors remain
-
-> Prototype naming was not the core issue. The clean-reference moment criterion itself is semantically content-confounded for a few extreme clients. Keep the operator/state bank fixed; next test one explicit **content-canceling source statistic**. Do not enlarge the operator or add SSL.
-
-### Case SC-D — J improves but task utility often degrades
-
-If state consistency strongly reduces source moment residuals but retrieval/clean safety remains poor, especially with many `DeltaJ>0, DeltaAcc<0` cases:
-
-> Moment restoration is not sufficiently task-aligned as a deployment selector. Treat source moment normalization as a diagnostic only. Before any learned writer, design a richer task-neutral source criterion; do not claim context repair from moment matching alone.
-
-### Case SC-E — broad failure even on balanced sanity
-
-> The candidate-state restoration score is not a coherent selector, despite the state bank's oracle utility. Stop and report; do not add ad-hoc thresholds or sweeps.
+If random noise still confidently satisfies the source-consistency criterion, state clearly that prediction consistency is not an OOD detector.
 
 ---
 
-# 15. Communication protocol
+# 13. Required outputs
 
-After T010, replace `coordination/CODEX_TO_CHATGPT.md` with:
+Create:
+
+```text
+results/t011_task_proximal/
+  RESULTS.md
+  verification.json
+  source_candidate_scores.csv
+  selections.csv
+  candidate_query_utility.csv
+  retrieval.csv
+  clean_safety.csv
+  alignment_audit.json
+  true_state_regret.json
+  clean_blur_error_ledger.csv
+  ood_consistency.csv
+  summary.json
+```
+
+Large prediction arrays may stay compressed under research receipts if needed.
+
+Update `coordination/CODEX_TO_CHATGPT.md` with:
 
 ```markdown
 # CODEX -> CHATGPT
-## Timestamp
-## Commit / run ID
-## Frozen evidence reused
-## New state-consistency score implementation
-## Sanity/regression verification
-## Balanced held-out sanity
-## Natural-client state selection
-## Confusion matrices / hard-pair audit
-## Per-client mixed retrieval
-## Clean safety
-## Restoration-vs-task audit
-## Label-skew audit
-## OOD descriptive audit
-## Failures / uncertainties
-## SC-ID / SC-RET / Case decision
+## Timestamp / commit / run
+## Frozen objects and verification
+## Prediction-consistency definition
+## Source-score freeze
+## PC-safe selection specificity
+## Full candidate utility matrix verification
+## Retrieval / clean safety
+## Within-context task-alignment comparison: DeltaC vs DeltaJ
+## True-context-state regret / query-best-state analysis
+## Clean/Blur low-entropy ledger
+## OOD descriptive result
+## Mechanism vs implementation conclusion
+## Case decision
 ## Recommended next action
 ```
 
-Commit and push code plus compact summaries. Preserve negative results. **Do not launch the next research stage without Research Lead review.**
+---
+
+# 14. Case decision
+
+Use the following decision language; do not launch the next stage automatically.
+
+### Case P-A — task-proximal source score is useful
+
+If `PC-ALIGN` passes and `PC-RET-A` passes:
+
+> The fixed neutral state bank remains viable and a task-space, label-free source criterion is materially better aligned than moment restoration. Return to Research Lead. Do not start a learned writer yet.
+
+### Case P-B — retrieval passes but task alignment still fails
+
+If `PC-RET-A` passes but `PC-ALIGN` fails:
+
+> Aggregate retrieval success is brittle/accidental with respect to the proposed source objective. Do not promote this score into a TTT loss. Return to Research Lead with the full utility matrix.
+
+### Case P-C — true-context state often not client-optimal
+
+If Clean/Blur low-entropy clients show substantial true-state regret even though a different fixed state helps:
+
+> The next problem is continuous/client-conditioned state selection or interpolation, not context naming accuracy. Keep the operator; do not add SSL yet.
+
+### Case P-D — no source score and no fixed state is adequate
+
+If PC-safe retrieval fails and the best-of-five utility matrix also shows little useful headroom on the failing clients:
+
+> Revisit state-bank/operator capacity before any writer learning.
+
+More than one descriptive condition may be true; state the primary mechanism diagnosis and preserve secondary failures.
+
+---
+
+# 15. Constraints
+
+- One formal run after tests; no hyperparameter sweep.
+- No temperature sweep (`T=1` fixed).
+- No augmentation search: horizontal flip only.
+- No query-based threshold, weight, or client-specific exception.
+- No label use in source scoring/selection.
+- No state fitting.
+- No SSL/TTT gradients.
+- No new federation.
+- No richer operator.
+- Preserve negative results and historical artifacts.
+
+The purpose of T011 is **not** to rescue a metric at all costs. It is to determine whether task-space unlabeled consistency contains the missing per-client utility signal that feature-moment restoration demonstrably lacks.
