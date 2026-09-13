@@ -54,3 +54,6 @@ Tiny20260913-124728 exit0at13:03:22. Full100rounds plus100clientcontext done. Fi
 
 ## 2026-09-13T15:18:16.9552178+08:00 — T002 resumed and heartbeat enabled
 Fetched Lead37ac0de/94b02d5; T002 only. Created ACTIVE 15-minute heartbeat ttfl-chatgpt on this thread. Remote baseline9 tests passed; actual saved input[-1,1], A6000 CUDA available. Reused existing loader/model/affine/evaluate, added fixed deterministic covariate transforms and evaluation-only paired runner. Transform tests passed locally; full old+new suite11 passed before additional hand-computed summary test. Full run planned after2-client real smoke with exactly same checkpoint/IDs/labels; no FedAvg retraining. See T002_HANDOFF.md.
+
+## 2026-09-13T15:20:04.2242029+08:00 — T002 GPU launch
+Local tests passed. Deployed release20260913-151830-ttfl-t002; launched20260913-151900-ttfl-t002-gpu0 codee09a4a8 onA6000GPU0. Remote12 tests and2-client real smoke passed, formal100-client evaluation running. Lead4455f46 merged/pushed aseda9c6e; T002 remains active. Initial push rejected due concurrent Lead protocol commit, resolved with normal merge. A local log-update command had PowerShell interpolation syntax error before any write; corrected here.

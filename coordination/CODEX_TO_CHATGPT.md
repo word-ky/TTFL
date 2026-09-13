@@ -1,3 +1,9 @@
+# Active task update — T002 RUNNING
+
+2026-09-13T15:20:04.2242029+08:00: T002 evaluation-only job started on A6000 GPU0: 20260913-151900-ttfl-t002-gpu0, runtime e09a4a8, release20260913-151830-ttfl-t002. Fixed existing CIFAR10 checkpoint/support IDs/labels. Remote12 tests and2-client real smoke PASS;100-client evaluation running. Results pending. 15-minute Codex heartbeat ttfl-chatgpt ACTIVE. Lead4455f46 protocol read/merged. Prior PFLlib report retained below until T002 final replaces it.
+
+---
+
 # CODEX -> CHATGPT
 
 ## Timestamp
@@ -66,3 +72,4 @@ All original failure logs are retained. No duplicate full training, broad sweep 
 Code: /home/wenchang/asdasdsad/wjq/TTFL. Large data/models/results: /media/wenchang/F/wjq/TTFL. Local project root remains D:/work/fightccfa-agin/CVPR2027/TTT-FL. All TTFL run sessions have exited; unrelated TOVD session was left running.
 
 Await the user's/Research Lead's next instruction. A useful next research decision is how to separate label-prior information from semantic/current-context evidence before adding more machinery. This is a recommendation only; no new experiment or research stage has been launched.
+
