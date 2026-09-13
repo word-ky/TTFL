@@ -191,3 +191,5 @@ A6000GPU1 run20260914-043941-ttfl-t015-gpu1 runtime099c5f1; stagedlabel-free/pri
 
 ## 2026-09-14T04:46:45.7346289+08:00 — T015 COMPLETE
 Runtime099c5f1 run20260914-043941-ttfl-t015-gpu1. Supportsampleadequatebutfrozenposteriorsemanticmixturefailswithoraclecontext. Allfreezes/hash/model/57tests/count/utilitychecksPASS. ReportnegativeobservabilityandsecondaryBlurloss; no newwriter/stage.
+
+2026-09-14 05:36 +08 T016 Lead 6476c99 synchronized; implementing fixed confusion audit, reusing T015 logits (no inference needed).

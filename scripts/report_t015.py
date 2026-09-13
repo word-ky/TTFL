@@ -17,7 +17,7 @@ def save(n,x):(OUT/n).write_text(json.dumps(x,indent=2,allow_nan=False),encoding
 def tab(keys,rows):return table(keys,[[r[k] for k in keys] for r in rows])
 def exact(path):return {(r['salt'],r['bank'],r['target'],r['policy']):sum((Fraction(100*x,y) for x,y in zip(r['class_correct'],r['class_total'])),Fraction())/10 for r in load(path)}
 
-def main():
+def main(audit_only=False):
     OUT.mkdir(parents=True,exist_ok=True)
     for p in RAW.iterdir():
         if p.suffix in ('.json','.csv','.gz') and p.name not in ('phaseA_policy_choices.csv','privileged_policy_choices.csv'):shutil.copyfile(p,OUT/p.name)
@@ -91,6 +91,8 @@ def main():
                     for k in ('L1','JS'):row[k+'_mean']=float(np.mean([r[k] for r in g])) if g else None;row[k+'_median']=float(np.median([r[k] for r in g])) if g else None
                     row.update(top_class_agreement=float(np.mean([r['top_class_agreement'] for r in g])) if g else None,top_class_in_true_argmax=float(np.mean([r['top_class_in_true_argmax'] for r in g])) if g else None,spearman_mean=float(np.mean(valid)) if valid else None,spearman_median=float(np.median(valid)) if valid else None,spearman_valid=len(valid));quality.append(row)
     write_csv(OUT/'mixture_quality.csv',quality);write_csv(OUT/'mixture_quality_episodes.csv',qualityrows)
+    if audit_only:
+        return dict(summary=summary,mixture_max_error=mixerror,choices_replayed=len(choices),metrics_replayed=len(metrics))
     hc=np.load(P13/'half_integer_counts.npz');cc=hc['correct'];ct=hc['total'];totals=ct[0].sum((0,1));ci={(r['salt'],r['bank'],r['client'],r['target'],r['eval_half'],r['policy']):C.index(r['selected']) for r in choices};worst=[]
     for si,salt in enumerate(SALTS):
         for bi,b in enumerate(('A','B')):
