@@ -176,3 +176,6 @@ Existing T011NPZlocated; deterministichalves andFractionleaveoneouthelperfocused
 
 ## 2026-09-14T02:34:27.1485796+08:00 — T013 COMPLETE FACTOR-B
 Existingprediction-onlyCPUrun089c918. Disjointexampleslocksurvivesall4saltsbothbanks. AdditivecrossfithelpsDark/Contrastbutnot>=80percentoracleon3/4contexts.2focusedtests,5000oldrows/T012overlap and600newmetricindependentcountchecksPASS. Allchoicesfreezebeforecomposition. No newstate/writer/forwards.
+
+## 2026-09-14T03:23:09.7752943+08:00 — T014 started
+Lead1462732;classconditionalutilityhelperthreefocusedtestsPASS, savedprediction-only analysis planned.
