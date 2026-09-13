@@ -182,3 +182,6 @@ Lead1462732;classconditionalutilityhelperthreefocusedtestsPASS, savedprediction-
 
 ## 2026-09-14T03:30:20.3705312+08:00 — T014 COMPLETE COMP-A + CLASS-INT-A
 Savedprediction-onlyrun78de03c; compositionexplainscleanpreference andclasscontextclosesContrast/Blur gate;Noiseincrementweak−.082/+.018pp preserved. Residualpositiveclientlockvanishesunderprescribedsubtraction. Allgatesexactcountverified; nolearnedwriter/newstage.
+
+## 2026-09-14T04:36:02.9826656+08:00 — T015 started
+Leadffb85ee;sourceposteriorhelper, stagedfreeze evaluation planned. Existing noTTFLremotejobs; T014templatespresentremote.
