@@ -48,3 +48,6 @@ Cifar100run20260913-124228-ttfl-pfl-c100-fixed exit0at12:47:37. FedAvg11.717763,
 
 ## 2026-09-13T12:51:46.3444444+08:00 — Tiny formal training and recovery state
 Tinyreal2roundsmoke+contextpassed. Formal100rounds active onGPU0,~5secondsperround. First3downloaded baseline receipts each confirm100rounds andCUDA. PrimaryHANDOFFredirects to activePFLscope; oldT001handoffretainedinT001_HANDOFF.md. No furthercodechanges/parameterchanges.
+
+## 2026-09-13T13:06:06.3290000+08:00 — all four completed and verified
+Tiny20260913-124728 exit0at13:03:22. Full100rounds plus100clientcontext done. FinalscoreTiny9.644504/affine10.425215/prior24.957333. Exportedpfllib_tiny.tar.gz, unpacked alongsidefirst3. Summaryhelperinitiallymatcheddata/MNISTasrunfolder; fixedonlythatobservedpathselectioncollision, no experimentalchanges. Finalscripts/summarize_pfllib.pyPASS4datasets,4000records,100updates/10uniqueclientseachround,zerotrainsupport/queryIDoverlap,independentpredictionaccuracyerror<7.7e-6pp. Alloutputs/results inresults/pfllib_100c. No further experiments.

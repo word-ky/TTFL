@@ -1,0 +1,46 @@
+[
+  {
+    "dataset": "MNIST",
+    "status": "PASS",
+    "records": 1000,
+    "rounds": 100,
+    "participants": 10,
+    "source_examples": 70000,
+    "max_accuracy_error_pp": 7.663454326234387e-06,
+    "support_query_overlap": 0,
+    "checkpoint_sha256": "2158675e34f4de0704a38967c65994f624a03340318b98c2ea4944bfb33130da"
+  },
+  {
+    "dataset": "Cifar10",
+    "status": "PASS",
+    "records": 1000,
+    "rounds": 100,
+    "participants": 10,
+    "source_examples": 60000,
+    "max_accuracy_error_pp": 6.414595105752596e-06,
+    "support_query_overlap": 0,
+    "checkpoint_sha256": "260657670e4b5beefebc7403487ead624a4ec7e19dd0958c7b281c28713cb9fb"
+  },
+  {
+    "dataset": "Cifar100",
+    "status": "PASS",
+    "records": 1000,
+    "rounds": 100,
+    "participants": 10,
+    "source_examples": 60000,
+    "max_accuracy_error_pp": 4.0159157776997745e-06,
+    "support_query_overlap": 0,
+    "checkpoint_sha256": "e134a5df9563fa199f9d073a3588665aa3a64a0e486b8f4fdfb7de4a8f60c9a7"
+  },
+  {
+    "dataset": "TinyImagenet",
+    "status": "PASS",
+    "records": 1000,
+    "rounds": 100,
+    "participants": 10,
+    "source_examples": 110000,
+    "max_accuracy_error_pp": 3.0431063393621116e-06,
+    "support_query_overlap": 0,
+    "checkpoint_sha256": "c46cd359519d8cc067bf70bb20a193eb6dcf0377b5a4e6530262d0e2a82eaf8d"
+  }
+]

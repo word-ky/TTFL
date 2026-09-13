@@ -1,15 +1,13 @@
-# PFLlib active handoff
+# PFLlib benchmark handoff — COMPLETE
 
-Active direct user request: PFLlib MNIST/Cifar10/Cifar100/TinyImagenet,100clients,10%fixed participation,CUDA. Defaults alpha.1/100rounds/1localepoch; configs/pfllib_100c.json. Read PFLLIB_PLAN.md and coordination/CODEX_TO_CHATGPT.md. T001 remainsFAIL; LeadT001B retained but not started because user-directed newbenchmarktakespriority.
+The direct-user task is complete: PFLlib MNIST/CIFAR10/CIFAR100/TinyImageNet,100 clients,10 fixed participants per round,100 rounds,1 local epoch,CUDA. Config: configs/pfllib_100c.json. Read coordination/CODEX_TO_CHATGPT.md and results/pfllib_100c/RESULTS.md for the final result and limitations. Do not rerun or start further research without a new instruction.
 
-MNIST/Cifar10 code af29ce6235c4afa63db67e004942ad87eab937c8; CIFAR100/Tiny code5db9d154450d4a0fdbe7608b132318801c3df894; upstream0169ba7; release20260913-123712-ttfl-pfl-launch. A6000 independentGPU0 job20260913-123718-ttfl-pfl-gpu0: MNIST thenCifar10, each2roundsmoke/contextthen100roundbaseline/context. GPU1 original run20260913-123913-ttfl-pfl-c100-gpu1 stopped after successful smoke baseline due support metric default10class bug. Fixed5db9d15,9testsPASS; run20260913-124228-ttfl-pfl-c100-fixed resumes existing smoke evaluation and runs formal Cifar100. TinyImagenet run20260913-124728-ttfl-pfl-tiny-gpu0 active on freedGPU0, code5db9d15/release20260913-124221-ttfl-pfl-classfix. MNIST+Cifar10 finishedexit0. Cifar100fixedrun finalcontextphase. No duplicatejobs.
+Runs: MNIST+CIFAR10=20260913-123718-ttfl-pfl-gpu0 (af29ce6); CIFAR100=20260913-124228-ttfl-pfl-c100-fixed (5db9d15); Tiny=20260913-124728-ttfl-pfl-tiny-gpu0 (5db9d15). All exit0. Tiny finished2026-09-13T13:03:22+08. No active TTFL tmux remains.
 
-Data/large outputs /media/wenchang/F/wjq/TTFL. Code /home/wenchang/asdasdsad/wjq/TTFL. Workflow D:/work/claude-autodl/autodl-workflow-clean, AUTODL_CONFIG_PATH pointsproject/.autodl/config.json. Use explicit runIDs. Main outputs F/wjq/TTFL/runs/<run>/<dataset>; wrapperlogs homeproject/runs/<run>. output_path.txt inwrapperartifacts. Baseline final state and100roundclientselection receipt persist; context_records/summary/predictions follow.
+FedAvg/affine/prior accuracies: MNIST92.50/94.76/98.24; CIFAR1034.22/57.28/79.19; CIFAR10011.72/13.01/36.59; Tiny9.64/10.43/24.96. No distinctive affine advantage or dynamic-context proof. Single-seed stock-CNN budget, static label-skew, PFLlib merged labeled splits with client75/25 split.
 
-Original data job20260913-123506 completedfirst3datasets thenBadZipFile becauseTinySCPincomplete. Uploadnowfinished; Tinyonlydata rerun20260913-123833-ttfl-pfl-tinydata. No modeldatawrittenfortinybeforefailure. Preservefailurelog. Baselinehealth100clients2rounds10selectedactualCUDApass; local8testsPASS.
+Verification:9focusedtests;4datasets x100rounds x10participants;4000context records; zero support/query ID overlap; neutraldiff0; finite losses/norms; prediction-derived accuracies match. Exact hashes and paths are in results/pfllib_100c/verification.json and research_log/pfllib_receipts manifests. Initial data-ordering, CIFAR100 support-metric and summary-folder failures retained; repaired without extra full training.
 
-After all jobsfinish,fetchsmallJSON/config/logs,preservecheckpoints/predictionsremote,verify100rounds10uniqueclientsandsharedcheckpoint/querysupportIDs,writecomplete4datasettableandhoneststaticcontextlimitations,commit/push andmirrorprojectlogs. No SSL/meta-learning/newresearchmechanism implied.
+Remote code/logs: /home/wenchang/asdasdsad/wjq/TTFL. Large data and runs: /media/wenchang/F/wjq/TTFL. Final model for each dataset: runs/<run-id>/<dataset>/global_state.pt. Full prediction arrays remain there and locally in research_log/pfllib_receipts (ignored by Git). Small JSON/config/log/split evidence is committed. Use existing workflow with this project's .autodl/config.json for future operations; do not use another project's last-run pointer.
 
-
-
-
+Earlier T001 remains FAIL, with results/t001 and T001_HANDOFF.md preserved. Lead5647af7 old-SVHN T001B remains retained and unexecuted during this user-directed migration. No SSL/meta-learning or new sweep. Final delivery SHA is recorded in research_log/pfllib_delivery.json after evidence push.

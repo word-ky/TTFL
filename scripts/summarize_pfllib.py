@@ -13,7 +13,7 @@ root,out=Path(a.input),Path(a.output)
 out.mkdir(parents=True,exist_ok=True)
 results,verification=[],[]
 for dataset in ('MNIST','Cifar10','Cifar100','TinyImagenet'):
-    folders=list(root.glob(f'*/{dataset}'))
+    folders=[p for p in root.glob(f'*/{dataset}') if p.parent.name!='data']
     assert len(folders)==1,(dataset,folders)
     folder=folders[0]
     cfg=json.loads((folder/'config.json').read_text())

@@ -1,0 +1,78 @@
+{
+  "rows": [
+    {
+      "method": "none",
+      "context": "none",
+      "accuracy": 0.0,
+      "gain_pp": 0.0,
+      "macro_client_accuracy": 0.0
+    },
+    {
+      "method": "random_no_write",
+      "context": "random",
+      "accuracy": 0.0,
+      "gain_pp": 0.0,
+      "macro_client_accuracy": 0.0
+    },
+    {
+      "method": "affine",
+      "context": "correct",
+      "accuracy": 0.0,
+      "gain_pp": 0.0,
+      "macro_client_accuracy": 0.0
+    },
+    {
+      "method": "prior",
+      "context": "correct",
+      "accuracy": 6.884057763154092,
+      "gain_pp": 6.884057763154092,
+      "macro_client_accuracy": 7.008384540677071
+    },
+    {
+      "method": "affine",
+      "context": "wrong",
+      "accuracy": 0.0,
+      "gain_pp": 0.0,
+      "macro_client_accuracy": 0.0
+    },
+    {
+      "method": "prior",
+      "context": "wrong",
+      "accuracy": 0.0,
+      "gain_pp": 0.0,
+      "macro_client_accuracy": 0.0
+    },
+    {
+      "method": "affine",
+      "context": "shuffled",
+      "accuracy": 0.0,
+      "gain_pp": 0.0,
+      "macro_client_accuracy": 0.0
+    },
+    {
+      "method": "prior",
+      "context": "shuffled",
+      "accuracy": 6.884057763154092,
+      "gain_pp": 6.884057763154092,
+      "macro_client_accuracy": 7.008384540677071
+    },
+    {
+      "method": "affine",
+      "context": "noise",
+      "accuracy": 0.0,
+      "gain_pp": 0.0,
+      "macro_client_accuracy": 0.0
+    },
+    {
+      "method": "prior",
+      "context": "noise",
+      "accuracy": 6.884057763154092,
+      "gain_pp": 6.884057763154092,
+      "macro_client_accuracy": 7.008384540677071
+    }
+  ],
+  "bn": "N/A: upstream FedAvgCNN has no BN",
+  "setting": "Static client label-skew, supervised support. Not dynamic context proof.",
+  "prior_reference": "uniform classes with Laplace1 support histogram",
+  "evaluation_source_sha256": "d2dbd19a86393063e8486bd7747c2af05279a317edaaf64c406b2f8b80274e5e"
+}

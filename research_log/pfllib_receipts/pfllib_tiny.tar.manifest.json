@@ -1,0 +1,62 @@
+[
+  {
+    "path": "20260913-124728-ttfl-pfl-tiny-gpu0/TinyImagenet/baseline.json",
+    "bytes": 16869,
+    "sha256": "cd0da535ec769e9894b46f8a8005b1ec5aa19dde5ba566f1c70b52002936f45c"
+  },
+  {
+    "path": "20260913-124728-ttfl-pfl-tiny-gpu0/TinyImagenet/config.json",
+    "bytes": 756,
+    "sha256": "0247935ca32cd1ea807b413f3e76b51cbac0a90164df874a4a54cdc704f69cbf"
+  },
+  {
+    "path": "20260913-124728-ttfl-pfl-tiny-gpu0/TinyImagenet/context_predictions.npz",
+    "bytes": 655020,
+    "sha256": "b7c260ed63b89abb99bd2479777531816a385483bc1dd030ada8a31ea4b6a868"
+  },
+  {
+    "path": "20260913-124728-ttfl-pfl-tiny-gpu0/TinyImagenet/context_records.json",
+    "bytes": 3238481,
+    "sha256": "a5482a07bb5d24ff447e4428bd5144c0ce1ce31acd495f05f2202633e4b80a48"
+  },
+  {
+    "path": "20260913-124728-ttfl-pfl-tiny-gpu0/TinyImagenet/context_summary.json",
+    "bytes": 2202,
+    "sha256": "3c1f48ab0db5f719c9ccf5b2fc3851d743b31e8c048df6d3bec0a4dbd71b2120"
+  },
+  {
+    "path": "20260913-124728-ttfl-pfl-tiny-gpu0/TinyImagenet/support_indices.json",
+    "bytes": 97164,
+    "sha256": "09da384367f52064c61d672baacadb4077c637e1c6458dea4b98a57319e1272c"
+  },
+  {
+    "path": "20260913-124728-ttfl-pfl-tiny-gpu0/TinyImagenet_smoke/baseline.json",
+    "bytes": 4857,
+    "sha256": "e60b38892be4edaf6c8c33926f218c757a8097b0449a4d0015a574a303f06c61"
+  },
+  {
+    "path": "20260913-124728-ttfl-pfl-tiny-gpu0/TinyImagenet_smoke/config.json",
+    "bytes": 752,
+    "sha256": "ce686fa2319480b65e835bc90bd19f4e08f19a431146ed99f1901efb03e84645"
+  },
+  {
+    "path": "20260913-124728-ttfl-pfl-tiny-gpu0/TinyImagenet_smoke/context_predictions.npz",
+    "bytes": 7347,
+    "sha256": "636516d00ae818bb83f41ee5d10729dc2f59172a6fe78251f0aab0fbb73e80de"
+  },
+  {
+    "path": "20260913-124728-ttfl-pfl-tiny-gpu0/TinyImagenet_smoke/context_records.json",
+    "bytes": 62259,
+    "sha256": "2bbf42f8c2187a05d6b7db8fb23835cf2bc55ed28dc7b9370f914b7b0a95f1c8"
+  },
+  {
+    "path": "20260913-124728-ttfl-pfl-tiny-gpu0/TinyImagenet_smoke/context_summary.json",
+    "bytes": 1911,
+    "sha256": "8f7c7748a17aa7157d2b0d772ed2505bdefb703f84f7cdd792c69762a16150c6"
+  },
+  {
+    "path": "20260913-124728-ttfl-pfl-tiny-gpu0/TinyImagenet_smoke/support_indices.json",
+    "bytes": 1939,
+    "sha256": "ce4f93bdc3b8503ed17bc41112fe44301aa96b3a3e2def74e22e0bdf9538f425"
+  }
+]

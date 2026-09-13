@@ -1,0 +1,6 @@
+{
+  "runId": "20260913-124728-ttfl-pfl-tiny-gpu0",
+  "releaseId": "20260913-124221-ttfl-pfl-classfix",
+  "sessionName": "autodl-20260913-124728-ttfl-pfl-tiny-gpu0",
+  "command": "CUDA_VISIBLE_DEVICES=0 TTFL_COMMIT=5db9d154450d4a0fdbe7608b132318801c3df894 bash scripts/run_pfllib_gpu.sh TinyImagenet"
+}
