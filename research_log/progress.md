@@ -170,3 +170,6 @@ A6000GPU1 run20260914-013254-ttfl-t012-gpu1;48tests+frozenstateendpoint prefligh
 
 ## 2026-09-14T01:38:12.6620619+08:00 — T012 COMPLETE T012-B / AMP-B
 Runtime87f1bde run20260914-013254-ttfl-t012-gpu1. Strongclientlock28pp overlapexcess;amplitudeNoise/Blur>=2.34ppgainbutcapture56-61/48-49percent. J-rayandPC-ray-safe0/4jointretention.48tests/count/endpoints/freezeauditsPASS. Rawresultsandreportpersisted. No nextstage.
+
+## 2026-09-14T02:26:44.4896662+08:00 — T013 started
+Existing T011NPZlocated; deterministichalves andFractionleaveoneouthelperfocusedtests, no newforwards planned.
