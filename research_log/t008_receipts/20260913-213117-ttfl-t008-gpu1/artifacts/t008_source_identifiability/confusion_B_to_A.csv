@@ -1,0 +1,6 @@
+true_context,clean,brightness_dark,contrast_low,gaussian_noise,gaussian_blur
+clean,4,0,0,0,0
+brightness_dark,0,4,0,0,0
+contrast_low,0,0,4,0,0
+gaussian_noise,0,0,0,4,0
+gaussian_blur,0,0,0,0,4

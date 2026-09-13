@@ -1,0 +1,49 @@
+[autodl] run_id=20260913-213117-ttfl-t008-gpu1
+[autodl] started_at=2026-09-13T21:31:25+08:00
+test_bn_only_moments (test_affine.AffineTest.test_bn_only_moments) ... ok
+test_neutral_logits (test_affine.AffineTest.test_neutral_logits) ... ok
+test_only_fast_state_and_reset (test_affine.AffineTest.test_only_fast_state_and_reset) ... ok
+test_same_checkpoint_all_methods (test_affine.AffineTest.test_same_checkpoint_all_methods) ... ok
+test_disjoint_balanced_spread_order_independent (test_balanced_pool.BalancedPoolTest.test_disjoint_balanced_spread_order_independent) ... ok
+test_exact_semantic_controls (test_balanced_pool.BalancedPoolTest.test_exact_semantic_controls) ... ok
+test_train_checkpoint_and_metrics (test_baseline.BaselineTest.test_train_checkpoint_and_metrics) ... ok
+test_deterministic_by_sample_not_order_and_no_mutation (test_covariate.CovariateTest.test_deterministic_by_sample_not_order_and_no_mutation) ... ok
+test_formulas_and_identity (test_covariate.CovariateTest.test_formulas_and_identity) ... ok
+test_weighted_gate_and_paired_summary (test_covariate.CovariateTest.test_weighted_gate_and_paired_summary) ... ok
+test_balanced_and_disjoint (test_data.DataTest.test_balanced_and_disjoint) ... ok
+test_preprocess (test_data.DataTest.test_preprocess) ... ok
+test_retrieval_both_bounds_and_nonpositive_gain (test_identification_gates.IdentificationGateTest.test_retrieval_both_bounds_and_nonpositive_gain) ... ok
+test_total_and_per_context (test_identification_gates.IdentificationGateTest.test_total_and_per_context) ... ok
+test_clamp_and_constant_variance (test_moments.MomentsTest.test_clamp_and_constant_variance) ... ok
+test_reference_stream_matches_direct (test_moments.MomentsTest.test_reference_stream_matches_direct) ... ok
+test_sequential_formula_frozen_no_labels_or_optimizer (test_moments.MomentsTest.test_sequential_formula_frozen_no_labels_or_optimizer) ... ok
+test_exact_identity_three_variances (test_neutral_oracle.NeutralOracleTest.test_exact_identity_three_variances) ... ok
+test_known_residual_and_cap (test_neutral_oracle.NeutralOracleTest.test_known_residual_and_cap) ... ok
+test_model_identity_and_sequential_contract (test_neutral_oracle.NeutralOracleTest.test_model_identity_and_sequential_contract) ... ok
+test_identity_formula_and_constant (test_paired_oracle.PairedOracleTest.test_identity_formula_and_constant) ... ok
+test_known_affine_and_cap (test_paired_oracle.PairedOracleTest.test_known_affine_and_cap) ... ok
+test_sequential_frozen_api (test_paired_oracle.PairedOracleTest.test_sequential_frozen_api) ... ok
+test_derangement_deterministic_label_free (test_pairing.PairingTest.test_derangement_deterministic_label_free) ... ok
+test_target_multiset_both_layers_preserved (test_pairing.PairingTest.test_target_multiset_both_layers_preserved) ... ok
+test_four_shapes_neutral_frozen_and_classes (test_pfllib_operator.PFLModelTest.test_four_shapes_neutral_frozen_and_classes) ... ok
+test_support_only_high_numbered_classes (test_pfllib_operator.PFLModelTest.test_support_only_high_numbered_classes) ... ok
+test_extrema_ties_and_target_histogram (test_semantic_pairing.SemanticPairingTest.test_extrema_ties_and_target_histogram) ... ok
+test_random_distinct_deterministic_label_independent (test_semantic_pairing.SemanticPairingTest.test_random_distinct_deterministic_label_independent) ... ok
+test_correlation_constant_and_centered_example (test_semantic_summary.SemanticSummaryTest.test_correlation_constant_and_centered_example) ... ok
+test_tau_and_strict_marginal_bounds (test_semantic_summary.SemanticSummaryTest.test_tau_and_strict_marginal_bounds) ... ok
+test_exact_bank_reference_zero_and_heldout_formula (test_source_signature.SourceSignatureTest.test_exact_bank_reference_zero_and_heldout_formula) ... ok
+test_microbatch_partition_exact_and_ordered (test_source_signature.SourceSignatureTest.test_microbatch_partition_exact_and_ordered) ... ok
+test_squared_distance_margin_and_tie_order (test_source_signature.SourceSignatureTest.test_squared_distance_margin_and_tie_order) ... ok
+test_nonpositive_headroom_and_half_point_floor (test_transfer_gate.TransferGateTest.test_nonpositive_headroom_and_half_point_floor) ... ok
+test_recovery_and_both_context_margins (test_transfer_gate.TransferGateTest.test_recovery_and_both_context_margins) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 0.842s
+
+OK
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+T008_SELECTIONS_FROZEN {"A_to_B": {"correct": 20, "total": 20, "per_context_correct": {"clean": 4, "brightness_dark": 4, "contrast_low": 4, "gaussian_noise": 4, "gaussian_blur": 4}, "passed": true, "margin_mean": 56.13313166611839, "margin_median": 21.548573103346406, "confusion": [[4, 0, 0, 0, 0], [0, 4, 0, 0, 0], [0, 0, 4, 0, 0], [0, 0, 0, 4, 0], [0, 0, 0, 0, 4]]}, "B_to_A": {"correct": 20, "total": 20, "per_context_correct": {"clean": 4, "brightness_dark": 4, "contrast_low": 4, "gaussian_noise": 4, "gaussian_blur": 4}, "passed": true, "margin_mean": 58.977432842274865, "margin_median": 23.923831427123524, "confusion": [[4, 0, 0, 0, 0], [0, 4, 0, 0, 0], [0, 0, 4, 0, 0], [0, 0, 0, 4, 0], [0, 0, 0, 0, 4]]}}
+T008_DONE {"ID_A": true, "RET_A": true, "joint": {"brightness_dark": true, "contrast_low": true, "gaussian_noise": true, "gaussian_blur": true}, "verification": {"checkpoint_writer_corruption_unchanged": true, "exact_pool_reuse": true, "microbatch_partition_exact": true, "microbatch_two_per_class": true, "bank_heldout_query_disjoint": true, "source_only_api": true, "zero_state_features_only": true, "bank_reference_only": true, "all_selections_frozen_before_query": true, "model_unchanged": true, "finite_signatures_distances": true, "reconstructed_states_exact": 8, "wrong_alt_states_exact": true, "focused_prediction_regressions_exact": 48, "new_state_query_client_evaluations": 0, "query_used_for_selection": false, "prototypes_decisions_unchanged": true}}
+[autodl] finished_at=2026-09-13T21:31:38+08:00
+[autodl] exit_code=0

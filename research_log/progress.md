@@ -125,3 +125,9 @@ Residualwriter exactidentity;31tests passed. A6000run20260913-203200-ttfl-t007r-
 
 ## 2026-09-13T21:30:57.5551574+08:00 — T008 implementation
 Leade20ef8f. Baseline31remotePASS; signature/microbatch3remotePASS. No activeTTFLjob. Source-only bankreference192D; frozen40ID+8OOD decisions beforequery. ReuseT007Rexactstates/predictions wherepossible.
+
+## 2026-09-13T21:31:31.4973933+08:00 — T008 launch
+20260913-213117-ttfl-t008-gpu1, code4a71d7d. ExistingT007Rbankstates/predictions reused afterequalitychecks.
+
+## 2026-09-13T21:36:30.1842543+08:00 — T008 COMPLETE
+ID-A+RET-A.40/40source-onlycontext IDs correct,4/4jointretrieval with1.0oracle-gain retention.36tests andindependentdistance/countauditsPASS;48predictionregressions exact. OODnoise8/8mapsGaussianNoise despitehighmargin; retainlimitation. T007RNoiseoriginalFAIL unchanged. AwaitLead.

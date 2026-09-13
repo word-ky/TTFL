@@ -1,0 +1,19 @@
+{
+  "checkpoint_writer_corruption_unchanged": true,
+  "exact_pool_reuse": true,
+  "microbatch_partition_exact": true,
+  "microbatch_two_per_class": true,
+  "bank_heldout_query_disjoint": true,
+  "source_only_api": true,
+  "zero_state_features_only": true,
+  "bank_reference_only": true,
+  "all_selections_frozen_before_query": true,
+  "model_unchanged": true,
+  "finite_signatures_distances": true,
+  "reconstructed_states_exact": 8,
+  "wrong_alt_states_exact": true,
+  "focused_prediction_regressions_exact": 48,
+  "new_state_query_client_evaluations": 0,
+  "query_used_for_selection": false,
+  "prototypes_decisions_unchanged": true
+}

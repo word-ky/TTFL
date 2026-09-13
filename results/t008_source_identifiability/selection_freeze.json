@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-13T13:31:36.275761+00:00",
+  "prototype_sha256": "9138f7849f92fbfa820cb7c5eaf815fc209dd3178eca64cf4cc02ab9522b6347",
+  "microbatch_sha256": "1c05fab4e64b8047a37291f62a25250346decf6d83eddf9c46b67a68c614ae7f",
+  "decision_sha256": "9628dca2cddb32d02a76bff4933c1b2d5c146fd137bc35380bc5a43d2c72ce02",
+  "primary_decisions": 40,
+  "ood_decisions": 8,
+  "query_evaluation_started": false
+}
