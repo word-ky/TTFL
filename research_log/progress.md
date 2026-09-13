@@ -51,3 +51,6 @@ Tinyreal2roundsmoke+contextpassed. Formal100rounds active onGPU0,~5secondsperrou
 
 ## 2026-09-13T13:06:06.3290000+08:00 — all four completed and verified
 Tiny20260913-124728 exit0at13:03:22. Full100rounds plus100clientcontext done. FinalscoreTiny9.644504/affine10.425215/prior24.957333. Exportedpfllib_tiny.tar.gz, unpacked alongsidefirst3. Summaryhelperinitiallymatcheddata/MNISTasrunfolder; fixedonlythatobservedpathselectioncollision, no experimentalchanges. Finalscripts/summarize_pfllib.pyPASS4datasets,4000records,100updates/10uniqueclientseachround,zerotrainsupport/queryIDoverlap,independentpredictionaccuracyerror<7.7e-6pp. Alloutputs/results inresults/pfllib_100c. No further experiments.
+
+## 2026-09-13T15:18:16.9552178+08:00 — T002 resumed and heartbeat enabled
+Fetched Lead37ac0de/94b02d5; T002 only. Created ACTIVE 15-minute heartbeat ttfl-chatgpt on this thread. Remote baseline9 tests passed; actual saved input[-1,1], A6000 CUDA available. Reused existing loader/model/affine/evaluate, added fixed deterministic covariate transforms and evaluation-only paired runner. Transform tests passed locally; full old+new suite11 passed before additional hand-computed summary test. Full run planned after2-client real smoke with exactly same checkpoint/IDs/labels; no FedAvg retraining. See T002_HANDOFF.md.
