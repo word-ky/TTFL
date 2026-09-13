@@ -140,3 +140,6 @@ Lead25e6ea7;36baseline remotePASS;2natural-support tests localPASS. Evaluationon
 
 ## 2026-09-13T22:46:58.8541622+08:00 — T009 import failure fixed
 First runfailedbeforeanydecisions atread_data missingimport. Addedexistingutility import, noformula/protocolchange. Failedrun224559preserved; nextsameIDsK verified.
+
+## 2026-09-13T22:53:51.1824888+08:00 — T009 COMPLETE N-C
+NIDpasses97.6/98.0; NRETfailsclean-.61pp andBlurretention.343/.539. K20count-onlychosen.40tests independentinteger/Fraction/distancechecksPASS. Missingimportfirstattemptfixedbeforeanydecisions; manifestsKIDsidentical. Actualruntimefab17bd sourceSHAverifiedrawaliaspreserved. Harmfulconfusionledger andskewaudit persisted. No nextstage.

@@ -1,0 +1,969 @@
+{
+  "quartiles": [
+    {
+      "bank": "A",
+      "context": "clean",
+      "quartile": 1,
+      "clients": 25,
+      "accuracy": 80.0,
+      "median_signed_margin": 9.685992934304993,
+      "entropy_min": -0.0,
+      "entropy_max": 0.14118174150460758
+    },
+    {
+      "bank": "A",
+      "context": "clean",
+      "quartile": 2,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 12.519186424462243,
+      "entropy_min": 0.14118174150460758,
+      "entropy_max": 0.29228525323862886
+    },
+    {
+      "bank": "A",
+      "context": "clean",
+      "quartile": 3,
+      "clients": 25,
+      "accuracy": 88.0,
+      "median_signed_margin": 10.901668787924576,
+      "entropy_min": 0.29854955310662773,
+      "entropy_max": 0.3849866301909954
+    },
+    {
+      "bank": "A",
+      "context": "clean",
+      "quartile": 4,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 13.966433564503541,
+      "entropy_min": 0.4023767052555694,
+      "entropy_max": 0.6814913078447037
+    },
+    {
+      "bank": "A",
+      "context": "brightness_dark",
+      "quartile": 1,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 188.99563541464948,
+      "entropy_min": -0.0,
+      "entropy_max": 0.14118174150460758
+    },
+    {
+      "bank": "A",
+      "context": "brightness_dark",
+      "quartile": 2,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 183.44796493417695,
+      "entropy_min": 0.14118174150460758,
+      "entropy_max": 0.29228525323862886
+    },
+    {
+      "bank": "A",
+      "context": "brightness_dark",
+      "quartile": 3,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 188.92245144638485,
+      "entropy_min": 0.29854955310662773,
+      "entropy_max": 0.3849866301909954
+    },
+    {
+      "bank": "A",
+      "context": "brightness_dark",
+      "quartile": 4,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 185.4481715589704,
+      "entropy_min": 0.4023767052555694,
+      "entropy_max": 0.6814913078447037
+    },
+    {
+      "bank": "A",
+      "context": "contrast_low",
+      "quartile": 1,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 37.22807791211273,
+      "entropy_min": -0.0,
+      "entropy_max": 0.14118174150460758
+    },
+    {
+      "bank": "A",
+      "context": "contrast_low",
+      "quartile": 2,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 36.47697571755701,
+      "entropy_min": 0.14118174150460758,
+      "entropy_max": 0.29228525323862886
+    },
+    {
+      "bank": "A",
+      "context": "contrast_low",
+      "quartile": 3,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 40.37196609857437,
+      "entropy_min": 0.29854955310662773,
+      "entropy_max": 0.3849866301909954
+    },
+    {
+      "bank": "A",
+      "context": "contrast_low",
+      "quartile": 4,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 28.870168971333907,
+      "entropy_min": 0.4023767052555694,
+      "entropy_max": 0.6814913078447037
+    },
+    {
+      "bank": "A",
+      "context": "gaussian_noise",
+      "quartile": 1,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 21.554777646509116,
+      "entropy_min": -0.0,
+      "entropy_max": 0.14118174150460758
+    },
+    {
+      "bank": "A",
+      "context": "gaussian_noise",
+      "quartile": 2,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 21.92095298923764,
+      "entropy_min": 0.14118174150460758,
+      "entropy_max": 0.29228525323862886
+    },
+    {
+      "bank": "A",
+      "context": "gaussian_noise",
+      "quartile": 3,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 19.696928141086893,
+      "entropy_min": 0.29854955310662773,
+      "entropy_max": 0.3849866301909954
+    },
+    {
+      "bank": "A",
+      "context": "gaussian_noise",
+      "quartile": 4,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 20.411424542043285,
+      "entropy_min": 0.4023767052555694,
+      "entropy_max": 0.6814913078447037
+    },
+    {
+      "bank": "A",
+      "context": "gaussian_blur",
+      "quartile": 1,
+      "clients": 25,
+      "accuracy": 84.0,
+      "median_signed_margin": 15.484663697497965,
+      "entropy_min": -0.0,
+      "entropy_max": 0.14118174150460758
+    },
+    {
+      "bank": "A",
+      "context": "gaussian_blur",
+      "quartile": 2,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 16.80512910457365,
+      "entropy_min": 0.14118174150460758,
+      "entropy_max": 0.29228525323862886
+    },
+    {
+      "bank": "A",
+      "context": "gaussian_blur",
+      "quartile": 3,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 15.603611974481435,
+      "entropy_min": 0.29854955310662773,
+      "entropy_max": 0.3849866301909954
+    },
+    {
+      "bank": "A",
+      "context": "gaussian_blur",
+      "quartile": 4,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 16.59573377800935,
+      "entropy_min": 0.4023767052555694,
+      "entropy_max": 0.6814913078447037
+    },
+    {
+      "bank": "B",
+      "context": "clean",
+      "quartile": 1,
+      "clients": 25,
+      "accuracy": 84.0,
+      "median_signed_margin": 13.367101474051799,
+      "entropy_min": -0.0,
+      "entropy_max": 0.14118174150460758
+    },
+    {
+      "bank": "B",
+      "context": "clean",
+      "quartile": 2,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 14.634738680720655,
+      "entropy_min": 0.14118174150460758,
+      "entropy_max": 0.29228525323862886
+    },
+    {
+      "bank": "B",
+      "context": "clean",
+      "quartile": 3,
+      "clients": 25,
+      "accuracy": 88.0,
+      "median_signed_margin": 13.611206059939065,
+      "entropy_min": 0.29854955310662773,
+      "entropy_max": 0.3849866301909954
+    },
+    {
+      "bank": "B",
+      "context": "clean",
+      "quartile": 4,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 16.78098689087681,
+      "entropy_min": 0.4023767052555694,
+      "entropy_max": 0.6814913078447037
+    },
+    {
+      "bank": "B",
+      "context": "brightness_dark",
+      "quartile": 1,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 200.28759880568265,
+      "entropy_min": -0.0,
+      "entropy_max": 0.14118174150460758
+    },
+    {
+      "bank": "B",
+      "context": "brightness_dark",
+      "quartile": 2,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 193.659587926847,
+      "entropy_min": 0.14118174150460758,
+      "entropy_max": 0.29228525323862886
+    },
+    {
+      "bank": "B",
+      "context": "brightness_dark",
+      "quartile": 3,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 200.7401811518971,
+      "entropy_min": 0.29854955310662773,
+      "entropy_max": 0.3849866301909954
+    },
+    {
+      "bank": "B",
+      "context": "brightness_dark",
+      "quartile": 4,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 195.49853411248012,
+      "entropy_min": 0.4023767052555694,
+      "entropy_max": 0.6814913078447037
+    },
+    {
+      "bank": "B",
+      "context": "contrast_low",
+      "quartile": 1,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 33.92130702130305,
+      "entropy_min": -0.0,
+      "entropy_max": 0.14118174150460758
+    },
+    {
+      "bank": "B",
+      "context": "contrast_low",
+      "quartile": 2,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 36.380365511562346,
+      "entropy_min": 0.14118174150460758,
+      "entropy_max": 0.29228525323862886
+    },
+    {
+      "bank": "B",
+      "context": "contrast_low",
+      "quartile": 3,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 39.10463103728272,
+      "entropy_min": 0.29854955310662773,
+      "entropy_max": 0.3849866301909954
+    },
+    {
+      "bank": "B",
+      "context": "contrast_low",
+      "quartile": 4,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 29.262175379400865,
+      "entropy_min": 0.4023767052555694,
+      "entropy_max": 0.6814913078447037
+    },
+    {
+      "bank": "B",
+      "context": "gaussian_noise",
+      "quartile": 1,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 21.496474444957276,
+      "entropy_min": -0.0,
+      "entropy_max": 0.14118174150460758
+    },
+    {
+      "bank": "B",
+      "context": "gaussian_noise",
+      "quartile": 2,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 22.57833388622651,
+      "entropy_min": 0.14118174150460758,
+      "entropy_max": 0.29228525323862886
+    },
+    {
+      "bank": "B",
+      "context": "gaussian_noise",
+      "quartile": 3,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 20.344803588478218,
+      "entropy_min": 0.29854955310662773,
+      "entropy_max": 0.3849866301909954
+    },
+    {
+      "bank": "B",
+      "context": "gaussian_noise",
+      "quartile": 4,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 21.04132455862237,
+      "entropy_min": 0.4023767052555694,
+      "entropy_max": 0.6814913078447037
+    },
+    {
+      "bank": "B",
+      "context": "gaussian_blur",
+      "quartile": 1,
+      "clients": 25,
+      "accuracy": 88.0,
+      "median_signed_margin": 15.967608117069123,
+      "entropy_min": -0.0,
+      "entropy_max": 0.14118174150460758
+    },
+    {
+      "bank": "B",
+      "context": "gaussian_blur",
+      "quartile": 2,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 17.00215328804748,
+      "entropy_min": 0.14118174150460758,
+      "entropy_max": 0.29228525323862886
+    },
+    {
+      "bank": "B",
+      "context": "gaussian_blur",
+      "quartile": 3,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 16.697661939285858,
+      "entropy_min": 0.29854955310662773,
+      "entropy_max": 0.3849866301909954
+    },
+    {
+      "bank": "B",
+      "context": "gaussian_blur",
+      "quartile": 4,
+      "clients": 25,
+      "accuracy": 100.0,
+      "median_signed_margin": 16.98149852831725,
+      "entropy_min": 0.4023767052555694,
+      "entropy_max": 0.6814913078447037
+    }
+  ],
+  "correlations": [
+    {
+      "bank": "A",
+      "context": "clean",
+      "feature": "normalized_entropy",
+      "spearman": 0.13018146863853558
+    },
+    {
+      "bank": "A",
+      "context": "clean",
+      "feature": "max_class_fraction",
+      "spearman": -0.14681717364444088
+    },
+    {
+      "bank": "A",
+      "context": "clean",
+      "feature": "represented_classes",
+      "spearman": 0.07780039250420853
+    },
+    {
+      "bank": "A",
+      "context": "brightness_dark",
+      "feature": "normalized_entropy",
+      "spearman": -0.07042604041101105
+    },
+    {
+      "bank": "A",
+      "context": "brightness_dark",
+      "feature": "max_class_fraction",
+      "spearman": 0.04994121603491343
+    },
+    {
+      "bank": "A",
+      "context": "brightness_dark",
+      "feature": "represented_classes",
+      "spearman": -0.0995701983254813
+    },
+    {
+      "bank": "A",
+      "context": "contrast_low",
+      "feature": "normalized_entropy",
+      "spearman": -0.1546306966668396
+    },
+    {
+      "bank": "A",
+      "context": "contrast_low",
+      "feature": "max_class_fraction",
+      "spearman": 0.16489217039974796
+    },
+    {
+      "bank": "A",
+      "context": "contrast_low",
+      "feature": "represented_classes",
+      "spearman": -0.08066120848533258
+    },
+    {
+      "bank": "A",
+      "context": "gaussian_noise",
+      "feature": "normalized_entropy",
+      "spearman": 0.02238724494157961
+    },
+    {
+      "bank": "A",
+      "context": "gaussian_noise",
+      "feature": "max_class_fraction",
+      "spearman": -0.0018858246614703708
+    },
+    {
+      "bank": "A",
+      "context": "gaussian_noise",
+      "feature": "represented_classes",
+      "spearman": 0.09384856636323324
+    },
+    {
+      "bank": "A",
+      "context": "gaussian_blur",
+      "feature": "normalized_entropy",
+      "spearman": 0.1418740549466377
+    },
+    {
+      "bank": "A",
+      "context": "gaussian_blur",
+      "feature": "max_class_fraction",
+      "spearman": -0.1708569193289993
+    },
+    {
+      "bank": "A",
+      "context": "gaussian_blur",
+      "feature": "represented_classes",
+      "spearman": 0.05419238694067844
+    },
+    {
+      "bank": "B",
+      "context": "clean",
+      "feature": "normalized_entropy",
+      "spearman": 0.11157552795803372
+    },
+    {
+      "bank": "B",
+      "context": "clean",
+      "feature": "max_class_fraction",
+      "spearman": -0.12242195302369477
+    },
+    {
+      "bank": "B",
+      "context": "clean",
+      "feature": "represented_classes",
+      "spearman": 0.055315382687654756
+    },
+    {
+      "bank": "B",
+      "context": "brightness_dark",
+      "feature": "normalized_entropy",
+      "spearman": -0.0778984747457005
+    },
+    {
+      "bank": "B",
+      "context": "brightness_dark",
+      "feature": "max_class_fraction",
+      "spearman": 0.054062315295123446
+    },
+    {
+      "bank": "B",
+      "context": "brightness_dark",
+      "feature": "represented_classes",
+      "spearman": -0.1078577814637814
+    },
+    {
+      "bank": "B",
+      "context": "contrast_low",
+      "feature": "normalized_entropy",
+      "spearman": -0.1369264978609986
+    },
+    {
+      "bank": "B",
+      "context": "contrast_low",
+      "feature": "max_class_fraction",
+      "spearman": 0.15498104717892125
+    },
+    {
+      "bank": "B",
+      "context": "contrast_low",
+      "feature": "represented_classes",
+      "spearman": -0.05801935568735751
+    },
+    {
+      "bank": "B",
+      "context": "gaussian_noise",
+      "feature": "normalized_entropy",
+      "spearman": 0.05061176561846367
+    },
+    {
+      "bank": "B",
+      "context": "gaussian_noise",
+      "feature": "max_class_fraction",
+      "spearman": -0.0382707931299035
+    },
+    {
+      "bank": "B",
+      "context": "gaussian_noise",
+      "feature": "represented_classes",
+      "spearman": 0.11080015579524449
+    },
+    {
+      "bank": "B",
+      "context": "gaussian_blur",
+      "feature": "normalized_entropy",
+      "spearman": 0.1362291508112609
+    },
+    {
+      "bank": "B",
+      "context": "gaussian_blur",
+      "feature": "max_class_fraction",
+      "spearman": -0.16768776989790213
+    },
+    {
+      "bank": "B",
+      "context": "gaussian_blur",
+      "feature": "represented_classes",
+      "spearman": 0.040534500118513936
+    }
+  ],
+  "worst_ten": [
+    {
+      "client": 15,
+      "bank": "A",
+      "K": 20,
+      "primary": true,
+      "true_context": "gaussian_blur",
+      "selected": "contrast_low",
+      "second": "gaussian_blur",
+      "distance": 11.400895350921719,
+      "second_distance": 29.12204652932937,
+      "margin": 17.721151178407652,
+      "signed_true_margin": -17.721151178407652,
+      "d_clean": 71.93317333846232,
+      "d_brightness_dark": 168.50653430997377,
+      "d_contrast_low": 11.400895350921719,
+      "d_gaussian_noise": 130.69043842034824,
+      "d_gaussian_blur": 29.12204652932937,
+      "skew": {
+        "client": 15,
+        "K": 20,
+        "normalized_entropy": -0.0,
+        "max_class_fraction": 1.0,
+        "represented_classes": 1,
+        "class_counts": [
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "entropy_quartile": 1
+      }
+    },
+    {
+      "client": 15,
+      "bank": "B",
+      "K": 20,
+      "primary": true,
+      "true_context": "gaussian_blur",
+      "selected": "contrast_low",
+      "second": "gaussian_blur",
+      "distance": 14.628263769288651,
+      "second_distance": 27.176315376022355,
+      "margin": 12.548051606733704,
+      "signed_true_margin": -12.548051606733704,
+      "d_clean": 72.09577260586802,
+      "d_brightness_dark": 168.2339623946833,
+      "d_contrast_low": 14.628263769288651,
+      "d_gaussian_noise": 133.36580530294097,
+      "d_gaussian_blur": 27.176315376022355,
+      "skew": {
+        "client": 15,
+        "K": 20,
+        "normalized_entropy": -0.0,
+        "max_class_fraction": 1.0,
+        "represented_classes": 1,
+        "class_counts": [
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "entropy_quartile": 1
+      }
+    },
+    {
+      "client": 15,
+      "bank": "B",
+      "K": 20,
+      "primary": true,
+      "true_context": "clean",
+      "selected": "gaussian_blur",
+      "second": "clean",
+      "distance": 19.589255185109607,
+      "second_distance": 29.61393634599621,
+      "margin": 10.024681160886601,
+      "signed_true_margin": -10.024681160886601,
+      "d_clean": 29.61393634599621,
+      "d_brightness_dark": 200.34823661963006,
+      "d_contrast_low": 46.650064718377756,
+      "d_gaussian_noise": 64.7454927543723,
+      "d_gaussian_blur": 19.589255185109607,
+      "skew": {
+        "client": 15,
+        "K": 20,
+        "normalized_entropy": -0.0,
+        "max_class_fraction": 1.0,
+        "represented_classes": 1,
+        "class_counts": [
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "entropy_quartile": 1
+      }
+    },
+    {
+      "client": 15,
+      "bank": "A",
+      "K": 20,
+      "primary": true,
+      "true_context": "clean",
+      "selected": "gaussian_blur",
+      "second": "clean",
+      "distance": 19.943202209518155,
+      "second_distance": 29.94338372179365,
+      "margin": 10.000181512275496,
+      "signed_true_margin": -10.000181512275496,
+      "d_clean": 29.94338372179365,
+      "d_brightness_dark": 197.9616545943604,
+      "d_contrast_low": 41.20597486675078,
+      "d_gaussian_noise": 63.76541328312113,
+      "d_gaussian_blur": 19.943202209518155,
+      "skew": {
+        "client": 15,
+        "K": 20,
+        "normalized_entropy": -0.0,
+        "max_class_fraction": 1.0,
+        "represented_classes": 1,
+        "class_counts": [
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "entropy_quartile": 1
+      }
+    },
+    {
+      "client": 30,
+      "bank": "A",
+      "K": 20,
+      "primary": true,
+      "true_context": "clean",
+      "selected": "gaussian_blur",
+      "second": "clean",
+      "distance": 11.260000282950823,
+      "second_distance": 19.53014909239434,
+      "margin": 8.270148809443516,
+      "signed_true_margin": -8.270148809443516,
+      "d_clean": 19.53014909239434,
+      "d_brightness_dark": 238.5941119850604,
+      "d_contrast_low": 42.67210747374621,
+      "d_gaussian_noise": 51.612483527810824,
+      "d_gaussian_blur": 11.260000282950823,
+      "skew": {
+        "client": 30,
+        "K": 20,
+        "normalized_entropy": 0.37162086641628495,
+        "max_class_fraction": 0.5,
+        "represented_classes": 3,
+        "class_counts": [
+          0,
+          0,
+          9,
+          0,
+          1,
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        "entropy_quartile": 3
+      }
+    },
+    {
+      "client": 30,
+      "bank": "B",
+      "K": 20,
+      "primary": true,
+      "true_context": "clean",
+      "selected": "gaussian_blur",
+      "second": "clean",
+      "distance": 10.507784387830142,
+      "second_distance": 18.460690924075926,
+      "margin": 7.952906536245784,
+      "signed_true_margin": -7.952906536245784,
+      "d_clean": 18.460690924075926,
+      "d_brightness_dark": 240.8703125678014,
+      "d_contrast_low": 44.79044164247895,
+      "d_gaussian_noise": 51.686297516147185,
+      "d_gaussian_blur": 10.507784387830142,
+      "skew": {
+        "client": 30,
+        "K": 20,
+        "normalized_entropy": 0.37162086641628495,
+        "max_class_fraction": 0.5,
+        "represented_classes": 3,
+        "class_counts": [
+          0,
+          0,
+          9,
+          0,
+          1,
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        "entropy_quartile": 3
+      }
+    },
+    {
+      "client": 74,
+      "bank": "A",
+      "K": 20,
+      "primary": true,
+      "true_context": "gaussian_blur",
+      "selected": "contrast_low",
+      "second": "gaussian_blur",
+      "distance": 20.993646363887404,
+      "second_distance": 26.67169299831531,
+      "margin": 5.678046634427908,
+      "signed_true_margin": -5.678046634427908,
+      "d_clean": 61.2338203507718,
+      "d_brightness_dark": 192.23076255270556,
+      "d_contrast_low": 20.993646363887404,
+      "d_gaussian_noise": 112.55372281428032,
+      "d_gaussian_blur": 26.67169299831531,
+      "skew": {
+        "client": 74,
+        "K": 20,
+        "normalized_entropy": -0.0,
+        "max_class_fraction": 1.0,
+        "represented_classes": 1,
+        "class_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        "entropy_quartile": 1
+      }
+    },
+    {
+      "client": 45,
+      "bank": "A",
+      "K": 20,
+      "primary": true,
+      "true_context": "clean",
+      "selected": "gaussian_blur",
+      "second": "clean",
+      "distance": 6.150991526596698,
+      "second_distance": 9.72404362110452,
+      "margin": 3.5730520945078226,
+      "signed_true_margin": -3.5730520945078226,
+      "d_clean": 9.72404362110452,
+      "d_brightness_dark": 255.63330040814657,
+      "d_contrast_low": 48.44075706620045,
+      "d_gaussian_noise": 45.00722892187857,
+      "d_gaussian_blur": 6.150991526596698,
+      "skew": {
+        "client": 45,
+        "K": 20,
+        "normalized_entropy": 0.3076310099728432,
+        "max_class_fraction": 0.8,
+        "represented_classes": 4,
+        "class_counts": [
+          0,
+          0,
+          16,
+          0,
+          2,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "entropy_quartile": 3
+      }
+    },
+    {
+      "client": 29,
+      "bank": "B",
+      "K": 20,
+      "primary": true,
+      "true_context": "gaussian_blur",
+      "selected": "clean",
+      "second": "gaussian_blur",
+      "distance": 13.645633451298911,
+      "second_distance": 16.809303834556992,
+      "margin": 3.163670383258081,
+      "signed_true_margin": -3.163670383258081,
+      "d_clean": 13.645633451298911,
+      "d_brightness_dark": 303.29229871009755,
+      "d_contrast_low": 77.0673214897171,
+      "d_gaussian_noise": 53.037748840492505,
+      "d_gaussian_blur": 16.809303834556992,
+      "skew": {
+        "client": 29,
+        "K": 20,
+        "normalized_entropy": -0.0,
+        "max_class_fraction": 1.0,
+        "represented_classes": 1,
+        "class_counts": [
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "entropy_quartile": 1
+      }
+    },
+    {
+      "client": 26,
+      "bank": "A",
+      "K": 20,
+      "primary": true,
+      "true_context": "clean",
+      "selected": "gaussian_blur",
+      "second": "clean",
+      "distance": 17.671868270495914,
+      "second_distance": 20.437866183013874,
+      "margin": 2.7659979125179603,
+      "signed_true_margin": -2.7659979125179603,
+      "d_clean": 20.437866183013874,
+      "d_brightness_dark": 220.04614013742787,
+      "d_contrast_low": 51.811654452128366,
+      "d_gaussian_noise": 48.00489155461317,
+      "d_gaussian_blur": 17.671868270495914,
+      "skew": {
+        "client": 26,
+        "K": 20,
+        "normalized_entropy": 0.08621407475879368,
+        "max_class_fraction": 0.95,
+        "represented_classes": 2,
+        "class_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          19,
+          0,
+          0,
+          0
+        ],
+        "entropy_quartile": 1
+      }
+    }
+  ],
+  "quartile_rule": "Sort entropy then client ID, consecutive groups of25; descriptive only"
+}

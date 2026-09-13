@@ -1,0 +1,20 @@
+{
+  "frozen_hashes_unchanged": true,
+  "no_state_fits": true,
+  "support_pool_overlap": 0,
+  "support_query_overlap": 0,
+  "selection_labels_blind": true,
+  "manifest_before_features": true,
+  "primary_decisions": 1000,
+  "total_decisions": 1000,
+  "all_selections_before_query_and_skew": true,
+  "same_ids_all_contexts_banks": true,
+  "source_only_signature_api": true,
+  "model_unchanged": true,
+  "all_finite": true,
+  "old_macroclass_max_error_pp": 0.0,
+  "reused_query_client_evaluations": 985,
+  "new_query_client_evaluations": 15,
+  "no_query_tuning": true,
+  "manifest_decisions_unchanged": true
+}

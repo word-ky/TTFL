@@ -1,0 +1,6 @@
+{
+  "runId": "20260913-224708-ttfl-t009-gpu1",
+  "releaseId": "20260913-224704-ttfl-t009-importfix",
+  "sessionName": "autodl-20260913-224708-ttfl-t009-gpu1",
+  "command": "export CUDA_VISIBLE_DEVICES=1 TTFL_COMMIT=IMPORT_FIX; bash scripts/run_t009.sh"
+}

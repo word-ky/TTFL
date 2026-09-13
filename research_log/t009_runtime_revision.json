@@ -1,0 +1,7 @@
+{
+  "actual_commit": "fab17bd",
+  "raw_launch_label": "IMPORT_FIX",
+  "deployed_evaluator_sha256": "6684a810489a0ec69dc837627cfa6dc9503073dd13d9e7aec304e65220b43173",
+  "git_blob_sha256": "d06e46dfebb0be1e797be72a6b76c0001926c3313874b109461fe69d65f340aa",
+  "evidence": "Remote sha256sum matches deployed CRLF bytes; LF-normalized source matches git commit. Raw IMPORT_FIX label retained."
+}

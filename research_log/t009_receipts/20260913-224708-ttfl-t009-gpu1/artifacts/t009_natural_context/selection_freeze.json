@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-13T14:47:26.696829+00:00",
+  "manifest_sha256": "ba139b530bc231b13dc5f0fe9a370a25050bb74f1264eadc938472f56216afac",
+  "decisions_sha256": "836e564d7b4fb943e755053e1824549bddef81a5b9f79db75dcb8f5b176a29ee",
+  "primary_decisions": 1000,
+  "total_decisions": 1000,
+  "query_metrics_opened": false,
+  "support_label_statistics_computed": false
+}

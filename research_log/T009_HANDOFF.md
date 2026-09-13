@@ -13,3 +13,9 @@ Run20260913-224559-ttfl-t009-gpu1 release20260913-224555-ttfl-t009 coded136746 o
 
 ## 2026-09-13T22:46:58.8172260+08:00 — observed import repair
 Run20260913-224559-ttfl-t009-gpu1 exit1: read_data missingimport atfirstsupportpixels. Manifestalreadywritten, noID/query/skewresults. AddexistingPFLlibread_dataimportonly; rerun deterministicselectionandverifyK/IDsagainstfailedrunreceipt. Preservefailure.
+
+## 2026-09-13T22:47:38.8137888+08:00 — fixed runtime launch
+Run20260913-224708-ttfl-t009-gpu1 release20260913-224704-ttfl-t009-importfix. Actual deployed git revision fab17bd; launch TTFL_COMMIT string was IMPORT_FIX (labelonly, notSHA). Preserve rawlabel, supplemental runtime_revision receipt will map deployedfileSHA tofab17bd; no rerun for metadata.
+
+## 2026-09-13T22:53:51.1798345+08:00 — COMPLETE N-C
+Run224708exit0,40tests PASS. K20 mineligible30 max1521. NID97.6/98.0PASS; cleanmacrodelta-.610321/-.616185 failsafety; Blurretention.342997/.538886 fails.3/4shiftjointPASS insufficientdueclean.985oldclientpredictionsreused15newcleanwrongstateevals. Independentdistanceerror1.14e-13/count7.1e-15pp; Fractiongatesmatch. Bothattemptmanifestsidenticalexcepttimestamp. RuntimeIMPORT_FIXalias resolvedfab17bd via remoteCRLFfileSHA6684a.. and normalizedgitLF match. Rawreceipts retained. LowestentropyquartilecontainsallBlurerrors; percontextSpearmanweakmaxabs.171. Client29Blur→clean costs~.77pp perbank. AwaitLead,nointerpolation/SSL/nextstage.

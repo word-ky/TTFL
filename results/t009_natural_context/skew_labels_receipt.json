@@ -1,0 +1,2002 @@
+[
+  {
+    "client": 0,
+    "K": 20,
+    "normalized_entropy": 0.22504541292605024,
+    "max_class_fraction": 0.85,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      17,
+      0,
+      0
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 1,
+    "K": 20,
+    "normalized_entropy": 0.18358022428449897,
+    "max_class_fraction": 0.85,
+    "represented_classes": 2,
+    "class_counts": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      17,
+      0,
+      0
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 2,
+    "K": 20,
+    "normalized_entropy": 0.1712847410710057,
+    "max_class_fraction": 0.9,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      18
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 3,
+    "K": 20,
+    "normalized_entropy": -0.0,
+    "max_class_fraction": 1.0,
+    "represented_classes": 1,
+    "class_counts": [
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 4,
+    "K": 20,
+    "normalized_entropy": 0.3670280240301799,
+    "max_class_fraction": 0.55,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      11,
+      0,
+      0,
+      0,
+      8
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 5,
+    "K": 20,
+    "normalized_entropy": 0.3849866301909954,
+    "max_class_fraction": 0.65,
+    "represented_classes": 3,
+    "class_counts": [
+      13,
+      0,
+      3,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 6,
+    "K": 20,
+    "normalized_entropy": 0.37162086641628495,
+    "max_class_fraction": 0.5,
+    "represented_classes": 3,
+    "class_counts": [
+      1,
+      0,
+      0,
+      9,
+      0,
+      0,
+      10,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 7,
+    "K": 20,
+    "normalized_entropy": 0.14118174150460758,
+    "max_class_fraction": 0.9,
+    "represented_classes": 2,
+    "class_counts": [
+      0,
+      2,
+      0,
+      18,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 8,
+    "K": 20,
+    "normalized_entropy": 0.21732201127364886,
+    "max_class_fraction": 0.8,
+    "represented_classes": 2,
+    "class_counts": [
+      4,
+      0,
+      0,
+      0,
+      0,
+      16,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 9,
+    "K": 20,
+    "normalized_entropy": 0.2652949955741215,
+    "max_class_fraction": 0.7,
+    "represented_classes": 2,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      14,
+      6,
+      0
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 10,
+    "K": 20,
+    "normalized_entropy": 0.3556039942733158,
+    "max_class_fraction": 0.7,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      0,
+      3,
+      3,
+      14,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 11,
+    "K": 20,
+    "normalized_entropy": 0.2988548895792612,
+    "max_class_fraction": 0.55,
+    "represented_classes": 2,
+    "class_counts": [
+      0,
+      0,
+      11,
+      0,
+      0,
+      0,
+      0,
+      0,
+      9,
+      0
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 12,
+    "K": 20,
+    "normalized_entropy": 0.18358022428449897,
+    "max_class_fraction": 0.85,
+    "represented_classes": 2,
+    "class_counts": [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      17,
+      0,
+      0
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 13,
+    "K": 20,
+    "normalized_entropy": 0.3172903635978727,
+    "max_class_fraction": 0.75,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      15,
+      0,
+      2,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 14,
+    "K": 20,
+    "normalized_entropy": 0.08621407475879368,
+    "max_class_fraction": 0.95,
+    "represented_classes": 2,
+    "class_counts": [
+      0,
+      1,
+      19,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 15,
+    "K": 20,
+    "normalized_entropy": -0.0,
+    "max_class_fraction": 1.0,
+    "represented_classes": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 16,
+    "K": 20,
+    "normalized_entropy": 0.5052456816589913,
+    "max_class_fraction": 0.5,
+    "represented_classes": 5,
+    "class_counts": [
+      0,
+      7,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      10,
+      1
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 17,
+    "K": 20,
+    "normalized_entropy": 0.4023767052555694,
+    "max_class_fraction": 0.55,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      11,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      7,
+      0
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 18,
+    "K": 20,
+    "normalized_entropy": 0.29854955310662773,
+    "max_class_fraction": 0.75,
+    "represented_classes": 3,
+    "class_counts": [
+      15,
+      0,
+      0,
+      1,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 19,
+    "K": 20,
+    "normalized_entropy": 0.3172903635978727,
+    "max_class_fraction": 0.75,
+    "represented_classes": 3,
+    "class_counts": [
+      3,
+      0,
+      15,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 20,
+    "K": 20,
+    "normalized_entropy": -0.0,
+    "max_class_fraction": 1.0,
+    "represented_classes": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 21,
+    "K": 20,
+    "normalized_entropy": -0.0,
+    "max_class_fraction": 1.0,
+    "represented_classes": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 22,
+    "K": 20,
+    "normalized_entropy": 0.29228525323862886,
+    "max_class_fraction": 0.6,
+    "represented_classes": 2,
+    "class_counts": [
+      0,
+      8,
+      12,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 23,
+    "K": 20,
+    "normalized_entropy": 0.5374816209824899,
+    "max_class_fraction": 0.5,
+    "represented_classes": 5,
+    "class_counts": [
+      10,
+      0,
+      2,
+      0,
+      0,
+      1,
+      0,
+      0,
+      6,
+      1
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 24,
+    "K": 20,
+    "normalized_entropy": 0.26616582133129196,
+    "max_class_fraction": 0.8,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      3,
+      0,
+      16
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 25,
+    "K": 20,
+    "normalized_entropy": 0.43881668341155816,
+    "max_class_fraction": 0.45,
+    "represented_classes": 3,
+    "class_counts": [
+      9,
+      3,
+      0,
+      0,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 26,
+    "K": 20,
+    "normalized_entropy": 0.08621407475879368,
+    "max_class_fraction": 0.95,
+    "represented_classes": 2,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      19,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 27,
+    "K": 20,
+    "normalized_entropy": -0.0,
+    "max_class_fraction": 1.0,
+    "represented_classes": 1,
+    "class_counts": [
+      0,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 28,
+    "K": 20,
+    "normalized_entropy": 0.5053986284565879,
+    "max_class_fraction": 0.65,
+    "represented_classes": 6,
+    "class_counts": [
+      1,
+      0,
+      1,
+      13,
+      3,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 29,
+    "K": 20,
+    "normalized_entropy": -0.0,
+    "max_class_fraction": 1.0,
+    "represented_classes": 1,
+    "class_counts": [
+      0,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 30,
+    "K": 20,
+    "normalized_entropy": 0.37162086641628495,
+    "max_class_fraction": 0.5,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      0,
+      9,
+      0,
+      1,
+      10,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 31,
+    "K": 20,
+    "normalized_entropy": -0.0,
+    "max_class_fraction": 1.0,
+    "represented_classes": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 32,
+    "K": 20,
+    "normalized_entropy": 0.6385229941014448,
+    "max_class_fraction": 0.35,
+    "represented_classes": 5,
+    "class_counts": [
+      7,
+      0,
+      3,
+      0,
+      5,
+      1,
+      0,
+      0,
+      4,
+      0
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 33,
+    "K": 20,
+    "normalized_entropy": 0.18358022428449897,
+    "max_class_fraction": 0.85,
+    "represented_classes": 2,
+    "class_counts": [
+      3,
+      0,
+      0,
+      17,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 34,
+    "K": 20,
+    "normalized_entropy": 0.3172903635978727,
+    "max_class_fraction": 0.75,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      0,
+      3,
+      15,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 35,
+    "K": 20,
+    "normalized_entropy": 0.2988548895792612,
+    "max_class_fraction": 0.55,
+    "represented_classes": 2,
+    "class_counts": [
+      0,
+      9,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      11,
+      0
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 36,
+    "K": 20,
+    "normalized_entropy": 0.4385343715564183,
+    "max_class_fraction": 0.7,
+    "represented_classes": 5,
+    "class_counts": [
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      14,
+      0,
+      2
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 37,
+    "K": 20,
+    "normalized_entropy": 0.34352144154944414,
+    "max_class_fraction": 0.65,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      13
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 38,
+    "K": 20,
+    "normalized_entropy": -0.0,
+    "max_class_fraction": 1.0,
+    "represented_classes": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 39,
+    "K": 20,
+    "normalized_entropy": -0.0,
+    "max_class_fraction": 1.0,
+    "represented_classes": 1,
+    "class_counts": [
+      0,
+      0,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 40,
+    "K": 20,
+    "normalized_entropy": -0.0,
+    "max_class_fraction": 1.0,
+    "represented_classes": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 41,
+    "K": 20,
+    "normalized_entropy": 0.34739336316427083,
+    "max_class_fraction": 0.75,
+    "represented_classes": 4,
+    "class_counts": [
+      1,
+      1,
+      0,
+      15,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 42,
+    "K": 20,
+    "normalized_entropy": 0.4023767052555694,
+    "max_class_fraction": 0.55,
+    "represented_classes": 3,
+    "class_counts": [
+      2,
+      7,
+      11,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 43,
+    "K": 20,
+    "normalized_entropy": 0.29228525323862886,
+    "max_class_fraction": 0.6,
+    "represented_classes": 2,
+    "class_counts": [
+      12,
+      0,
+      0,
+      0,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 44,
+    "K": 20,
+    "normalized_entropy": 0.3670280240301799,
+    "max_class_fraction": 0.55,
+    "represented_classes": 3,
+    "class_counts": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      11
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 45,
+    "K": 20,
+    "normalized_entropy": 0.3076310099728432,
+    "max_class_fraction": 0.8,
+    "represented_classes": 4,
+    "class_counts": [
+      0,
+      0,
+      16,
+      0,
+      2,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 46,
+    "K": 20,
+    "normalized_entropy": 0.1712847410710057,
+    "max_class_fraction": 0.9,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      18,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 47,
+    "K": 20,
+    "normalized_entropy": 0.5660814954471801,
+    "max_class_fraction": 0.5,
+    "represented_classes": 5,
+    "class_counts": [
+      2,
+      5,
+      2,
+      0,
+      1,
+      0,
+      0,
+      0,
+      10,
+      0
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 48,
+    "K": 20,
+    "normalized_entropy": 0.4072105587434522,
+    "max_class_fraction": 0.6,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      12,
+      0,
+      0,
+      3,
+      0,
+      5
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 49,
+    "K": 20,
+    "normalized_entropy": 0.18358022428449897,
+    "max_class_fraction": 0.85,
+    "represented_classes": 2,
+    "class_counts": [
+      0,
+      3,
+      0,
+      17,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 50,
+    "K": 20,
+    "normalized_entropy": 0.2442190502882155,
+    "max_class_fraction": 0.75,
+    "represented_classes": 2,
+    "class_counts": [
+      0,
+      0,
+      15,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 51,
+    "K": 20,
+    "normalized_entropy": 0.1712847410710057,
+    "max_class_fraction": 0.9,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      18
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 52,
+    "K": 20,
+    "normalized_entropy": 0.14118174150460758,
+    "max_class_fraction": 0.9,
+    "represented_classes": 2,
+    "class_counts": [
+      2,
+      0,
+      18,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 53,
+    "K": 20,
+    "normalized_entropy": 0.2652949955741215,
+    "max_class_fraction": 0.7,
+    "represented_classes": 2,
+    "class_counts": [
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      14,
+      0,
+      0
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 54,
+    "K": 20,
+    "normalized_entropy": 0.26616582133129196,
+    "max_class_fraction": 0.8,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      1,
+      16,
+      0,
+      0
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 55,
+    "K": 20,
+    "normalized_entropy": 0.08621407475879368,
+    "max_class_fraction": 0.95,
+    "represented_classes": 2,
+    "class_counts": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      19,
+      0
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 56,
+    "K": 20,
+    "normalized_entropy": 0.4802818720531094,
+    "max_class_fraction": 0.6,
+    "represented_classes": 4,
+    "class_counts": [
+      0,
+      0,
+      0,
+      3,
+      2,
+      0,
+      3,
+      0,
+      0,
+      12
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 57,
+    "K": 20,
+    "normalized_entropy": 0.5779694921683955,
+    "max_class_fraction": 0.45,
+    "represented_classes": 5,
+    "class_counts": [
+      1,
+      6,
+      0,
+      9,
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 58,
+    "K": 20,
+    "normalized_entropy": 0.14118174150460758,
+    "max_class_fraction": 0.9,
+    "represented_classes": 2,
+    "class_counts": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      18
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 59,
+    "K": 20,
+    "normalized_entropy": 0.6145365019512083,
+    "max_class_fraction": 0.4,
+    "represented_classes": 5,
+    "class_counts": [
+      5,
+      8,
+      0,
+      1,
+      0,
+      2,
+      4,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 60,
+    "K": 20,
+    "normalized_entropy": -0.0,
+    "max_class_fraction": 1.0,
+    "represented_classes": 1,
+    "class_counts": [
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 61,
+    "K": 20,
+    "normalized_entropy": 0.358755552239424,
+    "max_class_fraction": 0.75,
+    "represented_classes": 4,
+    "class_counts": [
+      1,
+      0,
+      0,
+      0,
+      2,
+      2,
+      0,
+      15,
+      0,
+      0
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 62,
+    "K": 20,
+    "normalized_entropy": 0.5878285561418409,
+    "max_class_fraction": 0.3,
+    "represented_classes": 4,
+    "class_counts": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      6,
+      5,
+      0,
+      0,
+      6
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 63,
+    "K": 20,
+    "normalized_entropy": 0.37162086641628495,
+    "max_class_fraction": 0.5,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      0,
+      0,
+      9,
+      1,
+      0,
+      10,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 64,
+    "K": 20,
+    "normalized_entropy": 0.4385343715564183,
+    "max_class_fraction": 0.7,
+    "represented_classes": 5,
+    "class_counts": [
+      0,
+      1,
+      0,
+      14,
+      0,
+      2,
+      0,
+      0,
+      2,
+      1
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 65,
+    "K": 20,
+    "normalized_entropy": -0.0,
+    "max_class_fraction": 1.0,
+    "represented_classes": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 66,
+    "K": 20,
+    "normalized_entropy": 0.1712847410710057,
+    "max_class_fraction": 0.9,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      18
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 67,
+    "K": 20,
+    "normalized_entropy": 0.5362838323534155,
+    "max_class_fraction": 0.55,
+    "represented_classes": 5,
+    "class_counts": [
+      0,
+      3,
+      1,
+      0,
+      0,
+      4,
+      0,
+      11,
+      1,
+      0
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 68,
+    "K": 20,
+    "normalized_entropy": 0.45542455414570265,
+    "max_class_fraction": 0.45,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      7,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      9
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 69,
+    "K": 20,
+    "normalized_entropy": 0.3239978696052099,
+    "max_class_fraction": 0.7,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      0,
+      5,
+      0,
+      0,
+      1,
+      0,
+      14,
+      0,
+      0
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 70,
+    "K": 20,
+    "normalized_entropy": 0.21732201127364886,
+    "max_class_fraction": 0.8,
+    "represented_classes": 2,
+    "class_counts": [
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      16,
+      0
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 71,
+    "K": 20,
+    "normalized_entropy": 0.3172903635978727,
+    "max_class_fraction": 0.75,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      15,
+      2,
+      0,
+      0,
+      3,
+      0
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 72,
+    "K": 20,
+    "normalized_entropy": 0.46343299021718715,
+    "max_class_fraction": 0.45,
+    "represented_classes": 3,
+    "class_counts": [
+      5,
+      0,
+      0,
+      0,
+      0,
+      9,
+      0,
+      0,
+      6,
+      0
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 73,
+    "K": 20,
+    "normalized_entropy": 0.4023767052555694,
+    "max_class_fraction": 0.55,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      2,
+      11,
+      0,
+      0
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 74,
+    "K": 20,
+    "normalized_entropy": -0.0,
+    "max_class_fraction": 1.0,
+    "represented_classes": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 75,
+    "K": 20,
+    "normalized_entropy": 0.44717262228329563,
+    "max_class_fraction": 0.5,
+    "represented_classes": 3,
+    "class_counts": [
+      4,
+      6,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 76,
+    "K": 20,
+    "normalized_entropy": 0.37162086641628495,
+    "max_class_fraction": 0.5,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      9,
+      10,
+      0,
+      0
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 77,
+    "K": 20,
+    "normalized_entropy": 0.29228525323862886,
+    "max_class_fraction": 0.6,
+    "represented_classes": 2,
+    "class_counts": [
+      12,
+      0,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 78,
+    "K": 20,
+    "normalized_entropy": 0.29854955310662773,
+    "max_class_fraction": 0.75,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      4,
+      15,
+      0,
+      0,
+      1,
+      0
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 79,
+    "K": 20,
+    "normalized_entropy": 0.26616582133129196,
+    "max_class_fraction": 0.8,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      1,
+      16,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 80,
+    "K": 20,
+    "normalized_entropy": 0.14118174150460758,
+    "max_class_fraction": 0.9,
+    "represented_classes": 2,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      18,
+      2,
+      0,
+      0
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 81,
+    "K": 20,
+    "normalized_entropy": 0.08621407475879368,
+    "max_class_fraction": 0.95,
+    "represented_classes": 2,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      19,
+      0,
+      1
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 82,
+    "K": 20,
+    "normalized_entropy": 0.08621407475879368,
+    "max_class_fraction": 0.95,
+    "represented_classes": 2,
+    "class_counts": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      19,
+      0,
+      0
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 83,
+    "K": 20,
+    "normalized_entropy": 0.26616582133129196,
+    "max_class_fraction": 0.8,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      3,
+      16,
+      0
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 84,
+    "K": 20,
+    "normalized_entropy": 0.45542455414570265,
+    "max_class_fraction": 0.45,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      0,
+      7,
+      4,
+      0,
+      0,
+      9,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 85,
+    "K": 20,
+    "normalized_entropy": 0.2811825026595474,
+    "max_class_fraction": 0.65,
+    "represented_classes": 2,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      13,
+      7,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 86,
+    "K": 20,
+    "normalized_entropy": 0.4647156441454661,
+    "max_class_fraction": 0.55,
+    "represented_classes": 4,
+    "class_counts": [
+      0,
+      0,
+      2,
+      0,
+      11,
+      6,
+      1,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 87,
+    "K": 20,
+    "normalized_entropy": 0.14118174150460758,
+    "max_class_fraction": 0.9,
+    "represented_classes": 2,
+    "class_counts": [
+      0,
+      0,
+      0,
+      18,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 88,
+    "K": 20,
+    "normalized_entropy": 0.4802818720531094,
+    "max_class_fraction": 0.6,
+    "represented_classes": 4,
+    "class_counts": [
+      0,
+      0,
+      0,
+      2,
+      3,
+      0,
+      12,
+      0,
+      0,
+      3
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 89,
+    "K": 20,
+    "normalized_entropy": 0.2652949955741215,
+    "max_class_fraction": 0.7,
+    "represented_classes": 2,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      14,
+      6,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 90,
+    "K": 20,
+    "normalized_entropy": 0.5365043035268443,
+    "max_class_fraction": 0.45,
+    "represented_classes": 4,
+    "class_counts": [
+      0,
+      0,
+      3,
+      6,
+      0,
+      9,
+      0,
+      0,
+      0,
+      2
+    ],
+    "entropy_quartile": 4
+  },
+  {
+    "client": 91,
+    "K": 20,
+    "normalized_entropy": 0.22504541292605024,
+    "max_class_fraction": 0.85,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      0,
+      17
+    ],
+    "entropy_quartile": 2
+  },
+  {
+    "client": 92,
+    "K": 20,
+    "normalized_entropy": 0.3239978696052098,
+    "max_class_fraction": 0.7,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      14,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 93,
+    "K": 20,
+    "normalized_entropy": -0.0,
+    "max_class_fraction": 1.0,
+    "represented_classes": 1,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 94,
+    "K": 20,
+    "normalized_entropy": 0.08621407475879368,
+    "max_class_fraction": 0.95,
+    "represented_classes": 2,
+    "class_counts": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      19,
+      0,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 95,
+    "K": 20,
+    "normalized_entropy": 0.29854955310662773,
+    "max_class_fraction": 0.75,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      15,
+      0,
+      0,
+      0,
+      4,
+      1,
+      0,
+      0,
+      0
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 96,
+    "K": 20,
+    "normalized_entropy": 0.08621407475879368,
+    "max_class_fraction": 0.95,
+    "represented_classes": 2,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      19
+    ],
+    "entropy_quartile": 1
+  },
+  {
+    "client": 97,
+    "K": 20,
+    "normalized_entropy": 0.29854955310662773,
+    "max_class_fraction": 0.75,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      0,
+      15,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 98,
+    "K": 20,
+    "normalized_entropy": 0.34822537285722394,
+    "max_class_fraction": 0.7,
+    "represented_classes": 3,
+    "class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      14,
+      2,
+      0,
+      0,
+      4
+    ],
+    "entropy_quartile": 3
+  },
+  {
+    "client": 99,
+    "K": 20,
+    "normalized_entropy": 0.6814913078447037,
+    "max_class_fraction": 0.35,
+    "represented_classes": 6,
+    "class_counts": [
+      2,
+      0,
+      0,
+      2,
+      6,
+      7,
+      0,
+      2,
+      0,
+      1
+    ],
+    "entropy_quartile": 4
+  }
+]

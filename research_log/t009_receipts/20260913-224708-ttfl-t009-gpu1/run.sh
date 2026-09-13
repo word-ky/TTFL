@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -uo pipefail
+cd '/home/wenchang/asdasdsad/wjq/TTFL/current'
+export AUTODL_RUN_ID='20260913-224708-ttfl-t009-gpu1'
+export AUTODL_RUN_DIR='/home/wenchang/asdasdsad/wjq/TTFL/runs/20260913-224708-ttfl-t009-gpu1'
+export AUTODL_ARTIFACTS_DIR='/home/wenchang/asdasdsad/wjq/TTFL/runs/20260913-224708-ttfl-t009-gpu1/artifacts'
+mkdir -p "$AUTODL_ARTIFACTS_DIR"
+echo "[autodl] run_id=$AUTODL_RUN_ID"
+echo "[autodl] started_at=$(date -Is)"
+{
+export CUDA_VISIBLE_DEVICES=1 TTFL_COMMIT=IMPORT_FIX; bash scripts/run_t009.sh
+}
+status=$?
+echo "[autodl] finished_at=$(date -Is)"
+echo "[autodl] exit_code=$status"
+exit $status

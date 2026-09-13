@@ -1,0 +1,8711 @@
+{
+  "seed": 7,
+  "ordering": "random.Random(SHA256(7:client:T009-natural-support)).shuffle(train-order eligible IDs)",
+  "chosen_K": 20,
+  "eligible_counts": {
+    "0": 532,
+    "1": 294,
+    "2": 415,
+    "3": 645,
+    "4": 309,
+    "5": 468,
+    "6": 778,
+    "7": 589,
+    "8": 573,
+    "9": 523,
+    "10": 844,
+    "11": 537,
+    "12": 489,
+    "13": 235,
+    "14": 212,
+    "15": 705,
+    "16": 61,
+    "17": 259,
+    "18": 30,
+    "19": 270,
+    "20": 454,
+    "21": 723,
+    "22": 521,
+    "23": 416,
+    "24": 531,
+    "25": 105,
+    "26": 850,
+    "27": 580,
+    "28": 78,
+    "29": 1144,
+    "30": 820,
+    "31": 601,
+    "32": 588,
+    "33": 787,
+    "34": 305,
+    "35": 521,
+    "36": 54,
+    "37": 239,
+    "38": 73,
+    "39": 475,
+    "40": 747,
+    "41": 296,
+    "42": 956,
+    "43": 590,
+    "44": 218,
+    "45": 38,
+    "46": 236,
+    "47": 94,
+    "48": 481,
+    "49": 604,
+    "50": 358,
+    "51": 36,
+    "52": 71,
+    "53": 362,
+    "54": 706,
+    "55": 627,
+    "56": 349,
+    "57": 348,
+    "58": 80,
+    "59": 279,
+    "60": 1423,
+    "61": 43,
+    "62": 221,
+    "63": 640,
+    "64": 380,
+    "65": 453,
+    "66": 578,
+    "67": 244,
+    "68": 685,
+    "69": 425,
+    "70": 230,
+    "71": 106,
+    "72": 479,
+    "73": 677,
+    "74": 489,
+    "75": 596,
+    "76": 498,
+    "77": 511,
+    "78": 291,
+    "79": 53,
+    "80": 239,
+    "81": 49,
+    "82": 487,
+    "83": 1521,
+    "84": 758,
+    "85": 662,
+    "86": 117,
+    "87": 449,
+    "88": 228,
+    "89": 460,
+    "90": 461,
+    "91": 545,
+    "92": 283,
+    "93": 649,
+    "94": 876,
+    "95": 113,
+    "96": 641,
+    "97": 505,
+    "98": 196,
+    "99": 431
+  },
+  "secondary_K": null,
+  "clients": {
+    "0": {
+      "client": 0,
+      "eligible_count": 532,
+      "selected": [
+        {
+          "train_index": 92,
+          "original_id": 1840
+        },
+        {
+          "train_index": 434,
+          "original_id": 17469
+        },
+        {
+          "train_index": 177,
+          "original_id": 26317
+        },
+        {
+          "train_index": 336,
+          "original_id": 43230
+        },
+        {
+          "train_index": 473,
+          "original_id": 545
+        },
+        {
+          "train_index": 142,
+          "original_id": 4333
+        },
+        {
+          "train_index": 483,
+          "original_id": 48386
+        },
+        {
+          "train_index": 519,
+          "original_id": 51473
+        },
+        {
+          "train_index": 208,
+          "original_id": 21056
+        },
+        {
+          "train_index": 16,
+          "original_id": 20592
+        },
+        {
+          "train_index": 530,
+          "original_id": 51057
+        },
+        {
+          "train_index": 117,
+          "original_id": 37595
+        },
+        {
+          "train_index": 108,
+          "original_id": 56658
+        },
+        {
+          "train_index": 164,
+          "original_id": 20792
+        },
+        {
+          "train_index": 292,
+          "original_id": 53031
+        },
+        {
+          "train_index": 131,
+          "original_id": 12243
+        },
+        {
+          "train_index": 58,
+          "original_id": 33040
+        },
+        {
+          "train_index": 431,
+          "original_id": 23246
+        },
+        {
+          "train_index": 422,
+          "original_id": 27161
+        },
+        {
+          "train_index": 484,
+          "original_id": 31123
+        }
+      ]
+    },
+    "1": {
+      "client": 1,
+      "eligible_count": 294,
+      "selected": [
+        {
+          "train_index": 33,
+          "original_id": 58685
+        },
+        {
+          "train_index": 170,
+          "original_id": 37293
+        },
+        {
+          "train_index": 84,
+          "original_id": 49491
+        },
+        {
+          "train_index": 222,
+          "original_id": 36352
+        },
+        {
+          "train_index": 25,
+          "original_id": 56807
+        },
+        {
+          "train_index": 277,
+          "original_id": 38142
+        },
+        {
+          "train_index": 92,
+          "original_id": 38195
+        },
+        {
+          "train_index": 27,
+          "original_id": 52518
+        },
+        {
+          "train_index": 212,
+          "original_id": 25132
+        },
+        {
+          "train_index": 70,
+          "original_id": 956
+        },
+        {
+          "train_index": 234,
+          "original_id": 16252
+        },
+        {
+          "train_index": 281,
+          "original_id": 49796
+        },
+        {
+          "train_index": 44,
+          "original_id": 16565
+        },
+        {
+          "train_index": 30,
+          "original_id": 13351
+        },
+        {
+          "train_index": 91,
+          "original_id": 25061
+        },
+        {
+          "train_index": 152,
+          "original_id": 53241
+        },
+        {
+          "train_index": 147,
+          "original_id": 24013
+        },
+        {
+          "train_index": 235,
+          "original_id": 8624
+        },
+        {
+          "train_index": 53,
+          "original_id": 3150
+        },
+        {
+          "train_index": 141,
+          "original_id": 28369
+        }
+      ]
+    },
+    "2": {
+      "client": 2,
+      "eligible_count": 415,
+      "selected": [
+        {
+          "train_index": 65,
+          "original_id": 24042
+        },
+        {
+          "train_index": 393,
+          "original_id": 28879
+        },
+        {
+          "train_index": 152,
+          "original_id": 35231
+        },
+        {
+          "train_index": 265,
+          "original_id": 14436
+        },
+        {
+          "train_index": 123,
+          "original_id": 8303
+        },
+        {
+          "train_index": 16,
+          "original_id": 29258
+        },
+        {
+          "train_index": 302,
+          "original_id": 23990
+        },
+        {
+          "train_index": 143,
+          "original_id": 15750
+        },
+        {
+          "train_index": 207,
+          "original_id": 49003
+        },
+        {
+          "train_index": 399,
+          "original_id": 24731
+        },
+        {
+          "train_index": 368,
+          "original_id": 42882
+        },
+        {
+          "train_index": 243,
+          "original_id": 47619
+        },
+        {
+          "train_index": 279,
+          "original_id": 39754
+        },
+        {
+          "train_index": 151,
+          "original_id": 1343
+        },
+        {
+          "train_index": 188,
+          "original_id": 41906
+        },
+        {
+          "train_index": 363,
+          "original_id": 37968
+        },
+        {
+          "train_index": 314,
+          "original_id": 12555
+        },
+        {
+          "train_index": 20,
+          "original_id": 59620
+        },
+        {
+          "train_index": 156,
+          "original_id": 26945
+        },
+        {
+          "train_index": 100,
+          "original_id": 1213
+        }
+      ]
+    },
+    "3": {
+      "client": 3,
+      "eligible_count": 645,
+      "selected": [
+        {
+          "train_index": 424,
+          "original_id": 46763
+        },
+        {
+          "train_index": 100,
+          "original_id": 34799
+        },
+        {
+          "train_index": 613,
+          "original_id": 53494
+        },
+        {
+          "train_index": 414,
+          "original_id": 42573
+        },
+        {
+          "train_index": 563,
+          "original_id": 38326
+        },
+        {
+          "train_index": 143,
+          "original_id": 14534
+        },
+        {
+          "train_index": 511,
+          "original_id": 18920
+        },
+        {
+          "train_index": 368,
+          "original_id": 58358
+        },
+        {
+          "train_index": 478,
+          "original_id": 5952
+        },
+        {
+          "train_index": 39,
+          "original_id": 14334
+        },
+        {
+          "train_index": 489,
+          "original_id": 22970
+        },
+        {
+          "train_index": 471,
+          "original_id": 50090
+        },
+        {
+          "train_index": 265,
+          "original_id": 4778
+        },
+        {
+          "train_index": 540,
+          "original_id": 13028
+        },
+        {
+          "train_index": 407,
+          "original_id": 43828
+        },
+        {
+          "train_index": 612,
+          "original_id": 59608
+        },
+        {
+          "train_index": 210,
+          "original_id": 6952
+        },
+        {
+          "train_index": 286,
+          "original_id": 6428
+        },
+        {
+          "train_index": 374,
+          "original_id": 7859
+        },
+        {
+          "train_index": 155,
+          "original_id": 5428
+        }
+      ]
+    },
+    "4": {
+      "client": 4,
+      "eligible_count": 309,
+      "selected": [
+        {
+          "train_index": 16,
+          "original_id": 36099
+        },
+        {
+          "train_index": 277,
+          "original_id": 45503
+        },
+        {
+          "train_index": 96,
+          "original_id": 16664
+        },
+        {
+          "train_index": 223,
+          "original_id": 24889
+        },
+        {
+          "train_index": 14,
+          "original_id": 52366
+        },
+        {
+          "train_index": 262,
+          "original_id": 37310
+        },
+        {
+          "train_index": 113,
+          "original_id": 2016
+        },
+        {
+          "train_index": 19,
+          "original_id": 57385
+        },
+        {
+          "train_index": 4,
+          "original_id": 58084
+        },
+        {
+          "train_index": 92,
+          "original_id": 19380
+        },
+        {
+          "train_index": 202,
+          "original_id": 26277
+        },
+        {
+          "train_index": 294,
+          "original_id": 6671
+        },
+        {
+          "train_index": 44,
+          "original_id": 43412
+        },
+        {
+          "train_index": 136,
+          "original_id": 5411
+        },
+        {
+          "train_index": 272,
+          "original_id": 52465
+        },
+        {
+          "train_index": 300,
+          "original_id": 16047
+        },
+        {
+          "train_index": 226,
+          "original_id": 7578
+        },
+        {
+          "train_index": 258,
+          "original_id": 21834
+        },
+        {
+          "train_index": 259,
+          "original_id": 18576
+        },
+        {
+          "train_index": 225,
+          "original_id": 54247
+        }
+      ]
+    },
+    "5": {
+      "client": 5,
+      "eligible_count": 468,
+      "selected": [
+        {
+          "train_index": 265,
+          "original_id": 47324
+        },
+        {
+          "train_index": 205,
+          "original_id": 17517
+        },
+        {
+          "train_index": 50,
+          "original_id": 53981
+        },
+        {
+          "train_index": 464,
+          "original_id": 37403
+        },
+        {
+          "train_index": 209,
+          "original_id": 10365
+        },
+        {
+          "train_index": 233,
+          "original_id": 56966
+        },
+        {
+          "train_index": 152,
+          "original_id": 28179
+        },
+        {
+          "train_index": 97,
+          "original_id": 25970
+        },
+        {
+          "train_index": 288,
+          "original_id": 8443
+        },
+        {
+          "train_index": 368,
+          "original_id": 53748
+        },
+        {
+          "train_index": 335,
+          "original_id": 56835
+        },
+        {
+          "train_index": 139,
+          "original_id": 57137
+        },
+        {
+          "train_index": 100,
+          "original_id": 41212
+        },
+        {
+          "train_index": 74,
+          "original_id": 55584
+        },
+        {
+          "train_index": 396,
+          "original_id": 4601
+        },
+        {
+          "train_index": 332,
+          "original_id": 48556
+        },
+        {
+          "train_index": 423,
+          "original_id": 30181
+        },
+        {
+          "train_index": 167,
+          "original_id": 13575
+        },
+        {
+          "train_index": 216,
+          "original_id": 12149
+        },
+        {
+          "train_index": 284,
+          "original_id": 52955
+        }
+      ]
+    },
+    "6": {
+      "client": 6,
+      "eligible_count": 778,
+      "selected": [
+        {
+          "train_index": 467,
+          "original_id": 15093
+        },
+        {
+          "train_index": 588,
+          "original_id": 620
+        },
+        {
+          "train_index": 438,
+          "original_id": 42145
+        },
+        {
+          "train_index": 781,
+          "original_id": 32180
+        },
+        {
+          "train_index": 217,
+          "original_id": 17184
+        },
+        {
+          "train_index": 454,
+          "original_id": 17738
+        },
+        {
+          "train_index": 264,
+          "original_id": 55487
+        },
+        {
+          "train_index": 673,
+          "original_id": 11105
+        },
+        {
+          "train_index": 77,
+          "original_id": 24364
+        },
+        {
+          "train_index": 718,
+          "original_id": 8393
+        },
+        {
+          "train_index": 590,
+          "original_id": 38229
+        },
+        {
+          "train_index": 203,
+          "original_id": 45038
+        },
+        {
+          "train_index": 567,
+          "original_id": 11917
+        },
+        {
+          "train_index": 61,
+          "original_id": 39205
+        },
+        {
+          "train_index": 55,
+          "original_id": 22142
+        },
+        {
+          "train_index": 659,
+          "original_id": 46535
+        },
+        {
+          "train_index": 615,
+          "original_id": 16177
+        },
+        {
+          "train_index": 146,
+          "original_id": 50418
+        },
+        {
+          "train_index": 506,
+          "original_id": 3289
+        },
+        {
+          "train_index": 499,
+          "original_id": 3391
+        }
+      ]
+    },
+    "7": {
+      "client": 7,
+      "eligible_count": 589,
+      "selected": [
+        {
+          "train_index": 395,
+          "original_id": 57036
+        },
+        {
+          "train_index": 501,
+          "original_id": 52698
+        },
+        {
+          "train_index": 12,
+          "original_id": 39130
+        },
+        {
+          "train_index": 448,
+          "original_id": 34042
+        },
+        {
+          "train_index": 78,
+          "original_id": 50261
+        },
+        {
+          "train_index": 506,
+          "original_id": 49157
+        },
+        {
+          "train_index": 236,
+          "original_id": 26399
+        },
+        {
+          "train_index": 53,
+          "original_id": 48907
+        },
+        {
+          "train_index": 143,
+          "original_id": 29871
+        },
+        {
+          "train_index": 377,
+          "original_id": 14574
+        },
+        {
+          "train_index": 63,
+          "original_id": 17578
+        },
+        {
+          "train_index": 238,
+          "original_id": 32043
+        },
+        {
+          "train_index": 415,
+          "original_id": 78
+        },
+        {
+          "train_index": 575,
+          "original_id": 15421
+        },
+        {
+          "train_index": 188,
+          "original_id": 55410
+        },
+        {
+          "train_index": 246,
+          "original_id": 54378
+        },
+        {
+          "train_index": 37,
+          "original_id": 18187
+        },
+        {
+          "train_index": 235,
+          "original_id": 50597
+        },
+        {
+          "train_index": 581,
+          "original_id": 39885
+        },
+        {
+          "train_index": 71,
+          "original_id": 34933
+        }
+      ]
+    },
+    "8": {
+      "client": 8,
+      "eligible_count": 573,
+      "selected": [
+        {
+          "train_index": 211,
+          "original_id": 55516
+        },
+        {
+          "train_index": 407,
+          "original_id": 31994
+        },
+        {
+          "train_index": 390,
+          "original_id": 33421
+        },
+        {
+          "train_index": 392,
+          "original_id": 58424
+        },
+        {
+          "train_index": 72,
+          "original_id": 1091
+        },
+        {
+          "train_index": 303,
+          "original_id": 35801
+        },
+        {
+          "train_index": 169,
+          "original_id": 2073
+        },
+        {
+          "train_index": 342,
+          "original_id": 37521
+        },
+        {
+          "train_index": 363,
+          "original_id": 25583
+        },
+        {
+          "train_index": 361,
+          "original_id": 43363
+        },
+        {
+          "train_index": 302,
+          "original_id": 52277
+        },
+        {
+          "train_index": 149,
+          "original_id": 20031
+        },
+        {
+          "train_index": 531,
+          "original_id": 31574
+        },
+        {
+          "train_index": 171,
+          "original_id": 24344
+        },
+        {
+          "train_index": 415,
+          "original_id": 32641
+        },
+        {
+          "train_index": 218,
+          "original_id": 28677
+        },
+        {
+          "train_index": 159,
+          "original_id": 34945
+        },
+        {
+          "train_index": 278,
+          "original_id": 30763
+        },
+        {
+          "train_index": 280,
+          "original_id": 45982
+        },
+        {
+          "train_index": 461,
+          "original_id": 1136
+        }
+      ]
+    },
+    "9": {
+      "client": 9,
+      "eligible_count": 523,
+      "selected": [
+        {
+          "train_index": 109,
+          "original_id": 58655
+        },
+        {
+          "train_index": 338,
+          "original_id": 58461
+        },
+        {
+          "train_index": 346,
+          "original_id": 19636
+        },
+        {
+          "train_index": 10,
+          "original_id": 45974
+        },
+        {
+          "train_index": 372,
+          "original_id": 6763
+        },
+        {
+          "train_index": 231,
+          "original_id": 58568
+        },
+        {
+          "train_index": 452,
+          "original_id": 19074
+        },
+        {
+          "train_index": 337,
+          "original_id": 34329
+        },
+        {
+          "train_index": 310,
+          "original_id": 7118
+        },
+        {
+          "train_index": 391,
+          "original_id": 32547
+        },
+        {
+          "train_index": 53,
+          "original_id": 34372
+        },
+        {
+          "train_index": 148,
+          "original_id": 27451
+        },
+        {
+          "train_index": 225,
+          "original_id": 57089
+        },
+        {
+          "train_index": 115,
+          "original_id": 25068
+        },
+        {
+          "train_index": 515,
+          "original_id": 5735
+        },
+        {
+          "train_index": 57,
+          "original_id": 59135
+        },
+        {
+          "train_index": 179,
+          "original_id": 19910
+        },
+        {
+          "train_index": 440,
+          "original_id": 58629
+        },
+        {
+          "train_index": 102,
+          "original_id": 58303
+        },
+        {
+          "train_index": 428,
+          "original_id": 37520
+        }
+      ]
+    },
+    "10": {
+      "client": 10,
+      "eligible_count": 844,
+      "selected": [
+        {
+          "train_index": 635,
+          "original_id": 57048
+        },
+        {
+          "train_index": 27,
+          "original_id": 52990
+        },
+        {
+          "train_index": 313,
+          "original_id": 41635
+        },
+        {
+          "train_index": 721,
+          "original_id": 18486
+        },
+        {
+          "train_index": 629,
+          "original_id": 52419
+        },
+        {
+          "train_index": 690,
+          "original_id": 21304
+        },
+        {
+          "train_index": 621,
+          "original_id": 57481
+        },
+        {
+          "train_index": 236,
+          "original_id": 56452
+        },
+        {
+          "train_index": 653,
+          "original_id": 10959
+        },
+        {
+          "train_index": 707,
+          "original_id": 16492
+        },
+        {
+          "train_index": 69,
+          "original_id": 17412
+        },
+        {
+          "train_index": 248,
+          "original_id": 47908
+        },
+        {
+          "train_index": 210,
+          "original_id": 23653
+        },
+        {
+          "train_index": 109,
+          "original_id": 38455
+        },
+        {
+          "train_index": 42,
+          "original_id": 41349
+        },
+        {
+          "train_index": 595,
+          "original_id": 55884
+        },
+        {
+          "train_index": 281,
+          "original_id": 26351
+        },
+        {
+          "train_index": 438,
+          "original_id": 5321
+        },
+        {
+          "train_index": 546,
+          "original_id": 48780
+        },
+        {
+          "train_index": 792,
+          "original_id": 32553
+        }
+      ]
+    },
+    "11": {
+      "client": 11,
+      "eligible_count": 537,
+      "selected": [
+        {
+          "train_index": 455,
+          "original_id": 46938
+        },
+        {
+          "train_index": 123,
+          "original_id": 17693
+        },
+        {
+          "train_index": 98,
+          "original_id": 33361
+        },
+        {
+          "train_index": 146,
+          "original_id": 53737
+        },
+        {
+          "train_index": 503,
+          "original_id": 47508
+        },
+        {
+          "train_index": 197,
+          "original_id": 59480
+        },
+        {
+          "train_index": 439,
+          "original_id": 54730
+        },
+        {
+          "train_index": 107,
+          "original_id": 30836
+        },
+        {
+          "train_index": 258,
+          "original_id": 59960
+        },
+        {
+          "train_index": 93,
+          "original_id": 22594
+        },
+        {
+          "train_index": 33,
+          "original_id": 32819
+        },
+        {
+          "train_index": 388,
+          "original_id": 49161
+        },
+        {
+          "train_index": 535,
+          "original_id": 52159
+        },
+        {
+          "train_index": 470,
+          "original_id": 55500
+        },
+        {
+          "train_index": 475,
+          "original_id": 26527
+        },
+        {
+          "train_index": 210,
+          "original_id": 8337
+        },
+        {
+          "train_index": 82,
+          "original_id": 10437
+        },
+        {
+          "train_index": 195,
+          "original_id": 35687
+        },
+        {
+          "train_index": 49,
+          "original_id": 41767
+        },
+        {
+          "train_index": 403,
+          "original_id": 33287
+        }
+      ]
+    },
+    "12": {
+      "client": 12,
+      "eligible_count": 489,
+      "selected": [
+        {
+          "train_index": 205,
+          "original_id": 56534
+        },
+        {
+          "train_index": 19,
+          "original_id": 8166
+        },
+        {
+          "train_index": 103,
+          "original_id": 48382
+        },
+        {
+          "train_index": 51,
+          "original_id": 11837
+        },
+        {
+          "train_index": 209,
+          "original_id": 11951
+        },
+        {
+          "train_index": 257,
+          "original_id": 49246
+        },
+        {
+          "train_index": 190,
+          "original_id": 43915
+        },
+        {
+          "train_index": 72,
+          "original_id": 31049
+        },
+        {
+          "train_index": 152,
+          "original_id": 20681
+        },
+        {
+          "train_index": 67,
+          "original_id": 23828
+        },
+        {
+          "train_index": 4,
+          "original_id": 3161
+        },
+        {
+          "train_index": 115,
+          "original_id": 54100
+        },
+        {
+          "train_index": 146,
+          "original_id": 22267
+        },
+        {
+          "train_index": 219,
+          "original_id": 40390
+        },
+        {
+          "train_index": 119,
+          "original_id": 41620
+        },
+        {
+          "train_index": 151,
+          "original_id": 8499
+        },
+        {
+          "train_index": 26,
+          "original_id": 16504
+        },
+        {
+          "train_index": 217,
+          "original_id": 14215
+        },
+        {
+          "train_index": 35,
+          "original_id": 54084
+        },
+        {
+          "train_index": 201,
+          "original_id": 12589
+        }
+      ]
+    },
+    "13": {
+      "client": 13,
+      "eligible_count": 235,
+      "selected": [
+        {
+          "train_index": 236,
+          "original_id": 57376
+        },
+        {
+          "train_index": 86,
+          "original_id": 39933
+        },
+        {
+          "train_index": 119,
+          "original_id": 15738
+        },
+        {
+          "train_index": 43,
+          "original_id": 55127
+        },
+        {
+          "train_index": 6,
+          "original_id": 6515
+        },
+        {
+          "train_index": 37,
+          "original_id": 5951
+        },
+        {
+          "train_index": 203,
+          "original_id": 38487
+        },
+        {
+          "train_index": 42,
+          "original_id": 26315
+        },
+        {
+          "train_index": 137,
+          "original_id": 2266
+        },
+        {
+          "train_index": 214,
+          "original_id": 49014
+        },
+        {
+          "train_index": 53,
+          "original_id": 54516
+        },
+        {
+          "train_index": 228,
+          "original_id": 9391
+        },
+        {
+          "train_index": 55,
+          "original_id": 55375
+        },
+        {
+          "train_index": 12,
+          "original_id": 8548
+        },
+        {
+          "train_index": 105,
+          "original_id": 19626
+        },
+        {
+          "train_index": 181,
+          "original_id": 58131
+        },
+        {
+          "train_index": 108,
+          "original_id": 34618
+        },
+        {
+          "train_index": 92,
+          "original_id": 14598
+        },
+        {
+          "train_index": 123,
+          "original_id": 48561
+        },
+        {
+          "train_index": 72,
+          "original_id": 55048
+        }
+      ]
+    },
+    "14": {
+      "client": 14,
+      "eligible_count": 212,
+      "selected": [
+        {
+          "train_index": 39,
+          "original_id": 5903
+        },
+        {
+          "train_index": 70,
+          "original_id": 47035
+        },
+        {
+          "train_index": 5,
+          "original_id": 26786
+        },
+        {
+          "train_index": 100,
+          "original_id": 38291
+        },
+        {
+          "train_index": 91,
+          "original_id": 57588
+        },
+        {
+          "train_index": 160,
+          "original_id": 29563
+        },
+        {
+          "train_index": 33,
+          "original_id": 22307
+        },
+        {
+          "train_index": 117,
+          "original_id": 17887
+        },
+        {
+          "train_index": 98,
+          "original_id": 35353
+        },
+        {
+          "train_index": 87,
+          "original_id": 26549
+        },
+        {
+          "train_index": 111,
+          "original_id": 37488
+        },
+        {
+          "train_index": 129,
+          "original_id": 5979
+        },
+        {
+          "train_index": 74,
+          "original_id": 50123
+        },
+        {
+          "train_index": 137,
+          "original_id": 42045
+        },
+        {
+          "train_index": 147,
+          "original_id": 13557
+        },
+        {
+          "train_index": 76,
+          "original_id": 57104
+        },
+        {
+          "train_index": 4,
+          "original_id": 19615
+        },
+        {
+          "train_index": 84,
+          "original_id": 39060
+        },
+        {
+          "train_index": 140,
+          "original_id": 31621
+        },
+        {
+          "train_index": 107,
+          "original_id": 3760
+        }
+      ]
+    },
+    "15": {
+      "client": 15,
+      "eligible_count": 705,
+      "selected": [
+        {
+          "train_index": 15,
+          "original_id": 24318
+        },
+        {
+          "train_index": 459,
+          "original_id": 18602
+        },
+        {
+          "train_index": 619,
+          "original_id": 36428
+        },
+        {
+          "train_index": 62,
+          "original_id": 48399
+        },
+        {
+          "train_index": 141,
+          "original_id": 57571
+        },
+        {
+          "train_index": 162,
+          "original_id": 25753
+        },
+        {
+          "train_index": 506,
+          "original_id": 58322
+        },
+        {
+          "train_index": 690,
+          "original_id": 29771
+        },
+        {
+          "train_index": 688,
+          "original_id": 86
+        },
+        {
+          "train_index": 60,
+          "original_id": 28522
+        },
+        {
+          "train_index": 70,
+          "original_id": 52353
+        },
+        {
+          "train_index": 636,
+          "original_id": 11626
+        },
+        {
+          "train_index": 562,
+          "original_id": 6560
+        },
+        {
+          "train_index": 556,
+          "original_id": 46776
+        },
+        {
+          "train_index": 567,
+          "original_id": 26512
+        },
+        {
+          "train_index": 261,
+          "original_id": 55651
+        },
+        {
+          "train_index": 356,
+          "original_id": 56210
+        },
+        {
+          "train_index": 418,
+          "original_id": 44729
+        },
+        {
+          "train_index": 467,
+          "original_id": 39501
+        },
+        {
+          "train_index": 551,
+          "original_id": 14635
+        }
+      ]
+    },
+    "16": {
+      "client": 16,
+      "eligible_count": 61,
+      "selected": [
+        {
+          "train_index": 56,
+          "original_id": 12866
+        },
+        {
+          "train_index": 7,
+          "original_id": 2483
+        },
+        {
+          "train_index": 22,
+          "original_id": 44767
+        },
+        {
+          "train_index": 49,
+          "original_id": 52694
+        },
+        {
+          "train_index": 47,
+          "original_id": 36403
+        },
+        {
+          "train_index": 43,
+          "original_id": 46506
+        },
+        {
+          "train_index": 30,
+          "original_id": 32883
+        },
+        {
+          "train_index": 41,
+          "original_id": 97
+        },
+        {
+          "train_index": 3,
+          "original_id": 14354
+        },
+        {
+          "train_index": 53,
+          "original_id": 4988
+        },
+        {
+          "train_index": 20,
+          "original_id": 29690
+        },
+        {
+          "train_index": 24,
+          "original_id": 22888
+        },
+        {
+          "train_index": 9,
+          "original_id": 59580
+        },
+        {
+          "train_index": 15,
+          "original_id": 17068
+        },
+        {
+          "train_index": 54,
+          "original_id": 36046
+        },
+        {
+          "train_index": 26,
+          "original_id": 16027
+        },
+        {
+          "train_index": 58,
+          "original_id": 21241
+        },
+        {
+          "train_index": 17,
+          "original_id": 35416
+        },
+        {
+          "train_index": 45,
+          "original_id": 51464
+        },
+        {
+          "train_index": 12,
+          "original_id": 42136
+        }
+      ]
+    },
+    "17": {
+      "client": 17,
+      "eligible_count": 259,
+      "selected": [
+        {
+          "train_index": 257,
+          "original_id": 56507
+        },
+        {
+          "train_index": 44,
+          "original_id": 38554
+        },
+        {
+          "train_index": 26,
+          "original_id": 40145
+        },
+        {
+          "train_index": 229,
+          "original_id": 9267
+        },
+        {
+          "train_index": 159,
+          "original_id": 375
+        },
+        {
+          "train_index": 192,
+          "original_id": 6166
+        },
+        {
+          "train_index": 58,
+          "original_id": 10090
+        },
+        {
+          "train_index": 3,
+          "original_id": 21118
+        },
+        {
+          "train_index": 113,
+          "original_id": 42065
+        },
+        {
+          "train_index": 97,
+          "original_id": 7992
+        },
+        {
+          "train_index": 220,
+          "original_id": 46634
+        },
+        {
+          "train_index": 64,
+          "original_id": 25660
+        },
+        {
+          "train_index": 245,
+          "original_id": 18670
+        },
+        {
+          "train_index": 216,
+          "original_id": 49372
+        },
+        {
+          "train_index": 92,
+          "original_id": 58498
+        },
+        {
+          "train_index": 138,
+          "original_id": 12412
+        },
+        {
+          "train_index": 218,
+          "original_id": 41056
+        },
+        {
+          "train_index": 203,
+          "original_id": 2743
+        },
+        {
+          "train_index": 53,
+          "original_id": 53803
+        },
+        {
+          "train_index": 221,
+          "original_id": 31581
+        }
+      ]
+    },
+    "18": {
+      "client": 18,
+      "eligible_count": 30,
+      "selected": [
+        {
+          "train_index": 1,
+          "original_id": 36147
+        },
+        {
+          "train_index": 6,
+          "original_id": 41632
+        },
+        {
+          "train_index": 13,
+          "original_id": 45384
+        },
+        {
+          "train_index": 9,
+          "original_id": 4314
+        },
+        {
+          "train_index": 5,
+          "original_id": 55339
+        },
+        {
+          "train_index": 12,
+          "original_id": 56349
+        },
+        {
+          "train_index": 29,
+          "original_id": 47585
+        },
+        {
+          "train_index": 21,
+          "original_id": 9515
+        },
+        {
+          "train_index": 15,
+          "original_id": 23825
+        },
+        {
+          "train_index": 7,
+          "original_id": 44830
+        },
+        {
+          "train_index": 4,
+          "original_id": 24447
+        },
+        {
+          "train_index": 18,
+          "original_id": 9619
+        },
+        {
+          "train_index": 24,
+          "original_id": 55585
+        },
+        {
+          "train_index": 2,
+          "original_id": 12777
+        },
+        {
+          "train_index": 11,
+          "original_id": 51663
+        },
+        {
+          "train_index": 0,
+          "original_id": 5521
+        },
+        {
+          "train_index": 25,
+          "original_id": 1278
+        },
+        {
+          "train_index": 22,
+          "original_id": 29060
+        },
+        {
+          "train_index": 23,
+          "original_id": 18211
+        },
+        {
+          "train_index": 28,
+          "original_id": 42131
+        }
+      ]
+    },
+    "19": {
+      "client": 19,
+      "eligible_count": 270,
+      "selected": [
+        {
+          "train_index": 219,
+          "original_id": 13059
+        },
+        {
+          "train_index": 6,
+          "original_id": 8750
+        },
+        {
+          "train_index": 188,
+          "original_id": 171
+        },
+        {
+          "train_index": 164,
+          "original_id": 17786
+        },
+        {
+          "train_index": 147,
+          "original_id": 35486
+        },
+        {
+          "train_index": 239,
+          "original_id": 35656
+        },
+        {
+          "train_index": 206,
+          "original_id": 43754
+        },
+        {
+          "train_index": 64,
+          "original_id": 34624
+        },
+        {
+          "train_index": 128,
+          "original_id": 41891
+        },
+        {
+          "train_index": 34,
+          "original_id": 25530
+        },
+        {
+          "train_index": 23,
+          "original_id": 45654
+        },
+        {
+          "train_index": 99,
+          "original_id": 22897
+        },
+        {
+          "train_index": 66,
+          "original_id": 36858
+        },
+        {
+          "train_index": 17,
+          "original_id": 7416
+        },
+        {
+          "train_index": 44,
+          "original_id": 34040
+        },
+        {
+          "train_index": 181,
+          "original_id": 10742
+        },
+        {
+          "train_index": 225,
+          "original_id": 31467
+        },
+        {
+          "train_index": 143,
+          "original_id": 28168
+        },
+        {
+          "train_index": 169,
+          "original_id": 32106
+        },
+        {
+          "train_index": 35,
+          "original_id": 29636
+        }
+      ]
+    },
+    "20": {
+      "client": 20,
+      "eligible_count": 454,
+      "selected": [
+        {
+          "train_index": 396,
+          "original_id": 10357
+        },
+        {
+          "train_index": 43,
+          "original_id": 57131
+        },
+        {
+          "train_index": 318,
+          "original_id": 45823
+        },
+        {
+          "train_index": 97,
+          "original_id": 935
+        },
+        {
+          "train_index": 59,
+          "original_id": 38959
+        },
+        {
+          "train_index": 377,
+          "original_id": 26085
+        },
+        {
+          "train_index": 10,
+          "original_id": 53446
+        },
+        {
+          "train_index": 139,
+          "original_id": 35091
+        },
+        {
+          "train_index": 152,
+          "original_id": 6859
+        },
+        {
+          "train_index": 256,
+          "original_id": 48184
+        },
+        {
+          "train_index": 111,
+          "original_id": 14547
+        },
+        {
+          "train_index": 181,
+          "original_id": 27008
+        },
+        {
+          "train_index": 269,
+          "original_id": 51665
+        },
+        {
+          "train_index": 184,
+          "original_id": 2777
+        },
+        {
+          "train_index": 341,
+          "original_id": 1485
+        },
+        {
+          "train_index": 82,
+          "original_id": 3262
+        },
+        {
+          "train_index": 452,
+          "original_id": 2965
+        },
+        {
+          "train_index": 126,
+          "original_id": 42819
+        },
+        {
+          "train_index": 306,
+          "original_id": 38738
+        },
+        {
+          "train_index": 270,
+          "original_id": 34965
+        }
+      ]
+    },
+    "21": {
+      "client": 21,
+      "eligible_count": 723,
+      "selected": [
+        {
+          "train_index": 416,
+          "original_id": 24250
+        },
+        {
+          "train_index": 528,
+          "original_id": 30630
+        },
+        {
+          "train_index": 673,
+          "original_id": 34770
+        },
+        {
+          "train_index": 284,
+          "original_id": 48760
+        },
+        {
+          "train_index": 315,
+          "original_id": 31843
+        },
+        {
+          "train_index": 602,
+          "original_id": 28809
+        },
+        {
+          "train_index": 223,
+          "original_id": 18032
+        },
+        {
+          "train_index": 628,
+          "original_id": 28165
+        },
+        {
+          "train_index": 389,
+          "original_id": 23473
+        },
+        {
+          "train_index": 192,
+          "original_id": 41927
+        },
+        {
+          "train_index": 292,
+          "original_id": 10262
+        },
+        {
+          "train_index": 384,
+          "original_id": 51919
+        },
+        {
+          "train_index": 273,
+          "original_id": 31627
+        },
+        {
+          "train_index": 245,
+          "original_id": 9049
+        },
+        {
+          "train_index": 136,
+          "original_id": 16033
+        },
+        {
+          "train_index": 537,
+          "original_id": 41825
+        },
+        {
+          "train_index": 363,
+          "original_id": 44900
+        },
+        {
+          "train_index": 3,
+          "original_id": 39186
+        },
+        {
+          "train_index": 652,
+          "original_id": 12108
+        },
+        {
+          "train_index": 207,
+          "original_id": 16445
+        }
+      ]
+    },
+    "22": {
+      "client": 22,
+      "eligible_count": 521,
+      "selected": [
+        {
+          "train_index": 375,
+          "original_id": 8477
+        },
+        {
+          "train_index": 357,
+          "original_id": 43826
+        },
+        {
+          "train_index": 91,
+          "original_id": 8010
+        },
+        {
+          "train_index": 367,
+          "original_id": 18204
+        },
+        {
+          "train_index": 486,
+          "original_id": 4533
+        },
+        {
+          "train_index": 301,
+          "original_id": 50936
+        },
+        {
+          "train_index": 410,
+          "original_id": 33535
+        },
+        {
+          "train_index": 33,
+          "original_id": 11973
+        },
+        {
+          "train_index": 65,
+          "original_id": 19454
+        },
+        {
+          "train_index": 74,
+          "original_id": 15468
+        },
+        {
+          "train_index": 507,
+          "original_id": 25608
+        },
+        {
+          "train_index": 107,
+          "original_id": 35310
+        },
+        {
+          "train_index": 355,
+          "original_id": 35337
+        },
+        {
+          "train_index": 347,
+          "original_id": 2484
+        },
+        {
+          "train_index": 381,
+          "original_id": 21888
+        },
+        {
+          "train_index": 186,
+          "original_id": 43006
+        },
+        {
+          "train_index": 80,
+          "original_id": 53723
+        },
+        {
+          "train_index": 406,
+          "original_id": 35371
+        },
+        {
+          "train_index": 331,
+          "original_id": 51306
+        },
+        {
+          "train_index": 475,
+          "original_id": 8192
+        }
+      ]
+    },
+    "23": {
+      "client": 23,
+      "eligible_count": 416,
+      "selected": [
+        {
+          "train_index": 254,
+          "original_id": 38772
+        },
+        {
+          "train_index": 6,
+          "original_id": 18644
+        },
+        {
+          "train_index": 147,
+          "original_id": 59818
+        },
+        {
+          "train_index": 54,
+          "original_id": 18231
+        },
+        {
+          "train_index": 68,
+          "original_id": 24243
+        },
+        {
+          "train_index": 407,
+          "original_id": 41125
+        },
+        {
+          "train_index": 264,
+          "original_id": 56599
+        },
+        {
+          "train_index": 284,
+          "original_id": 50015
+        },
+        {
+          "train_index": 76,
+          "original_id": 55990
+        },
+        {
+          "train_index": 24,
+          "original_id": 56613
+        },
+        {
+          "train_index": 240,
+          "original_id": 40556
+        },
+        {
+          "train_index": 409,
+          "original_id": 34748
+        },
+        {
+          "train_index": 96,
+          "original_id": 59482
+        },
+        {
+          "train_index": 201,
+          "original_id": 20334
+        },
+        {
+          "train_index": 16,
+          "original_id": 45635
+        },
+        {
+          "train_index": 119,
+          "original_id": 52966
+        },
+        {
+          "train_index": 230,
+          "original_id": 55952
+        },
+        {
+          "train_index": 305,
+          "original_id": 22518
+        },
+        {
+          "train_index": 355,
+          "original_id": 19982
+        },
+        {
+          "train_index": 279,
+          "original_id": 57419
+        }
+      ]
+    },
+    "24": {
+      "client": 24,
+      "eligible_count": 531,
+      "selected": [
+        {
+          "train_index": 288,
+          "original_id": 47941
+        },
+        {
+          "train_index": 231,
+          "original_id": 14
+        },
+        {
+          "train_index": 113,
+          "original_id": 26598
+        },
+        {
+          "train_index": 11,
+          "original_id": 42681
+        },
+        {
+          "train_index": 168,
+          "original_id": 10231
+        },
+        {
+          "train_index": 201,
+          "original_id": 2379
+        },
+        {
+          "train_index": 62,
+          "original_id": 13514
+        },
+        {
+          "train_index": 411,
+          "original_id": 34709
+        },
+        {
+          "train_index": 387,
+          "original_id": 31089
+        },
+        {
+          "train_index": 189,
+          "original_id": 13669
+        },
+        {
+          "train_index": 81,
+          "original_id": 33344
+        },
+        {
+          "train_index": 456,
+          "original_id": 55627
+        },
+        {
+          "train_index": 469,
+          "original_id": 32209
+        },
+        {
+          "train_index": 503,
+          "original_id": 7698
+        },
+        {
+          "train_index": 340,
+          "original_id": 21330
+        },
+        {
+          "train_index": 192,
+          "original_id": 22918
+        },
+        {
+          "train_index": 190,
+          "original_id": 13379
+        },
+        {
+          "train_index": 100,
+          "original_id": 24048
+        },
+        {
+          "train_index": 531,
+          "original_id": 26121
+        },
+        {
+          "train_index": 314,
+          "original_id": 56176
+        }
+      ]
+    },
+    "25": {
+      "client": 25,
+      "eligible_count": 105,
+      "selected": [
+        {
+          "train_index": 76,
+          "original_id": 52403
+        },
+        {
+          "train_index": 5,
+          "original_id": 18864
+        },
+        {
+          "train_index": 42,
+          "original_id": 43280
+        },
+        {
+          "train_index": 7,
+          "original_id": 37843
+        },
+        {
+          "train_index": 6,
+          "original_id": 47557
+        },
+        {
+          "train_index": 94,
+          "original_id": 11475
+        },
+        {
+          "train_index": 62,
+          "original_id": 45510
+        },
+        {
+          "train_index": 24,
+          "original_id": 44946
+        },
+        {
+          "train_index": 65,
+          "original_id": 14727
+        },
+        {
+          "train_index": 88,
+          "original_id": 15554
+        },
+        {
+          "train_index": 102,
+          "original_id": 17107
+        },
+        {
+          "train_index": 73,
+          "original_id": 9441
+        },
+        {
+          "train_index": 96,
+          "original_id": 27762
+        },
+        {
+          "train_index": 27,
+          "original_id": 3397
+        },
+        {
+          "train_index": 99,
+          "original_id": 49690
+        },
+        {
+          "train_index": 103,
+          "original_id": 29128
+        },
+        {
+          "train_index": 30,
+          "original_id": 35599
+        },
+        {
+          "train_index": 95,
+          "original_id": 53239
+        },
+        {
+          "train_index": 57,
+          "original_id": 10982
+        },
+        {
+          "train_index": 11,
+          "original_id": 16275
+        }
+      ]
+    },
+    "26": {
+      "client": 26,
+      "eligible_count": 850,
+      "selected": [
+        {
+          "train_index": 87,
+          "original_id": 36586
+        },
+        {
+          "train_index": 389,
+          "original_id": 28254
+        },
+        {
+          "train_index": 15,
+          "original_id": 11113
+        },
+        {
+          "train_index": 25,
+          "original_id": 53197
+        },
+        {
+          "train_index": 203,
+          "original_id": 5059
+        },
+        {
+          "train_index": 196,
+          "original_id": 1730
+        },
+        {
+          "train_index": 219,
+          "original_id": 45430
+        },
+        {
+          "train_index": 796,
+          "original_id": 4123
+        },
+        {
+          "train_index": 491,
+          "original_id": 27450
+        },
+        {
+          "train_index": 411,
+          "original_id": 49135
+        },
+        {
+          "train_index": 170,
+          "original_id": 39544
+        },
+        {
+          "train_index": 671,
+          "original_id": 45169
+        },
+        {
+          "train_index": 81,
+          "original_id": 58250
+        },
+        {
+          "train_index": 480,
+          "original_id": 30336
+        },
+        {
+          "train_index": 344,
+          "original_id": 30041
+        },
+        {
+          "train_index": 85,
+          "original_id": 42152
+        },
+        {
+          "train_index": 477,
+          "original_id": 25964
+        },
+        {
+          "train_index": 423,
+          "original_id": 35270
+        },
+        {
+          "train_index": 729,
+          "original_id": 3621
+        },
+        {
+          "train_index": 504,
+          "original_id": 24879
+        }
+      ]
+    },
+    "27": {
+      "client": 27,
+      "eligible_count": 580,
+      "selected": [
+        {
+          "train_index": 202,
+          "original_id": 7875
+        },
+        {
+          "train_index": 173,
+          "original_id": 56405
+        },
+        {
+          "train_index": 93,
+          "original_id": 14182
+        },
+        {
+          "train_index": 370,
+          "original_id": 42913
+        },
+        {
+          "train_index": 61,
+          "original_id": 31300
+        },
+        {
+          "train_index": 261,
+          "original_id": 16261
+        },
+        {
+          "train_index": 237,
+          "original_id": 43372
+        },
+        {
+          "train_index": 209,
+          "original_id": 43710
+        },
+        {
+          "train_index": 571,
+          "original_id": 58445
+        },
+        {
+          "train_index": 189,
+          "original_id": 9322
+        },
+        {
+          "train_index": 446,
+          "original_id": 10479
+        },
+        {
+          "train_index": 305,
+          "original_id": 7221
+        },
+        {
+          "train_index": 76,
+          "original_id": 8244
+        },
+        {
+          "train_index": 385,
+          "original_id": 28163
+        },
+        {
+          "train_index": 28,
+          "original_id": 20858
+        },
+        {
+          "train_index": 564,
+          "original_id": 24161
+        },
+        {
+          "train_index": 401,
+          "original_id": 8189
+        },
+        {
+          "train_index": 533,
+          "original_id": 30024
+        },
+        {
+          "train_index": 433,
+          "original_id": 14461
+        },
+        {
+          "train_index": 480,
+          "original_id": 37847
+        }
+      ]
+    },
+    "28": {
+      "client": 28,
+      "eligible_count": 78,
+      "selected": [
+        {
+          "train_index": 6,
+          "original_id": 33523
+        },
+        {
+          "train_index": 53,
+          "original_id": 22923
+        },
+        {
+          "train_index": 28,
+          "original_id": 54996
+        },
+        {
+          "train_index": 56,
+          "original_id": 44745
+        },
+        {
+          "train_index": 44,
+          "original_id": 2947
+        },
+        {
+          "train_index": 60,
+          "original_id": 25030
+        },
+        {
+          "train_index": 74,
+          "original_id": 41493
+        },
+        {
+          "train_index": 37,
+          "original_id": 9034
+        },
+        {
+          "train_index": 34,
+          "original_id": 28602
+        },
+        {
+          "train_index": 39,
+          "original_id": 25184
+        },
+        {
+          "train_index": 59,
+          "original_id": 10101
+        },
+        {
+          "train_index": 61,
+          "original_id": 56873
+        },
+        {
+          "train_index": 71,
+          "original_id": 23528
+        },
+        {
+          "train_index": 75,
+          "original_id": 42482
+        },
+        {
+          "train_index": 3,
+          "original_id": 20346
+        },
+        {
+          "train_index": 69,
+          "original_id": 10483
+        },
+        {
+          "train_index": 41,
+          "original_id": 31797
+        },
+        {
+          "train_index": 47,
+          "original_id": 44840
+        },
+        {
+          "train_index": 72,
+          "original_id": 33903
+        },
+        {
+          "train_index": 54,
+          "original_id": 5633
+        }
+      ]
+    },
+    "29": {
+      "client": 29,
+      "eligible_count": 1144,
+      "selected": [
+        {
+          "train_index": 22,
+          "original_id": 57623
+        },
+        {
+          "train_index": 826,
+          "original_id": 38902
+        },
+        {
+          "train_index": 894,
+          "original_id": 14501
+        },
+        {
+          "train_index": 168,
+          "original_id": 7289
+        },
+        {
+          "train_index": 469,
+          "original_id": 51740
+        },
+        {
+          "train_index": 467,
+          "original_id": 40713
+        },
+        {
+          "train_index": 74,
+          "original_id": 49998
+        },
+        {
+          "train_index": 953,
+          "original_id": 45613
+        },
+        {
+          "train_index": 597,
+          "original_id": 14546
+        },
+        {
+          "train_index": 964,
+          "original_id": 46279
+        },
+        {
+          "train_index": 240,
+          "original_id": 58366
+        },
+        {
+          "train_index": 124,
+          "original_id": 1153
+        },
+        {
+          "train_index": 783,
+          "original_id": 41794
+        },
+        {
+          "train_index": 870,
+          "original_id": 51711
+        },
+        {
+          "train_index": 455,
+          "original_id": 14445
+        },
+        {
+          "train_index": 768,
+          "original_id": 7350
+        },
+        {
+          "train_index": 930,
+          "original_id": 39771
+        },
+        {
+          "train_index": 814,
+          "original_id": 34629
+        },
+        {
+          "train_index": 838,
+          "original_id": 43050
+        },
+        {
+          "train_index": 219,
+          "original_id": 44107
+        }
+      ]
+    },
+    "30": {
+      "client": 30,
+      "eligible_count": 820,
+      "selected": [
+        {
+          "train_index": 469,
+          "original_id": 7633
+        },
+        {
+          "train_index": 583,
+          "original_id": 32055
+        },
+        {
+          "train_index": 511,
+          "original_id": 29630
+        },
+        {
+          "train_index": 654,
+          "original_id": 58284
+        },
+        {
+          "train_index": 718,
+          "original_id": 8269
+        },
+        {
+          "train_index": 812,
+          "original_id": 40490
+        },
+        {
+          "train_index": 268,
+          "original_id": 29608
+        },
+        {
+          "train_index": 720,
+          "original_id": 20140
+        },
+        {
+          "train_index": 793,
+          "original_id": 30286
+        },
+        {
+          "train_index": 393,
+          "original_id": 47661
+        },
+        {
+          "train_index": 564,
+          "original_id": 19899
+        },
+        {
+          "train_index": 620,
+          "original_id": 57944
+        },
+        {
+          "train_index": 309,
+          "original_id": 14447
+        },
+        {
+          "train_index": 204,
+          "original_id": 10471
+        },
+        {
+          "train_index": 388,
+          "original_id": 18241
+        },
+        {
+          "train_index": 641,
+          "original_id": 2686
+        },
+        {
+          "train_index": 158,
+          "original_id": 39001
+        },
+        {
+          "train_index": 559,
+          "original_id": 3583
+        },
+        {
+          "train_index": 589,
+          "original_id": 46112
+        },
+        {
+          "train_index": 371,
+          "original_id": 29345
+        }
+      ]
+    },
+    "31": {
+      "client": 31,
+      "eligible_count": 601,
+      "selected": [
+        {
+          "train_index": 55,
+          "original_id": 30640
+        },
+        {
+          "train_index": 341,
+          "original_id": 47259
+        },
+        {
+          "train_index": 165,
+          "original_id": 29708
+        },
+        {
+          "train_index": 466,
+          "original_id": 7366
+        },
+        {
+          "train_index": 39,
+          "original_id": 11613
+        },
+        {
+          "train_index": 7,
+          "original_id": 26004
+        },
+        {
+          "train_index": 599,
+          "original_id": 8414
+        },
+        {
+          "train_index": 427,
+          "original_id": 7129
+        },
+        {
+          "train_index": 522,
+          "original_id": 37794
+        },
+        {
+          "train_index": 296,
+          "original_id": 11272
+        },
+        {
+          "train_index": 420,
+          "original_id": 5284
+        },
+        {
+          "train_index": 375,
+          "original_id": 26239
+        },
+        {
+          "train_index": 576,
+          "original_id": 30860
+        },
+        {
+          "train_index": 183,
+          "original_id": 17813
+        },
+        {
+          "train_index": 213,
+          "original_id": 24045
+        },
+        {
+          "train_index": 435,
+          "original_id": 13109
+        },
+        {
+          "train_index": 94,
+          "original_id": 6508
+        },
+        {
+          "train_index": 77,
+          "original_id": 28287
+        },
+        {
+          "train_index": 529,
+          "original_id": 55263
+        },
+        {
+          "train_index": 20,
+          "original_id": 43100
+        }
+      ]
+    },
+    "32": {
+      "client": 32,
+      "eligible_count": 588,
+      "selected": [
+        {
+          "train_index": 455,
+          "original_id": 12333
+        },
+        {
+          "train_index": 262,
+          "original_id": 30152
+        },
+        {
+          "train_index": 402,
+          "original_id": 24111
+        },
+        {
+          "train_index": 211,
+          "original_id": 30715
+        },
+        {
+          "train_index": 157,
+          "original_id": 4571
+        },
+        {
+          "train_index": 76,
+          "original_id": 47916
+        },
+        {
+          "train_index": 173,
+          "original_id": 23581
+        },
+        {
+          "train_index": 505,
+          "original_id": 54305
+        },
+        {
+          "train_index": 93,
+          "original_id": 3569
+        },
+        {
+          "train_index": 300,
+          "original_id": 57050
+        },
+        {
+          "train_index": 22,
+          "original_id": 11118
+        },
+        {
+          "train_index": 519,
+          "original_id": 56484
+        },
+        {
+          "train_index": 36,
+          "original_id": 7595
+        },
+        {
+          "train_index": 544,
+          "original_id": 1106
+        },
+        {
+          "train_index": 182,
+          "original_id": 36375
+        },
+        {
+          "train_index": 344,
+          "original_id": 29610
+        },
+        {
+          "train_index": 371,
+          "original_id": 40786
+        },
+        {
+          "train_index": 503,
+          "original_id": 13814
+        },
+        {
+          "train_index": 47,
+          "original_id": 2391
+        },
+        {
+          "train_index": 8,
+          "original_id": 30847
+        }
+      ]
+    },
+    "33": {
+      "client": 33,
+      "eligible_count": 787,
+      "selected": [
+        {
+          "train_index": 401,
+          "original_id": 28308
+        },
+        {
+          "train_index": 27,
+          "original_id": 18362
+        },
+        {
+          "train_index": 659,
+          "original_id": 18487
+        },
+        {
+          "train_index": 461,
+          "original_id": 12370
+        },
+        {
+          "train_index": 254,
+          "original_id": 40870
+        },
+        {
+          "train_index": 130,
+          "original_id": 3340
+        },
+        {
+          "train_index": 135,
+          "original_id": 42433
+        },
+        {
+          "train_index": 7,
+          "original_id": 46603
+        },
+        {
+          "train_index": 719,
+          "original_id": 36448
+        },
+        {
+          "train_index": 175,
+          "original_id": 35354
+        },
+        {
+          "train_index": 241,
+          "original_id": 48993
+        },
+        {
+          "train_index": 385,
+          "original_id": 8246
+        },
+        {
+          "train_index": 611,
+          "original_id": 55781
+        },
+        {
+          "train_index": 709,
+          "original_id": 7235
+        },
+        {
+          "train_index": 56,
+          "original_id": 40651
+        },
+        {
+          "train_index": 58,
+          "original_id": 52822
+        },
+        {
+          "train_index": 635,
+          "original_id": 11763
+        },
+        {
+          "train_index": 69,
+          "original_id": 43040
+        },
+        {
+          "train_index": 356,
+          "original_id": 40839
+        },
+        {
+          "train_index": 35,
+          "original_id": 49822
+        }
+      ]
+    },
+    "34": {
+      "client": 34,
+      "eligible_count": 305,
+      "selected": [
+        {
+          "train_index": 298,
+          "original_id": 50692
+        },
+        {
+          "train_index": 219,
+          "original_id": 43464
+        },
+        {
+          "train_index": 256,
+          "original_id": 1160
+        },
+        {
+          "train_index": 6,
+          "original_id": 28488
+        },
+        {
+          "train_index": 110,
+          "original_id": 38068
+        },
+        {
+          "train_index": 102,
+          "original_id": 54210
+        },
+        {
+          "train_index": 216,
+          "original_id": 10021
+        },
+        {
+          "train_index": 43,
+          "original_id": 29048
+        },
+        {
+          "train_index": 12,
+          "original_id": 20032
+        },
+        {
+          "train_index": 31,
+          "original_id": 51600
+        },
+        {
+          "train_index": 42,
+          "original_id": 15175
+        },
+        {
+          "train_index": 65,
+          "original_id": 33168
+        },
+        {
+          "train_index": 304,
+          "original_id": 32939
+        },
+        {
+          "train_index": 4,
+          "original_id": 44234
+        },
+        {
+          "train_index": 64,
+          "original_id": 9995
+        },
+        {
+          "train_index": 223,
+          "original_id": 40883
+        },
+        {
+          "train_index": 59,
+          "original_id": 9222
+        },
+        {
+          "train_index": 262,
+          "original_id": 5713
+        },
+        {
+          "train_index": 279,
+          "original_id": 8422
+        },
+        {
+          "train_index": 23,
+          "original_id": 17955
+        }
+      ]
+    },
+    "35": {
+      "client": 35,
+      "eligible_count": 521,
+      "selected": [
+        {
+          "train_index": 247,
+          "original_id": 7387
+        },
+        {
+          "train_index": 335,
+          "original_id": 42583
+        },
+        {
+          "train_index": 105,
+          "original_id": 25209
+        },
+        {
+          "train_index": 325,
+          "original_id": 17010
+        },
+        {
+          "train_index": 123,
+          "original_id": 58564
+        },
+        {
+          "train_index": 321,
+          "original_id": 34358
+        },
+        {
+          "train_index": 184,
+          "original_id": 28926
+        },
+        {
+          "train_index": 358,
+          "original_id": 50949
+        },
+        {
+          "train_index": 359,
+          "original_id": 32691
+        },
+        {
+          "train_index": 157,
+          "original_id": 54621
+        },
+        {
+          "train_index": 424,
+          "original_id": 51564
+        },
+        {
+          "train_index": 147,
+          "original_id": 44114
+        },
+        {
+          "train_index": 79,
+          "original_id": 21283
+        },
+        {
+          "train_index": 84,
+          "original_id": 13608
+        },
+        {
+          "train_index": 288,
+          "original_id": 38237
+        },
+        {
+          "train_index": 224,
+          "original_id": 35828
+        },
+        {
+          "train_index": 5,
+          "original_id": 2679
+        },
+        {
+          "train_index": 303,
+          "original_id": 58049
+        },
+        {
+          "train_index": 121,
+          "original_id": 33317
+        },
+        {
+          "train_index": 333,
+          "original_id": 32681
+        }
+      ]
+    },
+    "36": {
+      "client": 36,
+      "eligible_count": 54,
+      "selected": [
+        {
+          "train_index": 5,
+          "original_id": 42214
+        },
+        {
+          "train_index": 12,
+          "original_id": 12474
+        },
+        {
+          "train_index": 21,
+          "original_id": 1495
+        },
+        {
+          "train_index": 22,
+          "original_id": 24954
+        },
+        {
+          "train_index": 15,
+          "original_id": 54898
+        },
+        {
+          "train_index": 39,
+          "original_id": 8587
+        },
+        {
+          "train_index": 41,
+          "original_id": 8521
+        },
+        {
+          "train_index": 3,
+          "original_id": 33305
+        },
+        {
+          "train_index": 4,
+          "original_id": 29648
+        },
+        {
+          "train_index": 1,
+          "original_id": 34378
+        },
+        {
+          "train_index": 53,
+          "original_id": 48948
+        },
+        {
+          "train_index": 51,
+          "original_id": 50753
+        },
+        {
+          "train_index": 48,
+          "original_id": 18339
+        },
+        {
+          "train_index": 25,
+          "original_id": 48829
+        },
+        {
+          "train_index": 30,
+          "original_id": 6487
+        },
+        {
+          "train_index": 0,
+          "original_id": 41150
+        },
+        {
+          "train_index": 43,
+          "original_id": 15366
+        },
+        {
+          "train_index": 23,
+          "original_id": 38289
+        },
+        {
+          "train_index": 26,
+          "original_id": 26752
+        },
+        {
+          "train_index": 50,
+          "original_id": 51770
+        }
+      ]
+    },
+    "37": {
+      "client": 37,
+      "eligible_count": 239,
+      "selected": [
+        {
+          "train_index": 176,
+          "original_id": 385
+        },
+        {
+          "train_index": 91,
+          "original_id": 18344
+        },
+        {
+          "train_index": 49,
+          "original_id": 14205
+        },
+        {
+          "train_index": 81,
+          "original_id": 25312
+        },
+        {
+          "train_index": 175,
+          "original_id": 40043
+        },
+        {
+          "train_index": 21,
+          "original_id": 28814
+        },
+        {
+          "train_index": 101,
+          "original_id": 1929
+        },
+        {
+          "train_index": 150,
+          "original_id": 40222
+        },
+        {
+          "train_index": 52,
+          "original_id": 35569
+        },
+        {
+          "train_index": 11,
+          "original_id": 1622
+        },
+        {
+          "train_index": 93,
+          "original_id": 33412
+        },
+        {
+          "train_index": 68,
+          "original_id": 4223
+        },
+        {
+          "train_index": 198,
+          "original_id": 44182
+        },
+        {
+          "train_index": 119,
+          "original_id": 57581
+        },
+        {
+          "train_index": 47,
+          "original_id": 16255
+        },
+        {
+          "train_index": 90,
+          "original_id": 35402
+        },
+        {
+          "train_index": 238,
+          "original_id": 45558
+        },
+        {
+          "train_index": 98,
+          "original_id": 43311
+        },
+        {
+          "train_index": 78,
+          "original_id": 6438
+        },
+        {
+          "train_index": 219,
+          "original_id": 35351
+        }
+      ]
+    },
+    "38": {
+      "client": 38,
+      "eligible_count": 73,
+      "selected": [
+        {
+          "train_index": 49,
+          "original_id": 57934
+        },
+        {
+          "train_index": 62,
+          "original_id": 48133
+        },
+        {
+          "train_index": 53,
+          "original_id": 49764
+        },
+        {
+          "train_index": 37,
+          "original_id": 49201
+        },
+        {
+          "train_index": 1,
+          "original_id": 1970
+        },
+        {
+          "train_index": 10,
+          "original_id": 2815
+        },
+        {
+          "train_index": 43,
+          "original_id": 43175
+        },
+        {
+          "train_index": 42,
+          "original_id": 49400
+        },
+        {
+          "train_index": 54,
+          "original_id": 2857
+        },
+        {
+          "train_index": 27,
+          "original_id": 21762
+        },
+        {
+          "train_index": 9,
+          "original_id": 23568
+        },
+        {
+          "train_index": 58,
+          "original_id": 9567
+        },
+        {
+          "train_index": 59,
+          "original_id": 21298
+        },
+        {
+          "train_index": 25,
+          "original_id": 54014
+        },
+        {
+          "train_index": 48,
+          "original_id": 18623
+        },
+        {
+          "train_index": 57,
+          "original_id": 48225
+        },
+        {
+          "train_index": 64,
+          "original_id": 30483
+        },
+        {
+          "train_index": 28,
+          "original_id": 7281
+        },
+        {
+          "train_index": 44,
+          "original_id": 50908
+        },
+        {
+          "train_index": 71,
+          "original_id": 36547
+        }
+      ]
+    },
+    "39": {
+      "client": 39,
+      "eligible_count": 475,
+      "selected": [
+        {
+          "train_index": 409,
+          "original_id": 45550
+        },
+        {
+          "train_index": 2,
+          "original_id": 3610
+        },
+        {
+          "train_index": 213,
+          "original_id": 43574
+        },
+        {
+          "train_index": 372,
+          "original_id": 53637
+        },
+        {
+          "train_index": 446,
+          "original_id": 47252
+        },
+        {
+          "train_index": 173,
+          "original_id": 13486
+        },
+        {
+          "train_index": 234,
+          "original_id": 35967
+        },
+        {
+          "train_index": 296,
+          "original_id": 43057
+        },
+        {
+          "train_index": 402,
+          "original_id": 41512
+        },
+        {
+          "train_index": 194,
+          "original_id": 14017
+        },
+        {
+          "train_index": 389,
+          "original_id": 6341
+        },
+        {
+          "train_index": 445,
+          "original_id": 56083
+        },
+        {
+          "train_index": 407,
+          "original_id": 14294
+        },
+        {
+          "train_index": 394,
+          "original_id": 23843
+        },
+        {
+          "train_index": 381,
+          "original_id": 49397
+        },
+        {
+          "train_index": 127,
+          "original_id": 44867
+        },
+        {
+          "train_index": 220,
+          "original_id": 5773
+        },
+        {
+          "train_index": 440,
+          "original_id": 17085
+        },
+        {
+          "train_index": 442,
+          "original_id": 33205
+        },
+        {
+          "train_index": 61,
+          "original_id": 33083
+        }
+      ]
+    },
+    "40": {
+      "client": 40,
+      "eligible_count": 747,
+      "selected": [
+        {
+          "train_index": 482,
+          "original_id": 23813
+        },
+        {
+          "train_index": 268,
+          "original_id": 8650
+        },
+        {
+          "train_index": 121,
+          "original_id": 27343
+        },
+        {
+          "train_index": 295,
+          "original_id": 25548
+        },
+        {
+          "train_index": 34,
+          "original_id": 21786
+        },
+        {
+          "train_index": 657,
+          "original_id": 42941
+        },
+        {
+          "train_index": 392,
+          "original_id": 45465
+        },
+        {
+          "train_index": 144,
+          "original_id": 27810
+        },
+        {
+          "train_index": 576,
+          "original_id": 3774
+        },
+        {
+          "train_index": 393,
+          "original_id": 48313
+        },
+        {
+          "train_index": 436,
+          "original_id": 26955
+        },
+        {
+          "train_index": 202,
+          "original_id": 32489
+        },
+        {
+          "train_index": 242,
+          "original_id": 45538
+        },
+        {
+          "train_index": 391,
+          "original_id": 666
+        },
+        {
+          "train_index": 491,
+          "original_id": 12262
+        },
+        {
+          "train_index": 614,
+          "original_id": 27184
+        },
+        {
+          "train_index": 23,
+          "original_id": 950
+        },
+        {
+          "train_index": 637,
+          "original_id": 11383
+        },
+        {
+          "train_index": 459,
+          "original_id": 55608
+        },
+        {
+          "train_index": 169,
+          "original_id": 1734
+        }
+      ]
+    },
+    "41": {
+      "client": 41,
+      "eligible_count": 296,
+      "selected": [
+        {
+          "train_index": 228,
+          "original_id": 36969
+        },
+        {
+          "train_index": 279,
+          "original_id": 11686
+        },
+        {
+          "train_index": 60,
+          "original_id": 51830
+        },
+        {
+          "train_index": 87,
+          "original_id": 21864
+        },
+        {
+          "train_index": 243,
+          "original_id": 26106
+        },
+        {
+          "train_index": 10,
+          "original_id": 12475
+        },
+        {
+          "train_index": 214,
+          "original_id": 48971
+        },
+        {
+          "train_index": 222,
+          "original_id": 44980
+        },
+        {
+          "train_index": 140,
+          "original_id": 51474
+        },
+        {
+          "train_index": 208,
+          "original_id": 39187
+        },
+        {
+          "train_index": 288,
+          "original_id": 46862
+        },
+        {
+          "train_index": 192,
+          "original_id": 43428
+        },
+        {
+          "train_index": 4,
+          "original_id": 49072
+        },
+        {
+          "train_index": 236,
+          "original_id": 32039
+        },
+        {
+          "train_index": 103,
+          "original_id": 37910
+        },
+        {
+          "train_index": 171,
+          "original_id": 8385
+        },
+        {
+          "train_index": 184,
+          "original_id": 40712
+        },
+        {
+          "train_index": 260,
+          "original_id": 5499
+        },
+        {
+          "train_index": 253,
+          "original_id": 11199
+        },
+        {
+          "train_index": 207,
+          "original_id": 16449
+        }
+      ]
+    },
+    "42": {
+      "client": 42,
+      "eligible_count": 956,
+      "selected": [
+        {
+          "train_index": 810,
+          "original_id": 6494
+        },
+        {
+          "train_index": 693,
+          "original_id": 18485
+        },
+        {
+          "train_index": 142,
+          "original_id": 5758
+        },
+        {
+          "train_index": 96,
+          "original_id": 13697
+        },
+        {
+          "train_index": 459,
+          "original_id": 25975
+        },
+        {
+          "train_index": 139,
+          "original_id": 7166
+        },
+        {
+          "train_index": 707,
+          "original_id": 19130
+        },
+        {
+          "train_index": 266,
+          "original_id": 59543
+        },
+        {
+          "train_index": 920,
+          "original_id": 59162
+        },
+        {
+          "train_index": 944,
+          "original_id": 24069
+        },
+        {
+          "train_index": 158,
+          "original_id": 34873
+        },
+        {
+          "train_index": 907,
+          "original_id": 54075
+        },
+        {
+          "train_index": 926,
+          "original_id": 56494
+        },
+        {
+          "train_index": 891,
+          "original_id": 52859
+        },
+        {
+          "train_index": 600,
+          "original_id": 49049
+        },
+        {
+          "train_index": 555,
+          "original_id": 2828
+        },
+        {
+          "train_index": 210,
+          "original_id": 15754
+        },
+        {
+          "train_index": 168,
+          "original_id": 18572
+        },
+        {
+          "train_index": 661,
+          "original_id": 37043
+        },
+        {
+          "train_index": 585,
+          "original_id": 15176
+        }
+      ]
+    },
+    "43": {
+      "client": 43,
+      "eligible_count": 590,
+      "selected": [
+        {
+          "train_index": 439,
+          "original_id": 23879
+        },
+        {
+          "train_index": 42,
+          "original_id": 39763
+        },
+        {
+          "train_index": 95,
+          "original_id": 55812
+        },
+        {
+          "train_index": 506,
+          "original_id": 19215
+        },
+        {
+          "train_index": 104,
+          "original_id": 46054
+        },
+        {
+          "train_index": 255,
+          "original_id": 12960
+        },
+        {
+          "train_index": 314,
+          "original_id": 48782
+        },
+        {
+          "train_index": 570,
+          "original_id": 3644
+        },
+        {
+          "train_index": 558,
+          "original_id": 47943
+        },
+        {
+          "train_index": 289,
+          "original_id": 29596
+        },
+        {
+          "train_index": 210,
+          "original_id": 36573
+        },
+        {
+          "train_index": 227,
+          "original_id": 52786
+        },
+        {
+          "train_index": 414,
+          "original_id": 44324
+        },
+        {
+          "train_index": 136,
+          "original_id": 5874
+        },
+        {
+          "train_index": 417,
+          "original_id": 33312
+        },
+        {
+          "train_index": 246,
+          "original_id": 55253
+        },
+        {
+          "train_index": 447,
+          "original_id": 29515
+        },
+        {
+          "train_index": 212,
+          "original_id": 28271
+        },
+        {
+          "train_index": 215,
+          "original_id": 20904
+        },
+        {
+          "train_index": 313,
+          "original_id": 38478
+        }
+      ]
+    },
+    "44": {
+      "client": 44,
+      "eligible_count": 218,
+      "selected": [
+        {
+          "train_index": 80,
+          "original_id": 42711
+        },
+        {
+          "train_index": 27,
+          "original_id": 44331
+        },
+        {
+          "train_index": 150,
+          "original_id": 21479
+        },
+        {
+          "train_index": 216,
+          "original_id": 49358
+        },
+        {
+          "train_index": 179,
+          "original_id": 5675
+        },
+        {
+          "train_index": 170,
+          "original_id": 45388
+        },
+        {
+          "train_index": 98,
+          "original_id": 17393
+        },
+        {
+          "train_index": 201,
+          "original_id": 12442
+        },
+        {
+          "train_index": 188,
+          "original_id": 26016
+        },
+        {
+          "train_index": 41,
+          "original_id": 14424
+        },
+        {
+          "train_index": 60,
+          "original_id": 50660
+        },
+        {
+          "train_index": 151,
+          "original_id": 8317
+        },
+        {
+          "train_index": 164,
+          "original_id": 53151
+        },
+        {
+          "train_index": 45,
+          "original_id": 20873
+        },
+        {
+          "train_index": 120,
+          "original_id": 5310
+        },
+        {
+          "train_index": 200,
+          "original_id": 54692
+        },
+        {
+          "train_index": 1,
+          "original_id": 32156
+        },
+        {
+          "train_index": 78,
+          "original_id": 5231
+        },
+        {
+          "train_index": 193,
+          "original_id": 59791
+        },
+        {
+          "train_index": 15,
+          "original_id": 20516
+        }
+      ]
+    },
+    "45": {
+      "client": 45,
+      "eligible_count": 38,
+      "selected": [
+        {
+          "train_index": 35,
+          "original_id": 53146
+        },
+        {
+          "train_index": 28,
+          "original_id": 30405
+        },
+        {
+          "train_index": 32,
+          "original_id": 21637
+        },
+        {
+          "train_index": 36,
+          "original_id": 29637
+        },
+        {
+          "train_index": 33,
+          "original_id": 56880
+        },
+        {
+          "train_index": 31,
+          "original_id": 47133
+        },
+        {
+          "train_index": 19,
+          "original_id": 7844
+        },
+        {
+          "train_index": 12,
+          "original_id": 15910
+        },
+        {
+          "train_index": 10,
+          "original_id": 30117
+        },
+        {
+          "train_index": 29,
+          "original_id": 29351
+        },
+        {
+          "train_index": 22,
+          "original_id": 52065
+        },
+        {
+          "train_index": 15,
+          "original_id": 54079
+        },
+        {
+          "train_index": 16,
+          "original_id": 17086
+        },
+        {
+          "train_index": 1,
+          "original_id": 52825
+        },
+        {
+          "train_index": 24,
+          "original_id": 16349
+        },
+        {
+          "train_index": 3,
+          "original_id": 25886
+        },
+        {
+          "train_index": 26,
+          "original_id": 56624
+        },
+        {
+          "train_index": 2,
+          "original_id": 33183
+        },
+        {
+          "train_index": 27,
+          "original_id": 42967
+        },
+        {
+          "train_index": 4,
+          "original_id": 46686
+        }
+      ]
+    },
+    "46": {
+      "client": 46,
+      "eligible_count": 236,
+      "selected": [
+        {
+          "train_index": 224,
+          "original_id": 41480
+        },
+        {
+          "train_index": 119,
+          "original_id": 22932
+        },
+        {
+          "train_index": 3,
+          "original_id": 14896
+        },
+        {
+          "train_index": 11,
+          "original_id": 14408
+        },
+        {
+          "train_index": 5,
+          "original_id": 55845
+        },
+        {
+          "train_index": 18,
+          "original_id": 42240
+        },
+        {
+          "train_index": 66,
+          "original_id": 59815
+        },
+        {
+          "train_index": 52,
+          "original_id": 661
+        },
+        {
+          "train_index": 199,
+          "original_id": 31225
+        },
+        {
+          "train_index": 50,
+          "original_id": 45007
+        },
+        {
+          "train_index": 77,
+          "original_id": 7031
+        },
+        {
+          "train_index": 85,
+          "original_id": 39591
+        },
+        {
+          "train_index": 73,
+          "original_id": 31707
+        },
+        {
+          "train_index": 91,
+          "original_id": 35949
+        },
+        {
+          "train_index": 92,
+          "original_id": 54471
+        },
+        {
+          "train_index": 90,
+          "original_id": 18541
+        },
+        {
+          "train_index": 41,
+          "original_id": 55463
+        },
+        {
+          "train_index": 188,
+          "original_id": 47620
+        },
+        {
+          "train_index": 79,
+          "original_id": 14533
+        },
+        {
+          "train_index": 113,
+          "original_id": 3017
+        }
+      ]
+    },
+    "47": {
+      "client": 47,
+      "eligible_count": 94,
+      "selected": [
+        {
+          "train_index": 82,
+          "original_id": 15914
+        },
+        {
+          "train_index": 56,
+          "original_id": 6534
+        },
+        {
+          "train_index": 4,
+          "original_id": 50622
+        },
+        {
+          "train_index": 43,
+          "original_id": 10050
+        },
+        {
+          "train_index": 68,
+          "original_id": 9234
+        },
+        {
+          "train_index": 60,
+          "original_id": 43207
+        },
+        {
+          "train_index": 27,
+          "original_id": 40841
+        },
+        {
+          "train_index": 66,
+          "original_id": 4742
+        },
+        {
+          "train_index": 75,
+          "original_id": 55861
+        },
+        {
+          "train_index": 67,
+          "original_id": 8614
+        },
+        {
+          "train_index": 23,
+          "original_id": 19147
+        },
+        {
+          "train_index": 17,
+          "original_id": 59865
+        },
+        {
+          "train_index": 0,
+          "original_id": 22477
+        },
+        {
+          "train_index": 13,
+          "original_id": 7599
+        },
+        {
+          "train_index": 24,
+          "original_id": 21856
+        },
+        {
+          "train_index": 29,
+          "original_id": 5817
+        },
+        {
+          "train_index": 81,
+          "original_id": 40667
+        },
+        {
+          "train_index": 15,
+          "original_id": 58460
+        },
+        {
+          "train_index": 76,
+          "original_id": 57678
+        },
+        {
+          "train_index": 40,
+          "original_id": 54492
+        }
+      ]
+    },
+    "48": {
+      "client": 48,
+      "eligible_count": 481,
+      "selected": [
+        {
+          "train_index": 255,
+          "original_id": 53926
+        },
+        {
+          "train_index": 185,
+          "original_id": 42157
+        },
+        {
+          "train_index": 279,
+          "original_id": 13012
+        },
+        {
+          "train_index": 362,
+          "original_id": 6879
+        },
+        {
+          "train_index": 429,
+          "original_id": 35773
+        },
+        {
+          "train_index": 266,
+          "original_id": 41148
+        },
+        {
+          "train_index": 50,
+          "original_id": 13172
+        },
+        {
+          "train_index": 361,
+          "original_id": 54402
+        },
+        {
+          "train_index": 133,
+          "original_id": 58088
+        },
+        {
+          "train_index": 327,
+          "original_id": 10988
+        },
+        {
+          "train_index": 9,
+          "original_id": 57062
+        },
+        {
+          "train_index": 211,
+          "original_id": 29592
+        },
+        {
+          "train_index": 475,
+          "original_id": 24078
+        },
+        {
+          "train_index": 23,
+          "original_id": 57248
+        },
+        {
+          "train_index": 10,
+          "original_id": 22711
+        },
+        {
+          "train_index": 409,
+          "original_id": 10701
+        },
+        {
+          "train_index": 30,
+          "original_id": 29129
+        },
+        {
+          "train_index": 86,
+          "original_id": 24377
+        },
+        {
+          "train_index": 318,
+          "original_id": 39430
+        },
+        {
+          "train_index": 247,
+          "original_id": 12324
+        }
+      ]
+    },
+    "49": {
+      "client": 49,
+      "eligible_count": 604,
+      "selected": [
+        {
+          "train_index": 531,
+          "original_id": 2723
+        },
+        {
+          "train_index": 143,
+          "original_id": 55588
+        },
+        {
+          "train_index": 197,
+          "original_id": 33779
+        },
+        {
+          "train_index": 494,
+          "original_id": 18247
+        },
+        {
+          "train_index": 169,
+          "original_id": 50068
+        },
+        {
+          "train_index": 372,
+          "original_id": 56340
+        },
+        {
+          "train_index": 142,
+          "original_id": 59298
+        },
+        {
+          "train_index": 310,
+          "original_id": 25686
+        },
+        {
+          "train_index": 300,
+          "original_id": 29313
+        },
+        {
+          "train_index": 239,
+          "original_id": 1723
+        },
+        {
+          "train_index": 486,
+          "original_id": 54687
+        },
+        {
+          "train_index": 410,
+          "original_id": 24571
+        },
+        {
+          "train_index": 164,
+          "original_id": 44232
+        },
+        {
+          "train_index": 562,
+          "original_id": 51606
+        },
+        {
+          "train_index": 121,
+          "original_id": 32527
+        },
+        {
+          "train_index": 277,
+          "original_id": 23345
+        },
+        {
+          "train_index": 86,
+          "original_id": 33345
+        },
+        {
+          "train_index": 317,
+          "original_id": 30386
+        },
+        {
+          "train_index": 534,
+          "original_id": 865
+        },
+        {
+          "train_index": 466,
+          "original_id": 53594
+        }
+      ]
+    },
+    "50": {
+      "client": 50,
+      "eligible_count": 358,
+      "selected": [
+        {
+          "train_index": 240,
+          "original_id": 20700
+        },
+        {
+          "train_index": 201,
+          "original_id": 11354
+        },
+        {
+          "train_index": 232,
+          "original_id": 15896
+        },
+        {
+          "train_index": 226,
+          "original_id": 40957
+        },
+        {
+          "train_index": 291,
+          "original_id": 43134
+        },
+        {
+          "train_index": 5,
+          "original_id": 18194
+        },
+        {
+          "train_index": 316,
+          "original_id": 31371
+        },
+        {
+          "train_index": 167,
+          "original_id": 55467
+        },
+        {
+          "train_index": 297,
+          "original_id": 46202
+        },
+        {
+          "train_index": 136,
+          "original_id": 6648
+        },
+        {
+          "train_index": 152,
+          "original_id": 17501
+        },
+        {
+          "train_index": 170,
+          "original_id": 4777
+        },
+        {
+          "train_index": 0,
+          "original_id": 5554
+        },
+        {
+          "train_index": 15,
+          "original_id": 52073
+        },
+        {
+          "train_index": 216,
+          "original_id": 6558
+        },
+        {
+          "train_index": 39,
+          "original_id": 9316
+        },
+        {
+          "train_index": 99,
+          "original_id": 30102
+        },
+        {
+          "train_index": 252,
+          "original_id": 26001
+        },
+        {
+          "train_index": 44,
+          "original_id": 43078
+        },
+        {
+          "train_index": 153,
+          "original_id": 20572
+        }
+      ]
+    },
+    "51": {
+      "client": 51,
+      "eligible_count": 36,
+      "selected": [
+        {
+          "train_index": 11,
+          "original_id": 32848
+        },
+        {
+          "train_index": 14,
+          "original_id": 57170
+        },
+        {
+          "train_index": 21,
+          "original_id": 51689
+        },
+        {
+          "train_index": 3,
+          "original_id": 29013
+        },
+        {
+          "train_index": 17,
+          "original_id": 59717
+        },
+        {
+          "train_index": 24,
+          "original_id": 2192
+        },
+        {
+          "train_index": 5,
+          "original_id": 58849
+        },
+        {
+          "train_index": 15,
+          "original_id": 32158
+        },
+        {
+          "train_index": 1,
+          "original_id": 12061
+        },
+        {
+          "train_index": 28,
+          "original_id": 50690
+        },
+        {
+          "train_index": 2,
+          "original_id": 15119
+        },
+        {
+          "train_index": 13,
+          "original_id": 52336
+        },
+        {
+          "train_index": 29,
+          "original_id": 14250
+        },
+        {
+          "train_index": 25,
+          "original_id": 32476
+        },
+        {
+          "train_index": 34,
+          "original_id": 27588
+        },
+        {
+          "train_index": 10,
+          "original_id": 25437
+        },
+        {
+          "train_index": 33,
+          "original_id": 35702
+        },
+        {
+          "train_index": 8,
+          "original_id": 53141
+        },
+        {
+          "train_index": 12,
+          "original_id": 48577
+        },
+        {
+          "train_index": 19,
+          "original_id": 49181
+        }
+      ]
+    },
+    "52": {
+      "client": 52,
+      "eligible_count": 71,
+      "selected": [
+        {
+          "train_index": 48,
+          "original_id": 12924
+        },
+        {
+          "train_index": 51,
+          "original_id": 54462
+        },
+        {
+          "train_index": 63,
+          "original_id": 8634
+        },
+        {
+          "train_index": 50,
+          "original_id": 52301
+        },
+        {
+          "train_index": 66,
+          "original_id": 403
+        },
+        {
+          "train_index": 16,
+          "original_id": 57425
+        },
+        {
+          "train_index": 49,
+          "original_id": 34508
+        },
+        {
+          "train_index": 31,
+          "original_id": 17522
+        },
+        {
+          "train_index": 37,
+          "original_id": 38813
+        },
+        {
+          "train_index": 9,
+          "original_id": 30007
+        },
+        {
+          "train_index": 58,
+          "original_id": 14012
+        },
+        {
+          "train_index": 1,
+          "original_id": 22628
+        },
+        {
+          "train_index": 14,
+          "original_id": 39786
+        },
+        {
+          "train_index": 27,
+          "original_id": 10280
+        },
+        {
+          "train_index": 62,
+          "original_id": 21897
+        },
+        {
+          "train_index": 52,
+          "original_id": 24334
+        },
+        {
+          "train_index": 2,
+          "original_id": 6392
+        },
+        {
+          "train_index": 17,
+          "original_id": 2707
+        },
+        {
+          "train_index": 70,
+          "original_id": 34769
+        },
+        {
+          "train_index": 33,
+          "original_id": 11766
+        }
+      ]
+    },
+    "53": {
+      "client": 53,
+      "eligible_count": 362,
+      "selected": [
+        {
+          "train_index": 259,
+          "original_id": 42116
+        },
+        {
+          "train_index": 193,
+          "original_id": 29667
+        },
+        {
+          "train_index": 44,
+          "original_id": 59184
+        },
+        {
+          "train_index": 346,
+          "original_id": 53985
+        },
+        {
+          "train_index": 202,
+          "original_id": 52006
+        },
+        {
+          "train_index": 131,
+          "original_id": 34401
+        },
+        {
+          "train_index": 9,
+          "original_id": 48066
+        },
+        {
+          "train_index": 17,
+          "original_id": 8312
+        },
+        {
+          "train_index": 139,
+          "original_id": 48283
+        },
+        {
+          "train_index": 186,
+          "original_id": 41805
+        },
+        {
+          "train_index": 65,
+          "original_id": 51784
+        },
+        {
+          "train_index": 39,
+          "original_id": 51925
+        },
+        {
+          "train_index": 242,
+          "original_id": 54766
+        },
+        {
+          "train_index": 351,
+          "original_id": 24815
+        },
+        {
+          "train_index": 247,
+          "original_id": 48060
+        },
+        {
+          "train_index": 14,
+          "original_id": 43435
+        },
+        {
+          "train_index": 81,
+          "original_id": 56100
+        },
+        {
+          "train_index": 298,
+          "original_id": 8869
+        },
+        {
+          "train_index": 278,
+          "original_id": 59091
+        },
+        {
+          "train_index": 302,
+          "original_id": 57037
+        }
+      ]
+    },
+    "54": {
+      "client": 54,
+      "eligible_count": 706,
+      "selected": [
+        {
+          "train_index": 424,
+          "original_id": 26976
+        },
+        {
+          "train_index": 57,
+          "original_id": 23811
+        },
+        {
+          "train_index": 136,
+          "original_id": 23606
+        },
+        {
+          "train_index": 440,
+          "original_id": 29626
+        },
+        {
+          "train_index": 490,
+          "original_id": 44604
+        },
+        {
+          "train_index": 691,
+          "original_id": 38468
+        },
+        {
+          "train_index": 280,
+          "original_id": 14780
+        },
+        {
+          "train_index": 286,
+          "original_id": 57230
+        },
+        {
+          "train_index": 510,
+          "original_id": 58874
+        },
+        {
+          "train_index": 213,
+          "original_id": 33490
+        },
+        {
+          "train_index": 494,
+          "original_id": 8351
+        },
+        {
+          "train_index": 142,
+          "original_id": 114
+        },
+        {
+          "train_index": 192,
+          "original_id": 57432
+        },
+        {
+          "train_index": 15,
+          "original_id": 27157
+        },
+        {
+          "train_index": 92,
+          "original_id": 17575
+        },
+        {
+          "train_index": 351,
+          "original_id": 9443
+        },
+        {
+          "train_index": 343,
+          "original_id": 10507
+        },
+        {
+          "train_index": 309,
+          "original_id": 18791
+        },
+        {
+          "train_index": 462,
+          "original_id": 9719
+        },
+        {
+          "train_index": 604,
+          "original_id": 12527
+        }
+      ]
+    },
+    "55": {
+      "client": 55,
+      "eligible_count": 627,
+      "selected": [
+        {
+          "train_index": 313,
+          "original_id": 15491
+        },
+        {
+          "train_index": 145,
+          "original_id": 43007
+        },
+        {
+          "train_index": 615,
+          "original_id": 31596
+        },
+        {
+          "train_index": 219,
+          "original_id": 40789
+        },
+        {
+          "train_index": 27,
+          "original_id": 37323
+        },
+        {
+          "train_index": 502,
+          "original_id": 826
+        },
+        {
+          "train_index": 172,
+          "original_id": 52574
+        },
+        {
+          "train_index": 222,
+          "original_id": 22668
+        },
+        {
+          "train_index": 580,
+          "original_id": 12318
+        },
+        {
+          "train_index": 619,
+          "original_id": 36555
+        },
+        {
+          "train_index": 471,
+          "original_id": 49876
+        },
+        {
+          "train_index": 419,
+          "original_id": 10673
+        },
+        {
+          "train_index": 322,
+          "original_id": 3049
+        },
+        {
+          "train_index": 1,
+          "original_id": 365
+        },
+        {
+          "train_index": 324,
+          "original_id": 32644
+        },
+        {
+          "train_index": 218,
+          "original_id": 2220
+        },
+        {
+          "train_index": 281,
+          "original_id": 16512
+        },
+        {
+          "train_index": 581,
+          "original_id": 31390
+        },
+        {
+          "train_index": 209,
+          "original_id": 31018
+        },
+        {
+          "train_index": 6,
+          "original_id": 16257
+        }
+      ]
+    },
+    "56": {
+      "client": 56,
+      "eligible_count": 349,
+      "selected": [
+        {
+          "train_index": 232,
+          "original_id": 37285
+        },
+        {
+          "train_index": 190,
+          "original_id": 53542
+        },
+        {
+          "train_index": 349,
+          "original_id": 14670
+        },
+        {
+          "train_index": 131,
+          "original_id": 8104
+        },
+        {
+          "train_index": 191,
+          "original_id": 21645
+        },
+        {
+          "train_index": 2,
+          "original_id": 8635
+        },
+        {
+          "train_index": 273,
+          "original_id": 56811
+        },
+        {
+          "train_index": 174,
+          "original_id": 23302
+        },
+        {
+          "train_index": 137,
+          "original_id": 30223
+        },
+        {
+          "train_index": 106,
+          "original_id": 48810
+        },
+        {
+          "train_index": 47,
+          "original_id": 11104
+        },
+        {
+          "train_index": 143,
+          "original_id": 44405
+        },
+        {
+          "train_index": 206,
+          "original_id": 12673
+        },
+        {
+          "train_index": 53,
+          "original_id": 43234
+        },
+        {
+          "train_index": 246,
+          "original_id": 7341
+        },
+        {
+          "train_index": 16,
+          "original_id": 51563
+        },
+        {
+          "train_index": 35,
+          "original_id": 8513
+        },
+        {
+          "train_index": 59,
+          "original_id": 14475
+        },
+        {
+          "train_index": 92,
+          "original_id": 19505
+        },
+        {
+          "train_index": 61,
+          "original_id": 47767
+        }
+      ]
+    },
+    "57": {
+      "client": 57,
+      "eligible_count": 348,
+      "selected": [
+        {
+          "train_index": 46,
+          "original_id": 8105
+        },
+        {
+          "train_index": 78,
+          "original_id": 7593
+        },
+        {
+          "train_index": 136,
+          "original_id": 52133
+        },
+        {
+          "train_index": 238,
+          "original_id": 5086
+        },
+        {
+          "train_index": 237,
+          "original_id": 35753
+        },
+        {
+          "train_index": 77,
+          "original_id": 27992
+        },
+        {
+          "train_index": 201,
+          "original_id": 14381
+        },
+        {
+          "train_index": 320,
+          "original_id": 53943
+        },
+        {
+          "train_index": 15,
+          "original_id": 27745
+        },
+        {
+          "train_index": 199,
+          "original_id": 51522
+        },
+        {
+          "train_index": 227,
+          "original_id": 50586
+        },
+        {
+          "train_index": 192,
+          "original_id": 14722
+        },
+        {
+          "train_index": 57,
+          "original_id": 45152
+        },
+        {
+          "train_index": 344,
+          "original_id": 3194
+        },
+        {
+          "train_index": 4,
+          "original_id": 31094
+        },
+        {
+          "train_index": 252,
+          "original_id": 47975
+        },
+        {
+          "train_index": 67,
+          "original_id": 9997
+        },
+        {
+          "train_index": 105,
+          "original_id": 19087
+        },
+        {
+          "train_index": 132,
+          "original_id": 27510
+        },
+        {
+          "train_index": 251,
+          "original_id": 17478
+        }
+      ]
+    },
+    "58": {
+      "client": 58,
+      "eligible_count": 80,
+      "selected": [
+        {
+          "train_index": 31,
+          "original_id": 45497
+        },
+        {
+          "train_index": 47,
+          "original_id": 9608
+        },
+        {
+          "train_index": 57,
+          "original_id": 3788
+        },
+        {
+          "train_index": 29,
+          "original_id": 26658
+        },
+        {
+          "train_index": 72,
+          "original_id": 45844
+        },
+        {
+          "train_index": 10,
+          "original_id": 16681
+        },
+        {
+          "train_index": 40,
+          "original_id": 29248
+        },
+        {
+          "train_index": 23,
+          "original_id": 5637
+        },
+        {
+          "train_index": 33,
+          "original_id": 35642
+        },
+        {
+          "train_index": 8,
+          "original_id": 43648
+        },
+        {
+          "train_index": 71,
+          "original_id": 45086
+        },
+        {
+          "train_index": 21,
+          "original_id": 27899
+        },
+        {
+          "train_index": 58,
+          "original_id": 30179
+        },
+        {
+          "train_index": 12,
+          "original_id": 6036
+        },
+        {
+          "train_index": 15,
+          "original_id": 52177
+        },
+        {
+          "train_index": 35,
+          "original_id": 43719
+        },
+        {
+          "train_index": 24,
+          "original_id": 41630
+        },
+        {
+          "train_index": 76,
+          "original_id": 16977
+        },
+        {
+          "train_index": 19,
+          "original_id": 9755
+        },
+        {
+          "train_index": 61,
+          "original_id": 35369
+        }
+      ]
+    },
+    "59": {
+      "client": 59,
+      "eligible_count": 279,
+      "selected": [
+        {
+          "train_index": 195,
+          "original_id": 56823
+        },
+        {
+          "train_index": 220,
+          "original_id": 59246
+        },
+        {
+          "train_index": 32,
+          "original_id": 31395
+        },
+        {
+          "train_index": 57,
+          "original_id": 7796
+        },
+        {
+          "train_index": 33,
+          "original_id": 34017
+        },
+        {
+          "train_index": 77,
+          "original_id": 29522
+        },
+        {
+          "train_index": 243,
+          "original_id": 46193
+        },
+        {
+          "train_index": 55,
+          "original_id": 36908
+        },
+        {
+          "train_index": 268,
+          "original_id": 35470
+        },
+        {
+          "train_index": 152,
+          "original_id": 42734
+        },
+        {
+          "train_index": 136,
+          "original_id": 59685
+        },
+        {
+          "train_index": 267,
+          "original_id": 54603
+        },
+        {
+          "train_index": 114,
+          "original_id": 15677
+        },
+        {
+          "train_index": 167,
+          "original_id": 29270
+        },
+        {
+          "train_index": 219,
+          "original_id": 42287
+        },
+        {
+          "train_index": 142,
+          "original_id": 30441
+        },
+        {
+          "train_index": 31,
+          "original_id": 38751
+        },
+        {
+          "train_index": 99,
+          "original_id": 59747
+        },
+        {
+          "train_index": 159,
+          "original_id": 14288
+        },
+        {
+          "train_index": 75,
+          "original_id": 54425
+        }
+      ]
+    },
+    "60": {
+      "client": 60,
+      "eligible_count": 1423,
+      "selected": [
+        {
+          "train_index": 1134,
+          "original_id": 56660
+        },
+        {
+          "train_index": 66,
+          "original_id": 27312
+        },
+        {
+          "train_index": 188,
+          "original_id": 11721
+        },
+        {
+          "train_index": 152,
+          "original_id": 45163
+        },
+        {
+          "train_index": 253,
+          "original_id": 11844
+        },
+        {
+          "train_index": 364,
+          "original_id": 43292
+        },
+        {
+          "train_index": 206,
+          "original_id": 57718
+        },
+        {
+          "train_index": 392,
+          "original_id": 35269
+        },
+        {
+          "train_index": 144,
+          "original_id": 55354
+        },
+        {
+          "train_index": 698,
+          "original_id": 18538
+        },
+        {
+          "train_index": 982,
+          "original_id": 16305
+        },
+        {
+          "train_index": 1377,
+          "original_id": 46159
+        },
+        {
+          "train_index": 84,
+          "original_id": 28126
+        },
+        {
+          "train_index": 132,
+          "original_id": 52087
+        },
+        {
+          "train_index": 1022,
+          "original_id": 12363
+        },
+        {
+          "train_index": 1123,
+          "original_id": 19945
+        },
+        {
+          "train_index": 705,
+          "original_id": 46366
+        },
+        {
+          "train_index": 1394,
+          "original_id": 54446
+        },
+        {
+          "train_index": 851,
+          "original_id": 27623
+        },
+        {
+          "train_index": 978,
+          "original_id": 1382
+        }
+      ]
+    },
+    "61": {
+      "client": 61,
+      "eligible_count": 43,
+      "selected": [
+        {
+          "train_index": 10,
+          "original_id": 58565
+        },
+        {
+          "train_index": 24,
+          "original_id": 44032
+        },
+        {
+          "train_index": 23,
+          "original_id": 59729
+        },
+        {
+          "train_index": 32,
+          "original_id": 58627
+        },
+        {
+          "train_index": 19,
+          "original_id": 18537
+        },
+        {
+          "train_index": 3,
+          "original_id": 27145
+        },
+        {
+          "train_index": 30,
+          "original_id": 24782
+        },
+        {
+          "train_index": 11,
+          "original_id": 233
+        },
+        {
+          "train_index": 12,
+          "original_id": 22344
+        },
+        {
+          "train_index": 28,
+          "original_id": 23889
+        },
+        {
+          "train_index": 0,
+          "original_id": 49907
+        },
+        {
+          "train_index": 13,
+          "original_id": 57703
+        },
+        {
+          "train_index": 33,
+          "original_id": 43653
+        },
+        {
+          "train_index": 39,
+          "original_id": 40262
+        },
+        {
+          "train_index": 20,
+          "original_id": 40563
+        },
+        {
+          "train_index": 14,
+          "original_id": 7101
+        },
+        {
+          "train_index": 2,
+          "original_id": 1544
+        },
+        {
+          "train_index": 38,
+          "original_id": 5935
+        },
+        {
+          "train_index": 35,
+          "original_id": 14002
+        },
+        {
+          "train_index": 34,
+          "original_id": 45814
+        }
+      ]
+    },
+    "62": {
+      "client": 62,
+      "eligible_count": 221,
+      "selected": [
+        {
+          "train_index": 145,
+          "original_id": 53314
+        },
+        {
+          "train_index": 66,
+          "original_id": 37495
+        },
+        {
+          "train_index": 74,
+          "original_id": 3547
+        },
+        {
+          "train_index": 63,
+          "original_id": 26949
+        },
+        {
+          "train_index": 155,
+          "original_id": 23471
+        },
+        {
+          "train_index": 217,
+          "original_id": 34603
+        },
+        {
+          "train_index": 198,
+          "original_id": 25167
+        },
+        {
+          "train_index": 25,
+          "original_id": 23927
+        },
+        {
+          "train_index": 213,
+          "original_id": 42698
+        },
+        {
+          "train_index": 32,
+          "original_id": 27975
+        },
+        {
+          "train_index": 195,
+          "original_id": 47191
+        },
+        {
+          "train_index": 70,
+          "original_id": 36564
+        },
+        {
+          "train_index": 171,
+          "original_id": 4990
+        },
+        {
+          "train_index": 146,
+          "original_id": 431
+        },
+        {
+          "train_index": 124,
+          "original_id": 11399
+        },
+        {
+          "train_index": 127,
+          "original_id": 556
+        },
+        {
+          "train_index": 48,
+          "original_id": 35859
+        },
+        {
+          "train_index": 136,
+          "original_id": 769
+        },
+        {
+          "train_index": 107,
+          "original_id": 14053
+        },
+        {
+          "train_index": 88,
+          "original_id": 47544
+        }
+      ]
+    },
+    "63": {
+      "client": 63,
+      "eligible_count": 640,
+      "selected": [
+        {
+          "train_index": 76,
+          "original_id": 26275
+        },
+        {
+          "train_index": 492,
+          "original_id": 56203
+        },
+        {
+          "train_index": 58,
+          "original_id": 7205
+        },
+        {
+          "train_index": 109,
+          "original_id": 54032
+        },
+        {
+          "train_index": 560,
+          "original_id": 19647
+        },
+        {
+          "train_index": 114,
+          "original_id": 27154
+        },
+        {
+          "train_index": 74,
+          "original_id": 19040
+        },
+        {
+          "train_index": 595,
+          "original_id": 18884
+        },
+        {
+          "train_index": 80,
+          "original_id": 51715
+        },
+        {
+          "train_index": 386,
+          "original_id": 31685
+        },
+        {
+          "train_index": 42,
+          "original_id": 58687
+        },
+        {
+          "train_index": 54,
+          "original_id": 19494
+        },
+        {
+          "train_index": 508,
+          "original_id": 9112
+        },
+        {
+          "train_index": 18,
+          "original_id": 20050
+        },
+        {
+          "train_index": 418,
+          "original_id": 32846
+        },
+        {
+          "train_index": 255,
+          "original_id": 298
+        },
+        {
+          "train_index": 12,
+          "original_id": 42522
+        },
+        {
+          "train_index": 610,
+          "original_id": 30033
+        },
+        {
+          "train_index": 598,
+          "original_id": 51936
+        },
+        {
+          "train_index": 612,
+          "original_id": 31181
+        }
+      ]
+    },
+    "64": {
+      "client": 64,
+      "eligible_count": 380,
+      "selected": [
+        {
+          "train_index": 77,
+          "original_id": 44052
+        },
+        {
+          "train_index": 254,
+          "original_id": 43812
+        },
+        {
+          "train_index": 3,
+          "original_id": 15746
+        },
+        {
+          "train_index": 64,
+          "original_id": 39387
+        },
+        {
+          "train_index": 8,
+          "original_id": 28657
+        },
+        {
+          "train_index": 281,
+          "original_id": 3888
+        },
+        {
+          "train_index": 185,
+          "original_id": 43013
+        },
+        {
+          "train_index": 349,
+          "original_id": 41951
+        },
+        {
+          "train_index": 212,
+          "original_id": 31400
+        },
+        {
+          "train_index": 232,
+          "original_id": 34687
+        },
+        {
+          "train_index": 156,
+          "original_id": 2809
+        },
+        {
+          "train_index": 29,
+          "original_id": 11706
+        },
+        {
+          "train_index": 297,
+          "original_id": 18969
+        },
+        {
+          "train_index": 333,
+          "original_id": 18582
+        },
+        {
+          "train_index": 320,
+          "original_id": 44233
+        },
+        {
+          "train_index": 21,
+          "original_id": 25882
+        },
+        {
+          "train_index": 295,
+          "original_id": 22278
+        },
+        {
+          "train_index": 322,
+          "original_id": 32293
+        },
+        {
+          "train_index": 154,
+          "original_id": 56122
+        },
+        {
+          "train_index": 342,
+          "original_id": 57074
+        }
+      ]
+    },
+    "65": {
+      "client": 65,
+      "eligible_count": 453,
+      "selected": [
+        {
+          "train_index": 243,
+          "original_id": 52459
+        },
+        {
+          "train_index": 90,
+          "original_id": 426
+        },
+        {
+          "train_index": 309,
+          "original_id": 54152
+        },
+        {
+          "train_index": 298,
+          "original_id": 52472
+        },
+        {
+          "train_index": 337,
+          "original_id": 31200
+        },
+        {
+          "train_index": 188,
+          "original_id": 31485
+        },
+        {
+          "train_index": 362,
+          "original_id": 28340
+        },
+        {
+          "train_index": 247,
+          "original_id": 33853
+        },
+        {
+          "train_index": 29,
+          "original_id": 56528
+        },
+        {
+          "train_index": 57,
+          "original_id": 41340
+        },
+        {
+          "train_index": 435,
+          "original_id": 2604
+        },
+        {
+          "train_index": 59,
+          "original_id": 17141
+        },
+        {
+          "train_index": 340,
+          "original_id": 24832
+        },
+        {
+          "train_index": 347,
+          "original_id": 31555
+        },
+        {
+          "train_index": 137,
+          "original_id": 12088
+        },
+        {
+          "train_index": 277,
+          "original_id": 23694
+        },
+        {
+          "train_index": 319,
+          "original_id": 16886
+        },
+        {
+          "train_index": 179,
+          "original_id": 33320
+        },
+        {
+          "train_index": 295,
+          "original_id": 8590
+        },
+        {
+          "train_index": 241,
+          "original_id": 31221
+        }
+      ]
+    },
+    "66": {
+      "client": 66,
+      "eligible_count": 578,
+      "selected": [
+        {
+          "train_index": 266,
+          "original_id": 749
+        },
+        {
+          "train_index": 208,
+          "original_id": 42346
+        },
+        {
+          "train_index": 16,
+          "original_id": 45048
+        },
+        {
+          "train_index": 167,
+          "original_id": 23640
+        },
+        {
+          "train_index": 539,
+          "original_id": 14170
+        },
+        {
+          "train_index": 348,
+          "original_id": 643
+        },
+        {
+          "train_index": 542,
+          "original_id": 24693
+        },
+        {
+          "train_index": 407,
+          "original_id": 43401
+        },
+        {
+          "train_index": 89,
+          "original_id": 37016
+        },
+        {
+          "train_index": 210,
+          "original_id": 40729
+        },
+        {
+          "train_index": 296,
+          "original_id": 39371
+        },
+        {
+          "train_index": 160,
+          "original_id": 15027
+        },
+        {
+          "train_index": 138,
+          "original_id": 59367
+        },
+        {
+          "train_index": 433,
+          "original_id": 43578
+        },
+        {
+          "train_index": 58,
+          "original_id": 56469
+        },
+        {
+          "train_index": 166,
+          "original_id": 13096
+        },
+        {
+          "train_index": 333,
+          "original_id": 22206
+        },
+        {
+          "train_index": 409,
+          "original_id": 6116
+        },
+        {
+          "train_index": 184,
+          "original_id": 14433
+        },
+        {
+          "train_index": 50,
+          "original_id": 58673
+        }
+      ]
+    },
+    "67": {
+      "client": 67,
+      "eligible_count": 244,
+      "selected": [
+        {
+          "train_index": 99,
+          "original_id": 37150
+        },
+        {
+          "train_index": 172,
+          "original_id": 55682
+        },
+        {
+          "train_index": 113,
+          "original_id": 168
+        },
+        {
+          "train_index": 195,
+          "original_id": 53472
+        },
+        {
+          "train_index": 161,
+          "original_id": 28296
+        },
+        {
+          "train_index": 119,
+          "original_id": 7139
+        },
+        {
+          "train_index": 65,
+          "original_id": 55741
+        },
+        {
+          "train_index": 97,
+          "original_id": 48631
+        },
+        {
+          "train_index": 10,
+          "original_id": 56715
+        },
+        {
+          "train_index": 109,
+          "original_id": 42259
+        },
+        {
+          "train_index": 169,
+          "original_id": 40977
+        },
+        {
+          "train_index": 226,
+          "original_id": 22704
+        },
+        {
+          "train_index": 89,
+          "original_id": 28946
+        },
+        {
+          "train_index": 84,
+          "original_id": 19062
+        },
+        {
+          "train_index": 126,
+          "original_id": 25968
+        },
+        {
+          "train_index": 68,
+          "original_id": 25632
+        },
+        {
+          "train_index": 150,
+          "original_id": 7057
+        },
+        {
+          "train_index": 95,
+          "original_id": 14403
+        },
+        {
+          "train_index": 38,
+          "original_id": 44796
+        },
+        {
+          "train_index": 241,
+          "original_id": 58976
+        }
+      ]
+    },
+    "68": {
+      "client": 68,
+      "eligible_count": 685,
+      "selected": [
+        {
+          "train_index": 518,
+          "original_id": 27564
+        },
+        {
+          "train_index": 103,
+          "original_id": 20720
+        },
+        {
+          "train_index": 650,
+          "original_id": 21234
+        },
+        {
+          "train_index": 313,
+          "original_id": 44520
+        },
+        {
+          "train_index": 224,
+          "original_id": 23427
+        },
+        {
+          "train_index": 27,
+          "original_id": 26077
+        },
+        {
+          "train_index": 140,
+          "original_id": 50198
+        },
+        {
+          "train_index": 266,
+          "original_id": 14764
+        },
+        {
+          "train_index": 618,
+          "original_id": 27603
+        },
+        {
+          "train_index": 665,
+          "original_id": 35741
+        },
+        {
+          "train_index": 549,
+          "original_id": 28405
+        },
+        {
+          "train_index": 295,
+          "original_id": 54214
+        },
+        {
+          "train_index": 680,
+          "original_id": 15472
+        },
+        {
+          "train_index": 151,
+          "original_id": 37225
+        },
+        {
+          "train_index": 394,
+          "original_id": 146
+        },
+        {
+          "train_index": 645,
+          "original_id": 43748
+        },
+        {
+          "train_index": 297,
+          "original_id": 37418
+        },
+        {
+          "train_index": 445,
+          "original_id": 46547
+        },
+        {
+          "train_index": 400,
+          "original_id": 5104
+        },
+        {
+          "train_index": 310,
+          "original_id": 45016
+        }
+      ]
+    },
+    "69": {
+      "client": 69,
+      "eligible_count": 425,
+      "selected": [
+        {
+          "train_index": 12,
+          "original_id": 33308
+        },
+        {
+          "train_index": 323,
+          "original_id": 55593
+        },
+        {
+          "train_index": 200,
+          "original_id": 52466
+        },
+        {
+          "train_index": 367,
+          "original_id": 9445
+        },
+        {
+          "train_index": 142,
+          "original_id": 37368
+        },
+        {
+          "train_index": 108,
+          "original_id": 15282
+        },
+        {
+          "train_index": 266,
+          "original_id": 44776
+        },
+        {
+          "train_index": 57,
+          "original_id": 7849
+        },
+        {
+          "train_index": 0,
+          "original_id": 52710
+        },
+        {
+          "train_index": 64,
+          "original_id": 43185
+        },
+        {
+          "train_index": 307,
+          "original_id": 20260
+        },
+        {
+          "train_index": 392,
+          "original_id": 58759
+        },
+        {
+          "train_index": 189,
+          "original_id": 54923
+        },
+        {
+          "train_index": 414,
+          "original_id": 20072
+        },
+        {
+          "train_index": 402,
+          "original_id": 15878
+        },
+        {
+          "train_index": 214,
+          "original_id": 6655
+        },
+        {
+          "train_index": 408,
+          "original_id": 40689
+        },
+        {
+          "train_index": 53,
+          "original_id": 46158
+        },
+        {
+          "train_index": 274,
+          "original_id": 58982
+        },
+        {
+          "train_index": 37,
+          "original_id": 18417
+        }
+      ]
+    },
+    "70": {
+      "client": 70,
+      "eligible_count": 230,
+      "selected": [
+        {
+          "train_index": 85,
+          "original_id": 7376
+        },
+        {
+          "train_index": 163,
+          "original_id": 19167
+        },
+        {
+          "train_index": 195,
+          "original_id": 23153
+        },
+        {
+          "train_index": 205,
+          "original_id": 52480
+        },
+        {
+          "train_index": 15,
+          "original_id": 35315
+        },
+        {
+          "train_index": 61,
+          "original_id": 45025
+        },
+        {
+          "train_index": 217,
+          "original_id": 22661
+        },
+        {
+          "train_index": 191,
+          "original_id": 7934
+        },
+        {
+          "train_index": 8,
+          "original_id": 34120
+        },
+        {
+          "train_index": 138,
+          "original_id": 7784
+        },
+        {
+          "train_index": 35,
+          "original_id": 59240
+        },
+        {
+          "train_index": 1,
+          "original_id": 34655
+        },
+        {
+          "train_index": 165,
+          "original_id": 44720
+        },
+        {
+          "train_index": 66,
+          "original_id": 7015
+        },
+        {
+          "train_index": 109,
+          "original_id": 5454
+        },
+        {
+          "train_index": 48,
+          "original_id": 41848
+        },
+        {
+          "train_index": 176,
+          "original_id": 51075
+        },
+        {
+          "train_index": 221,
+          "original_id": 10443
+        },
+        {
+          "train_index": 22,
+          "original_id": 1688
+        },
+        {
+          "train_index": 97,
+          "original_id": 39044
+        }
+      ]
+    },
+    "71": {
+      "client": 71,
+      "eligible_count": 106,
+      "selected": [
+        {
+          "train_index": 76,
+          "original_id": 54448
+        },
+        {
+          "train_index": 52,
+          "original_id": 54661
+        },
+        {
+          "train_index": 70,
+          "original_id": 2864
+        },
+        {
+          "train_index": 60,
+          "original_id": 27334
+        },
+        {
+          "train_index": 35,
+          "original_id": 14710
+        },
+        {
+          "train_index": 81,
+          "original_id": 58429
+        },
+        {
+          "train_index": 89,
+          "original_id": 36345
+        },
+        {
+          "train_index": 23,
+          "original_id": 38013
+        },
+        {
+          "train_index": 27,
+          "original_id": 37805
+        },
+        {
+          "train_index": 59,
+          "original_id": 48737
+        },
+        {
+          "train_index": 92,
+          "original_id": 6181
+        },
+        {
+          "train_index": 84,
+          "original_id": 18052
+        },
+        {
+          "train_index": 17,
+          "original_id": 7536
+        },
+        {
+          "train_index": 26,
+          "original_id": 30559
+        },
+        {
+          "train_index": 5,
+          "original_id": 27649
+        },
+        {
+          "train_index": 63,
+          "original_id": 18705
+        },
+        {
+          "train_index": 40,
+          "original_id": 46384
+        },
+        {
+          "train_index": 86,
+          "original_id": 31903
+        },
+        {
+          "train_index": 66,
+          "original_id": 57238
+        },
+        {
+          "train_index": 79,
+          "original_id": 13834
+        }
+      ]
+    },
+    "72": {
+      "client": 72,
+      "eligible_count": 479,
+      "selected": [
+        {
+          "train_index": 112,
+          "original_id": 31249
+        },
+        {
+          "train_index": 291,
+          "original_id": 28144
+        },
+        {
+          "train_index": 40,
+          "original_id": 54632
+        },
+        {
+          "train_index": 47,
+          "original_id": 53123
+        },
+        {
+          "train_index": 168,
+          "original_id": 32769
+        },
+        {
+          "train_index": 191,
+          "original_id": 36126
+        },
+        {
+          "train_index": 339,
+          "original_id": 53270
+        },
+        {
+          "train_index": 432,
+          "original_id": 1355
+        },
+        {
+          "train_index": 368,
+          "original_id": 11615
+        },
+        {
+          "train_index": 133,
+          "original_id": 1244
+        },
+        {
+          "train_index": 149,
+          "original_id": 38098
+        },
+        {
+          "train_index": 25,
+          "original_id": 35053
+        },
+        {
+          "train_index": 461,
+          "original_id": 14542
+        },
+        {
+          "train_index": 419,
+          "original_id": 20221
+        },
+        {
+          "train_index": 366,
+          "original_id": 56030
+        },
+        {
+          "train_index": 309,
+          "original_id": 32912
+        },
+        {
+          "train_index": 114,
+          "original_id": 48986
+        },
+        {
+          "train_index": 357,
+          "original_id": 6104
+        },
+        {
+          "train_index": 299,
+          "original_id": 47651
+        },
+        {
+          "train_index": 374,
+          "original_id": 3497
+        }
+      ]
+    },
+    "73": {
+      "client": 73,
+      "eligible_count": 677,
+      "selected": [
+        {
+          "train_index": 148,
+          "original_id": 42529
+        },
+        {
+          "train_index": 555,
+          "original_id": 57244
+        },
+        {
+          "train_index": 14,
+          "original_id": 55210
+        },
+        {
+          "train_index": 291,
+          "original_id": 55774
+        },
+        {
+          "train_index": 507,
+          "original_id": 40300
+        },
+        {
+          "train_index": 324,
+          "original_id": 11298
+        },
+        {
+          "train_index": 340,
+          "original_id": 54837
+        },
+        {
+          "train_index": 657,
+          "original_id": 17315
+        },
+        {
+          "train_index": 317,
+          "original_id": 15956
+        },
+        {
+          "train_index": 605,
+          "original_id": 57333
+        },
+        {
+          "train_index": 202,
+          "original_id": 22806
+        },
+        {
+          "train_index": 437,
+          "original_id": 41724
+        },
+        {
+          "train_index": 680,
+          "original_id": 5313
+        },
+        {
+          "train_index": 329,
+          "original_id": 42034
+        },
+        {
+          "train_index": 93,
+          "original_id": 18470
+        },
+        {
+          "train_index": 147,
+          "original_id": 52640
+        },
+        {
+          "train_index": 505,
+          "original_id": 26028
+        },
+        {
+          "train_index": 583,
+          "original_id": 6821
+        },
+        {
+          "train_index": 655,
+          "original_id": 14400
+        },
+        {
+          "train_index": 150,
+          "original_id": 38145
+        }
+      ]
+    },
+    "74": {
+      "client": 74,
+      "eligible_count": 489,
+      "selected": [
+        {
+          "train_index": 378,
+          "original_id": 38372
+        },
+        {
+          "train_index": 457,
+          "original_id": 10025
+        },
+        {
+          "train_index": 154,
+          "original_id": 24783
+        },
+        {
+          "train_index": 193,
+          "original_id": 13452
+        },
+        {
+          "train_index": 344,
+          "original_id": 31964
+        },
+        {
+          "train_index": 39,
+          "original_id": 6447
+        },
+        {
+          "train_index": 454,
+          "original_id": 40206
+        },
+        {
+          "train_index": 300,
+          "original_id": 35851
+        },
+        {
+          "train_index": 233,
+          "original_id": 53103
+        },
+        {
+          "train_index": 287,
+          "original_id": 43210
+        },
+        {
+          "train_index": 415,
+          "original_id": 15351
+        },
+        {
+          "train_index": 392,
+          "original_id": 2503
+        },
+        {
+          "train_index": 103,
+          "original_id": 21722
+        },
+        {
+          "train_index": 221,
+          "original_id": 24225
+        },
+        {
+          "train_index": 373,
+          "original_id": 48575
+        },
+        {
+          "train_index": 182,
+          "original_id": 2146
+        },
+        {
+          "train_index": 322,
+          "original_id": 34679
+        },
+        {
+          "train_index": 168,
+          "original_id": 26235
+        },
+        {
+          "train_index": 336,
+          "original_id": 45135
+        },
+        {
+          "train_index": 369,
+          "original_id": 54283
+        }
+      ]
+    },
+    "75": {
+      "client": 75,
+      "eligible_count": 596,
+      "selected": [
+        {
+          "train_index": 219,
+          "original_id": 9405
+        },
+        {
+          "train_index": 108,
+          "original_id": 29703
+        },
+        {
+          "train_index": 191,
+          "original_id": 41378
+        },
+        {
+          "train_index": 328,
+          "original_id": 45625
+        },
+        {
+          "train_index": 245,
+          "original_id": 16273
+        },
+        {
+          "train_index": 327,
+          "original_id": 28433
+        },
+        {
+          "train_index": 423,
+          "original_id": 7731
+        },
+        {
+          "train_index": 557,
+          "original_id": 21055
+        },
+        {
+          "train_index": 304,
+          "original_id": 56331
+        },
+        {
+          "train_index": 352,
+          "original_id": 30537
+        },
+        {
+          "train_index": 349,
+          "original_id": 6742
+        },
+        {
+          "train_index": 188,
+          "original_id": 8710
+        },
+        {
+          "train_index": 543,
+          "original_id": 6737
+        },
+        {
+          "train_index": 355,
+          "original_id": 3992
+        },
+        {
+          "train_index": 162,
+          "original_id": 23824
+        },
+        {
+          "train_index": 73,
+          "original_id": 59907
+        },
+        {
+          "train_index": 540,
+          "original_id": 10576
+        },
+        {
+          "train_index": 593,
+          "original_id": 56769
+        },
+        {
+          "train_index": 558,
+          "original_id": 35548
+        },
+        {
+          "train_index": 289,
+          "original_id": 1892
+        }
+      ]
+    },
+    "76": {
+      "client": 76,
+      "eligible_count": 498,
+      "selected": [
+        {
+          "train_index": 51,
+          "original_id": 327
+        },
+        {
+          "train_index": 475,
+          "original_id": 56007
+        },
+        {
+          "train_index": 55,
+          "original_id": 59629
+        },
+        {
+          "train_index": 278,
+          "original_id": 57870
+        },
+        {
+          "train_index": 95,
+          "original_id": 4685
+        },
+        {
+          "train_index": 478,
+          "original_id": 51845
+        },
+        {
+          "train_index": 471,
+          "original_id": 10111
+        },
+        {
+          "train_index": 397,
+          "original_id": 24026
+        },
+        {
+          "train_index": 9,
+          "original_id": 6189
+        },
+        {
+          "train_index": 58,
+          "original_id": 9727
+        },
+        {
+          "train_index": 404,
+          "original_id": 25154
+        },
+        {
+          "train_index": 210,
+          "original_id": 58221
+        },
+        {
+          "train_index": 424,
+          "original_id": 39031
+        },
+        {
+          "train_index": 213,
+          "original_id": 3953
+        },
+        {
+          "train_index": 91,
+          "original_id": 45103
+        },
+        {
+          "train_index": 489,
+          "original_id": 20254
+        },
+        {
+          "train_index": 42,
+          "original_id": 28945
+        },
+        {
+          "train_index": 271,
+          "original_id": 2539
+        },
+        {
+          "train_index": 59,
+          "original_id": 47308
+        },
+        {
+          "train_index": 282,
+          "original_id": 11412
+        }
+      ]
+    },
+    "77": {
+      "client": 77,
+      "eligible_count": 511,
+      "selected": [
+        {
+          "train_index": 123,
+          "original_id": 51356
+        },
+        {
+          "train_index": 109,
+          "original_id": 16819
+        },
+        {
+          "train_index": 505,
+          "original_id": 30855
+        },
+        {
+          "train_index": 88,
+          "original_id": 21865
+        },
+        {
+          "train_index": 86,
+          "original_id": 36634
+        },
+        {
+          "train_index": 203,
+          "original_id": 348
+        },
+        {
+          "train_index": 196,
+          "original_id": 40644
+        },
+        {
+          "train_index": 223,
+          "original_id": 52548
+        },
+        {
+          "train_index": 300,
+          "original_id": 18906
+        },
+        {
+          "train_index": 444,
+          "original_id": 14840
+        },
+        {
+          "train_index": 299,
+          "original_id": 58121
+        },
+        {
+          "train_index": 358,
+          "original_id": 43523
+        },
+        {
+          "train_index": 62,
+          "original_id": 34222
+        },
+        {
+          "train_index": 285,
+          "original_id": 33934
+        },
+        {
+          "train_index": 383,
+          "original_id": 47195
+        },
+        {
+          "train_index": 235,
+          "original_id": 3074
+        },
+        {
+          "train_index": 49,
+          "original_id": 41774
+        },
+        {
+          "train_index": 130,
+          "original_id": 54937
+        },
+        {
+          "train_index": 33,
+          "original_id": 33700
+        },
+        {
+          "train_index": 407,
+          "original_id": 13480
+        }
+      ]
+    },
+    "78": {
+      "client": 78,
+      "eligible_count": 291,
+      "selected": [
+        {
+          "train_index": 99,
+          "original_id": 30567
+        },
+        {
+          "train_index": 221,
+          "original_id": 38385
+        },
+        {
+          "train_index": 106,
+          "original_id": 20715
+        },
+        {
+          "train_index": 34,
+          "original_id": 305
+        },
+        {
+          "train_index": 263,
+          "original_id": 31592
+        },
+        {
+          "train_index": 194,
+          "original_id": 50714
+        },
+        {
+          "train_index": 177,
+          "original_id": 21075
+        },
+        {
+          "train_index": 285,
+          "original_id": 37056
+        },
+        {
+          "train_index": 176,
+          "original_id": 35211
+        },
+        {
+          "train_index": 262,
+          "original_id": 40773
+        },
+        {
+          "train_index": 159,
+          "original_id": 1474
+        },
+        {
+          "train_index": 225,
+          "original_id": 23803
+        },
+        {
+          "train_index": 92,
+          "original_id": 24046
+        },
+        {
+          "train_index": 168,
+          "original_id": 16110
+        },
+        {
+          "train_index": 19,
+          "original_id": 839
+        },
+        {
+          "train_index": 245,
+          "original_id": 54005
+        },
+        {
+          "train_index": 94,
+          "original_id": 51133
+        },
+        {
+          "train_index": 210,
+          "original_id": 4662
+        },
+        {
+          "train_index": 95,
+          "original_id": 15667
+        },
+        {
+          "train_index": 54,
+          "original_id": 28967
+        }
+      ]
+    },
+    "79": {
+      "client": 79,
+      "eligible_count": 53,
+      "selected": [
+        {
+          "train_index": 48,
+          "original_id": 40545
+        },
+        {
+          "train_index": 36,
+          "original_id": 5299
+        },
+        {
+          "train_index": 33,
+          "original_id": 26676
+        },
+        {
+          "train_index": 38,
+          "original_id": 57000
+        },
+        {
+          "train_index": 20,
+          "original_id": 6704
+        },
+        {
+          "train_index": 47,
+          "original_id": 23188
+        },
+        {
+          "train_index": 49,
+          "original_id": 39648
+        },
+        {
+          "train_index": 12,
+          "original_id": 1184
+        },
+        {
+          "train_index": 5,
+          "original_id": 38245
+        },
+        {
+          "train_index": 8,
+          "original_id": 1850
+        },
+        {
+          "train_index": 21,
+          "original_id": 52751
+        },
+        {
+          "train_index": 22,
+          "original_id": 9318
+        },
+        {
+          "train_index": 50,
+          "original_id": 37946
+        },
+        {
+          "train_index": 11,
+          "original_id": 14918
+        },
+        {
+          "train_index": 16,
+          "original_id": 30111
+        },
+        {
+          "train_index": 45,
+          "original_id": 12584
+        },
+        {
+          "train_index": 15,
+          "original_id": 22780
+        },
+        {
+          "train_index": 9,
+          "original_id": 45748
+        },
+        {
+          "train_index": 40,
+          "original_id": 52841
+        },
+        {
+          "train_index": 52,
+          "original_id": 5226
+        }
+      ]
+    },
+    "80": {
+      "client": 80,
+      "eligible_count": 239,
+      "selected": [
+        {
+          "train_index": 34,
+          "original_id": 26403
+        },
+        {
+          "train_index": 132,
+          "original_id": 18025
+        },
+        {
+          "train_index": 234,
+          "original_id": 14200
+        },
+        {
+          "train_index": 26,
+          "original_id": 17173
+        },
+        {
+          "train_index": 238,
+          "original_id": 11041
+        },
+        {
+          "train_index": 10,
+          "original_id": 24864
+        },
+        {
+          "train_index": 100,
+          "original_id": 37974
+        },
+        {
+          "train_index": 78,
+          "original_id": 3096
+        },
+        {
+          "train_index": 236,
+          "original_id": 40544
+        },
+        {
+          "train_index": 118,
+          "original_id": 46447
+        },
+        {
+          "train_index": 181,
+          "original_id": 50892
+        },
+        {
+          "train_index": 46,
+          "original_id": 18265
+        },
+        {
+          "train_index": 148,
+          "original_id": 37734
+        },
+        {
+          "train_index": 33,
+          "original_id": 30816
+        },
+        {
+          "train_index": 188,
+          "original_id": 29136
+        },
+        {
+          "train_index": 25,
+          "original_id": 4506
+        },
+        {
+          "train_index": 216,
+          "original_id": 37426
+        },
+        {
+          "train_index": 0,
+          "original_id": 355
+        },
+        {
+          "train_index": 129,
+          "original_id": 32922
+        },
+        {
+          "train_index": 39,
+          "original_id": 45637
+        }
+      ]
+    },
+    "81": {
+      "client": 81,
+      "eligible_count": 49,
+      "selected": [
+        {
+          "train_index": 3,
+          "original_id": 16824
+        },
+        {
+          "train_index": 8,
+          "original_id": 6695
+        },
+        {
+          "train_index": 12,
+          "original_id": 14561
+        },
+        {
+          "train_index": 13,
+          "original_id": 1071
+        },
+        {
+          "train_index": 43,
+          "original_id": 59953
+        },
+        {
+          "train_index": 2,
+          "original_id": 58949
+        },
+        {
+          "train_index": 41,
+          "original_id": 19739
+        },
+        {
+          "train_index": 48,
+          "original_id": 1908
+        },
+        {
+          "train_index": 26,
+          "original_id": 55698
+        },
+        {
+          "train_index": 35,
+          "original_id": 54272
+        },
+        {
+          "train_index": 1,
+          "original_id": 19037
+        },
+        {
+          "train_index": 5,
+          "original_id": 29975
+        },
+        {
+          "train_index": 21,
+          "original_id": 15055
+        },
+        {
+          "train_index": 15,
+          "original_id": 37957
+        },
+        {
+          "train_index": 4,
+          "original_id": 32640
+        },
+        {
+          "train_index": 45,
+          "original_id": 53896
+        },
+        {
+          "train_index": 30,
+          "original_id": 38530
+        },
+        {
+          "train_index": 7,
+          "original_id": 4736
+        },
+        {
+          "train_index": 14,
+          "original_id": 30431
+        },
+        {
+          "train_index": 44,
+          "original_id": 27748
+        }
+      ]
+    },
+    "82": {
+      "client": 82,
+      "eligible_count": 487,
+      "selected": [
+        {
+          "train_index": 76,
+          "original_id": 16706
+        },
+        {
+          "train_index": 256,
+          "original_id": 58553
+        },
+        {
+          "train_index": 287,
+          "original_id": 8593
+        },
+        {
+          "train_index": 60,
+          "original_id": 18144
+        },
+        {
+          "train_index": 484,
+          "original_id": 913
+        },
+        {
+          "train_index": 82,
+          "original_id": 3209
+        },
+        {
+          "train_index": 446,
+          "original_id": 24159
+        },
+        {
+          "train_index": 188,
+          "original_id": 17886
+        },
+        {
+          "train_index": 329,
+          "original_id": 43902
+        },
+        {
+          "train_index": 19,
+          "original_id": 40464
+        },
+        {
+          "train_index": 136,
+          "original_id": 41066
+        },
+        {
+          "train_index": 121,
+          "original_id": 35890
+        },
+        {
+          "train_index": 440,
+          "original_id": 34015
+        },
+        {
+          "train_index": 476,
+          "original_id": 10127
+        },
+        {
+          "train_index": 430,
+          "original_id": 42634
+        },
+        {
+          "train_index": 301,
+          "original_id": 25454
+        },
+        {
+          "train_index": 290,
+          "original_id": 42895
+        },
+        {
+          "train_index": 142,
+          "original_id": 40517
+        },
+        {
+          "train_index": 286,
+          "original_id": 57567
+        },
+        {
+          "train_index": 93,
+          "original_id": 551
+        }
+      ]
+    },
+    "83": {
+      "client": 83,
+      "eligible_count": 1521,
+      "selected": [
+        {
+          "train_index": 1187,
+          "original_id": 20108
+        },
+        {
+          "train_index": 40,
+          "original_id": 18774
+        },
+        {
+          "train_index": 1466,
+          "original_id": 24929
+        },
+        {
+          "train_index": 1241,
+          "original_id": 42325
+        },
+        {
+          "train_index": 1268,
+          "original_id": 56227
+        },
+        {
+          "train_index": 683,
+          "original_id": 48838
+        },
+        {
+          "train_index": 703,
+          "original_id": 30252
+        },
+        {
+          "train_index": 1097,
+          "original_id": 28366
+        },
+        {
+          "train_index": 492,
+          "original_id": 29661
+        },
+        {
+          "train_index": 151,
+          "original_id": 28230
+        },
+        {
+          "train_index": 1186,
+          "original_id": 23301
+        },
+        {
+          "train_index": 285,
+          "original_id": 39507
+        },
+        {
+          "train_index": 1149,
+          "original_id": 30410
+        },
+        {
+          "train_index": 424,
+          "original_id": 24860
+        },
+        {
+          "train_index": 422,
+          "original_id": 21361
+        },
+        {
+          "train_index": 318,
+          "original_id": 58507
+        },
+        {
+          "train_index": 6,
+          "original_id": 46012
+        },
+        {
+          "train_index": 926,
+          "original_id": 43362
+        },
+        {
+          "train_index": 1488,
+          "original_id": 37437
+        },
+        {
+          "train_index": 928,
+          "original_id": 32259
+        }
+      ]
+    },
+    "84": {
+      "client": 84,
+      "eligible_count": 758,
+      "selected": [
+        {
+          "train_index": 510,
+          "original_id": 47904
+        },
+        {
+          "train_index": 420,
+          "original_id": 1189
+        },
+        {
+          "train_index": 368,
+          "original_id": 37487
+        },
+        {
+          "train_index": 34,
+          "original_id": 2915
+        },
+        {
+          "train_index": 61,
+          "original_id": 28501
+        },
+        {
+          "train_index": 535,
+          "original_id": 24500
+        },
+        {
+          "train_index": 83,
+          "original_id": 58971
+        },
+        {
+          "train_index": 191,
+          "original_id": 14463
+        },
+        {
+          "train_index": 520,
+          "original_id": 6901
+        },
+        {
+          "train_index": 98,
+          "original_id": 46037
+        },
+        {
+          "train_index": 373,
+          "original_id": 50896
+        },
+        {
+          "train_index": 453,
+          "original_id": 26340
+        },
+        {
+          "train_index": 649,
+          "original_id": 17075
+        },
+        {
+          "train_index": 448,
+          "original_id": 20977
+        },
+        {
+          "train_index": 185,
+          "original_id": 59192
+        },
+        {
+          "train_index": 626,
+          "original_id": 23734
+        },
+        {
+          "train_index": 209,
+          "original_id": 26058
+        },
+        {
+          "train_index": 647,
+          "original_id": 15192
+        },
+        {
+          "train_index": 326,
+          "original_id": 59755
+        },
+        {
+          "train_index": 38,
+          "original_id": 16872
+        }
+      ]
+    },
+    "85": {
+      "client": 85,
+      "eligible_count": 662,
+      "selected": [
+        {
+          "train_index": 200,
+          "original_id": 54246
+        },
+        {
+          "train_index": 663,
+          "original_id": 10649
+        },
+        {
+          "train_index": 233,
+          "original_id": 52205
+        },
+        {
+          "train_index": 38,
+          "original_id": 1228
+        },
+        {
+          "train_index": 450,
+          "original_id": 18581
+        },
+        {
+          "train_index": 617,
+          "original_id": 44435
+        },
+        {
+          "train_index": 1,
+          "original_id": 47434
+        },
+        {
+          "train_index": 188,
+          "original_id": 37701
+        },
+        {
+          "train_index": 133,
+          "original_id": 51753
+        },
+        {
+          "train_index": 134,
+          "original_id": 10844
+        },
+        {
+          "train_index": 110,
+          "original_id": 35842
+        },
+        {
+          "train_index": 518,
+          "original_id": 50049
+        },
+        {
+          "train_index": 569,
+          "original_id": 54615
+        },
+        {
+          "train_index": 68,
+          "original_id": 33878
+        },
+        {
+          "train_index": 586,
+          "original_id": 46948
+        },
+        {
+          "train_index": 641,
+          "original_id": 21740
+        },
+        {
+          "train_index": 593,
+          "original_id": 42397
+        },
+        {
+          "train_index": 281,
+          "original_id": 20122
+        },
+        {
+          "train_index": 120,
+          "original_id": 38411
+        },
+        {
+          "train_index": 588,
+          "original_id": 47911
+        }
+      ]
+    },
+    "86": {
+      "client": 86,
+      "eligible_count": 117,
+      "selected": [
+        {
+          "train_index": 81,
+          "original_id": 14331
+        },
+        {
+          "train_index": 103,
+          "original_id": 50628
+        },
+        {
+          "train_index": 46,
+          "original_id": 23882
+        },
+        {
+          "train_index": 88,
+          "original_id": 46416
+        },
+        {
+          "train_index": 34,
+          "original_id": 1134
+        },
+        {
+          "train_index": 8,
+          "original_id": 10349
+        },
+        {
+          "train_index": 114,
+          "original_id": 53420
+        },
+        {
+          "train_index": 72,
+          "original_id": 24306
+        },
+        {
+          "train_index": 57,
+          "original_id": 16961
+        },
+        {
+          "train_index": 19,
+          "original_id": 30173
+        },
+        {
+          "train_index": 96,
+          "original_id": 45134
+        },
+        {
+          "train_index": 58,
+          "original_id": 38593
+        },
+        {
+          "train_index": 22,
+          "original_id": 22874
+        },
+        {
+          "train_index": 91,
+          "original_id": 49155
+        },
+        {
+          "train_index": 118,
+          "original_id": 42094
+        },
+        {
+          "train_index": 17,
+          "original_id": 26129
+        },
+        {
+          "train_index": 90,
+          "original_id": 27282
+        },
+        {
+          "train_index": 51,
+          "original_id": 22819
+        },
+        {
+          "train_index": 12,
+          "original_id": 52653
+        },
+        {
+          "train_index": 55,
+          "original_id": 44200
+        }
+      ]
+    },
+    "87": {
+      "client": 87,
+      "eligible_count": 449,
+      "selected": [
+        {
+          "train_index": 73,
+          "original_id": 21686
+        },
+        {
+          "train_index": 262,
+          "original_id": 41694
+        },
+        {
+          "train_index": 189,
+          "original_id": 37514
+        },
+        {
+          "train_index": 196,
+          "original_id": 1048
+        },
+        {
+          "train_index": 65,
+          "original_id": 30461
+        },
+        {
+          "train_index": 172,
+          "original_id": 29855
+        },
+        {
+          "train_index": 0,
+          "original_id": 40365
+        },
+        {
+          "train_index": 92,
+          "original_id": 50320
+        },
+        {
+          "train_index": 331,
+          "original_id": 51163
+        },
+        {
+          "train_index": 332,
+          "original_id": 45928
+        },
+        {
+          "train_index": 131,
+          "original_id": 47100
+        },
+        {
+          "train_index": 305,
+          "original_id": 15595
+        },
+        {
+          "train_index": 75,
+          "original_id": 25180
+        },
+        {
+          "train_index": 203,
+          "original_id": 10549
+        },
+        {
+          "train_index": 299,
+          "original_id": 33925
+        },
+        {
+          "train_index": 28,
+          "original_id": 40459
+        },
+        {
+          "train_index": 204,
+          "original_id": 30753
+        },
+        {
+          "train_index": 229,
+          "original_id": 58598
+        },
+        {
+          "train_index": 80,
+          "original_id": 47292
+        },
+        {
+          "train_index": 199,
+          "original_id": 48849
+        }
+      ]
+    },
+    "88": {
+      "client": 88,
+      "eligible_count": 228,
+      "selected": [
+        {
+          "train_index": 15,
+          "original_id": 13804
+        },
+        {
+          "train_index": 62,
+          "original_id": 25382
+        },
+        {
+          "train_index": 93,
+          "original_id": 5170
+        },
+        {
+          "train_index": 139,
+          "original_id": 37639
+        },
+        {
+          "train_index": 216,
+          "original_id": 42370
+        },
+        {
+          "train_index": 165,
+          "original_id": 18050
+        },
+        {
+          "train_index": 163,
+          "original_id": 4593
+        },
+        {
+          "train_index": 204,
+          "original_id": 46312
+        },
+        {
+          "train_index": 175,
+          "original_id": 32930
+        },
+        {
+          "train_index": 75,
+          "original_id": 43426
+        },
+        {
+          "train_index": 47,
+          "original_id": 28692
+        },
+        {
+          "train_index": 225,
+          "original_id": 16139
+        },
+        {
+          "train_index": 200,
+          "original_id": 18597
+        },
+        {
+          "train_index": 16,
+          "original_id": 28171
+        },
+        {
+          "train_index": 153,
+          "original_id": 28252
+        },
+        {
+          "train_index": 135,
+          "original_id": 20211
+        },
+        {
+          "train_index": 162,
+          "original_id": 2124
+        },
+        {
+          "train_index": 11,
+          "original_id": 12354
+        },
+        {
+          "train_index": 228,
+          "original_id": 18970
+        },
+        {
+          "train_index": 209,
+          "original_id": 3804
+        }
+      ]
+    },
+    "89": {
+      "client": 89,
+      "eligible_count": 460,
+      "selected": [
+        {
+          "train_index": 5,
+          "original_id": 43810
+        },
+        {
+          "train_index": 291,
+          "original_id": 13363
+        },
+        {
+          "train_index": 456,
+          "original_id": 40077
+        },
+        {
+          "train_index": 145,
+          "original_id": 53443
+        },
+        {
+          "train_index": 74,
+          "original_id": 7590
+        },
+        {
+          "train_index": 283,
+          "original_id": 38953
+        },
+        {
+          "train_index": 3,
+          "original_id": 35318
+        },
+        {
+          "train_index": 187,
+          "original_id": 56978
+        },
+        {
+          "train_index": 303,
+          "original_id": 37876
+        },
+        {
+          "train_index": 389,
+          "original_id": 39070
+        },
+        {
+          "train_index": 200,
+          "original_id": 19293
+        },
+        {
+          "train_index": 37,
+          "original_id": 28409
+        },
+        {
+          "train_index": 459,
+          "original_id": 13778
+        },
+        {
+          "train_index": 147,
+          "original_id": 16020
+        },
+        {
+          "train_index": 100,
+          "original_id": 6891
+        },
+        {
+          "train_index": 92,
+          "original_id": 37850
+        },
+        {
+          "train_index": 129,
+          "original_id": 21788
+        },
+        {
+          "train_index": 188,
+          "original_id": 4323
+        },
+        {
+          "train_index": 375,
+          "original_id": 55231
+        },
+        {
+          "train_index": 45,
+          "original_id": 54139
+        }
+      ]
+    },
+    "90": {
+      "client": 90,
+      "eligible_count": 461,
+      "selected": [
+        {
+          "train_index": 422,
+          "original_id": 8463
+        },
+        {
+          "train_index": 454,
+          "original_id": 9959
+        },
+        {
+          "train_index": 286,
+          "original_id": 49499
+        },
+        {
+          "train_index": 200,
+          "original_id": 11115
+        },
+        {
+          "train_index": 227,
+          "original_id": 38634
+        },
+        {
+          "train_index": 448,
+          "original_id": 15544
+        },
+        {
+          "train_index": 1,
+          "original_id": 32308
+        },
+        {
+          "train_index": 353,
+          "original_id": 7882
+        },
+        {
+          "train_index": 101,
+          "original_id": 50456
+        },
+        {
+          "train_index": 395,
+          "original_id": 20872
+        },
+        {
+          "train_index": 129,
+          "original_id": 36954
+        },
+        {
+          "train_index": 154,
+          "original_id": 29112
+        },
+        {
+          "train_index": 229,
+          "original_id": 56165
+        },
+        {
+          "train_index": 185,
+          "original_id": 27495
+        },
+        {
+          "train_index": 265,
+          "original_id": 59041
+        },
+        {
+          "train_index": 280,
+          "original_id": 52864
+        },
+        {
+          "train_index": 49,
+          "original_id": 24522
+        },
+        {
+          "train_index": 219,
+          "original_id": 37753
+        },
+        {
+          "train_index": 60,
+          "original_id": 6853
+        },
+        {
+          "train_index": 42,
+          "original_id": 25157
+        }
+      ]
+    },
+    "91": {
+      "client": 91,
+      "eligible_count": 545,
+      "selected": [
+        {
+          "train_index": 182,
+          "original_id": 7564
+        },
+        {
+          "train_index": 113,
+          "original_id": 50684
+        },
+        {
+          "train_index": 257,
+          "original_id": 7128
+        },
+        {
+          "train_index": 298,
+          "original_id": 2086
+        },
+        {
+          "train_index": 461,
+          "original_id": 23274
+        },
+        {
+          "train_index": 321,
+          "original_id": 56755
+        },
+        {
+          "train_index": 276,
+          "original_id": 58034
+        },
+        {
+          "train_index": 520,
+          "original_id": 14265
+        },
+        {
+          "train_index": 326,
+          "original_id": 36458
+        },
+        {
+          "train_index": 318,
+          "original_id": 28684
+        },
+        {
+          "train_index": 432,
+          "original_id": 28261
+        },
+        {
+          "train_index": 337,
+          "original_id": 9893
+        },
+        {
+          "train_index": 538,
+          "original_id": 6934
+        },
+        {
+          "train_index": 284,
+          "original_id": 59706
+        },
+        {
+          "train_index": 173,
+          "original_id": 37314
+        },
+        {
+          "train_index": 405,
+          "original_id": 46696
+        },
+        {
+          "train_index": 490,
+          "original_id": 8945
+        },
+        {
+          "train_index": 493,
+          "original_id": 57755
+        },
+        {
+          "train_index": 446,
+          "original_id": 17716
+        },
+        {
+          "train_index": 109,
+          "original_id": 22807
+        }
+      ]
+    },
+    "92": {
+      "client": 92,
+      "eligible_count": 283,
+      "selected": [
+        {
+          "train_index": 268,
+          "original_id": 48899
+        },
+        {
+          "train_index": 23,
+          "original_id": 15577
+        },
+        {
+          "train_index": 87,
+          "original_id": 49593
+        },
+        {
+          "train_index": 8,
+          "original_id": 54637
+        },
+        {
+          "train_index": 42,
+          "original_id": 34090
+        },
+        {
+          "train_index": 279,
+          "original_id": 17397
+        },
+        {
+          "train_index": 209,
+          "original_id": 9251
+        },
+        {
+          "train_index": 278,
+          "original_id": 7778
+        },
+        {
+          "train_index": 158,
+          "original_id": 58921
+        },
+        {
+          "train_index": 31,
+          "original_id": 57416
+        },
+        {
+          "train_index": 19,
+          "original_id": 8045
+        },
+        {
+          "train_index": 250,
+          "original_id": 31655
+        },
+        {
+          "train_index": 88,
+          "original_id": 14167
+        },
+        {
+          "train_index": 70,
+          "original_id": 19817
+        },
+        {
+          "train_index": 83,
+          "original_id": 53807
+        },
+        {
+          "train_index": 125,
+          "original_id": 57409
+        },
+        {
+          "train_index": 190,
+          "original_id": 35004
+        },
+        {
+          "train_index": 169,
+          "original_id": 52712
+        },
+        {
+          "train_index": 175,
+          "original_id": 8729
+        },
+        {
+          "train_index": 112,
+          "original_id": 27814
+        }
+      ]
+    },
+    "93": {
+      "client": 93,
+      "eligible_count": 649,
+      "selected": [
+        {
+          "train_index": 572,
+          "original_id": 56967
+        },
+        {
+          "train_index": 259,
+          "original_id": 57204
+        },
+        {
+          "train_index": 638,
+          "original_id": 19520
+        },
+        {
+          "train_index": 574,
+          "original_id": 32368
+        },
+        {
+          "train_index": 383,
+          "original_id": 4978
+        },
+        {
+          "train_index": 79,
+          "original_id": 14412
+        },
+        {
+          "train_index": 13,
+          "original_id": 20280
+        },
+        {
+          "train_index": 132,
+          "original_id": 2282
+        },
+        {
+          "train_index": 177,
+          "original_id": 16216
+        },
+        {
+          "train_index": 622,
+          "original_id": 30077
+        },
+        {
+          "train_index": 256,
+          "original_id": 10489
+        },
+        {
+          "train_index": 121,
+          "original_id": 29420
+        },
+        {
+          "train_index": 154,
+          "original_id": 6852
+        },
+        {
+          "train_index": 515,
+          "original_id": 6243
+        },
+        {
+          "train_index": 50,
+          "original_id": 16200
+        },
+        {
+          "train_index": 161,
+          "original_id": 35429
+        },
+        {
+          "train_index": 325,
+          "original_id": 18056
+        },
+        {
+          "train_index": 531,
+          "original_id": 28
+        },
+        {
+          "train_index": 428,
+          "original_id": 52961
+        },
+        {
+          "train_index": 5,
+          "original_id": 47795
+        }
+      ]
+    },
+    "94": {
+      "client": 94,
+      "eligible_count": 876,
+      "selected": [
+        {
+          "train_index": 91,
+          "original_id": 55713
+        },
+        {
+          "train_index": 265,
+          "original_id": 43251
+        },
+        {
+          "train_index": 98,
+          "original_id": 41130
+        },
+        {
+          "train_index": 349,
+          "original_id": 50525
+        },
+        {
+          "train_index": 672,
+          "original_id": 53411
+        },
+        {
+          "train_index": 804,
+          "original_id": 27805
+        },
+        {
+          "train_index": 473,
+          "original_id": 3082
+        },
+        {
+          "train_index": 113,
+          "original_id": 29549
+        },
+        {
+          "train_index": 773,
+          "original_id": 17148
+        },
+        {
+          "train_index": 316,
+          "original_id": 59892
+        },
+        {
+          "train_index": 665,
+          "original_id": 7195
+        },
+        {
+          "train_index": 298,
+          "original_id": 2260
+        },
+        {
+          "train_index": 540,
+          "original_id": 4153
+        },
+        {
+          "train_index": 318,
+          "original_id": 17094
+        },
+        {
+          "train_index": 327,
+          "original_id": 47659
+        },
+        {
+          "train_index": 680,
+          "original_id": 51561
+        },
+        {
+          "train_index": 849,
+          "original_id": 38692
+        },
+        {
+          "train_index": 607,
+          "original_id": 45653
+        },
+        {
+          "train_index": 575,
+          "original_id": 55552
+        },
+        {
+          "train_index": 368,
+          "original_id": 55591
+        }
+      ]
+    },
+    "95": {
+      "client": 95,
+      "eligible_count": 113,
+      "selected": [
+        {
+          "train_index": 24,
+          "original_id": 28956
+        },
+        {
+          "train_index": 89,
+          "original_id": 54752
+        },
+        {
+          "train_index": 98,
+          "original_id": 19368
+        },
+        {
+          "train_index": 51,
+          "original_id": 59816
+        },
+        {
+          "train_index": 6,
+          "original_id": 57292
+        },
+        {
+          "train_index": 5,
+          "original_id": 29818
+        },
+        {
+          "train_index": 14,
+          "original_id": 9774
+        },
+        {
+          "train_index": 19,
+          "original_id": 991
+        },
+        {
+          "train_index": 78,
+          "original_id": 35344
+        },
+        {
+          "train_index": 62,
+          "original_id": 2339
+        },
+        {
+          "train_index": 84,
+          "original_id": 2661
+        },
+        {
+          "train_index": 80,
+          "original_id": 16248
+        },
+        {
+          "train_index": 21,
+          "original_id": 11166
+        },
+        {
+          "train_index": 45,
+          "original_id": 2844
+        },
+        {
+          "train_index": 81,
+          "original_id": 37309
+        },
+        {
+          "train_index": 39,
+          "original_id": 24200
+        },
+        {
+          "train_index": 94,
+          "original_id": 8419
+        },
+        {
+          "train_index": 26,
+          "original_id": 38642
+        },
+        {
+          "train_index": 18,
+          "original_id": 5137
+        },
+        {
+          "train_index": 96,
+          "original_id": 49122
+        }
+      ]
+    },
+    "96": {
+      "client": 96,
+      "eligible_count": 641,
+      "selected": [
+        {
+          "train_index": 486,
+          "original_id": 4749
+        },
+        {
+          "train_index": 180,
+          "original_id": 45101
+        },
+        {
+          "train_index": 9,
+          "original_id": 2477
+        },
+        {
+          "train_index": 179,
+          "original_id": 30175
+        },
+        {
+          "train_index": 331,
+          "original_id": 59204
+        },
+        {
+          "train_index": 203,
+          "original_id": 25907
+        },
+        {
+          "train_index": 141,
+          "original_id": 30369
+        },
+        {
+          "train_index": 103,
+          "original_id": 36846
+        },
+        {
+          "train_index": 82,
+          "original_id": 42284
+        },
+        {
+          "train_index": 194,
+          "original_id": 45696
+        },
+        {
+          "train_index": 244,
+          "original_id": 15221
+        },
+        {
+          "train_index": 171,
+          "original_id": 50545
+        },
+        {
+          "train_index": 384,
+          "original_id": 51734
+        },
+        {
+          "train_index": 340,
+          "original_id": 9601
+        },
+        {
+          "train_index": 491,
+          "original_id": 14072
+        },
+        {
+          "train_index": 615,
+          "original_id": 47078
+        },
+        {
+          "train_index": 492,
+          "original_id": 2001
+        },
+        {
+          "train_index": 98,
+          "original_id": 37540
+        },
+        {
+          "train_index": 129,
+          "original_id": 15264
+        },
+        {
+          "train_index": 311,
+          "original_id": 15401
+        }
+      ]
+    },
+    "97": {
+      "client": 97,
+      "eligible_count": 505,
+      "selected": [
+        {
+          "train_index": 281,
+          "original_id": 26252
+        },
+        {
+          "train_index": 139,
+          "original_id": 36657
+        },
+        {
+          "train_index": 301,
+          "original_id": 22726
+        },
+        {
+          "train_index": 259,
+          "original_id": 33822
+        },
+        {
+          "train_index": 206,
+          "original_id": 19373
+        },
+        {
+          "train_index": 244,
+          "original_id": 18586
+        },
+        {
+          "train_index": 468,
+          "original_id": 44879
+        },
+        {
+          "train_index": 55,
+          "original_id": 20038
+        },
+        {
+          "train_index": 497,
+          "original_id": 10263
+        },
+        {
+          "train_index": 452,
+          "original_id": 58897
+        },
+        {
+          "train_index": 61,
+          "original_id": 48192
+        },
+        {
+          "train_index": 158,
+          "original_id": 59805
+        },
+        {
+          "train_index": 232,
+          "original_id": 36601
+        },
+        {
+          "train_index": 169,
+          "original_id": 38535
+        },
+        {
+          "train_index": 499,
+          "original_id": 59067
+        },
+        {
+          "train_index": 343,
+          "original_id": 24706
+        },
+        {
+          "train_index": 102,
+          "original_id": 45437
+        },
+        {
+          "train_index": 200,
+          "original_id": 58693
+        },
+        {
+          "train_index": 20,
+          "original_id": 52516
+        },
+        {
+          "train_index": 283,
+          "original_id": 46733
+        }
+      ]
+    },
+    "98": {
+      "client": 98,
+      "eligible_count": 196,
+      "selected": [
+        {
+          "train_index": 27,
+          "original_id": 49484
+        },
+        {
+          "train_index": 6,
+          "original_id": 33726
+        },
+        {
+          "train_index": 174,
+          "original_id": 22473
+        },
+        {
+          "train_index": 159,
+          "original_id": 13642
+        },
+        {
+          "train_index": 63,
+          "original_id": 17709
+        },
+        {
+          "train_index": 87,
+          "original_id": 27289
+        },
+        {
+          "train_index": 129,
+          "original_id": 34763
+        },
+        {
+          "train_index": 81,
+          "original_id": 21497
+        },
+        {
+          "train_index": 53,
+          "original_id": 55163
+        },
+        {
+          "train_index": 112,
+          "original_id": 44860
+        },
+        {
+          "train_index": 161,
+          "original_id": 6053
+        },
+        {
+          "train_index": 104,
+          "original_id": 4127
+        },
+        {
+          "train_index": 28,
+          "original_id": 34186
+        },
+        {
+          "train_index": 51,
+          "original_id": 48418
+        },
+        {
+          "train_index": 117,
+          "original_id": 2236
+        },
+        {
+          "train_index": 78,
+          "original_id": 21678
+        },
+        {
+          "train_index": 188,
+          "original_id": 3407
+        },
+        {
+          "train_index": 16,
+          "original_id": 51745
+        },
+        {
+          "train_index": 4,
+          "original_id": 38513
+        },
+        {
+          "train_index": 8,
+          "original_id": 43599
+        }
+      ]
+    },
+    "99": {
+      "client": 99,
+      "eligible_count": 431,
+      "selected": [
+        {
+          "train_index": 162,
+          "original_id": 38044
+        },
+        {
+          "train_index": 136,
+          "original_id": 25722
+        },
+        {
+          "train_index": 38,
+          "original_id": 16384
+        },
+        {
+          "train_index": 194,
+          "original_id": 17113
+        },
+        {
+          "train_index": 303,
+          "original_id": 54175
+        },
+        {
+          "train_index": 239,
+          "original_id": 32137
+        },
+        {
+          "train_index": 140,
+          "original_id": 47095
+        },
+        {
+          "train_index": 206,
+          "original_id": 23350
+        },
+        {
+          "train_index": 234,
+          "original_id": 15777
+        },
+        {
+          "train_index": 210,
+          "original_id": 17518
+        },
+        {
+          "train_index": 314,
+          "original_id": 36536
+        },
+        {
+          "train_index": 272,
+          "original_id": 1926
+        },
+        {
+          "train_index": 342,
+          "original_id": 12229
+        },
+        {
+          "train_index": 155,
+          "original_id": 15395
+        },
+        {
+          "train_index": 152,
+          "original_id": 48573
+        },
+        {
+          "train_index": 336,
+          "original_id": 35141
+        },
+        {
+          "train_index": 58,
+          "original_id": 4842
+        },
+        {
+          "train_index": 418,
+          "original_id": 57081
+        },
+        {
+          "train_index": 422,
+          "original_id": 57411
+        },
+        {
+          "train_index": 346,
+          "original_id": 40014
+        }
+      ]
+    }
+  },
+  "frozen_at": "2026-09-13T14:46:10.044458+00:00"
+}
