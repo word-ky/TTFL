@@ -1,6 +1,6 @@
 # CHATGPT → CODEX Coordination
 
-Last updated: 2026-09-13 12:20 +08
+Last updated: 2026-09-13 13:18 +08
 Role split: ChatGPT = research lead / experiment designer; Codex = engineering lead / executor.
 
 ## 0. Mission / invariant research framing
@@ -14,315 +14,337 @@ V1 remains stopped:
 
 > learned content-heavy `W0` + normalized-MSE `K->V` writing + pooled-feature additive residual.
 
-The current V2 principle is:
+The V2 principle remains:
 
-> First prove that a **functionally neutral fast context operator** can read useful context under a supervised upper bound. Only then consider self-supervised writing, meta-learning, or federation.
+> First prove that a **functionally neutral fast context operator** can read useful context under a supervised upper bound and pass strict context-specificity controls. Only then add self-supervised writing or meta-learning.
 
-Do **not** implement SSL/meta-learning/FL unless explicitly authorized here.
-
----
-
-# 1. T001 review — FAIL, but the failure is now localized
-
-Codex completed T001 cleanly on commit `c0f6717`. Engineering evidence is strong enough that I do **not** treat this as an implementation bug:
-
-- neutral affine operator gives exact baseline logits (`max abs diff = 0`);
-- only fast `gamma/beta` update during affine adaptation;
-- backbone/classifier/BN buffers remain frozen;
-- same checkpoint is reused across methods;
-- support/query/source-query leakage checks pass;
-- prediction-derived metrics reproduce the summary;
-- five independent support draws were evaluated.
-
-Scientific result on held-out SVHN:
-
-- no adaptation: **41.633%**;
-- BN correct support: **45.200 ± 0.373%** (`+3.567 pp`);
-- best supervised affine (`lr=.1, 10 steps`): **42.933 ± 0.379%** (`+1.300 pp`);
-- full-model supervised comparison (`lr=.001, 10 steps`): **42.913 ± 0.673%** (`+1.280 pp`).
-
-The affine context-specificity gate also fails at the best cell:
-
-- correct − wrong MNIST = `+0.787 pp`;
-- correct − wrong USPS = `+1.240 pp`;
-- correct − wrong MNIST-M = `+1.760 pp`;
-- correct − shuffled = `+8.413 pp`.
-
-Important diagnostic nuance:
-
-- affine support CE falls `2.468 -> 2.042`;
-- query CE falls `2.044 -> 1.833`;
-- `||gamma||≈.415`, `||beta||≈.474`.
-
-Therefore the operator **is receiving gradients and changes the predictive distribution**. It is not a dead/no-op mechanism. The problem is that the current diagonal channel-wise operator produces too little decision-boundary movement and too little domain specificity.
-
-However, **do not conclude yet that intermediate affine modulation is intrinsically incapable**. The current full-model supervised control also gains only `+1.28 pp`, because it was tested with only SGD `lr=.001` and at most 10 steps. We have not yet established a credible supervised adaptation ceiling on this checkpoint. A `+5 pp` operator gate is uninterpretable if even an adequately optimized full model cannot reach it.
-
-Also note that shuffled-label failure proves semantic gradients matter, but correct-vs-wrong-domain gaps remain small. Thus T001 gives evidence of *label-sensitive adaptation*, not yet convincing evidence of *current-domain context reading*.
-
-**Research status:** V2-A diagonal affine = rejected under the tested budget. The next job is a diagnostic split between (i) insufficient adaptation headroom/optimization and (ii) insufficient operator expressivity.
+The user-directed PFLlib migration is now complete and is useful diagnostic evidence, but it does **not** count as proof of dynamic/contextual personalization.
 
 ---
 
-# 2. Next one-hour work package — T001B: Supervised headroom + channel-mixing capacity
+# 1. Review of the new PFLlib evidence
+
+The PFLlib 100-client migration is engineering-complete. I accept the reported run integrity: exact 100 rounds, 10 unique clients/round, same final checkpoint across context comparisons, support/query disjointness, neutral operator logits exactly matching baseline, and prediction-derived verification.
+
+The important scientific table is:
+
+| Dataset | FedAvg | Affine correct | Gain pp | Affine wrong | Correct−wrong pp | Shuffled | Noise | Prior correct |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| MNIST | 92.498 | 94.755 | +2.258 | 92.019 | +2.736 | 94.687 | 90.879 | 98.244 |
+| CIFAR-10 | 34.218 | 57.278 | +23.060 | 25.833 | +31.445 | 58.049 | 59.937 | 79.194 |
+| CIFAR-100 | 11.718 | 13.008 | +1.290 | 11.319 | +1.689 | 13.327 | 11.931 | 36.590 |
+| TinyImageNet | 9.645 | 10.425 | +0.781 | 8.820 | +1.605 | 8.758 | 4.020 | 24.957 |
+
+## 1.1 What this DOES establish
+
+1. The neutral affine implementation can produce large supervised post-checkpoint gains on some static PFL clients (especially CIFAR-10).
+2. The operator is not intrinsically incapable of moving decision boundaries.
+3. Correct-vs-wrong-client support can create a large margin under strong Dirichlet label skew.
+4. The prior baseline is extremely strong, confirming that client label composition is a dominant signal in this benchmark.
+
+## 1.2 What this DOES NOT establish
+
+The large CIFAR-10 `+23.06 pp` **is not evidence of current visual/domain context reading**.
+
+The decisive controls are:
+
+- same correct images but **shuffled labels**: `58.049%`, slightly *better* than correct-label affine `57.278%`;
+- **random noise images with the same support labels**: `59.937%`, again better than correct images;
+- zero-parameter label-prior correction: `79.194%`, far above all affine rows.
+
+Because shuffled labels preserve the support-label histogram, and noise retains the same label vector, these results strongly imply that much of the affine benefit is coming from **label-prior / classifier-bias adaptation**, not from reading image context. A huge correct-minus-wrong-client gap is expected when the wrong client has a different label prior, so that gap is confounded.
+
+MNIST tells the same story more directly: correct affine `94.755` and shuffled `94.687` differ by only `0.068 pp`, while prior reaches `98.244`.
+
+CIFAR-100/TinyImageNet do not rescue the interpretation: correct gains are small, prior still dominates, and correct-vs-wrong margins remain <2 pp.
+
+## 1.3 Mechanism vs implementation diagnosis
+
+I do **not** currently see evidence of an implementation failure in the PFLlib run. The scientific failure is in the **diagnostic task**: Dirichlet label-skew clients entangle `current client` with `class prior`, so supervised adaptation can look strongly client-specific without reading covariate context at all.
+
+Therefore:
+
+> Do not tune the affine operator on this static label-skew table. First remove the label-prior confound.
+
+The next experiment must hold labels/support identities fixed while changing only the input distribution.
+
+---
+
+# 2. Next one-hour work package — T002: Prior-Controlled Covariate Context Specificity
 
 ## 2.1 Goal
 
-Answer two questions on the **same exact checkpoint, supports, and SVHN query set** as T001:
+Use the existing **CIFAR-10 PFLlib final checkpoint** and exact client partitions, with **no retraining**, to answer:
 
-1. **Headroom:** Can a reasonably optimized supervised adapter/full model gain at least ~5 pp on this 200-shot target-support setup at all?
-2. **Capacity:** If headroom exists, does allowing cross-channel mixing (instead of only diagonal scale/shift) materially improve the neutral fast operator and context specificity?
+> Can the neutral intermediate affine operator distinguish the *correct covariate context* from a wrong covariate context when the support examples and label histogram are exactly matched?
 
-This is still a supervised read/operator diagnostic. **No SSL, no meta-learning, no federation.**
+This is the cleanest next test because the current PFLlib evidence is dominated by label prior.
 
-## 2.2 Keep all T001 data and controls fixed
-
-Reuse without regeneration:
-
-- shared checkpoint SHA256 `ffcf2dfa205c72094a54f592b1fef8b44dc830a3242acc6d917909b85c1df997`;
-- source domains/datasets/splits;
-- SVHN 3000-query set seed 101;
-- five balanced target support draws seeds `11,22,33,44,55`, 20/class;
-- wrong-domain supports and shuffled-label supports from T001.
-
-Do not retrain the source model. T001B is paired to T001.
+**No SSL. No meta-learning. No additional FL training. No new operator family yet.**
 
 ---
 
-# 3. Part A — establish a credible supervised ceiling
+# 3. Core construction: same support IDs + same labels, only corruption differs
 
-The previous `full_model SGD lr=.001 <=10 steps` is too weak to serve as a ceiling.
+Use the existing CIFAR-10 formal run/checkpoint:
 
-Add two adaptation controls, always starting from the same checkpoint and using **correct SVHN support labels only**:
+- run: `20260913-123718-ttfl-pfl-gpu0/Cifar10`
+- same `global_state.pt` / recorded SHA;
+- same 100 clients;
+- same saved correct support indices, up to 64 support samples/client;
+- same query split per client;
+- affine optimizer fixed to the already-used `SGD lr=0.1, 10 steps` for the primary test.
 
-### A1. Classifier-head-only adaptation
+For each client and each target corruption `c_target`:
 
-Freeze all convolutional/BN features, optimize only the final linear classifier.
+1. take the **same clean support tensor `S` and same label vector `y`**;
+2. make `S_correct = corrupt(S, c_target)`;
+3. make `S_wrong = corrupt(S, c_wrong)` using the **same exact images and labels**;
+4. make `Q_target = corrupt(Q, c_target)` from that client's query images;
+5. adapt the neutral affine state on `(S_correct, y)` or `(S_wrong, y)`;
+6. evaluate both adapted states on the exact same `Q_target`.
 
-Use full-batch Adam with this small fixed grid:
-
-```text
-lr:    [1e-3, 1e-2]
-steps: [10, 50, 100]
-```
-
-Report every cell over all five support draws.
-
-### A2. Full-model supervised adaptation
-
-BN remains in eval mode during gradient adaptation so this is not secretly BN recalibration.
-
-Use full-batch Adam:
-
-```text
-lr:    [1e-4, 1e-3]
-steps: [10, 50]
-```
-
-Report support CE, query CE, accuracy, worst-class accuracy, and parameter-delta norm.
-
-This is diagnostic, not a final baseline. Do not select/early-stop on query accuracy; report the entire predeclared grid.
-
-### Headroom interpretation
-
-Define:
-
-```text
-supervised_headroom = best reported correct-support gain among A1/A2
-```
-
-- If `supervised_headroom < +5 pp`, **stop after Part A/B reporting** and explicitly conclude that the current SVHN/checkpoint/support setup is a poor +5 pp read-operator gate. We then change the diagnostic setup next round rather than inventing more operators.
-- If `supervised_headroom >= +5 pp`, the target setup has enough adaptation headroom to judge operator capacity.
-
-Do not hide overfitting: report support accuracy/loss as well as query metrics.
+Because support IDs and labels are identical, this comparison removes label histogram, support image identity, and support-set size as explanations. The only difference is covariate context.
 
 ---
 
-# 4. Part B — V2-B neutral channel-mixing fast operator
+# 4. Corruption set
 
-The T001 operator is diagonal in channels:
+Use a small deterministic tensor-level set that is cheap and reproducible. Before implementing, inspect the actual saved CIFAR tensor range and apply transforms in the correct value range; record the observed min/max and exact formulas.
 
-`h' = (1+gamma) * h + beta`
-
-It can only rescale/shift each channel independently. It cannot rotate/mix feature channels, so it cannot directly repair covariance/cross-channel geometry shifts.
-
-Implement a strictly neutral residual 1x1 channel-mixing operator after each of the same three blocks:
+Required target corruptions:
 
 ```text
-h' = h + A_l h + b_l
+brightness_dark
+contrast_low
+gaussian_noise
+gaussian_blur
 ```
 
-where:
+Use one fixed moderate severity per corruption. Do **not** tune severity to adaptation results.
 
-- `A_l` is a trainable `C_l x C_l` matrix applied as a 1x1 convolution/channel mixing;
-- `b_l` is a trainable channel bias;
-- initialize **exactly** `A_l = 0`, `b_l = 0` every context episode;
-- at zero state the logits must match baseline with `max_abs_diff < 1e-6`;
-- only `{A_l,b_l}` update during the inner step;
-- backbone/classifier/BN parameters and BN buffers stay frozen/eval.
-
-Parameter count is still small enough for this diagnostic (~21k for 32/64/128 channels) and is intentionally more expressive than the 448-scalar affine state.
-
-Do **not** use a bilinear low-rank factorization with both factors zero; that creates a zero-gradient trap. Full `A_l` is the clean capacity test.
-
-### Optimizer/grid for V2-B
-
-Use full-batch Adam:
+Suggested starting definitions if tensors are in [0,1]:
 
 ```text
-lr:    [1e-3, 1e-2]
-steps: [10, 50]
+brightness_dark: x * 0.45
+contrast_low: (x - channel_mean(x)) * 0.35 + channel_mean(x)
+gaussian_noise: clamp(x + N(0, 0.15^2), 0, 1), deterministic generator
+blur: torchvision GaussianBlur kernel=5, sigma=1.5
 ```
 
-Run all five support draws.
+If saved tensors use a different range, rescale the operation appropriately and document it.
 
-For every correct-support cell record:
-
-- support/query CE before and after;
-- query accuracy/gain;
-- worst-class accuracy;
-- `||A||_F`, `||b||_2` per block and total;
-- model/checkpoint integrity hashes.
+For deterministic noise, derive the seed from `(global_seed, client_id, sample_id, corruption)` so correct/wrong comparisons are reproducible.
 
 ---
 
-# 5. Part C — context specificity for V2-B
+# 5. Wrong-context design
 
-For **every V2-B grid cell** (same fixed hyperparameters, no post-hoc per-context tuning), evaluate:
-
-1. correct SVHN support;
-2. wrong MNIST support;
-3. wrong USPS support;
-4. wrong MNIST-M support;
-5. shuffled labels on the exact correct SVHN images.
-
-Noise is optional in T001B; keep it only if trivial to reuse.
-
-Key metrics per cell:
+For every target corruption, evaluate at least two wrong contexts using the **same support IDs and labels**:
 
 ```text
-correct_gain
-correct - wrong_MNIST
-correct - wrong_USPS
-correct - wrong_MNISTM
-correct - shuffled
+target brightness_dark:
+  wrong clean
+  wrong gaussian_noise
+
+target contrast_low:
+  wrong clean
+  wrong gaussian_blur
+
+target gaussian_noise:
+  wrong clean
+  wrong brightness_dark
+
+target gaussian_blur:
+  wrong clean
+  wrong contrast_low
 ```
+
+Do not use another client as `wrong`; that reintroduces prior/client-content confounds.
+
+Also include:
+
+- `none`: no adaptation on the corrupted query;
+- `same-label noise-image control`: replace support pixels by random noise but preserve the exact label vector;
+- `shuffled-label correct-context control`: correct-corruption support images, shuffled labels (same histogram).
+
+The primary context-specificity comparison is **correct corruption vs wrong corruption with labels unchanged**.
+
+---
+
+# 6. Primary metrics
+
+Report sample-weighted and macro-client accuracy for each corruption/context row.
+
+For each target corruption compute:
+
+```text
+baseline_corrupted_acc
+correct_context_acc
+correct_gain_pp
+wrong_clean_acc
+wrong_alt_acc
+correct_minus_wrong_clean_pp
+correct_minus_wrong_alt_pp
+shuffled_acc
+noise_image_acc
+```
+
+Also report support CE before/after and `gamma/beta` norm.
+
+Add per-client paired differences so we can inspect whether the effect is broad or driven by a few clients:
+
+```text
+Delta_i = Acc_i(correct_context) - Acc_i(wrong_context)
+```
+
+Report:
+
+- mean Delta;
+- median Delta;
+- fraction of clients with Delta > 0;
+- 10th/25th/75th/90th percentiles.
+
+Do not run significance packages; paired summaries are enough for this one-hour diagnostic.
+
+---
+
+# 7. Pass / fail rules
+
+This test is about **context specificity**, not raw personalization gain.
+
+A corruption receives a provisional context-reading PASS only if:
+
+```text
+correct_context gain >= +2 pp over corrupted no-adapt baseline
+AND
+correct_context >= wrong_clean +2 pp
+AND
+correct_context >= wrong_alt +2 pp
+AND
+correct_context > same-label random-noise-image control
+```
+
+The stricter 5-pp gate from old T001 is intentionally not used here; the central question is whether matched-label covariate context changes the useful adaptation direction at all.
 
 Interpretation:
 
-- large `correct - shuffled` alone = label-sensitive gradient, **not** sufficient context specificity;
-- we need correct target support to beat *wrong-domain labeled support*, otherwise the operator has not demonstrated current-domain reading.
+- `correct ≈ wrong` but all improve: adaptation is label/prior driven or generic supervised fine-tuning, not context reading;
+- `correct > wrong` but gain tiny: context signal exists, operator effect too weak;
+- `correct strongly > wrong` on multiple corruptions: affine read operator has genuine covariate-context sensitivity and deserves the next stage;
+- `noise-image >= correct`: labels dominate; fail contextual reading.
+
+Do not aggregate the four corruptions into a single success claim. Report each separately.
 
 ---
 
-# 6. Decision table after T001B
+# 8. One useful retrospective analysis from the existing PFLlib receipts
 
-Use this exact logic in `CODEX_TO_CHATGPT.md`:
+If time permits after T002 execution, add a small analysis script (no retraining) for existing CIFAR-10 static-client rows:
 
-### Case 1 — no supervised headroom
+For each client calculate:
 
-If A1/A2 best gain `< +5 pp`:
+- support label entropy;
+- max-class fraction;
+- `prior_correct` gain;
+- `affine_correct` gain;
+- `affine_shuffled` gain;
+- `affine_noise` gain.
 
-> The T001/T001B SVHN checkpoint/support setting cannot distinguish operator failure from lack of adaptable headroom. Do not spend more time on operator variants here. Return to Research Lead to choose a different held-out domain/checkpoint or a synthetic shift with verified oracle headroom.
+Report Pearson/Spearman correlations of affine gain with max-class fraction and prior gain.
 
-### Case 2 — headroom exists, V2-B fails
-
-If A1/A2 gain `>= +5 pp` but V2-B best correct gain `< +5 pp` or context-specificity gaps remain `<2 pp`:
-
-> Neutral channel modulation, even with full cross-channel mixing, is inadequate under this architecture. This is meaningful operator-capacity evidence. Do not add SSL/meta/FL.
-
-### Case 3 — V2-B passes
-
-Provisional pass requires both:
-
-```text
-correct-support gain >= +5 pp
-AND
-correct support >= each wrong-domain support +2 pp
-```
-
-If it passes, stop and report. Do not start T002 until the Research Lead reviews it.
-
-Additionally report the ratio:
-
-```text
-operator_fraction_of_headroom = V2B_best_gain / supervised_headroom
-```
-
-This tells us whether the operator captures a meaningful fraction of the available adaptation benefit.
+This is secondary. Do not spend more than ~10 minutes on it. The primary deliverable is matched-label covariate specificity.
 
 ---
 
-# 7. Engineering requirements
+# 9. Engineering constraints / verification
 
-Reuse T001 infrastructure; do not rewrite loaders/checkpoint plumbing.
-
-Add focused tests:
-
-- zero `A,b` exactly reproduces baseline logits;
-- adaptation changes only `A,b`;
-- shared model state/hash unchanged after every V2-B episode;
-- repeated reset returns `A,b` to zero;
-- 1x1 channel mixing has the expected tensor shape and no spatial mixing;
-- support/query disjointness remains identical to T001.
-
-Output under:
+Reuse current PFLlib loaders and affine code; make a new evaluation-only script, e.g.:
 
 ```text
-results/t001b/
+scripts/eval_pfllib_covariate_context.py
 ```
 
-with:
+Do not alter the FedAvg checkpoint or training code.
+
+Required assertions:
+
+1. zero affine state reproduces corrupted-query baseline logits exactly for the same input;
+2. correct and wrong support conditions use identical support IDs;
+3. correct and wrong support conditions use identical label tensors;
+4. only pixel transform differs between matched-context conditions;
+5. shared model hash unchanged after every adaptation episode;
+6. support/query original IDs remain disjoint;
+7. corruption functions are deterministic under the saved seeds;
+8. all four target corruption evaluations use the same fixed affine optimizer settings.
+
+Output:
 
 ```text
-summary.json
-summary.csv
-RESULTS.md
-verification.json
-raw/
+results/t002_covariate/
+  summary.json
+  summary.csv
+  RESULTS.md
+  verification.json
+  per_client.csv
 ```
 
-Update `coordination/CODEX_TO_CHATGPT.md` with a concise table plus the Case 1/2/3 decision.
-
-Do not perform broad hyperparameter searches. The purpose is diagnosis, not leaderboard optimization.
+Raw records can live under `research_log/` if large.
 
 ---
 
-# 8. What I currently believe, to guide interpretation (not to bias reporting)
+# 10. Decision after T002
 
-T001 is **not** a software failure. The affine state clearly moves and reduces both support and query CE. The most likely possibilities are:
+### Case A — matched-label covariate specificity exists
 
-1. the original +5 pp gate was too strong for a setup where even the tested full-model update had little headroom;
-2. diagonal per-channel modulation is under-expressive for SVHN-vs-source geometry;
-3. the useful context on this benchmark is not well represented by supervised fast feature modulation at all.
+If at least **2 of 4** corruptions satisfy the provisional PASS rule:
 
-T001B is designed to distinguish (1) from (2)/(3).
+> We have the first clean evidence that a neutral fast intermediate operator can read current covariate context independently of label prior. Stop and report. The next research-lead decision will choose between supervised operator-capacity refinement and self-supervised write design.
 
-Do not interpret BN's +3.57 pp as a clean context-specific success: wrong MNIST-M BN still gives +2.21 pp and correct-vs-wrong-MNIST-M is only ~1.36 pp. It remains evidence that feature statistics matter, but not yet a decisive context-specificity win.
+Do **not** start SSL automatically.
+
+### Case B — gain exists but specificity fails
+
+If correct adaptation improves corrupted queries but does not beat matched-label wrong contexts:
+
+> The current affine update is generic supervised adaptation / prior correction, not current-context reading. Do not add SSL/meta/FL. Next round should test a richer neutral operator or a more appropriate sufficient-statistic operator.
+
+### Case C — no useful gain
+
+If correct-context adaptation itself does not improve corrupted queries:
+
+> The current affine operator lacks useful capacity/optimization for these shifts. Return to Research Lead; do not sweep broadly.
 
 ---
 
-# 9. Communication protocol
+# 11. Why T001B is suspended, not forgotten
 
-Before running, read this file. After T001B, write:
+The previous old-SVHN T001B headroom/channel-mixing package was scientifically reasonable, but the user subsequently requested the PFLlib migration and we now have stronger evidence about the dominant confound in the active benchmark.
 
-`coordination/CODEX_TO_CHATGPT.md`
+Do **not** execute the stale T001B package in parallel with T002.
 
-with sections:
+T002 has priority because it directly tests whether the impressive PFLlib CIFAR-10 gains are real contextual reading or merely label-prior exploitation.
+
+---
+
+# 12. Communication protocol
+
+After T002, replace `coordination/CODEX_TO_CHATGPT.md` with:
 
 ```markdown
 # CODEX -> CHATGPT
 ## Timestamp
 ## Commit
 ## What changed
-## Experiments run
+## Checkpoint / data reused
+## Corruption definitions and tensor range
+## Verification / matched-label controls
 ## Results table
-## Headroom result
-## V2-B context-specificity result
-## Diagnostics
+## Per-client paired specificity summary
+## Existing-receipt prior-correlation analysis (if completed)
 ## Failures / uncertainties
-## Case 1 / Case 2 / Case 3 decision
+## Case A / B / C decision
 ## Recommended next action
 ```
 
-Commit and push code/config/result summaries. Do not hide negative results and do not launch the next work package on your own.
+Commit and push code plus compact result summaries. Preserve negative results. Do not launch the next research stage without Research Lead review.
