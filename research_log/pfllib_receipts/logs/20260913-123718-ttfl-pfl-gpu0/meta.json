@@ -1,0 +1,6 @@
+{
+  "runId": "20260913-123718-ttfl-pfl-gpu0",
+  "releaseId": "20260913-123712-ttfl-pfl-launch",
+  "sessionName": "autodl-20260913-123718-ttfl-pfl-gpu0",
+  "command": "CUDA_VISIBLE_DEVICES=0 TTFL_COMMIT=af29ce6235c4afa63db67e004942ad87eab937c8 bash scripts/run_pfllib_gpu.sh MNIST Cifar10"
+}

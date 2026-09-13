@@ -1,0 +1,599 @@
+[autodl] run_id=20260913-123718-ttfl-pfl-gpu0
+[autodl] started_at=2026-09-13T12:37:29+08:00
+test_bn_only_moments (test_affine.AffineTest.test_bn_only_moments) ... ok
+test_neutral_logits (test_affine.AffineTest.test_neutral_logits) ... ok
+test_only_fast_state_and_reset (test_affine.AffineTest.test_only_fast_state_and_reset) ... <frozen importlib._bootstrap>:488: DeprecationWarning: Type google._upb._message.MessageMapContainer uses PyType_Spec with a metaclass that has custom tp_new. This is deprecated and will no longer be allowed in Python 3.14.
+<frozen importlib._bootstrap>:488: DeprecationWarning: Type google._upb._message.ScalarMapContainer uses PyType_Spec with a metaclass that has custom tp_new. This is deprecated and will no longer be allowed in Python 3.14.
+ok
+test_same_checkpoint_all_methods (test_affine.AffineTest.test_same_checkpoint_all_methods) ... ok
+test_train_checkpoint_and_metrics (test_baseline.BaselineTest.test_train_checkpoint_and_metrics) ... ok
+test_balanced_and_disjoint (test_data.DataTest.test_balanced_and_disjoint) ... ok
+test_preprocess (test_data.DataTest.test_preprocess) ... ok
+test_four_shapes_neutral_frozen_and_classes (test_pfllib_operator.PFLModelTest.test_four_shapes_neutral_frozen_and_classes) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.206s
+
+OK
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+
+Join ratio / total clients: 0.1 / 100
+Finished creating server and clients.
+
+-------------Round number: 0-------------
+
+Evaluate global model
+Averaged Train Loss: 2.3035
+Averaged Test Accuracy: 0.0903
+Averaged Test AUC: 0.5174
+Std Test Accuracy: 0.1950
+Std Test AUC: 0.2105
+------------------------- time cost ------------------------- 6.801138162612915
+------------------------- time cost ------------------------- 1.7464172840118408
+
+Best accuracy.
+0.09030271934325294
+
+Average time cost per round.
+1.7464172840118408
+File path: ../results/MNIST_FedAvg_TTFL_0.h5
+PFL_DONE MNIST 13.972977595348041 2
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+CLIENT_CONTEXT_DONE 0
+CLIENT_CONTEXT_DONE 1
+CONTEXT_DONE [{"method": "none", "context": "none", "accuracy": 5.555555348594983, "gain_pp": 0.0, "macro_client_accuracy": 4.065040498971939}, {"method": "random_no_write", "context": "random", "accuracy": 5.555555348594983, "gain_pp": 0.0, "macro_client_accuracy": 4.065040498971939}, {"method": "affine", "context": "correct", "accuracy": 12.222221766908964, "gain_pp": 6.66666641831398, "macro_client_accuracy": 8.943089097738266}, {"method": "prior", "context": "correct", "accuracy": 62.22222069899241, "gain_pp": 56.66666535039743, "macro_client_accuracy": 60.59049963951111}, {"method": "affine", "context": "wrong", "accuracy": 15.555554976065954, "gain_pp": 9.99999962747097, "macro_client_accuracy": 11.38211339712143}, {"method": "prior", "context": "wrong", "accuracy": 15.555554976065954, "gain_pp": 9.99999962747097, "macro_client_accuracy": 11.38211339712143}, {"method": "affine", "context": "shuffled", "accuracy": 12.222221766908964, "gain_pp": 6.66666641831398, "macro_client_accuracy": 8.943089097738266}, {"method": "prior", "context": "shuffled", "accuracy": 62.22222069899241, "gain_pp": 56.66666535039743, "macro_client_accuracy": 60.59049963951111}, {"method": "affine", "context": "noise", "accuracy": 12.77777781089147, "gain_pp": 7.222222462296486, "macro_client_accuracy": 9.34959352016449}, {"method": "prior", "context": "noise", "accuracy": 62.22222069899241, "gain_pp": 56.66666535039743, "macro_client_accuracy": 60.59049963951111}]
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+
+Join ratio / total clients: 0.1 / 100
+Finished creating server and clients.
+
+-------------Round number: 0-------------
+
+Evaluate global model
+Averaged Train Loss: 2.3035
+Averaged Test Accuracy: 0.0903
+Averaged Test AUC: 0.5174
+Std Test Accuracy: 0.1950
+Std Test AUC: 0.2105
+------------------------- time cost ------------------------- 6.972065687179565
+------------------------- time cost ------------------------- 1.753342866897583
+------------------------- time cost ------------------------- 2.9282538890838623
+------------------------- time cost ------------------------- 1.8652608394622803
+------------------------- time cost ------------------------- 1.883500337600708
+------------------------- time cost ------------------------- 1.8122999668121338
+------------------------- time cost ------------------------- 2.568920850753784
+------------------------- time cost ------------------------- 1.9976913928985596
+------------------------- time cost ------------------------- 2.7831687927246094
+------------------------- time cost ------------------------- 2.185943841934204
+------------------------- time cost ------------------------- 2.2964060306549072
+------------------------- time cost ------------------------- 1.7231028079986572
+------------------------- time cost ------------------------- 2.1292459964752197
+------------------------- time cost ------------------------- 2.2431511878967285
+------------------------- time cost ------------------------- 2.2724215984344482
+------------------------- time cost ------------------------- 2.0864715576171875
+------------------------- time cost ------------------------- 1.3153457641601562
+------------------------- time cost ------------------------- 2.409120798110962
+------------------------- time cost ------------------------- 2.7530505657196045
+------------------------- time cost ------------------------- 0.5719542503356934
+
+-------------Round number: 20-------------
+
+Evaluate global model
+Averaged Train Loss: 0.9716
+Averaged Test Accuracy: 0.6701
+Averaged Test AUC: 0.9342
+Std Test Accuracy: 0.2087
+Std Test AUC: 0.0471
+------------------------- time cost ------------------------- 7.147300481796265
+------------------------- time cost ------------------------- 2.0737836360931396
+------------------------- time cost ------------------------- 1.3209562301635742
+------------------------- time cost ------------------------- 2.7294118404388428
+------------------------- time cost ------------------------- 1.8071959018707275
+------------------------- time cost ------------------------- 1.6555290222167969
+------------------------- time cost ------------------------- 1.937086820602417
+------------------------- time cost ------------------------- 2.073063611984253
+------------------------- time cost ------------------------- 1.4756569862365723
+------------------------- time cost ------------------------- 2.0321154594421387
+------------------------- time cost ------------------------- 1.2985639572143555
+------------------------- time cost ------------------------- 1.252159833908081
+------------------------- time cost ------------------------- 1.1795578002929688
+------------------------- time cost ------------------------- 0.9504144191741943
+------------------------- time cost ------------------------- 1.0322184562683105
+------------------------- time cost ------------------------- 1.3495304584503174
+------------------------- time cost ------------------------- 1.515439510345459
+------------------------- time cost ------------------------- 1.2817363739013672
+------------------------- time cost ------------------------- 1.2627389430999756
+------------------------- time cost ------------------------- 1.3867950439453125
+
+-------------Round number: 40-------------
+
+Evaluate global model
+Averaged Train Loss: 0.5096
+Averaged Test Accuracy: 0.8116
+Averaged Test AUC: 0.9686
+Std Test Accuracy: 0.1936
+Std Test AUC: 0.0322
+------------------------- time cost ------------------------- 7.404949188232422
+------------------------- time cost ------------------------- 1.4227237701416016
+------------------------- time cost ------------------------- 3.060542345046997
+------------------------- time cost ------------------------- 2.0576586723327637
+------------------------- time cost ------------------------- 1.8532679080963135
+------------------------- time cost ------------------------- 1.2369027137756348
+------------------------- time cost ------------------------- 1.6829113960266113
+------------------------- time cost ------------------------- 2.8780384063720703
+------------------------- time cost ------------------------- 2.09053635597229
+------------------------- time cost ------------------------- 2.0796849727630615
+------------------------- time cost ------------------------- 1.190950870513916
+------------------------- time cost ------------------------- 0.9042973518371582
+------------------------- time cost ------------------------- 0.621300220489502
+------------------------- time cost ------------------------- 1.2660892009735107
+------------------------- time cost ------------------------- 2.1493208408355713
+------------------------- time cost ------------------------- 2.114368438720703
+------------------------- time cost ------------------------- 1.3559794425964355
+------------------------- time cost ------------------------- 2.309976816177368
+------------------------- time cost ------------------------- 2.461937427520752
+------------------------- time cost ------------------------- 2.840569257736206
+
+-------------Round number: 60-------------
+
+Evaluate global model
+Averaged Train Loss: 0.3023
+Averaged Test Accuracy: 0.8988
+Averaged Test AUC: 0.9824
+Std Test Accuracy: 0.0634
+Std Test AUC: 0.0126
+------------------------- time cost ------------------------- 8.488288640975952
+------------------------- time cost ------------------------- 2.645275592803955
+------------------------- time cost ------------------------- 2.0265560150146484
+------------------------- time cost ------------------------- 2.2828357219696045
+------------------------- time cost ------------------------- 1.622734785079956
+------------------------- time cost ------------------------- 2.317129135131836
+------------------------- time cost ------------------------- 2.416266679763794
+------------------------- time cost ------------------------- 1.6276888847351074
+------------------------- time cost ------------------------- 2.6897881031036377
+------------------------- time cost ------------------------- 1.8044195175170898
+------------------------- time cost ------------------------- 2.4693186283111572
+------------------------- time cost ------------------------- 1.8369543552398682
+------------------------- time cost ------------------------- 1.9144132137298584
+------------------------- time cost ------------------------- 1.8724582195281982
+------------------------- time cost ------------------------- 1.911850929260254
+------------------------- time cost ------------------------- 1.9931066036224365
+------------------------- time cost ------------------------- 2.3592092990875244
+------------------------- time cost ------------------------- 2.3069658279418945
+------------------------- time cost ------------------------- 2.4849019050598145
+------------------------- time cost ------------------------- 1.4556550979614258
+
+-------------Round number: 80-------------
+
+Evaluate global model
+Averaged Train Loss: 0.2588
+Averaged Test Accuracy: 0.9189
+Averaged Test AUC: 0.9847
+Std Test Accuracy: 0.0521
+Std Test AUC: 0.0106
+------------------------- time cost ------------------------- 6.607430934906006
+------------------------- time cost ------------------------- 2.15386700630188
+------------------------- time cost ------------------------- 2.2388134002685547
+------------------------- time cost ------------------------- 2.2242698669433594
+------------------------- time cost ------------------------- 2.522768974304199
+------------------------- time cost ------------------------- 2.689159631729126
+------------------------- time cost ------------------------- 2.0381457805633545
+------------------------- time cost ------------------------- 2.6498119831085205
+------------------------- time cost ------------------------- 2.187659978866577
+------------------------- time cost ------------------------- 2.1351404190063477
+------------------------- time cost ------------------------- 2.155694007873535
+------------------------- time cost ------------------------- 2.0273783206939697
+------------------------- time cost ------------------------- 1.6934881210327148
+------------------------- time cost ------------------------- 2.13053297996521
+------------------------- time cost ------------------------- 2.788361072540283
+------------------------- time cost ------------------------- 2.372817039489746
+------------------------- time cost ------------------------- 1.1885528564453125
+------------------------- time cost ------------------------- 2.8047738075256348
+------------------------- time cost ------------------------- 1.8596630096435547
+------------------------- time cost ------------------------- 2.065610885620117
+
+Best accuracy.
+0.9188757767516105
+
+Average time cost per round.
+2.1856734439580126
+File path: ../results/MNIST_FedAvg_TTFL_0.h5
+PFL_DONE MNIST 92.49757710506813 100
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+CLIENT_CONTEXT_DONE 0
+CLIENT_CONTEXT_DONE 1
+CLIENT_CONTEXT_DONE 2
+CLIENT_CONTEXT_DONE 3
+CLIENT_CONTEXT_DONE 4
+CLIENT_CONTEXT_DONE 5
+CLIENT_CONTEXT_DONE 6
+CLIENT_CONTEXT_DONE 7
+CLIENT_CONTEXT_DONE 8
+CLIENT_CONTEXT_DONE 9
+CLIENT_CONTEXT_DONE 10
+CLIENT_CONTEXT_DONE 11
+CLIENT_CONTEXT_DONE 12
+CLIENT_CONTEXT_DONE 13
+CLIENT_CONTEXT_DONE 14
+CLIENT_CONTEXT_DONE 15
+CLIENT_CONTEXT_DONE 16
+CLIENT_CONTEXT_DONE 17
+CLIENT_CONTEXT_DONE 18
+CLIENT_CONTEXT_DONE 19
+CLIENT_CONTEXT_DONE 20
+CLIENT_CONTEXT_DONE 21
+CLIENT_CONTEXT_DONE 22
+CLIENT_CONTEXT_DONE 23
+CLIENT_CONTEXT_DONE 24
+CLIENT_CONTEXT_DONE 25
+CLIENT_CONTEXT_DONE 26
+CLIENT_CONTEXT_DONE 27
+CLIENT_CONTEXT_DONE 28
+CLIENT_CONTEXT_DONE 29
+CLIENT_CONTEXT_DONE 30
+CLIENT_CONTEXT_DONE 31
+CLIENT_CONTEXT_DONE 32
+CLIENT_CONTEXT_DONE 33
+CLIENT_CONTEXT_DONE 34
+CLIENT_CONTEXT_DONE 35
+CLIENT_CONTEXT_DONE 36
+CLIENT_CONTEXT_DONE 37
+CLIENT_CONTEXT_DONE 38
+CLIENT_CONTEXT_DONE 39
+CLIENT_CONTEXT_DONE 40
+CLIENT_CONTEXT_DONE 41
+CLIENT_CONTEXT_DONE 42
+CLIENT_CONTEXT_DONE 43
+CLIENT_CONTEXT_DONE 44
+CLIENT_CONTEXT_DONE 45
+CLIENT_CONTEXT_DONE 46
+CLIENT_CONTEXT_DONE 47
+CLIENT_CONTEXT_DONE 48
+CLIENT_CONTEXT_DONE 49
+CLIENT_CONTEXT_DONE 50
+CLIENT_CONTEXT_DONE 51
+CLIENT_CONTEXT_DONE 52
+CLIENT_CONTEXT_DONE 53
+CLIENT_CONTEXT_DONE 54
+CLIENT_CONTEXT_DONE 55
+CLIENT_CONTEXT_DONE 56
+CLIENT_CONTEXT_DONE 57
+CLIENT_CONTEXT_DONE 58
+CLIENT_CONTEXT_DONE 59
+CLIENT_CONTEXT_DONE 60
+CLIENT_CONTEXT_DONE 61
+CLIENT_CONTEXT_DONE 62
+CLIENT_CONTEXT_DONE 63
+CLIENT_CONTEXT_DONE 64
+CLIENT_CONTEXT_DONE 65
+CLIENT_CONTEXT_DONE 66
+CLIENT_CONTEXT_DONE 67
+CLIENT_CONTEXT_DONE 68
+CLIENT_CONTEXT_DONE 69
+CLIENT_CONTEXT_DONE 70
+CLIENT_CONTEXT_DONE 71
+CLIENT_CONTEXT_DONE 72
+CLIENT_CONTEXT_DONE 73
+CLIENT_CONTEXT_DONE 74
+CLIENT_CONTEXT_DONE 75
+CLIENT_CONTEXT_DONE 76
+CLIENT_CONTEXT_DONE 77
+CLIENT_CONTEXT_DONE 78
+CLIENT_CONTEXT_DONE 79
+CLIENT_CONTEXT_DONE 80
+CLIENT_CONTEXT_DONE 81
+CLIENT_CONTEXT_DONE 82
+CLIENT_CONTEXT_DONE 83
+CLIENT_CONTEXT_DONE 84
+CLIENT_CONTEXT_DONE 85
+CLIENT_CONTEXT_DONE 86
+CLIENT_CONTEXT_DONE 87
+CLIENT_CONTEXT_DONE 88
+CLIENT_CONTEXT_DONE 89
+CLIENT_CONTEXT_DONE 90
+CLIENT_CONTEXT_DONE 91
+CLIENT_CONTEXT_DONE 92
+CLIENT_CONTEXT_DONE 93
+CLIENT_CONTEXT_DONE 94
+CLIENT_CONTEXT_DONE 95
+CLIENT_CONTEXT_DONE 96
+CLIENT_CONTEXT_DONE 97
+CLIENT_CONTEXT_DONE 98
+CLIENT_CONTEXT_DONE 99
+CONTEXT_DONE [{"method": "none", "context": "none", "accuracy": 92.49757699972955, "gain_pp": 0.0, "macro_client_accuracy": 92.62357538938522}, {"method": "random_no_write", "context": "random", "accuracy": 92.48617534986495, "gain_pp": -0.011401649864592144, "macro_client_accuracy": 92.58424812555313}, {"method": "affine", "context": "correct", "accuracy": 94.7551450067572, "gain_pp": 2.2575680070276523, "macro_client_accuracy": 94.76889717578888}, {"method": "prior", "context": "correct", "accuracy": 98.24411363186039, "gain_pp": 5.746536632130841, "macro_client_accuracy": 97.89139872789383}, {"method": "affine", "context": "wrong", "accuracy": 92.01869921512733, "gain_pp": -0.478877784602217, "macro_client_accuracy": 92.25061601400375}, {"method": "prior", "context": "wrong", "accuracy": 85.48543433711926, "gain_pp": -7.012142662610291, "macro_client_accuracy": 86.53953647613525}, {"method": "affine", "context": "shuffled", "accuracy": 94.68673426486103, "gain_pp": 2.1891572651314792, "macro_client_accuracy": 94.72491306066513}, {"method": "prior", "context": "shuffled", "accuracy": 98.24411363186039, "gain_pp": 5.746536632130841, "macro_client_accuracy": 97.89139872789383}, {"method": "affine", "context": "noise", "accuracy": 90.87851291255745, "gain_pp": -1.6190640871720945, "macro_client_accuracy": 89.88327866792679}, {"method": "prior", "context": "noise", "accuracy": 98.24411363186039, "gain_pp": 5.746536632130841, "macro_client_accuracy": 97.89139872789383}]
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+
+Join ratio / total clients: 0.1 / 100
+Finished creating server and clients.
+
+-------------Round number: 0-------------
+
+Evaluate global model
+Averaged Train Loss: 2.3040
+Averaged Test Accuracy: 0.0813
+Averaged Test AUC: 0.5008
+Std Test Accuracy: 0.1486
+Std Test AUC: 0.2040
+------------------------- time cost ------------------------- 9.093640565872192
+------------------------- time cost ------------------------- 1.9664947986602783
+
+Best accuracy.
+0.08132189640268635
+
+Average time cost per round.
+1.9664947986602783
+File path: ../results/Cifar10_FedAvg_TTFL_0.h5
+PFL_DONE Cifar10 9.940820533280139 2
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+CLIENT_CONTEXT_DONE 0
+CLIENT_CONTEXT_DONE 1
+CONTEXT_DONE [{"method": "none", "context": "none", "accuracy": 11.19133628743435, "gain_pp": 0.0, "macro_client_accuracy": 9.604472108185291}, {"method": "random_no_write", "context": "random", "accuracy": 11.19133628743435, "gain_pp": 0.0, "macro_client_accuracy": 9.604472108185291}, {"method": "affine", "context": "correct", "accuracy": 11.19133628743435, "gain_pp": 0.0, "macro_client_accuracy": 9.604472108185291}, {"method": "prior", "context": "correct", "accuracy": 68.95306671999852, "gain_pp": 57.76173043256417, "macro_client_accuracy": 72.92872369289398}, {"method": "affine", "context": "wrong", "accuracy": 11.19133628743435, "gain_pp": 0.0, "macro_client_accuracy": 9.604472108185291}, {"method": "prior", "context": "wrong", "accuracy": 51.2635372602633, "gain_pp": 40.072200972828945, "macro_client_accuracy": 40.111791575327516}, {"method": "affine", "context": "shuffled", "accuracy": 11.19133628743435, "gain_pp": 0.0, "macro_client_accuracy": 9.604472108185291}, {"method": "prior", "context": "shuffled", "accuracy": 68.95306671999852, "gain_pp": 57.76173043256417, "macro_client_accuracy": 72.92872369289398}, {"method": "affine", "context": "noise", "accuracy": 11.19133628743435, "gain_pp": 0.0, "macro_client_accuracy": 9.604472108185291}, {"method": "prior", "context": "noise", "accuracy": 68.95306671999852, "gain_pp": 57.76173043256417, "macro_client_accuracy": 72.92872369289398}]
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+
+Join ratio / total clients: 0.1 / 100
+Finished creating server and clients.
+
+-------------Round number: 0-------------
+
+Evaluate global model
+Averaged Train Loss: 2.3040
+Averaged Test Accuracy: 0.0813
+Averaged Test AUC: 0.5008
+Std Test Accuracy: 0.1486
+Std Test AUC: 0.2040
+------------------------- time cost ------------------------- 9.209912538528442
+------------------------- time cost ------------------------- 1.9783358573913574
+------------------------- time cost ------------------------- 1.699033498764038
+------------------------- time cost ------------------------- 1.8261892795562744
+------------------------- time cost ------------------------- 1.3270432949066162
+------------------------- time cost ------------------------- 1.6646051406860352
+------------------------- time cost ------------------------- 1.2797887325286865
+------------------------- time cost ------------------------- 1.8876032829284668
+------------------------- time cost ------------------------- 2.292011022567749
+------------------------- time cost ------------------------- 1.1352896690368652
+------------------------- time cost ------------------------- 1.428070068359375
+------------------------- time cost ------------------------- 2.4678549766540527
+------------------------- time cost ------------------------- 2.0174407958984375
+------------------------- time cost ------------------------- 2.0089879035949707
+------------------------- time cost ------------------------- 1.7973155975341797
+------------------------- time cost ------------------------- 2.05574107170105
+------------------------- time cost ------------------------- 1.6603715419769287
+------------------------- time cost ------------------------- 2.0274198055267334
+------------------------- time cost ------------------------- 1.835395336151123
+------------------------- time cost ------------------------- 2.1511614322662354
+
+-------------Round number: 20-------------
+
+Evaluate global model
+Averaged Train Loss: 2.5288
+Averaged Test Accuracy: 0.1434
+Averaged Test AUC: 0.6262
+Std Test Accuracy: 0.2069
+Std Test AUC: 0.1914
+------------------------- time cost ------------------------- 10.185610294342041
+------------------------- time cost ------------------------- 2.2272794246673584
+------------------------- time cost ------------------------- 1.8135623931884766
+------------------------- time cost ------------------------- 1.7617661952972412
+------------------------- time cost ------------------------- 3.228773593902588
+------------------------- time cost ------------------------- 2.2046117782592773
+------------------------- time cost ------------------------- 2.3705155849456787
+------------------------- time cost ------------------------- 2.1680452823638916
+------------------------- time cost ------------------------- 1.873126745223999
+------------------------- time cost ------------------------- 2.068021535873413
+------------------------- time cost ------------------------- 1.670457363128662
+------------------------- time cost ------------------------- 1.4162006378173828
+------------------------- time cost ------------------------- 2.6246836185455322
+------------------------- time cost ------------------------- 1.5743553638458252
+------------------------- time cost ------------------------- 3.008639097213745
+------------------------- time cost ------------------------- 2.0791828632354736
+------------------------- time cost ------------------------- 2.569430351257324
+------------------------- time cost ------------------------- 2.3993492126464844
+------------------------- time cost ------------------------- 2.00327730178833
+------------------------- time cost ------------------------- 2.0806524753570557
+
+-------------Round number: 40-------------
+
+Evaluate global model
+Averaged Train Loss: 2.2551
+Averaged Test Accuracy: 0.2039
+Averaged Test AUC: 0.6944
+Std Test Accuracy: 0.2306
+Std Test AUC: 0.1501
+------------------------- time cost ------------------------- 9.658295392990112
+------------------------- time cost ------------------------- 2.2544989585876465
+------------------------- time cost ------------------------- 1.4738199710845947
+------------------------- time cost ------------------------- 1.2392501831054688
+------------------------- time cost ------------------------- 1.5228102207183838
+------------------------- time cost ------------------------- 1.546227216720581
+------------------------- time cost ------------------------- 2.3378360271453857
+------------------------- time cost ------------------------- 1.9031345844268799
+------------------------- time cost ------------------------- 2.0632102489471436
+------------------------- time cost ------------------------- 1.9636647701263428
+------------------------- time cost ------------------------- 2.079491138458252
+------------------------- time cost ------------------------- 1.7117722034454346
+------------------------- time cost ------------------------- 2.724698781967163
+------------------------- time cost ------------------------- 1.9865541458129883
+------------------------- time cost ------------------------- 2.490812301635742
+------------------------- time cost ------------------------- 1.8053090572357178
+------------------------- time cost ------------------------- 1.9725069999694824
+------------------------- time cost ------------------------- 1.7573204040527344
+------------------------- time cost ------------------------- 1.623291254043579
+------------------------- time cost ------------------------- 2.0792722702026367
+
+-------------Round number: 60-------------
+
+Evaluate global model
+Averaged Train Loss: 2.1630
+Averaged Test Accuracy: 0.2162
+Averaged Test AUC: 0.7268
+Std Test Accuracy: 0.1815
+Std Test AUC: 0.1252
+------------------------- time cost ------------------------- 9.424252986907959
+------------------------- time cost ------------------------- 1.8565013408660889
+------------------------- time cost ------------------------- 2.282883405685425
+------------------------- time cost ------------------------- 2.0848989486694336
+------------------------- time cost ------------------------- 1.569788932800293
+------------------------- time cost ------------------------- 1.9948101043701172
+------------------------- time cost ------------------------- 1.4500396251678467
+------------------------- time cost ------------------------- 1.8199071884155273
+------------------------- time cost ------------------------- 2.3750789165496826
+------------------------- time cost ------------------------- 1.7980270385742188
+------------------------- time cost ------------------------- 2.651153087615967
+------------------------- time cost ------------------------- 1.3039023876190186
+------------------------- time cost ------------------------- 1.3106367588043213
+------------------------- time cost ------------------------- 2.47336483001709
+------------------------- time cost ------------------------- 2.0966291427612305
+------------------------- time cost ------------------------- 2.0282466411590576
+------------------------- time cost ------------------------- 2.1086814403533936
+------------------------- time cost ------------------------- 2.1129541397094727
+------------------------- time cost ------------------------- 2.142909526824951
+------------------------- time cost ------------------------- 2.130181074142456
+
+-------------Round number: 80-------------
+
+Evaluate global model
+Averaged Train Loss: 1.8812
+Averaged Test Accuracy: 0.2947
+Averaged Test AUC: 0.7780
+Std Test Accuracy: 0.2322
+Std Test AUC: 0.1006
+------------------------- time cost ------------------------- 9.615021705627441
+------------------------- time cost ------------------------- 2.2666714191436768
+------------------------- time cost ------------------------- 1.3857910633087158
+------------------------- time cost ------------------------- 2.1299688816070557
+------------------------- time cost ------------------------- 1.5503816604614258
+------------------------- time cost ------------------------- 2.0976204872131348
+------------------------- time cost ------------------------- 1.8643321990966797
+------------------------- time cost ------------------------- 1.9296278953552246
+------------------------- time cost ------------------------- 1.639463186264038
+------------------------- time cost ------------------------- 2.464550018310547
+------------------------- time cost ------------------------- 1.9021878242492676
+------------------------- time cost ------------------------- 1.661299467086792
+------------------------- time cost ------------------------- 3.1115899085998535
+------------------------- time cost ------------------------- 2.5606698989868164
+------------------------- time cost ------------------------- 2.173856258392334
+------------------------- time cost ------------------------- 1.6768405437469482
+------------------------- time cost ------------------------- 1.1863880157470703
+------------------------- time cost ------------------------- 2.096428155899048
+------------------------- time cost ------------------------- 1.876227617263794
+------------------------- time cost ------------------------- 1.8371601104736328
+
+Best accuracy.
+0.29470044550834495
+
+Average time cost per round.
+2.283857569550023
+File path: ../results/Cifar10_FedAvg_TTFL_0.h5
+PFL_DONE Cifar10 34.21770064498969 100
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+CLIENT_CONTEXT_DONE 0
+CLIENT_CONTEXT_DONE 1
+CLIENT_CONTEXT_DONE 2
+CLIENT_CONTEXT_DONE 3
+CLIENT_CONTEXT_DONE 4
+CLIENT_CONTEXT_DONE 5
+CLIENT_CONTEXT_DONE 6
+CLIENT_CONTEXT_DONE 7
+CLIENT_CONTEXT_DONE 8
+CLIENT_CONTEXT_DONE 9
+CLIENT_CONTEXT_DONE 10
+CLIENT_CONTEXT_DONE 11
+CLIENT_CONTEXT_DONE 12
+CLIENT_CONTEXT_DONE 13
+CLIENT_CONTEXT_DONE 14
+CLIENT_CONTEXT_DONE 15
+CLIENT_CONTEXT_DONE 16
+CLIENT_CONTEXT_DONE 17
+CLIENT_CONTEXT_DONE 18
+CLIENT_CONTEXT_DONE 19
+CLIENT_CONTEXT_DONE 20
+CLIENT_CONTEXT_DONE 21
+CLIENT_CONTEXT_DONE 22
+CLIENT_CONTEXT_DONE 23
+CLIENT_CONTEXT_DONE 24
+CLIENT_CONTEXT_DONE 25
+CLIENT_CONTEXT_DONE 26
+CLIENT_CONTEXT_DONE 27
+CLIENT_CONTEXT_DONE 28
+CLIENT_CONTEXT_DONE 29
+CLIENT_CONTEXT_DONE 30
+CLIENT_CONTEXT_DONE 31
+CLIENT_CONTEXT_DONE 32
+CLIENT_CONTEXT_DONE 33
+CLIENT_CONTEXT_DONE 34
+CLIENT_CONTEXT_DONE 35
+CLIENT_CONTEXT_DONE 36
+CLIENT_CONTEXT_DONE 37
+CLIENT_CONTEXT_DONE 38
+CLIENT_CONTEXT_DONE 39
+CLIENT_CONTEXT_DONE 40
+CLIENT_CONTEXT_DONE 41
+CLIENT_CONTEXT_DONE 42
+CLIENT_CONTEXT_DONE 43
+CLIENT_CONTEXT_DONE 44
+CLIENT_CONTEXT_DONE 45
+CLIENT_CONTEXT_DONE 46
+CLIENT_CONTEXT_DONE 47
+CLIENT_CONTEXT_DONE 48
+CLIENT_CONTEXT_DONE 49
+CLIENT_CONTEXT_DONE 50
+CLIENT_CONTEXT_DONE 51
+CLIENT_CONTEXT_DONE 52
+CLIENT_CONTEXT_DONE 53
+CLIENT_CONTEXT_DONE 54
+CLIENT_CONTEXT_DONE 55
+CLIENT_CONTEXT_DONE 56
+CLIENT_CONTEXT_DONE 57
+CLIENT_CONTEXT_DONE 58
+CLIENT_CONTEXT_DONE 59
+CLIENT_CONTEXT_DONE 60
+CLIENT_CONTEXT_DONE 61
+CLIENT_CONTEXT_DONE 62
+CLIENT_CONTEXT_DONE 63
+CLIENT_CONTEXT_DONE 64
+CLIENT_CONTEXT_DONE 65
+CLIENT_CONTEXT_DONE 66
+CLIENT_CONTEXT_DONE 67
+CLIENT_CONTEXT_DONE 68
+CLIENT_CONTEXT_DONE 69
+CLIENT_CONTEXT_DONE 70
+CLIENT_CONTEXT_DONE 71
+CLIENT_CONTEXT_DONE 72
+CLIENT_CONTEXT_DONE 73
+CLIENT_CONTEXT_DONE 74
+CLIENT_CONTEXT_DONE 75
+CLIENT_CONTEXT_DONE 76
+CLIENT_CONTEXT_DONE 77
+CLIENT_CONTEXT_DONE 78
+CLIENT_CONTEXT_DONE 79
+CLIENT_CONTEXT_DONE 80
+CLIENT_CONTEXT_DONE 81
+CLIENT_CONTEXT_DONE 82
+CLIENT_CONTEXT_DONE 83
+CLIENT_CONTEXT_DONE 84
+CLIENT_CONTEXT_DONE 85
+CLIENT_CONTEXT_DONE 86
+CLIENT_CONTEXT_DONE 87
+CLIENT_CONTEXT_DONE 88
+CLIENT_CONTEXT_DONE 89
+CLIENT_CONTEXT_DONE 90
+CLIENT_CONTEXT_DONE 91
+CLIENT_CONTEXT_DONE 92
+CLIENT_CONTEXT_DONE 93
+CLIENT_CONTEXT_DONE 94
+CLIENT_CONTEXT_DONE 95
+CLIENT_CONTEXT_DONE 96
+CLIENT_CONTEXT_DONE 97
+CLIENT_CONTEXT_DONE 98
+CLIENT_CONTEXT_DONE 99
+CONTEXT_DONE [{"method": "none", "context": "none", "accuracy": 34.21770074923788, "gain_pp": 0.0, "macro_client_accuracy": 33.18853096663952}, {"method": "random_no_write", "context": "random", "accuracy": 34.18445394231564, "gain_pp": -0.03324680692223414, "macro_client_accuracy": 33.18951924517751}, {"method": "affine", "context": "correct", "accuracy": 57.277744622290854, "gain_pp": 23.060043873052976, "macro_client_accuracy": 54.599914997816086}, {"method": "prior", "context": "correct", "accuracy": 79.19409519929789, "gain_pp": 44.97639445006001, "macro_client_accuracy": 76.65520510077477}, {"method": "affine", "context": "wrong", "accuracy": 25.832834685876133, "gain_pp": -8.384866063361745, "macro_client_accuracy": 25.399432994425297}, {"method": "prior", "context": "wrong", "accuracy": 24.935168637550706, "gain_pp": -9.282532111687168, "macro_client_accuracy": 23.505783439148217}, {"method": "affine", "context": "shuffled", "accuracy": 58.049072234122406, "gain_pp": 23.831371484884528, "macro_client_accuracy": 55.29614348709583}, {"method": "prior", "context": "shuffled", "accuracy": 79.19409519929789, "gain_pp": 44.97639445006001, "macro_client_accuracy": 76.65520510077477}, {"method": "affine", "context": "noise", "accuracy": 59.937495811366716, "gain_pp": 25.719795062128842, "macro_client_accuracy": 56.96150109358132}, {"method": "prior", "context": "noise", "accuracy": 79.19409519929789, "gain_pp": 44.97639445006001, "macro_client_accuracy": 76.65520510077477}]
+[autodl] finished_at=2026-09-13T12:47:10+08:00
+[autodl] exit_code=0

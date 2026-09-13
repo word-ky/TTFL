@@ -1,0 +1,6 @@
+{
+  "runId": "20260913-123506-ttfl-pfl-data",
+  "releaseId": "20260913-123501-ttfl-pfl-suite",
+  "sessionName": "autodl-20260913-123506-ttfl-pfl-data",
+  "command": "export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt; export OMP_NUM_THREADS=2; for dataset in MNIST Cifar10 Cifar100 TinyImagenet; do /home/wenchang/asdasdsad/wjq/TTFL/.venv/bin/python -u scripts/prepare_pfllib.py --dataset \"$dataset\" --root /media/wenchang/F/wjq/TTFL --mnist-root /home/wenchang/asdasdsad/wjq/TTFL/shared/digits/MNIST || exit $?; done"
+}

@@ -1,0 +1,61 @@
+[autodl] run_id=20260913-123913-ttfl-pfl-c100-gpu1
+[autodl] started_at=2026-09-13T12:39:20+08:00
+test_bn_only_moments (test_affine.AffineTest.test_bn_only_moments) ... ok
+test_neutral_logits (test_affine.AffineTest.test_neutral_logits) ... ok
+test_only_fast_state_and_reset (test_affine.AffineTest.test_only_fast_state_and_reset) ... <frozen importlib._bootstrap>:488: DeprecationWarning: Type google._upb._message.MessageMapContainer uses PyType_Spec with a metaclass that has custom tp_new. This is deprecated and will no longer be allowed in Python 3.14.
+<frozen importlib._bootstrap>:488: DeprecationWarning: Type google._upb._message.ScalarMapContainer uses PyType_Spec with a metaclass that has custom tp_new. This is deprecated and will no longer be allowed in Python 3.14.
+ok
+test_same_checkpoint_all_methods (test_affine.AffineTest.test_same_checkpoint_all_methods) ... ok
+test_train_checkpoint_and_metrics (test_baseline.BaselineTest.test_train_checkpoint_and_metrics) ... ok
+test_balanced_and_disjoint (test_data.DataTest.test_balanced_and_disjoint) ... ok
+test_preprocess (test_data.DataTest.test_preprocess) ... ok
+test_four_shapes_neutral_frozen_and_classes (test_pfllib_operator.PFLModelTest.test_four_shapes_neutral_frozen_and_classes) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.227s
+
+OK
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+
+Join ratio / total clients: 0.1 / 100
+Finished creating server and clients.
+
+-------------Round number: 0-------------
+
+Evaluate global model
+Averaged Train Loss: 4.6058
+Averaged Test Accuracy: 0.0114
+Averaged Test AUC: 0.5010
+Std Test Accuracy: 0.0245
+Std Test AUC: 0.0999
+------------------------- time cost ------------------------- 9.802503108978271
+------------------------- time cost ------------------------- 2.1414599418640137
+
+Best accuracy.
+0.011438451818846845
+
+Average time cost per round.
+2.1414599418640137
+File path: ../results/Cifar100_FedAvg_TTFL_0.h5
+PFL_DONE Cifar100 1.2236483341091973 2
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+CLIENT_CONTEXT_DONE 0
+Traceback (most recent call last):
+  File "/home/wenchang/asdasdsad/wjq/TTFL/releases/20260913-123712-ttfl-pfl-launch/scripts/eval_pfllib_context.py", line 95, in <module>
+    main()
+  File "/home/wenchang/asdasdsad/wjq/TTFL/releases/20260913-123712-ttfl-pfl-launch/scripts/eval_pfllib_context.py", line 73, in main
+    record(m,state,'affine',context,x,y,losses=losses)
+  File "/home/wenchang/asdasdsad/wjq/TTFL/releases/20260913-123712-ttfl-pfl-launch/scripts/eval_pfllib_context.py", line 65, in record
+    support_loss_before=evaluate(model,x,y)[0]['loss'],
+                        ^^^^^^^^^^^^^^^^^^^
+  File "/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wenchang/asdasdsad/wjq/TTFL/releases/20260913-123712-ttfl-pfl-launch/src/eval/common.py", line 25, in evaluate
+    'worst_class_accuracy': min(a for a in classes if a is not None),
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: min() iterable argument is empty
+[autodl] finished_at=2026-09-13T12:39:49+08:00
+[autodl] exit_code=1

@@ -1,0 +1,77 @@
+{
+  "rows": [
+    {
+      "method": "none",
+      "context": "none",
+      "accuracy": 34.21770074923788,
+      "gain_pp": 0.0,
+      "macro_client_accuracy": 33.18853096663952
+    },
+    {
+      "method": "random_no_write",
+      "context": "random",
+      "accuracy": 34.18445394231564,
+      "gain_pp": -0.03324680692223414,
+      "macro_client_accuracy": 33.18951924517751
+    },
+    {
+      "method": "affine",
+      "context": "correct",
+      "accuracy": 57.277744622290854,
+      "gain_pp": 23.060043873052976,
+      "macro_client_accuracy": 54.599914997816086
+    },
+    {
+      "method": "prior",
+      "context": "correct",
+      "accuracy": 79.19409519929789,
+      "gain_pp": 44.97639445006001,
+      "macro_client_accuracy": 76.65520510077477
+    },
+    {
+      "method": "affine",
+      "context": "wrong",
+      "accuracy": 25.832834685876133,
+      "gain_pp": -8.384866063361745,
+      "macro_client_accuracy": 25.399432994425297
+    },
+    {
+      "method": "prior",
+      "context": "wrong",
+      "accuracy": 24.935168637550706,
+      "gain_pp": -9.282532111687168,
+      "macro_client_accuracy": 23.505783439148217
+    },
+    {
+      "method": "affine",
+      "context": "shuffled",
+      "accuracy": 58.049072234122406,
+      "gain_pp": 23.831371484884528,
+      "macro_client_accuracy": 55.29614348709583
+    },
+    {
+      "method": "prior",
+      "context": "shuffled",
+      "accuracy": 79.19409519929789,
+      "gain_pp": 44.97639445006001,
+      "macro_client_accuracy": 76.65520510077477
+    },
+    {
+      "method": "affine",
+      "context": "noise",
+      "accuracy": 59.937495811366716,
+      "gain_pp": 25.719795062128842,
+      "macro_client_accuracy": 56.96150109358132
+    },
+    {
+      "method": "prior",
+      "context": "noise",
+      "accuracy": 79.19409519929789,
+      "gain_pp": 44.97639445006001,
+      "macro_client_accuracy": 76.65520510077477
+    }
+  ],
+  "bn": "N/A: upstream FedAvgCNN has no BN",
+  "setting": "Static client label-skew, supervised support. Not dynamic context proof.",
+  "prior_reference": "uniform classes with Laplace1 support histogram"
+}

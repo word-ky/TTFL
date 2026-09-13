@@ -1,0 +1,6 @@
+{
+  "runId": "20260913-123218-ttfl-pfl-health",
+  "releaseId": "20260913-123133-ttfl-pfl-baseline",
+  "sessionName": "autodl-20260913-123218-ttfl-pfl-health",
+  "command": "CUDA_VISIBLE_DEVICES=0 /home/wenchang/asdasdsad/wjq/TTFL/.venv/bin/python -u scripts/run_pfllib.py --dataset PFLsmoke --data-root /media/wenchang/F/wjq/TTFL/health_data --output \"$AUTODL_ARTIFACTS_DIR/health\" --commit pending-baseline-import --synthetic"
+}

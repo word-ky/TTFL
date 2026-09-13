@@ -1,0 +1,182 @@
+[
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/Cifar10/baseline.json",
+    "bytes": 16612,
+    "sha256": "6cd4d5b80f62f6fb2e8f88adad4197d4bc11691e5fce913760d6fb2d9e294fe4"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/Cifar10/config.json",
+    "bytes": 749,
+    "sha256": "1d6a316a830b63cf806cc374a9ce53f03c105f76ebbbbe42c8f3c4c2ede01f6c"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/Cifar10/context_predictions.npz",
+    "bytes": 300173,
+    "sha256": "e2595371e3e518d1b3dc857a9b5a99cfbbdf32574e11a37b1de085448315a4fb"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/Cifar10/context_records.json",
+    "bytes": 921770,
+    "sha256": "79153c996fb9d9145e77f4b4eba798fb0a8fbbac7451321e8f8a416bf5139b2c"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/Cifar10/context_summary.json",
+    "bytes": 2109,
+    "sha256": "408684cb1bcc966aec3ea2221816b3d7bbc77b2b0ae946a276dd3846a57b8f5e"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/Cifar10/support_indices.json",
+    "bytes": 91394,
+    "sha256": "855f12223d1164d14c3dd13835ac8a9a73522834c6c49b4228015a3afba2ae85"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/Cifar10_smoke/baseline.json",
+    "bytes": 4933,
+    "sha256": "23e1f3421259d0e97e33f864f5aa75f0d0cc805df9c8d2ab49c60ba8fda367e5"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/Cifar10_smoke/config.json",
+    "bytes": 745,
+    "sha256": "159acf6425a73374acd225ff52fbd34765f02ca90f3520aa5a218b666aab5f9e"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/Cifar10_smoke/context_predictions.npz",
+    "bytes": 4527,
+    "sha256": "dadc5a28a64bfb05233d7aae3e8585b6d98767926d72d955626e9668f48463df"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/Cifar10_smoke/context_records.json",
+    "bytes": 17815,
+    "sha256": "78d0f32b093815bc2ac5c665f1c464bc0fb53a1328b3e62f46d1063bf917d016"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/Cifar10_smoke/context_summary.json",
+    "bytes": 2024,
+    "sha256": "b2a5fee6ccc862775b2d6e5bae3de11b11669b5de453f813b1725dbb3d238d39"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/Cifar10_smoke/support_indices.json",
+    "bytes": 1894,
+    "sha256": "87da8163c9de62040d884c2dd36264c225dbfc965420d79db85b6c745a9811e1"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/MNIST/baseline.json",
+    "bytes": 16731,
+    "sha256": "85a0d891d5149b379e8ae2d8d5d57c90ce29c0430ee590892c8198cf073446e6"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/MNIST/config.json",
+    "bytes": 747,
+    "sha256": "33edea5e250dad278b19c4b8ad4b4da994d20971409a2b7c45ae4abc59ded968"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/MNIST/context_predictions.npz",
+    "bytes": 297568,
+    "sha256": "72a10822c793d35c13abb8b887c81be1b969fcb263f1785297a64c519956e89d"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/MNIST/context_records.json",
+    "bytes": 929654,
+    "sha256": "bf18b77ca96d2bf5337fba815982cca802bcac3714d7a5ce7d039e77ef047384"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/MNIST/context_summary.json",
+    "bytes": 2102,
+    "sha256": "58eba194b93d4677fa9c4676c450d2d34d9deb7ec7346b5569b814f25097d41a"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/MNIST/support_indices.json",
+    "bytes": 93271,
+    "sha256": "41a1baf555901539766e92bb7a9b00881f17fa7c2859b0f1a7ecef0cd8f804fe"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/MNIST_smoke/baseline.json",
+    "bytes": 5242,
+    "sha256": "e5b0905f881c7c034c31a3c084e73da70c7403ff299ff82cfe4c2ab5dcf90d1f"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/MNIST_smoke/config.json",
+    "bytes": 743,
+    "sha256": "2ef9d8c24f0fc08d45d843aec8d9c4e05eb158ce071fc394f05612ecbe38d46c"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/MNIST_smoke/context_predictions.npz",
+    "bytes": 4794,
+    "sha256": "ff6bc5d8d84b57f8a656ce6a7aed896159733bd244139b4fe768feb2bc767d78"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/MNIST_smoke/context_records.json",
+    "bytes": 17619,
+    "sha256": "89deadc32f48b5bc3c9b6dc74815cb9b50d91cfb331288763ba64748f540e5b9"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/MNIST_smoke/context_summary.json",
+    "bytes": 2078,
+    "sha256": "f7098bd0dae87c5e33bbc1a7195de27666fb9d33a2698ee7a5c55c9c3cb3b896"
+  },
+  {
+    "path": "20260913-123718-ttfl-pfl-gpu0/MNIST_smoke/support_indices.json",
+    "bytes": 1880,
+    "sha256": "1c101f66457c4f88a6539092eab1e4f29c46f5119dbd55aeb9a4bdf727c9382c"
+  },
+  {
+    "path": "20260913-124228-ttfl-pfl-c100-fixed/Cifar100/baseline.json",
+    "bytes": 16827,
+    "sha256": "4ef53f1f2536332e1656a10833e4845c5613dcc6f87c6766b43e182be4e514d0"
+  },
+  {
+    "path": "20260913-124228-ttfl-pfl-c100-fixed/Cifar100/config.json",
+    "bytes": 751,
+    "sha256": "73e9a5641a81793fda7d98f3760ed4bc869f771fab2b4ffd1645693e7f9e78f7"
+  },
+  {
+    "path": "20260913-124228-ttfl-pfl-c100-fixed/Cifar100/context_predictions.npz",
+    "bytes": 432788,
+    "sha256": "1bf4e4b9b5ab72f2d5ef8c1eccfb94d49ff5b1c9069d2c61440dc9ccfe68a8f6"
+  },
+  {
+    "path": "20260913-124228-ttfl-pfl-c100-fixed/Cifar100/context_records.json",
+    "bytes": 2013433,
+    "sha256": "fac866cedf2c72f1d862383a8afe3e80a3779feebde977d63443fe5cce767e90"
+  },
+  {
+    "path": "20260913-124228-ttfl-pfl-c100-fixed/Cifar100/context_summary.json",
+    "bytes": 2219,
+    "sha256": "3f30ffa41ed3fd29ec124f7689ed1d32374c4c85e7018fd9bdc3fdb7c9e5e801"
+  },
+  {
+    "path": "20260913-124228-ttfl-pfl-c100-fixed/Cifar100/support_indices.json",
+    "bytes": 95539,
+    "sha256": "997bc507e63acbb92320a717fd1e0fc460a34de82993bdbc95d97c5e0b42ee42"
+  },
+  {
+    "path": "20260913-123913-ttfl-pfl-c100-gpu1/Cifar100_smoke/baseline.json",
+    "bytes": 4962,
+    "sha256": "78c93089abf73a5df597dbb53bef37957542e1b74bdf81ab621d48e3018632aa"
+  },
+  {
+    "path": "20260913-123913-ttfl-pfl-c100-gpu1/Cifar100_smoke/config.json",
+    "bytes": 747,
+    "sha256": "e330fb63f14b2e9707d26b16903be24af3363dded4b8208bbe9963d9679a2558"
+  },
+  {
+    "path": "20260913-123913-ttfl-pfl-c100-gpu1/Cifar100_smoke/context_predictions.npz",
+    "bytes": 5590,
+    "sha256": "419aeace42ed68276c704e7ce18a1d938ef675619d0a2145ac3fa0b7021f890e"
+  },
+  {
+    "path": "20260913-123913-ttfl-pfl-c100-gpu1/Cifar100_smoke/context_records.json",
+    "bytes": 38430,
+    "sha256": "b15816ad240ace7b2ed7032b0ca9e9289f27cee75ead2fa147ca8b4d83691d38"
+  },
+  {
+    "path": "20260913-123913-ttfl-pfl-c100-gpu1/Cifar100_smoke/context_summary.json",
+    "bytes": 1914,
+    "sha256": "237f932dfba2a12514d5fd509ec918c39ce618b42c141ffb68742738de2c2161"
+  },
+  {
+    "path": "20260913-123913-ttfl-pfl-c100-gpu1/Cifar100_smoke/support_indices.json",
+    "bytes": 1904,
+    "sha256": "ad824afa7d700f44c7f0e88bc22f6900be2aaef3ee54c6b188de100ea947a245"
+  }
+]

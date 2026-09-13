@@ -42,3 +42,9 @@ MNISTfull100rounds:FedAvg92.497577,affinecorrect94.755145,wrong92.018699,shuffle
 
 ## 2026-09-13T12:47:35.9322716+08:00 — CIFAR10 complete, TinyImageNet dispatch
 GPU0 MNIST+Cifar10 run20260913-123718-ttfl-pfl-gpu0 exit0at12:47:10. CIFAR10FedAvg34.217701,affine57.277745,prior79.194095,shuffled58.049072,noise59.937496:largeaffinegainisnotsemanticcontextproof; simplerpriorandshuffled/noiseoutperform. Cifar100formaltrainingcomplete,clientcontextevalinprogress. TinyreadyandGPU0free:launchTinyImageNet smoke+100roundsonGPU0withclassfix5db9d15.
+
+## 2026-09-13T12:49:44.2299219+08:00 — CIFAR100 complete, first3 export
+Cifar100run20260913-124228-ttfl-pfl-c100-fixed exit0at12:47:37. FedAvg11.717763,affine13.007914,prior36.589746,shuffled13.327127. First3complete receipts exportedtoF/wjq/TTFL/pfllib_first3.tar.gz(36smallartifactfilesplusdata/logs). Tiny20260913-124728 activeonGPU0, no configtuning. Full training remainsstockPFLlibCNN64x64 forTiny,100rounds10participants.
+
+## 2026-09-13T12:51:46.3444444+08:00 — Tiny formal training and recovery state
+Tinyreal2roundsmoke+contextpassed. Formal100rounds active onGPU0,~5secondsperround. First3downloaded baseline receipts each confirm100rounds andCUDA. PrimaryHANDOFFredirects to activePFLscope; oldT001handoffretainedinT001_HANDOFF.md. No furthercodechanges/parameterchanges.

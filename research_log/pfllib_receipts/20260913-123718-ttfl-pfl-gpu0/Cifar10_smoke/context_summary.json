@@ -1,0 +1,77 @@
+{
+  "rows": [
+    {
+      "method": "none",
+      "context": "none",
+      "accuracy": 11.19133628743435,
+      "gain_pp": 0.0,
+      "macro_client_accuracy": 9.604472108185291
+    },
+    {
+      "method": "random_no_write",
+      "context": "random",
+      "accuracy": 11.19133628743435,
+      "gain_pp": 0.0,
+      "macro_client_accuracy": 9.604472108185291
+    },
+    {
+      "method": "affine",
+      "context": "correct",
+      "accuracy": 11.19133628743435,
+      "gain_pp": 0.0,
+      "macro_client_accuracy": 9.604472108185291
+    },
+    {
+      "method": "prior",
+      "context": "correct",
+      "accuracy": 68.95306671999852,
+      "gain_pp": 57.76173043256417,
+      "macro_client_accuracy": 72.92872369289398
+    },
+    {
+      "method": "affine",
+      "context": "wrong",
+      "accuracy": 11.19133628743435,
+      "gain_pp": 0.0,
+      "macro_client_accuracy": 9.604472108185291
+    },
+    {
+      "method": "prior",
+      "context": "wrong",
+      "accuracy": 51.2635372602633,
+      "gain_pp": 40.072200972828945,
+      "macro_client_accuracy": 40.111791575327516
+    },
+    {
+      "method": "affine",
+      "context": "shuffled",
+      "accuracy": 11.19133628743435,
+      "gain_pp": 0.0,
+      "macro_client_accuracy": 9.604472108185291
+    },
+    {
+      "method": "prior",
+      "context": "shuffled",
+      "accuracy": 68.95306671999852,
+      "gain_pp": 57.76173043256417,
+      "macro_client_accuracy": 72.92872369289398
+    },
+    {
+      "method": "affine",
+      "context": "noise",
+      "accuracy": 11.19133628743435,
+      "gain_pp": 0.0,
+      "macro_client_accuracy": 9.604472108185291
+    },
+    {
+      "method": "prior",
+      "context": "noise",
+      "accuracy": 68.95306671999852,
+      "gain_pp": 57.76173043256417,
+      "macro_client_accuracy": 72.92872369289398
+    }
+  ],
+  "bn": "N/A: upstream FedAvgCNN has no BN",
+  "setting": "Static client label-skew, supervised support. Not dynamic context proof.",
+  "prior_reference": "uniform classes with Laplace1 support histogram"
+}

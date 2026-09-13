@@ -1,0 +1,28 @@
+[autodl] run_id=20260913-123218-ttfl-pfl-health
+[autodl] started_at=2026-09-13T12:32:25+08:00
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+
+Join ratio / total clients: 0.1 / 100
+Finished creating server and clients.
+
+-------------Round number: 0-------------
+
+Evaluate global model
+Averaged Train Loss: 2.3051
+Averaged Test Accuracy: 0.0980
+Averaged Test AUC: 0.5009
+Std Test Accuracy: 0.0570
+Std Test AUC: 0.0262
+------------------------- time cost ------------------------- 0.9455273151397705
+------------------------- time cost ------------------------- 0.06197786331176758
+
+Best accuracy.
+0.098
+
+Average time cost per round.
+0.06197786331176758
+File path: ../results/PFLsmoke_FedAvg_TTFL_0.h5
+PFL_DONE PFLsmoke 9.55 2
+[autodl] finished_at=2026-09-13T12:32:31+08:00
+[autodl] exit_code=0

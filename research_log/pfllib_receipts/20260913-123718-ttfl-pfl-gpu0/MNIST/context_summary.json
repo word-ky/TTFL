@@ -1,0 +1,77 @@
+{
+  "rows": [
+    {
+      "method": "none",
+      "context": "none",
+      "accuracy": 92.49757699972955,
+      "gain_pp": 0.0,
+      "macro_client_accuracy": 92.62357538938522
+    },
+    {
+      "method": "random_no_write",
+      "context": "random",
+      "accuracy": 92.48617534986495,
+      "gain_pp": -0.011401649864592144,
+      "macro_client_accuracy": 92.58424812555313
+    },
+    {
+      "method": "affine",
+      "context": "correct",
+      "accuracy": 94.7551450067572,
+      "gain_pp": 2.2575680070276523,
+      "macro_client_accuracy": 94.76889717578888
+    },
+    {
+      "method": "prior",
+      "context": "correct",
+      "accuracy": 98.24411363186039,
+      "gain_pp": 5.746536632130841,
+      "macro_client_accuracy": 97.89139872789383
+    },
+    {
+      "method": "affine",
+      "context": "wrong",
+      "accuracy": 92.01869921512733,
+      "gain_pp": -0.478877784602217,
+      "macro_client_accuracy": 92.25061601400375
+    },
+    {
+      "method": "prior",
+      "context": "wrong",
+      "accuracy": 85.48543433711926,
+      "gain_pp": -7.012142662610291,
+      "macro_client_accuracy": 86.53953647613525
+    },
+    {
+      "method": "affine",
+      "context": "shuffled",
+      "accuracy": 94.68673426486103,
+      "gain_pp": 2.1891572651314792,
+      "macro_client_accuracy": 94.72491306066513
+    },
+    {
+      "method": "prior",
+      "context": "shuffled",
+      "accuracy": 98.24411363186039,
+      "gain_pp": 5.746536632130841,
+      "macro_client_accuracy": 97.89139872789383
+    },
+    {
+      "method": "affine",
+      "context": "noise",
+      "accuracy": 90.87851291255745,
+      "gain_pp": -1.6190640871720945,
+      "macro_client_accuracy": 89.88327866792679
+    },
+    {
+      "method": "prior",
+      "context": "noise",
+      "accuracy": 98.24411363186039,
+      "gain_pp": 5.746536632130841,
+      "macro_client_accuracy": 97.89139872789383
+    }
+  ],
+  "bn": "N/A: upstream FedAvgCNN has no BN",
+  "setting": "Static client label-skew, supervised support. Not dynamic context proof.",
+  "prior_reference": "uniform classes with Laplace1 support histogram"
+}

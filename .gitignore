@@ -9,3 +9,4 @@ research_log/remote_runs/
 research_log/data_transfer/
 *.tar
 *.h5
+research_log/pfllib_receipts/*.tar.gz

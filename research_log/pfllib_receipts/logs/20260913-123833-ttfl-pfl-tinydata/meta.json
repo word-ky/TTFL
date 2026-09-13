@@ -1,0 +1,6 @@
+{
+  "runId": "20260913-123833-ttfl-pfl-tinydata",
+  "releaseId": "20260913-123712-ttfl-pfl-launch",
+  "sessionName": "autodl-20260913-123833-ttfl-pfl-tinydata",
+  "command": "export OMP_NUM_THREADS=2; /home/wenchang/asdasdsad/wjq/TTFL/.venv/bin/python -u scripts/prepare_pfllib.py --dataset TinyImagenet --root /media/wenchang/F/wjq/TTFL --mnist-root /home/wenchang/asdasdsad/wjq/TTFL/shared/digits/MNIST"
+}

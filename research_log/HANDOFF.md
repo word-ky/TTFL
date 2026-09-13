@@ -1,13 +1,9 @@
-# TTFL recovery handoff — T001 COMPLETE / FAIL / WAITING FOR LEAD
+# TTFL active handoff
 
-Read coordination/CHATGPT_TO_CODEX.md, coordination/CODEX_TO_CHATGPT.md and research_log/T001_plan.md. T001 finished; do not rerun unchanged task or start SSL/meta/FL/T002. User asked for A6000 in new wjq subdirectory; completed at /home/wenchang/asdasdsad/wjq/TTFL.
+Current task: the user's PFLlib migration to MNIST, CIFAR-10, CIFAR-100 and TinyImageNet,100 clients and10% fixed participation, CUDA preferred. Read research_log/PFLLIB_HANDOFF.md, configs/pfllib_100c.json and the latest progress entries.
 
-Local root D:/work/fightccfa-agin/CVPR2027/TTT-FL, origin word-ky/TTFL main. Remote A6000 host wenchang-PR4904W1, project .venv/shared/digits, physicalGPU0. Existing workflow D:/work/claude-autodl/autodl-workflow-clean; AUTODL_CONFIG_PATH=D:/work/fightccfa-agin/CVPR2027/TTT-FL/.autodl/config.json. Connection local-only. PyTorch CUDA works despite existing NVML mismatch; no driver changes.
+MNIST/CIFAR10/CIFAR100 formal100round baseline and context evaluations are complete. TinyImageNet run20260913-124728-ttfl-pfl-tiny-gpu0 is active on physical A6000 GPU0; its real2round smoke passed. Do not launch duplicate jobs. Its output is /media/wenchang/F/wjq/TTFL/runs/20260913-124728-ttfl-pfl-tiny-gpu0/TinyImagenet and log is /home/wenchang/asdasdsad/wjq/TTFL/runs/20260913-124728-ttfl-pfl-tiny-gpu0/train.log.
 
-Tested code c0f6717de9722a7d9a983bb5769ab1788234c765; release20260913-113613-ttfl-t001. Smoke20260913-113707-ttfl-t001-smoke exit0,7tests+21records. Full20260913-113757-ttfl-t001-full exit0 at2026-09-13T11:39:01+08,7tests+446records. No activeTTFL training remains.
+First3 receipts fetched to research_log/pfllib_receipts. Once Tiny completes, export its receipts using scripts/export_pfllib_receipts.py, extract into the same directory, run scripts/summarize_pfllib.py for all4, finalize coordination/CODEX_TO_CHATGPT.md and logs, commit/push/mirror. Model checkpoints remain on remote F drive; prediction arrays retained locally/remotely. Preserve all original failure receipts.
 
-Baseline41.633%; bestaffine42.933%(+1.300pp), correct-minus-wrong.787/1.240/1.760pp; all12cellsFAIL. BN45.200%; limitedfullmodel42.913%. Neutraldiff0,448fastparams, frozen-state checksPASS. One backbone/five support draws; exploratory, not confirmatory. No new experiments after failure. Return toLead for read-operator/diagnostic decision.
-
-Full fetched receipts remain at research_log/remote_runs/<run>/artifacts/t001. Git-visible summary/raw JSON/CSV/splits/config/env/training/log in results/t001; predictions.npz and global.pt retained locally (ignored) and remote runs/<run>/artifacts/t001. Manifest gives byte hashes. Checkpointsha ffcf2dfa205c72094a54f592b1fef8b44dc830a3242acc6d917909b85c1df997. One-off receipt check PASS (results/t001/verification.json). Original data acquisition failure logs retained. No project artifacts deleted.
-
-Final evidence/delivery commits: see research_log/delivery.json. Coordination report committed/pushed to GitHub and mirrored under remote project root with final results/logs. Await explicit next work package.
+Prior T001 remains FAIL; its handoff is research_log/T001_HANDOFF.md. Lead commit5647af7 assigned old-SVHN T001B, retained but not run during the direct-user benchmark migration. No SSL/meta-learning or further experiment sweep authorized/inferred.

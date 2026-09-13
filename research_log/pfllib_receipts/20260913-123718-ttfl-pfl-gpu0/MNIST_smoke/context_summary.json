@@ -1,0 +1,77 @@
+{
+  "rows": [
+    {
+      "method": "none",
+      "context": "none",
+      "accuracy": 5.555555348594983,
+      "gain_pp": 0.0,
+      "macro_client_accuracy": 4.065040498971939
+    },
+    {
+      "method": "random_no_write",
+      "context": "random",
+      "accuracy": 5.555555348594983,
+      "gain_pp": 0.0,
+      "macro_client_accuracy": 4.065040498971939
+    },
+    {
+      "method": "affine",
+      "context": "correct",
+      "accuracy": 12.222221766908964,
+      "gain_pp": 6.66666641831398,
+      "macro_client_accuracy": 8.943089097738266
+    },
+    {
+      "method": "prior",
+      "context": "correct",
+      "accuracy": 62.22222069899241,
+      "gain_pp": 56.66666535039743,
+      "macro_client_accuracy": 60.59049963951111
+    },
+    {
+      "method": "affine",
+      "context": "wrong",
+      "accuracy": 15.555554976065954,
+      "gain_pp": 9.99999962747097,
+      "macro_client_accuracy": 11.38211339712143
+    },
+    {
+      "method": "prior",
+      "context": "wrong",
+      "accuracy": 15.555554976065954,
+      "gain_pp": 9.99999962747097,
+      "macro_client_accuracy": 11.38211339712143
+    },
+    {
+      "method": "affine",
+      "context": "shuffled",
+      "accuracy": 12.222221766908964,
+      "gain_pp": 6.66666641831398,
+      "macro_client_accuracy": 8.943089097738266
+    },
+    {
+      "method": "prior",
+      "context": "shuffled",
+      "accuracy": 62.22222069899241,
+      "gain_pp": 56.66666535039743,
+      "macro_client_accuracy": 60.59049963951111
+    },
+    {
+      "method": "affine",
+      "context": "noise",
+      "accuracy": 12.77777781089147,
+      "gain_pp": 7.222222462296486,
+      "macro_client_accuracy": 9.34959352016449
+    },
+    {
+      "method": "prior",
+      "context": "noise",
+      "accuracy": 62.22222069899241,
+      "gain_pp": 56.66666535039743,
+      "macro_client_accuracy": 60.59049963951111
+    }
+  ],
+  "bn": "N/A: upstream FedAvgCNN has no BN",
+  "setting": "Static client label-skew, supervised support. Not dynamic context proof.",
+  "prior_reference": "uniform classes with Laplace1 support histogram"
+}
