@@ -36,7 +36,7 @@ def main():
     initial=state_hash(model)
     assert initial==json.loads((out/'baseline.json').read_text())['final_hash']
     rows,predictions,support_ids=[],{},{}
-    for cid in range(100):
+    for cid in range(2 if cfg['smoke'] else 100):
         query=read_client_data(cfg['dataset'],cid,is_train=False)
         qx,qy=tensors(query)
         train=read_client_data(cfg['dataset'],cid,is_train=True)
