@@ -1,0 +1,38 @@
+[autodl] run_id=20260913-193525-ttfl-t007-preflight-gpu1
+[autodl] started_at=2026-09-13T19:35:31+08:00
+test_bn_only_moments (test_affine.AffineTest.test_bn_only_moments) ... ok
+test_neutral_logits (test_affine.AffineTest.test_neutral_logits) ... ok
+test_only_fast_state_and_reset (test_affine.AffineTest.test_only_fast_state_and_reset) ... ok
+test_same_checkpoint_all_methods (test_affine.AffineTest.test_same_checkpoint_all_methods) ... ok
+test_disjoint_balanced_spread_order_independent (test_balanced_pool.BalancedPoolTest.test_disjoint_balanced_spread_order_independent) ... ok
+test_exact_semantic_controls (test_balanced_pool.BalancedPoolTest.test_exact_semantic_controls) ... ok
+test_train_checkpoint_and_metrics (test_baseline.BaselineTest.test_train_checkpoint_and_metrics) ... ok
+test_deterministic_by_sample_not_order_and_no_mutation (test_covariate.CovariateTest.test_deterministic_by_sample_not_order_and_no_mutation) ... ok
+test_formulas_and_identity (test_covariate.CovariateTest.test_formulas_and_identity) ... ok
+test_weighted_gate_and_paired_summary (test_covariate.CovariateTest.test_weighted_gate_and_paired_summary) ... ok
+test_balanced_and_disjoint (test_data.DataTest.test_balanced_and_disjoint) ... ok
+test_preprocess (test_data.DataTest.test_preprocess) ... ok
+test_clamp_and_constant_variance (test_moments.MomentsTest.test_clamp_and_constant_variance) ... ok
+test_reference_stream_matches_direct (test_moments.MomentsTest.test_reference_stream_matches_direct) ... ok
+test_sequential_formula_frozen_no_labels_or_optimizer (test_moments.MomentsTest.test_sequential_formula_frozen_no_labels_or_optimizer) ... ok
+test_identity_formula_and_constant (test_paired_oracle.PairedOracleTest.test_identity_formula_and_constant) ... ok
+test_known_affine_and_cap (test_paired_oracle.PairedOracleTest.test_known_affine_and_cap) ... ok
+test_sequential_frozen_api (test_paired_oracle.PairedOracleTest.test_sequential_frozen_api) ... ok
+test_derangement_deterministic_label_free (test_pairing.PairingTest.test_derangement_deterministic_label_free) ... ok
+test_target_multiset_both_layers_preserved (test_pairing.PairingTest.test_target_multiset_both_layers_preserved) ... ok
+test_four_shapes_neutral_frozen_and_classes (test_pfllib_operator.PFLModelTest.test_four_shapes_neutral_frozen_and_classes) ... ok
+test_support_only_high_numbered_classes (test_pfllib_operator.PFLModelTest.test_support_only_high_numbered_classes) ... ok
+test_extrema_ties_and_target_histogram (test_semantic_pairing.SemanticPairingTest.test_extrema_ties_and_target_histogram) ... ok
+test_random_distinct_deterministic_label_independent (test_semantic_pairing.SemanticPairingTest.test_random_distinct_deterministic_label_independent) ... ok
+test_correlation_constant_and_centered_example (test_semantic_summary.SemanticSummaryTest.test_correlation_constant_and_centered_example) ... ok
+test_tau_and_strict_marginal_bounds (test_semantic_summary.SemanticSummaryTest.test_tau_and_strict_marginal_bounds) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.809s
+
+OK
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+T007_IDENTITY_PREFLIGHT {"code_commit": "bc07059", "checkpoint_sha256": "260657670e4b5beefebc7403487ead624a4ec7e19dd0958c7b281c28713cb9fb", "writer_sha256": "99824a64af46ad500c8be742c0775435bf7566188935eb59d39d7acca86a11dd", "corruption_sha256": "297faeb32abbb7d26d9c083d463fe9e65e9d8606151ac7b7eb5cb995e53d7174", "gpu": "NVIDIA RTX A6000", "query_class_counts": [1516, 1495, 1509, 1482, 1492, 1500, 1527, 1508, 1502, 1508], "metrics": {"none": {"macro_class": 34.13868991976854, "sample_weighted": 34.21770064498969, "macro_client": 33.18853079396754, "per_class": [18.535620052770447, 77.32441471571906, 50.36447978793903, 12.753036437246964, 0.06702412868632708, 18.2, 78.71643745907008, 15.053050397877984, 70.3728362183755, 0.0], "correct": [281, 1156, 760, 189, 1, 273, 1202, 227, 1057, 0]}, "A": {"macro_class": 34.13868991976854, "sample_weighted": 34.21770064498969, "macro_client": 33.18853079396754, "per_class": [18.535620052770447, 77.32441471571906, 50.36447978793903, 12.753036437246964, 0.06702412868632708, 18.2, 78.71643745907008, 15.053050397877984, 70.3728362183755, 0.0], "correct": [281, 1156, 760, 189, 1, 273, 1202, 227, 1057, 0]}, "B": {"macro_class": 34.13868991976854, "sample_weighted": 34.21770064498969, "macro_client": 33.18853079396754, "per_class": [18.535620052770447, 77.32441471571906, 50.36447978793903, 12.753036437246964, 0.06702412868632708, 18.2, 78.71643745907008, 15.053050397877984, 70.3728362183755, 0.0], "correct": [281, 1156, 760, 189, 1, 273, 1202, 227, 1057, 0]}}, "max_query_logit_diff": {"A": 0.006222248077392578, "B": 0.0048749446868896484}, "identity_macro_class_delta": {"A": 0.0, "B": 0.0}, "channel_diagnostics": [{"pool": "A", "layer": 1, "min_variance": 0.012962503215592482, "max_abs_gamma": 0.000770866870880127, "worst_channel": 11, "worst_channel_variance": 0.012962503215592482, "eps": 1e-05, "worst_channel_scale": 0.9992291331291199, "max_feature_diff": 0.0006589889526367188}, {"pool": "A", "layer": 2, "min_variance": 4.784183634487298e-06, "max_abs_gamma": 0.6760745644569397, "worst_channel": 29, "worst_channel_variance": 4.784183634487298e-06, "eps": 1e-05, "worst_channel_scale": 0.3239254355430603, "max_feature_diff": 0.05441216379404068}, {"pool": "B", "layer": 1, "min_variance": 0.012849077209066617, "max_abs_gamma": 0.0007776618003845215, "worst_channel": 11, "worst_channel_variance": 0.012849077209066617, "eps": 1e-05, "worst_channel_scale": 0.9992223381996155, "max_feature_diff": 0.0006517171859741211}, {"pool": "B", "layer": 2, "min_variance": 8.823843289343439e-06, "max_abs_gamma": 0.5306202173233032, "worst_channel": 29, "worst_channel_variance": 8.823843289343439e-06, "eps": 1e-05, "worst_channel_scale": 0.4693797826766968, "max_feature_diff": 0.04824402183294296}], "writer_episodes": 2, "shift_states_fitted": 0, "zero_state_exact": true, "model_unchanged": true, "query_pool_overlap": 0, "exact_target_id_image_feature_multisets": true, "labels_only_pool_and_pairing_construction": true, "pool_selection_before_query_evaluation": true}
+[autodl] finished_at=2026-09-13T19:35:45+08:00
+[autodl] exit_code=0

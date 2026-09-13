@@ -107,3 +107,9 @@ Run 20260913-183307-ttfl-t006-gpu1; S-B on Noise/Blur. S-A0/4; Dark/Contrast num
 
 ## 2026-09-13T19:34:52.7667668+08:00 — T007 accepted
 Lead3394d2c. Baseline24remote tests PASS; pool2local tests PASS. Reusing frozenwriter/checkpoint; implement real identity prerequisite first. No activeTTFLjob.
+
+## 2026-09-13T19:35:51.6740444+08:00 — T007 preflight run
+20260913-193525-ttfl-t007-preflight-gpu1 started on A6000GPU1, codebc07059.
+
+## 2026-09-13T19:39:26.8270275+08:00 — T007 identity stop reported
+26remote tests PASS. Two pooledidentitystates violate nonidentity-state prerequisite (layer2scale0.324/0.469); cleanmacroclass34.13869 unchanged; 1changedprediction perpool, no changedcorrectcounts. FrozenEPS/caps unchanged. Noformaltransfer, noC-A/B/C/Dassignment. AwaitLead.

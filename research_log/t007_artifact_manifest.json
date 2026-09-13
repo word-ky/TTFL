@@ -1,0 +1,47 @@
+[
+  {
+    "path": "research_log/t007_receipts/artifacts/t007_identity_preflight/calibration_pools.json",
+    "bytes": 23771,
+    "sha256": "c6b1692e6fae8db52dec5dfe036af03bdc696de359a7b35f5bf64fe1152e49d0"
+  },
+  {
+    "path": "research_log/t007_receipts/artifacts/t007_identity_preflight/identity_predictions.npz",
+    "bytes": 119943,
+    "sha256": "c8b26bd7c6d2c36a6d2a84a4aea60a6779065b68851d76ff21deb147ba059d1c"
+  },
+  {
+    "path": "research_log/t007_receipts/artifacts/t007_identity_preflight/identity_preflight.json",
+    "bytes": 4027,
+    "sha256": "fa04068abffc48bab77f50e4dbd10767813886c6d20bb5250dc45907a89fc99b"
+  },
+  {
+    "path": "research_log/t007_receipts/artifacts/t007_identity_preflight/identity_states.pt",
+    "bytes": 4512,
+    "sha256": "6ed2a26b0c3c7ef9aab9ed3e6ff8f180b9f3d8adb325ae711d44c5c45c5290f2"
+  },
+  {
+    "path": "research_log/t007_receipts/artifacts/t007_identity_preflight/per_client.csv",
+    "bytes": 8033,
+    "sha256": "c2d0cbdf38dd0eccebe8344933f99756be5207291674b10825b3198210c1f3c9"
+  },
+  {
+    "path": "research_log/t007_receipts/artifacts/t007_identity_preflight/restoration_diagnostics.json",
+    "bytes": 12418,
+    "sha256": "273112e2cd22c33bad582697da860ccdc853057bce070b64b1305f26a118c0bf"
+  },
+  {
+    "path": "research_log/t007_receipts/meta.json",
+    "bytes": 620,
+    "sha256": "558d6546062b4f6e04b1ec1baa30493bf996bf8a0955f5e16870195b26462a22"
+  },
+  {
+    "path": "research_log/t007_receipts/run.sh",
+    "bytes": 1001,
+    "sha256": "8212f0419e773f1d8203fe0e39bff59eb35bdc982186941b10201f64039829a7"
+  },
+  {
+    "path": "research_log/t007_receipts/train.log",
+    "bytes": 6375,
+    "sha256": "c2e135742a18766aa52f2e2ed47a055301005bf4c31e48a4889c3ff35f96b2ad"
+  }
+]

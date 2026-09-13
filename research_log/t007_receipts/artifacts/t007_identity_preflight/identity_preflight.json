@@ -1,0 +1,170 @@
+{
+  "code_commit": "bc07059",
+  "checkpoint_sha256": "260657670e4b5beefebc7403487ead624a4ec7e19dd0958c7b281c28713cb9fb",
+  "writer_sha256": "99824a64af46ad500c8be742c0775435bf7566188935eb59d39d7acca86a11dd",
+  "corruption_sha256": "297faeb32abbb7d26d9c083d463fe9e65e9d8606151ac7b7eb5cb995e53d7174",
+  "gpu": "NVIDIA RTX A6000",
+  "query_class_counts": [
+    1516,
+    1495,
+    1509,
+    1482,
+    1492,
+    1500,
+    1527,
+    1508,
+    1502,
+    1508
+  ],
+  "metrics": {
+    "none": {
+      "macro_class": 34.13868991976854,
+      "sample_weighted": 34.21770064498969,
+      "macro_client": 33.18853079396754,
+      "per_class": [
+        18.535620052770447,
+        77.32441471571906,
+        50.36447978793903,
+        12.753036437246964,
+        0.06702412868632708,
+        18.2,
+        78.71643745907008,
+        15.053050397877984,
+        70.3728362183755,
+        0.0
+      ],
+      "correct": [
+        281,
+        1156,
+        760,
+        189,
+        1,
+        273,
+        1202,
+        227,
+        1057,
+        0
+      ]
+    },
+    "A": {
+      "macro_class": 34.13868991976854,
+      "sample_weighted": 34.21770064498969,
+      "macro_client": 33.18853079396754,
+      "per_class": [
+        18.535620052770447,
+        77.32441471571906,
+        50.36447978793903,
+        12.753036437246964,
+        0.06702412868632708,
+        18.2,
+        78.71643745907008,
+        15.053050397877984,
+        70.3728362183755,
+        0.0
+      ],
+      "correct": [
+        281,
+        1156,
+        760,
+        189,
+        1,
+        273,
+        1202,
+        227,
+        1057,
+        0
+      ]
+    },
+    "B": {
+      "macro_class": 34.13868991976854,
+      "sample_weighted": 34.21770064498969,
+      "macro_client": 33.18853079396754,
+      "per_class": [
+        18.535620052770447,
+        77.32441471571906,
+        50.36447978793903,
+        12.753036437246964,
+        0.06702412868632708,
+        18.2,
+        78.71643745907008,
+        15.053050397877984,
+        70.3728362183755,
+        0.0
+      ],
+      "correct": [
+        281,
+        1156,
+        760,
+        189,
+        1,
+        273,
+        1202,
+        227,
+        1057,
+        0
+      ]
+    }
+  },
+  "max_query_logit_diff": {
+    "A": 0.006222248077392578,
+    "B": 0.0048749446868896484
+  },
+  "identity_macro_class_delta": {
+    "A": 0.0,
+    "B": 0.0
+  },
+  "channel_diagnostics": [
+    {
+      "pool": "A",
+      "layer": 1,
+      "min_variance": 0.012962503215592482,
+      "max_abs_gamma": 0.000770866870880127,
+      "worst_channel": 11,
+      "worst_channel_variance": 0.012962503215592482,
+      "eps": 1e-05,
+      "worst_channel_scale": 0.9992291331291199,
+      "max_feature_diff": 0.0006589889526367188
+    },
+    {
+      "pool": "A",
+      "layer": 2,
+      "min_variance": 4.784183634487298e-06,
+      "max_abs_gamma": 0.6760745644569397,
+      "worst_channel": 29,
+      "worst_channel_variance": 4.784183634487298e-06,
+      "eps": 1e-05,
+      "worst_channel_scale": 0.3239254355430603,
+      "max_feature_diff": 0.05441216379404068
+    },
+    {
+      "pool": "B",
+      "layer": 1,
+      "min_variance": 0.012849077209066617,
+      "max_abs_gamma": 0.0007776618003845215,
+      "worst_channel": 11,
+      "worst_channel_variance": 0.012849077209066617,
+      "eps": 1e-05,
+      "worst_channel_scale": 0.9992223381996155,
+      "max_feature_diff": 0.0006517171859741211
+    },
+    {
+      "pool": "B",
+      "layer": 2,
+      "min_variance": 8.823843289343439e-06,
+      "max_abs_gamma": 0.5306202173233032,
+      "worst_channel": 29,
+      "worst_channel_variance": 8.823843289343439e-06,
+      "eps": 1e-05,
+      "worst_channel_scale": 0.4693797826766968,
+      "max_feature_diff": 0.04824402183294296
+    }
+  ],
+  "writer_episodes": 2,
+  "shift_states_fitted": 0,
+  "zero_state_exact": true,
+  "model_unchanged": true,
+  "query_pool_overlap": 0,
+  "exact_target_id_image_feature_multisets": true,
+  "labels_only_pool_and_pairing_construction": true,
+  "pool_selection_before_query_evaluation": true
+}
