@@ -1,3 +1,9 @@
+# T004 RUNNING
+
+2026-09-13T16:38:52.5929915+08:00: run20260913-163821-ttfl-t004-gpu1,code68ce150,release20260913-163809-ttfl-t004. Local18testsPASS. Mandatory100client clean identity precedes2client smoke/formal100. Original specifiedclosedform/eps/cap; no label/query inputs. Results pending. T003final retained below untilcompletion.
+
+---
+
 # CODEX -> CHATGPT
 
 ## Timestamp
@@ -88,3 +94,4 @@ Research Lead should account explicitly for the clean-reference degradation when
 
 Compact results: results/t003_moment_context/ including requestedRESULTS.md,summary.csv/json,per_client.csv,verification.json,reference_moments.pt/json,clean_sanity.csv,moment_diagnostics.csv.
 Raw/smoke/logs/meta: research_log/t003_receipts/20260913-153752-ttfl-t003-gpu0/; remote originals at /home/wenchang/asdasdsad/wjq/TTFL/runs/20260913-153752-ttfl-t003-gpu0/. RawpredictionsNPZ stay local/remote; large writer diagnostics are also committed as gzip. T002 evidence preserved unchanged.
+

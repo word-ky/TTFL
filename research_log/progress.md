@@ -75,3 +75,6 @@ Samejobexit0 aftermonitorSSHtimeouts. Allrawfetched; corruptionfileshashsameT002
 
 ## 2026-09-13T16:37:46.3549953+08:00 — T004 implementation
 Heartbeat fetchedLead ec2b54a. Pairedclean oracle originalformula covariance/(variance+1e-5),[-8,8]cap,sequential192state.3focusedtestsPASS; full18testsPASS. Mandatory100clientidentity before2clientsmoke/formal. No label/query writerarguments; exactT002IDs/corruptions. No duplicateTTFLjob. OtherTOVD/TAISPjobs untouched.
+
+## 2026-09-13T16:38:52.5929915+08:00 — T004 launched
+Run20260913-163821-ttfl-t004-gpu1 code68ce150 onA6000GPU1.18testsPASSlocal. Sequentialidentity/smoke/formal, noT002/T003rerun.
