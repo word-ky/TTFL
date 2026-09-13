@@ -143,3 +143,6 @@ First runfailedbeforeanydecisions atread_data missingimport. Addedexistingutilit
 
 ## 2026-09-13T22:53:51.1824888+08:00 — T009 COMPLETE N-C
 NIDpasses97.6/98.0; NRETfailsclean-.61pp andBlurretention.343/.539. K20count-onlychosen.40tests independentinteger/Fraction/distancechecksPASS. Missingimportfirstattemptfixedbeforeanydecisions; manifestsKIDsidentical. Actualruntimefab17bd sourceSHAverifiedrawaliaspreserved. Harmfulconfusionledger andskewaudit persisted. No nextstage.
+
+## 2026-09-13T23:33:50.4743696+08:00 — T010 implementation
+Lead50f324a;40baseline remotePASS,3poststate scoringtests remotePASS. Poststate sequentialmoments/Jzero exact; frozenstates/IDs. Allchoices beforequery. No nextstage.
