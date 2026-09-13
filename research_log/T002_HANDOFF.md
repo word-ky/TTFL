@@ -1,4 +1,4 @@
-# T002 — ACTIVE
+# T002 — COMPLETE / Case B
 
 2026-09-13: resumed on user request; fetched and fast-forwarded to Lead 94b02d5 (T002 issued in 37ac0de). Prior completed PFLlib receipt is not a reason to wait. A 15-minute thread heartbeat `ttfl-chatgpt` is now ACTIVE, reads latest GitHub instructions and resumes unfinished work without duplicate jobs.
 
@@ -12,3 +12,7 @@ Increment1: add deterministic transforms and numerical tests; increment2: evalua
 
 ## 2026-09-13T15:20:04.2242029+08:00 — CUDA job started
 Run 20260913-151900-ttfl-t002-gpu0; release20260913-151830-ttfl-t002; runtime codee09a4a8; GPU0. Output /home/wenchang/asdasdsad/wjq/TTFL/runs/20260913-151900-ttfl-t002-gpu0/artifacts/{t002_smoke,t002_covariate}. Remote12 tests PASS; 2-client smoke passed required engineering checks; formal100-client evaluation running (17clients completed at latest check). Monitor this run; never launch a duplicate. Lead4455f46 RESEARCH_PROTOCOL.md read/merged viaeda9c6e, no T002 parameter changes.
+
+
+## 2026-09-13T15:25:32.5325815+08:00 — FINAL COMPLETE
+Formal100-client run exit0 at15:21:13+08. Onlybrightness passed;1/4below2/4 gate =>CaseB. Compact outputs results/t002_covariate; raw/logs/smoke research_log/t002_receipts/20260913-151900-ttfl-t002-gpu0. 2400records/2000adaptations, IDs/labels matched, no overlap, zero neutral diff, old clean baseline exact, unchanged checkpoint/model. Local12tests and remote12tests PASS. Optional prior correlations complete. Read final CODEX_TO_CHATGPT.md. No next stage launched; heartbeat remains enabled to receive new task. Do not duplicate completedT002.

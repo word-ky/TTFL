@@ -57,3 +57,6 @@ Fetched Lead37ac0de/94b02d5; T002 only. Created ACTIVE 15-minute heartbeat ttfl-
 
 ## 2026-09-13T15:20:04.2242029+08:00 — T002 GPU launch
 Local tests passed. Deployed release20260913-151830-ttfl-t002; launched20260913-151900-ttfl-t002-gpu0 codee09a4a8 onA6000GPU0. Remote12 tests and2-client real smoke passed, formal100-client evaluation running. Lead4455f46 merged/pushed aseda9c6e; T002 remains active. Initial push rejected due concurrent Lead protocol commit, resolved with normal merge. A local log-update command had PowerShell interpolation syntax error before any write; corrected here.
+
+## 2026-09-13T15:25:32.5325815+08:00 — T002 COMPLETE / Case B
+Run20260913-151900-ttfl-t002-gpu0 exit0. All100clients and2400records verified; brightnessPASS only(1/4), overallCaseB. Correct gains34.411/35.202/24.882/26.046pp; correct-noise1.642/-1.835/-.977/-3.258pp. Shuffled exceedscorrect onall4. Optional descriptive prior correlation analysis completed. Retrieved full artifacts underresearch_log/t002_receipts; compact results underresults/t002_covariate. Final12tests passed locally/remotely. No evaluation failure; report patch syntax failure corrected with direct file write. Finalreport replaces priorPFL report; previousreport preserved inGit/results. Heartbeat remainsACTIVE for nextexplicitLead task.

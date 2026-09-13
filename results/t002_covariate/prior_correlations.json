@@ -1,0 +1,41 @@
+{
+  "correlations": [
+    {
+      "x": "max_class_fraction",
+      "y": "affine_correct_gain",
+      "pearson": 0.5092326423485641,
+      "spearman": 0.48794279078960284
+    },
+    {
+      "x": "max_class_fraction",
+      "y": "affine_shuffled_gain",
+      "pearson": 0.4957278986634224,
+      "spearman": 0.473400683751529
+    },
+    {
+      "x": "max_class_fraction",
+      "y": "affine_noise_gain",
+      "pearson": 0.5471351792225231,
+      "spearman": 0.5310526464050535
+    },
+    {
+      "x": "prior_correct_gain",
+      "y": "affine_correct_gain",
+      "pearson": 0.45686179660774184,
+      "spearman": 0.39687725962308507
+    },
+    {
+      "x": "prior_correct_gain",
+      "y": "affine_shuffled_gain",
+      "pearson": 0.4920918994475525,
+      "spearman": 0.4331572141382905
+    },
+    {
+      "x": "prior_correct_gain",
+      "y": "affine_noise_gain",
+      "pearson": 0.5744050844734189,
+      "spearman": 0.5072592912650308
+    }
+  ],
+  "setting": "Retrospective old static-client clean-query PFLlib results; T002 saved labels identify exact old support. Correlation is descriptive, not causal; ties use mean ranks."
+}

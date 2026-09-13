@@ -1,75 +1,93 @@
-# Active task update — T002 RUNNING
-
-2026-09-13T15:20:04.2242029+08:00: T002 evaluation-only job started on A6000 GPU0: 20260913-151900-ttfl-t002-gpu0, runtime e09a4a8, release20260913-151830-ttfl-t002. Fixed existing CIFAR10 checkpoint/support IDs/labels. Remote12 tests and2-client real smoke PASS;100-client evaluation running. Results pending. 15-minute Codex heartbeat ttfl-chatgpt ACTIVE. Lead4455f46 protocol read/merged. Prior PFLlib report retained below until T002 final replaces it.
-
----
-
 # CODEX -> CHATGPT
 
 ## Timestamp
-2026-09-13T13:08:00.3869572+08:00 — USER-DIRECTED PFLlib benchmark COMPLETE
-
-## User scope and research status
-The user explicitly requested PFLlib, MNIST/CIFAR-10/CIFAR-100/TinyImageNet,100 clients,10% participation and GPU execution. This authorized the FL benchmark migration. The earlier T001 result remains FAIL. Lead5647af7's old-SVHN T001B assignment is retained but was not executed during this migration. No SSL/meta-learning or further sweep was started.
+2026-09-13 15:26 +08. T002 COMPLETE, overall FAIL / Case B. Formal job finished15:21:13+08 exit0. Requested15-minute execution heartbeat `ttfl-chatgpt` is ACTIVE; it reads new instructions and resumes unfinished work. T002 is now finished: do not rerun it merely because the incoming file still calls it active.
 
 ## Commit
-- Unchanged upstream PFLlib subset:0169ba7e412c9856a08bb3faefab1e35f538a3c1, Apache2.0, provenance/license retained.
-- MNIST/CIFAR10 experimental runtime:af29ce6235c4afa63db67e004942ad87eab937c8.
-- CIFAR100/Tiny experimental runtime:5db9d154450d4a0fdbe7608b132318801c3df894. This fixes support statistics to use the true class count; training and adaptation update rules are unchanged.
-- Final evidence commit is the commit containing this report; delivery pointer is research_log/pfllib_delivery.json after push.
+Runtime `e09a4a8`; release `20260913-151830-ttfl-t002`; run `20260913-151900-ttfl-t002-gpu0`. Lead4455f46 RESEARCH_PROTOCOL.md read/merged aseda9c6e with no experiment change. Running receipt pushed in9f6d278. This final report and evidence are committed together; enclosing Git commit identifies delivery.
 
 ## What changed
-Imported PFLlib's FedAvg sampler, client training, weighted aggregation, CNN and data reader without semantic modifications. A thin entrypoint supplies the requested configuration and records final model/metrics and the sampled IDs. Exactly10 distinct clients participate per round, not a random participation ratio. PFLlib uses an inclusive loop, so its global_rounds argument is99 for exactly100 aggregation updates. Final scoring broadcasts the last aggregate, avoiding pre-update final-model confusion.
+Evaluation-only scripts/eval_pfllib_covariate_context.py, deterministic src/data/covariate.py, three focused tests, CUDA launch script. Reused upstream PFLlib loader, ContextFedAvgCNN, existing affine.adapt and evaluate/state_hash. No training/model code changes, FedAvg retraining, severity search, SSL, meta-learning or new FL.
 
-Configuration: one seed7, Dirichlet alpha0.1,100 rounds,1 local epoch, SGD0.005,batch10, original FedAvgCNN. Default budget and partition were stated to the user before execution; no alternative was supplied. All actual model training/inference ran on A6000 CUDA. Data preparation was CPU/I/O.
+## Checkpoint / data reused
+Existing formal CIFAR10 run: /media/wenchang/F/wjq/TTFL/runs/20260913-123718-ttfl-pfl-gpu0/Cifar10.
 
-PFLlib standard data protocol: merge original labeled splits, partition, then split each client75/25. TinyImageNet uses labeled train+val and excludes unlabeled test. Saved IDs cover exactly70000/60000/60000/110000 samples with no duplication. These are not official held-out image benchmark test scores.
+- Checkpoint SHA256: 260657670e4b5beefebc7403487ead624a4ec7e19dd0958c7b281c28713cb9fb.
+- Existing support_indices.json SHA256: 855f12223d1164d14c3dd13835ac8a9a73522834c6c49b4228015a3afba2ae85.
+- Existing split_manifest.json SHA256: 79b8b6d245ad6785208588c2687b4016be1bd4d3f9da475fca61610c3bc64296.
+- All100 clients; exact saved support indices up to64/client, exact query splits. Full-batch SGD lr0.1/10steps; zero gamma/beta each episode; identical settings across conditions.
+- Existing PFLlib merged original labeled CIFAR10 splits then client75/25 split; not official CIFAR10 test accuracy.
 
-The final global checkpoint also receives a supervised static-client diagnostic:192 zero-initialized affine scalars after two spatial CNN blocks; backbone frozen; LR0.1,10 full-support steps; up to64 support examples per client. Correct, cyclic wrong client, shuffled labels, noise, random/no-write and prior controls are all reported. Prior uses Laplace1 support-label frequencies versus uniform classes. BN is N/A because the upstream CNN has no BN. No BN layer was silently added.
+## Corruption definitions and tensor range
+Before implementation saved client0 range observed[-1,1]; evaluated supports/queries across100 also[-1,1]. Convert z=(x+1)/2, transform in[0,1], return2*z-1:
 
-## Experiments run
-| Dataset | Run | Physical GPU | Finish |
-|---|---|---:|---|
-| MNIST + CIFAR10 |20260913-123718-ttfl-pfl-gpu0|0|12:47:10 +08, exit0|
-| CIFAR100 |20260913-124228-ttfl-pfl-c100-fixed|1|12:47:37 +08, exit0|
-| TinyImageNet |20260913-124728-ttfl-pfl-tiny-gpu0|0|13:03:22 +08, exit0|
+- dark: .45*z;
+- contrast: .35*(z-mean)+mean, per-image/channel spatial mean;
+- noise: clamp(z+.15*N(0,1),0,1);
+- blur: torchvision Gaussian5x5/sigma1.5, reflect padding;
+- noise-image: independent uniform[0,1] pixels, preserving exact label vector.
 
-Date2026-09-13. Each dataset had a real2-round smoke before its100-round formal run. Initial unmodified upstream synthetic100-client/10-participant health test passed. Focused suite9 tests passed locally and remotely, covering all four shapes/classes, high-numbered-only support classes, exact neutral logits, frozen updates and T001 regressions.
+CPU torch.Generator per-image seed: first8 little-endian bytes of SHA256(7:client:original_sample_id:transform) modulo(2^63-1). Noise is deterministic by original ID and independent of ordering. Fixed label permutation per client. Definitions frozen before smoke/formal metrics. Wrong-alt mapping exactly follows Lead: noise/blur/dark/contrast respectively; wrong-clean uses same IDs/labels.
 
-Reported train/final-eval times after server construction: MNIST226.10s,CIFAR10238.48s,CIFAR100250.02s,Tiny715.72s. Peak allocated GPU memory:.460/.684/.719/4.517GiB. These timings exclude server construction, context evaluation and data preparation; they are run receipts, not a controlled efficiency comparison.
+## Verification / matched-label controls
+Baseline9 tests passed remotely before edits. Final12 tests passed remotely;2-client real smoke passed before100-client formal run. Smoke did not select configuration.
+
+Formal:2400records,2000adaptation episodes, support/query ID overlap0, identical support IDs/labels across matched contexts, all2000shared model hashes unchanged, checkpoint SHA unchanged. Zero-state max logit difference0.0 across all corrupted query batches. Clean baseline reproduces all old per-client accuracies, max error0.0pp. Prediction-derived accuracy max discrepancy6.99e-6pp. Losses/norms finite; transform repeat/order tests pass. A6000 evaluation115.95s after setup, peak torch allocation0.0811GiB (descriptive, not an efficiency benchmark).
 
 ## Results table
-Sample-weighted accuracy across all100 clients; one fixed seed/budget, no tuning.
+Weighted accuracy%; macro-client accuracy, support CE before/after and gamma/beta norm means for every row are in summary.csv.
 
-| Dataset | FedAvg | Affine correct | Gain pp | Affine wrong | Correct−wrong pp | Shuffled | Noise | Prior correct |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| MNIST |92.498|94.755|+2.258|92.019|+2.736|94.687|90.879|98.244|
-| CIFAR-10 |34.218|57.278|+23.060|25.833|+31.445|58.049|59.937|79.194|
-| CIFAR-100 |11.718|13.008|+1.290|11.319|+1.689|13.327|11.931|36.590|
-| TinyImageNet |9.645|10.425|+0.781|8.820|+1.605|8.758|4.020|24.957|
+| Target | None | Correct | Wrong clean | Wrong alt | Shuffled | Noise image | PASS |
+|---|---:|---:|---:|---:|---:|---:|:---:|
+| Dark |17.641|52.051|44.325|44.431|52.796|50.409|Yes|
+| Low contrast |20.088|55.290|52.856|54.066|56.061|57.125|No|
+| Gaussian noise |30.747|55.629|52.324|46.991|56.134|56.606|No|
+| Gaussian blur |30.993|57.038|58.155|54.299|57.570|60.297|No|
 
-Random/no-write accuracies:92.486/34.184/11.758/9.645. All exact values, macro-client accuracies and additional context/prior rows are in the raw receipts. Summary JSON/CSV/Markdown: results/pfllib_100c.
+| Target | Correct gain pp | Correct-clean pp | Correct-alt pp | Correct-noise pp | Failure |
+|---|---:|---:|---:|---:|---|
+| Dark |34.411|7.727|7.620|1.642|Passes frozen rule|
+| Contrast |35.202|2.434|1.223|-1.835|Alt gap<2; noise stronger|
+| Noise |24.882|3.305|8.638|-0.977|Noise-image stronger|
+| Blur |26.046|-1.117|2.740|-3.258|Clean gap<2; noise stronger|
 
-## Diagnostics and interpretation
-The requested benchmark migration is complete; a distinct fast-operator advantage is **not established**. Prior beats affine on every dataset. MNIST correct-vs-shuffled is only0.068pp; CIFAR10 and CIFAR100 shuffled-label affine outperform correct-label affine. CIFAR10 noise also outperforms correct affine. Therefore large correct-minus-wrong margins under label skew cannot, alone, establish semantic or dynamic-context reading. Tiny affine gain is small despite better correct than shuffled/noise. No claim of successful T001, T001B, dynamic-context disentanglement or novel method superiority follows.
+Only1/4 passes; required>=2/4 not met. Even dark has shuffled>correct. It supports limited covariate sensitivity under the stipulated rule, not proof that correct image-label correspondence drives the gain.
 
-This is a single-seed preliminary budget using stock CNN/SGD. Low CIFAR/Tiny global accuracies are reported as measured and do not establish converged/optimal FedAvg performance. No learning-rate, epoch or checkpoint selection was changed after inspecting results.
+## Per-client paired specificity summary
+Delta=correct-wrong accuracy pp, equal client weight. Full400target/client rows in per_client.csv.
 
-## Verification
-PASS for all4 datasets:100 updates;10 unique client IDs in every round; CUDA models;1000 context records each(4000 total); all train/test sample IDs unique within the entire partition; correct/wrong support IDs disjoint from current query; checkpoint hash shared across every comparison. Neutral maximum absolute logit difference0.0. No nonfinite loss/norm diagnostic values. Independent prediction-derived accuracy errors <7.7e-6pp, consistent with float32 rounding. Final remote checkpoint SHA256 matches the recorded hashes. Transfer manifests:36/36 first3 files and12/12 Tiny files match.
+| Target / wrong | Mean | Median | Fraction>0 | P10 | P25 | P75 | P90 |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Dark / clean |7.491|3.871|.68|-1.172|0|11.111|23.676|
+| Dark / noise |7.696|3.265|.65|-2.601|0|13.775|25.182|
+| Contrast / clean |2.767|1.937|.59|-11.491|-2.156|9.949|17.651|
+| Contrast / blur |1.219|0|.48|-7.454|-2.992|5.063|11.241|
+| Noise / clean |3.252|2.548|.78|0|.605|4.711|6.974|
+| Noise / dark |8.449|7.824|.81|-.243|2.727|12.992|17.875|
+| Blur / clean |-1.276|0|.38|-8.079|-2.949|1.260|3.203|
+| Blur / contrast |2.345|1.231|.60|-2.329|-.110|5.912|7.883|
 
-See results/pfllib_100c/verification.json and numerical_diagnostics.json. Raw records, sampling histories, supports, config, split IDs, environment and original logs are committed under research_log/pfllib_receipts. Prediction NPZ arrays are retained locally/remotely but ignored in Git. Full models remain on the remote F drive; paths and SHA hashes are recoverable from summary/run IDs and verification.
+## Existing-receipt prior-correlation analysis (completed)
+Old static-client clean-query rows joined with exact support labels. Entropy/max-class fraction/four gains in prior_per_client.csv. Descriptive Pearson/Spearman, mean ranks for ties, no significance tests:
+
+| Affine gain | vs max-class fraction r/rho | vs prior gain r/rho |
+|---|---:|---:|
+| Correct |.509/.488|.457/.397|
+| Shuffled |.496/.473|.492/.433|
+| Noise |.547/.531|.574/.507|
+
+Moderately positive, consistent with a strong prior contribution, not causal proof. Completed within minutes with no model evaluation.
 
 ## Failures / uncertainties
-- Tiny data preparation first reached ZIP before SCP completed: BadZipFile at open. After complete transfer, only Tiny preparation was rerun; no dataset protocol change.
-- CIFAR100 smoke baseline completed, then support statistics defaulted to10 classes and failed on labels>=10. Fixed the two calls, added a focused regression, resumed from the saved smoke checkpoint, and ran the full experiment once.
-- Local aggregation initially confused data/MNIST with a run folder; fixed that exact path-selection collision. Scientific code/results were unchanged.
-- NVML driver/library mismatch remains on the machine, but actual CUDA tensors/models and completed experiments work. No global driver change. Missing PFLlib dependencies were installed in the TTFL venv and frozen in the environment receipt.
+No T002 evaluation/runtime failure. Existing NVML mismatch persists but actual CUDA works. Concurrent Lead protocol commit caused a push rejection, resolved by normal merge. Local log-writing interpolation error and one report patch format error occurred before writes and were corrected; neither affected execution.
 
-All original failure logs are retained. No duplicate full training, broad sweep or unrelated project modification occurred.
+One checkpoint, one fixed severity, one support draw/client, static label-skew. Matched supports eliminate between-condition histogram/content differences but do not eliminate general prior gains. Three noise-image controls beat correct; all4shuffled rows beat correct. Brightness has partial signal; multi-corruption gate fails. This is method/diagnostic evidence, not an observed implementation bug.
 
-## Artifact locations and recommended next action
-Code: /home/wenchang/asdasdsad/wjq/TTFL. Large data/models/results: /media/wenchang/F/wjq/TTFL. Local project root remains D:/work/fightccfa-agin/CVPR2027/TTT-FL. All TTFL run sessions have exited; unrelated TOVD session was left running.
+## Case A / B / C decision
+**Case B, with one partial brightness PASS.** Gains on every corrupted query, but only1/4passes all controls. Robust current-covariate context reading independent of prior-driven adaptation is not established. Do not equate this with universal incapacity or overall contextual success.
 
-Await the user's/Research Lead's next instruction. A useful next research decision is how to separate label-prior information from semantic/current-context evidence before adding more machinery. This is a recommendation only; no new experiment or research stage has been launched.
+## Recommended next action
+Research Lead reviews and selects the next bounded operator/sufficient-statistic diagnostic. No next stage launched. The15-minute heartbeat remains active for the explicit next work package and must not repeat completed T002.
 
+Compact outputs: results/t002_covariate/{RESULTS.md,summary.json,summary.csv,verification.json,per_client.csv,prior_correlations.json,prior_per_client.csv}.
+Raw records/identities/predictions/smoke/logs/meta: research_log/t002_receipts/20260913-151900-ttfl-t002-gpu0/. NPZ predictions retained locally/remotely, Git-ignored. Remote originals: /home/wenchang/asdasdsad/wjq/TTFL/runs/20260913-151900-ttfl-t002-gpu0/.

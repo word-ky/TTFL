@@ -1,0 +1,12 @@
+{
+  "records": 48,
+  "adaptation_episodes": 40,
+  "matched_support_ids_and_labels": true,
+  "support_query_overlap": 0,
+  "shared_hash_unchanged_each_episode": true,
+  "deterministic_corruptions": true,
+  "neutral_max_abs_diff": 0.0,
+  "clean_baseline_max_error_pp": 0.0,
+  "prediction_max_error_pp": 3.4155470558516754e-06,
+  "checkpoint_sha256": "260657670e4b5beefebc7403487ead624a4ec7e19dd0958c7b281c28713cb9fb"
+}

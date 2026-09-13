@@ -1,0 +1,129 @@
+[autodl] run_id=20260913-151900-ttfl-t002-gpu0
+[autodl] started_at=2026-09-13T15:19:06+08:00
+test_bn_only_moments (test_affine.AffineTest.test_bn_only_moments) ... ok
+test_neutral_logits (test_affine.AffineTest.test_neutral_logits) ... ok
+test_only_fast_state_and_reset (test_affine.AffineTest.test_only_fast_state_and_reset) ... ok
+test_same_checkpoint_all_methods (test_affine.AffineTest.test_same_checkpoint_all_methods) ... ok
+test_train_checkpoint_and_metrics (test_baseline.BaselineTest.test_train_checkpoint_and_metrics) ... ok
+test_deterministic_by_sample_not_order_and_no_mutation (test_covariate.CovariateTest.test_deterministic_by_sample_not_order_and_no_mutation) ... ok
+test_formulas_and_identity (test_covariate.CovariateTest.test_formulas_and_identity) ... ok
+test_weighted_gate_and_paired_summary (test_covariate.CovariateTest.test_weighted_gate_and_paired_summary) ... ok
+test_balanced_and_disjoint (test_data.DataTest.test_balanced_and_disjoint) ... ok
+test_preprocess (test_data.DataTest.test_preprocess) ... ok
+test_four_shapes_neutral_frozen_and_classes (test_pfllib_operator.PFLModelTest.test_four_shapes_neutral_frozen_and_classes) ... ok
+test_support_only_high_numbered_classes (test_pfllib_operator.PFLModelTest.test_support_only_high_numbered_classes) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.743s
+
+OK
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+T002_CLIENT_DONE 0
+T002_CLIENT_DONE 1
+T002_DONE {"case": "A", "passed": 2, "specificity": [{"target": "brightness_dark", "correct_gain_pp": 46.931407361254365, "correct_minus_wrong_clean_pp": 29.602887392689603, "correct_minus_wrong_alt_pp": 31.40794170031909, "correct_minus_noise_pp": 15.884474780585357, "wrong_clean_paired": {"mean": 29.30995300412178, "median": 29.30995300412178, "fraction_positive": 1.0, "p10": 28.488253504037857, "p25": 28.79639081656933, "p75": 29.823515191674232, "p90": 30.131652504205704}, "wrong_alt_paired": {"mean": 30.26614412665367, "median": 30.26614412665367, "fraction_positive": 1.0, "p10": 27.06332966685295, "p25": 28.26438508927822, "p75": 32.26790316402912, "p90": 33.46895858645439}, "checks": {"gain_ge_2": true, "clean_gap_ge_2": true, "alt_gap_ge_2": true, "beats_noise": true}, "passed": true}, {"target": "contrast_low", "correct_gain_pp": 45.48736408601653, "correct_minus_wrong_clean_pp": 22.38267155545713, "correct_minus_wrong_alt_pp": 14.44043223393092, "correct_minus_noise_pp": 13.71840970180525, "wrong_clean_paired": {"mean": 21.89876288175583, "median": 21.89876288175583, "fraction_positive": 1.0, "p10": 20.541368424892426, "p25": 21.050391346216202, "p75": 22.747134417295456, "p90": 23.256157338619232}, "wrong_alt_paired": {"mean": 14.149925112724304, "median": 14.149925112724304, "fraction_positive": 1.0, "p10": 13.335034251213074, "p25": 13.640618324279785, "p75": 14.659231901168823, "p90": 14.964815974235535}, "checks": {"gain_ge_2": true, "clean_gap_ge_2": true, "alt_gap_ge_2": true, "beats_noise": true}, "passed": true}, {"target": "gaussian_noise", "correct_gain_pp": 35.74007429478401, "correct_minus_wrong_clean_pp": 4.693144086465942, "correct_minus_wrong_alt_pp": 15.162456541285188, "correct_minus_noise_pp": -3.6101075716397375, "wrong_clean_paired": {"mean": 4.996597766876221, "median": 4.996597766876221, "fraction_positive": 1.0, "p10": 4.14539098739624, "p25": 4.464593529701233, "p75": 5.5286020040512085, "p90": 5.847804546356201}, "wrong_alt_paired": {"mean": 15.160028636455536, "median": 15.160028636455536, "fraction_positive": 1.0, "p10": 15.1532182097435, "p25": 15.155772119760513, "p75": 15.164285153150558, "p90": 15.166839063167572}, "checks": {"gain_ge_2": true, "clean_gap_ge_2": true, "alt_gap_ge_2": true, "beats_noise": false}, "passed": false}, {"target": "gaussian_blur", "correct_gain_pp": 40.79422465784455, "correct_minus_wrong_clean_pp": 2.166063690874118, "correct_minus_wrong_alt_pp": 4.693143957358409, "correct_minus_noise_pp": -3.2490971501553574, "wrong_clean_paired": {"mean": 2.35784649848938, "median": 2.35784649848938, "fraction_positive": 1.0, "p10": 1.8198835849761963, "p25": 2.02161967754364, "p75": 2.6940733194351196, "p90": 2.8958094120025635}, "wrong_alt_paired": {"mean": 3.8758397102355957, "median": 3.8758397102355957, "fraction_positive": 1.0, "p10": 1.583249568939209, "p25": 2.442970871925354, "p75": 5.308708548545837, "p90": 6.168429851531982}, "checks": {"gain_ge_2": true, "clean_gap_ge_2": true, "alt_gap_ge_2": true, "beats_noise": false}, "passed": false}]}
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+T002_CLIENT_DONE 0
+T002_CLIENT_DONE 1
+T002_CLIENT_DONE 2
+T002_CLIENT_DONE 3
+T002_CLIENT_DONE 4
+T002_CLIENT_DONE 5
+T002_CLIENT_DONE 6
+T002_CLIENT_DONE 7
+T002_CLIENT_DONE 8
+T002_CLIENT_DONE 9
+T002_CLIENT_DONE 10
+T002_CLIENT_DONE 11
+T002_CLIENT_DONE 12
+T002_CLIENT_DONE 13
+T002_CLIENT_DONE 14
+T002_CLIENT_DONE 15
+T002_CLIENT_DONE 16
+T002_CLIENT_DONE 17
+T002_CLIENT_DONE 18
+T002_CLIENT_DONE 19
+T002_CLIENT_DONE 20
+T002_CLIENT_DONE 21
+T002_CLIENT_DONE 22
+T002_CLIENT_DONE 23
+T002_CLIENT_DONE 24
+T002_CLIENT_DONE 25
+T002_CLIENT_DONE 26
+T002_CLIENT_DONE 27
+T002_CLIENT_DONE 28
+T002_CLIENT_DONE 29
+T002_CLIENT_DONE 30
+T002_CLIENT_DONE 31
+T002_CLIENT_DONE 32
+T002_CLIENT_DONE 33
+T002_CLIENT_DONE 34
+T002_CLIENT_DONE 35
+T002_CLIENT_DONE 36
+T002_CLIENT_DONE 37
+T002_CLIENT_DONE 38
+T002_CLIENT_DONE 39
+T002_CLIENT_DONE 40
+T002_CLIENT_DONE 41
+T002_CLIENT_DONE 42
+T002_CLIENT_DONE 43
+T002_CLIENT_DONE 44
+T002_CLIENT_DONE 45
+T002_CLIENT_DONE 46
+T002_CLIENT_DONE 47
+T002_CLIENT_DONE 48
+T002_CLIENT_DONE 49
+T002_CLIENT_DONE 50
+T002_CLIENT_DONE 51
+T002_CLIENT_DONE 52
+T002_CLIENT_DONE 53
+T002_CLIENT_DONE 54
+T002_CLIENT_DONE 55
+T002_CLIENT_DONE 56
+T002_CLIENT_DONE 57
+T002_CLIENT_DONE 58
+T002_CLIENT_DONE 59
+T002_CLIENT_DONE 60
+T002_CLIENT_DONE 61
+T002_CLIENT_DONE 62
+T002_CLIENT_DONE 63
+T002_CLIENT_DONE 64
+T002_CLIENT_DONE 65
+T002_CLIENT_DONE 66
+T002_CLIENT_DONE 67
+T002_CLIENT_DONE 68
+T002_CLIENT_DONE 69
+T002_CLIENT_DONE 70
+T002_CLIENT_DONE 71
+T002_CLIENT_DONE 72
+T002_CLIENT_DONE 73
+T002_CLIENT_DONE 74
+T002_CLIENT_DONE 75
+T002_CLIENT_DONE 76
+T002_CLIENT_DONE 77
+T002_CLIENT_DONE 78
+T002_CLIENT_DONE 79
+T002_CLIENT_DONE 80
+T002_CLIENT_DONE 81
+T002_CLIENT_DONE 82
+T002_CLIENT_DONE 83
+T002_CLIENT_DONE 84
+T002_CLIENT_DONE 85
+T002_CLIENT_DONE 86
+T002_CLIENT_DONE 87
+T002_CLIENT_DONE 88
+T002_CLIENT_DONE 89
+T002_CLIENT_DONE 90
+T002_CLIENT_DONE 91
+T002_CLIENT_DONE 92
+T002_CLIENT_DONE 93
+T002_CLIENT_DONE 94
+T002_CLIENT_DONE 95
+T002_CLIENT_DONE 96
+T002_CLIENT_DONE 97
+T002_CLIENT_DONE 98
+T002_CLIENT_DONE 99
+T002_DONE {"case": "B", "passed": 1, "specificity": [{"target": "brightness_dark", "correct_gain_pp": 34.410532811936875, "correct_minus_wrong_clean_pp": 7.7265776596843025, "correct_minus_wrong_alt_pp": 7.620187886544791, "correct_minus_noise_pp": 1.6423966314620557, "wrong_clean_paired": {"mean": 7.491107112262398, "median": 3.8711264729499817, "fraction_positive": 0.68, "p10": -1.1715123057365417, "p25": 0.0, "p75": 11.11111119389534, "p90": 23.676471337676062}, "wrong_alt_paired": {"mean": 7.695869781542569, "median": 3.265152871608734, "fraction_positive": 0.65, "p10": -2.6010615378618236, "p25": 0.0, "p75": 13.775129243731499, "p90": 25.181760340929035}, "checks": {"gain_ge_2": true, "clean_gap_ge_2": true, "alt_gap_ge_2": true, "beats_noise": true}, "passed": true}, {"target": "contrast_low", "correct_gain_pp": 35.20180880280591, "correct_minus_wrong_clean_pp": 2.43367297099649, "correct_minus_wrong_alt_pp": 1.2234857055822488, "correct_minus_noise_pp": -1.83522826556937, "wrong_clean_paired": {"mean": 2.76685138233006, "median": 1.9368290901184082, "fraction_positive": 0.59, "p10": -11.491101197898388, "p25": -2.156234532594681, "p75": 9.94914397597313, "p90": 17.65064612030983}, "wrong_alt_paired": {"mean": 1.2187339905649424, "median": 0.0, "fraction_positive": 0.48, "p10": -7.45421439409256, "p25": -2.9924973845481873, "p75": 5.063290148973465, "p90": 11.240655183792116}, "checks": {"gain_ge_2": true, "clean_gap_ge_2": true, "alt_gap_ge_2": false, "beats_noise": false}, "passed": false}, {"target": "gaussian_noise", "correct_gain_pp": 24.881973479739987, "correct_minus_wrong_clean_pp": 3.3047411035204064, "correct_minus_wrong_alt_pp": 8.637542322645125, "correct_minus_noise_pp": -0.9774586664757621, "wrong_clean_paired": {"mean": 3.251931020990014, "median": 2.547873556613922, "fraction_positive": 0.78, "p10": 0.0, "p25": 0.6047263741493225, "p75": 4.710514843463898, "p90": 6.973684132099154}, "wrong_alt_paired": {"mean": 8.448877864517272, "median": 7.824458181858063, "fraction_positive": 0.81, "p10": -0.24260640144348128, "p25": 2.726859226822853, "p75": 12.99242451786995, "p90": 17.87499904632569}, "checks": {"gain_ge_2": true, "clean_gap_ge_2": true, "alt_gap_ge_2": true, "beats_noise": false}, "passed": false}, {"target": "gaussian_blur", "correct_gain_pp": 26.045614729987598, "correct_minus_wrong_clean_pp": -1.1170956047242058, "correct_minus_wrong_alt_pp": 2.7395440639328683, "correct_minus_noise_pp": -3.2581952779313994, "wrong_clean_paired": {"mean": -1.2756877839565277, "median": 0.0, "fraction_positive": 0.38, "p10": -8.07909570634365, "p25": -2.9493097215890884, "p75": 1.2600794434547424, "p90": 3.202918767929078}, "wrong_alt_paired": {"mean": 2.3454648349434137, "median": 1.2308746576309204, "fraction_positive": 0.6, "p10": -2.3287051916122437, "p25": -0.1096487045288086, "p75": 5.911768972873688, "p90": 7.883335798978806}, "checks": {"gain_ge_2": true, "clean_gap_ge_2": false, "alt_gap_ge_2": true, "beats_noise": false}, "passed": false}]}
+[autodl] finished_at=2026-09-13T15:21:13+08:00
+[autodl] exit_code=0

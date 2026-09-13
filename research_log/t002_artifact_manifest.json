@@ -1,0 +1,78 @@
+[
+  {
+    "path": "research_log\\t002_receipts\\20260913-151900-ttfl-t002-gpu0\\meta.json",
+    "sha256": "5f6423f6ace577ffdf6fd5a1954d3b7d8f38c824726d76a384c24731ddabac30"
+  },
+  {
+    "path": "research_log\\t002_receipts\\20260913-151900-ttfl-t002-gpu0\\run.sh",
+    "sha256": "eca8c3e8386c6b22dff59cb9a73d476bdd05a021be91db0c54643c0d408611cf"
+  },
+  {
+    "path": "research_log\\t002_receipts\\20260913-151900-ttfl-t002-gpu0\\train.log",
+    "sha256": "4ce1079ba43f5b0849101d13d50a216bcca3e5a5f35082423311e3da72343296"
+  },
+  {
+    "path": "research_log\\t002_receipts\\20260913-151900-ttfl-t002-gpu0\\artifacts\\t002_covariate\\identities.json",
+    "sha256": "93ee4b757732b1f980c02cd2cef5c7031f6c05a1f1a735a77ab8802269545e92"
+  },
+  {
+    "path": "research_log\\t002_receipts\\20260913-151900-ttfl-t002-gpu0\\artifacts\\t002_covariate\\per_client.csv",
+    "sha256": "8bf675995dd1e28238eb684d8b41e9b7a1a565b210e19db9daa4e93cbd292ddf"
+  },
+  {
+    "path": "research_log\\t002_receipts\\20260913-151900-ttfl-t002-gpu0\\artifacts\\t002_covariate\\predictions.npz",
+    "sha256": "2c965dcd0205efed6e1d4a5669487af7cb7a617b056731a86dbd5a83627c7a8a"
+  },
+  {
+    "path": "research_log\\t002_receipts\\20260913-151900-ttfl-t002-gpu0\\artifacts\\t002_covariate\\raw_records.json",
+    "sha256": "c401488eba3e41d0f87ac0025672197f4ce0cca5272255439e1e52c1c21b2032"
+  },
+  {
+    "path": "research_log\\t002_receipts\\20260913-151900-ttfl-t002-gpu0\\artifacts\\t002_covariate\\RESULTS.md",
+    "sha256": "566f055e623ab3eae1f02fea15884c10d6dd044530b07d99e618b7dcd4e1fe5b"
+  },
+  {
+    "path": "research_log\\t002_receipts\\20260913-151900-ttfl-t002-gpu0\\artifacts\\t002_covariate\\summary.csv",
+    "sha256": "2199d5c7a5c5c8afcdabe6b139ba96e4639e94a6a52b0f7ca170dc6d921a537d"
+  },
+  {
+    "path": "research_log\\t002_receipts\\20260913-151900-ttfl-t002-gpu0\\artifacts\\t002_covariate\\summary.json",
+    "sha256": "35005a995ef2949573bf7152b18ec8e015a1f65177e23ea752b19a90fedac03e"
+  },
+  {
+    "path": "research_log\\t002_receipts\\20260913-151900-ttfl-t002-gpu0\\artifacts\\t002_covariate\\verification.json",
+    "sha256": "e139575b35faa5c133111d1d8b17ffde0a2307ed50cc7903e0f5bbfe00b8f50f"
+  },
+  {
+    "path": "research_log\\t002_receipts\\20260913-151900-ttfl-t002-gpu0\\artifacts\\t002_smoke\\identities.json",
+    "sha256": "8f6ba66b7c591e7d3affb5573fb8616813102a6a89a806fc6315676f1d53cfa4"
+  },
+  {
+    "path": "research_log\\t002_receipts\\20260913-151900-ttfl-t002-gpu0\\artifacts\\t002_smoke\\per_client.csv",
+    "sha256": "63736a27d47d1ed5476b054c1b163f89d186677682809bb53030650377941066"
+  },
+  {
+    "path": "research_log\\t002_receipts\\20260913-151900-ttfl-t002-gpu0\\artifacts\\t002_smoke\\predictions.npz",
+    "sha256": "1ba0c5a0b8b05d5d62a5fb309fc9e7db9856e6fb1864d8e7f14610da4a8e06a5"
+  },
+  {
+    "path": "research_log\\t002_receipts\\20260913-151900-ttfl-t002-gpu0\\artifacts\\t002_smoke\\raw_records.json",
+    "sha256": "c7dcda5ce31df902817a4ce936096e8a63befa341c438f3df66c83f4618b4b35"
+  },
+  {
+    "path": "research_log\\t002_receipts\\20260913-151900-ttfl-t002-gpu0\\artifacts\\t002_smoke\\RESULTS.md",
+    "sha256": "fb218ba16da0933ebf0f4fd169567dfdc6544ed87acde740126ba1840834b37a"
+  },
+  {
+    "path": "research_log\\t002_receipts\\20260913-151900-ttfl-t002-gpu0\\artifacts\\t002_smoke\\summary.csv",
+    "sha256": "5abb853d1cd0e8db2f8bc0e0d328c82637102cbbcf436fb6c7f908b50ce74979"
+  },
+  {
+    "path": "research_log\\t002_receipts\\20260913-151900-ttfl-t002-gpu0\\artifacts\\t002_smoke\\summary.json",
+    "sha256": "b3e1ce98427dde8c304f1133d2dfb5a51e58170fb3e449b6cbfda6fcdd88309f"
+  },
+  {
+    "path": "research_log\\t002_receipts\\20260913-151900-ttfl-t002-gpu0\\artifacts\\t002_smoke\\verification.json",
+    "sha256": "9dfd5fc493ec25b29324b785c8463042a8d3e64e01907cb3d7f461209071af72"
+  }
+]
