@@ -161,3 +161,6 @@ A6000GPU1 run20260914-003444-ttfl-t011-gpu1 runtimef323674; full46tests before f
 
 ## 2026-09-14T00:41:37.4304104+08:00 — T011 COMPLETE P-C
 Run003521-lf finished; initial003444launchCRLFfailurebeforetests corrected withLF only.46tests,5000candidateprediction/countchecks, sourcefreezeSHAandhistoricalaggregate checksPASS. PC-RET0/4FAIL; PC-ALIGNFAILbothbanks. True-state regret and best-of-fiveheadroom rejectcapacity-only diagnosis. Results andfullmatrixpersisted; no nextstage.
+
+## 2026-09-14T01:30:37.1097860+08:00 — T012 started
+Lead7d42fe2; PhaseI historicalmatrix decomposition, PhaseIIscalinghelpertests pending.
