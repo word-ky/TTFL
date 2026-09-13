@@ -10,3 +10,6 @@ Increment1: moment reference/writer unit tests including direct-stream equivalen
 
 ## 2026-09-13T15:38:20.3798113+08:00 — RUNNING
 A6000GPU0 run20260913-153752-ttfl-t003-gpu0, release20260913-153748-ttfl-t003, code7bc31ded5e2a0dc6ad7e20b7688240c34c24c366. Artifacts /home/wenchang/asdasdsad/wjq/TTFL/runs/20260913-153752-ttfl-t003-gpu0/artifacts/{t003_moment_context,t003_smoke}. Reference collected once at formaloutput/reference_moments.pt, then reused bothsmoke/formal. Monitor this run; no duplicates.
+
+## 2026-09-13T15:40:19.7832584+08:00 — SSH connection timeout
+Two consecutive log reads to existinghost202.101.162.22:8220 timed out duringSSHconnection (exit255). Last successful observation formalT003 completedclient21; reference andsmoke already finished. Remote tmux job may continue; completion unverified. Reconnect to20260913-153752-ttfl-t003-gpu0 and fetch its artifacts; do not launch duplicate/reference recomputation.

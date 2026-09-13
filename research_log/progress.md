@@ -66,3 +66,6 @@ Fetched/read Lead2b5e7a8, no activeTTFL job. Kept same192state/checkpoint/corrup
 
 ## 2026-09-13T15:38:20.3798113+08:00 — T003 A6000 launch
 Deployed20260913-153748-ttfl-t003 and launched20260913-153752-ttfl-t003-gpu0. Reference+smoke+formal scheduled sequentially in one job.
+
+## 2026-09-13T15:40:19.7832584+08:00 — observed remote connectivity failure
+Two SSH connecttimeouts while readingT003 existingrun. Last observedformalclient21. No execution result inferred from timeout; retry same run.
