@@ -7,3 +7,5 @@ research_log/remote_runs/
 *.npz
 *.zip
 research_log/data_transfer/
+*.tar
+*.h5
