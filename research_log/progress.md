@@ -152,3 +152,6 @@ Lead50f324a;40baseline remotePASS,3poststate scoringtests remotePASS. Poststate 
 
 ## 2026-09-13T23:42:52.6679887+08:00 — T010 delivered analysis
 A6000 run 20260913-233408-ttfl-t010-gpu1 exit0; runtime1feaec9. ID97.8/98.0, 3/4 joint targets, clean -.440248/-.413368pp PASS; Blur retention .403732/.395870 FAIL. Positive-moment-improvement harmful fractions22.03/22.77%; OOD8/8noise state. Raw receipts and compact report persisted. Existing15minuteheartbeat verified ACTIVE; awaitLead.
+
+## 2026-09-14T00:34:28.2406804+08:00 — T011 implementation
+Lead941731c; fixed prediction consistency helper and fullcandidate evaluator.3focusedtests PASS; no formalrun yet. No changed frozen code or states.
