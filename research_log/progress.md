@@ -33,3 +33,6 @@ GPU0 run20260913-123718-ttfl-pfl-gpu0 passed MNIST2round+2clientcontext smoke, m
 
 ## 2026-09-13T12:42:32.5327952+08:00 — observed CIFAR100 smoke evaluator repair
 Run20260913-123913-ttfl-pfl-c100-gpu1 completed2roundbaseline thencontextfailed beforemain: supportstatistics callstilldefault10classes; supportonlyclassIDs>=10 led min(empty). Fixedtwo calls to passactualnum_classes, added highnumbered-only regression. Local9testsPASS3.733s. Commit5db9d15. No baseline/datachange. Resumecontextfromexistingsmokecheckpoint; formalCifar100runnotpreviouslystarted. MNIST/Cifar10have10classesandcontinueoriginalrun unaffected.
+
+## 2026-09-13T12:44:53.6275462+08:00 — repaired CIFAR100 and completed MNIST
+Cifar100 fixedrun20260913-124228-ttfl-pfl-c100-fixed active onGPU1,9remotetests andsaved-smoke evaluationpassed thenformal100roundtraining. GPU0MNIST formalbaseline/contextcomplete; Cifar10active. Tinydataretrytest94/100, noTinytrainingyet. Analysis/export scripts added forcomplete receipts, not changingactive scientificcode.
