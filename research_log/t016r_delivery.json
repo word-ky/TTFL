@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-09-14T06:46:17+08:00",
+  "lead": "2bad2a0",
+  "original_lead": "6476c99",
+  "runtime": "e94adc67af83b553a3673aa4fb1971ec68caf4dc",
+  "run": "20260914-063758-ttfl-t016r-cached",
+  "status": "COMPLETE",
+  "gates": {
+    "CAL_SEM_A": false,
+    "CAL_SRC_A": false,
+    "primary": "soft_emission_pinv",
+    "joint_capture": {
+      "BBSE-H-01": {
+        "brightness_dark": false,
+        "contrast_low": false,
+        "gaussian_noise": false,
+        "gaussian_blur": false
+      },
+      "BBSE-H-11": {
+        "brightness_dark": false,
+        "contrast_low": false,
+        "gaussian_noise": false,
+        "gaussian_blur": false
+      },
+      "BBSE-S-01": {
+        "brightness_dark": true,
+        "contrast_low": false,
+        "gaussian_noise": false,
+        "gaussian_blur": false
+      },
+      "BBSE-S-11": {
+        "brightness_dark": true,
+        "contrast_low": false,
+        "gaussian_noise": false,
+        "gaussian_blur": false
+      }
+    },
+    "clean_pass": {
+      "BBSE-H-01": true,
+      "BBSE-H-11": true,
+      "BBSE-S-01": true,
+      "BBSE-S-11": true
+    },
+    "L1_improvement_joint": {
+      "brightness_dark": true,
+      "contrast_low": true,
+      "gaussian_noise": true,
+      "gaussian_blur": true
+    },
+    "source_advantage_joint": {
+      "P11": {
+        "brightness_dark": true,
+        "contrast_low": true,
+        "gaussian_noise": true,
+        "gaussian_blur": true
+      },
+      "uniform": {
+        "brightness_dark": true,
+        "contrast_low": true,
+        "gaussian_noise": true,
+        "gaussian_blur": true
+      }
+    },
+    "formal_repaired_runs": 1,
+    "previous_stop": "2e51d81: implementation preflight stop before science",
+    "diagnosis": "Fixed soft calibration substantially recovers semantic prevalence and improves utility, but still only Dark meets 80% P00 gain capture. Soft channels are full rank (condition about73\u2013210); hard channels rank8\u20139. Large simplex corrections and residual prevalence/task loss remain; Blur has secondary context coupling. No operator failure inferred."
+  },
+  "raw": "research_log/t016r_receipts/20260914-063758-ttfl-t016r-cached/artifacts/t016_confusion_debiased_semantics",
+  "results": "results/t016_confusion_debiased_semantics",
+  "next": "Await Lead; no next scientific task"
+}

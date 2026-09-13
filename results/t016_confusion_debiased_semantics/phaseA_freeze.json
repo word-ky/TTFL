@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-13T22:38:30.516713+00:00",
+  "choices_sha256": "812f7972c6de3453cd4de5252bb1b6d76bce284989cf72441ed82fe9bbb55bf3",
+  "mixtures_sha256": "9df0f672f04fe01d3d3e53a3cc2cdfaecdc4824929cbdba13286abead103e57b",
+  "calibration_sha256": "c3b399a691ce25fe53b10cc6a1ee5b99ddbe47d144d9ff68a05fa6aba16e71c5",
+  "calibration_json_sha256": "514968a2a1b589cbd7db957d67092d4ef2bd8c11a3a8be4f99c4bdb7d4dec098",
+  "choices": 32000,
+  "primary": "soft_emission_pinv",
+  "pinv": "numpy.linalg.pinv(C), library default rcond",
+  "numpy_version": "2.5.3",
+  "target_labels_used_by_own_estimator": false,
+  "target_query_evaluation_opened": false,
+  "calibration_label_scope": "Other-client T011 query labels for hard; other-client K20 support labels for soft. All clients rotate as targets, so global process has read labeled calibration examples, but every target-specific channel excludes that target before loading/summing. Historical T015 replay is isolated and privileged. No assertion that all labels are globally unopened."
+}

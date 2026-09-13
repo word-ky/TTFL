@@ -1,0 +1,11 @@
+{
+  "code_commit": "e94adc67af83b553a3673aa4fb1971ec68caf4dc",
+  "seconds": 28.26207184791565,
+  "numpy_version": "2.5.3",
+  "primary": "soft_emission_pinv",
+  "new_forwards": 0,
+  "tests_passed": 71,
+  "calibration_hard": "other99 T011 query predictions under matching modeled context/state",
+  "calibration_soft": "other99 T015 K20 support posterior under matching modeled context/state",
+  "fixed_solver": "np.linalg.pinv default rcond; standard Euclidean simplex projection"
+}

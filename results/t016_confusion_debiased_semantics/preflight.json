@@ -1,0 +1,105 @@
+{
+  "historical_replay": {
+    "summary": {
+      "SUPPORT_COMP_A": true,
+      "SEM_EST_A": false,
+      "SEM_SRC_A": false,
+      "joint_capture": {
+        "SUPPORT_COMP": {
+          "brightness_dark": true,
+          "contrast_low": true,
+          "gaussian_noise": true,
+          "gaussian_blur": true
+        },
+        "SEM_EST": {
+          "brightness_dark": true,
+          "contrast_low": false,
+          "gaussian_noise": false,
+          "gaussian_blur": false
+        },
+        "SEM_SRC": {
+          "brightness_dark": true,
+          "contrast_low": false,
+          "gaussian_noise": false,
+          "gaussian_blur": false
+        }
+      },
+      "clean_pass": {
+        "P00": true,
+        "P01": true,
+        "P11": true
+      },
+      "uniform_advantage": [
+        {
+          "bank": "A",
+          "target": "brightness_dark",
+          "mean_P11_minus_uniform": 0.0,
+          "passed": false
+        },
+        {
+          "bank": "B",
+          "target": "brightness_dark",
+          "mean_P11_minus_uniform": 0.0,
+          "passed": false
+        },
+        {
+          "bank": "A",
+          "target": "contrast_low",
+          "mean_P11_minus_uniform": 0.024382738357283502,
+          "passed": false
+        },
+        {
+          "bank": "B",
+          "target": "contrast_low",
+          "mean_P11_minus_uniform": 0.09753617603971787,
+          "passed": false
+        },
+        {
+          "bank": "A",
+          "target": "gaussian_noise",
+          "mean_P11_minus_uniform": 0.533300229280097,
+          "passed": true
+        },
+        {
+          "bank": "B",
+          "target": "gaussian_noise",
+          "mean_P11_minus_uniform": 0.5154498734260491,
+          "passed": true
+        },
+        {
+          "bank": "A",
+          "target": "gaussian_blur",
+          "mean_P11_minus_uniform": 0.9571012881055732,
+          "passed": true
+        },
+        {
+          "bank": "B",
+          "target": "gaussian_blur",
+          "mean_P11_minus_uniform": 0.932921052582768,
+          "passed": true
+        }
+      ],
+      "uniform_joint": {
+        "brightness_dark": false,
+        "contrast_low": false,
+        "gaussian_noise": true,
+        "gaussian_blur": true
+      }
+    },
+    "mixture_max_error": 2.220446049250313e-16,
+    "choices_replayed": 56000,
+    "metrics_replayed": 280
+  },
+  "historical_quality_csv_exact": true,
+  "hashes": {
+    "/media/wenchang/F/wjq/TTFL/runs/20260913-123718-ttfl-pfl-gpu0/Cifar10/global_state.pt": "260657670e4b5beefebc7403487ead624a4ec7e19dd0958c7b281c28713cb9fb",
+    "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260913-203200-ttfl-t007r-gpu1/artifacts/t007r_transfer/states.pt": "0d9d5aca7b625a94f24d0802e611838e21772ffd10f81ddf3ef8ecfcc5cb141a",
+    "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260913-224708-ttfl-t009-gpu1/artifacts/t009_natural_context/natural_support_manifest.json": "ba139b530bc231b13dc5f0fe9a370a25050bb74f1264eadc938472f56216afac",
+    "/home/wenchang/asdasdsad/wjq/TTFL/results/t014_class_conditional_factorization/class_templates.json.gz": "cd272ab8de6c9bb582972b0d700fe412af9b6bdc6287c4bc955723d311fd7289",
+    "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-003521-ttfl-t011-gpu1-lf/artifacts/t011_task_proximal/candidate_predictions.npz": "0fa2cfc36400e6dc85c4adf7406ccf574daf2fa8443ee5380ecfd44ee8c49c0a",
+    "/home/wenchang/asdasdsad/wjq/TTFL/research_log/t013_receipts/20260914-t013-local/artifacts/t013_disjoint_factorization/half_integer_counts.npz": "41938b48c2eb7bb5dae846306e0952c5b2253680862c8f0ba26722c7699a9763",
+    "/home/wenchang/asdasdsad/wjq/TTFL/releases/20260914-063742-ttfl-t016r/src/models/pfllib.py": "22acbc42950652b62dd01fba765ddc7204e2dba665643e47bb9dc2edf79162d3"
+  },
+  "all_disjointness_verified": true,
+  "ordering": "Isolated historical T015 replay first. T016 Phase A may use other-client labels for offline calibration only; target outcomes are not estimator inputs. Final target evaluation follows global source freeze."
+}

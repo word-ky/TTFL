@@ -1,0 +1,17 @@
+bank,target,control,mean_gain_pp,passed
+A,brightness_dark,P11,1.0255929424621073,True
+A,brightness_dark,uniform,1.0255929424621073,True
+A,contrast_low,P11,1.1472131714958258,True
+A,contrast_low,uniform,1.1715959098531092,True
+A,gaussian_noise,P11,2.2341577761656715,True
+A,gaussian_noise,uniform,2.7674580054457683,True
+A,gaussian_blur,P11,2.6429788044501947,True
+A,gaussian_blur,uniform,3.6000800925557677,True
+B,brightness_dark,P11,0.7473610980137041,True
+B,brightness_dark,uniform,0.7473610980137041,True
+B,contrast_low,P11,1.387701409419359,True
+B,contrast_low,uniform,1.4852375854590767,True
+B,gaussian_noise,P11,2.5063485038760636,True
+B,gaussian_noise,uniform,3.0217983773021126,True
+B,gaussian_blur,P11,2.7212628044098555,True
+B,gaussian_blur,uniform,3.6541838569926237,True

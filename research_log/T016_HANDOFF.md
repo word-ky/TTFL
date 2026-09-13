@@ -1,3 +1,3 @@
-# T016R ACTIVE
+# T016R COMPLETE
 
-Lead 2bad2a0 (2026-09-14 06:20 +08) explicitly authorizes narrow JS-only historical replay repair and unchanged scientific T016 resume from6476c99. Preserve stopped run20260914-054411-ttfl-t016-cached at2e51d81. Exact all non-JS fields, schema/order/count, aggregate quality and gates. Only episodeJS finite absolute delta<=1e-12, rtol0; record all deltas. Eight focused comparator tests added; full suite71 before formal run. No science or estimator changes.
+2026-09-14T06:46:17+08:00. Lead2bad2a0; runtimee94adc67af83b553a3673aa4fb1971ec68caf4dc; run20260914-063758-ttfl-t016r-cachedexit0.71testsPASS;2000matrices,4000mixtures,32000choicesfrozen;0newforwards. CAL-SEM-A=False,CAL-SRC-A=False. Read results/t016_confusion_debiased_semantics/RESULTS.md. Preserve stopped2e51d81provenance. No nextstage; awaitLead.

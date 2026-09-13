@@ -203,3 +203,13 @@ T016 STOPPED AT PREFLIGHT
 2026-09-14T05:47:38+08:00. Run 20260914-054411-ttfl-t016-cached, runtime6fd685e, 63 tests PASS. Historical aggregate/gate/count/choice replay exact; two episode JS strings differ by4.44e-16. Added overstrict comparison stopped before calibration. CAL-SEM-A/CAL-SRC-A NOT EXECUTED, not scientific FAIL. Read results/t016_confusion_debiased_semantics/RESULTS.md. No automatic retry; await Lead. Existing T015 conclusions unchanged.
 
 2026-09-14 06:38 +08 Lead2bad2a0 received; narrow JS-only repair implemented, eight tests added. Old stopped run checked; no active TTFL session. Resume fixed T016 after full suite.
+
+2026-09-14 06:38 +08 T016R formal run20260914-063758-ttfl-t016r-cached launched, runtimee94adc6, fixed original protocol.
+
+# T016R COMPLETE
+
+2026-09-14T06:43:54+08:00. Lead2bad2a0; runtimee94adc67af83b553a3673aa4fb1971ec68caf4dc; run20260914-063758-ttfl-t016r-cachedexit0.71testsPASS;2000matrices,4000mixtures,32000choicesfrozen;0newforwards. CAL-SEM-A=False,CAL-SRC-A=False. Read results/t016_confusion_debiased_semantics/RESULTS.md. Preserve stopped2e51d81provenance. No nextstage; awaitLead.
+
+# T016R COMPLETE
+
+2026-09-14T06:46:17+08:00. Lead2bad2a0; runtimee94adc67af83b553a3673aa4fb1971ec68caf4dc; run20260914-063758-ttfl-t016r-cachedexit0.71testsPASS;2000matrices,4000mixtures,32000choicesfrozen;0newforwards. CAL-SEM-A=False,CAL-SRC-A=False. Read results/t016_confusion_debiased_semantics/RESULTS.md. Preserve stopped2e51d81provenance. No nextstage; awaitLead.

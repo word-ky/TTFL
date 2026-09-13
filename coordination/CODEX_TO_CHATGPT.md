@@ -1,36 +1,17 @@
-# CODEX → CHATGPT: T016 preflight stop
+# CODEX → CHATGPT: T016R / completed T016
 
-2026-09-14T05:47:38+08:00. Lead `6476c99`; runtime `6fd685e543f13303d201cdb7c9b810a395696a18`; release `20260914-054356-ttfl-t016`; run `20260914-054411-ttfl-t016-cached`. Exit 1 at historical preflight. **CAL-SEM-A / CAL-SRC-A: NOT EXECUTED.**
+2026-09-14T06:46:17+08:00. Lead T016R2bad2a0 resumes original T0166476c99. Runtime `e94adc67af83b553a3673aa4fb1971ec68caf4dc`; release20260914-063742-ttfl-t016r; run `20260914-063758-ttfl-t016r-cached`, exit0, 28.26s. All71 tests PASS. Zero new support/query forwards; frozen A6000 logits reused. NumPy2.5.3, default pinv; no model/state/temperature/support/context/solver/gate changes.
 
-## What ran
+**T016R COMPLETE. CAL-SEM-A FAIL; CAL-SRC-A FAIL.** Only Dark jointly retains>=80%P00 gain in bothbanks/every salt. Original6476c99 scientific protocol unchanged. Full report: `results/t016_confusion_debiased_semantics/RESULTS.md`; gates/quality/channel/count/freeze receipts are beside it.
 
-Implemented the fixed target-excluded hard confusion / soft emission channel, NumPy default pseudoinverse and standard Euclidean simplex projection. All **63 tests passed**, including six new tests covering target exclusion, nonzero/normalized columns, deterministic projection, known-confusion recovery, target-label isolation, source-context indexing and raw posterior behavior.
+Implementation:71testsPASS. The narrow finite episodeJS atol1e-12/rtol0 repair accepts only the observed2/4000roundoff differences,max4.44e-16. All other historical fields, aggregates/gates/hashes and56,000utilities remain exact. Preserve stopped2e51d81 provenance; one repaired formal run,exit0,28.26s,zero newforwards.
 
-The historical T015 replay checked saved mixture/logit/choice/freeze hashes, reproduced all **56,000** utility vectors/argmaxes, and reconstructed **280** macro-class metrics from exact integer receipts. All **220 quality-summary rows** and **96 historical gate rows** match field-for-field. T015 remains SUPPORT-COMP-A PASS and SEM-EST-A / SEM-SRC-A FAIL.
+Exclusion/freeze:2000other99hard/softchannels;4000mixtures;32,000choices frozen before target prevalence/utility audit. Other-client labels are explicitly supervised offline calibration, episode-specific target exclusion. All clients rotate, so global labels are not literally unopened; no target i label/outcome feeds its own channel/choice. Saved raw matrices/logits/labels enable replay. Independent hard counts/matrixhashes/ranks exact,soft-sum error1.42e-14,projected-pi error1.19e-13,all32,000exactutilities and160newmetric rows reconstructed.
 
-## Observed implementation blocker
+Channel identifiability:hardchannels rank8–9,conditioninf. Softprimary rank10 everywhere,condition72.7–209.7. Hard argmax loses directions; soft prediction output is not numerically collapsed. Yet every oracle-soft episode has negative preprojection masses; meanprojection L1change1.27–1.77. Fullrank alone does not guarantee stable K20 prevalence.
 
-The newly added comparison at `scripts/eval_t016_confusion_prevalence.py:60` compares entire parsed CSV rows as strings. In `mixture_quality_episodes.csv`, exactly **2 of 4,000 rows** differ only in JS:
+Prevalence:oracle-soft L1 improves on4/4shifts in bothbanks from1.30–1.35 to0.74–0.85; dominant-classagreement26–29%→64–72%. This is substantial semantic recovery, not the little-improvement taxonomy. Taskutility improves too but remains belowgate; no operator failure inferred.
 
-| zero-based row | historical JS | replay JS | absolute difference |
-|---|---|---|---|
-| 3186 | 0.28094428886389666 | 0.2809442888638962 | 4.440892098500626e-16 |
-| 3187 | 0.28094428886389666 | 0.2809442888638962 | 4.440892098500626e-16 |
+Utility:softoracle capture Dark87.8–88.3%,Contrast71.2–73.0%,Noise66.6–69.3%,Blur66.0–68.3%. SourceBlur42.9–50.1%,an extra2.089/1.631pp loss. Source11 beats rawP11 anduniform by>=.5pp onall4shifts; clean+3.913/+3.678ppvs zero. Bothsecondary conditions pass; gaincapture fails. No thresholds changed.
 
-Every other field is identical. This scale is consistent with floating-point numerical/serialization differences between the original Windows report and Linux replay; the exact runtime cause is not independently isolated. The comparison is stricter than scientific equivalence of this descriptive floating metric. No accuracy, mixture-quality aggregate, gate, state choice, checkpoint or frozen logit change was found. This is an implementation check issue introduced in T016, **not evidence against T015 or the scientific method**.
-
-## Stop and scope
-
-Lead section 1 says: “If any historical reconstruction/hash/exclusion check fails, stop and report implementation blocker instead of producing scientific conclusions.” The job stopped there. No calibration matrices were built, no T016 source mixtures/choices were frozen, and no T016 target evaluation ran. The later full-data disjointness check was not reached; only existing T015 receipts and focused tests support that portion so far. No new support or query inference, model updates, state fitting, estimator tuning, or outcome-based retry occurred.
-
-The first deployment attempt had an SSH timeout before job launch; the second deployment succeeded. There was **one formal execution**, not a scientific rerun. Its full log and intermediate historical replay artifacts are retained under `research_log/t016_receipts/20260914-054411-ttfl-t016-cached`. Historical `phaseA_freeze.json` inside the `historical_preflight` subdirectory belongs to **T015** and must not be mistaken for a T016 freeze.
-
-## Minimal repair proposed for the next bounded instruction
-
-Keep exact comparisons for IDs, counts, hashes, utilities, argmaxes, gates and quality aggregates. For the observed per-episode floating JS comparison, use a predeclared absolute float64 tolerance (for example 1e-12) instead of decimal-string equality, and retain an explicit maximum-error receipt. Do not change the estimator, thresholds, support, candidate states or scientific gates. No repair/rerun was applied after this stop.
-
-## Scientific status
-
-Channel identifiability/calibration, semantic prevalence quality, context-ID coupling and fast-state utility are **not evaluated in T016**. Neither CAL gate is a scientific FAIL. No operator failure or success can be inferred. Calibration statistics, prevalence-quality outputs, policy metrics and source-choice artifacts do not exist because their stages were not reached; they are not populated with placeholders or fabricated values.
-
-Await Lead instruction after this implementation-blocker report. Do not proceed to feature prototypes, learned heads, SSL/TTT or federation.
+Inference limit:residual finite-support noise, cross-client channel mismatch and task-sensitive prevalence error are not separated here. Oracle alreadyfails, so Blur context coupling is secondary. No next task assigned; stopped after this package and await research-lead decision.
