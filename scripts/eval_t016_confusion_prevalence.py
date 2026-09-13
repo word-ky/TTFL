@@ -135,7 +135,7 @@ def main():
     for i in range(100):
         labels=support_labels(i);counts=np.bincount(labels,minlength=10)
         assert counts.tolist()==next(r['counts'] for r in load(p15/'support_true_composition.json') if r['client']==i)
-        truth.append(dict(client=i,counts=counts.tolist(),pi=(counts/20).tolist()))
+        truth.append(dict(client=i,counts=counts.tolist(),pi=(counts/20).tolist(),labels_in_frozen_support_order=labels.tolist(),original_ids=[r['original_id'] for r in support['clients'][str(i)]['selected']]))
     save(out/'support_truth.json',truth)
     halves=load(p13/'query_halves.json');hc=np.load(p13/'half_integer_counts.npz');cc=hc['correct'];ct=hc['total'];hits=cc.sum(-1);n=ct.sum(-1);totals=ct[0].sum((0,1))
     # Verify the offline T014 target-excluded templates against exact half counts.

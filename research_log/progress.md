@@ -193,3 +193,5 @@ A6000GPU1 run20260914-043941-ttfl-t015-gpu1 runtime099c5f1; stagedlabel-free/pri
 Runtime099c5f1 run20260914-043941-ttfl-t015-gpu1. Supportsampleadequatebutfrozenposteriorsemanticmixturefailswithoraclecontext. Allfreezes/hash/model/57tests/count/utilitychecksPASS. ReportnegativeobservabilityandsecondaryBlurloss; no newwriter/stage.
 
 2026-09-14 05:36 +08 T016 Lead 6476c99 synchronized; implementing fixed confusion audit, reusing T015 logits (no inference needed).
+
+2026-09-14 05:44 +08 Initial T016 deployment SSH timeout before launch; no experiment ran. Retrying transport. Preserve per-example calibration labels after freeze for independent soft-channel reconstruction.
