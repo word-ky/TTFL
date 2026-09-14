@@ -1,0 +1,11 @@
+# T021 frozen representation audit
+
+Lead `7b5bb34`. The BER branch is closed. Keep checkpoint, K20 natural support IDs, five neutral states, T009 context decisions, T014 target-excluded utility templates and exact CLS objective/tolerances fixed. Compare raw10-D logits L and canonical512-D fc1/ReLU features H. No learning, preprocessing change, normalization, whitening, covariance/PCA/ridge, temperature or new state.
+
+First replay historical T015 batches of20 on GPU, same CUDA device1, both banks/all contexts/oracle and source paths. Preflight IDs are the20 evenly spaced integer IDs from0..99 plus64/87 (deduplicated). Require max logit abs<=1e-6, identical argmax, finite H/L, eval+no_grad, unchanged global/state hashes, and no support/calibration/query overlap. Failure is T021-I and stops analysis. The extractor is experiment-local and mirrors the existing forward arithmetic.
+
+After passing extraction, form class means from other99clients only. Oracle models use t@state-t; source models c@state-c with target t@state-c; controls use clean@state-t on the same target t@state-t. Freeze all label-free target choices before scoring true composition or query counts. Other-client support labels are offline calibration only; target-i labels never enter target-i prototype or estimate.
+
+Existing ActiveSetCLS already forms10x10 Gram M.T@M and direct M.T@m for a rectangular matrix; its pseudoinverse warm start is of the512x10 prototype matrix, not a512x512 covariance. Preserve this algebra/objective, with the authorized cycle-only1023-face fallback and unchanged acceptance. Record ranks/eigenvalues/condition without tuning.
+
+After complete Phase-A freeze, matched R128 draws preserve exact target K20 counts with full SHA256(`T021|matched|representation|client|bank|context|replica`) big-endian PCG64. Inherit T018 matched median-capture/real capture>=80% in both banks/all salts for>=3/4shifts and existing safety rules. Regret and same-state-context gates require>=15% mean reduction and<=5% p90 worsening in>=3/4shifts, both banks/all salts. Source scoring only if representation REAL passes. Preferred diagnosis order and flags exactly follow Lead; no representation cherry-picking or next stage.
