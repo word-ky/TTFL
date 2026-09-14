@@ -13,5 +13,10 @@
   "diagnosis": "T023-F",
   "CTX": "CTX-",
   "next": "Await Lead; no alternate SSL/writer/FL/T024",
-  "result_artifact_commit": "f680887537ae751156186d16096454b909d8e27b"
+  "result_artifact_commit": "f680887537ae751156186d16096454b909d8e27b",
+  "remote_mirror_verified": {
+    "archive_sha256": "e0c9c3ae3e866ccaef023fb1b8f97f84f18494354f0ca43c08e380349c7a7f4b",
+    "report_sha256": "5d323fc65fbfc1331daec34cdff79ffe5515a79b11f00620c1e01dd3a5ef02ad",
+    "remote_project": "/home/wenchang/asdasdsad/wjq/TTFL"
+  }
 }
