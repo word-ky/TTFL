@@ -343,3 +343,5 @@ T016 STOPPED AT PREFLIGHT
 2026-09-14T19:41:15.9464574+08:00 T022 extraction exit0: 3193 new GPU paths,1807 reused. Response-mode Phase-A and exact-count T022 matched seed namespace implemented; focused tests pass. Phase-A next.
 
 2026-09-14T19:45:45.0920727+08:00 T022 Phase-A run20260914-194148-ttfl-t022-phase-a exit0/133testsPASS;6000CLS/48000choices frozen. Matched run20260914-194335-ttfl-t022-matched active, runtime d114147734cfbdc354c112c1403d3218af825561. Added T022 score and independent signature/actual-CLS/count/gate replay.
+
+2026-09-14T19:49:13.8260844+08:00 T022 matched run20260914-194335-ttfl-t022-matched exit0,256000CLS frozen. Scoring attempt20260914-194816-ttfl-t022-score incorrectly annotated runtime c5ba764b_PLACEHOLDER; retained as superseded. Correct runtime c5ba764761561e953680519dbdc27a62c5b915c1 scoring run20260914-194845-ttfl-t022-score-receipt. Preliminary diagnosis T022-N, independent verification pending; no source scoring/new stage.
