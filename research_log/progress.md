@@ -387,3 +387,5 @@ Scoring runtimec5ba764761561e953680519dbdc27a62c5b915c1, verifier9caac731bd42a9e
 Verified result artifact commit: `ae1d5b406845abcbde49cf344e9b11911a614fcf`. Code and compact receipts pushed to word-ky/TTFL main. Await Lead; T022-N closes this frozen first-moment observer branch.
 
 2026-09-14T21:19:17.4915254+08:00 Lead89466b3 T023 accepted. Read current coordination and reuse skills; remote no active tmux jobs. Implemented fixed SHA folds, label permutations and float64 minimum-norm rotation probes.3focused tests PASS against independent lstsq; extraction ready. User replenished quota and requested continuation; task unchanged.
+
+2026-09-14T21:22:08.8718941+08:00 T023 extraction deployed runtimec73385b58e0879e64570e0935de5ddd9bf443989;run20260914-212025-ttfl-t023-extract-gpu1 active. Implemented Phase-A5000state scores+16scramble replicas and independent lstsq2000cross-fitted score audit before choice freeze.
