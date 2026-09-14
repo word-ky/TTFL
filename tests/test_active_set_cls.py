@@ -1,4 +1,6 @@
 import unittest
+import json
+from pathlib import Path
 import numpy as np
 from src.context.constrained_prevalence import ActiveSetCLS, direct_kkt, face_reference
 
@@ -15,6 +17,29 @@ def synthetic_bank():
 
 
 class ActiveSetTest(unittest.TestCase):
+    def test_frozen_cached_inverse_blocker(self):
+        data=json.loads((Path(__file__).parent/'fixtures/t018r2_blocker.json').read_text())
+        C=np.array(data['C']);q=np.array(data['q']);old=np.array(data['old_cached_pi'])
+        self.assertGreater(abs(old.sum()-1),1e-12)
+        p,r=ActiveSetCLS(C).solve(q);ref,obj=face_reference(C,q)
+        self.assertEqual(np.flatnonzero(p>1e-12).tolist(),[0,1,2,3,6,8,9])
+        self.assertLessEqual(r['sum_error'],1e-12);self.assertLessEqual(r['direct_KKT'],1e-10)
+        self.assertEqual(r['clipped_coordinates'],0)
+        np.testing.assert_allclose(p,ref,rtol=0,atol=1e-7)
+        self.assertLessEqual(abs(r['objective']-obj),1e-10)
+
+    def test_cached_matrices_many_rhs(self):
+        rng=np.random.default_rng(18002)
+        for C,_ in list(synthetic_bank())[3::3]:
+            solver=ActiveSetCLS(C)
+            observations=[C@rng.dirichlet(np.ones(10))+rng.normal(0,.01,10) for _ in range(20)]
+            first=[solver.solve(q) for q in observations]
+            matrices={a:K.copy() for a,K in solver.face_systems.items()}
+            for q,(p,r) in zip(observations,first):
+                again,rr=solver.solve(q);np.testing.assert_array_equal(again,p);self.assertEqual(r,rr)
+                self.assertLessEqual(r['sum_error'],1e-12);self.assertLessEqual(r['direct_KKT'],1e-10)
+            for a,K in matrices.items():np.testing.assert_array_equal(K,solver.face_systems[a])
+
     def test_full_rank_noise_free(self):
         rng = np.random.default_rng(18)
         for _ in range(6):

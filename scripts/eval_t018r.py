@@ -27,13 +27,13 @@ def main():
     p15=project/'runs/20260914-043941-ttfl-t015-gpu1/artifacts/t015_unlabeled_semantic_mixture'
     p16=project/'runs/20260914-063758-ttfl-t016r-cached/artifacts/t016_confusion_debiased_semantics'
     p17=project/'runs/20260914-083609-ttfl-t017r-cached/artifacts/t017_channel_noise_decomposition'
-    save(out/'protocol_freeze.json',dict(lead='8d12997',scientific_lead='1744440',runtime=a.commit,preflight=str(pre),preflight_sha256=sha(pre/'solver_verification.json'),
-        estimator='same CLS-S objective; active-set numerical repair only',K=20,replicas=128,resampling=False,new_model_forwards=0,
+    save(out/'protocol_freeze.json',dict(lead='c8aea5b',scientific_lead='1744440',runtime=a.commit,preflight=str(pre),preflight_sha256=sha(pre/'solver_verification.json'),
+        estimator='same CLS-S objective; direct RHS face application only',K=20,replicas=128,resampling=False,new_model_forwards=0,
         source_q_sha256=sha(p17/'bootstrap_arrays.npz'),gate='80% capture both banks/all salts >=3/4 contexts',real_safety='no shifted regression >0.5pp',clean_safety='>=-0.5pp',
         selection='raw CLS prevalence, exact rational first argmax; no tie override'))
     cal=np.load(p16/'calibration_counts.npz');truth={r['client']:r for r in load(p16/'support_truth.json')}
     saved=np.load(p17/'bootstrap_arrays.npz');qraw=saved['q'][0];oldpi=saved['pi'][0];oldchoices=saved['choices'][0];olddu=saved['DU'][0]
-    shape=(100,2,5,128);piraw=np.zeros(shape+(10,));updates=np.zeros(shape,dtype=np.uint8);kkt=np.zeros(shape);improvement=np.zeros(shape)
+    shape=(100,2,5,128);piraw=np.zeros(shape+(10,));updates=np.zeros(shape,dtype=np.uint8);kkt=np.zeros(shape);improvement=np.zeros(shape);sum_error=np.zeros(shape)
     # All matched observations are certified before any scientific metric is computed.
     for i in range(100):
         for bi,b in enumerate(B):
@@ -47,11 +47,13 @@ def main():
                     except Exception as error:
                         save(out/'blocker.json',dict(stage='matched_solver',cell=list(loc),error=repr(error),q=qraw[loc].tolist(),query_metrics_opened=False))
                         raise
-                    piraw[loc]=pi;updates[loc]=receipt['updates'];kkt[loc]=receipt['direct_KKT'];improvement[loc]=receipt['initial_objective']-receipt['objective']
+                    piraw[loc]=pi;updates[loc]=receipt['updates'];kkt[loc]=receipt['direct_KKT'];improvement[loc]=receipt['initial_objective']-receipt['objective'];sum_error[loc]=receipt['sum_error']
         print('T018R_MATCHED_SOLVER_CLIENT',i,'seconds',round(time.time()-start,1),flush=True)
-    np.savez_compressed(out/'matched_solver.npz',pi=piraw,updates=updates,KKT=kkt,objective_improvement=improvement)
+    np.savez_compressed(out/'matched_solver.npz',pi=piraw,updates=updates,KKT=kkt,sum_error=sum_error,objective_improvement=improvement)
     save(out/'matched_solver_verification.json',dict(cases=int(np.prod(shape)),max_KKT=float(kkt.max()),max_updates=int(updates.max()),
-        min_objective_improvement=float(improvement.min()),source_q_sha256=sha(p17/'bootstrap_arrays.npz'),new_model_forwards=0))
+        min_objective_improvement=float(improvement.min()),source_q_sha256=sha(p17/'bootstrap_arrays.npz'),new_model_forwards=0,
+        max_sum_error=float(sum_error.max()),diagnostics={name:dict(zip(('p95','p99','max'),[float(x) for x in np.quantile(arr,[.95,.99,1.])])) for name,arr in [('KKT',kkt),('sum_error',sum_error),('updates',updates),('objective_improvement',improvement)]},
+        previous_blocker=dict(client=35,bank='B',context='brightness_dark',replica=7,pi=piraw[35,1,1,7].tolist(),KKT=float(kkt[35,1,1,7]),sum_error=float(sum_error[35,1,1,7]),updates=int(updates[35,1,1,7]))))
     hc=np.load(p13/'half_integer_counts.npz');cc=hc['correct'];ct=hc['total'];totals=ct[0].sum((0,1))
     templates={(r['salt'],r['bank'],r['train_half'],r['target_client']):[[[Fraction(x) for x in row] for row in ctx] for ctx in r['utility']] for r in gzload(p14/'class_templates.json.gz')['rows']}
     zero={(r['salt'],r['bank'],r['target']):macro(r['class_correct'],r['class_total']) for r in load(p13/'integer_count_receipts.json') if r['policy']=='zero'}

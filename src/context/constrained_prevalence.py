@@ -49,7 +49,7 @@ class ActiveSetCLS:
         self.C = np.array(C, dtype=np.float64, copy=True)
         self.H = self.C.T @ self.C
         self.pinv = np.linalg.pinv(self.C)
-        self.maps = {}
+        self.face_systems = {}
 
     def solve(self, q):
         q = np.asarray(q, dtype=np.float64)
@@ -62,12 +62,12 @@ class ActiveSetCLS:
                 raise RuntimeError(f'working-set cycle: {trace}, repeated={active}')
             seen.add(active)
             m = len(active); idx = list(active)
-            if active not in self.maps:
+            if active not in self.face_systems:
                 K = np.zeros((m+1, m+1))
                 K[:m, :m] = self.H[np.ix_(idx, idx)]
                 K[:m, m] = 1.; K[m, :m] = 1.
-                self.maps[active] = np.linalg.solve(K, np.eye(m+1))
-            x = (self.maps[active] @ np.append(f[idx], 1.))[:m]
+                self.face_systems[active] = K
+            x = np.linalg.solve(self.face_systems[active], np.append(f[idx], 1.))[:m]
             if not np.all(np.isfinite(x)):
                 raise RuntimeError(f'nonfinite face solve: {active}')
             entry = dict(active=list(active), minimum=float(x.min()))
@@ -96,7 +96,7 @@ class ActiveSetCLS:
                     obj = float(.5*np.sum((self.C@pi-q)**2))
                     initial_obj = float(.5*np.sum((self.C@initial-q)**2))
                     return pi, dict(iterations=updates, updates=updates, trace=trace,
-                        converged=True, cap_hit=False, direct_KKT=kkt,
+                        converged=True, cap_hit=False, direct_KKT=kkt, sum_error=float(abs(pi.sum()-1.)),
                         objective=obj, initial_objective=initial_obj,
                         active_classes=int(positive.sum()), clipped_coordinates=clipped,
                         L1_change=float(np.abs(pi-initial).sum()),

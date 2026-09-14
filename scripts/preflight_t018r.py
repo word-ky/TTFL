@@ -25,10 +25,10 @@ def main():
     for name in ('solver_subset.csv','solver_vectors.json','solver_verification.json'):
         inputs[str(old/name)]=sha(old/name)
     save(out/'input_hashes.json',inputs)
-    save(out/'protocol_freeze.json',dict(lead='8d12997',scientific_lead='1744440',runtime=a.commit,
-        objective='unchanged 0.5*||C*pi-q||^2 on simplex',repair='solver only; deterministic active set',
+    save(out/'protocol_freeze.json',dict(lead='c8aea5b',scientific_lead='1744440',runtime=a.commit,
+        objective='unchanged 0.5*||C*pi-q||^2 on simplex',repair='T018R2 direct RHS application only; same active set',
         warm_start='unchanged ProjectSimplex(pinv(C)@q)',negative_face_tolerance=1e-12,dual_KKT_tolerance=1e-10,
-        max_updates=100,cache='KKT inverse via numpy.linalg.solve(K,identity), lazy per channel and active mask',
+        max_updates=100,cache='KKT matrix only; numpy.linalg.solve(K,actual_rhs) on each visit',
         subset='same clients0..19 x banksA/B x five contexts',new_model_forwards=0,query_metrics_opened=False))
     cal=np.load(p16/'calibration_counts.npz');truth={r['client']:r for r in load(p16/'support_truth.json')}
     obs={(r['client'],r['bank'],r['target']):r for r in gzload(p16/'source_mixtures.json.gz') if r['policy']=='BBSE-S-01'}
@@ -37,8 +37,19 @@ def main():
     oldrows={(int(r['client']),r['bank'],r['context']):r for r in csv.DictReader((old/'solver_subset.csv').open())}
     oldvec={(r['client'],r['bank'],r['context']):r for r in load(old/'solver_vectors.json')}
     noise=[];rows=[];vectors=[];audit=[];singleton=tied=0
-    stage='noise_free';cell=None
+    stage='frozen_blocker_regression';cell=None
     try:
+        blocked=project/'runs/20260914-124709-ttfl-t018r-science/artifacts/t018r_constrained_prevalence'
+        blocker=load(blocked/'blocker.json');diagnosis=load(blocked/'blocker_diagnosis.json')
+        i,bi,ti,replica=blocker['cell'];cell=(i,B[bi],C[ti],replica)
+        matrix=cal['soft_numerator'][i,bi,ti]/cal['soft_denominator'][i,bi,ti][None,:];q=np.array(blocker['q'])
+        fixture=load(ROOT/'tests/fixtures/t018r2_blocker.json')
+        np.testing.assert_array_equal(matrix,fixture['C']);np.testing.assert_array_equal(q,fixture['q'])
+        pi,r=ActiveSetCLS(matrix).solve(q);ref,obj=face_reference(matrix,q)
+        assert r['clipped_coordinates']==0 and r['sum_error']<=1e-12 and np.max(np.abs(pi-ref))<=1e-7 and abs(r['objective']-obj)<=1e-10
+        save(out/'frozen_blocker_regression.json',dict(cell=blocker['cell'],old_cached_pi=diagnosis['cached_pi'],old_sum_error=diagnosis['cached_sum_error'],
+            new_pi=pi.tolist(),reference_pi=ref.tolist(),reference_error=float(np.abs(pi-ref).max()),reference_objective_error=abs(r['objective']-obj),**r))
+        stage='noise_free'
         for i in range(100):
             true=np.array(truth[i]['pi'])
             for bi,b in enumerate(B):
@@ -94,7 +105,9 @@ def main():
     save(out/'solver_verification.json',dict(status='PASS',subset_cases=len(rows),historical_cap_cases_repaired=sum(r['old_PGD_cap'] for r in rows),
         historical_converged_cases_equivalent=sum(not r['old_PGD_cap'] for r in rows),all_actual_cases=len(audit),
         max_prevalence_error=max(r['prevalence_error'] for r in rows),max_objective_error=max(r['objective_error'] for r in rows),
-        max_KKT=max(r['direct_KKT'] for r in audit),max_updates=max(r['updates'] for r in audit),new_model_forwards=0,query_metrics_opened=False))
+        max_KKT=max(r['direct_KKT'] for r in audit),max_sum_error=max(r['sum_error'] for r in audit),max_updates=max(r['updates'] for r in audit),
+        distributions={k:dict(zip(('p95','p99','max'),[float(x) for x in np.quantile([r[k] for r in audit],[.95,.99,1.])])) for k in ('updates','active_classes','direct_KKT','sum_error')},
+        new_model_forwards=0,query_metrics_opened=False))
     save(out/'metadata.json',dict(status='PASS',runtime=a.commit,seconds=time.time()-start,numpy_version=np.__version__,source_hashes_unchanged=True))
     print('T018R_PREFLIGHT_PASS',flush=True)
 
