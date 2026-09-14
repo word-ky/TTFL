@@ -323,3 +323,5 @@ T016 STOPPED AT PREFLIGHT
 2026-09-14T18:40:56.8566482+08:00 T021 matched runtime18ea37d/run20260914-183911-ttfl-t021-matched running after Phase-Afreeze. L bankA complete, bankBprogress;fixedR128 targetcounts. No queryscores yet.
 
 2026-09-14T18:45:45.5895718+08:00 T021 matchedrun20260914-183911-ttfl-t021-matched exit0;256000CLS/2048000choices frozen. Gatehelper3focusedtestsPASS beforequeryscoring. Implemented inheritedT018matchedmedian80%,realvsBBSE-.5pp/sourcecleanvszero-.5pp safety unchanged;P/L/Hregretandcontextcontrols, sourcescoredonlyforREALpass.
+
+2026-09-14T18:50:43.7162480+08:00 T021 science runtimea5b74e1/run20260914-184639-ttfl-t021-score exit0. PreliminaryT021-M: L matched3/4,H4/4; bothreal1/4Dark; bothREPREGRET0/4fail; CTX L3/4,H4/4pass;sourceNOT_EXECUTED. Matched9cyclefallbacks (explicitauthorizedpath),actual0. Added independent originalmodel+FC-hook replay andprototype/CLS/choice/count/gate/fallback verifier before finaldelivery.
