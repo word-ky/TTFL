@@ -31,6 +31,7 @@ def main():
     zero={(r['salt'],r['bank'],r['target']):macro(r['class_correct'],r['class_total']) for r in load(p13/'integer_count_receipts.json') if r['policy']=='zero'}
     p00={(r['salt'],r['bank'],r['target']):macro(r['class_correct'],r['class_total']) for r in load(p15/'integer_count_receipts.json') if r['policy']=='P00'}
     bbse={(r['salt'],r['bank'],r['target']):macro(r['class_correct'],r['class_total']) for r in load(p16/'integer_count_receipts.json') if r['policy']=='BBSE-S-01'}
+    bbse_source={(r['salt'],r['bank'],r['target']):macro(r['class_correct'],r['class_total']) for r in load(p16/'integer_count_receipts.json') if r['policy']=='BBSE-S-11'}
     historical={(r['salt'],r['bank'],r['context']):macro(r['class_correct'],r['class_total']) for r in load(p18/'integer_count_receipts.json') if r['mode']=='01'}
     tv={};ru={};optimal={}
     for i in range(100):
@@ -64,7 +65,7 @@ def main():
                                 true_template_regret_exact=str(reg),true_template_regret=float(reg),optimal_set=state in optimal[key],canonical=state==optimal[key][0],L1=l1))
                     key=s,b,t;acc=macro(count,totals);cap=(acc-zero[key])/(p00[key]-zero[key]);mean=sum(regrets,Fraction())/len(regrets)
                     row=dict(representation=rep,policy=policy,bank=b,context=t,salt=s,macro_class=float(acc),macro_class_exact=str(acc),capture=float(cap),capture_exact=str(cap),
-                        delta_vs_BBSE_pp=float(acc-bbse[key]),clean_delta_vs_zero=float(acc-zero[key]),true_template_regret=float(mean),true_template_regret_exact=str(mean),
+                        delta_vs_BBSE_pp=float(acc-(bbse_source if policy=='source' else bbse)[key]),clean_delta_vs_zero=float(acc-zero[key]),true_template_regret=float(mean),true_template_regret_exact=str(mean),
                         regret_p90=float(np.quantile([float(x) for x in regrets],.9)),optimal_set_agreement=hits/200,canonical_agreement=can/200,L1=float(np.mean(L1)))
                     if rep=='P':assert acc==historical[key]
                     rows.append(row);counts_receipts.append(dict(representation=rep,policy=policy,bank=b,context=t,salt=s,class_correct=count.tolist(),class_total=totals.tolist()))
