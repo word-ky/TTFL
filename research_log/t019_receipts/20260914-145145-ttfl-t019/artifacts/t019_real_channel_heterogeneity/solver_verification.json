@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "counts": {
+    "actual": 1000,
+    "all_repaired": 1000,
+    "single_repaired": 2760,
+    "null": 128000,
+    "paired_clean": 102400
+  },
+  "max_KKT": 5.276997180087768e-16,
+  "max_sum_error": 4.440892098500626e-16,
+  "max_updates": 13,
+  "all_repaired_sanity": true,
+  "source_exclusion": true,
+  "seed_replays": 1000,
+  "new_model_forwards": 0,
+  "query_metrics_opened": false
+}

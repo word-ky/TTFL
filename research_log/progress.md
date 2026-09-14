@@ -273,3 +273,9 @@ T016 STOPPED AT PREFLIGHT
 2026-09-14T14:55:47.5463052+08:00 T019 launched run20260914-145145-ttfl-t019 release20260914-145126-ttfl-t019 runtime6b5b2c0162ae46d8b4db18d06393d932147ade15; tests then posterior/utility preparation only. Implemented downstream per-cell null percentiles, exact utility-ranked class repair, all-salt gates and final query layer after mechanism hashes.
 
 2026-09-14T14:56:47.6824238+08:00 T019 preparation exit0/180.53s;107testsPASS; PhaseA and all posterior/null/repair/paired utility choices frozen. Scientific clarification from existing bootstrap_observation: T017 K20 already conditions on exact counts. T019 adds per-class seed streams, decomposition, task-null percentiles, repairs and paired IDs; do not claim newly removed composition randomness relative to T017.
+
+2026-09-14T14:59:17.4447596+08:00 T019 finish runtime15ad29fb9195240b290231a75c84ccddf05c9c5d run20260914-145757-ttfl-t019-finish writes into original20260914-145145 artifact directory. First finish deployment timed out before creating release; confirmed original run exit0/current old, then redeployed as20260914-145739-ttfl-t019-finish. No preparation rerun.
+
+# T019 COMPLETE — T019-X
+
+2026-09-14T15:05:51+08:00. Lead d37bbc4. Prep6b5b2c0/run20260914-145145-ttfl-t019;finish15ad29f/run20260914-145757-ttfl-t019-finish;both exit0.107testsPASS;zero newforwards. TASK-MISMATCH-A0/3FAIL;CTX-SPEC-A0/3FAIL;LOCAL-AallcontextsPASS. Contrast/Noise/Blur task tails2–11%,pairedtails12–19%;cleanunion11/17%. Small-margin state errors frequent but upperhalf margins carry62.02%true regret: mixed, not forced S. T017 K20 already fixed class counts; T019 adds decomposition/paired/repair diagnostics. Read results/t019_real_channel_heterogeneity/RESULTS.md and independent_verification.json. Await Lead; no nextstage.

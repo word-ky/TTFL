@@ -1,0 +1,20 @@
+{
+  "runtime": "15ad29fb9195240b290231a75c84ccddf05c9c5d",
+  "query_metrics_opened": false,
+  "choices_freeze_sha256": "0b42f9cc62bb1dcd83a8cec630f1581e7eb3b3d87797e74146e0433dc528efbe",
+  "hashes": {
+    "matched_exact_count_null_cells.csv": "de04b741a198633c861365a90c1bbe107a6903310408aa62fd8930cb9aa264db",
+    "per_class_null_summary.csv": "5603199176e6a84637983739a0116163329a993ae02176b125380a636353ad08",
+    "task_actual_vs_null_cells.csv": "3d39252c4bf34f411e8c9da1b9b7612640e71317c6a600485336870b9c158f7f",
+    "one_class_repair_attribution.csv": "de76401bf27280e7f12af453f07094c06ea8f3208e4c942de24916abb03842f4",
+    "localization_clients.csv": "d049f456f708c8b1be5f27924918a667e1ae9c8ab6aeb13187dc51d9cf8c6fa7",
+    "paired_context_cells.csv": "591dd412f430bb84f9351bb98f5b9f4acc15636c2d84af233eb56b8410e237d5",
+    "paired_class_residuals.csv": "abf4312f06305a418898ddda0d81dfbadfa204d3379fe6ae2e75c21ec2120e48",
+    "matched_exact_count_null_summary.csv": "f6a3bde35228f51b3cdfa40a84f32ea486dc35eb6f54e14e76eec300adf1ebc8",
+    "task_actual_vs_null_summary.csv": "c966a72990c96922b909cf783a72b79992279ae5fc00d96c4d43ae69b2aedb19",
+    "paired_context_summary.csv": "6848bc221f118652cc68144ca263919a70cdf17c09d48bf1620022aca4c6e50b",
+    "localization_summary.csv": "e412221b6995eb9beeaddcd42bc1891a01ff6c8bddbc33f0059bb90ec9890551",
+    "utility_margin_quartiles.csv": "91b12bc5b95d590d07502f006932d15218e532b1b57560dcd6645b1670dd4035",
+    "diagnostic_gates.json": "d034a7defc15a50cce447722c7d1686ef9c9eae597c47c8a65ae37ed400b6ead"
+  }
+}

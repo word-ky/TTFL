@@ -1,0 +1,68 @@
+{
+  "TASK_MISMATCH_A": false,
+  "CTX_SPEC_A": false,
+  "task_context_pass": {
+    "brightness_dark": false,
+    "contrast_low": false,
+    "gaussian_noise": false,
+    "gaussian_blur": false
+  },
+  "context_specific_pass": {
+    "brightness_dark": false,
+    "contrast_low": false,
+    "gaussian_noise": false,
+    "gaussian_blur": false
+  },
+  "LOCAL_A": {
+    "clean": true,
+    "brightness_dark": true,
+    "contrast_low": true,
+    "gaussian_noise": true,
+    "gaussian_blur": true
+  },
+  "substantial_clean_excess": false,
+  "clean_excess": [
+    {
+      "bank": "A",
+      "salt": "T013-S0",
+      "fraction": 0.11
+    },
+    {
+      "bank": "A",
+      "salt": "T013-S1",
+      "fraction": 0.11
+    },
+    {
+      "bank": "A",
+      "salt": "T013-S2",
+      "fraction": 0.11
+    },
+    {
+      "bank": "A",
+      "salt": "T013-S3",
+      "fraction": 0.11
+    },
+    {
+      "bank": "B",
+      "salt": "T013-S0",
+      "fraction": 0.17
+    },
+    {
+      "bank": "B",
+      "salt": "T013-S1",
+      "fraction": 0.17
+    },
+    {
+      "bank": "B",
+      "salt": "T013-S2",
+      "fraction": 0.17
+    },
+    {
+      "bank": "B",
+      "salt": "T013-S3",
+      "fraction": 0.17
+    }
+  ],
+  "diagnosis": "T019-X",
+  "diagnosis_note": "S requires a clear descriptive state-boundary explanation; mixed evidence is retained as X, not forced."
+}

@@ -1,0 +1,11 @@
+{
+  "cells": 1000,
+  "channel_numerators_bitwise_equal": true,
+  "channel_denominators_exact": true,
+  "target_excluded": true,
+  "max_q_reconstruction_error": 0.0,
+  "max_residual_identity_error": 2.706168622523819e-16,
+  "probability_replay_bitwise": true,
+  "absent_classes_not_imputed": true,
+  "paired_support_coverage": 1.0
+}

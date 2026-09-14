@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-09-14T15:05:51+08:00",
+  "lead": "d37bbc4",
+  "preparation_run": "20260914-145145-ttfl-t019",
+  "finish_run": "20260914-145757-ttfl-t019-finish",
+  "status": "COMPLETE",
+  "diagnosis": "T019-X",
+  "results": "results/t019_real_channel_heterogeneity",
+  "next": "Await Lead bounded package"
+}

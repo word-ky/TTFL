@@ -1,0 +1,16 @@
+scope,gate,passed
+global,TASK-MISMATCH-A,False
+global,CTX-SPEC-A,False
+brightness_dark,task-context,False
+contrast_low,task-context,False
+gaussian_noise,task-context,False
+gaussian_blur,task-context,False
+brightness_dark,context-specific,False
+contrast_low,context-specific,False
+gaussian_noise,context-specific,False
+gaussian_blur,context-specific,False
+clean,LOCAL-A,True
+brightness_dark,LOCAL-A,True
+contrast_low,LOCAL-A,True
+gaussian_noise,LOCAL-A,True
+gaussian_blur,LOCAL-A,True
