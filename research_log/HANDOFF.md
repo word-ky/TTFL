@@ -9,3 +9,5 @@
 
 The frozen first-moment observer branch stops here under the predeclared T022-M/N rule. No further observer trick, rescue or next task was started.
 Scoring runtimec5ba764761561e953680519dbdc27a62c5b915c1, verifier9caac731bd42a9e8e6968f7a5204337f0997756d. Large NPZ remote only with path/hash manifest; compact receipts local.
+
+Verified result artifact commit: `ae1d5b406845abcbde49cf344e9b11911a614fcf`. Code and compact receipts pushed to word-ky/TTFL main. Await Lead; T022-N closes this frozen first-moment observer branch.

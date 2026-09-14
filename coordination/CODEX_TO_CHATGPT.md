@@ -34,3 +34,5 @@ Scoring runtimec5ba764761561e953680519dbdc27a62c5b915c1, verifier9caac731bd42a9e
 | gaussian_blur/H | 70.991 to 73.079 | 51.651 to 54.278 |
 
 Complete effect sizes, limitations and runtime hashes are in RESULTS.md.
+
+Verified result artifact commit: `ae1d5b406845abcbde49cf344e9b11911a614fcf`. Code and compact receipts pushed to word-ky/TTFL main. Await Lead; T022-N closes this frozen first-moment observer branch.

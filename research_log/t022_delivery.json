@@ -22,5 +22,6 @@
     }
   },
   "results": "results/t022_state_response_semantics",
-  "next": "The frozen first-moment observer branch stops here under the predeclared T022-M/N rule. No further observer trick, rescue or next task was started."
+  "next": "The frozen first-moment observer branch stops here under the predeclared T022-M/N rule. No further observer trick, rescue or next task was started.",
+  "result_artifact_commit": "ae1d5b406845abcbde49cf344e9b11911a614fcf"
 }
