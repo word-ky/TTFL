@@ -1,6 +1,8 @@
 import unittest
 import numpy as np
+import hashlib
 from src.context.state_response import state_response
+from src.context.representation_prototypes import class_pools,sample_class_pools
 
 
 class StateResponseTest(unittest.TestCase):
@@ -14,3 +16,9 @@ class StateResponseTest(unittest.TestCase):
         common=np.arange(20*10).reshape(20,10)
         np.testing.assert_array_equal(state_response(x+common),state_response(x))
         np.testing.assert_array_equal(state_response(3*x),3*state_response(x))
+    def test_t022_exact_count_namespace(self):
+        x=np.arange(4*20*40,dtype=float).reshape(4,20,40);labels=np.tile(np.arange(20)%10,(4,1));counts=[2]*10
+        pools,ids=class_pools(x,labels,1);mean,draw=sample_class_pools(pools,ids,1,counts,'L','A','clean',0,task='T022')
+        seed=int(hashlib.sha256(b'T022|matched|L|1|A|clean|0').hexdigest(),16);rng=np.random.Generator(np.random.PCG64(seed))
+        expected=np.concatenate([p[rng.integers(0,len(p),size=2)] for p in ids])
+        np.testing.assert_array_equal(draw,expected);np.testing.assert_array_equal(mean,x.reshape(-1,40)[draw].mean(0))

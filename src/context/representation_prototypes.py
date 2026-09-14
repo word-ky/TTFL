@@ -24,8 +24,8 @@ def class_pools(features,labels,target):
     return [x[y==k] for k in range(10)],[ids[y==k] for k in range(10)]
 
 
-def sample_class_pools(pools,ids,target,counts,representation,bank,context,replica):
-    seed=int.from_bytes(hashlib.sha256(f'T021|matched|{representation}|{target}|{bank}|{context}|{replica}'.encode()).digest(),'big')
+def sample_class_pools(pools,ids,target,counts,representation,bank,context,replica,task='T021'):
+    seed=int.from_bytes(hashlib.sha256(f'{task}|matched|{representation}|{target}|{bank}|{context}|{replica}'.encode()).digest(),'big')
     rng=np.random.Generator(np.random.PCG64(seed));draws=[];chosen=[]
     for k,n in enumerate(counts):
         take=rng.integers(0,len(pools[k]),size=int(n))

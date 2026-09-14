@@ -15,6 +15,7 @@ def gzsave(p,x):p.write_bytes(gzip.compress(json.dumps(x,allow_nan=False).encode
 
 def main():
     ap=argparse.ArgumentParser()
+    ap.add_argument('--response',action='store_true')
     for k in ('project','extraction','output','commit'):ap.add_argument('--'+k,required=True)
     a=ap.parse_args();p=Path(a.project);ext=Path(a.extraction);out=Path(a.output);out.mkdir(parents=True,exist_ok=True);start=time.time()
     freeze=load(ext/'extraction_freeze.json');assert freeze['status']=='PASS'
@@ -31,18 +32,20 @@ def main():
     inputs.update({str(ext/name):digest for name,digest in freeze['representation_hashes'].items()})
     save(out/'input_hashes.json',inputs);save(out/'prototype_membership.json',dict(other_clients=membership,samples_per_other_client=20,labels_role='offline_other_client_calibration_only',target_i_labels_used_by_target_i_estimator=False))
     diagnostics=[];receipts=[];fallbacks=[];outputs=[]
-    for rep,dim in [('L',10),('H',512)]:
-        data=dict(np.load(ext/f'support_{rep}.npz'))
+    policies=['oracle','source','clean_prototype'] if a.response else POLICIES
+    dimensions=[('L',40),('H',2048)] if a.response else [('L',10),('H',512)]
+    for rep,dim in dimensions:
+        data=dict(np.load(ext/f'{"signature" if a.response else "support"}_{rep}.npz'))
         prototypes=np.zeros((2,100,2,5,dim,10));counts=np.zeros((2,100,2,5,10),dtype=np.int32)
         for bi,b in enumerate(B):
             for ti,t in enumerate(C):
                 for kind in (0,1):
-                    context=t if kind==0 else 'clean';pool=np.stack([data[f'{i}|{b}|{context}|{t}'] for i in range(100)])
+                    context=t if kind==0 else 'clean';pool=np.stack([data[f'{i}|{b}|{context}' if a.response else f'{i}|{b}|{context}|{t}'] for i in range(100)])
                     for i in range(100):
                         matrix,n,owners=excluded_prototype(pool,labels,i);assert owners==membership[str(i)]
                         prototypes[kind,i,bi,ti]=matrix;counts[kind,i,bi,ti]=n
                         gram=matrix.T@matrix;eig=np.linalg.eigvalsh(gram)
-                        diagnostics.append(dict(representation=rep,dimension=dim,prototype_kind=['context','clean_same_state'][kind],client=i,bank=b,context=t,
+                        diagnostics.append(dict(representation=rep,dimension=dim,prototype_kind=['context',policies[2]][kind],client=i,bank=b,context=t,calibration_context=context,
                             matrix_sha256=hashlib.sha256(matrix.tobytes()).hexdigest(),counts=n.tolist(),gram_eigenvalues=eig.tolist(),rank=int(np.linalg.matrix_rank(matrix)),
                             condition=float(np.linalg.cond(matrix)),target_excluded=True))
         np.savez_compressed(out/f'{rep}_prototypes.npz',prototypes=prototypes,class_counts=counts)
@@ -50,9 +53,9 @@ def main():
         for i in range(100):
             for bi,b in enumerate(B):
                 for ti,t in enumerate(C):
-                    for policy_idx,policy in enumerate(POLICIES):
-                        context=source[i,b,t] if policy=='source' else t;ci=C.index(context);kind=int(policy=='clean_same_state')
-                        matrix=prototypes[kind,i,bi,ci];m=data[f'{i}|{b}|{t}|{context}'].astype(np.float64).mean(0)
+                    for policy_idx,policy in enumerate(policies):
+                        context=source[i,b,t] if policy=='source' else t;ci=C.index(context);kind=int(policy_idx==2)
+                        matrix=prototypes[kind,i,bi,ci];m=data[f'{i}|{b}|{t}' if a.response else f'{i}|{b}|{t}|{context}'].astype(np.float64).mean(0)
                         try:
                             pi,r=ActiveSetCLS(matrix).solve(m)
                             assert r['objective']<=r['initial_objective']+1e-12
@@ -67,12 +70,14 @@ def main():
                             for h in (0,1):
                                 values,args=exact_utilities(pi,templates[s,b,h,i][ci]);slot=2*si+h;choices[loc+(slot,)]=args[0];masks[loc+(slot,)]=sum(1<<j for j in args)
             if i%20==19:print('T021_PHASE_A_CLIENT',rep,i+1,flush=True)
+        if a.response:
+            np.testing.assert_array_equal(means[0],means[1]);np.testing.assert_array_equal(means[0],means[2])
         np.savez_compressed(out/f'{rep}_actual.npz',means=means,pi=pis,choices=choices,argmax_masks=masks)
         outputs.extend([f'{rep}_prototypes.npz',f'{rep}_actual.npz'])
     gzsave(out/'prototype_diagnostics.json.gz',diagnostics);gzsave(out/'actual_solver_receipts.json.gz',receipts);save(out/'solver_fallbacks.json',fallbacks)
     outputs+=['prototype_diagnostics.json.gz','actual_solver_receipts.json.gz','solver_fallbacks.json','prototype_membership.json']
     assert len(receipts)==6000 and all(sha(Path(path))==digest for path,digest in inputs.items())
-    save(out/'phaseA_choices_freeze.json',dict(status='PASS',lead='7b5bb34',runtime=a.commit,extraction=str(ext),extraction_freeze_sha256=sha(ext/'extraction_freeze.json'),
+    save(out/'phaseA_choices_freeze.json',dict(status='PASS',lead='06647a0' if a.response else '7b5bb34',task='T022' if a.response else 'T021',response_mode=a.response,dimensions=dict(dimensions),runtime=a.commit,extraction=str(ext),extraction_freeze_sha256=sha(ext/'extraction_freeze.json'),
         hashes={name:sha(out/name) for name in outputs},real_observation_episodes=6000,template_choices=48000,prototype_cells=4000,
         target_i_labels_used_by_target_i_estimator=False,target_composition_used_for_scoring=False,query_outcomes_scored=False,
         labels_loaded_only_for_other_client_calibration=True,solver_fallbacks=len(fallbacks),seconds=time.time()-start))

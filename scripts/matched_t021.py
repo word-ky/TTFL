@@ -14,6 +14,7 @@ from src.context.bootstrap_regret import shared_integer_weights,exact_utilities_
 
 def main():
     ap=argparse.ArgumentParser()
+    ap.add_argument('--response',action='store_true')
     for k in ('project','phase-a','output','commit'):ap.add_argument('--'+k,required=True)
     a=ap.parse_args();p=Path(a.project);phase=Path(a.phase_a);out=Path(a.output);out.mkdir(parents=True,exist_ok=True);start=time.time()
     f=load(phase/'phaseA_choices_freeze.json');assert f['status']=='PASS' and all(sha(phase/name)==digest for name,digest in f['hashes'].items())
@@ -21,22 +22,23 @@ def main():
     truth=load(p/'runs/20260914-063758-ttfl-t016r-cached/artifacts/t016_confusion_debiased_semantics/support_truth.json')
     truth=sorted(truth,key=lambda r:r['client']);labels=np.array([r['labels_in_frozen_support_order'] for r in truth])
     templates={(r['salt'],r['bank'],r['train_half'],r['target_client']):[[[Fraction(x) for x in row] for row in ctx] for ctx in r['utility']] for r in gzload(p/'results/t014_class_conditional_factorization/class_templates.json.gz')['rows']}
-    save(out/'protocol.json',dict(lead='7b5bb34',runtime=a.commit,phase_a=str(phase),phase_a_sha256=sha(phase/'phaseA_choices_freeze.json'),replicas=128,K=20,
-        seed='full big-endian SHA256(T021|matched|representation|client|bank|context|replica) -> PCG64',exact_target_counts=True,query_outcomes_scored=False))
+    task='T022' if a.response else 'T021'
+    save(out/'protocol.json',dict(lead='06647a0' if a.response else '7b5bb34',task=task,runtime=a.commit,phase_a=str(phase),phase_a_sha256=sha(phase/'phaseA_choices_freeze.json'),replicas=128,K=20,
+        seed=f'full big-endian SHA256({task}|matched|representation|client|bank|context|replica) -> PCG64',exact_target_counts=True,query_outcomes_scored=False))
     cells=[];fallbacks=[]
-    for rep,dim in [('L',10),('H',512)]:
-        data=dict(np.load(ext/f'support_{rep}.npz'));matrices=np.load(phase/f'{rep}_prototypes.npz')['prototypes'][0]
+    for rep,dim in ([('L',40),('H',2048)] if a.response else [('L',10),('H',512)]):
+        data=dict(np.load(ext/f'{"signature" if a.response else "support"}_{rep}.npz'));matrices=np.load(phase/f'{rep}_prototypes.npz')['prototypes'][0]
         shape=(100,2,5,128);pi=np.zeros(shape+(10,));choices=np.zeros(shape+(8,),dtype=np.uint8);masks=np.zeros_like(choices)
         positions=np.zeros(shape+(20,),dtype=np.int32);qsample=np.zeros((100,2,5,2,dim));kkt=np.zeros(shape);sumerr=np.zeros(shape);updates=np.zeros(shape,dtype=np.uint8)
         for bi,b in enumerate(B):
             for ti,t in enumerate(C):
-                features=np.stack([data[f'{i}|{b}|{t}|{t}'] for i in range(100)])
+                features=np.stack([data[f'{i}|{b}|{t}' if a.response else f'{i}|{b}|{t}|{t}'] for i in range(100)])
                 for i in range(100):
                     pools,ids=class_pools(features,labels,i);matrix=matrices[i,bi,ti]
                     np.testing.assert_array_equal(np.stack([x.mean(0) for x in pools],axis=1),matrix)
                     solver=ActiveSetCLS(matrix);counts=truth[i]['counts'];compiled=[compile_template(templates[s,b,h,i][ti])[0] for s in S for h in (0,1)]
                     for r in range(128):
-                        q,pos=sample_class_pools(pools,ids,i,counts,rep,b,t,r)
+                        q,pos=sample_class_pools(pools,ids,i,counts,rep,b,t,r,task=task)
                         assert np.all(pos//20!=i);np.testing.assert_array_equal(np.bincount(labels.reshape(-1)[pos],minlength=10),counts)
                         try:
                             pp,receipt=solver.solve(q);assert receipt['objective']<=receipt['initial_objective']+1e-12

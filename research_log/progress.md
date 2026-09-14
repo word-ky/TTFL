@@ -339,3 +339,5 @@ T016 STOPPED AT PREFLIGHT
 2026-09-14T18:58:26.0804120+08:00 T021 result artifact commit fb9f1721785856f08a3a9d145ab671352b5bd376; final coordination records runtime/result hashes explicitly.
 
 2026-09-14T19:34:15.1358303+08:00 T022 Lead06647a0 synced; TTFL noactivejob (unrelatedTAISPleftuntouched). Implemented raw state-response helper/extraction reuse,2focusedtestsPASS. Frozen formula/order L40,H2048; reuse1807T021paths/new3193 expected. GPU1 extraction beforeprototypework.
+
+2026-09-14T19:41:15.9464574+08:00 T022 extraction exit0: 3193 new GPU paths,1807 reused. Response-mode Phase-A and exact-count T022 matched seed namespace implemented; focused tests pass. Phase-A next.
