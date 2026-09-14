@@ -317,3 +317,5 @@ T016 STOPPED AT PREFLIGHT
 2026-09-14T18:31:13.7072993+08:00 T021 Lead7b5bb34 synced. Remote no active experiment; CUDA torch2.4.0cu121 available2devices despite NVML mismatch. Implemented experiment-local H/L extractor and frozen historical-equivalence preflight; no global model changes. Protocol fixed. Next remote125tests and GPU1 exact historical replay before prototypes.
 
 2026-09-14T18:35:04.1900036+08:00 T021 extraction runtimee908116/run20260914-183139-ttfl-t021-extract-gpu1 exit0;1807frozenforwardcalls;historical equivalencePASS. Prototype helper tests2PASS (target exclusion and matched exact counts). Implemented Phase-A fixedoracle/source/clean-same-state L/H prototypes with existing10x10Gram CLS and exact choices; no target scores.
+
+2026-09-14T18:38:25.8392410+08:00 T021 Phase-A runtime1849f39/run20260914-183528-ttfl-t021-phase-a exit0;6000CLS/48000template choices complete andhashed, noqueryscore. Matched sampler now caches target-excluded class pools (same seed/draw arithmetic),2focusedtestsPASS. Next fixed128exact-count replicas forboth L/H, no queryscoring untilallcertified.
