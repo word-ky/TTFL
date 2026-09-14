@@ -1,0 +1,43 @@
+"""T018 fixed projected-gradient simplex least squares, no statistical tuning."""
+import numpy as np
+from src.context.confusion_prevalence import project_simplex
+
+
+def cls_s(C,q):
+    C=np.asarray(C,dtype=np.float64);q=np.asarray(q,dtype=np.float64)
+    L=float(np.linalg.norm(C,2)**2);eta=1/L
+    initial=project_simplex(np.linalg.pinv(C)@q);pi=initial.copy()
+    converged=False
+    for iteration in range(1,20001):
+        gradient=C.T@(C@pi-q)
+        next_pi=project_simplex(pi-eta*gradient)
+        delta=float(np.max(np.abs(next_pi-pi)));pi=next_pi
+        gradient=C.T@(C@pi-q)
+        residual=float(np.max(np.abs(pi-project_simplex(pi-eta*gradient)))/eta)
+        if delta<=1e-12 and residual<=1e-10:
+            converged=True;break
+    objective=float(.5*np.sum((C@pi-q)**2));initial_objective=float(.5*np.sum((C@initial-q)**2))
+    return pi,dict(iterations=iteration,converged=converged,cap_hit=not converged,L=L,eta=eta,max_step=delta,projected_gradient_residual=residual,
+        objective=objective,initial_objective=initial_objective,active_classes=int(np.sum(pi>1e-12)),L1_change=float(np.abs(pi-initial).sum()),differs_from_BBSE=bool(np.abs(pi-initial).sum()>1e-8))
+
+
+def direct_kkt(C,q,pi):
+    gradient=np.asarray(C).T@(np.asarray(C)@pi-q);active=pi>1e-12
+    level=float(np.mean(gradient[active]));stationarity=float(np.max(np.abs(gradient[active]-level)))
+    dual_violation=float(np.max(np.maximum(level-gradient[~active],0))) if np.any(~active) else 0.
+    return max(stationarity,dual_violation,abs(float(pi.sum())-1),float(np.max(np.maximum(-pi,0))))
+
+
+def face_reference(C,q):
+    """Independent exhaustive equality-constrained solve on every nonempty face."""
+    C=np.asarray(C,dtype=np.float64);q=np.asarray(q,dtype=np.float64);n=C.shape[1]
+    H=C.T@C;f=C.T@q;best=None;best_objective=np.inf
+    for mask in range(1,1<<n):
+        indices=[i for i in range(n) if mask&(1<<i)];m=len(indices)
+        K=np.zeros((m+1,m+1));K[:m,:m]=H[np.ix_(indices,indices)];K[:m,m]=1;K[m,:m]=1
+        rhs=np.append(f[indices],1.);solution=np.linalg.solve(K,rhs)[:m]
+        if np.any(solution<0):continue
+        pi=np.zeros(n);pi[indices]=solution;objective=float(.5*np.sum((C@pi-q)**2))
+        if objective<best_objective:best=pi;best_objective=objective
+    assert best is not None
+    return best,best_objective
