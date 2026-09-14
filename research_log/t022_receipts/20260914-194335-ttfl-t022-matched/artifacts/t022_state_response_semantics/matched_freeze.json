@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "runtime": "d114147734cfbdc354c112c1403d3218af825561",
+  "phase_a": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-194148-ttfl-t022-phase-a/artifacts/t022_state_response_semantics",
+  "replicas": 128,
+  "matched_solutions": 256000,
+  "template_choices": 2048000,
+  "solver_fallbacks": 3,
+  "query_outcomes_scored": false,
+  "seconds": 173.43559622764587,
+  "hashes": {
+    "L_matched.npz": "77a07ed197b028633f51ea25026eaf73e153b8569eb37bc5e703fbfcc2bcca44",
+    "H_matched.npz": "f83f9ffebf097b55d7c11e7e1276f0ec1296773b70c9e405fa43f63dca821830",
+    "matched_cells.json.gz": "23c700cc7a4cfc9412a7ceb79a37cdcc386d4a8bf9c3c26e98f901c6daef51e4",
+    "solver_fallbacks.json": "00d13a46a70a05c67f70fb222b879532593191f24abd28a24a04054d3c11d9a9"
+  }
+}

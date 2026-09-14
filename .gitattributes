@@ -1,3 +1,6 @@
 * text=auto
 *.sh text eol=lf
 *.py text eol=lf
+results/t022_state_response_semantics/** -text
+research_log/t022_receipts/** -text
+research_log/t022_artifact_manifest.json -text

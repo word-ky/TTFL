@@ -1,0 +1,41 @@
+{
+  "reason": "Initial launch supplied a placeholder runtime; scoring repeated with the actual deployed commit. No extraction/matched computation repeated.",
+  "superseded_run": "20260914-194816-ttfl-t022-score",
+  "canonical_run": "20260914-194845-ttfl-t022-score-receipt",
+  "actual_runtime": "c5ba764761561e953680519dbdc27a62c5b915c1",
+  "all_compact_scientific_outputs_identical": [
+    {
+      "name": "actual_aggregate.csv",
+      "sha256": "53c205662fcb37764d14e81c338131c9795b534a33cb7e2b91a49083dc278c38"
+    },
+    {
+      "name": "actual_regret_episodes.json.gz",
+      "sha256": "37025ba8b5536c8a17f32cfc1ace1965178a5f9772f6b76852e1e2b8a2a6e67d"
+    },
+    {
+      "name": "diagnostic_gates.json",
+      "sha256": "ffee15ba0cf64d7b0c6c1e4bd9f9616c65a93a050141da2b6d1a091931da0a26"
+    },
+    {
+      "name": "input_hashes.json",
+      "sha256": "e21c7f9eb8cc26201c2abc333489ff85b98ddf6b144cd3ff9b7058fe3acc2118"
+    },
+    {
+      "name": "integer_count_receipts.json",
+      "sha256": "6045077b72a4d04ba212ea9d6ce098fa8e1dadd84735e7fdb80d3e8ba893bd76"
+    },
+    {
+      "name": "matched_aggregate.csv",
+      "sha256": "e5fb02f804ccfa169f63233b6042dddc33d52654f6f2c93a18d058d718ab97b0"
+    },
+    {
+      "name": "matched_replicas.json.gz",
+      "sha256": "7a25ec9786794d0d04fd4571a32d9502f385e3169d4ae069da1698553de4f1de"
+    },
+    {
+      "name": "paired_regret_context.csv",
+      "sha256": "e52262900358b6c21b776fc654e054b952d51c856d7b2fcbe6a9a9f3ec241fbe"
+    }
+  ],
+  "original_receipts_retained": true
+}

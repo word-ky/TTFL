@@ -1,0 +1,90 @@
+{
+  "status": "COMPLETE",
+  "runtime": "c5ba764761561e953680519dbdc27a62c5b915c1",
+  "diagnosis": "T022-N",
+  "representations": {
+    "L": {
+      "RESP_MATCH_A": false,
+      "RESP_REAL_A": false,
+      "matched_pass": {
+        "brightness_dark": true,
+        "contrast_low": false,
+        "gaussian_noise": false,
+        "gaussian_blur": false
+      },
+      "real_pass": {
+        "brightness_dark": true,
+        "contrast_low": false,
+        "gaussian_noise": false,
+        "gaussian_blur": false
+      },
+      "real_regression_safety": false,
+      "RESP_SRC_A": "NOT_EXECUTED",
+      "RESP_REGRET_A": {
+        "passed": false,
+        "context_pass": {
+          "brightness_dark": false,
+          "contrast_low": false,
+          "gaussian_noise": false,
+          "gaussian_blur": false
+        }
+      },
+      "RESP_CTX_A": {
+        "passed": true,
+        "context_pass": {
+          "brightness_dark": true,
+          "contrast_low": true,
+          "gaussian_noise": true,
+          "gaussian_blur": true
+        }
+      }
+    },
+    "H": {
+      "RESP_MATCH_A": false,
+      "RESP_REAL_A": false,
+      "matched_pass": {
+        "brightness_dark": true,
+        "contrast_low": false,
+        "gaussian_noise": false,
+        "gaussian_blur": false
+      },
+      "real_pass": {
+        "brightness_dark": true,
+        "contrast_low": false,
+        "gaussian_noise": false,
+        "gaussian_blur": false
+      },
+      "real_regression_safety": false,
+      "RESP_SRC_A": "NOT_EXECUTED",
+      "RESP_REGRET_A": {
+        "passed": false,
+        "context_pass": {
+          "brightness_dark": false,
+          "contrast_low": false,
+          "gaussian_noise": false,
+          "gaussian_blur": false
+        }
+      },
+      "RESP_CTX_A": {
+        "passed": true,
+        "context_pass": {
+          "brightness_dark": true,
+          "contrast_low": true,
+          "gaussian_noise": true,
+          "gaussian_blur": true
+        }
+      }
+    }
+  },
+  "new_model_forwards": 0,
+  "source_hashes_unchanged": true,
+  "seconds": 5.25036358833313,
+  "phase_a_choices": 48000,
+  "matched_solutions": 256000,
+  "matched_choices": 2048000,
+  "scored_actual_rows": 280,
+  "scored_actual_episodes": 56000,
+  "matched": "fixedR128exactcounts",
+  "safety_inheritance": "T018 real shifted >=BBSE-S-01 minus0.5pp; source clean >=zero minus0.5pp",
+  "source_scoring": "only representations passing RESP_REAL_A"
+}

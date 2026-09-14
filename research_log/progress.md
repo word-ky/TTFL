@@ -345,3 +345,41 @@ T016 STOPPED AT PREFLIGHT
 2026-09-14T19:45:45.0920727+08:00 T022 Phase-A run20260914-194148-ttfl-t022-phase-a exit0/133testsPASS;6000CLS/48000choices frozen. Matched run20260914-194335-ttfl-t022-matched active, runtime d114147734cfbdc354c112c1403d3218af825561. Added T022 score and independent signature/actual-CLS/count/gate replay.
 
 2026-09-14T19:49:13.8260844+08:00 T022 matched run20260914-194335-ttfl-t022-matched exit0,256000CLS frozen. Scoring attempt20260914-194816-ttfl-t022-score incorrectly annotated runtime c5ba764b_PLACEHOLDER; retained as superseded. Correct runtime c5ba764761561e953680519dbdc27a62c5b915c1 scoring run20260914-194845-ttfl-t022-score-receipt. Preliminary diagnosis T022-N, independent verification pending; no source scoring/new stage.
+
+# T022 complete — T022-N
+
+2026-09-14T19:51:43+08:00. Lead06647a0. 133testsPASS/all5stagesexit0/independentPASS. Flags {"L": {"CTX": "CTX+", "SRC": "NOT_EXECUTED"}, "H": {"CTX": "CTX+", "SRC": "NOT_EXECUTED"}}. Read results/t022_state_response_semantics/RESULTS.md.
+
+| Response | MATCH contexts | REAL contexts | Regression safety | REGRET vs P | CTX | SRC |
+|---|---:|---:|---|---:|---:|---|
+| Phi_L | 1/4 | 1/4 | False | 0/4 | 4/4 | NOT_EXECUTED |
+| Phi_H | 1/4 | 1/4 | False | 0/4 | 4/4 | NOT_EXECUTED |
+
+The frozen first-moment observer branch stops here under the predeclared T022-M/N rule. No further observer trick, rescue or next task was started.
+Scoring runtimec5ba764761561e953680519dbdc27a62c5b915c1, verifier9caac731bd42a9e8e6968f7a5204337f0997756d. Large NPZ remote only with path/hash manifest; compact receipts local.
+
+# T022 complete — T022-N
+
+2026-09-14T19:52:37+08:00. Lead06647a0. 133testsPASS/all5stagesexit0/independentPASS. Flags {"L": {"CTX": "CTX+", "SRC": "NOT_EXECUTED"}, "H": {"CTX": "CTX+", "SRC": "NOT_EXECUTED"}}. Read results/t022_state_response_semantics/RESULTS.md.
+
+| Response | MATCH contexts | REAL contexts | Regression safety | REGRET vs P | CTX | SRC |
+|---|---:|---:|---|---:|---:|---|
+| Phi_L | 1/4 | 1/4 | False | 0/4 | 4/4 | NOT_EXECUTED |
+| Phi_H | 1/4 | 1/4 | False | 0/4 | 4/4 | NOT_EXECUTED |
+
+The frozen first-moment observer branch stops here under the predeclared T022-M/N rule. No further observer trick, rescue or next task was started.
+Scoring runtimec5ba764761561e953680519dbdc27a62c5b915c1, verifier9caac731bd42a9e8e6968f7a5204337f0997756d. Large NPZ remote only with path/hash manifest; compact receipts local.
+
+# T022 complete — T022-N
+
+2026-09-14T19:53:07+08:00. Lead06647a0. 133testsPASS/all5stagesexit0/independentPASS. Flags {"L": {"CTX": "CTX+", "SRC": "NOT_EXECUTED"}, "H": {"CTX": "CTX+", "SRC": "NOT_EXECUTED"}}. Read results/t022_state_response_semantics/RESULTS.md.
+
+| Response | MATCH contexts | REAL contexts | Regression safety | REGRET vs P | CTX | SRC |
+|---|---:|---:|---|---:|---:|---|
+| Phi_L | 1/4 | 1/4 | False | 0/4 | 4/4 | NOT_EXECUTED |
+| Phi_H | 1/4 | 1/4 | False | 0/4 | 4/4 | NOT_EXECUTED |
+
+The frozen first-moment observer branch stops here under the predeclared T022-M/N rule. No further observer trick, rescue or next task was started.
+Scoring runtimec5ba764761561e953680519dbdc27a62c5b915c1, verifier9caac731bd42a9e8e6968f7a5204337f0997756d. Large NPZ remote only with path/hash manifest; compact receipts local.
+
+2026-09-14T19:54:25.2362678+08:00 T022 independent verification PASS:40000 response vectors,72280 representation sample cache hashes (36140 unique cached sample paths across L/H),280 prototypes,6000 actual CLS,4000 matched CLS,48000 exact choices,all256000 exact-count/excluded draws,3 cycle fallbacks,56000 exact regrets,280 actual/10240 matched integer rows/all gates. Replay pi difference0. Local953 upstream entries PASS. Compact transport SHA884ae7e15873a3c6622bc247a9274495cff0394c863d1a3dc9d99fa93fda3fe4 verified; extracted receipts preserved and redundant local transport removed. New frozen receipt paths retain original bytes in Git because measured CSV/report CRLF would otherwise be normalized and invalidate stored SHA. Report-edit command hit local GBK decoding error before changing files; corrected with explicit UTF8 patch, no experiment affected. Heartbeat ttfl-chatgpt ACTIVE every15minutes confirmed.

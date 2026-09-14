@@ -1,0 +1,10 @@
+{
+  "runtime": "c5ba764b_PLACEHOLDER",
+  "matched": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-194335-ttfl-t022-matched/artifacts/t022_state_response_semantics",
+  "phase_a": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-194148-ttfl-t022-phase-a/artifacts/t022_state_response_semantics",
+  "matched_freeze_sha256": "3fed5d5f9fc2d6915e4c3312f7bbaab8adf32bcf82f0d9128706344bf3d50c3a",
+  "phase_a_freeze_sha256": "055bce8d5ead1169f46b70bf3cca7f18f53f89458f27b71f4b5a3c304e74e526",
+  "actual_choices_frozen": true,
+  "matched_choices_frozen": true,
+  "target_composition_and_query_scoring_now_authorized": true
+}

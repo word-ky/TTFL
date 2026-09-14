@@ -1,0 +1,530 @@
+[
+  {
+    "representation": "L",
+    "client": 64,
+    "bank": "A",
+    "context": "brightness_dark",
+    "replica": 127,
+    "pi": [
+      0.0,
+      0.0,
+      0.04369851067268697,
+      0.33399346586610495,
+      0.0,
+      0.5553322580478265,
+      0.0,
+      0.0,
+      0.06697576541338163,
+      0.0
+    ],
+    "solver_path": "cycle_face_fallback",
+    "cycle_active_set": [
+      3,
+      4,
+      8
+    ],
+    "fallback_faces_tested": 1023,
+    "selected_face": [
+      2,
+      3,
+      5,
+      8
+    ],
+    "iterations": 11,
+    "updates": 11,
+    "trace": [
+      {
+        "active": [
+          3,
+          4
+        ],
+        "minimum": 0.09109791960618348,
+        "action": "add",
+        "coordinate": 8
+      },
+      {
+        "active": [
+          3,
+          4,
+          8
+        ],
+        "minimum": 0.040922006351090924,
+        "action": "add",
+        "coordinate": 0
+      },
+      {
+        "active": [
+          0,
+          3,
+          4,
+          8
+        ],
+        "minimum": -0.10442754659334494,
+        "action": "remove",
+        "coordinate": 8
+      },
+      {
+        "active": [
+          0,
+          3,
+          4
+        ],
+        "minimum": 0.05034410916050039,
+        "action": "add",
+        "coordinate": 5
+      },
+      {
+        "active": [
+          0,
+          3,
+          4,
+          5
+        ],
+        "minimum": 0.005555448438487644,
+        "action": "add",
+        "coordinate": 8
+      },
+      {
+        "active": [
+          0,
+          3,
+          4,
+          5,
+          8
+        ],
+        "minimum": -0.2401153038001696,
+        "action": "remove",
+        "coordinate": 3
+      },
+      {
+        "active": [
+          0,
+          4,
+          5,
+          8
+        ],
+        "minimum": -0.11943352107552217,
+        "action": "remove",
+        "coordinate": 0
+      },
+      {
+        "active": [
+          4,
+          5,
+          8
+        ],
+        "minimum": 0.01187498467691448,
+        "action": "add",
+        "coordinate": 6
+      },
+      {
+        "active": [
+          4,
+          5,
+          6,
+          8
+        ],
+        "minimum": 0.009648760680708204,
+        "action": "add",
+        "coordinate": 3
+      },
+      {
+        "active": [
+          3,
+          4,
+          5,
+          6,
+          8
+        ],
+        "minimum": -0.298320529678699,
+        "action": "remove",
+        "coordinate": 5
+      },
+      {
+        "active": [
+          3,
+          4,
+          6,
+          8
+        ],
+        "minimum": -0.18628382082095563,
+        "action": "remove",
+        "coordinate": 6
+      }
+    ],
+    "converged": true,
+    "cap_hit": false,
+    "direct_KKT": 3.0531133177191805e-16,
+    "sum_error": 0.0,
+    "objective": 0.01637036757105132,
+    "initial_objective": 0.0423089920789486,
+    "active_classes": 4,
+    "clipped_coordinates": 0,
+    "L1_change": 1.33201306826779,
+    "differs_from_BBSE": true
+  },
+  {
+    "representation": "L",
+    "client": 78,
+    "bank": "B",
+    "context": "clean",
+    "replica": 102,
+    "pi": [
+      0.0,
+      0.0,
+      0.19877222144381668,
+      0.3230061615609378,
+      0.0,
+      0.3144620336548823,
+      0.0,
+      0.05629870708222834,
+      0.0,
+      0.10746087625813494
+    ],
+    "solver_path": "cycle_face_fallback",
+    "cycle_active_set": [
+      2,
+      3,
+      7,
+      8,
+      9
+    ],
+    "fallback_faces_tested": 1023,
+    "selected_face": [
+      2,
+      3,
+      5,
+      7,
+      9
+    ],
+    "iterations": 13,
+    "updates": 13,
+    "trace": [
+      {
+        "active": [
+          2,
+          3
+        ],
+        "minimum": 0.24606317292382138,
+        "action": "add",
+        "coordinate": 1
+      },
+      {
+        "active": [
+          1,
+          2,
+          3
+        ],
+        "minimum": 0.06043194992718026,
+        "action": "add",
+        "coordinate": 7
+      },
+      {
+        "active": [
+          1,
+          2,
+          3,
+          7
+        ],
+        "minimum": 0.041149498485962756,
+        "action": "add",
+        "coordinate": 8
+      },
+      {
+        "active": [
+          1,
+          2,
+          3,
+          7,
+          8
+        ],
+        "minimum": 0.0030254391475903076,
+        "action": "add",
+        "coordinate": 9
+      },
+      {
+        "active": [
+          1,
+          2,
+          3,
+          7,
+          8,
+          9
+        ],
+        "minimum": -0.42804159645208245,
+        "action": "remove",
+        "coordinate": 1
+      },
+      {
+        "active": [
+          2,
+          3,
+          7,
+          8,
+          9
+        ],
+        "minimum": 0.028652757641241693,
+        "action": "add",
+        "coordinate": 5
+      },
+      {
+        "active": [
+          2,
+          3,
+          5,
+          7,
+          8,
+          9
+        ],
+        "minimum": -0.38094032269170475,
+        "action": "remove",
+        "coordinate": 3
+      },
+      {
+        "active": [
+          2,
+          5,
+          7,
+          8,
+          9
+        ],
+        "minimum": -0.10325598431360239,
+        "action": "remove",
+        "coordinate": 8
+      },
+      {
+        "active": [
+          2,
+          5,
+          7,
+          9
+        ],
+        "minimum": 0.04254307414321686,
+        "action": "add",
+        "coordinate": 6
+      },
+      {
+        "active": [
+          2,
+          5,
+          6,
+          7,
+          9
+        ],
+        "minimum": 0.03662563846554061,
+        "action": "add",
+        "coordinate": 3
+      },
+      {
+        "active": [
+          2,
+          3,
+          5,
+          6,
+          7,
+          9
+        ],
+        "minimum": -0.3212275647920931,
+        "action": "remove",
+        "coordinate": 5
+      },
+      {
+        "active": [
+          2,
+          3,
+          6,
+          7,
+          9
+        ],
+        "minimum": -0.15917860951131518,
+        "action": "remove",
+        "coordinate": 6
+      },
+      {
+        "active": [
+          2,
+          3,
+          7,
+          9
+        ],
+        "minimum": 0.05552113436606172,
+        "action": "add",
+        "coordinate": 8
+      }
+    ],
+    "converged": true,
+    "cap_hit": false,
+    "direct_KKT": 1.3100631690576847e-14,
+    "sum_error": 0.0,
+    "objective": 0.1482799339276607,
+    "initial_objective": 0.9595628997778228,
+    "active_classes": 5,
+    "clipped_coordinates": 0,
+    "L1_change": 0.9641025718303963,
+    "differs_from_BBSE": true
+  },
+  {
+    "representation": "L",
+    "client": 90,
+    "bank": "B",
+    "context": "brightness_dark",
+    "replica": 103,
+    "pi": [
+      0.0,
+      0.0,
+      0.04555036575994749,
+      0.5104577601150899,
+      0.16557530044456378,
+      0.11953518030756381,
+      0.0,
+      0.15888139337283488,
+      0.0,
+      0.0
+    ],
+    "solver_path": "cycle_face_fallback",
+    "cycle_active_set": [
+      3,
+      4,
+      5,
+      7,
+      9
+    ],
+    "fallback_faces_tested": 1023,
+    "selected_face": [
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "iterations": 10,
+    "updates": 10,
+    "trace": [
+      {
+        "active": [
+          4,
+          5,
+          9
+        ],
+        "minimum": 0.05528934425432038,
+        "action": "add",
+        "coordinate": 7
+      },
+      {
+        "active": [
+          4,
+          5,
+          7,
+          9
+        ],
+        "minimum": 0.04706751790405375,
+        "action": "add",
+        "coordinate": 6
+      },
+      {
+        "active": [
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "minimum": 0.03547397024675096,
+        "action": "add",
+        "coordinate": 3
+      },
+      {
+        "active": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "minimum": -0.04116302173377996,
+        "action": "remove",
+        "coordinate": 6
+      },
+      {
+        "active": [
+          3,
+          4,
+          5,
+          7,
+          9
+        ],
+        "minimum": 0.004023916787822256,
+        "action": "add",
+        "coordinate": 2
+      },
+      {
+        "active": [
+          2,
+          3,
+          4,
+          5,
+          7,
+          9
+        ],
+        "minimum": -0.03434841610045782,
+        "action": "remove",
+        "coordinate": 5
+      },
+      {
+        "active": [
+          2,
+          3,
+          4,
+          7,
+          9
+        ],
+        "minimum": -0.016513493084280493,
+        "action": "remove",
+        "coordinate": 9
+      },
+      {
+        "active": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "minimum": -0.007951954155589849,
+        "action": "remove",
+        "coordinate": 2
+      },
+      {
+        "active": [
+          3,
+          4,
+          7
+        ],
+        "minimum": 0.16976305981508782,
+        "action": "add",
+        "coordinate": 5
+      },
+      {
+        "active": [
+          3,
+          4,
+          5,
+          7
+        ],
+        "minimum": 0.10046986725502714,
+        "action": "add",
+        "coordinate": 9
+      }
+    ],
+    "converged": true,
+    "cap_hit": false,
+    "direct_KKT": 5.152128723651117e-15,
+    "sum_error": 1.1102230246251565e-16,
+    "objective": 0.004790272003953792,
+    "initial_objective": 2.2042475212651134,
+    "active_classes": 5,
+    "clipped_coordinates": 0,
+    "L1_change": 1.6408357917891245,
+    "differs_from_BBSE": true
+  }
+]

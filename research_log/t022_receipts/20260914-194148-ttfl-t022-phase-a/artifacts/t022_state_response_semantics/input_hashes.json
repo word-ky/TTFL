@@ -1,0 +1,19 @@
+{
+  "/media/wenchang/F/wjq/TTFL/runs/20260913-123718-ttfl-pfl-gpu0/Cifar10/global_state.pt": "260657670e4b5beefebc7403487ead624a4ec7e19dd0958c7b281c28713cb9fb",
+  "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260913-203200-ttfl-t007r-gpu1/artifacts/t007r_transfer/states.pt": "0d9d5aca7b625a94f24d0802e611838e21772ffd10f81ddf3ef8ecfcc5cb141a",
+  "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260913-224708-ttfl-t009-gpu1/artifacts/t009_natural_context/natural_support_manifest.json": "ba139b530bc231b13dc5f0fe9a370a25050bb74f1264eadc938472f56216afac",
+  "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260913-224708-ttfl-t009-gpu1/artifacts/t009_natural_context/source_decisions.json": "836e564d7b4fb943e755053e1824549bddef81a5b9f79db75dcb8f5b176a29ee",
+  "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-043941-ttfl-t015-gpu1/artifacts/t015_unlabeled_semantic_mixture/support_logits.npz": "76065d742ae6cb666b050f99a35dfa471148482df9c19bab2f82babdc94d8462",
+  "/home/wenchang/asdasdsad/wjq/TTFL/results/t014_class_conditional_factorization/class_templates.json.gz": "cd272ab8de6c9bb582972b0d700fe412af9b6bdc6287c4bc955723d311fd7289",
+  "/media/wenchang/F/wjq/TTFL/dataset/Cifar10/split_manifest.json": "79b8b6d245ad6785208588c2687b4016be1bd4d3f9da475fca61610c3bc64296",
+  "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260913-203200-ttfl-t007r-gpu1/artifacts/t007r_transfer/calibration_pools.json": "c6b1692e6fae8db52dec5dfe036af03bdc696de359a7b35f5bf64fe1152e49d0",
+  "/home/wenchang/asdasdsad/wjq/TTFL/releases/20260914-183132-ttfl-t021/src/models/pfllib.py": "22acbc42950652b62dd01fba765ddc7204e2dba665643e47bb9dc2edf79162d3",
+  "/home/wenchang/asdasdsad/wjq/TTFL/releases/20260914-183132-ttfl-t021/src/data/covariate.py": "297faeb32abbb7d26d9c083d463fe9e65e9d8606151ac7b7eb5cb995e53d7174",
+  "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183139-ttfl-t021-extract-gpu1/artifacts/t021_frozen_representation_observability/support_H.npz": "b6c9b815081403e728656439a4434b5e42364afbf2884f328008bd2a1240dfc4",
+  "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183139-ttfl-t021-extract-gpu1/artifacts/t021_frozen_representation_observability/support_L.npz": "79227e1dd0671316f302d9fdbdaeb8b914383c5ca36f5aa388b0fda02fa1f444",
+  "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-063758-ttfl-t016r-cached/artifacts/t016_confusion_debiased_semantics/support_truth.json": "c4aa77222aeed6a6c9409b1941d182df8067d43394c6fadaae7a582980a5c299",
+  "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-193443-ttfl-t022-extract-gpu1/artifacts/t022_state_response_semantics/new_L.npz": "0b230e23255b0aa7ca547efd54a1f48b0aa6cd5c087a557da31cee6f42dab321",
+  "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-193443-ttfl-t022-extract-gpu1/artifacts/t022_state_response_semantics/new_H.npz": "0d79d6b2bd598495f5f8822e81b5be1674dde0226325775d88e098892a33811f",
+  "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-193443-ttfl-t022-extract-gpu1/artifacts/t022_state_response_semantics/signature_L.npz": "c967b212e1e7ab688bbf7793601f0c8a536d677d9a11a231230e8e7326e73784",
+  "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-193443-ttfl-t022-extract-gpu1/artifacts/t022_state_response_semantics/signature_H.npz": "c5adc6adda3f2464e9e281e51b1e91ac7dba929c496d7d8610b10e58e78bc767"
+}

@@ -1,0 +1,26 @@
+[autodl] run_id=20260914-194946-ttfl-t022-verify
+[autodl] started_at=2026-09-14T19:49:50+08:00
+T022_INDEPENDENT_SIGNATURES 40000
+T022_INDEPENDENT_OBSERVER L A clean
+T022_INDEPENDENT_OBSERVER L A brightness_dark
+T022_INDEPENDENT_OBSERVER L A contrast_low
+T022_INDEPENDENT_OBSERVER L A gaussian_noise
+T022_INDEPENDENT_OBSERVER L A gaussian_blur
+T022_INDEPENDENT_OBSERVER L B clean
+T022_INDEPENDENT_OBSERVER L B brightness_dark
+T022_INDEPENDENT_OBSERVER L B contrast_low
+T022_INDEPENDENT_OBSERVER L B gaussian_noise
+T022_INDEPENDENT_OBSERVER L B gaussian_blur
+T022_INDEPENDENT_OBSERVER H A clean
+T022_INDEPENDENT_OBSERVER H A brightness_dark
+T022_INDEPENDENT_OBSERVER H A contrast_low
+T022_INDEPENDENT_OBSERVER H A gaussian_noise
+T022_INDEPENDENT_OBSERVER H A gaussian_blur
+T022_INDEPENDENT_OBSERVER H B clean
+T022_INDEPENDENT_OBSERVER H B brightness_dark
+T022_INDEPENDENT_OBSERVER H B contrast_low
+T022_INDEPENDENT_OBSERVER H B gaussian_noise
+T022_INDEPENDENT_OBSERVER H B gaussian_blur
+T022_INDEPENDENT_PASS {"status": "PASS", "runtime": "9caac731bd42a9e8e6968f7a5204337f0997756d", "scoring": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-194845-ttfl-t022-score-receipt/artifacts/t022_state_response_semantics", "historical_cached_samples": 72280, "independent_signature_vectors": 40000, "independent_model_forwards": 0, "actual_CLS_replays": 6000, "max_logit_difference": 0.0, "max_feature_difference": 0.0, "model_and_states_unchanged": true, "target_excluded_prototype_checks": 280, "actual_mean_reconstructions": 6000, "all_phase_a_state_and_argmax_checks": 48000, "matched_CLS_replays": 4000, "max_pi_difference": 0.0, "max_actual_KKT": 5.4001247917767614e-12, "matched_sample_choice_checks": 32000, "matched_all_draw_counts_and_exclusion_verified": true, "all_fallback_reenumerations": [{"representation": "L", "client": 64, "bank": "A", "context": "brightness_dark", "replica": 127, "reference_KKT": 3.0531133177191805e-16, "objective_difference": 0.0, "max_pi_difference": 0.0}, {"representation": "L", "client": 78, "bank": "B", "context": "clean", "replica": 102, "reference_KKT": 1.3100631690576847e-14, "objective_difference": 0.0, "max_pi_difference": 0.0}, {"representation": "L", "client": 90, "bank": "B", "context": "brightness_dark", "replica": 103, "reference_KKT": 5.152128723651117e-15, "objective_difference": 0.0, "max_pi_difference": 0.0}], "exact_true_regret_reconstructions": 56000, "actual_integer_count_rows": 280, "matched_integer_count_rows": 10240, "all_gates_reconstructed": true, "all_paired_better_equal_worse_counts_reconstructed": true, "upstream_input_hashes_unchanged": true, "seconds": 39.514647483825684}
+[autodl] finished_at=2026-09-14T19:50:30+08:00
+[autodl] exit_code=0

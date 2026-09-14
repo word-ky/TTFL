@@ -32,6 +32,12 @@ def main():
         for r in load(ROOT/f'research_log/{task}_artifact_manifest.json'):
             assert sha(ROOT/r['path'])==r['sha256'];checked.append(r)
     save(out/'upstream_local_manifest_verification.json',dict(status='PASS',entries=len(checked),files=checked))
+    superseded=ROOT/f'research_log/t022_receipts/20260914-194816-ttfl-t022-score/artifacts/{DIR}'
+    compared=[]
+    for path in folders['scoring'].iterdir():
+        if path.name in ('scoring_start.json','summary.json'):continue
+        assert sha(path)==sha(superseded/path.name);compared.append(dict(name=path.name,sha256=sha(path)))
+    save(out/'scoring_receipt_correction.json',dict(reason='Initial launch supplied a placeholder runtime; scoring repeated with the actual deployed commit. No extraction/matched computation repeated.',superseded_run='20260914-194816-ttfl-t022-score',canonical_run=runs['scoring'],actual_runtime=s['runtime'],all_compact_scientific_outputs_identical=compared,original_receipts_retained=True))
     ma=rows(out/'matched_aggregate.csv');aa=rows(out/'actual_aggregate.csv');pa=rows(out/'paired_regret_context.csv');contexts=['brightness_dark','contrast_low','gaussian_noise','gaussian_blur']
     decision='| Response | MATCH contexts | REAL contexts | Regression safety | REGRET vs P | CTX | SRC |\n|---|---:|---:|---|---:|---:|---|\n'
     for rep in ('L','H'):
@@ -64,6 +70,8 @@ Flags per response: {json.dumps(g['flags'])}. The diagnosis uses the prespecifie
 
 {stop}
 
+Beyond Dark, response matched capture falls to roughly67–76%, while real capture is about50–67%. Both absolute T021 observers had passed the matched gate, so response failure is already visible under its own matched class-conditional model. Removing the state-invariant component did not preserve enough useful signal for this specific raw first-moment CLS procedure. This is not proof that every possible response observer lacks semantic information. CTX+ establishes an advantage over clean prototypes; it does not offset failed matched/real criteria.
+
 ## Observation and controls
 
 Phi_L is40-D and Phi_H is2048-D. Each concatenates raw float32 differences in fixed order Dark−clean, Contrast−clean, Noise−clean, Blur−clean for the same sample and bank. There is no normalization, scaling, projection, whitening, ridge, learned metric, gradient update, new state/operator or federation. The target's exact same signature mean is used for oracle, source and clean-prototype policies; only the prototype context and predeclared utility context differ. Source uses the frozen T009 decision. Clean-prototype control uses clean other-client signatures and target-context utility. Offline other-client labels calibrate M; target-i contributes zero samples or labels to its own M/estimator.
@@ -93,6 +101,8 @@ Independent checks: {v['target_excluded_prototype_checks']} prototype cells, {v[
 Prototype numerical diagnostics (rank/condition are descriptive only): `{json.dumps(diag)}`. The solver forms only a10×10 Gram matrix. No2048×2048 covariance is constructed. Existing cycle-only exhaustive-face handling is unchanged; no new tolerance or fallback rule was introduced.
 
 ## Runtime and artifacts
+
+The first scoring launch (`20260914-194816-ttfl-t022-score`) carried an accidental placeholder runtime string. It was retained and superseded by a scoring-only rerun with the actual deployed commit. All compact scientific outputs are byte-identical; `scoring_receipt_correction.json` records the comparison hashes. Metadata/runtime duration differs. No extraction or matched draws were rerun.
 
 - Extraction `{ef['runtime']}` / `{runs['extraction']}`.
 - Phase-A `{af['runtime']}` / `{runs['phase_a']}`.

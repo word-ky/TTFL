@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-09-14T19:53:07+08:00",
+  "lead": "06647a0",
+  "runtime": "c5ba764761561e953680519dbdc27a62c5b915c1",
+  "verification_runtime": "9caac731bd42a9e8e6968f7a5204337f0997756d",
+  "runs": {
+    "extraction": "20260914-193443-ttfl-t022-extract-gpu1",
+    "phase_a": "20260914-194148-ttfl-t022-phase-a",
+    "matched": "20260914-194335-ttfl-t022-matched",
+    "scoring": "20260914-194845-ttfl-t022-score-receipt",
+    "verification": "20260914-194946-ttfl-t022-verify"
+  },
+  "diagnosis": "T022-N",
+  "flags": {
+    "L": {
+      "CTX": "CTX+",
+      "SRC": "NOT_EXECUTED"
+    },
+    "H": {
+      "CTX": "CTX+",
+      "SRC": "NOT_EXECUTED"
+    }
+  },
+  "results": "results/t022_state_response_semantics",
+  "next": "The frozen first-moment observer branch stops here under the predeclared T022-M/N rule. No further observer trick, rescue or next task was started."
+}

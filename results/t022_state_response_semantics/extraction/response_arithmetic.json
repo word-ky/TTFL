@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "state_order": [
+    "brightness_dark",
+    "contrast_low",
+    "gaussian_noise",
+    "gaussian_blur"
+  ],
+  "formula": "concat(raw_state-raw_clean)",
+  "dtype": "float32",
+  "signature_vectors_checked": 40000,
+  "dimensions": {
+    "L": 40,
+    "H": 2048
+  },
+  "all_blocks_exact": true,
+  "construction_independent_of_oracle_or_source_context": true
+}

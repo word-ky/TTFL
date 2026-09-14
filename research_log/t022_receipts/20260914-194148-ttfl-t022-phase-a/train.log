@@ -1,0 +1,153 @@
+[autodl] run_id=20260914-194148-ttfl-t022-phase-a
+[autodl] started_at=2026-09-14T19:41:54+08:00
+test_boundary_optima (test_active_set_cls.ActiveSetTest.test_boundary_optima) ... ok
+test_cached_matrices_many_rhs (test_active_set_cls.ActiveSetTest.test_cached_matrices_many_rhs) ... ok
+test_frozen_cached_inverse_blocker (test_active_set_cls.ActiveSetTest.test_frozen_cached_inverse_blocker) ... ok
+test_full_rank_noise_free (test_active_set_cls.ActiveSetTest.test_full_rank_noise_free) ... ok
+test_ill_conditioned_reference_and_insert_remove (test_active_set_cls.ActiveSetTest.test_ill_conditioned_reference_and_insert_remove) ... ok
+test_bn_only_moments (test_affine.AffineTest.test_bn_only_moments) ... ok
+test_neutral_logits (test_affine.AffineTest.test_neutral_logits) ... ok
+test_only_fast_state_and_reset (test_affine.AffineTest.test_only_fast_state_and_reset) ... ok
+test_same_checkpoint_all_methods (test_affine.AffineTest.test_same_checkpoint_all_methods) ... ok
+test_fixed_selectors (test_amplitude_ray.AmplitudeRayTest.test_fixed_selectors) ... ok
+test_scaling_endpoints_and_immutability (test_amplitude_ray.AmplitudeRayTest.test_scaling_endpoints_and_immutability) ... ok
+test_disjoint_balanced_spread_order_independent (test_balanced_pool.BalancedPoolTest.test_disjoint_balanced_spread_order_independent) ... ok
+test_exact_semantic_controls (test_balanced_pool.BalancedPoolTest.test_exact_semantic_controls) ... ok
+test_train_checkpoint_and_metrics (test_baseline.BaselineTest.test_train_checkpoint_and_metrics) ... ok
+test_arbitrary_R_equivalence (test_bootstrap_convergence.BootstrapConvergenceTest.test_arbitrary_R_equivalence) ... ok
+test_blocks_and_agreements (test_bootstrap_convergence.BootstrapConvergenceTest.test_blocks_and_agreements) ... ok
+test_label_blind_R4096 (test_bootstrap_convergence.BootstrapConvergenceTest.test_label_blind_R4096) ... ok
+test_no_unsealing_in_preparation (test_bootstrap_convergence.BootstrapConvergenceTest.test_no_unsealing_in_preparation) ... ok
+test_prefix_namespace (test_bootstrap_convergence.BootstrapConvergenceTest.test_prefix_namespace) ... ok
+test_ties_at_R4096 (test_bootstrap_convergence.BootstrapConvergenceTest.test_ties_at_R4096) ... ok
+test_exact_integer_utility (test_bootstrap_regret.BootstrapRegretTest.test_exact_integer_utility) ... ok
+test_exact_ties (test_bootstrap_regret.BootstrapRegretTest.test_exact_ties) ... ok
+test_expected_regret_equivalence (test_bootstrap_regret.BootstrapRegretTest.test_expected_regret_equivalence) ... ok
+test_label_blindness (test_bootstrap_regret.BootstrapRegretTest.test_label_blindness) ... ok
+test_preparation_has_no_privileged_query_reader (test_bootstrap_regret.BootstrapRegretTest.test_preparation_has_no_privileged_query_reader) ... ok
+test_seed_and_positions (test_bootstrap_regret.BootstrapRegretTest.test_seed_and_positions) ... ok
+test_source_dispatch_only_fixed_ids (test_bootstrap_regret.BootstrapRegretTest.test_source_dispatch_only_fixed_ids) ... ok
+test_stability_detects_switch (test_bootstrap_regret.BootstrapRegretTest.test_stability_detects_switch) ... ok
+test_clean_controls_and_no_eval_api (test_class_factorization.ClassFactorizationTest.test_clean_controls_and_no_eval_api) ... ok
+test_leave_one_out_changes (test_class_factorization.ClassFactorizationTest.test_leave_one_out_changes) ... ok
+test_zero_denominator_observed_contract (test_class_factorization.ClassFactorizationTest.test_zero_denominator_observed_contract) ... ok
+test_known_confusion_recovery (test_confusion_prevalence.ConfusionPrevalenceTest.test_known_confusion_recovery) ... ok
+test_raw_logits_baseline (test_confusion_prevalence.ConfusionPrevalenceTest.test_raw_logits_baseline) ... ok
+test_simplex (test_confusion_prevalence.ConfusionPrevalenceTest.test_simplex) ... ok
+test_soft_channel_and_label_isolation (test_confusion_prevalence.ConfusionPrevalenceTest.test_soft_channel_and_label_isolation) ... ok
+test_source_branch_no_hidden_context (test_confusion_prevalence.ConfusionPrevalenceTest.test_source_branch_no_hidden_context) ... ok
+test_target_exclusion_and_exact_columns (test_confusion_prevalence.ConfusionPrevalenceTest.test_target_exclusion_and_exact_columns) ... ok
+test_deterministic_and_inputs_unchanged (test_constrained_prevalence.ConstrainedPrevalenceTest.test_deterministic_and_inputs_unchanged) ... ok
+test_exact_tie_and_no_model_calls (test_constrained_prevalence.ConstrainedPrevalenceTest.test_exact_tie_and_no_model_calls) ... ok
+test_independent_face_solution (test_constrained_prevalence.ConstrainedPrevalenceTest.test_independent_face_solution) ... ok
+test_noise_free (test_constrained_prevalence.ConstrainedPrevalenceTest.test_noise_free) ... ok
+test_objective_dominance (test_constrained_prevalence.ConstrainedPrevalenceTest.test_objective_dominance) ... ok
+test_projection_unchanged (test_constrained_prevalence.ConstrainedPrevalenceTest.test_projection_unchanged) ... ok
+test_raw_prevalence_selection_no_override (test_constrained_prevalence.ConstrainedPrevalenceTest.test_raw_prevalence_selection_no_override) ... ok
+test_simplex (test_constrained_prevalence.ConstrainedPrevalenceTest.test_simplex) ... ok
+test_deterministic_by_sample_not_order_and_no_mutation (test_covariate.CovariateTest.test_deterministic_by_sample_not_order_and_no_mutation) ... ok
+test_formulas_and_identity (test_covariate.CovariateTest.test_formulas_and_identity) ... ok
+test_weighted_gate_and_paired_summary (test_covariate.CovariateTest.test_weighted_gate_and_paired_summary) ... ok
+test_exact_two_cycles (test_cycle_face_fallback.CycleFallbackTest.test_exact_two_cycles) ... ok
+test_normal_path_does_not_enumerate (test_cycle_face_fallback.CycleFallbackTest.test_normal_path_does_not_enumerate) ... ok
+test_uncertified_fallback_stops (test_cycle_face_fallback.CycleFallbackTest.test_uncertified_fallback_stops) ... ok
+test_balanced_and_disjoint (test_data.DataTest.test_balanced_and_disjoint) ... ok
+test_preprocess (test_data.DataTest.test_preprocess) ... ok
+test_equal_client_leave_one_out_and_ties (test_disjoint_factorization.DisjointFactorizationTest.test_equal_client_leave_one_out_and_ties) ... ok
+test_label_blind_partition (test_disjoint_factorization.DisjointFactorizationTest.test_label_blind_partition) ... ok
+test_aggregate_tables_exact (test_historical_replay.HistoricalReplayTest.test_aggregate_tables_exact) ... ok
+test_identical_rows (test_historical_replay.HistoricalReplayTest.test_identical_rows) ... ok
+test_large_JS_fails (test_historical_replay.HistoricalReplayTest.test_large_JS_fails) ... ok
+test_non_JS_numeric_string_fails (test_historical_replay.HistoricalReplayTest.test_non_JS_numeric_string_fails) ... ok
+test_nonfinite_JS_fails (test_historical_replay.HistoricalReplayTest.test_nonfinite_JS_fails) ... ok
+test_order_and_identifiers_fail (test_historical_replay.HistoricalReplayTest.test_order_and_identifiers_fail) ... ok
+test_roundoff_JS_only (test_historical_replay.HistoricalReplayTest.test_roundoff_JS_only) ... ok
+test_schema_and_row_count_exact (test_historical_replay.HistoricalReplayTest.test_schema_and_row_count_exact) ... ok
+test_retrieval_both_bounds_and_nonpositive_gain (test_identification_gates.IdentificationGateTest.test_retrieval_both_bounds_and_nonpositive_gain) ... ok
+test_total_and_per_context (test_identification_gates.IdentificationGateTest.test_total_and_per_context) ... ok
+test_average_and_simplex (test_matched_channel.MatchedChannelTest.test_average_and_simplex) ... ok
+test_composition_fixed (test_matched_channel.MatchedChannelTest.test_composition_fixed) ... ok
+test_exact_template_and_count_lookup (test_matched_channel.MatchedChannelTest.test_exact_template_and_count_lookup) ... ok
+test_mismatch_percentile (test_matched_channel.MatchedChannelTest.test_mismatch_percentile) ... ok
+test_no_model_or_artifact_mutation (test_matched_channel.MatchedChannelTest.test_no_model_or_artifact_mutation) ... ok
+test_noise_free_full_rank (test_matched_channel.MatchedChannelTest.test_noise_free_full_rank) ... ok
+test_pool_means (test_matched_channel.MatchedChannelTest.test_pool_means) ... ok
+test_seeded_bootstrap (test_matched_channel.MatchedChannelTest.test_seeded_bootstrap) ... ok
+test_target_pool_exclusion (test_matched_channel.MatchedChannelTest.test_target_pool_exclusion) ... ok
+test_clamp_and_constant_variance (test_moments.MomentsTest.test_clamp_and_constant_variance) ... ok
+test_reference_stream_matches_direct (test_moments.MomentsTest.test_reference_stream_matches_direct) ... ok
+test_sequential_formula_frozen_no_labels_or_optimizer (test_moments.MomentsTest.test_sequential_formula_frozen_no_labels_or_optimizer) ... ok
+test_clean_half_point (test_natural_gates.NaturalGateTest.test_clean_half_point) ... ok
+test_total_and_context_floor (test_natural_gates.NaturalGateTest.test_total_and_context_floor) ... ok
+test_common_prefix_and_unavailable_size (test_natural_support.NaturalSupportTest.test_common_prefix_and_unavailable_size) ... ok
+test_common_size_exclusions_and_determinism (test_natural_support.NaturalSupportTest.test_common_size_exclusions_and_determinism) ... ok
+test_exact_identity_three_variances (test_neutral_oracle.NeutralOracleTest.test_exact_identity_three_variances) ... ok
+test_known_residual_and_cap (test_neutral_oracle.NeutralOracleTest.test_known_residual_and_cap) ... ok
+test_model_identity_and_sequential_contract (test_neutral_oracle.NeutralOracleTest.test_model_identity_and_sequential_contract) ... ok
+test_integer_lookup_exact_fraction_equivalence (test_noise_free_ties.NoiseFreeTieTest.test_integer_lookup_exact_fraction_equivalence) ... ok
+test_integer_lookup_exact_tie (test_noise_free_ties.NoiseFreeTieTest.test_integer_lookup_exact_tie) ... ok
+test_no_mutation (test_noise_free_ties.NoiseFreeTieTest.test_no_mutation) ... ok
+test_nonzero_exact_regret_fails (test_noise_free_ties.NoiseFreeTieTest.test_nonzero_exact_regret_fails) ... ok
+test_outside_argmax_fails (test_noise_free_ties.NoiseFreeTieTest.test_outside_argmax_fails) ... ok
+test_perturbation_within_exact_set (test_noise_free_ties.NoiseFreeTieTest.test_perturbation_within_exact_set) ... ok
+test_singleton_exact_identity (test_noise_free_ties.NoiseFreeTieTest.test_singleton_exact_identity) ... ok
+test_all_repaired_identity (test_observation_audit.ObservationAuditTest.test_all_repaired_identity) ... ok
+test_count_conditioning_and_target_exclusion (test_observation_audit.ObservationAuditTest.test_count_conditioning_and_target_exclusion) ... ok
+test_decomposition_and_absent_classes (test_observation_audit.ObservationAuditTest.test_decomposition_and_absent_classes) ... ok
+test_no_mutation (test_observation_audit.ObservationAuditTest.test_no_mutation) ... ok
+test_percentile_strict (test_observation_audit.ObservationAuditTest.test_percentile_strict) ... ok
+test_seed_exact (test_observation_audit.ObservationAuditTest.test_seed_exact) ... ok
+test_source_id_pairing (test_observation_audit.ObservationAuditTest.test_source_id_pairing) ... ok
+test_identity_formula_and_constant (test_paired_oracle.PairedOracleTest.test_identity_formula_and_constant) ... ok
+test_known_affine_and_cap (test_paired_oracle.PairedOracleTest.test_known_affine_and_cap) ... ok
+test_sequential_frozen_api (test_paired_oracle.PairedOracleTest.test_sequential_frozen_api) ... ok
+test_derangement_deterministic_label_free (test_pairing.PairingTest.test_derangement_deterministic_label_free) ... ok
+test_target_multiset_both_layers_preserved (test_pairing.PairingTest.test_target_multiset_both_layers_preserved) ... ok
+test_four_shapes_neutral_frozen_and_classes (test_pfllib_operator.PFLModelTest.test_four_shapes_neutral_frozen_and_classes) ... ok
+test_support_only_high_numbered_classes (test_pfllib_operator.PFLModelTest.test_support_only_high_numbered_classes) ... ok
+test_admissibility_and_fixed_tie (test_prediction_consistency.PredictionConsistencyTest.test_admissibility_and_fixed_tie) ... ok
+test_js_known_values (test_prediction_consistency.PredictionConsistencyTest.test_js_known_values) ... ok
+test_zero_determinism_immutability (test_prediction_consistency.PredictionConsistencyTest.test_zero_determinism_immutability) ... ok
+test_inherited_both_banks_all_salts_safety (test_representation_gates.RepresentationGatesTest.test_inherited_both_banks_all_salts_safety) ... ok
+test_preferred_logits_and_no_forced_success (test_representation_gates.RepresentationGatesTest.test_preferred_logits_and_no_forced_success) ... ok
+test_regret_requires_both_conditions (test_representation_gates.RepresentationGatesTest.test_regret_requires_both_conditions) ... ok
+test_matched_exact_counts_and_seed (test_representation_prototypes.RepresentationPrototypesTest.test_matched_exact_counts_and_seed) ... ok
+test_target_labels_and_features_excluded (test_representation_prototypes.RepresentationPrototypesTest.test_target_labels_and_features_excluded) ... ok
+test_choice_no_labels_and_exact_ties (test_semantic_mixture.SemanticMixtureTest.test_choice_no_labels_and_exact_ties) ... ok
+test_clean_zero_and_determinism (test_semantic_mixture.SemanticMixtureTest.test_clean_zero_and_determinism) ... ok
+test_normalization_branch_isolation (test_semantic_mixture.SemanticMixtureTest.test_normalization_branch_isolation) ... ok
+test_privileged_phase_requires_frozen_choices (test_semantic_mixture.SemanticMixtureTest.test_privileged_phase_requires_frozen_choices) ... ok
+test_extrema_ties_and_target_histogram (test_semantic_pairing.SemanticPairingTest.test_extrema_ties_and_target_histogram) ... ok
+test_random_distinct_deterministic_label_independent (test_semantic_pairing.SemanticPairingTest.test_random_distinct_deterministic_label_independent) ... ok
+test_correlation_constant_and_centered_example (test_semantic_summary.SemanticSummaryTest.test_correlation_constant_and_centered_example) ... ok
+test_tau_and_strict_marginal_bounds (test_semantic_summary.SemanticSummaryTest.test_tau_and_strict_marginal_bounds) ... ok
+test_exact_bank_reference_zero_and_heldout_formula (test_source_signature.SourceSignatureTest.test_exact_bank_reference_zero_and_heldout_formula) ... ok
+test_microbatch_partition_exact_and_ordered (test_source_signature.SourceSignatureTest.test_microbatch_partition_exact_and_ordered) ... ok
+test_squared_distance_margin_and_tie_order (test_source_signature.SourceSignatureTest.test_squared_distance_margin_and_tie_order) ... ok
+test_sequential_path_and_immutability (test_state_consistency.StateConsistencyTest.test_sequential_path_and_immutability) ... ok
+test_zero_first_tie_order (test_state_consistency.StateConsistencyTest.test_zero_first_tie_order) ... ok
+test_zero_signature_and_score_exact (test_state_consistency.StateConsistencyTest.test_zero_signature_and_score_exact) ... ok
+test_common_component_cancels_without_rescaling (test_state_response.StateResponseTest.test_common_component_cancels_without_rescaling) ... ok
+test_exact_order_and_dimensions (test_state_response.StateResponseTest.test_exact_order_and_dimensions) ... ok
+test_t022_exact_count_namespace (test_state_response.StateResponseTest.test_t022_exact_count_namespace) ... ok
+test_exact_existing_forward_with_affine (test_t021_features.FeaturesTest.test_exact_existing_forward_with_affine) ... ok
+test_nonpositive_headroom_and_half_point_floor (test_transfer_gate.TransferGateTest.test_nonpositive_headroom_and_half_point_floor) ... ok
+test_recovery_and_both_context_margins (test_transfer_gate.TransferGateTest.test_recovery_and_both_context_margins) ... ok
+
+----------------------------------------------------------------------
+Ran 133 tests in 2.413s
+
+OK
+T021_PHASE_A_CLIENT L 20
+T021_PHASE_A_CLIENT L 40
+T021_PHASE_A_CLIENT L 60
+T021_PHASE_A_CLIENT L 80
+T021_PHASE_A_CLIENT L 100
+T021_PHASE_A_CLIENT H 20
+T021_PHASE_A_CLIENT H 40
+T021_PHASE_A_CLIENT H 60
+T021_PHASE_A_CLIENT H 80
+T021_PHASE_A_CLIENT H 100
+T021_PHASE_A_FROZEN 6000
+[autodl] finished_at=2026-09-14T19:42:51+08:00
+[autodl] exit_code=0
