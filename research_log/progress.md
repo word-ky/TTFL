@@ -303,3 +303,5 @@ T016 STOPPED AT PREFLIGHT
 # T020R implementation stop — CLS cycles, still sealed
 
 2026-09-14T16:51:27+08:00. Lead f0807dd; runtime 0ec0480fc89f7dae48aa2e16a27bf5a87e1b49bf; run 20260914-163857-ttfl-t020r, exit1. 121testsPASS but only98/100clients complete. Missing64/87 reproduce deterministic ActiveSetCLS cycles; see results/t020r_mc_convergence/solver_cycle_diagnosis.json and RESULTS.md. Complete MC gate NOT_EXECUTED: not MC2, no scientific diagnosis. Labels/true utilities/query remain sealed. Independent3920sampledCLS/7840legacy/54880block checks PASS; 245upstream manifests unchanged. Frozen solver unchanged. Await Lead solver-specific repair; do not rerun full task or silently substitute reference solver. Preserve all partial98clients and original T020 prefix.
+
+2026-09-14T17:29:32.4536996+08:00 T020R2 Lead43d2f85. Existing5solver testsPASS; cycle-only fallback3testsPASS; normal1000real+4020bootstrap bitwise identical vs frozen solver with0fallback,8000point template decisions same;553upstream manifests and98client196files hash verified. Resume implementation reuses98 and computes only64/87, unchangedR4096 gate;6aggregation testsPASS.

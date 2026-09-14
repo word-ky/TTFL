@@ -31,12 +31,14 @@ def run_client(i):
     for bi,b in enumerate(B):
         for ti,t in enumerate(C):
             loc=(i,bi,ti);solver=ActiveSetCLS(MAT[loc]);point,pr=solver.solve(PROB[loc].mean(0));pw,pD=shared_integer_weights([point])
-            pi=np.empty((R,10));q=np.empty_like(pi);positions=np.empty((R,20),dtype=np.uint8)
+            pi=np.empty((R,10));q=np.empty_like(pi);positions=np.empty((R,20),dtype=np.uint8);fallbacks=[]
             pi[:256]=OLD['pi'][loc];q[:256]=OLD['q'][loc];positions[:256]=OLD['positions'][loc]
             maxk=float(OLD['KKT'][loc].max());maxsum=float(OLD['sum_error'][loc].max());maxupdates=int(OLD['updates'][loc].max());minimp=float(OLD['objective_improvement'][loc].min())
             for replica in range(256,R):
                 pos=bootstrap_positions(i,b,t,replica);qq=PROB[loc][pos].mean(0);pp,receipt=solver.solve(qq)
                 assert 2*receipt['objective']<=2*receipt['initial_objective']+1e-12
+                if receipt.get('solver_path')=='cycle_face_fallback':
+                    fallbacks.append(dict(client=i,bank=b,context=t,replica=replica,**receipt))
                 pi[replica]=pp;q[replica]=qq;positions[replica]=pos
                 maxk=max(maxk,receipt['direct_KKT']);maxsum=max(maxsum,receipt['sum_error']);maxupdates=max(maxupdates,receipt['updates']);minimp=min(minimp,receipt['initial_objective']-receipt['objective'])
             np.testing.assert_array_equal(pi[:256],OLD['pi'][loc]);np.testing.assert_array_equal(q[:256],OLD['q'][loc]);np.testing.assert_array_equal(positions[:256],OLD['positions'][loc])
@@ -55,7 +57,7 @@ def run_client(i):
                     records.append(dict(client=i,bank=b,context=t,salt=s,train_half=h,point=ps,BER256=saved['BER256'],BER4096=objects['ALL']['state'],blocks=objects,
                         H1_H2_mean_abs_difference=[float(abs(x-y)) for x,y in zip(h1,h2)],H1_H2_vote_abs_difference=[abs(x-y) for x,y in zip(objects['H1']['votes'],objects['H2']['votes'])],
                         all_replica_choices_sha256=hashlib.sha256(states.tobytes()).hexdigest(),all_replica_masks_sha256=hashlib.sha256(masks.tobytes()).hexdigest(),**diagnostics))
-            cellstats.append(dict(client=i,bank=b,context=t,new_CLS_solves=R-256,immutable_prefix=256,max_KKT=maxk,max_sum_error=maxsum,max_updates=maxupdates,min_objective_improvement=minimp,
+            cellstats.append(dict(client=i,bank=b,context=t,new_CLS_solves=R-256,immutable_prefix=256,max_KKT=maxk,max_sum_error=maxsum,max_updates=maxupdates,min_objective_improvement=minimp,fallbacks=fallbacks,
                 full_pi_sha256=hashlib.sha256(pi.tobytes()).hexdigest(),full_q_sha256=hashlib.sha256(q.tobytes()).hexdigest(),full_positions_sha256=hashlib.sha256(positions.tobytes()).hexdigest(),
                 prefix_pi_sha256=hashlib.sha256(pi[:256].tobytes()).hexdigest(),prefix_q_sha256=hashlib.sha256(q[:256].tobytes()).hexdigest(),prefix_positions_sha256=hashlib.sha256(positions[:256].tobytes()).hexdigest()))
     np.savez_compressed(OUT/f'client_{i:03d}_verification.npz',replica_ids=np.array(SAMPLE),pi=samples_pi,q=samples_q,positions=samples_pos)
@@ -80,6 +82,10 @@ def main():
     records=[];cells=[]
     for i in range(100):
         data=gzload(out/f'client_{i:03d}_accumulators.json.gz');records+=data['records'];cells+=data['cells']
+    finish(out,records,cells,inputs,a.commit,start)
+
+
+def finish(out,records,cells,inputs,commit,start):
     choices={name:[r['blocks'][name]['state'] for r in records] for name in BLOCKS};banks=[r['bank'] for r in records];contexts=[r['context'] for r in records]
     gate=convergence_gate(choices,banks,contexts);pairs=[('H1','H2'),('H1','ALL'),('H2','ALL')]+[(a,b) for ai,a in enumerate(('Q0','Q1','Q2','Q3')) for b in ('Q0','Q1','Q2','Q3')[ai+1:]]
     convergence=[]
@@ -112,8 +118,8 @@ def main():
     save(out/'cell_stream_receipts.json',cells)
     assert all(sha(Path(path))==h for path,h in inputs.items())
     names=[p.name for p in out.iterdir() if p.name.endswith('_accumulators.json.gz') or p.name.endswith('_verification.npz')]+['mc_convergence.csv','mc_disagreements.csv','final_ber_uncertainty.csv','transition_256_to_4096.csv','mc_gate.json','cell_stream_receipts.json']
-    save(out/'phaseB_choices_freeze.json',dict(runtime=a.commit,R_FINAL=R,seed_namespace='T020',convergence_pass=gate['passed'],labels_parsed=False,query_outcomes_parsed=False,hashes={name:sha(out/name) for name in names}))
-    summary=dict(status='PREPARATION_PASS' if gate['passed'] else 'T020R-MC2',runtime=a.commit,seconds=time.time()-start,numpy_version=np.__version__,R_FINAL=R,**gate,
+    save(out/'phaseB_choices_freeze.json',dict(runtime=commit,R_FINAL=R,seed_namespace='T020',convergence_pass=gate['passed'],labels_parsed=False,query_outcomes_parsed=False,hashes={name:sha(out/name) for name in names}))
+    summary=dict(status='PREPARATION_PASS' if gate['passed'] else 'T020R-MC2',runtime=commit,seconds=time.time()-start,numpy_version=np.__version__,R_FINAL=R,**gate,
         BER_REGRET_A='NOT_EXECUTED',BER_CAP_A='NOT_EXECUTED',BER_SRC_A='NOT_EXECUTED',scientific_diagnosis='NOT_ASSIGNED',labels_parsed=False,query_outcomes_parsed=False,new_model_forwards=0,source_hashes_unchanged=True)
     save(out/'summary.json',summary);print('T020R_RESULT',json.dumps(summary),flush=True)
     assert gate['passed'],'T020R-MC2: fixed R4096 convergence failed; remain sealed'

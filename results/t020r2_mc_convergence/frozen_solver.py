@@ -59,7 +59,7 @@ class ActiveSetCLS:
         seen = set(); trace = []; updates = 0; clipped = 0
         while True:
             if active in seen:
-                return self._cycle_face_fallback(q, initial, active, trace, updates)
+                raise RuntimeError(f'working-set cycle: {trace}, repeated={active}')
             seen.add(active)
             m = len(active); idx = list(active)
             if active not in self.face_systems:
@@ -95,7 +95,7 @@ class ActiveSetCLS:
                     entry['action'] = 'accept'; trace.append(entry)
                     obj = float(.5*np.sum((self.C@pi-q)**2))
                     initial_obj = float(.5*np.sum((self.C@initial-q)**2))
-                    return pi, dict(solver_path='active_set', iterations=updates, updates=updates, trace=trace,
+                    return pi, dict(iterations=updates, updates=updates, trace=trace,
                         converged=True, cap_hit=False, direct_KKT=kkt, sum_error=float(abs(pi.sum()-1.)),
                         objective=obj, initial_objective=initial_obj,
                         active_classes=int(positive.sum()), clipped_coordinates=clipped,
@@ -104,20 +104,3 @@ class ActiveSetCLS:
             trace.append(entry); updates += 1
             if updates > 100:
                 raise RuntimeError(f'working-set update cap: {trace}')
-
-    def _cycle_face_fallback(self, q, initial, active, trace, updates):
-        # T020R2: only a detected repeated working set authorizes enumeration.
-        pi, objective = face_reference(self.C, q)
-        initial_objective = float(.5*np.sum((self.C@initial-q)**2))
-        kkt = direct_kkt(self.C, q, pi)
-        if (not np.all(np.isfinite(pi)) or not np.isfinite(objective) or not np.isfinite(kkt)
-                or abs(pi.sum()-1.) > 1e-12 or pi.min() < -1e-12
-                or kkt > 1e-10 or objective > initial_objective+1e-12):
-            raise RuntimeError(f'cycle-face certification failed: KKT={kkt}, objective={objective}')
-        return pi, dict(solver_path='cycle_face_fallback', cycle_active_set=list(active),
-            fallback_faces_tested=(1 << self.C.shape[1])-1, selected_face=np.flatnonzero(pi>0).tolist(),
-            iterations=updates, updates=updates, trace=trace, converged=True, cap_hit=False,
-            direct_KKT=kkt, sum_error=float(abs(pi.sum()-1.)), objective=objective,
-            initial_objective=initial_objective, active_classes=int(np.sum(pi>1e-12)),
-            clipped_coordinates=0, L1_change=float(np.abs(pi-initial).sum()),
-            differs_from_BBSE=bool(np.abs(pi-initial).sum()>1e-8))
