@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-09-14T21:41:32+08:00",
+  "lead": "89466b3",
+  "completion_lead": "38b01e8",
+  "runs": {
+    "extraction": "20260914-212025-ttfl-t023-extract-gpu1",
+    "phase_a": "20260914-212245-ttfl-t023-phase-a",
+    "scoring": "20260914-213328-ttfl-t023-score-final",
+    "verification": "20260914-213803-ttfl-t023-verify-gpu1"
+  },
+  "runtime": "6d995574f5f452b18b02edc250af14bfd96c73a6",
+  "verification_runtime": "dbf90212afb60d86bf459398f116227872f37339",
+  "diagnosis": "T023-F",
+  "CTX": "CTX-",
+  "next": "Await Lead; no alternate SSL/writer/FL/T024"
+}

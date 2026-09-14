@@ -1,0 +1,43 @@
+{
+  "first_run": "20260914-212711-ttfl-t023-score",
+  "canonical_run": "20260914-213328-ttfl-t023-score-final",
+  "reason": "Lead38b01e8 required additional sealed-input assertions and Phase-A runtime receipt; scoring-only repetition, all scientific outputs unchanged.",
+  "identical_scientific_outputs": [
+    {
+      "name": "actual_aggregate.csv",
+      "sha256": "dacce96a0a0b599ca7e7ffbbd94053dbda1e4c8aec1ca5d99a396c47748579d8"
+    },
+    {
+      "name": "actual_regret_episodes.json.gz",
+      "sha256": "b79a5f418c878820b9b4ab524876ac076eea62d6dc21852bcaf3d4f4e350f768"
+    },
+    {
+      "name": "diagnostic_gates.json",
+      "sha256": "5d50591a8b461882eb6a99c09defce594bfe7b16b4429cc953b93962cce28fc5"
+    },
+    {
+      "name": "input_hashes.json",
+      "sha256": "0e1c5b9a8b4594961626c4feb3576b8becb480a15852b1585f8d9f8f8bd7aa20"
+    },
+    {
+      "name": "integer_count_receipts.json",
+      "sha256": "589fb7460ac18d72680bc5bc28cd6ccb1acb3aca25fabe453c60c1e695d87c47"
+    },
+    {
+      "name": "paired_regret_context.csv",
+      "sha256": "a8f168a58e89feabd423c603223a53358107c869e9e0b42bc7517ad861772612"
+    },
+    {
+      "name": "rank_correlations.json.gz",
+      "sha256": "db95df11a08b18fa9d86e35c85b6c6a168f79ab69214a7742b1f008046659fc6"
+    },
+    {
+      "name": "rank_summary.csv",
+      "sha256": "2a6a4a2fcefed2867be67fab283f193034ce73e1699dd1724471337b915354f1"
+    },
+    {
+      "name": "state_choice_histograms.json",
+      "sha256": "1c08e8e84bd2074eed07858cd866c207bab8a35b0c3db0597e3a7b6afd00ace3"
+    }
+  ]
+}

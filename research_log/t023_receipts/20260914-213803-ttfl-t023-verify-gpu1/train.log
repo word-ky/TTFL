@@ -1,0 +1,12 @@
+[autodl] run_id=20260914-213803-ttfl-t023-verify-gpu1
+[autodl] started_at=2026-09-14T21:38:08+08:00
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+T023_INDEPENDENT_CLIENT 20
+T023_INDEPENDENT_CLIENT 40
+T023_INDEPENDENT_CLIENT 60
+T023_INDEPENDENT_CLIENT 80
+T023_INDEPENDENT_CLIENT 100
+T023_INDEPENDENT_PASS {'status': 'PASS', 'runtime': 'dbf90212afb60d86bf459398f116227872f37339', 'scoring': '/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-213328-ttfl-t023-score-final/artifacts/t023_rotation_ssl_alignment', 'unrotated_original_model_samples': 5000, 'rotated_original_model_samples': 3000, 'all_unrotated_cache_samples': 100000, 'exact_quarter_turn_sample_tensors': 40000, 'max_H_difference': 0.0, 'cross_fitted_probe_scores': 2000, 'individual_probe_fits': 4000, 'max_probe_score_difference': 1.2878587085651816e-14, 'scramble_cell_replicas': 3200, 'scramble_cells': 200, 'max_scramble_score_difference': 3.9968028886505635e-15, 'all_scramble_summaries_verified': True, 'choice_cells': 1000, 'exact_regret_episodes': 24000, 'integer_rows': 120, 'rank_correlations': 16000, 'all_phase_a_hashes_verified': True, 'all_gates_and_paired_counts_verified': True, 'model_and_state_hashes_unchanged': True, 'new_query_forwards': 0, 'seconds': 37.56057119369507}
+[autodl] finished_at=2026-09-14T21:38:49+08:00
+[autodl] exit_code=0

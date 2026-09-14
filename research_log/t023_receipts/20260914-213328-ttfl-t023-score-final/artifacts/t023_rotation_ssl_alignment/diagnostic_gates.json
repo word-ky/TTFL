@@ -1,0 +1,30 @@
+{
+  "ROT_TASK_A": false,
+  "task_context_pass": {
+    "brightness_dark": false,
+    "contrast_low": false,
+    "gaussian_noise": false,
+    "gaussian_blur": false
+  },
+  "shifted_regression_safety": false,
+  "ROT_REGRET_A": {
+    "passed": false,
+    "context_pass": {
+      "brightness_dark": false,
+      "contrast_low": false,
+      "gaussian_noise": false,
+      "gaussian_blur": false
+    }
+  },
+  "ROT_CTX_A": {
+    "passed": false,
+    "context_pass": {
+      "brightness_dark": false,
+      "contrast_low": false,
+      "gaussian_noise": false,
+      "gaussian_blur": false
+    }
+  },
+  "diagnosis": "T023-F",
+  "CTX": "CTX-"
+}

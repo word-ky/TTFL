@@ -70,6 +70,8 @@ All ranges span both banks/all4salts. Capture uses the identical P00 denominator
 
 {capture}
 
+Negative capture for Noise and Blur means the selected states perform worse than the frozen zero-state baseline; it does not mean negative accuracy. Noise CURRENT capture is about−141% to−126%, making this a large harmful selection effect rather than a near miss of the80% threshold.
+
 {effect}
 
 Positive reduction means less regret. REGRET vsP and CTX vsCLEAN each additionally require p90<=1.05baseline and>=15% mean reduction in every bank/salt for>=3/4shifts. Exact-zero baseline means remain noneligible for relative gain. The two halves are paired within each client before better/equal/worse counting. Historical P integer numerators reproduce T018 exactly. Both CURRENT and CLEAN have complete comparisons against P in paired_regret_context.csv.
@@ -77,6 +79,8 @@ Positive reduction means less regret. REGRET vsP and CTX vsCLEAN each additional
 ## Rotation sanity and state ranking
 
 {sanity}
+
+True rotation scores beat each client's scramble median in75–82% of cells, so the observed failure cannot be summarized as “true labels are indistinguishable from scrambling.” This generated-label structure does not translate into useful state ranking. For Noise, CURRENT median Spearman is−0.4/−0.5 across the two banks, with only about19–21% positive correlations. The auxiliary-task difference alone does not qualify the objective for a writer.
 
 Each client has16 independent-per-image label permutations with balanced4-way counts. Table scramble quantiles are across16 replica means over100clients; the final column compares each client to its own16-replica median. Per-client p05/median/p95 are in phase_a/scramble_cells.csv. This diagnostic was frozen before task scoring and was not a task-selection gate.
 
@@ -113,7 +117,7 @@ Return {s['diagnosis']}/{s['CTX']} for Lead review. Request the next bounded res
     hand=f"# T023 complete — {s['diagnosis']} / {s['CTX']}\n\n{now}. Lead89466b3+completion38b01e8.138testsPASS/all4canonicalstagesexit0/independentPASS. Mechanism outcome, no implementation blocker.\n\n"+gate+f"\nScoring runtime{s['runtime']}; verifier{v['runtime']}. Read results/{DIR}/RESULTS.md. Raw NPZ remote with manifest; compact receipts local. Stop for Lead; no alternateSSL/writer/FL/T024.\n"
     for name in ('HANDOFF.md','T023_HANDOFF.md'):(ROOT/'research_log'/name).write_text(hand,encoding='utf-8')
     with (ROOT/'research_log/progress.md').open('a',encoding='utf-8') as f:f.write('\n'+hand)
-    (ROOT/'coordination/CODEX_TO_CHATGPT.md').write_text(hand+'\n'+capture+'\n'+effect+'\n'+sanity+'\nRank/IQR, histograms, all maximum discrepancies and input/runtime hashes are in RESULTS.md. Request next bounded Lead decision; no method rescue.\n',encoding='utf-8')
+    (ROOT/'coordination/CODEX_TO_CHATGPT.md').write_text(hand+'\n'+capture+'\n'+effect+'\n'+sanity+'\nNoise CURRENT median Spearman -0.4/-0.5 (banks A/B), only about19-21%positive. True rotation beats own scramble median for75-82%clients, but state selection is strongly harmful on Noise/Blur. Verification:5000unrotated+3000rotated original-model samples,Hdiff0;2000crossfit scores,maxerror1.2878587085651816e-14;200cells x16scrambles,maxerror3.9968028886505635e-15;120integer rows/24000episodes/120paired rows/16000ranks/all gates independently verified. Full rank/IQR, histograms and hashes in RESULTS.md. Request next bounded Lead decision; no method rescue.\n',encoding='utf-8')
     save(ROOT/'research_log/t023_delivery.json',dict(timestamp=now,lead='89466b3',completion_lead='38b01e8',runs=runs,runtime=s['runtime'],verification_runtime=v['runtime'],diagnosis=s['diagnosis'],CTX=s['CTX'],next='Await Lead; no alternate SSL/writer/FL/T024'))
     paths=[p for p in (ROOT/'research_log/t023_receipts').rglob('*') if p.is_file()]+[p for p in out.rglob('*') if p.is_file()]
     save(ROOT/'research_log/t023_artifact_manifest.json',[dict(path=p.relative_to(ROOT).as_posix(),bytes=p.stat().st_size,sha256=sha(p)) for p in paths]);print(hand)

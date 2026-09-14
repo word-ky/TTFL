@@ -1,0 +1,282 @@
+[
+  {
+    "policy": "ROT-CURRENT",
+    "bank": "A",
+    "context": "clean",
+    "client_state_counts": [
+      3,
+      37,
+      43,
+      12,
+      5
+    ],
+    "exact_tie_cells": 0,
+    "cells": 100
+  },
+  {
+    "policy": "ROT-CURRENT",
+    "bank": "A",
+    "context": "brightness_dark",
+    "client_state_counts": [
+      4,
+      47,
+      27,
+      20,
+      2
+    ],
+    "exact_tie_cells": 0,
+    "cells": 100
+  },
+  {
+    "policy": "ROT-CURRENT",
+    "bank": "A",
+    "context": "contrast_low",
+    "client_state_counts": [
+      7,
+      40,
+      33,
+      13,
+      7
+    ],
+    "exact_tie_cells": 0,
+    "cells": 100
+  },
+  {
+    "policy": "ROT-CURRENT",
+    "bank": "A",
+    "context": "gaussian_noise",
+    "client_state_counts": [
+      4,
+      31,
+      54,
+      9,
+      2
+    ],
+    "exact_tie_cells": 0,
+    "cells": 100
+  },
+  {
+    "policy": "ROT-CURRENT",
+    "bank": "A",
+    "context": "gaussian_blur",
+    "client_state_counts": [
+      3,
+      44,
+      26,
+      27,
+      0
+    ],
+    "exact_tie_cells": 0,
+    "cells": 100
+  },
+  {
+    "policy": "ROT-CURRENT",
+    "bank": "B",
+    "context": "clean",
+    "client_state_counts": [
+      2,
+      39,
+      50,
+      6,
+      3
+    ],
+    "exact_tie_cells": 0,
+    "cells": 100
+  },
+  {
+    "policy": "ROT-CURRENT",
+    "bank": "B",
+    "context": "brightness_dark",
+    "client_state_counts": [
+      4,
+      47,
+      30,
+      17,
+      2
+    ],
+    "exact_tie_cells": 0,
+    "cells": 100
+  },
+  {
+    "policy": "ROT-CURRENT",
+    "bank": "B",
+    "context": "contrast_low",
+    "client_state_counts": [
+      9,
+      38,
+      40,
+      8,
+      5
+    ],
+    "exact_tie_cells": 0,
+    "cells": 100
+  },
+  {
+    "policy": "ROT-CURRENT",
+    "bank": "B",
+    "context": "gaussian_noise",
+    "client_state_counts": [
+      6,
+      29,
+      54,
+      8,
+      3
+    ],
+    "exact_tie_cells": 0,
+    "cells": 100
+  },
+  {
+    "policy": "ROT-CURRENT",
+    "bank": "B",
+    "context": "gaussian_blur",
+    "client_state_counts": [
+      3,
+      45,
+      26,
+      25,
+      1
+    ],
+    "exact_tie_cells": 0,
+    "cells": 100
+  },
+  {
+    "policy": "ROT-CLEAN-SURROGATE",
+    "bank": "A",
+    "context": "clean",
+    "client_state_counts": [
+      3,
+      37,
+      43,
+      12,
+      5
+    ],
+    "exact_tie_cells": 0,
+    "cells": 100
+  },
+  {
+    "policy": "ROT-CLEAN-SURROGATE",
+    "bank": "A",
+    "context": "brightness_dark",
+    "client_state_counts": [
+      3,
+      37,
+      43,
+      12,
+      5
+    ],
+    "exact_tie_cells": 0,
+    "cells": 100
+  },
+  {
+    "policy": "ROT-CLEAN-SURROGATE",
+    "bank": "A",
+    "context": "contrast_low",
+    "client_state_counts": [
+      3,
+      37,
+      43,
+      12,
+      5
+    ],
+    "exact_tie_cells": 0,
+    "cells": 100
+  },
+  {
+    "policy": "ROT-CLEAN-SURROGATE",
+    "bank": "A",
+    "context": "gaussian_noise",
+    "client_state_counts": [
+      3,
+      37,
+      43,
+      12,
+      5
+    ],
+    "exact_tie_cells": 0,
+    "cells": 100
+  },
+  {
+    "policy": "ROT-CLEAN-SURROGATE",
+    "bank": "A",
+    "context": "gaussian_blur",
+    "client_state_counts": [
+      3,
+      37,
+      43,
+      12,
+      5
+    ],
+    "exact_tie_cells": 0,
+    "cells": 100
+  },
+  {
+    "policy": "ROT-CLEAN-SURROGATE",
+    "bank": "B",
+    "context": "clean",
+    "client_state_counts": [
+      2,
+      39,
+      50,
+      6,
+      3
+    ],
+    "exact_tie_cells": 0,
+    "cells": 100
+  },
+  {
+    "policy": "ROT-CLEAN-SURROGATE",
+    "bank": "B",
+    "context": "brightness_dark",
+    "client_state_counts": [
+      2,
+      39,
+      50,
+      6,
+      3
+    ],
+    "exact_tie_cells": 0,
+    "cells": 100
+  },
+  {
+    "policy": "ROT-CLEAN-SURROGATE",
+    "bank": "B",
+    "context": "contrast_low",
+    "client_state_counts": [
+      2,
+      39,
+      50,
+      6,
+      3
+    ],
+    "exact_tie_cells": 0,
+    "cells": 100
+  },
+  {
+    "policy": "ROT-CLEAN-SURROGATE",
+    "bank": "B",
+    "context": "gaussian_noise",
+    "client_state_counts": [
+      2,
+      39,
+      50,
+      6,
+      3
+    ],
+    "exact_tie_cells": 0,
+    "cells": 100
+  },
+  {
+    "policy": "ROT-CLEAN-SURROGATE",
+    "bank": "B",
+    "context": "gaussian_blur",
+    "client_state_counts": [
+      2,
+      39,
+      50,
+      6,
+      3
+    ],
+    "exact_tie_cells": 0,
+    "cells": 100
+  }
+]

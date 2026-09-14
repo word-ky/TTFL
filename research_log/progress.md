@@ -399,3 +399,29 @@ Verified result artifact commit: `ae1d5b406845abcbde49cf344e9b11911a614fcf`. Cod
 2026-09-14T21:34:50.0943763+08:00 Verifier deployment20260914-213426-ttfl-t023-verify interrupted atSCPupload;defaultandlegacySCPconnectionclosed. No verifier started. Current canonical scoringrun20260914-213328-ttfl-t023-score-final retained; recover bychecking same log/redeploycodeonly.
 
 2026-09-14T21:37:36.6360701+08:00 SSH recovered; same finalscore20260914-213328-ttfl-t023-score-final confirmedexit0 at21:33:44. OutcomeunchangedpreliminaryT023-F/CTX-. Preparecompactreport and redeployverifier; no prior experiment repeated.
+
+# T023 complete — T023-F / CTX-
+
+2026-09-14T21:40:09+08:00. Lead89466b3+completion38b01e8.138testsPASS/all4canonicalstagesexit0/independentPASS. Mechanism outcome, no implementation blocker.
+
+| Gate | Shift contexts passing | Overall |
+|---|---:|---|
+| ROT-TASK-A | 0/4 | False |
+| ROT-REGRET-A | 0/4 | False |
+| ROT-CTX-A | 0/4 | False |
+
+Scoring runtime6d995574f5f452b18b02edc250af14bfd96c73a6; verifierdbf90212afb60d86bf459398f116227872f37339. Read results/t023_rotation_ssl_alignment/RESULTS.md. Raw NPZ remote with manifest; compact receipts local. Stop for Lead; no alternateSSL/writer/FL/T024.
+
+# T023 complete — T023-F / CTX-
+
+2026-09-14T21:41:32+08:00. Lead89466b3+completion38b01e8.138testsPASS/all4canonicalstagesexit0/independentPASS. Mechanism outcome, no implementation blocker.
+
+| Gate | Shift contexts passing | Overall |
+|---|---:|---|
+| ROT-TASK-A | 0/4 | False |
+| ROT-REGRET-A | 0/4 | False |
+| ROT-CTX-A | 0/4 | False |
+
+Scoring runtime6d995574f5f452b18b02edc250af14bfd96c73a6; verifierdbf90212afb60d86bf459398f116227872f37339. Read results/t023_rotation_ssl_alignment/RESULTS.md. Raw NPZ remote with manifest; compact receipts local. Stop for Lead; no alternateSSL/writer/FL/T024.
+
+2026-09-14T21:42:11.1252997+08:00 T023 verified COMPLETE: T023-F/CTX-,all3gates0/4,138testsPASS. Verifierdbf90212afb60d86bf459398f116227872f37339/run20260914-213803-ttfl-t023-verify-gpu1 exit0:5000unrotated+3000rotated originalmodelH samples(diff0),100000cache samples,40000quarter-turn tensors,2000crossfit scores(max1.2878587085651816e-14),3200scramblecellreplicas(max3.9968028886505635e-15),120integerrows/24000regrets/16000ranks/all cardinalities&gates.1026local upstreamentriesPASS. Compacttar SHA2d112510b1f5ae5f7a35d2de3a6c19ca2fcc4bcd5ff629e510108523b2700426 verified;extracted projectreceipts preserved, redundantlocaltransport removed. Frozenprotocol bytes stillidentical toc73385b. No writer/SSLrescue/FL/T024.

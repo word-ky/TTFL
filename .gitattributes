@@ -4,3 +4,6 @@
 results/t022_state_response_semantics/** -text
 research_log/t022_receipts/** -text
 research_log/t022_artifact_manifest.json -text
+results/t023_rotation_ssl_alignment/** -text
+research_log/t023_receipts/** -text
+research_log/t023_artifact_manifest.json -text

@@ -1,0 +1,1758 @@
+{
+  "status": "PASS",
+  "samples": 5000,
+  "max_H_difference": 0.0,
+  "max_logit_difference": 0.0,
+  "rows": [
+    {
+      "key": "0|A|clean|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|clean|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|clean|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|clean|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|clean|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|clean|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|clean|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|clean|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|clean|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|clean|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|brightness_dark|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|brightness_dark|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|brightness_dark|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|brightness_dark|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|brightness_dark|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|brightness_dark|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|brightness_dark|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|brightness_dark|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|brightness_dark|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|brightness_dark|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|contrast_low|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|contrast_low|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|contrast_low|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|contrast_low|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|contrast_low|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|contrast_low|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|contrast_low|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|contrast_low|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|contrast_low|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|contrast_low|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|gaussian_noise|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|gaussian_noise|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|gaussian_noise|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|gaussian_noise|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|gaussian_noise|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|gaussian_noise|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|gaussian_noise|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|gaussian_noise|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|gaussian_noise|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|gaussian_noise|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|gaussian_blur|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|gaussian_blur|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|gaussian_blur|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|gaussian_blur|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|A|gaussian_blur|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|gaussian_blur|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|gaussian_blur|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|gaussian_blur|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|gaussian_blur|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "0|B|gaussian_blur|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|clean|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|clean|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|clean|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|clean|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|clean|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|clean|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|clean|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|clean|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|clean|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|clean|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|brightness_dark|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|brightness_dark|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|brightness_dark|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|brightness_dark|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|brightness_dark|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|brightness_dark|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|brightness_dark|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|brightness_dark|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|brightness_dark|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|brightness_dark|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|contrast_low|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|contrast_low|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|contrast_low|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|contrast_low|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|contrast_low|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|contrast_low|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|contrast_low|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|contrast_low|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|contrast_low|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|contrast_low|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|gaussian_noise|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|gaussian_noise|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|gaussian_noise|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|gaussian_noise|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|gaussian_noise|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|gaussian_noise|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|gaussian_noise|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|gaussian_noise|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|gaussian_noise|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|gaussian_noise|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|gaussian_blur|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|gaussian_blur|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|gaussian_blur|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|gaussian_blur|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|A|gaussian_blur|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|gaussian_blur|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|gaussian_blur|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|gaussian_blur|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|gaussian_blur|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "24|B|gaussian_blur|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|clean|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|clean|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|clean|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|clean|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|clean|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|clean|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|clean|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|clean|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|clean|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|clean|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|brightness_dark|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|brightness_dark|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|brightness_dark|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|brightness_dark|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|brightness_dark|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|brightness_dark|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|brightness_dark|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|brightness_dark|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|brightness_dark|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|brightness_dark|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|contrast_low|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|contrast_low|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|contrast_low|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|contrast_low|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|contrast_low|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|contrast_low|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|contrast_low|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|contrast_low|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|contrast_low|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|contrast_low|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|gaussian_noise|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|gaussian_noise|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|gaussian_noise|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|gaussian_noise|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|gaussian_noise|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|gaussian_noise|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|gaussian_noise|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|gaussian_noise|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|gaussian_noise|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|gaussian_noise|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|gaussian_blur|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|gaussian_blur|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|gaussian_blur|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|gaussian_blur|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|A|gaussian_blur|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|gaussian_blur|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|gaussian_blur|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|gaussian_blur|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|gaussian_blur|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "49|B|gaussian_blur|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|clean|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|clean|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|clean|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|clean|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|clean|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|clean|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|clean|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|clean|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|clean|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|clean|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|brightness_dark|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|brightness_dark|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|brightness_dark|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|brightness_dark|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|brightness_dark|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|brightness_dark|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|brightness_dark|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|brightness_dark|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|brightness_dark|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|brightness_dark|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|contrast_low|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|contrast_low|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|contrast_low|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|contrast_low|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|contrast_low|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|contrast_low|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|contrast_low|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|contrast_low|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|contrast_low|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|contrast_low|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|gaussian_noise|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|gaussian_noise|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|gaussian_noise|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|gaussian_noise|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|gaussian_noise|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|gaussian_noise|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|gaussian_noise|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|gaussian_noise|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|gaussian_noise|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|gaussian_noise|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|gaussian_blur|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|gaussian_blur|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|gaussian_blur|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|gaussian_blur|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|A|gaussian_blur|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|gaussian_blur|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|gaussian_blur|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|gaussian_blur|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|gaussian_blur|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "74|B|gaussian_blur|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|clean|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|clean|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|clean|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|clean|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|clean|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|clean|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|clean|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|clean|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|clean|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|clean|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|brightness_dark|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|brightness_dark|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|brightness_dark|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|brightness_dark|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|brightness_dark|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|brightness_dark|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|brightness_dark|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|brightness_dark|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|brightness_dark|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|brightness_dark|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|contrast_low|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|contrast_low|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|contrast_low|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|contrast_low|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|contrast_low|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|contrast_low|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|contrast_low|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|contrast_low|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|contrast_low|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|contrast_low|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|gaussian_noise|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|gaussian_noise|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|gaussian_noise|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|gaussian_noise|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|gaussian_noise|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|gaussian_noise|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|gaussian_noise|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|gaussian_noise|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|gaussian_noise|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|gaussian_noise|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|gaussian_blur|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|gaussian_blur|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|gaussian_blur|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|gaussian_blur|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|A|gaussian_blur|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|gaussian_blur|clean",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|gaussian_blur|brightness_dark",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|gaussian_blur|contrast_low",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|gaussian_blur|gaussian_noise",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    },
+    {
+      "key": "99|B|gaussian_blur|gaussian_blur",
+      "samples": 20,
+      "max_H_difference": 0.0,
+      "max_logit_difference": 0.0,
+      "argmax_identical": true
+    }
+  ]
+}

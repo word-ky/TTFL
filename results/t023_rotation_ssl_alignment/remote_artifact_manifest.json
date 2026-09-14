@@ -1,0 +1,1127 @@
+[
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_030.npz",
+    "bytes": 702152,
+    "sha256": "1784f74467894a5bbde0139d2e13945dfa62a225fb740328efacee32f7d9f9e6"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_008.npz",
+    "bytes": 701697,
+    "sha256": "721c81caea44a772fdc0002b7717a985b1fc504a96ca14895349f11636cb5f2c"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_000.npz",
+    "bytes": 5884016,
+    "sha256": "4d5625b542afd8f1876cbee676cdfba2324cf10d487f92b639468a05438d0913"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_014.npz",
+    "bytes": 5832316,
+    "sha256": "9c931547e1120eb0ec447e11f80f4e0796d0a977a945965d764a11da8b9102db"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_024.npz",
+    "bytes": 712463,
+    "sha256": "88e41e82a530dabb6a3907f3cff740402a7605d5e999cbd45567903fdf1fc1b2"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_072.npz",
+    "bytes": 695263,
+    "sha256": "026e9cd9bac101584a42c41ea5819d8d68f455c4f1fe09308ba324230fe26f92"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_024.npz",
+    "bytes": 5884729,
+    "sha256": "4c8f5182b52faa5ed4d072440ec2919c8d90ebeffe06c0a1665620f39a4917e4"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_080.npz",
+    "bytes": 5863800,
+    "sha256": "988a1b1e295847e064cf1d682dff04501b14591cbaebbd7310fb675448a6d794"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_040.npz",
+    "bytes": 5880521,
+    "sha256": "f304d90e549846cc4c5aabc1517eacb525582d6b888458c178a96b3ea48cfa21"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_096.npz",
+    "bytes": 717312,
+    "sha256": "cd1bee5c694112a32e4fe0d2fcb3d23a6e7b345b3d9fd6372704729e434451c0"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_065.npz",
+    "bytes": 5889207,
+    "sha256": "c2fc493bb8d2998d076e8b4fce413399af759fa46aeff9391e22f80f23f0f741"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_004.npz",
+    "bytes": 5894699,
+    "sha256": "6ca574640c29740f44ae0bcbc84aee690ade15348a6272c03e43f5c6be95c039"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_046.npz",
+    "bytes": 719743,
+    "sha256": "f913a62502f43acfb79deffcadc0f49a5ed9bf1c46997cc448279bd91cc0f153"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_070.npz",
+    "bytes": 680620,
+    "sha256": "7b7e9d58d5f428232a8279c49665c421a26b7f63d82401bca67c948adb1b3de9"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_047.npz",
+    "bytes": 657203,
+    "sha256": "9c236c7055c353953c612537b6a55dcd7c314c7f0bc89e88c3c0f178242a510d"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_055.npz",
+    "bytes": 5821783,
+    "sha256": "21f720fd2fe50a1a108e352449f416a3432082728236e0d1c17c26dde05a20b2"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_076.npz",
+    "bytes": 5882588,
+    "sha256": "d977059aa673aff3ff052d41241b0b5fd4db4ba7f36be557f9fb456ebf0bca58"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_060.npz",
+    "bytes": 5830940,
+    "sha256": "e2adc85db01ebded934b99c278668c51fef34ba3353394f8bc443eb3b24ac68e"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_020.npz",
+    "bytes": 708038,
+    "sha256": "69ac472d5b69839d68ab677bd94de3ba066d8bfe804ce9476812d93cf8bcb2f1"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_003.npz",
+    "bytes": 5808490,
+    "sha256": "871053f3660744d3ccd81cca693a48e133416df13fb104485ed9bb7e1fc30ba8"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_044.npz",
+    "bytes": 5864304,
+    "sha256": "241c1698ad8554081d80aca30d3b94b75714e494f687c51c9dc4410fbbe9f4db"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_090.npz",
+    "bytes": 5870712,
+    "sha256": "297a9aa62a9ea7f9b3f0f353df578291a271b790b15d03227a7a65d4cce55e3a"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_056.npz",
+    "bytes": 5894302,
+    "sha256": "155309b85880dc5ed620f694bb5d6a4fc00b54eaf4b3e1fce345efd9758ccb7c"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_069.npz",
+    "bytes": 709726,
+    "sha256": "908e6e13ba6f9c806c77651e2243fb8be0cc49e9b32d70ca07d9449874dd1372"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_007.npz",
+    "bytes": 5883774,
+    "sha256": "3fcd80d40067e7df07a013510eaad8065daa53175b2786a7d5a837b2c99405cf"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_077.npz",
+    "bytes": 684827,
+    "sha256": "2aa7c022205e8c4f0916128427580b8910b8506a971b8a244ea76f4dcf3f6604"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_057.npz",
+    "bytes": 5884544,
+    "sha256": "4e0b81d279f37ea03e8f335aaa5592eeb9a5278ab94b2463847ac5c37fd3f4a1"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_047.npz",
+    "bytes": 5870458,
+    "sha256": "e7dbf13c3769a89b510211c1b903ee41a2ca5218011942f55e9910491d7585b1"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_079.npz",
+    "bytes": 692512,
+    "sha256": "c31998e694e3023a5b7c3c7f9ee1576ed2e87ce35ad4da4413d2fbf6b50ec568"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_066.npz",
+    "bytes": 5884789,
+    "sha256": "8e204fe44abf2e60996cad67a6755a8443dbeb1e1830fe4755b5bae694bbe645"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_013.npz",
+    "bytes": 5887882,
+    "sha256": "dde6b86de3d73c658655a99bc7846da271568c57a886df796e6b7c8d241da11f"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_053.npz",
+    "bytes": 5888787,
+    "sha256": "ff16def191cab069cddb065f086663fd3b8f7b65edfc77177c36ac3ddd8b4e67"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_058.npz",
+    "bytes": 716960,
+    "sha256": "3c3ed223d793a2c2602cd69f87a4cdd79ba391e3699a80d3b9ba9ce689a1c15c"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_018.npz",
+    "bytes": 692969,
+    "sha256": "bbee338eea2bd7babc0d6fa7e1d4691c5fe3c57e0fe38f365615c7bfe604f452"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_098.npz",
+    "bytes": 5872796,
+    "sha256": "f85f54d848d1545329f9dc8b3a92b61cbf51979c765993064313af6a302a5ee0"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_038.npz",
+    "bytes": 690362,
+    "sha256": "927f7ee3e04ae9b94e7bf5c041eeb8372e280688644b3400c46424e4c6ad5de6"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_051.npz",
+    "bytes": 707470,
+    "sha256": "b8dce9841437e90f48f146743dcbe33c62cab8f32b0da95ef25d931631e18cfb"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_075.npz",
+    "bytes": 5853414,
+    "sha256": "1f15c543054438bc5e0aac12d836f03332eca42788bbda7423eed27879053a8b"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_093.npz",
+    "bytes": 713787,
+    "sha256": "184e2bf3781b3262deb66c3ccb0cd966c71c4b1d497c531cb2920ee0f7f22b18"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_035.npz",
+    "bytes": 5846455,
+    "sha256": "61835b4c6d03ec457d7b83dfbe1396857dd9eff394f686817e90ef6c73ac32c7"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_059.npz",
+    "bytes": 5856030,
+    "sha256": "15d329a0d42b2e9df39245fe2c314357c063156fadfb04435f47d810249935c5"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_071.npz",
+    "bytes": 699432,
+    "sha256": "664774dd21025faa561c97b8b21fd133ae71f318f155ae62be99a24c6d981b46"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_032.npz",
+    "bytes": 5844801,
+    "sha256": "24e50e996bc240f7e9876b723fc4b004ec35e18c13e53b3c6fbd14b3c7cc3561"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_079.npz",
+    "bytes": 5842792,
+    "sha256": "6b64488910e1a92711897818174c205709a2c5475aea7923d7e5e98e4fccd082"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_036.npz",
+    "bytes": 715466,
+    "sha256": "b3109020efb8017dcb29075b5d8f17f2aaba2348b4a2eb2b5d21c12fd6cbe407"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_034.npz",
+    "bytes": 5882441,
+    "sha256": "e5b5b21e35e1f651e4aea0571edf95f383f40f3411b2dab78d1eb2702a70108c"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_083.npz",
+    "bytes": 686845,
+    "sha256": "6de1c38abc52bf8cf36245011aaa1672ee9a1f89994e2aea7e789fce3f293d99"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_011.npz",
+    "bytes": 5867272,
+    "sha256": "81b2974a7b1cf975824c02a3230c130afe1e1868891edb0c4a40a8db88d7efbc"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_068.npz",
+    "bytes": 5896158,
+    "sha256": "4f0a52e4e6e9648f042dfb78f6130a9e6fdcfee1ae009edc630f9f96150e4fdd"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_030.npz",
+    "bytes": 5871995,
+    "sha256": "15e8cb28ddb804c4bf2fdfab0574e97a3733f8d95981568341657541c6945e2b"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_055.npz",
+    "bytes": 691976,
+    "sha256": "c39874cca6a2fc5ca0481580dd8d5a5e8b08b8869a047d56116a57a206ed931e"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_015.npz",
+    "bytes": 5849890,
+    "sha256": "082a2dc4c20879b3e783fdf4c2b034e469d2e2669ea42b00d182164b32d99570"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_087.npz",
+    "bytes": 5891611,
+    "sha256": "9ad6ef4cc0f3e76421169a19053d6128d69af6beb792730942d9554e4fc07226"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_037.npz",
+    "bytes": 717865,
+    "sha256": "8bfce47eb8f64ad935b7ff42cc95f0b79401258e2d67c438f6d8c78fd5325be7"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_049.npz",
+    "bytes": 715832,
+    "sha256": "18138a5c6ef5c78811abfa36e2161a95f1582d717909d2ed19a56dffb8f680e4"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_006.npz",
+    "bytes": 716349,
+    "sha256": "86ecae5b5e6b23ae8987e3ef28fb97ce12f3ac8984a0922767436618c27d0685"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_046.npz",
+    "bytes": 5881940,
+    "sha256": "1c8481e171b31f75df25104de50cec6e976293f310f4d17d54a9d4fb7aa5ff19"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_075.npz",
+    "bytes": 688806,
+    "sha256": "c80faf7109579ec7369534daf836d10702b785ed3adda1ab5ddf61e2ce957fc0"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_081.npz",
+    "bytes": 717349,
+    "sha256": "3416c1ba1df895f52281a5e1d26d91bcf0e655859f3033fe3cd63092217b3fd2"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_043.npz",
+    "bytes": 668469,
+    "sha256": "b92e8626a1dfa9054c577cd67d6034eda9ffdb0040f42080fc3f97b28030a864"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_033.npz",
+    "bytes": 5896303,
+    "sha256": "c4bae93ff5d3cb8527035b2574e8e7888dc9f3284602fe729aaa53cafbcea9b6"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_027.npz",
+    "bytes": 720973,
+    "sha256": "5bf835aab27f1cb9a3d9802e49c9a3876c50006c046c7053910db2cfac8de8f1"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_036.npz",
+    "bytes": 5881329,
+    "sha256": "3db49392118bab90315d09e153fec2d0b75032d55029549aaeb595fea078a8de"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_021.npz",
+    "bytes": 707193,
+    "sha256": "09daccb72a988046f7e7d5a111d0dedef8a3bab3b26cf0920fd83b923b58b5b8"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_074.npz",
+    "bytes": 715867,
+    "sha256": "a6a567db5b97656bbf0230601d407ffff80deead8690d798864f5b2b7d468470"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_085.npz",
+    "bytes": 720667,
+    "sha256": "86213564225ae6f3e9d9700e44a08e3507cb0682e1e4973b5489b2c4b9646104"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_099.npz",
+    "bytes": 5883882,
+    "sha256": "514a6e6818c4847c2106552bcc65b56beac39bf8d7c0d3cf33bf18dd9241fb8b"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_057.npz",
+    "bytes": 685553,
+    "sha256": "5cbc2533bf36d4cfce3e377ec32f237fa176eeccc6a0d4fe8cac9145666b5949"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_080.npz",
+    "bytes": 719763,
+    "sha256": "c5d39e7f2671037540b6c5c00b05720e42e2d46384906e43d1084d8863ad8919"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_002.npz",
+    "bytes": 712154,
+    "sha256": "90cf053be7dc6b50a429ab7820118469b0ebf71bb932aabf1aeaa80926819e2d"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_063.npz",
+    "bytes": 5865299,
+    "sha256": "6ec38925608a3d4cb5f06adbdf6c3a6ed677e8217a7623882b03f94a7123b914"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_014.npz",
+    "bytes": 691874,
+    "sha256": "2d64b822cc842b0288cecf05efe3b221fc6b4621cde5836c0d5a2839b0c7f4c7"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_072.npz",
+    "bytes": 5872788,
+    "sha256": "08d71b5db2a53183e0e3eca84f8cf7eabc9b2600395ba8e41e18ee4bc7deef3c"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_076.npz",
+    "bytes": 695363,
+    "sha256": "aba58ecb49d623f0fd05b9161548bac9f3c28c17dafffdceba84e63cf800c728"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_056.npz",
+    "bytes": 712299,
+    "sha256": "476144e3d302cfdc9e2b5071cd35669579163476309198c8e70f3dba140586a1"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_022.npz",
+    "bytes": 5865866,
+    "sha256": "ca6226e5d14e45937732181e5a88078fa5edebd0556a099ffa1133e356d3bf7b"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_095.npz",
+    "bytes": 5876318,
+    "sha256": "79f2492517bb7e237924b1284ff89e11cdfa871e58f5d43ed213730e9c7e3758"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_037.npz",
+    "bytes": 5885059,
+    "sha256": "eff441a5aec86142458ba509f358f44f840946ec853587161c8292fe45871704"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_061.npz",
+    "bytes": 5889763,
+    "sha256": "76c0546ad1814754501d1ddda020d456738ecae23c656521561eee707d387269"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_028.npz",
+    "bytes": 708671,
+    "sha256": "eecb901f9426e90567cffd56f2df62a25b77ed20952002c79dea747b8db8ea84"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_064.npz",
+    "bytes": 5873095,
+    "sha256": "34c05416568f70236d3687eba76d3668a356aadce0723dee52e8fcb1678dad32"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_082.npz",
+    "bytes": 5896083,
+    "sha256": "9447faba27f8f7e0b5dbe0b54880f99ae8f54d557c4e450b9c8d5148ef92b34b"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_022.npz",
+    "bytes": 698939,
+    "sha256": "528ce98a9b620105d0f5db2f8e5308c08aff15a1388462d79aafd39c294d71f3"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_082.npz",
+    "bytes": 694897,
+    "sha256": "d19467ee9821f53f5bc54f34703396b2748b0a3a81d3a8c85f035ba9d65bd6e2"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_068.npz",
+    "bytes": 689038,
+    "sha256": "e6dbc3d3fb0ae8800f798b0933b0cd5b8e05e817b4e861b504a44163fb363330"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_023.npz",
+    "bytes": 5865067,
+    "sha256": "6c8655837297e335ac3331d3209b77af68a50f142834c5e1f66795d6b6a84b14"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_089.npz",
+    "bytes": 711103,
+    "sha256": "a62009a745b0cc7829bfa1b6a714b351b29dcb4e58c2a8b7b3d5b022a82eaedf"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_052.npz",
+    "bytes": 5851357,
+    "sha256": "cccfc381b7aeaf7230dcc0fc8a2ca948ff7fd24bf5c1f7f54a18a13098e073d1"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_088.npz",
+    "bytes": 691265,
+    "sha256": "f19989229b7a45ed133dbfc3d56188ed8962fc88785047cf948ae8b2ca9b4316"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_017.npz",
+    "bytes": 685376,
+    "sha256": "ab220bcfcd35035ccdde845160b63bd134edfe0e106ae62a0fcf63bd2a35b931"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_054.npz",
+    "bytes": 725791,
+    "sha256": "f53f82279b60da628dd7b077844a069dc1b84a043d24759e6fce6cb246ab5e38"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_027.npz",
+    "bytes": 5879655,
+    "sha256": "bab7fca2aeabb22eb1e061fd2f6bf6f33c42ec34070b3af7ec44e6e01f6f421c"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_029.npz",
+    "bytes": 721575,
+    "sha256": "d3f929ab1aba72e23a1cd6aa490d3aee594db34906195cd0a524d724268b3ed7"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_091.npz",
+    "bytes": 712007,
+    "sha256": "9f4486e6b71f4d6a3959f4aa4fd43f47ec68ed9b18274dae4dafb5207114805f"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_016.npz",
+    "bytes": 5864379,
+    "sha256": "5b63b645147496b94561ea6727c1576aced9ed462af6b219b0fe265234be9f48"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_084.npz",
+    "bytes": 5873580,
+    "sha256": "642fae33e323f2d4c77a346a5bf4e2cec4b1790381e737808c5c4cccb77e82eb"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_092.npz",
+    "bytes": 5857386,
+    "sha256": "f72c298a76cdf8afb3bc80b24fad5b227b05400928a9d2dd330b0d97cc1a3489"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_028.npz",
+    "bytes": 5878663,
+    "sha256": "3bc34770db9751f857c7704c56cc7830b82383afebd1ae835a01813ec6da7214"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_073.npz",
+    "bytes": 5868019,
+    "sha256": "1b0accb324f9584f2798b448dfa676760ffee54bc900240643327a5bf1bffd58"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_039.npz",
+    "bytes": 5872585,
+    "sha256": "36f6a304833df35a61e9024596072043ea96ddf21152cb01650864e2b1a38030"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_012.npz",
+    "bytes": 709444,
+    "sha256": "fa92ee4cd46bdba360c9218ad58820a217dbf6be7cd6674c7e9da0af0022b0dd"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_038.npz",
+    "bytes": 5853927,
+    "sha256": "2b3c46b51a5a72121d06bddec565a25144583c870e43e2592964a9890fd33889"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_019.npz",
+    "bytes": 5873149,
+    "sha256": "0cc46cfd0c7aaa1abf991b3631908c1ce20a448a42fc6e52a77f1181f92993b0"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_replay.json",
+    "bytes": 44465,
+    "sha256": "a62abc6c42ad174a7b99bc5dfed36eeedc4f5a83f66ea69c8ee476a8cfef1553"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_031.npz",
+    "bytes": 5833172,
+    "sha256": "682eb54218a799da4a231ac29b757642f19d4ea23a0176caa1d6c632e74d7ba1"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_066.npz",
+    "bytes": 714784,
+    "sha256": "5aaab9d12c1c81ce7bf3b0bc938221dd266421a4b1aca2e474256fdbbc1b99a8"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_012.npz",
+    "bytes": 5874780,
+    "sha256": "a614edfec2fb2817c9f294f2155af46d014ec35171c6ea997904c157d2ddd0c2"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_019.npz",
+    "bytes": 702599,
+    "sha256": "479af90dcf8bb8d9026e09c5d8fc365cf25596aa8af3b4caf2385494220c29d0"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_002.npz",
+    "bytes": 5876884,
+    "sha256": "6dabfa46f00ec525329e0223bc647b24447e459eafc5ed0ea746cd73a15756b5"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_071.npz",
+    "bytes": 5865224,
+    "sha256": "24a70de913174e45afc2eada823a304948ab6bbb8e91a0b557bc7f25a0cc8d7b"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_001.npz",
+    "bytes": 720336,
+    "sha256": "d11824a0e7ef4e1a850e1b17c7497a09428345e7fbdf8d6367bbaabe897db5e8"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_010.npz",
+    "bytes": 5881341,
+    "sha256": "83b74dbbcdec88f0352d7a6159ff98733c9ab219d44977ad76ec990608a2cfd1"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_021.npz",
+    "bytes": 5844442,
+    "sha256": "cb3eaa1740c97ab2b0f55eefa02bfe5642ef21fa0f536c762b586f3aef5bd756"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_098.npz",
+    "bytes": 717812,
+    "sha256": "83c056ddc899f2cf97af1c21d9fa165d9d2c4aba4a0df5630ee9382b0a26a32b"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_095.npz",
+    "bytes": 709572,
+    "sha256": "5a254f8775e75ce2c6eaeebccbbe9e9cf5014a4696e60314f69299f6fd4cf9b7"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_040.npz",
+    "bytes": 719679,
+    "sha256": "e8d7312ee5355e64ebbe06cf88666d0973504806a54078bcc10b0380bd520ee3"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_033.npz",
+    "bytes": 697143,
+    "sha256": "367b066db739cf57bb55bd70ea1d3e5c9804be2c182c05192052ba58500537ab"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_054.npz",
+    "bytes": 5872007,
+    "sha256": "11e091232284ca0e6936896c3e941c0dd15e7e3ccc620cfdf04eabce31685e3e"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_043.npz",
+    "bytes": 5849374,
+    "sha256": "5cf2a5716877f5bb59322359da0cfcfa0fac39c4cb78fa93b77ecd1272d3fbb9"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_061.npz",
+    "bytes": 688624,
+    "sha256": "5707cdd0d04c5a9447b5f03e0c1577e92bd130679f2a2134a674717ad9db835b"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_005.npz",
+    "bytes": 5856343,
+    "sha256": "49a3dd00cb52019f4ff5ed3a6a3f37ccb65df068b35d5010765591d71bd98c8d"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_003.npz",
+    "bytes": 664025,
+    "sha256": "8601cd2b412519e89895a15b1464d153839aa443a1a2d56d81ec5c955202c553"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_078.npz",
+    "bytes": 720633,
+    "sha256": "fc5c0f22f9b5a0b9b976ec9861d1cc92556aa705d89911ad117464b51be0f084"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_048.npz",
+    "bytes": 5889457,
+    "sha256": "6f1ad75d95931713e60b841c97889a90e42021b51e9445867622192f35d01092"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_044.npz",
+    "bytes": 692992,
+    "sha256": "f8846aa7c34dd5ce466e21f1095e7e0f25df9d0b618e259affc4796e6786bbe6"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_087.npz",
+    "bytes": 717167,
+    "sha256": "ba0d7c1d23f916eb20e6fece20d1d416afd90cd73f6e4cc0de526e9b311ca1ab"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/rotation_arithmetic.json.gz",
+    "bytes": 91814,
+    "sha256": "318064481d2dc928a648eab6e772211fe8a0b6732f384884d4fc254a82e50d07"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_010.npz",
+    "bytes": 713648,
+    "sha256": "53c3bd932bfa286796b55d94b312569d747bbe36b9da65765a4378a3300414b1"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_042.npz",
+    "bytes": 711739,
+    "sha256": "70ba64f56001a3476b6e0b469bac81d4ea831d87f93bd2f02020cf713c944bfc"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_060.npz",
+    "bytes": 663796,
+    "sha256": "43817a4bf2a76369a51b20f6e314697745c3690436d05464a9d86a2fddaed740"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_052.npz",
+    "bytes": 696193,
+    "sha256": "1dcdd4b9a9321b062cb4d41d62af7e4a89d370b8ea59cb1ec1a211b0a0157f85"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_006.npz",
+    "bytes": 5892007,
+    "sha256": "e92e635ec415492ecb4e3ed924b9e86ff37d416c13df2332f46ef7e5d802b59a"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_005.npz",
+    "bytes": 660170,
+    "sha256": "b038587f0ab248ba10b12fd2c9f4b0f5282125539576b67841088b333c9eb6e8"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_063.npz",
+    "bytes": 708631,
+    "sha256": "79140e4efb4e6b6885d48fdbe172c59f1e8004d5efae2301393e779b99ab0556"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_017.npz",
+    "bytes": 5874997,
+    "sha256": "a4000996dabb69b2570caf4f8af6428824541a8bafd27c65d623007102f78269"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_058.npz",
+    "bytes": 5874120,
+    "sha256": "a657950830d0937241798d564673afcf42009fcb00f26dc0b0dd98686fac5838"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_078.npz",
+    "bytes": 5889718,
+    "sha256": "fe409723715a422e3b66c6d0cab4d694be7d5c7aefcd56efef6bc8bd7e6c9d92"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_048.npz",
+    "bytes": 708368,
+    "sha256": "33d5ca3ab1b64469f9c0c0a54746a95d05a54c8dd74e50ecb92df879489606f8"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_094.npz",
+    "bytes": 721238,
+    "sha256": "0f3c4ff6ce9a9cfffab28f5f90f8e08b3f17143f0eaecbe758c409c2e9dbdece"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_067.npz",
+    "bytes": 5888475,
+    "sha256": "5b46e8e63ce94fc8bcc1f449e5589547c3077d8e01b71a7a5b7b3d42bf32f7f0"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_097.npz",
+    "bytes": 690131,
+    "sha256": "6d1c1b22e0641005de7ef08be0d37f62ad5d4d5506c6ff92bf39e912b224db20"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_026.npz",
+    "bytes": 704620,
+    "sha256": "f5acdb44124020a8a20598c2286d307030a2f1ec7ec94dea326dacb7479d581b"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_025.npz",
+    "bytes": 5862989,
+    "sha256": "58592fdae0863cda2c972df7e4c56f3e85b6fc4b7c3ebe2b37b799fe212750b5"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_094.npz",
+    "bytes": 5878793,
+    "sha256": "d335b21ce980edc9d098f5ed9389218d2622a5ada43ff81f2a6f2595defe6683"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_045.npz",
+    "bytes": 705019,
+    "sha256": "3b1fddbd49e5b76ad99291f44b05654a5aa1ac05725e23ee6759b065cbbcb97d"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_009.npz",
+    "bytes": 5870376,
+    "sha256": "d9169e2492f508b7c239a7b0fcdaa2c1932205e64d623e3702adf3676985cb48"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_086.npz",
+    "bytes": 5864476,
+    "sha256": "a0d9b9078de1aba270170499382fa0f4334f6020410b4e83faee73e2b16b7f7c"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_062.npz",
+    "bytes": 710393,
+    "sha256": "7d28e2808589495a2f67f4d5395d6c39298986b88b1d15a32aa9c68dbe5c5216"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_050.npz",
+    "bytes": 5868187,
+    "sha256": "2597055087e8447fdf5e986e580438f3312714be89203ce36d3feedbd143d3a7"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_009.npz",
+    "bytes": 708021,
+    "sha256": "47c79ea39f7f56cd0c2e7f0e74decb64351bd3f901245bd19e125b3e22bd3d7f"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_020.npz",
+    "bytes": 5867056,
+    "sha256": "23f7b9b1a8c88cb5026d1a826e5cedbeba726371121cd6cda6302cdb3d055d9c"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_029.npz",
+    "bytes": 5861171,
+    "sha256": "d9dee2fdb11172f4e1e7134b809784e95b5430a86277e3180795e6d35ca8457c"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_011.npz",
+    "bytes": 698700,
+    "sha256": "039ab9197148e5c06d62c7cbc2a36e44edff6332779596dd0bb9ef558173a8e7"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_041.npz",
+    "bytes": 5879768,
+    "sha256": "bc8a484aa1e7e222d88dec414196e066ce0959d00545cf9ae26d97a13cc366f6"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_050.npz",
+    "bytes": 693048,
+    "sha256": "10438fe08a0dbbe50de4fb3baff68700e21e5931fae38a2c8ddaa59303907b71"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_049.npz",
+    "bytes": 5882454,
+    "sha256": "a95a8d8baae52b32fe567f4c48aeabf475fa578cfa9e271cf2efe1d7f5e18cba"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_013.npz",
+    "bytes": 701027,
+    "sha256": "b345f765e100d34e4982442c259abb4a00c3e7f6b11ad4acd5376f8c4ae86778"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_091.npz",
+    "bytes": 5888548,
+    "sha256": "1e8e3686dd4a039e13475997274fcee3a5f9f6e580dd531a2ff5d85816485460"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/fold_membership.json",
+    "bytes": 83930,
+    "sha256": "d3c5ddf0e2dff5c5f94060878bdc9a57a2c9d3d8f8d330ee6f6e2da7288c12d7"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_041.npz",
+    "bytes": 704062,
+    "sha256": "c38057afa8f22d024aba12dba50b1fb0a54e26a6e65a600606bb54739e73a5b4"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_083.npz",
+    "bytes": 5858593,
+    "sha256": "66aa55811b187c6cec2cfdfda1fd20144c9ab63a9b54837fd08ad505c619118a"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_008.npz",
+    "bytes": 5857858,
+    "sha256": "b48340618b6a3ba8fc98e5ef42b37027cf08a967dbfb543a4c1a8f13ce647c39"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_053.npz",
+    "bytes": 705324,
+    "sha256": "8ffd493640e0b4d0e276b23f85fa3d9315302e84f139c2065bb039b547808e77"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_034.npz",
+    "bytes": 715815,
+    "sha256": "6301c6b417a683b9a032febd2225daba56b89f90d759e577f777b0f56fe96e19"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_059.npz",
+    "bytes": 691858,
+    "sha256": "8d9c3cdced29bffa974be01e80735e66f06c8e9873576db8f11d9c27dccd22ab"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_026.npz",
+    "bytes": 5871561,
+    "sha256": "f8bfb79ec286c9c0f98b28a5703afdbdcc7455b733540f03dea35e01370946e0"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_088.npz",
+    "bytes": 5864539,
+    "sha256": "7b003f0e3fd22ed9efac2a07906f7194d748ed3bda475bd046023ab760cd8183"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_023.npz",
+    "bytes": 697664,
+    "sha256": "2878580ebe2b4b2929971905327a475963a479999253663ae4a2625f2793915a"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_084.npz",
+    "bytes": 712005,
+    "sha256": "d41690528c1e2c907493bd1c18d9929bf101b8a5436bd1b228bea059e51cad5a"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_093.npz",
+    "bytes": 5872887,
+    "sha256": "8c23c43a476881338416627c69928ef71436e43e73eb252eaf468769039d7ef4"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_099.npz",
+    "bytes": 719382,
+    "sha256": "a044d9f39a83aafbc283f4fd35185515075a90959ca26e4e452a4e4bd6040e9c"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_086.npz",
+    "bytes": 712967,
+    "sha256": "d8881537f40123e4905f8e74d15be1c39671461f1deb2bd1e567093c2f30cf9c"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_045.npz",
+    "bytes": 5854750,
+    "sha256": "31f986fa21467d5306a5c8bc267f32a3459272e4ce736ac86575e25333a8e7f0"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_064.npz",
+    "bytes": 686566,
+    "sha256": "687fd005e9fc07af49b0f090c355d1b99bb6b48328fb8a0f8e92d6312fd954f5"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_070.npz",
+    "bytes": 5847351,
+    "sha256": "94e4a9a4ba939ed0d225ade9ed6c42f9577b4fddc802488afccec88aad188484"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_001.npz",
+    "bytes": 5886731,
+    "sha256": "fc9bdfc2f3a19ecea9a99eb51ef258de237a6a4410cf4e55b00537c9bf5beea3"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_025.npz",
+    "bytes": 691465,
+    "sha256": "aae71bd4106b5bd25b8c71ad3e884b39cdf0dc25db4d2b3f5bcd1e47144c345b"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_077.npz",
+    "bytes": 5880806,
+    "sha256": "006e848b8941afbb2dc62fe93362b614e576c06cb12d9d4d970ad0a50f16a082"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_090.npz",
+    "bytes": 714536,
+    "sha256": "73cdce639af625be75d1a63fed5f6ea5499fbb15dc9e9b8ecca9d91124f5a8df"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_081.npz",
+    "bytes": 5888255,
+    "sha256": "6a6d6d131440183abd7c2caa9734d39d01dd4a53a913b3444940a27ed35ec9d1"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_073.npz",
+    "bytes": 722460,
+    "sha256": "467a40982817fff4366f086ef267d5c6b4fd18f0d4f8a0d687ee0e81aac1c590"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_032.npz",
+    "bytes": 688800,
+    "sha256": "aeff932b187f048c8d3a5ff3743af655cbaa06ff88bbec439ba62a8ee0dd259d"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_065.npz",
+    "bytes": 708050,
+    "sha256": "837064675f4c75c357687d3fc53a19515a32473e684c73c9b4bbc3da2f1dea83"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_067.npz",
+    "bytes": 722453,
+    "sha256": "463766071a3759ba6146da12844dc55bfe3a157d63514507e540cbd9e12c8107"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/extraction_freeze.json",
+    "bytes": 19269,
+    "sha256": "4ece5bb1a911a6baf65c8d3a39a5ef27fbd92f0dd0e471659af9f611dc3ad210"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_096.npz",
+    "bytes": 5892354,
+    "sha256": "953e9ce73b819e484a23e7475bff3296d53b1f69d6b8d8a4c1229ccade0e5e95"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_000.npz",
+    "bytes": 713800,
+    "sha256": "719247c2e92ba30da93b117df063965949b80f178e7eaaf8f01b95d7728a75ab"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_004.npz",
+    "bytes": 714983,
+    "sha256": "e50876c743713ef5250486bea1eac3403ffbb62872daaed8d2283877db6b2edc"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_062.npz",
+    "bytes": 5863947,
+    "sha256": "daba7a9c004cc46cca62f776a4cb4a81b2520591aa8e9f0947677b5fdf4d5942"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_092.npz",
+    "bytes": 709657,
+    "sha256": "c553002cee8f4bcba44370c45877d5efebd24a86ee7651b4ab629ce933e2ca90"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_089.npz",
+    "bytes": 5869459,
+    "sha256": "737189474c2726a34b66027cf7dd84c263e57b48516547d6d2639b00c5765e03"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_031.npz",
+    "bytes": 687188,
+    "sha256": "ccd50b46698a5aaa47e4660d6801fb449b8ece2a17f86a7b8e01a201642fa6e4"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_069.npz",
+    "bytes": 5871591,
+    "sha256": "644e881d3a2a73f86364006edf5ec06fbc47eb48cc5476f342c1ecd2b9d5bd33"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_007.npz",
+    "bytes": 706094,
+    "sha256": "5c9071ec7ec8ad078aeda96ec91d14d716d540ce6a44b5a55693a6a34542824e"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_097.npz",
+    "bytes": 5865846,
+    "sha256": "8f33292677b46abc83f578307c7ec7c1ea2bcc76a44f9e362df4e35a53294b24"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_074.npz",
+    "bytes": 5867049,
+    "sha256": "9c824ea3803a6556d7b10ca3639aea8abed6e20dfdea231e886942221890b507"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_039.npz",
+    "bytes": 686028,
+    "sha256": "047f1846eaf46f729ee22ebe9ff86929eb9e83108ea7d49a75ac63252d78b8bf"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_016.npz",
+    "bytes": 706272,
+    "sha256": "256d18d3feef6b577b0348ff493ff56a64dd80f37ed3215b038aa1f8bb8dca01"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_035.npz",
+    "bytes": 698770,
+    "sha256": "e33d3aa5bf543b93faee13c38fec574e6c6fab3c1ba17e585aee8ef194730608"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/input_hashes.json",
+    "bytes": 2160,
+    "sha256": "bb989caaaf6413cac08e3366d7a36f075edb3ea399b17f160a403354146efcf7"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/pixels_015.npz",
+    "bytes": 713547,
+    "sha256": "4ea3f5201b2ed30ab27e0a13318e977fcddb85a9c9dd8bf1cc2a0156d266ce02"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_085.npz",
+    "bytes": 5877957,
+    "sha256": "c42a38f55b88e6819e7765a64a5b8c894659f4cf1ef8c33491a7d7e4be4a7721"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_051.npz",
+    "bytes": 5864568,
+    "sha256": "550dc753559ab10a1b69ef22203e71154c9312fb98711565b476073b1d0a0351"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_042.npz",
+    "bytes": 5863292,
+    "sha256": "9c021e9d9cd309de34d239e82727fb350eb1e2875bcd049be6ecf84ab984a6fd"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212025-ttfl-t023-extract-gpu1/artifacts/t023_rotation_ssl_alignment/H_018.npz",
+    "bytes": 5827652,
+    "sha256": "9be48d07e9de9e35655dfca9c2c11f3b19b5047338d0e6389b10f5f9258168c0"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212245-ttfl-t023-phase-a/artifacts/t023_rotation_ssl_alignment/phaseA_scores.npz",
+    "bytes": 105091,
+    "sha256": "273f3263e1fb24227086faebd99c3565d01e5fff7853935dc55e7176e64e1514"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212245-ttfl-t023-phase-a/artifacts/t023_rotation_ssl_alignment/scramble_sanity.csv",
+    "bytes": 1140,
+    "sha256": "65deb2e7435d63247940e7e9e1f675e33c6fce0aa9d7a7f445ae69aee1861e10"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212245-ttfl-t023-phase-a/artifacts/t023_rotation_ssl_alignment/scramble_cells.csv",
+    "bytes": 101161,
+    "sha256": "5e10822dcc2ea55bdd8b1dc6b782e76a1a2b4e417d778ee7464d81892fb2ae32"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212245-ttfl-t023-phase-a/artifacts/t023_rotation_ssl_alignment/phaseA_choices.csv",
+    "bytes": 401626,
+    "sha256": "dcbb630af73203dab6c08defde4434b08f4e54da30137db1776ac5a4ae6bcb45"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212245-ttfl-t023-phase-a/artifacts/t023_rotation_ssl_alignment/phaseA_choices_freeze.json",
+    "bytes": 1385,
+    "sha256": "97783f89ccccfd8bb9de9ec5f4fa23ff2eb99a5a464fac0a8fbfbf8d3cf524c5"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212245-ttfl-t023-phase-a/artifacts/t023_rotation_ssl_alignment/probe_numerical_audit.json",
+    "bytes": 324,
+    "sha256": "fca46193cf275ed2737db9406dab26c49559440f677eeb675bd3fffd0228f6db"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212245-ttfl-t023-phase-a/artifacts/t023_rotation_ssl_alignment/independent_probe_audit.json.gz",
+    "bytes": 10681,
+    "sha256": "b11b33d9b0db57917b6fea210c22df743e973defd3c67d252726daa5e5ae42b5"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212245-ttfl-t023-phase-a/artifacts/t023_rotation_ssl_alignment/scramble_scores.npz",
+    "bytes": 60877,
+    "sha256": "2bb24363a53a98eacb2c9bdabd349fd800301db8e7d81bf74056f8cda641d8ab"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212245-ttfl-t023-phase-a/artifacts/t023_rotation_ssl_alignment/input_hashes.json",
+    "bytes": 43302,
+    "sha256": "b35fa83cc350c87b57fac484ee8c3311a8067a38045073055c2f1758899972ec"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-213328-ttfl-t023-score-final/artifacts/t023_rotation_ssl_alignment/state_choice_histograms.json",
+    "bytes": 4309,
+    "sha256": "1c08e8e84bd2074eed07858cd866c207bab8a35b0c3db0597e3a7b6afd00ace3"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-213328-ttfl-t023-score-final/artifacts/t023_rotation_ssl_alignment/actual_aggregate.csv",
+    "bytes": 69572,
+    "sha256": "dacce96a0a0b599ca7e7ffbbd94053dbda1e4c8aec1ca5d99a396c47748579d8"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-213328-ttfl-t023-score-final/artifacts/t023_rotation_ssl_alignment/summary.json",
+    "bytes": 1055,
+    "sha256": "ed382a4ebbc50b4cc05190a9c006692fc13bc85d194ed44ccd5b985c60d3eba1"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-213328-ttfl-t023-score-final/artifacts/t023_rotation_ssl_alignment/rank_summary.csv",
+    "bytes": 2864,
+    "sha256": "2a6a4a2fcefed2867be67fab283f193034ce73e1699dd1724471337b915354f1"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-213328-ttfl-t023-score-final/artifacts/t023_rotation_ssl_alignment/scoring_start.json",
+    "bytes": 462,
+    "sha256": "1fd23521de70a6b2b09003adc5e38e726ae96a023bbb726d087bdce8e0489c5d"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-213328-ttfl-t023-score-final/artifacts/t023_rotation_ssl_alignment/diagnostic_gates.json",
+    "bytes": 635,
+    "sha256": "5d50591a8b461882eb6a99c09defce594bfe7b16b4429cc953b93962cce28fc5"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-213328-ttfl-t023-score-final/artifacts/t023_rotation_ssl_alignment/rank_correlations.json.gz",
+    "bytes": 62471,
+    "sha256": "db95df11a08b18fa9d86e35c85b6c6a168f79ab69214a7742b1f008046659fc6"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-213328-ttfl-t023-score-final/artifacts/t023_rotation_ssl_alignment/integer_count_receipts.json",
+    "bytes": 46823,
+    "sha256": "589fb7460ac18d72680bc5bc28cd6ccb1acb3aca25fabe453c60c1e695d87c47"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-213328-ttfl-t023-score-final/artifacts/t023_rotation_ssl_alignment/actual_regret_episodes.json.gz",
+    "bytes": 390388,
+    "sha256": "b79a5f418c878820b9b4ab524876ac076eea62d6dc21852bcaf3d4f4e350f768"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-213328-ttfl-t023-score-final/artifacts/t023_rotation_ssl_alignment/input_hashes.json",
+    "bytes": 46440,
+    "sha256": "0e1c5b9a8b4594961626c4feb3576b8becb480a15852b1585f8d9f8f8bd7aa20"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-213328-ttfl-t023-score-final/artifacts/t023_rotation_ssl_alignment/paired_regret_context.csv",
+    "bytes": 97029,
+    "sha256": "a8f168a58e89feabd423c603223a53358107c869e9e0b42bc7517ad861772612"
+  }
+]

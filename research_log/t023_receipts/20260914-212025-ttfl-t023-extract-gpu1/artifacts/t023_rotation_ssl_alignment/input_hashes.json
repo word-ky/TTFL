@@ -1,0 +1,13 @@
+{
+  "/media/wenchang/F/wjq/TTFL/runs/20260913-123718-ttfl-pfl-gpu0/Cifar10/global_state.pt": "260657670e4b5beefebc7403487ead624a4ec7e19dd0958c7b281c28713cb9fb",
+  "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260913-203200-ttfl-t007r-gpu1/artifacts/t007r_transfer/states.pt": "0d9d5aca7b625a94f24d0802e611838e21772ffd10f81ddf3ef8ecfcc5cb141a",
+  "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260913-224708-ttfl-t009-gpu1/artifacts/t009_natural_context/natural_support_manifest.json": "ba139b530bc231b13dc5f0fe9a370a25050bb74f1264eadc938472f56216afac",
+  "/home/wenchang/asdasdsad/wjq/TTFL/releases/20260914-211942-ttfl-t023-extract/src/data/covariate.py": "297faeb32abbb7d26d9c083d463fe9e65e9d8606151ac7b7eb5cb995e53d7174",
+  "/home/wenchang/asdasdsad/wjq/TTFL/releases/20260914-211942-ttfl-t023-extract/src/models/pfllib.py": "22acbc42950652b62dd01fba765ddc7204e2dba665643e47bb9dc2edf79162d3",
+  "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-193443-ttfl-t022-extract-gpu1/artifacts/t022_state_response_semantics/extraction_freeze.json": "5436c01fda299023779e32da1dec45a952f8b1b1dfeff28649a93d8ac8d0df4f",
+  "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183139-ttfl-t021-extract-gpu1/artifacts/t021_frozen_representation_observability/extraction_freeze.json": "425af4a106ca4acd5afd854c6a23a2ec1e6923a62c23db97955ddc020f4a8feb",
+  "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183139-ttfl-t021-extract-gpu1/artifacts/t021_frozen_representation_observability/support_L.npz": "79227e1dd0671316f302d9fdbdaeb8b914383c5ca36f5aa388b0fda02fa1f444",
+  "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-193443-ttfl-t022-extract-gpu1/artifacts/t022_state_response_semantics/new_L.npz": "0b230e23255b0aa7ca547efd54a1f48b0aa6cd5c087a557da31cee6f42dab321",
+  "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183139-ttfl-t021-extract-gpu1/artifacts/t021_frozen_representation_observability/support_H.npz": "b6c9b815081403e728656439a4434b5e42364afbf2884f328008bd2a1240dfc4",
+  "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-193443-ttfl-t022-extract-gpu1/artifacts/t022_state_response_semantics/new_H.npz": "0d79d6b2bd598495f5f8822e81b5be1674dde0226325775d88e098892a33811f"
+}

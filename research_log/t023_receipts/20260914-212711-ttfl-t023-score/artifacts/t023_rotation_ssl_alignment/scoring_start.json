@@ -1,0 +1,7 @@
+{
+  "runtime": "d9490a3e0355292e6bbf674f0c0ac2920d4c599e",
+  "phase_a": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-212245-ttfl-t023-phase-a/artifacts/t023_rotation_ssl_alignment",
+  "phase_a_freeze_sha256": "97783f89ccccfd8bb9de9ec5f4fa23ff2eb99a5a464fac0a8fbfbf8d3cf524c5",
+  "all_choices_frozen": true,
+  "privileged_scoring_now_authorized": true
+}

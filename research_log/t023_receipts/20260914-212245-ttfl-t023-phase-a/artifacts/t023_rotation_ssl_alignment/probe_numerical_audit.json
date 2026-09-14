@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "cross_fitted_scores": 2000,
+  "individual_fits": 4000,
+  "reference": "numpy.linalg.lstsq raw H+bias,rcond1e-12",
+  "main": "explicit thin SVD minimum-norm",
+  "max_score_difference": 1.4210854715202004e-14,
+  "rank_min": 40,
+  "rank_max": 40,
+  "finite": true,
+  "target_class_labels_used": false
+}
