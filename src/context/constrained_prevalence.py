@@ -41,3 +41,66 @@ def face_reference(C,q):
         if objective<best_objective:best=pi;best_objective=objective
     assert best is not None
     return best,best_objective
+
+
+class ActiveSetCLS:
+    """T018R fixed face-removal/insertion algorithm; cache maps per channel."""
+    def __init__(self, C):
+        self.C = np.array(C, dtype=np.float64, copy=True)
+        self.H = self.C.T @ self.C
+        self.pinv = np.linalg.pinv(self.C)
+        self.maps = {}
+
+    def solve(self, q):
+        q = np.asarray(q, dtype=np.float64)
+        initial = project_simplex(self.pinv @ q)
+        f = self.C.T @ q
+        active = tuple(np.flatnonzero(initial > 1e-12).tolist())
+        seen = set(); trace = []; updates = 0; clipped = 0
+        while True:
+            if active in seen:
+                raise RuntimeError(f'working-set cycle: {trace}, repeated={active}')
+            seen.add(active)
+            m = len(active); idx = list(active)
+            if active not in self.maps:
+                K = np.zeros((m+1, m+1))
+                K[:m, :m] = self.H[np.ix_(idx, idx)]
+                K[:m, m] = 1.; K[m, :m] = 1.
+                self.maps[active] = np.linalg.solve(K, np.eye(m+1))
+            x = (self.maps[active] @ np.append(f[idx], 1.))[:m]
+            if not np.all(np.isfinite(x)):
+                raise RuntimeError(f'nonfinite face solve: {active}')
+            entry = dict(active=list(active), minimum=float(x.min()))
+            if x.min() < -1e-12:
+                remove = idx[int(np.argmin(x))]
+                entry.update(action='remove', coordinate=remove)
+                active = tuple(j for j in active if j != remove)
+            else:
+                pi = np.zeros(len(f)); pi[idx] = x
+                negative = pi < 0
+                if np.any(negative):
+                    clipped += int(negative.sum()); pi[negative] = 0.; pi /= pi.sum()
+                g = self.H @ pi - f; positive = pi > 1e-12
+                level = float(np.mean(g[positive]))
+                inactive = np.flatnonzero(~positive)
+                violation = level-g[inactive]
+                if len(inactive) and violation.max() > 1e-10:
+                    add = int(inactive[int(np.argmax(violation))])
+                    entry.update(action='add', coordinate=add)
+                    active = tuple(sorted(set(active) | {add}))
+                else:
+                    kkt = direct_kkt(self.C, q, pi)
+                    if kkt > 1e-10 or abs(pi.sum()-1.) > 1e-12 or pi.min() < -1e-12:
+                        raise RuntimeError(f'acceptance failure: KKT={kkt}, active={active}')
+                    entry['action'] = 'accept'; trace.append(entry)
+                    obj = float(.5*np.sum((self.C@pi-q)**2))
+                    initial_obj = float(.5*np.sum((self.C@initial-q)**2))
+                    return pi, dict(iterations=updates, updates=updates, trace=trace,
+                        converged=True, cap_hit=False, direct_KKT=kkt,
+                        objective=obj, initial_objective=initial_obj,
+                        active_classes=int(positive.sum()), clipped_coordinates=clipped,
+                        L1_change=float(np.abs(pi-initial).sum()),
+                        differs_from_BBSE=bool(np.abs(pi-initial).sum()>1e-8))
+            trace.append(entry); updates += 1
+            if updates > 100:
+                raise RuntimeError(f'working-set update cap: {trace}')
