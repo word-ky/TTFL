@@ -337,3 +337,5 @@ T016 STOPPED AT PREFLIGHT
 2026-09-14T18:58:04.1552102+08:00 T021 final independent run20260914-185130-ttfl-t021-verify-gpu1 exit0:2000historicalsamplesH/Ldiff0,280prototypes,4000CLS,48000Phase-Achoices,9fallbacks,40000regrets/allintegergatesPASS;892localupstreammanifestentriesunchanged. Compact5-stage receipts fetched, largeNPZremainremote withmanifest. Report UTF8files generated; initial GBKconsole print failed only, rerendered withPYTHONIOENCODING=utf-8 successfully; no scientific rerun.
 
 2026-09-14T18:58:26.0804120+08:00 T021 result artifact commit fb9f1721785856f08a3a9d145ab671352b5bd376; final coordination records runtime/result hashes explicitly.
+
+2026-09-14T19:34:15.1358303+08:00 T022 Lead06647a0 synced; TTFL noactivejob (unrelatedTAISPleftuntouched). Implemented raw state-response helper/extraction reuse,2focusedtestsPASS. Frozen formula/order L40,H2048; reuse1807T021paths/new3193 expected. GPU1 extraction beforeprototypework.
