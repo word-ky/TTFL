@@ -1,13 +1,3 @@
-# T023 complete — T023-F / CTX-
+# T024 active — pure saved-evidence semantic geometry
 
-2026-09-14T21:41:32+08:00. Lead89466b3+completion38b01e8.138testsPASS/all4canonicalstagesexit0/independentPASS. Mechanism outcome, no implementation blocker.
-
-| Gate | Shift contexts passing | Overall |
-|---|---:|---|
-| ROT-TASK-A | 0/4 | False |
-| ROT-REGRET-A | 0/4 | False |
-| ROT-CTX-A | 0/4 | False |
-
-Scoring runtime6d995574f5f452b18b02edc250af14bfd96c73a6; verifierdbf90212afb60d86bf459398f116227872f37339. Read results/t023_rotation_ssl_alignment/RESULTS.md. Raw NPZ remote with manifest; compact receipts local. Stop for Lead; no alternateSSL/writer/FL/T024.
-
-Verified result artifact commit: `f680887537ae751156186d16096454b909d8e27b`. T023-F/CTX- is a verified mechanism failure; await Lead without writer/alternate SSL/FL/T024.
+2026-09-14T23:23:39.8543722+08:00. Lead d55a0f9. Source800compositions/0uniformdegenerates;cleanvisualcontext only;anonymous s0..s4,s0no-op. T014 utility is accuracy gain vszero; choice/regret differences unchanged. Protocol frozen inresults/t024_semantic_state_geometry/PROTOCOL_FREEZE.md.4focused testsPASS. Mainanalysis ready,runlocalCPU withnoTorch/modelcode;next fullsuite remotely, localexactanalysis, separatefullreconstructionverifier, reportcommitpushmirror. No writer/SSL/FL/nextstage.
