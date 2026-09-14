@@ -15,7 +15,10 @@ def main():
     for k in ('project','phase-a','output','commit'):ap.add_argument('--'+k,required=True)
     a=ap.parse_args();p=Path(a.project);phase=Path(a.phase_a);out=Path(a.output);out.mkdir(parents=True,exist_ok=True);start=time.time()
     freeze=load(phase/'phaseA_choices_freeze.json');assert freeze['status']=='PASS' and all(sha(phase/name)==digest for name,digest in freeze['hashes'].items())
-    save(out/'scoring_start.json',dict(runtime=a.commit,phase_a=str(phase),phase_a_freeze_sha256=sha(phase/'phaseA_choices_freeze.json'),all_choices_frozen=True,privileged_scoring_now_authorized=True))
+    assert all(freeze[k] is False for k in ('target_class_labels_used','privileged_utility_loaded','query_outcomes_scored','model_parameters_updated'))
+    ext=Path(freeze['extraction']);ef=load(ext/'extraction_freeze.json');assert sha(ext/'extraction_freeze.json')==freeze['extraction_freeze_sha256']
+    assert all(sha(ext/name)==digest for name,digest in ef['hashes'].items()) and all(sha(path)==digest for path,digest in load(phase/'input_hashes.json').items())
+    save(out/'scoring_start.json',dict(runtime=a.commit,phase_a=str(phase),phase_a_runtime=freeze['runtime'],phase_a_freeze_sha256=sha(phase/'phaseA_choices_freeze.json'),all_choices_frozen=True,phase_a_sealed_flags_verified=True,privileged_scoring_now_authorized=True))
     p13=p/'research_log/t013_receipts/20260914-t013-local/artifacts/t013_disjoint_factorization';p14=p/'results/t014_class_conditional_factorization'
     p15=p/'runs/20260914-043941-ttfl-t015-gpu1/artifacts/t015_unlabeled_semantic_mixture';p16=p/'runs/20260914-063758-ttfl-t016r-cached/artifacts/t016_confusion_debiased_semantics';p18=p/'runs/20260914-132634-ttfl-t018r2-science/artifacts/t018r2_constrained_prevalence'
     files=[p13/'half_integer_counts.npz',p13/'integer_count_receipts.json',p14/'class_templates.json.gz',p15/'integer_count_receipts.json',p16/'support_truth.json',p16/'integer_count_receipts.json',p18/'actual_oracle_context_episodes.json.gz',p18/'integer_count_receipts.json']

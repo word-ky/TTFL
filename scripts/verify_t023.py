@@ -32,6 +32,8 @@ def main():
     ss=load(score/'scoring_start.json');phase=Path(ss['phase_a']);pf=load(phase/'phaseA_choices_freeze.json');ext=Path(pf['extraction']);ef=load(ext/'extraction_freeze.json')
     assert sha(phase/'phaseA_choices_freeze.json')==ss['phase_a_freeze_sha256'] and sha(ext/'extraction_freeze.json')==pf['extraction_freeze_sha256']
     for folder,f in [(phase,pf),(ext,ef)]:assert f['status']=='PASS' and all(sha(folder/name)==digest for name,digest in f['hashes'].items())
+    assert all(pf[k] is False for k in ('target_class_labels_used','privileged_utility_loaded','query_outcomes_scored','model_parameters_updated'))
+    summary=load(score/'summary.json');assert summary['new_query_forwards']==summary['new_model_forwards']==0 and summary['model_parameters_updated'] is False
     inputs=load(score/'input_hashes.json');assert all(sha(path)==digest for path,digest in inputs.items())
     fs=load(ext/'fold_membership.json');d=dict(np.load(phase/'phaseA_scores.npz'));scr=np.load(phase/'scramble_scores.npz')['scores']
     old=p/'runs/20260914-183139-ttfl-t021-extract-gpu1/artifacts/t021_frozen_representation_observability';new=p/'runs/20260914-193443-ttfl-t022-extract-gpu1/artifacts/t022_state_response_semantics'
@@ -104,6 +106,14 @@ def main():
     for r in load(score/'integer_count_receipts.json'):
         key=r['policy'],r['bank'],r['context'],r['salt'];np.testing.assert_array_equal(counts[key],r['class_correct']);np.testing.assert_array_equal(totals,r['class_total'])
     aa=rows(score/'actual_aggregate.csv');pa=rows(score/'paired_regret_context.csv')
+    expected={(pol,b,t,s) for pol in ('ROT-CURRENT','ROT-CLEAN-SURROGATE','P') for b in B for t in C for s in S}
+    assert len(aa)==120 and {(r['policy'],r['bank'],r['context'],r['salt']) for r in aa}==expected
+    assert set(counts)==expected and len(episodes)==24000 and all(len(v)==200 and len({(i,h) for i,h,_ in v})==200 for v in regs.values())
+    assert len(load(score/'integer_count_receipts.json'))==120
+    expected_paired={(pol,comp,b,t,s) for pol,comp in [('ROT-CURRENT','vs_P'),('ROT-CLEAN-SURROGATE','vs_P'),('ROT-CURRENT','current_vs_clean')] for b in B for t in C for s in S}
+    assert len(pa)==120 and {(r['policy'],r['comparison'],r['bank'],r['context'],r['salt']) for r in pa}==expected_paired
+    historical={(r['bank'],r['context'],r['salt']):r['class_correct'] for r in load(p18/'integer_count_receipts.json') if r['mode']=='01'}
+    for (b,t,s),v in historical.items():np.testing.assert_array_equal(counts['P',b,t,s],v)
     for r in aa:
         key=r['policy'],r['bank'],r['context'],r['salt'];bk=r['salt'],r['bank'],r['context'];acc=macro(counts[key],totals);rv=[v for _,_,v in regs[key]]
         assert str(acc)==r['macro_class_exact'] and str((acc-zero[bk])/(p00[bk]-zero[bk]))==r['capture_exact'] and float(acc-bbse[bk])==float(r['delta_vs_BBSE_pp'])
@@ -115,6 +125,7 @@ def main():
         delta=[sum((v for j,h,v in nv if j==i),Fraction())-sum((v for j,h,v in ov if j==i),Fraction()) for i in range(100)]
         assert sum(v<0 for v in delta)==int(r['clients_better']) and sum(v==0 for v in delta)==int(r['clients_equal']) and sum(v>0 for v in delta)==int(r['clients_worse'])
     rr=gzload(score/'rank_correlations.json.gz')
+    assert len(rr)==16000 and len(rows(score/'rank_summary.csv'))==20 and len(load(score/'state_choice_histograms.json'))==20
     for r in rr:
         i=r['client'];bi=B.index(r['bank']);ti=C.index(r['context']) if r['policy']=='ROT-CURRENT' else 0
         x=rankdata(-d['scores'][i,bi,ti]);y=rankdata(utils[i,r['bank'],r['context'],r['salt'],r['train_half']]);rho=None if np.ptp(x)==0 or np.ptp(y)==0 else float(np.corrcoef(x,y)[0,1])
