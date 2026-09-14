@@ -1,0 +1,10 @@
+{
+  "runtime": "a5b74e10995e3a7cb846b553c70a68b39a736b11",
+  "matched": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183911-ttfl-t021-matched/artifacts/t021_frozen_representation_observability",
+  "phase_a": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183528-ttfl-t021-phase-a/artifacts/t021_frozen_representation_observability",
+  "matched_freeze_sha256": "981591b62a77302e12071b3bbabf708e840051d7beb0677ef9e06a6f297613cd",
+  "phase_a_freeze_sha256": "dad4bfa9cb4f523ec626252828e86c7ddc3492926c04d7d6e4033ce7c6ecabff",
+  "actual_choices_frozen": true,
+  "matched_choices_frozen": true,
+  "target_composition_and_query_scoring_now_authorized": true
+}

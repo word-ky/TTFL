@@ -1,13 +1,12 @@
-# T020R2 repair complete; sealed T020R-MC2 stop
+# T021 complete — T021-M / CTX+; source not executed
 
-2026-09-14T17:39:11+08:00. Lead43d2f85/runtime1d7b6b8f7ca3e58fea1ae486cf7505192fdc05a1/run20260914-173004-ttfl-t020r2.124testsPASS;98clients reused byte-identically;64/87 resumed with exactly2cycle fallbacks;complete100clients/8000slots. H1/H2=98.8250%<99%; H1/ALL=99.2500%<99.5%; H2/ALL=99.5750%.94disagreements/38clients/59cells. Independent4000CLS/8000legacy/56000blocks/allfallbacks/553upstreamentriesPASS. T020R-MC2; labels/true utilities/query sealed, all scientific gatesNOT_EXECUTED; no T020-R/C/F/X. Read results/t020r2_mc_convergence/RESULTS.md. AwaitLead; no furtherR/seeds/alternatepolicy/nextstage.
+2026-09-14T18:57:23+08:00. Lead7b5bb34;scoringa5b74e10995e3a7cb846b553c70a68b39a736b11/run20260914-184639-ttfl-t021-score;verification5296f57e0cc58058e8825ab8844f8ac4284d663a/run20260914-185130-ttfl-t021-verify-gpu1.130testsPASS/all5stagesexit0. L MATCH3/4,H4/4;bothREAL1/4DarkFAIL;bothREGRET0/4;CTX L3/4,H4/4PASS. SourceNOT_EXECUTED because neitherREALpasses. Independent2000historicalsamples/280prototypes/6000means/48000choices/4000CLS/9fallbacks/40000regrets/allintegercounts/gates and 892upstreamentriesPASS. MaxhistoricalH/Ldiff0. Read results/t021_frozen_representation_observability/RESULTS.md. RawlargeNPZremoteonly, manifestpaths/hashesrecorded; compactreceiptslocal. AwaitLead; no whitening/learnedhead/SSL/operator/FL or BER revival.
 
-| Context | A H1/H2 % | B H1/H2 % | Pooled % |
-|---|---:|---:|---:|
-| clean | 99.250 | 98.250 | 98.750 |
-| brightness_dark | 98.375 | 99.500 | 98.938 |
-| contrast_low | 98.250 | 99.250 | 98.750 |
-| gaussian_noise | 99.250 | 98.875 | 99.062 |
-| gaussian_blur | 98.500 | 98.750 | 98.625 |
+| Context | P matched % | L matched % | H matched % | P real % | L real % | H real % |
+|---|---:|---:|---:|---:|---:|---:|
+| brightness_dark | 90.783–92.351 | 90.541–91.936 | 91.895–93.506 | 89.138–91.783 | 89.289–90.281 | 87.110–89.612 |
+| contrast_low | 83.432–85.872 | 82.346–83.775 | 83.060–84.545 | 75.729–83.422 | 72.333–76.391 | 68.940–79.791 |
+| gaussian_noise | 84.478–85.748 | 80.402–82.363 | 82.256–83.527 | 78.334–81.889 | 71.239–76.240 | 70.227–72.586 |
+| gaussian_blur | 82.684–84.908 | 79.010–81.961 | 80.809–82.533 | 74.911–76.690 | 68.244–74.730 | 72.997–75.658 |
 
-The solver repair is complete; the full frozen convergence gate returns MC2. Scientific BER efficacy remains unassessed.
+Interpretation: raw upstream dimensionality alone does not close real-to-other-client observation mismatch; context-specific geometry is useful under the fixed same-state control. Source was frozen but not scored. No next stage started.

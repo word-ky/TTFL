@@ -1,0 +1,9200 @@
+[
+  {
+    "client": 0,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 0,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 0,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 0,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 0,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 0,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 0,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 0,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 0,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 0,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 5,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 5,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 5,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 5,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 5,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 5,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 5,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 5,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 5,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 5,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 10,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 10,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 10,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 10,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 10,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 10,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 10,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 10,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 10,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 10,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 15,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 15,
+    "bank": "A",
+    "context": "clean",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 15,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 15,
+    "bank": "B",
+    "context": "clean",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 15,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 15,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 15,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 15,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 15,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 15,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 15,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 15,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 15,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 15,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 20,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 20,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 20,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 20,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 20,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 20,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 20,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 20,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 20,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 20,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 26,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 26,
+    "bank": "A",
+    "context": "clean",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 26,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 26,
+    "bank": "B",
+    "context": "clean",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 26,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 26,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 26,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 26,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 26,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 26,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 26,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 26,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 26,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 31,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 31,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 31,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 31,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 31,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 31,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 31,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 31,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 31,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 31,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 36,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 36,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 36,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 36,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 36,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 36,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 36,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 36,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 36,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 36,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 41,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 41,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 41,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 41,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 41,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 41,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 41,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 41,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 41,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 41,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 46,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 46,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 46,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 46,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 46,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 46,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 46,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 46,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 46,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 46,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 52,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 52,
+    "bank": "A",
+    "context": "clean",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 52,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 52,
+    "bank": "B",
+    "context": "clean",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 52,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 52,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 52,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 52,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 52,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 52,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 52,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 52,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 57,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 57,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 57,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 57,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 57,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 57,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 57,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 57,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 57,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 57,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 62,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 62,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 62,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 62,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 62,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 62,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 62,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 62,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 62,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 62,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 64,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 64,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 64,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 64,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 64,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 64,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 64,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 64,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 64,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 64,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 67,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 67,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 67,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 67,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 67,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 67,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 67,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 67,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 67,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 67,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 72,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 72,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 72,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 72,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 72,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 72,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 72,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 72,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 72,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 72,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 78,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 78,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 78,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 78,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 78,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 78,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 78,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 78,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 78,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 78,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 83,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 83,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 83,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 83,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 83,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 83,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 83,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 83,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 83,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 83,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 87,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 87,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 87,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 87,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 87,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 87,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 87,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 87,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 87,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 87,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 88,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 88,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 88,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 88,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 88,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 88,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 88,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 88,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 88,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 88,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 93,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 93,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 93,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 93,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 93,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 93,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 93,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 93,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 93,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 93,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 99,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 99,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 99,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 99,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 99,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 99,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 99,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 99,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 99,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 99,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 1,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 1,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 1,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 1,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 1,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 1,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 1,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 1,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 1,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 1,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 2,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 2,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 2,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 2,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 2,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 2,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 2,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 2,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 2,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 2,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 3,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 3,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 3,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 3,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 3,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 3,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 3,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 3,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 3,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 3,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 4,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 4,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 4,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 4,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 4,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 4,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 4,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 4,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 4,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 4,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 6,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 6,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 6,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 6,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 6,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 6,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 6,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 6,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 6,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 6,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 7,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 7,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 7,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 7,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 7,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 7,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 7,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 7,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 7,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 7,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 8,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 8,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 8,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 8,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 8,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 8,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 8,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 8,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 8,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 8,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 9,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 9,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 9,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 9,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 9,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 9,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 9,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 9,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 9,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 9,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 11,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 11,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 11,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 11,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 11,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 11,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 11,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 11,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 11,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 11,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 12,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 12,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 12,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 12,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 12,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 12,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 12,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 12,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 12,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 12,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 13,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 13,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 13,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 13,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 13,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 13,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 13,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 13,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 13,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 13,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 14,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 14,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 14,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 14,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 14,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 14,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 14,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 14,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 14,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 14,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 16,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 16,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 16,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 16,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 16,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 16,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 16,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 16,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 16,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 16,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 17,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 17,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 17,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 17,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 17,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 17,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 17,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 17,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 17,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 17,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 18,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 18,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 18,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 18,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 18,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 18,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 18,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 18,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 18,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 18,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 19,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 19,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 19,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 19,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 19,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 19,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 19,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 19,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 19,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 19,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 21,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 21,
+    "bank": "A",
+    "context": "clean",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 21,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 21,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 21,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 21,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 21,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 21,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 21,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 21,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 21,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 22,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 22,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 22,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 22,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 22,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 22,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 22,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 22,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 22,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 22,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 23,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 23,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 23,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 23,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 23,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 23,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 23,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 23,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 23,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 23,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 24,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 24,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 24,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 24,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 24,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 24,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 24,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 24,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 24,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 24,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 25,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 25,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 25,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 25,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 25,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 25,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 25,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 25,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 25,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 25,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 27,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 27,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 27,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 27,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 27,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 27,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 27,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 27,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 27,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 27,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 28,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 28,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 28,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 28,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 28,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 28,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 28,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 28,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 28,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 28,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 29,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 29,
+    "bank": "A",
+    "context": "clean",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 29,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 29,
+    "bank": "B",
+    "context": "clean",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 29,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 29,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 29,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 29,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 29,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 29,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 29,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 29,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 29,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 29,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 30,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 30,
+    "bank": "A",
+    "context": "clean",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 30,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 30,
+    "bank": "B",
+    "context": "clean",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 30,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 30,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 30,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 30,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 30,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 30,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 30,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 30,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 32,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 32,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 32,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 32,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 32,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 32,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 32,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 32,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 32,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 32,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 33,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 33,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 33,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 33,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 33,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 33,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 33,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 33,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 33,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 33,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 34,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 34,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 34,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 34,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 34,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 34,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 34,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 34,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 34,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 34,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 35,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 35,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 35,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 35,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 35,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 35,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 35,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 35,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 35,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 35,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 37,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 37,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 37,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 37,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 37,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 37,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 37,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 37,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 37,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 37,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 38,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 38,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 38,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 38,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 38,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 38,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 38,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 38,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 38,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 38,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 39,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 39,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 39,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 39,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 39,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 39,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 39,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 39,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 39,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 39,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 40,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 40,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 42,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 42,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 42,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 42,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 42,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 42,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 42,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 42,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 42,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 42,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 43,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 43,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 43,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 43,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 43,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 43,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 43,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 43,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 43,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 43,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 44,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 44,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 44,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 44,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 44,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 44,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 44,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 44,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 44,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 44,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 45,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 45,
+    "bank": "A",
+    "context": "clean",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 45,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 45,
+    "bank": "B",
+    "context": "clean",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 45,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 45,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 45,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 45,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 45,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 45,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 45,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 45,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 47,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 47,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 47,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 47,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 47,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 47,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 47,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 47,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 47,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 47,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 48,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 48,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 48,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 48,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 48,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 48,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 48,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 48,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 48,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 48,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 49,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 49,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 49,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 49,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 49,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 49,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 49,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 49,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 49,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 49,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 50,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 50,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 50,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 50,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 50,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 50,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 50,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 50,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 50,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 50,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 51,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 51,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 51,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 51,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 51,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 51,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 51,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 51,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 51,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 51,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 53,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 53,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 53,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 53,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 53,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 53,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 53,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 53,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 53,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 53,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 54,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 54,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 54,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 54,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 54,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 54,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 54,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 54,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 54,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 54,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 55,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 55,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 55,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 55,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 55,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 55,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 55,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 55,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 55,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 55,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 56,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 56,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 56,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 56,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 56,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 56,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 56,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 56,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 56,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 56,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 58,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 58,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 58,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 58,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 58,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 58,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 58,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 58,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 58,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 58,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 59,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 59,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 59,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 59,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 59,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 59,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 59,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 59,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 59,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 59,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 60,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 60,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 60,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 60,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 60,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 60,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 60,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 60,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 60,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 60,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 61,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 61,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 61,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 61,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 61,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 61,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 61,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 61,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 61,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 61,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 63,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 63,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 63,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 63,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 63,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 63,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 63,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 63,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 63,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 63,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 65,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 65,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 65,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 65,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 65,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 65,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 65,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 65,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 65,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 65,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 66,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 66,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 66,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 66,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 66,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 66,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 66,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 66,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 66,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 66,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 68,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 68,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 68,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 68,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 68,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 68,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 68,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 68,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 68,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 68,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 69,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 69,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 69,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 69,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 69,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 69,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 69,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 69,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 69,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 69,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 70,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 70,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 70,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 70,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 70,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 70,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 70,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 70,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 70,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 70,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 71,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 71,
+    "bank": "A",
+    "context": "clean",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 71,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 71,
+    "bank": "B",
+    "context": "clean",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 71,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 71,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 71,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 71,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 71,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 71,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 71,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 71,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 73,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 73,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 73,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 73,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 73,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 73,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 73,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 73,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 73,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 73,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 74,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 74,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 74,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 74,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 74,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 74,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 74,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 74,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 74,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 74,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 74,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 74,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 75,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 75,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 75,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 75,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 75,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 75,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 75,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 75,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 75,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 75,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 76,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 76,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 76,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 76,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 76,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 76,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 76,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 76,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 76,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 76,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 77,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 77,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 77,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 77,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 77,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 77,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 77,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 77,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 77,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 77,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 79,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 79,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 79,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 79,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 79,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 79,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 79,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 79,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 79,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 79,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 80,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 80,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 80,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 80,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 80,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 80,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 80,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 80,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 80,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 80,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 81,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 81,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 81,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 81,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 81,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 81,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 81,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 81,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 81,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 81,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 82,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 82,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 82,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 82,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 82,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 82,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 82,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 82,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 82,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 82,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 84,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 84,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 84,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 84,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 84,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 84,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 84,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 84,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 84,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 84,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 85,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 85,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 85,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 85,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 85,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 85,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 85,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 85,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 85,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 85,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 86,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 86,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 86,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 86,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 86,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 86,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 86,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 86,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 86,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 86,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 89,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 89,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 89,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 89,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 89,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 89,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 89,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 89,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 89,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 89,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 90,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 90,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 90,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 90,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 90,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 90,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 90,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 90,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 90,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 90,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 91,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 91,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 91,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 91,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 91,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 91,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 91,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 91,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 91,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 91,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 92,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 92,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 92,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 92,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 92,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 92,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 92,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 92,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 92,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 92,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 94,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 94,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 94,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 94,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 94,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 94,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 94,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 94,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 94,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 94,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 95,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 95,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 95,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 95,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 95,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 95,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 95,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 95,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 95,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 95,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 96,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 96,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 96,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 96,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 96,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 96,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 96,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 96,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 96,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 96,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 97,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 97,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 97,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 97,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 97,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 97,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 97,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 97,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 97,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 97,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 98,
+    "bank": "A",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 98,
+    "bank": "B",
+    "context": "clean",
+    "state": "clean",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 98,
+    "bank": "A",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 98,
+    "bank": "B",
+    "context": "brightness_dark",
+    "state": "brightness_dark",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 98,
+    "bank": "A",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 98,
+    "bank": "B",
+    "context": "contrast_low",
+    "state": "contrast_low",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 98,
+    "bank": "A",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 98,
+    "bank": "B",
+    "context": "gaussian_noise",
+    "state": "gaussian_noise",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 98,
+    "bank": "A",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  },
+  {
+    "client": 98,
+    "bank": "B",
+    "context": "gaussian_blur",
+    "state": "gaussian_blur",
+    "max_abs": 0.0,
+    "argmax_identical": true,
+    "samples": 20
+  }
+]

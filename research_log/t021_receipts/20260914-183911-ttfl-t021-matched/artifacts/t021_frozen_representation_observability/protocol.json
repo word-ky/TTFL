@@ -1,0 +1,11 @@
+{
+  "lead": "7b5bb34",
+  "runtime": "18ea37d77c30763cba49f671a941c5c9946532dc",
+  "phase_a": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183528-ttfl-t021-phase-a/artifacts/t021_frozen_representation_observability",
+  "phase_a_sha256": "dad4bfa9cb4f523ec626252828e86c7ddc3492926c04d7d6e4033ce7c6ecabff",
+  "replicas": 128,
+  "K": 20,
+  "seed": "full big-endian SHA256(T021|matched|representation|client|bank|context|replica) -> PCG64",
+  "exact_target_counts": true,
+  "query_outcomes_scored": false
+}

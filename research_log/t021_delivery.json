@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-09-14T18:57:23+08:00",
+  "lead": "7b5bb34",
+  "runtime": "a5b74e10995e3a7cb846b553c70a68b39a736b11",
+  "verification_runtime": "5296f57e0cc58058e8825ab8844f8ac4284d663a",
+  "runs": {
+    "extraction": "20260914-183139-ttfl-t021-extract-gpu1",
+    "phase_a": "20260914-183528-ttfl-t021-phase-a",
+    "matched": "20260914-183911-ttfl-t021-matched",
+    "scoring": "20260914-184639-ttfl-t021-score",
+    "verification": "20260914-185130-ttfl-t021-verify-gpu1"
+  },
+  "diagnosis": "T021-M",
+  "CTX": {
+    "L": true,
+    "H": true
+  },
+  "SRC": "NOT_EXECUTED",
+  "results": "results/t021_frozen_representation_observability",
+  "large_arrays": "remote canonical run paths in remote_artifact_manifest.json",
+  "next": "Await Lead bounded instruction"
+}

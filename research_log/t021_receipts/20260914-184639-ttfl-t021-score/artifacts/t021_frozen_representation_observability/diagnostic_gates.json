@@ -1,0 +1,87 @@
+{
+  "diagnosis": "T021-M",
+  "representations": {
+    "L": {
+      "REP_MATCH_A": true,
+      "REP_REAL_A": false,
+      "matched_pass": {
+        "brightness_dark": true,
+        "contrast_low": true,
+        "gaussian_noise": true,
+        "gaussian_blur": false
+      },
+      "real_pass": {
+        "brightness_dark": true,
+        "contrast_low": false,
+        "gaussian_noise": false,
+        "gaussian_blur": false
+      },
+      "real_regression_safety": true,
+      "REP_SRC_A": "NOT_EXECUTED",
+      "REP_REGRET_A": {
+        "passed": false,
+        "context_pass": {
+          "brightness_dark": false,
+          "contrast_low": false,
+          "gaussian_noise": false,
+          "gaussian_blur": false
+        }
+      },
+      "REP_CTX_A": {
+        "passed": true,
+        "context_pass": {
+          "brightness_dark": true,
+          "contrast_low": true,
+          "gaussian_noise": false,
+          "gaussian_blur": true
+        }
+      }
+    },
+    "H": {
+      "REP_MATCH_A": true,
+      "REP_REAL_A": false,
+      "matched_pass": {
+        "brightness_dark": true,
+        "contrast_low": true,
+        "gaussian_noise": true,
+        "gaussian_blur": true
+      },
+      "real_pass": {
+        "brightness_dark": true,
+        "contrast_low": false,
+        "gaussian_noise": false,
+        "gaussian_blur": false
+      },
+      "real_regression_safety": true,
+      "REP_SRC_A": "NOT_EXECUTED",
+      "REP_REGRET_A": {
+        "passed": false,
+        "context_pass": {
+          "brightness_dark": false,
+          "contrast_low": false,
+          "gaussian_noise": false,
+          "gaussian_blur": false
+        }
+      },
+      "REP_CTX_A": {
+        "passed": true,
+        "context_pass": {
+          "brightness_dark": true,
+          "contrast_low": true,
+          "gaussian_noise": true,
+          "gaussian_blur": true
+        }
+      }
+    }
+  },
+  "flags": {
+    "L": {
+      "CTX": "CTX+",
+      "SRC": "NOT_EXECUTED"
+    },
+    "H": {
+      "CTX": "CTX+",
+      "SRC": "NOT_EXECUTED"
+    }
+  }
+}

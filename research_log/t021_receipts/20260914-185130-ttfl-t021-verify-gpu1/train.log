@@ -1,0 +1,28 @@
+[autodl] run_id=20260914-185130-ttfl-t021-verify-gpu1
+[autodl] started_at=2026-09-14T18:51:35+08:00
+/home/wenchang/anaconda3/envs/python3.12-tk2-2.3/lib/python3.12/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+T021_INDEPENDENT_FORWARD 2000
+T021_INDEPENDENT_OBSERVER L A clean
+T021_INDEPENDENT_OBSERVER L A brightness_dark
+T021_INDEPENDENT_OBSERVER L A contrast_low
+T021_INDEPENDENT_OBSERVER L A gaussian_noise
+T021_INDEPENDENT_OBSERVER L A gaussian_blur
+T021_INDEPENDENT_OBSERVER L B clean
+T021_INDEPENDENT_OBSERVER L B brightness_dark
+T021_INDEPENDENT_OBSERVER L B contrast_low
+T021_INDEPENDENT_OBSERVER L B gaussian_noise
+T021_INDEPENDENT_OBSERVER L B gaussian_blur
+T021_INDEPENDENT_OBSERVER H A clean
+T021_INDEPENDENT_OBSERVER H A brightness_dark
+T021_INDEPENDENT_OBSERVER H A contrast_low
+T021_INDEPENDENT_OBSERVER H A gaussian_noise
+T021_INDEPENDENT_OBSERVER H A gaussian_blur
+T021_INDEPENDENT_OBSERVER H B clean
+T021_INDEPENDENT_OBSERVER H B brightness_dark
+T021_INDEPENDENT_OBSERVER H B contrast_low
+T021_INDEPENDENT_OBSERVER H B gaussian_noise
+T021_INDEPENDENT_OBSERVER H B gaussian_blur
+T021_INDEPENDENT_PASS {"status": "PASS", "runtime": "5296f57e0cc58058e8825ab8844f8ac4284d663a", "scoring": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-184639-ttfl-t021-score/artifacts/t021_frozen_representation_observability", "historical_logit_samples": 2000, "independent_original_model_forwards": 100, "max_logit_difference": 0.0, "max_feature_difference": 0.0, "model_and_states_unchanged": true, "target_excluded_prototype_checks": 280, "actual_mean_reconstructions": 6000, "all_phase_a_state_and_argmax_checks": 48000, "matched_CLS_replays": 4000, "max_pi_difference": 0.0, "max_actual_KKT": 9.094947017729282e-13, "matched_sample_choice_checks": 32000, "matched_all_draw_counts_and_exclusion_verified": true, "all_fallback_reenumerations": [{"representation": "L", "client": 24, "bank": "A", "context": "clean", "replica": 87, "reference_KKT": 1.3322676295501878e-15, "objective_difference": 0.0, "max_pi_difference": 0.0}, {"representation": "L", "client": 64, "bank": "A", "context": "brightness_dark", "replica": 42, "reference_KKT": 1.3877787807814457e-16, "objective_difference": 0.0, "max_pi_difference": 0.0}, {"representation": "L", "client": 46, "bank": "A", "context": "contrast_low", "replica": 64, "reference_KKT": 9.08995101411847e-16, "objective_difference": 0.0, "max_pi_difference": 0.0}, {"representation": "L", "client": 86, "bank": "A", "context": "contrast_low", "replica": 12, "reference_KKT": 2.348815586472597e-15, "objective_difference": 0.0, "max_pi_difference": 0.0}, {"representation": "L", "client": 30, "bank": "A", "context": "gaussian_noise", "replica": 44, "reference_KKT": 7.632783294297951e-16, "objective_difference": 0.0, "max_pi_difference": 0.0}, {"representation": "L", "client": 67, "bank": "A", "context": "gaussian_noise", "replica": 61, "reference_KKT": 4.85722573273506e-16, "objective_difference": 0.0, "max_pi_difference": 0.0}, {"representation": "L", "client": 99, "bank": "B", "context": "brightness_dark", "replica": 14, "reference_KKT": 9.159339953157541e-16, "objective_difference": 0.0, "max_pi_difference": 0.0}, {"representation": "L", "client": 30, "bank": "B", "context": "contrast_low", "replica": 110, "reference_KKT": 1.6375789613221059e-15, "objective_difference": 0.0, "max_pi_difference": 0.0}, {"representation": "L", "client": 33, "bank": "B", "context": "gaussian_noise", "replica": 13, "reference_KKT": 1.9984014443252818e-15, "objective_difference": 0.0, "max_pi_difference": 0.0}], "exact_true_regret_reconstructions": 40000, "actual_integer_count_rows": 200, "matched_integer_count_rows": 10240, "all_gates_reconstructed": true, "all_paired_better_equal_worse_counts_reconstructed": true, "upstream_input_hashes_unchanged": true, "seconds": 22.637534141540527}
+[autodl] finished_at=2026-09-14T18:52:00+08:00
+[autodl] exit_code=0

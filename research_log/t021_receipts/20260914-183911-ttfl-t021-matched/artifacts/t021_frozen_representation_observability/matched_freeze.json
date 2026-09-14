@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "runtime": "18ea37d77c30763cba49f671a941c5c9946532dc",
+  "phase_a": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183528-ttfl-t021-phase-a/artifacts/t021_frozen_representation_observability",
+  "replicas": 128,
+  "matched_solutions": 256000,
+  "template_choices": 2048000,
+  "solver_fallbacks": 9,
+  "query_outcomes_scored": false,
+  "seconds": 153.20065903663635,
+  "hashes": {
+    "L_matched.npz": "87449456419b80bb7bc6870bc53be57c78a33a400f17600950bc74dc9de38a26",
+    "H_matched.npz": "0f2aa84ca868047d4ee28d419a7a45c2f4907f6cc6d11533fdfdb904186adacd",
+    "matched_cells.json.gz": "8163c765e61c77f4242df26c2041b932387a626a3f97194d29bc974356aa22b1",
+    "solver_fallbacks.json": "ebe582b3199b0498e09ace6fb1c5bdb4dfba6406807ddc8c13999622f3af4719"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "lead": "7b5bb34",
+  "runtime": "1849f39b3feb5f8bb8f5b2240b392c17c2385944",
+  "extraction": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183139-ttfl-t021-extract-gpu1/artifacts/t021_frozen_representation_observability",
+  "extraction_freeze_sha256": "425af4a106ca4acd5afd854c6a23a2ec1e6923a62c23db97955ddc020f4a8feb",
+  "hashes": {
+    "L_prototypes.npz": "910169bd9cc29a4f4ade77ba57bac7d3f4c7eb5ba47c82d6fe5e03212dff0602",
+    "L_actual.npz": "1c63af4395e7d17f4ee7346c24f27633f0e460c65f8570c717a54838ffd6bf9b",
+    "H_prototypes.npz": "f8dc775461d6e02d3bf0d61e312b3008a85080caa57a3445dbc0a11eb7ce065f",
+    "H_actual.npz": "a3aaaba735b2dedbe6019070c68da8f036dbaf6e426caa197e2c6916d9f34680",
+    "prototype_diagnostics.json.gz": "25574ab0175ca4f85eb5f9d09cec5fc14aac3bd93dec1b04406206a13d6fbf18",
+    "actual_solver_receipts.json.gz": "b768a667858ad2c2ec6b94cb14d887f4bd302e32f48b673fab9c3777984132b4",
+    "solver_fallbacks.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "prototype_membership.json": "fa075147ac5b1f7e4175e037bb11c92ac3a0062df2720cbe712b566f8971891d"
+  },
+  "real_observation_episodes": 6000,
+  "template_choices": 48000,
+  "prototype_cells": 4000,
+  "target_i_labels_used_by_target_i_estimator": false,
+  "target_composition_used_for_scoring": false,
+  "query_outcomes_scored": false,
+  "labels_loaded_only_for_other_client_calibration": true,
+  "solver_fallbacks": 0,
+  "seconds": 19.963258981704712
+}

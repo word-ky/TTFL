@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "runtime": "e908116500c753ce7a7db4868776928934ba9f35",
+  "gpu": "NVIDIA RTX A6000",
+  "seconds": 15.282466173171997,
+  "forward_calls": 1807,
+  "historical_samples": 20440,
+  "max_logit_abs": 0.0,
+  "model_hash": "61876d057836047e0d086c6d737e8dce69c71eba40dc6369f56b1b1445d8d397",
+  "state_digests": {
+    "A": {
+      "clean": "790f868d49a42f06dd7e1b1fd741c2b3a50de7c6040f07fadd76406fd9171b08",
+      "brightness_dark": "cbc57c928a5c1b1ffa8f8104b64e87326d98cf5da79f64da21e5f03c701d12de",
+      "contrast_low": "81021fe112149655694ecbaeb6b14cb9acc123e87ff29f08116eab6015af5b54",
+      "gaussian_noise": "ef2299074c0388ce9a4e6c05c22b2cf1378bb0c9d8a132ab84d8bb5b94f6b31b",
+      "gaussian_blur": "1ecdf387a5b4f56f9222484fd8285312cea88ab9c2e06f5452f728cc57a4a76f"
+    },
+    "B": {
+      "clean": "790f868d49a42f06dd7e1b1fd741c2b3a50de7c6040f07fadd76406fd9171b08",
+      "brightness_dark": "4f85501233eff970eed3a4ca7d82f26b7cc2bc98a4450c5e8af296b72083f7bd",
+      "contrast_low": "ba627b2539bfade26921fbfc8e8d1906086f83478415bb0c2f07495296937f73",
+      "gaussian_noise": "c75359b61d19bb4388bd243d214bf2d3c74762a0726b06483bf1b698e31de363",
+      "gaussian_blur": "6314c6a272dd03ca60b694e0c3520383f45107fd2fb8a9641ebdcf0c85274369"
+    }
+  },
+  "representation_hashes": {
+    "support_H.npz": "b6c9b815081403e728656439a4434b5e42364afbf2884f328008bd2a1240dfc4",
+    "support_L.npz": "79227e1dd0671316f302d9fdbdaeb8b914383c5ca36f5aa388b0fda02fa1f444"
+  },
+  "target_labels_used": false,
+  "query_outcomes_scored": false
+}

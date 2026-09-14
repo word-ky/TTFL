@@ -1,0 +1,172 @@
+[
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183139-ttfl-t021-extract-gpu1/artifacts/t021_frozen_representation_observability/support_H.npz",
+    "bytes": 53415751,
+    "sha256": "b6c9b815081403e728656439a4434b5e42364afbf2884f328008bd2a1240dfc4"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183139-ttfl-t021-extract-gpu1/artifacts/t021_frozen_representation_observability/forward_equivalence.json",
+    "bytes": 44890,
+    "sha256": "68203301759e6d5949a18ad948f76d51f0d52ff92a3dca5ea2f8013dde1eef6e"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183139-ttfl-t021-extract-gpu1/artifacts/t021_frozen_representation_observability/support_L.npz",
+    "bytes": 1876500,
+    "sha256": "79227e1dd0671316f302d9fdbdaeb8b914383c5ca36f5aa388b0fda02fa1f444"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183139-ttfl-t021-extract-gpu1/artifacts/t021_frozen_representation_observability/historical_logit_replays.json",
+    "bytes": 175191,
+    "sha256": "db32a6ea9691496db893b185da27b1c3d9b99711c8a591cfdc28508354e0e8b0"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183139-ttfl-t021-extract-gpu1/artifacts/t021_frozen_representation_observability/extraction_freeze.json",
+    "bytes": 1538,
+    "sha256": "425af4a106ca4acd5afd854c6a23a2ec1e6923a62c23db97955ddc020f4a8feb"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183139-ttfl-t021-extract-gpu1/artifacts/t021_frozen_representation_observability/input_hashes.json",
+    "bytes": 1775,
+    "sha256": "f9f59527968c4505f1da8163843914cc6180bc21e70ed3153618e2aac508adc1"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183528-ttfl-t021-phase-a/artifacts/t021_frozen_representation_observability/actual_solver_receipts.json.gz",
+    "bytes": 400295,
+    "sha256": "b768a667858ad2c2ec6b94cb14d887f4bd302e32f48b673fab9c3777984132b4"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183528-ttfl-t021-phase-a/artifacts/t021_frozen_representation_observability/L_actual.npz",
+    "bytes": 234812,
+    "sha256": "1c63af4395e7d17f4ee7346c24f27633f0e460c65f8570c717a54838ffd6bf9b"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183528-ttfl-t021-phase-a/artifacts/t021_frozen_representation_observability/solver_fallbacks.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183528-ttfl-t021-phase-a/artifacts/t021_frozen_representation_observability/L_prototypes.npz",
+    "bytes": 493167,
+    "sha256": "910169bd9cc29a4f4ade77ba57bac7d3f4c7eb5ba47c82d6fe5e03212dff0602"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183528-ttfl-t021-phase-a/artifacts/t021_frozen_representation_observability/prototype_membership.json",
+    "bytes": 99974,
+    "sha256": "fa075147ac5b1f7e4175e037bb11c92ac3a0062df2720cbe712b566f8971891d"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183528-ttfl-t021-phase-a/artifacts/t021_frozen_representation_observability/phaseA_choices_freeze.json",
+    "bytes": 1480,
+    "sha256": "dad4bfa9cb4f523ec626252828e86c7ddc3492926c04d7d6e4033ce7c6ecabff"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183528-ttfl-t021-phase-a/artifacts/t021_frozen_representation_observability/prototype_diagnostics.json.gz",
+    "bytes": 658051,
+    "sha256": "25574ab0175ca4f85eb5f9d09cec5fc14aac3bd93dec1b04406206a13d6fbf18"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183528-ttfl-t021-phase-a/artifacts/t021_frozen_representation_observability/H_prototypes.npz",
+    "bytes": 60444128,
+    "sha256": "f8dc775461d6e02d3bf0d61e312b3008a85080caa57a3445dbc0a11eb7ce065f"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183528-ttfl-t021-phase-a/artifacts/t021_frozen_representation_observability/H_actual.npz",
+    "bytes": 6277347,
+    "sha256": "a3aaaba735b2dedbe6019070c68da8f036dbaf6e426caa197e2c6916d9f34680"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183528-ttfl-t021-phase-a/artifacts/t021_frozen_representation_observability/input_hashes.json",
+    "bytes": 2416,
+    "sha256": "0ed475babb0473a647cd6003daaf99a39783187f877e9fa33765634bd37c0e2c"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183911-ttfl-t021-matched/artifacts/t021_frozen_representation_observability/matched_freeze.json",
+    "bytes": 782,
+    "sha256": "981591b62a77302e12071b3bbabf708e840051d7beb0677ef9e06a6f297613cd"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183911-ttfl-t021-matched/artifacts/t021_frozen_representation_observability/solver_fallbacks.json",
+    "bytes": 28865,
+    "sha256": "ebe582b3199b0498e09ace6fb1c5bdb4dfba6406807ddc8c13999622f3af4719"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183911-ttfl-t021-matched/artifacts/t021_frozen_representation_observability/L_matched.npz",
+    "bytes": 8782350,
+    "sha256": "87449456419b80bb7bc6870bc53be57c78a33a400f17600950bc74dc9de38a26"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183911-ttfl-t021-matched/artifacts/t021_frozen_representation_observability/matched_cells.json.gz",
+    "bytes": 123038,
+    "sha256": "8163c765e61c77f4242df26c2041b932387a626a3f97194d29bc974356aa22b1"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183911-ttfl-t021-matched/artifacts/t021_frozen_representation_observability/H_matched.npz",
+    "bytes": 13359498,
+    "sha256": "0f2aa84ca868047d4ee28d419a7a45c2f4907f6cc6d11533fdfdb904186adacd"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-183911-ttfl-t021-matched/artifacts/t021_frozen_representation_observability/protocol.json",
+    "bytes": 505,
+    "sha256": "c08b65be459f2d80b19a2a495ffb8c3295452f057211ecd0a419fda1435a23b4"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-184639-ttfl-t021-score/artifacts/t021_frozen_representation_observability/L_matched_query_counts.npz",
+    "bytes": 78454,
+    "sha256": "431e8282a23acc594356e27ea127c986090d07fecd17d15c080e97b490b20bb9"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-184639-ttfl-t021-score/artifacts/t021_frozen_representation_observability/matched_aggregate.csv",
+    "bytes": 16576,
+    "sha256": "d1123de6e3506fc5cf36baaef31ebd9d41b9df4c292eb59fd67c03f931bf7325"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-184639-ttfl-t021-score/artifacts/t021_frozen_representation_observability/matched_replicas.json.gz",
+    "bytes": 538691,
+    "sha256": "17aa1e625f9843c6e0d0351511daad11a0c569313bbf4216cd614d9ee9d14cc1"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-184639-ttfl-t021-score/artifacts/t021_frozen_representation_observability/actual_aggregate.csv",
+    "bytes": 112561,
+    "sha256": "7921dc9901d39a9b4dac33e9904bc9871d86cddb6812da7b2f223485edadae7d"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-184639-ttfl-t021-score/artifacts/t021_frozen_representation_observability/H_matched_query_counts.npz",
+    "bytes": 79294,
+    "sha256": "60874422a70ad18ce8bd8a24a23b5631edcf3af5df988ef1df7a9d3f8e1c9d01"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-184639-ttfl-t021-score/artifacts/t021_frozen_representation_observability/summary.json",
+    "bytes": 2412,
+    "sha256": "1d7ec6cf2aeb87075442ddc1d660629f0e94dc3bf0bf6e05214d2dc5a67e705c"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-184639-ttfl-t021-score/artifacts/t021_frozen_representation_observability/scoring_start.json",
+    "bytes": 659,
+    "sha256": "5db37f4226cb5213d7dcc998dfaf7db2ab8e4f06f5e322f0c75a31f454db7e27"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-184639-ttfl-t021-score/artifacts/t021_frozen_representation_observability/diagnostic_gates.json",
+    "bytes": 2035,
+    "sha256": "1255feb765d716abc8ac02539c2feed09c4b705539f235f123102253efd596ce"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-184639-ttfl-t021-score/artifacts/t021_frozen_representation_observability/integer_count_receipts.json",
+    "bytes": 83600,
+    "sha256": "e5a81d5417145dbc2773ca18bca47a4103ffb5de49edff675fe844a3b8ed26f6"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-184639-ttfl-t021-score/artifacts/t021_frozen_representation_observability/actual_regret_episodes.json.gz",
+    "bytes": 680557,
+    "sha256": "9522981b8d4bccf19cf48bdf3aa5933e43fd27b2b402ad96448b0d63761d9ff0"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-184639-ttfl-t021-score/artifacts/t021_frozen_representation_observability/input_hashes.json",
+    "bytes": 4141,
+    "sha256": "b63b384cfd49d8fe2874d9b458ae6c3ba7529f58f9238d0a6318c5fa84b101c9"
+  },
+  {
+    "path": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-184639-ttfl-t021-score/artifacts/t021_frozen_representation_observability/paired_regret_context.csv",
+    "bytes": 118197,
+    "sha256": "4e26d05831582f283a74ecb8e36cfc4622bde46806a61a9a5487af79b8f60bb6"
+  }
+]
