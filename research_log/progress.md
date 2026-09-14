@@ -319,3 +319,7 @@ T016 STOPPED AT PREFLIGHT
 2026-09-14T18:35:04.1900036+08:00 T021 extraction runtimee908116/run20260914-183139-ttfl-t021-extract-gpu1 exit0;1807frozenforwardcalls;historical equivalencePASS. Prototype helper tests2PASS (target exclusion and matched exact counts). Implemented Phase-A fixedoracle/source/clean-same-state L/H prototypes with existing10x10Gram CLS and exact choices; no target scores.
 
 2026-09-14T18:38:25.8392410+08:00 T021 Phase-A runtime1849f39/run20260914-183528-ttfl-t021-phase-a exit0;6000CLS/48000template choices complete andhashed, noqueryscore. Matched sampler now caches target-excluded class pools (same seed/draw arithmetic),2focusedtestsPASS. Next fixed128exact-count replicas forboth L/H, no queryscoring untilallcertified.
+
+2026-09-14T18:40:56.8566482+08:00 T021 matched runtime18ea37d/run20260914-183911-ttfl-t021-matched running after Phase-Afreeze. L bankA complete, bankBprogress;fixedR128 targetcounts. No queryscores yet.
+
+2026-09-14T18:45:45.5895718+08:00 T021 matchedrun20260914-183911-ttfl-t021-matched exit0;256000CLS/2048000choices frozen. Gatehelper3focusedtestsPASS beforequeryscoring. Implemented inheritedT018matchedmedian80%,realvsBBSE-.5pp/sourcecleanvszero-.5pp safety unchanged;P/L/Hregretandcontextcontrols, sourcescoredonlyforREALpass.
