@@ -1,0 +1,19 @@
+{
+  "lead": "1744440",
+  "status_confirmation": "e3e9c70",
+  "runtime": "87185194a087f09da634a6f88d81e2fd2cfee59c",
+  "timestamp": "2026-09-14T03:38:52.962966+00:00",
+  "objective": "0.5*||C*pi-q||^2 on simplex",
+  "step": "1/||C||_2^2",
+  "warm_start": "unchanged ProjectSimplex(pinv(C)@q)",
+  "max_step_tolerance": 1e-12,
+  "projected_gradient_residual_tolerance": 1e-10,
+  "residual_definition": "L*maxabs(pi-ProjectSimplex(pi-grad(pi)/L)), evaluated at returned pi",
+  "hard_cap": 20000,
+  "independent_subset": "clients0..19, bothbanks, all5oraclecontexts =200actual observations",
+  "independent_reference": "exhaustive nonempty-simplex-face equality constrained solve; minimum feasible objective",
+  "reference_objective_atol": 1e-10,
+  "unique_prevalence_atol": 1e-07,
+  "query_metrics_opened": false,
+  "new_model_forwards": 0
+}

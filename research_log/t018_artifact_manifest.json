@@ -1,0 +1,47 @@
+[
+  {
+    "path": "research_log/t018_receipts/20260914-113842-ttfl-t018-preflight/artifacts/t018_constrained_prevalence/input_hashes.json",
+    "bytes": 2843,
+    "sha256": "d0fd2254f61e19a8f65b44482fd9539fcdcf962bcd09cb0cc807b757a3ceda35"
+  },
+  {
+    "path": "research_log/t018_receipts/20260914-113842-ttfl-t018-preflight/artifacts/t018_constrained_prevalence/metadata.json",
+    "bytes": 194,
+    "sha256": "a247c57a7450bbc74277744d1dacca249d57c3edc2c123d0f58799f29bdb7a6c"
+  },
+  {
+    "path": "research_log/t018_receipts/20260914-113842-ttfl-t018-preflight/artifacts/t018_constrained_prevalence/noise_free.csv",
+    "bytes": 64824,
+    "sha256": "6682116d36988dbf98f449dae517b1d72c63b385d913bd2b17d9f287c0614598"
+  },
+  {
+    "path": "research_log/t018_receipts/20260914-113842-ttfl-t018-preflight/artifacts/t018_constrained_prevalence/noise_free_verification.json",
+    "bytes": 174,
+    "sha256": "13a0d1f34292d2c2ee31d1ca92f2db1aabcaf8eae39858aa59deca973a08f979"
+  },
+  {
+    "path": "research_log/t018_receipts/20260914-113842-ttfl-t018-preflight/artifacts/t018_constrained_prevalence/protocol_freeze.json",
+    "bytes": 837,
+    "sha256": "b731cefc50f813eda84f2b03b23e82755c780ff378324f779f15a399ee1ba4b2"
+  },
+  {
+    "path": "research_log/t018_receipts/20260914-113842-ttfl-t018-preflight/artifacts/t018_constrained_prevalence/solver_subset.csv",
+    "bytes": 62088,
+    "sha256": "7c78baa8a31da86589d41f11e42da7620b1275305415db2f08f277c6bf220471"
+  },
+  {
+    "path": "research_log/t018_receipts/20260914-113842-ttfl-t018-preflight/artifacts/t018_constrained_prevalence/solver_vectors.json",
+    "bytes": 151301,
+    "sha256": "49109749bbd30ebab45303776cc6db39bd9b7569fb4fa63545b16e5ddb7ff334"
+  },
+  {
+    "path": "research_log/t018_receipts/20260914-113842-ttfl-t018-preflight/artifacts/t018_constrained_prevalence/solver_verification.json",
+    "bytes": 458,
+    "sha256": "2f934b3f10d40acf26bd52861cd391f6376f48f36d44ea46c19e17cac805ea4a"
+  },
+  {
+    "path": "research_log/t018_receipts/20260914-113842-ttfl-t018-preflight/train.log",
+    "bytes": 12928,
+    "sha256": "631131bdc86d6768f971baa2a1c6ea1e3a23839044f6ff00989777c7a0b5f152"
+  }
+]

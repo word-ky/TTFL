@@ -1,0 +1,28 @@
+{
+  "status": "SOLVER_PREFLIGHT_BLOCKER",
+  "CLS_MATCH_A": "NOT_EXECUTED",
+  "CLS_REAL_A": "NOT_EXECUTED",
+  "CLS_SRC_A": "NOT_EXECUTED",
+  "outcome_A_B_C": "NOT_ASSIGNED",
+  "tests_passed": 95,
+  "noise_free_cases": 1000,
+  "independent_actual_cases": 200,
+  "converged_cases": 151,
+  "cap_hits": 49,
+  "reference_disagreements": 41,
+  "objective_dominance_violations": 0,
+  "cap_hits_by_context": {
+    "clean": 6,
+    "brightness_dark": 12,
+    "contrast_low": 14,
+    "gaussian_noise": 8,
+    "gaussian_blur": 9
+  },
+  "max_prevalence_error": 0.04343033182693423,
+  "max_objective_error": 2.5703098873673105e-07,
+  "max_reference_KKT": 2.220446049250313e-16,
+  "bootstrap_cases_solved": 0,
+  "query_metrics_opened": false,
+  "new_model_forwards": 0,
+  "diagnosis": "Fixed step projected gradient does not reach declared convergence within20000iterations on49/200real observations. CLS scientific effect remains untested; independent face optimum is well certified."
+}

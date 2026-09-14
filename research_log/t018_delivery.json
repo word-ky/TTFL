@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-09-14T11:44:07+08:00",
+  "lead": "1744440",
+  "runtime": "87185194a087f09da634a6f88d81e2fd2cfee59c",
+  "run": "20260914-113842-ttfl-t018-preflight",
+  "status": "SOLVER_PREFLIGHT_BLOCKER",
+  "raw": "research_log/t018_receipts/20260914-113842-ttfl-t018-preflight/artifacts/t018_constrained_prevalence",
+  "results": "results/t018_constrained_prevalence",
+  "next": "Await Lead engineering instruction; no scientific evaluation"
+}

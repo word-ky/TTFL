@@ -1,0 +1,16 @@
+{
+  "status": "SOLVER_PREFLIGHT_BLOCKER",
+  "cases": 200,
+  "cap_hits": 49,
+  "reference_disagreements": 41,
+  "objective_dominance_violations": 0,
+  "max_objective_error": 2.5703098873673105e-07,
+  "max_prevalence_error": 0.04343033182693423,
+  "max_reference_KKT": 2.220446049250313e-16,
+  "max_iterations": 20000,
+  "query_metrics_opened": false,
+  "bootstrap_q_solved": 0,
+  "new_model_forwards": 0,
+  "noise_free_pass": true,
+  "full_tests_passed": 95
+}

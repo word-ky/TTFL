@@ -237,3 +237,9 @@ T016 STOPPED AT PREFLIGHT
 2026-09-14T08:48:04+08:00. Runtime7fbfbb26e6894dbdc7f1a67e7f43537aaf2b36d5;run20260914-083609-ttfl-t017r-cached;87testsPASS;512000bootstrapepisodes,4096000exacttemplatechoices;0newforwards. DiagnosisT017-N;scaleK40;tie-envelope robustTrue. Read results/t017_channel_noise_decomposition/RESULTS.md. Priorstopda202c8preserved. No nextstage;awaitLead.
 
 2026-09-14T11:37:43.7247025+08:00 T0181744440 synchronized viae3e9c70; fixedCLS-S and8focusedtests implemented. Preparing95test+200caseindependent numericalpreflight before queryevaluation.
+
+2026-09-14T11:39:23.7310672+08:00 T018preflight launched run20260914-113842-ttfl-t018-preflight at8718519; numericalsubset fixed200cases, no metricaccess.
+
+# T018 STOP — FIXED PGD CAP
+
+2026-09-14T11:44:07+08:00. Lead1744440;runtime87185194a087f09da634a6f88d81e2fd2cfee59c;run20260914-113842-ttfl-t018-preflight;95testsPASS;noise-free1000PASS;49/200actualcap20000,41referencefailures;151convergedallreferenceagree. Worstpierror.04343. Noquery/bootstrapevaluation;CLSgatesNOT_EXECUTED. Read results/t018_constrained_prevalence/RESULTS.md. No solverchange ornextstage;awaitLead.
