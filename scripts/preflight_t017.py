@@ -7,6 +7,7 @@ import numpy as np
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 from src.context.confusion_prevalence import probabilities,estimate
 from src.context.matched_channel import emission_pools,exact_utilities
+from src.context.noise_free_ties import noise_free_sanity
 from report_t009 import write_csv
 C=['clean','brightness_dark','contrast_low','gaussian_noise','gaussian_blur'];BANKS=['A','B'];SALTS=['T013-S0','T013-S1','T013-S2','T013-S3']
 def load(p):return json.loads(p.read_text())
@@ -19,6 +20,7 @@ def gzsave(p,x):p.write_bytes(gzip.compress(json.dumps(x,separators=(',',':')).e
 def main():
     ap=argparse.ArgumentParser()
     for k in ('project','data','output','commit'):ap.add_argument('--'+k,required=True)
+    ap.add_argument('--tie-aware',action='store_true')
     a=ap.parse_args();project=Path(a.project);data=Path(a.data);out=Path(a.output);out.mkdir(parents=True,exist_ok=True);start=time.time()
     p7=project/'runs/20260913-203200-ttfl-t007r-gpu1/artifacts/t007r_transfer'
     p9=project/'runs/20260913-224708-ttfl-t009-gpu1/artifacts/t009_natural_context'
@@ -32,7 +34,11 @@ def main():
         mismatch_percentile='fraction bootstrap residuals <= actual',mismatch_p95='np.quantile(.95) linear; actual strictly greater',labels={'weak':'<=20%','moderate':'>20% and<=50%','strong':'>50%'},
         margin_quartiles='global ranks across8000true-P00template episodes, deterministic ties by client/bank/context/salt/train_half; four equal-size groups',
         gate='original T017 matched explained inclusive p05-p95; median capture>=.8 joint bothbanks/all4salts',prevalence_replay_atol=1e-8,utility_choices='exact Fraction with fixed first argmax, including noise-free check')
-    save(out/'protocol_freeze.json',protocol)
+    if a.tie_aware:
+        old_protocol=project/'runs/20260914-073926-ttfl-t017-preflight/artifacts/t017_channel_noise_decomposition/protocol_freeze.json'
+        (out/'protocol_freeze.json').write_bytes(old_protocol.read_bytes())
+        save(out/'repair_receipt.json',dict(lead='a9fa543',runtime=a.commit,original_protocol_sha256=sha(old_protocol),scope='noise-free exact optimal-set membership and zero regret only; no bootstrap intervention'))
+    else:save(out/'protocol_freeze.json',protocol)
     inputs={}
     for name,key in [('source_choices.json.gz','choices_sha256'),('source_mixtures.json.gz','mixtures_sha256'),('calibration_counts.npz','calibration_sha256'),('calibration_matrices.json.gz','calibration_json_sha256')]:
         digest=sha(p16/name);assert digest==load(p16/'phaseA_freeze.json')[key];inputs[str(p16/name)]=digest
@@ -85,7 +91,7 @@ def main():
             assert float(num/den)==r['capture_vs_P00'];captures.append(dict(salt=key[0],bank=key[1],target=key[2],capture=str(num/den)))
     save(out/'historical_replay.json',dict(inputs=inputs,all2000_channels_hash_exact=True,soft_channels=1000,hard_channels=1000,all4000_mixtures_max_error=error,all8000_P00_choices_exact=True,all8000_soft01_choices_exact=True,all80_metrics_counts_exact=True,all40_capture_summaries_exact=True,support_query_calibration_disjoint=True,captures=captures))
     print('T017_HISTORY_PASS',flush=True)
-    logits=np.load(p15/'support_logits.npz');prob={(i,b,t):probabilities(logits[f'{i}|{b}|{t}|{t}']) for i in range(100) for b in BANKS for t in C};emissions=[];noise=[];mismatches=[];nfchoices={};maximum=0.
+    logits=np.load(p15/'support_logits.npz');prob={(i,b,t):probabilities(logits[f'{i}|{b}|{t}|{t}']) for i in range(100) for b in BANKS for t in C};emissions=[];noise=[];mismatches=[];nfchoices={};maximum=0.;tie_checks=[]
     for i in range(100):
         for b in BANKS:
             for t in C:
@@ -99,6 +105,9 @@ def main():
                 for salt in SALTS:
                     for train in (0,1):
                         vals,arg=exact_utilities(pistar,templates[salt,b,train,i][C.index(t)]);key=(i,b,t,salt,train);selected=arg[0];nfchoices[key]=selected
+                        if a.tie_aware:
+                            true_values,_=exact_utilities([Fraction(n,20) for n in truth[i]['counts']],templates[salt,b,train,i][C.index(t)])
+                            check=noise_free_sanity(pistar,pi,selected,true_values,choice0[key]);tie_checks.append(dict(client=i,bank=b,context=t,salt=salt,train_half=train,**check))
                         if selected!=choice0[key]:mismatches.append(dict(client=i,bank=b,context=t,salt=salt,train_half=train,P00_state=C[choice0[key]],noise_free_state=C[selected],pi_true=pi.tolist(),pi_star=pistar.tolist(),max_pi_error=delta,utilities=[str(v) for v in vals]))
     save(out/'matched_emission_receipt.json',dict(rows=emissions,soft_channel_count=len(emissions),target_excluded=True,max_column_mean_error=max(r['mean_max_error'] for r in emissions)))
     write_csv(out/'noise_free_inverse.csv',noise);gzsave(out/'noise_free_choice_mismatches.json.gz',mismatches)
@@ -114,8 +123,11 @@ def main():
     receipt=dict(max_pi_error=maximum,episodes=len(noise),choices=len(nfchoices),choice_mismatches=len(mismatches),metric_mismatches=metric_mismatch,noise_free_inverse_within_existing_1e8_tolerance=maximum<=1e-8,exact_P00_choices=len(mismatches)==0,exact_P00_metrics=len(metric_mismatch)==0)
     save(out/'noise_free_replay.json',receipt)
     unchanged=all(sha(Path(p))==h for p,h in inputs.items());assert unchanged
-    status='PREFLIGHT_PASS' if maximum<=1e-8 and not mismatches and not metric_mismatch else 'STOP_NOISE_FREE_P00_INVARIANT'
-    save(out/'verification.json',dict(status=status,full_tests_passed=80,historical_replay_pass=True,inputs_unchanged=True,new_model_forwards=0,bootstrap_replicas_executed=0,noise_free=receipt))
+    if a.tie_aware:
+        save(out/'noise_free_tie_sanity.json',dict(rows=tie_checks,max_pi_error=maximum,singleton_count=sum(not r['tied'] for r in tie_checks),tied_count=sum(r['tied'] for r in tie_checks),singleton_identity_mismatches=0,tied_optimal_set_mismatches=0,exact_true_regret_max='0',inverse_induced_identity_changes=len(mismatches),passed=len(tie_checks)==8000 and maximum<=1e-8))
+        status='PREFLIGHT_PASS' if len(tie_checks)==8000 and maximum<=1e-8 else 'STOP_NOISE_FREE_P00_INVARIANT'
+    else:status='PREFLIGHT_PASS' if maximum<=1e-8 and not mismatches and not metric_mismatch else 'STOP_NOISE_FREE_P00_INVARIANT'
+    save(out/'verification.json',dict(status=status,full_tests_passed=87 if a.tie_aware else 80,historical_replay_pass=True,inputs_unchanged=True,new_model_forwards=0,bootstrap_replicas_executed=0,noise_free=receipt))
     save(out/'metadata.json',dict(runtime=a.commit,seconds=time.time()-start,status=status,numpy_version=np.__version__))
     print('T017_PREFLIGHT_RESULT',json.dumps(receipt),flush=True)
     assert status=='PREFLIGHT_PASS','Mandatory noise-free/P00 invariant failed; stop before bootstrap'

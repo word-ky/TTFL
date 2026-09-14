@@ -1,3 +1,3 @@
-# T017 STOP — NOISE-FREE EXACT-P00 TIES
+# T017R ACTIVE
 
-2026-09-14T07:43:02+08:00. Lead3246221;runtime2f7b88b0bee6f3b587d42f21837f86a8356536b9;run20260914-073926-ttfl-t017-preflight;80testsPASS;historical replayPASS; inverseerror5.27e-15 but71/8000state changes all exactP00ties,zero trueutilityregret.25/40querycountrows change−.067to+.020pp. MandatoryexactP00invariantfails;bootstrap0. Read results/t017_channel_noise_decomposition/RESULTS.md. AwaitLead; no automaticretry or scientifictaxonomy.
+Leada9fa543 authorizes only tie-aware noise-free sanity and complete unchanged T017 decomposition. Originalstopda202c8/run20260914-073926-ttfl-t017-preflight preserved. Originalprotocol/seeds copied byte-identically. No bootstrap intervention. First check P00 tie envelope cannot change any historical80% decision; then128replicas×K20/40/80/160. New exact integer common-denominator utility lookup is arithmetic-equivalent to Fraction, tested; no tolerance in state decisions. 87tests before formal run. No new inference or nextstage.
