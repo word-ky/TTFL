@@ -1,0 +1,60 @@
+{
+  "status": "REPRODUCED_SOLVER_CYCLE",
+  "missing_clients": [
+    64,
+    87
+  ],
+  "failures": [
+    {
+      "client": 64,
+      "bank": "A",
+      "context": "contrast_low",
+      "replica": 3071,
+      "preceding_new_solves_in_client": 10495,
+      "error": "working-set cycle: [{'active': [1, 3, 4, 5, 7], 'minimum': 0.03688541364869588, 'action': 'add', 'coordinate': 0}, {'active': [0, 1, 3, 4, 5, 7], 'minimum': 0.00760346981703619, 'action': 'add', 'coordinate': 2}, {'active': [0, 1, 2, 3, 4, 5, 7], 'minimum': -0.07940130740853779, 'action': 'remove', 'coordinate': 4}, {'active': [0, 1, 2, 3, 5, 7], 'minimum': -0.031125960257788632, 'action': 'remove', 'coordinate': 0}, {'active': [1, 2, 3, 5, 7], 'minimum': 0.1137575321267991, 'action': 'add', 'coordinate': 6}, {'active': [1, 2, 3, 5, 6, 7], 'minimum': 0.018627344241801222, 'action': 'add', 'coordinate': 4}, {'active': [1, 2, 3, 4, 5, 6, 7], 'minimum': -0.056495722167518185, 'action': 'remove', 'coordinate': 2}, {'active': [1, 3, 4, 5, 6, 7], 'minimum': -0.03249911359562193, 'action': 'remove', 'coordinate': 6}], repeated=(1, 3, 4, 5, 7)",
+      "fresh_solver_error": "working-set cycle: [{'active': [1, 3, 4, 5, 7], 'minimum': 0.03688541364869588, 'action': 'add', 'coordinate': 0}, {'active': [0, 1, 3, 4, 5, 7], 'minimum': 0.00760346981703619, 'action': 'add', 'coordinate': 2}, {'active': [0, 1, 2, 3, 4, 5, 7], 'minimum': -0.07940130740853779, 'action': 'remove', 'coordinate': 4}, {'active': [0, 1, 2, 3, 5, 7], 'minimum': -0.031125960257788632, 'action': 'remove', 'coordinate': 0}, {'active': [1, 2, 3, 5, 7], 'minimum': 0.1137575321267991, 'action': 'add', 'coordinate': 6}, {'active': [1, 2, 3, 5, 6, 7], 'minimum': 0.018627344241801222, 'action': 'add', 'coordinate': 4}, {'active': [1, 2, 3, 4, 5, 6, 7], 'minimum': -0.056495722167518185, 'action': 'remove', 'coordinate': 2}, {'active': [1, 3, 4, 5, 6, 7], 'minimum': -0.03249911359562193, 'action': 'remove', 'coordinate': 6}], repeated=(1, 3, 4, 5, 7)",
+      "reference_objective": 3.112002430086053e-05,
+      "reference_KKT": 3.111660235033398e-17,
+      "reference_sum_error": 0.0,
+      "reference_min_pi": 0.0,
+      "reference_active_classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "diagnostic_npz": "cycle_client_064_A_contrast_low_replica_3071.npz",
+      "npz_sha256": "ab06218573067d5ab22b01d1c73deded81c656cf3a477e6c16b21d5a736c7157"
+    },
+    {
+      "client": 87,
+      "bank": "A",
+      "context": "contrast_low",
+      "replica": 2688,
+      "preceding_new_solves_in_client": 10112,
+      "error": "working-set cycle: [{'active': [2, 3], 'minimum': 0.3566312716908543, 'action': 'add', 'coordinate': 1}, {'active': [1, 2, 3], 'minimum': 0.07464641769704572, 'action': 'add', 'coordinate': 5}, {'active': [1, 2, 3, 5], 'minimum': 0.07098803992542779, 'action': 'add', 'coordinate': 8}, {'active': [1, 2, 3, 5, 8], 'minimum': 0.0015981131878584733, 'action': 'add', 'coordinate': 9}, {'active': [1, 2, 3, 5, 8, 9], 'minimum': -0.025083486284089074, 'action': 'remove', 'coordinate': 1}, {'active': [2, 3, 5, 8, 9], 'minimum': -0.017218500468073456, 'action': 'remove', 'coordinate': 8}, {'active': [2, 3, 5, 9], 'minimum': 0.0847492737121422, 'action': 'add', 'coordinate': 6}, {'active': [2, 3, 5, 6, 9], 'minimum': 0.0069931165169130425, 'action': 'add', 'coordinate': 1}, {'active': [1, 2, 3, 5, 6, 9], 'minimum': -0.02414520452992731, 'action': 'remove', 'coordinate': 9}, {'active': [1, 2, 3, 5, 6], 'minimum': -0.011718089864179604, 'action': 'remove', 'coordinate': 6}], repeated=(1, 2, 3, 5)",
+      "fresh_solver_error": "working-set cycle: [{'active': [2, 3], 'minimum': 0.3566312716908543, 'action': 'add', 'coordinate': 1}, {'active': [1, 2, 3], 'minimum': 0.07464641769704572, 'action': 'add', 'coordinate': 5}, {'active': [1, 2, 3, 5], 'minimum': 0.07098803992542779, 'action': 'add', 'coordinate': 8}, {'active': [1, 2, 3, 5, 8], 'minimum': 0.0015981131878584733, 'action': 'add', 'coordinate': 9}, {'active': [1, 2, 3, 5, 8, 9], 'minimum': -0.025083486284089074, 'action': 'remove', 'coordinate': 1}, {'active': [2, 3, 5, 8, 9], 'minimum': -0.017218500468073456, 'action': 'remove', 'coordinate': 8}, {'active': [2, 3, 5, 9], 'minimum': 0.0847492737121422, 'action': 'add', 'coordinate': 6}, {'active': [2, 3, 5, 6, 9], 'minimum': 0.0069931165169130425, 'action': 'add', 'coordinate': 1}, {'active': [1, 2, 3, 5, 6, 9], 'minimum': -0.02414520452992731, 'action': 'remove', 'coordinate': 9}, {'active': [1, 2, 3, 5, 6], 'minimum': -0.011718089864179604, 'action': 'remove', 'coordinate': 6}], repeated=(1, 2, 3, 5)",
+      "reference_objective": 0.00029771973428537843,
+      "reference_KKT": 3.903127820947816e-17,
+      "reference_sum_error": 0.0,
+      "reference_min_pi": 0.0,
+      "reference_active_classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9
+      ],
+      "diagnostic_npz": "cycle_client_087_A_contrast_low_replica_2688.npz",
+      "npz_sha256": "079f1b0cc782ed687cfd0660c17539bf68db077cadcfaeffdb1fa85114e71973"
+    }
+  ],
+  "numpy_version": "1.26.4",
+  "labels_parsed": false,
+  "query_outcomes_parsed": false,
+  "reference_used_for_policy": false,
+  "scientific_evaluation": "NOT_EXECUTED"
+}

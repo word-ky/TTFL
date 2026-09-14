@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-14T16:51:27+08:00",
+  "lead": "f0807dd",
+  "runtime": "0ec0480fc89f7dae48aa2e16a27bf5a87e1b49bf",
+  "run": "20260914-163857-ttfl-t020r",
+  "status": "IMPLEMENTATION_STOP_SOLVER_CYCLE",
+  "results": "results/t020r_mc_convergence",
+  "next": "Await Lead solver-specific repair; remain sealed"
+}

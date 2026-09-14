@@ -291,3 +291,15 @@ T016 STOPPED AT PREFLIGHT
 2026-09-14T15:54:10+08:00. Lead5bb4d6e/runtime29d8443cf698014ec3f938e598e2633381941e77/run20260914-154818-ttfl-t020,exit1.115testsPASS;256000CLSsolvesPASS. BER128-vs256 agreement97.9500%<99%;164/8000slots differ. Mandatory MCstop before true labels/utilities/querycounts. All scientific gates NOT_EXECUTED; no T020-R/C/F/X. Independent2000CLS+8000exactmeans+16000replicaargsets replayPASS;219upstream hashes unchanged. Read results/t020_bootstrap_expected_regret/RESULTS.md. No increasedR/newseeds/alternatepolicy;awaitLead.
 
 2026-09-14T16:38:18.8827352+08:00 T020R Lead f0807dd: same-stream fixed R4096 extension implemented, first256 immutable; 6 focused tests PASS. Four independent client processes with 2 BLAS threads each. No privileged labels/query opened. Preparing runtime commit and remote run.
+
+2026-09-14T16:39:31.8816668+08:00 T020R run 20260914-163857-ttfl-t020r launched once at runtime 0ec0480fc89f7dae48aa2e16a27bf5a87e1b49bf, release 20260914-163835-ttfl-t020r. Running 121 tests then fixed4096 sealed preparation.
+
+2026-09-14T16:49:30.4888994+08:00 T020R remote exit1 due ActiveSetCLS working-set cycle;98client receipts retained (missing64,87). Main logged62futures before exception, executor drained submitted work. Local deterministic diagnosis:64/A/contrast_low/3071 and87/A/contrast_low/2688 cycle with fresh solver; exhaustive-face reference KKT3.11e-17/3.90e-17. No solver changes or policy fallback; not MC2; complete convergence/scientific gates unexecuted. Independent partial receipt verification running.
+
+# T020R implementation stop — CLS cycles, still sealed
+
+2026-09-14T16:50:42+08:00. Lead f0807dd; runtime 0ec0480fc89f7dae48aa2e16a27bf5a87e1b49bf; run 20260914-163857-ttfl-t020r, exit1. 121testsPASS but only98/100clients complete. Missing64/87 reproduce deterministic ActiveSetCLS cycles; see results/t020r_mc_convergence/solver_cycle_diagnosis.json and RESULTS.md. Complete MC gate NOT_EXECUTED: not MC2, no scientific diagnosis. Labels/true utilities/query remain sealed. Independent3920sampledCLS/7840legacy/54880block checks PASS; 245upstream manifests unchanged. Frozen solver unchanged. Await Lead solver-specific repair; do not rerun full task or silently substitute reference solver. Preserve all partial98clients and original T020 prefix.
+
+# T020R implementation stop — CLS cycles, still sealed
+
+2026-09-14T16:51:27+08:00. Lead f0807dd; runtime 0ec0480fc89f7dae48aa2e16a27bf5a87e1b49bf; run 20260914-163857-ttfl-t020r, exit1. 121testsPASS but only98/100clients complete. Missing64/87 reproduce deterministic ActiveSetCLS cycles; see results/t020r_mc_convergence/solver_cycle_diagnosis.json and RESULTS.md. Complete MC gate NOT_EXECUTED: not MC2, no scientific diagnosis. Labels/true utilities/query remain sealed. Independent3920sampledCLS/7840legacy/54880block checks PASS; 245upstream manifests unchanged. Frozen solver unchanged. Await Lead solver-specific repair; do not rerun full task or silently substitute reference solver. Preserve all partial98clients and original T020 prefix.

@@ -1,0 +1,20 @@
+{
+  "status": "IMPLEMENTATION_STOP_SOLVER_CYCLE",
+  "runtime": "0ec0480fc89f7dae48aa2e16a27bf5a87e1b49bf",
+  "run": "20260914-163857-ttfl-t020r",
+  "complete_clients": 98,
+  "complete_template_slots": 7840,
+  "complete_MC_gate": "NOT_EXECUTED",
+  "BER_REGRET_A": "NOT_EXECUTED",
+  "BER_CAP_A": "NOT_EXECUTED",
+  "BER_SRC_A": "NOT_EXECUTED",
+  "scientific_diagnosis": "NOT_ASSIGNED",
+  "preserved_new_CLS_solves": 3763200,
+  "preserved_logical_replicas": 4014080,
+  "max_KKT": 4.440892098500626e-16,
+  "max_sum_error": 4.440892098500626e-16,
+  "max_updates": 17,
+  "labels_parsed": false,
+  "query_outcomes_parsed": false,
+  "new_model_forwards": 0
+}

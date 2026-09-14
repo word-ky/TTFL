@@ -1,0 +1,11 @@
+{
+  "lead": "f0807dd",
+  "runtime": "0ec0480fc89f7dae48aa2e16a27bf5a87e1b49bf",
+  "R_FINAL": 4096,
+  "seed_namespace": "T020",
+  "workers": 4,
+  "blas_threads": 2,
+  "labels_parsed": false,
+  "query_outcomes_parsed": false,
+  "new_model_forwards": 0
+}

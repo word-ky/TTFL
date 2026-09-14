@@ -1,13 +1,10 @@
-# T020 STOP — MC instability
+# T020R implementation stop — CLS cycles, still sealed
 
-2026-09-14T15:54:10+08:00. Lead5bb4d6e/runtime29d8443cf698014ec3f938e598e2633381941e77/run20260914-154818-ttfl-t020,exit1.115testsPASS;256000CLSsolvesPASS. BER128-vs256 agreement97.9500%<99%;164/8000slots differ. Mandatory MCstop before true labels/utilities/querycounts. All scientific gates NOT_EXECUTED; no T020-R/C/F/X. Independent2000CLS+8000exactmeans+16000replicaargsets replayPASS;219upstream hashes unchanged. Read results/t020_bootstrap_expected_regret/RESULTS.md. No increasedR/newseeds/alternatepolicy;awaitLead.
+2026-09-14T16:51:27+08:00. Lead f0807dd; runtime 0ec0480fc89f7dae48aa2e16a27bf5a87e1b49bf; run 20260914-163857-ttfl-t020r, exit1. 121testsPASS but only98/100clients complete. Missing64/87 reproduce deterministic ActiveSetCLS cycles; see results/t020r_mc_convergence/solver_cycle_diagnosis.json and RESULTS.md. Complete MC gate NOT_EXECUTED: not MC2, no scientific diagnosis. Labels/true utilities/query remain sealed. Independent3920sampledCLS/7840legacy/54880block checks PASS; 245upstream manifests unchanged. Frozen solver unchanged. Await Lead solver-specific repair; do not rerun full task or silently substitute reference solver. Preserve all partial98clients and original T020 prefix.
 
-| Context | Bank A agreement, % | Bank B agreement, % |
-|---|---:|---:|
-| clean | 97.750 | 98.500 |
-| brightness_dark | 98.000 | 97.250 |
-| contrast_low | 97.875 | 98.375 |
-| gaussian_noise | 98.750 | 99.125 |
-| gaussian_blur | 96.625 | 97.250 |
+| Client | Bank | Context | Replica | Reference KKT |
+|---:|---|---|---:|---:|
+| 64 | A | contrast_low | 3071 | 3.11166e-17 |
+| 87 | A | contrast_low | 2688 | 3.90313e-17 |
 
-This is the declared Monte Carlo stability stop, not evidence about true-regret/capture improvement. No privileged evaluation was opened and no next-stage task started.
+Exhaustive-face references confirm the same convex problems have feasible optima; they were used only to diagnose the frozen solver, never as policy fallbacks.
