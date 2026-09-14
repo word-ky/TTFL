@@ -245,3 +245,7 @@ T016 STOPPED AT PREFLIGHT
 2026-09-14T11:44:07+08:00. Lead1744440;runtime87185194a087f09da634a6f88d81e2fd2cfee59c;run20260914-113842-ttfl-t018-preflight;95testsPASS;noise-free1000PASS;49/200actualcap20000,41referencefailures;151convergedallreferenceagree. Worstpierror.04343. Noquery/bootstrapevaluation;CLSgatesNOT_EXECUTED. Read results/t018_constrained_prevalence/RESULTS.md. No solverchange ornextstage;awaitLead.
 
 2026-09-14T12:40:48.3202788+08:00 T018R lead8d12997 synchronized. Added specified deterministic active-set solver with per-channel lazy face maps, old PGD preserved. Three focused tests passed (12 synthetic reference comparisons, condition3/50/100/200, insertion/removal, boundary, deterministic replay). Preparing remote full suite and sealed numerical preflight. Previous run exit1 confirmed; no running tmux session.
+
+2026-09-14T12:41:58.0813363+08:00 T018R preflight launched: run20260914-124138-ttfl-t018r-preflight, release20260914-124118-ttfl-t018r-preflight, runtime5f5e1a5a845f743646aea7f67c1d47463f1b9832. Full98tests then sealed noise-free1000/same200/all1000 numerical checks.
+
+2026-09-14T12:46:06.8190226+08:00 T018R preflight PASS:98tests,1000noise-free,same200reference incl49oldcaps,all1000actual KKT/dominance. Raw receipt fetched. Implemented unchanged cached K20 paired evaluation, oracle freeze before source composition.
