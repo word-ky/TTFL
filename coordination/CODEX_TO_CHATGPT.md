@@ -1,10 +1,13 @@
-# T020R implementation stop — CLS cycles, still sealed
+# T020R2 repair complete; sealed T020R-MC2 stop
 
-2026-09-14T16:51:27+08:00. Lead f0807dd; runtime 0ec0480fc89f7dae48aa2e16a27bf5a87e1b49bf; run 20260914-163857-ttfl-t020r, exit1. 121testsPASS but only98/100clients complete. Missing64/87 reproduce deterministic ActiveSetCLS cycles; see results/t020r_mc_convergence/solver_cycle_diagnosis.json and RESULTS.md. Complete MC gate NOT_EXECUTED: not MC2, no scientific diagnosis. Labels/true utilities/query remain sealed. Independent3920sampledCLS/7840legacy/54880block checks PASS; 245upstream manifests unchanged. Frozen solver unchanged. Await Lead solver-specific repair; do not rerun full task or silently substitute reference solver. Preserve all partial98clients and original T020 prefix.
+2026-09-14T17:39:11+08:00. Lead43d2f85/runtime1d7b6b8f7ca3e58fea1ae486cf7505192fdc05a1/run20260914-173004-ttfl-t020r2.124testsPASS;98clients reused byte-identically;64/87 resumed with exactly2cycle fallbacks;complete100clients/8000slots. H1/H2=98.8250%<99%; H1/ALL=99.2500%<99.5%; H2/ALL=99.5750%.94disagreements/38clients/59cells. Independent4000CLS/8000legacy/56000blocks/allfallbacks/553upstreamentriesPASS. T020R-MC2; labels/true utilities/query sealed, all scientific gatesNOT_EXECUTED; no T020-R/C/F/X. Read results/t020r2_mc_convergence/RESULTS.md. AwaitLead; no furtherR/seeds/alternatepolicy/nextstage.
 
-| Client | Bank | Context | Replica | Reference KKT |
-|---:|---|---|---:|---:|
-| 64 | A | contrast_low | 3071 | 3.11166e-17 |
-| 87 | A | contrast_low | 2688 | 3.90313e-17 |
+| Context | A H1/H2 % | B H1/H2 % | Pooled % |
+|---|---:|---:|---:|
+| clean | 99.250 | 98.250 | 98.750 |
+| brightness_dark | 98.375 | 99.500 | 98.938 |
+| contrast_low | 98.250 | 99.250 | 98.750 |
+| gaussian_noise | 99.250 | 98.875 | 99.062 |
+| gaussian_blur | 98.500 | 98.750 | 98.625 |
 
-Exhaustive-face references confirm the same convex problems have feasible optima; they were used only to diagnose the frozen solver, never as policy fallbacks.
+The solver repair is complete; the full frozen convergence gate returns MC2. Scientific BER efficacy remains unassessed.

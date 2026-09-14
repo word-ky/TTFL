@@ -1,0 +1,108 @@
+{
+  "status": "T020R-MC2",
+  "runtime": "1d7b6b8f7ca3e58fea1ae486cf7505192fdc05a1",
+  "seconds": 44.656678676605225,
+  "numpy_version": "2.5.3",
+  "R_FINAL": 4096,
+  "passed": false,
+  "global_agreement": {
+    "H1_H2": 0.98825,
+    "H1_ALL": 0.9925,
+    "H2_ALL": 0.99575
+  },
+  "bank_context": [
+    {
+      "bank": "A",
+      "context": "brightness_dark",
+      "agreement": 0.98375
+    },
+    {
+      "bank": "A",
+      "context": "clean",
+      "agreement": 0.9925
+    },
+    {
+      "bank": "A",
+      "context": "contrast_low",
+      "agreement": 0.9825
+    },
+    {
+      "bank": "A",
+      "context": "gaussian_blur",
+      "agreement": 0.985
+    },
+    {
+      "bank": "A",
+      "context": "gaussian_noise",
+      "agreement": 0.9925
+    },
+    {
+      "bank": "B",
+      "context": "brightness_dark",
+      "agreement": 0.995
+    },
+    {
+      "bank": "B",
+      "context": "clean",
+      "agreement": 0.9825
+    },
+    {
+      "bank": "B",
+      "context": "contrast_low",
+      "agreement": 0.9925
+    },
+    {
+      "bank": "B",
+      "context": "gaussian_blur",
+      "agreement": 0.9875
+    },
+    {
+      "bank": "B",
+      "context": "gaussian_noise",
+      "agreement": 0.98875
+    }
+  ],
+  "pooled_context": [
+    {
+      "context": "brightness_dark",
+      "agreement": 0.989375
+    },
+    {
+      "context": "clean",
+      "agreement": 0.9875
+    },
+    {
+      "context": "contrast_low",
+      "agreement": 0.9875
+    },
+    {
+      "context": "gaussian_blur",
+      "agreement": 0.98625
+    },
+    {
+      "context": "gaussian_noise",
+      "agreement": 0.990625
+    }
+  ],
+  "H1_H2_disagreements": 94,
+  "unique_clients": 38,
+  "unique_cells": 59,
+  "stable_margin_quantiles": [
+    0.002843656678191204,
+    0.038648361975486545,
+    0.2571704646331055
+  ],
+  "unstable_margin_quantiles": [
+    7.043677896600487e-05,
+    0.0004677409619988223,
+    0.0021353811878742587
+  ],
+  "BER_REGRET_A": "NOT_EXECUTED",
+  "BER_CAP_A": "NOT_EXECUTED",
+  "BER_SRC_A": "NOT_EXECUTED",
+  "scientific_diagnosis": "NOT_ASSIGNED",
+  "labels_parsed": false,
+  "query_outcomes_parsed": false,
+  "new_model_forwards": 0,
+  "source_hashes_unchanged": true
+}

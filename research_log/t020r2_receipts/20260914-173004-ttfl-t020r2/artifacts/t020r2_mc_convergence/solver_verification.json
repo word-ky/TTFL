@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "logical_replicas": 4096000,
+  "new_CLS_solves": 3840000,
+  "immutable_prefix_replicas": 256000,
+  "max_KKT": 4.440892098500626e-16,
+  "max_sum_error": 4.440892098500626e-16,
+  "max_updates": 17,
+  "min_objective_improvement": -1.4723459077043681e-29,
+  "legacy_aggregate_replays": 8000,
+  "verification_samples": 4000,
+  "labels_parsed": false,
+  "query_outcomes_parsed": false,
+  "new_model_forwards": 0
+}

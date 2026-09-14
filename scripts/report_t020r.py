@@ -12,6 +12,7 @@ from src.context.matched_channel import exact_utilities
 RUN='20260914-163857-ttfl-t020r'
 RAW=ROOT/f'research_log/t020r_receipts/{RUN}/artifacts/t020r_mc_convergence'
 OUT=ROOT/'results/t020r_mc_convergence'
+TEST_COUNT=121;VERIFY_ONLY=False
 C=['clean','brightness_dark','contrast_low','gaussian_noise','gaussian_blur'];B=['A','B'];S=[f'T013-S{i}' for i in range(4)]
 def load(p):return json.loads(p.read_text())
 def gzload(p):return json.loads(gzip.decompress(p.read_bytes()))
@@ -23,7 +24,7 @@ def main():
     OUT.mkdir(parents=True,exist_ok=True)
     incomplete=not (RAW/'summary.json').exists()
     summary=load(RAW/'runtime.json' if incomplete else RAW/'summary.json')
-    assert 'Ran 121 tests' in (RAW.parent.parent/'train.log').read_text()
+    assert f'Ran {TEST_COUNT} tests' in (RAW.parent.parent/'train.log').read_text()
     if not incomplete:assert all(sha(RAW/name)==h for name,h in load(RAW/'phaseB_choices_freeze.json')['hashes'].items())
     for p in RAW.iterdir():
         if p.is_file() and p.suffix!='.npz':shutil.copyfile(p,OUT/p.name)
@@ -106,6 +107,7 @@ def main():
         all_quarter_half_global_agreements_replayed=True,convergence_pass=passed,source_manifest_entries_unchanged=len(checked),source_files=checked,
         target_composition_or_true_utilities_parsed=False,query_counts_or_metrics_parsed=False)
     save(OUT/'independent_verification.json',verify)
+    if VERIFY_ONLY:print('T020R_INDEPENDENT_REPLAY_PASS');return
     if passed:print('T020R_INDEPENDENT_PREPARATION_PASS');return
     assert summary['status']=='T020R-MC2'
     phase=load(RAW/'solver_verification.json');now=datetime.now().astimezone().isoformat(timespec='seconds')

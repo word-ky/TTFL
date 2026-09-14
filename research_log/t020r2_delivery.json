@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-09-14T17:39:11+08:00",
+  "lead": "43d2f85",
+  "runtime": "1d7b6b8f7ca3e58fea1ae486cf7505192fdc05a1",
+  "run": "20260914-173004-ttfl-t020r2",
+  "status": "T020R-MC2",
+  "fallbacks": 2,
+  "global_agreement": {
+    "H1_H2": 0.98825,
+    "H1_ALL": 0.9925,
+    "H2_ALL": 0.99575
+  },
+  "results": "results/t020r2_mc_convergence",
+  "next": "Await Lead; no unsealing"
+}

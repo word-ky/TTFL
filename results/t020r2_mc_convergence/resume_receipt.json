@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE_100_CLIENTS",
+  "reused_clients": 98,
+  "resumed_clients": [
+    64,
+    87
+  ],
+  "resumed_new_CLS_solves": 76800,
+  "preserved_new_CLS_solves": 3763200,
+  "logical_replicas": 4096000,
+  "template_slots": 8000,
+  "cells": 1000,
+  "fallback_activations": 2,
+  "hashes": {
+    "client_064_accumulators.json.gz": "e908569e0d9015068aa39542b32935f95bbffcf6d3703276d79dc1af43229a4d",
+    "client_064_verification.npz": "1a74195c1fa9a471036079445db67acc931afc8a891424fa9929a871403bb7d9",
+    "client_087_accumulators.json.gz": "1b6a5b1fa48a337dc83eb9ed0e82356604ae1948e7870c7af18ef57759557444",
+    "client_087_verification.npz": "4a9c1d23cfd6f388d44dac06acc3493c2aa3379b426c57db5ada8e6453938a22"
+  }
+}
