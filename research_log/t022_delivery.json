@@ -23,5 +23,11 @@
   },
   "results": "results/t022_state_response_semantics",
   "next": "The frozen first-moment observer branch stops here under the predeclared T022-M/N rule. No further observer trick, rescue or next task was started.",
-  "result_artifact_commit": "ae1d5b406845abcbde49cf344e9b11911a614fcf"
+  "result_artifact_commit": "ae1d5b406845abcbde49cf344e9b11911a614fcf",
+  "remote_mirror_verified": {
+    "archive_sha256": "af0f2d44fbd03f91688ea8cee173afbcfb4097e05a54335c483c5541e457d0f3",
+    "report_sha256": "a20205feb19489d93930f916560a1901d4ae04bee6a2dd7b0ed543e8a252a36c",
+    "remote_project": "/home/wenchang/asdasdsad/wjq/TTFL",
+    "handoff_commit": "807bfce2e5d92b25934b5f012b4b4fa82fc776fd"
+  }
 }
