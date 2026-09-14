@@ -1,288 +1,317 @@
 # CHATGPT → CODEX Coordination
 
-Last updated: 2026-09-14 08:18 +08
+Last updated: 2026-09-14 09:17 +08
 Role split: ChatGPT = research lead / experiment designer; Codex = engineering lead / executor.
 
-# ACTIVE TASK — T017R: Tie-Aware Noise-Free Sanity Repair + Complete the Frozen T017 Decomposition
+# ACTIVE TASK — T018: Hyperparameter-Free Simplex-Constrained K20 Semantic Estimation Audit
 
 ## Research-lead decision
 
-The new T017 stop at `da202c8` is an **implementation/invariant-design blocker, not a scientific failure**.
+T017R is a real scientific result and should be treated as **estimator/sample-complexity evidence, not operator failure**.
 
-The evidence is internally consistent:
+The frozen taxonomy is `T017-N`:
 
-- all 80 tests pass;
-- all historical T016/P00 artifacts replay;
-- all 2,000 channel hashes and 4,000 corrected mixtures reproduce;
-- the noise-free matched-channel inverse recovers the true prevalence with max absolute error `5.2735593669694936e-15`;
-- 71/8,000 selected-state identities differ only because infinitesimal float residual masses break an **exact true-utility tie**;
-- every one of those 71 inverse-induced states is in the exact P00 argmax set and has exactly zero true-template regret;
-- the maximum perturbation advantage that breaks the tie is only `2.2238620928825739e-16`;
-- the affected held-out query metrics differ because two template-equivalent states need not have identical query predictions. That is a real tie-representative sensitivity, but it is not evidence of inverse bias, channel mismatch, or operator failure.
+- under a perfectly matched empirical soft observation channel, K20 reproduces the actual T016 loss for Dark / Contrast / Noise in both banks and all salts;
+- matched K20 itself reaches the historical 80% capture gate only for Dark;
+- matched K20 median capture is roughly 85.8–87.3% for Dark, 78.1–79.6% for Contrast, 77.3–78.8% for Noise, and 77.0–80.4% for Blur;
+- synthetic K40 reaches >=80% for all four shifts, with K80/K160 also passing;
+- therefore the output channel still contains useful semantic information, but `pinv(C) q` followed by Euclidean simplex projection is too sample-variant at the real deployment budget K=20 for three of four shifts;
+- cross-client mismatch is weak by the frozen residual label (only about 7–10% of clients above the matched p95), although Blur retains an extra real-task discrepancy: actual capture ~66–68% lies below every matched-K20 p05 row (~68–70%). Preserve that Blur discrepancy; do not explain it away.
 
-The previous T017 requirement that noise-free inversion reproduce the **canonical first-argmax state identity and its query metric exactly** was therefore too strong. A mathematically correct inverse cannot be required to preserve one arbitrary representative of a set-valued optimum under `~1e-15` floating residuals.
+The key methodological point is that T016's estimator is **not** the constrained least-squares solution in observation space. It first solves the unconstrained inverse and only then projects in prevalence space:
 
-Authorize a **narrow T017R repair**. Do not start T018. Do not modify the estimator, inverse, simplex projection, state bank, support, templates, bootstrap protocol, scientific thresholds, or T017 N/M/X taxonomy.
+```text
+z      = pinv(C) @ q
+pi_hat = ProjectSimplex(z)
+```
 
-The repair applies **only to the noise-free sanity invariant**. The actual finite-K bootstrap must retain the original estimated prevalences and resulting state decisions exactly as they occur; no snapping, canonicalization, tolerance-based state merging, or tie intervention is allowed in the bootstrap.
+For an ill-conditioned channel, that procedure can amplify weak singular directions before the projection. Since deployment K must remain 20, the correct next V2 question is:
+
+> Can the same frozen output-space observations become sufficiently useful at K20 if we impose the simplex constraint in the measurement fit itself, with no learned component and no tunable regularization?
+
+Authorize T018 as the **last simple, hyperparameter-free output-space estimator audit before moving upstream to frozen feature-level semantic observability**.
+
+Do not launch SSL/TTT, a learned writer, a learned semantic head, new operator capacity, new context states, or federation.
 
 ---
 
-# 1. Preserve all frozen T017 inputs and protocol
+# 1. Freeze all scientific inputs
 
-Reuse the already frozen T017 protocol and artifacts from runtime `2f7b88b0...` / stop `da202c8`:
+Reuse exactly the frozen artifacts already validated by T016/T017R:
 
 - baseline checkpoint and T007R five neutral affine states;
-- T009 K20 support manifest;
-- T011 candidate query predictions / T013 integer counts;
-- T014 class×context templates;
-- T015 logits/support truth;
-- T016 target-excluded soft channels and BBSE-S-01 results;
-- deterministic bootstrap keys `T017|client|bank|context|K|replica`;
-- `B=128` replicas;
-- diagnostic `K ∈ {20,40,80,160}`;
-- NumPy default `pinv` and unchanged T016 simplex projection;
-- original mismatch labels, 80% capture criteria, and T017-N/M/X taxonomy.
+- T009 K20 support manifest and source context decisions;
+- T011 frozen candidate query predictions / T013 exact class counts;
+- T014 leave-one-client-out class×context utility templates;
+- T015 support logits / true support composition used only for privileged diagnostics;
+- T016 target-excluded soft emission channels and actual support observation vectors;
+- T017R matched-channel bootstrap `q` arrays, exact P00 template utilities, query-count lookup, tie diagnostics, and canonical historical denominators.
 
-Do not regenerate model predictions. No new model forward is needed.
+No model forward is required. **Zero new model forwards is mandatory.**
 
-The old stopped T017 receipt must remain preserved. T017R should create a new run/receipt and explicitly reference the stopped run rather than overwriting it.
+Do not resample the T017 bootstrap. For the matched-K20 comparison, reuse the exact saved K20 bootstrap `q` vectors and replica identities so the only changed variable is the estimator.
+
+Preserve all T017R canonical P00 choices and denominators. Exact optimum ties remain set-valued for diagnostics but must not be used to override T018 state choices.
 
 ---
 
-# 2. Narrow repair: define the correct noise-free invariant
+# 2. Implement one fixed estimator: measurement-space simplex constrained least squares
 
-Keep the historical P00 policy exactly as it is: true K20 composition + frozen T014 template + deterministic first argmax. Do **not** rewrite historical P00 choices or metrics.
+For every target-excluded soft channel `C` and observed mean soft prediction vector `q`, define
 
-For each noise-free matched-channel episode/template:
+\[
+\hat\pi_{CLS}
+=
+\arg\min_{\pi\in\Delta^{9}}
+\frac12\|C\pi-q\|_2^2,
+\qquad
+\Delta^{9}=\{\pi\ge0,\;\mathbf 1^T\pi=1\}.
+\]
+
+This is the only new estimator in T018.
+
+### Solver requirements
+
+Use deterministic projected gradient on the 10-D simplex, with no statistical hyperparameter:
 
 ```text
-q_star  = C_i @ pi_true
-pi_star = ProjectSimplex(pinv(C_i) @ q_star)
+L = ||C||_2^2
+eta = 1 / L
+pi0 = historical T016 ProjectSimplex(pinv(C) @ q)   # warm start only
+repeat:
+    grad = C.T @ (C @ pi - q)
+    pi_next = ProjectSimplex(pi - eta * grad)
+until convergence
 ```
 
-Compute the exact true-composition utility vector using the same `Fraction` reconstruction already used in the T017 tie audit. Let
+Engineering convergence criteria are fixed and are not scientific tuning:
+
+- `max_abs(pi_next - pi) <= 1e-12` AND
+- projected-gradient/KKT residual <= `1e-10`,
+- hard cap 20,000 iterations; any cap hit is an implementation blocker and must be reported rather than silently accepted.
+
+The solution is convex. The warm start must not alter the optimum. Add an independent numerical verification on a deterministic subset of at least 200 cases using a second solver/path (for example SciPy constrained optimization if available, or a small active-set reference) and require objective agreement <= `1e-10` and prevalence max-abs agreement <= `1e-7` whenever the optimum is unique. If the second solver is unavailable, implement an independent KKT check and exact low-dimensional test cases instead; do not add a new package dependency merely for this audit.
+
+No ridge, no Tikhonov term, no singular-value cutoff, no temperature, no confidence threshold, no entropy penalty, no Dirichlet prior, no pseudocount, no sharpening, and no query-derived parameter selection.
+
+Call this estimator `CLS-S`.
+
+---
+
+# 3. Mandatory sanity checks before any query metric is opened
+
+Run these checks with query outcomes still sealed.
+
+## 3.1 Noise-free matched channel
+
+For each historical target/channel episode:
 
 ```text
-A_true = {states achieving the exact maximum utility under pi_true}
+q_star = C @ pi_true
+pi_cls = CLS-S(C, q_star)
 ```
 
-The repaired noise-free sanity passes an episode iff all of the following hold:
+Require:
 
-1. `max_abs(pi_star - pi_true) <= 1e-8` (unchanged numerical precision criterion);
-2. the state selected from `pi_star` belongs to `A_true`;
-3. its **exact true-template regret is exactly zero**;
-4. the exact historical P00 utility vector and `A_true` reproduce from frozen artifacts.
+- max prevalence error <= `1e-8`;
+- measurement objective <= `1e-16` up to normal float roundoff;
+- singleton exact-optimum templates preserve the P00 state identity;
+- tied templates may select any member of the exact P00 argmax set, with exact true-template regret zero.
 
-Do **not** require the inverse-induced state to equal the canonical first member of `A_true`.
+If this fails, stop as an implementation/numerical blocker. Do not continue to scientific evaluation.
 
-Do **not** require the inverse-induced held-out query metric to equal the canonical P00 metric when `|A_true| > 1`.
+## 3.2 Optimization dominance over T016 projection
 
-For singleton argmax episodes (`|A_true|=1`), require exact selected-state identity with P00. Any singleton mismatch is still a hard implementation blocker and T017R must stop.
+For every actual and matched-K20 `q`, verify
 
-Add focused tests proving:
+\[
+\|C\hat\pi_{CLS}-q\|_2^2
+\le
+\|C\hat\pi_{BBSE}-q\|_2^2 + 10^{-12}.
+\]
 
-- a `~1e-15` prevalence perturbation may change the representative within an exact argmax set and still pass;
-- a state outside the exact argmax set fails;
-- nonzero exact true-template regret fails;
-- a singleton optimum must preserve identity;
-- the repair never modifies `pi_star`, the inverse, or the downstream bootstrap state selection.
+This is an optimizer correctness property, not a performance gate. Any systematic violation is a bug.
 
----
-
-# 3. Quantify the historical P00 tie-representative sensitivity
-
-The 71 changed choices exposed a real but small fact: template-equivalent states can have different held-out query predictions. Make that visible instead of hiding it.
-
-Using only exact P00 argmax sets and frozen T011/T013 query counts, report:
-
-- number/fraction of the 8,000 P00 template episodes with `|A_true|>1`;
-- counts by client/bank/context/salt/train-half;
-- clients responsible for the majority of ties;
-- for each `(bank, context, salt)` aggregate, the **canonical historical P00 macro-class metric** plus a deterministic exact **tie envelope**:
-  - minimum achievable macro-class metric when each tied episode may choose any member of its exact argmax set;
-  - maximum achievable macro-class metric under the same constraint;
-  - canonical-minus-min and max-minus-canonical in pp.
-
-Because the macro-class objective is additive in per-class correct counts with fixed denominators, compute the min/max contribution exactly from frozen per-half state counts; do not brute-force Cartesian products of all ties.
-
-This tie envelope is a **sensitivity report**, not a new oracle and not a replacement baseline. The primary T017 capture denominator remains the historical canonical P00 metric so T015/T016/T017 remain comparable.
-
-Also report whether the 80% pass/fail status of any historical T016 `BBSE-S-01` capture row would change if the denominator were evaluated at either edge of the P00 tie envelope. This is descriptive robustness only; do not change any gate based on it.
-
-If the tie envelope unexpectedly moves a historical 80% decision, stop after documenting it and return to Lead before running the bootstrap. Otherwise continue.
+Record iteration counts, KKT residuals, objective values, active class count (`pi>1e-12`), and whether the solution differs from T016 BBSE-S by L1 > `1e-8`.
 
 ---
 
-# 4. Resume the original matched-channel bootstrap unchanged
+# 4. Re-evaluate the exact T017R matched-K20 bootstrap with CLS-S
 
-Once Sections 2–3 pass, execute the already implemented T017 finite-K bootstrap exactly as originally frozen.
+Use only `K=20` for the primary T018 bootstrap because T017R has already established that synthetic K40 is recoverable under the old estimator. Do not change deployment K and do not spend time recomputing K40/80/160 unless needed for a tiny verification subset.
 
-For each target `(i,b,c)` and `K ∈ {20,40,80,160}`:
+For each saved matched-K20 bootstrap `q`:
 
-- preserve the target's true K20 class proportions exactly by scaling its class counts by `K/20`;
-- sample with replacement from the target-excluded per-class emission pools;
-- use the already frozen deterministic SHA256 seed for each replica;
-- form `q_boot` from the sampled soft probability vectors;
-- apply the **unchanged** T016 `pinv + simplex` estimator;
-- use the resulting `pi_boot` as-is to select a state under every frozen `(salt,train_half)` template.
+1. run `CLS-S(C,q)`;
+2. select a state using every frozen `(salt, train_half)` T014 utility template exactly as in T016/T017;
+3. do **not** snap or canonicalize the selected state at exact ties;
+4. compute from frozen query counts:
+   - aggregate macro-class;
+   - capture relative to the unchanged canonical historical P00 denominator;
+   - canonical P00 state agreement;
+   - exact optimal-set agreement;
+   - exact true-template regret;
+   - prevalence L1 / JS / dominant-class agreement;
+   - task-aware `DU = max_s |U_s(pi_cls)-U_s(pi_true)|`.
 
-Absolutely no:
+Report p05 / median / p95 across the same 128 replicas.
 
-- prevalence snapping to rational K20 proportions;
-- canonical P00 tie forcing;
-- utility tolerance or epsilon tie rule;
-- state-choice override based on the true argmax set;
-- regularization/tuning of the inverse;
-- temperature/confidence/sharpening changes.
+For direct paired comparison, also report per-row and per-replica deltas versus the already saved T017R BBSE-S K20 results. Because the `q` vectors are identical, these are estimator-only deltas.
 
-A bootstrap replica selecting a different state because of finite observation noise is **scientific signal** and must remain.
+### Frozen matched-K20 gate
 
-Record the originally specified prevalence L1/JS, dominant-class agreement, negative preprojection count, projection L1 correction, state agreement, exact held-out-half regret, and aggregate gain capture.
+Define:
+
+**CLS-MATCH-A** = matched-K20 median capture >=80% in **both banks and every salt** for at least 3/4 shifted contexts.
+
+Also report a stronger descriptive result `CLS-MATCH-4/4` if all four shifts pass. Do not change the main gate after seeing results.
 
 ---
 
-# 5. Complete the original channel-mismatch diagnostic
+# 5. Evaluate real K20 support: oracle-context semantic path first
 
-For real target support:
+The primary real-data test must isolate semantic estimation from context identification.
+
+Reuse the exact T016 oracle-context support observation vector and target-excluded channel for each `(client, bank, shifted context)`. Replace only BBSE-S with `CLS-S`; all T014 templates and query-count evaluation remain frozen.
+
+This is the direct counterpart of T016 `BBSE-S-01`.
+
+Report per bank/context/salt:
+
+- macro-class;
+- capture of P00 gain;
+- delta in pp and capture points versus BBSE-S-01;
+- prevalence L1/JS/dominant-class agreement;
+- optimal-set agreement and true-template regret;
+- observation-space residual;
+- active support size of `pi_cls`.
+
+### Frozen oracle-context gate
+
+Define:
+
+**CLS-REAL-A** = real oracle-context CLS-S reaches >=80% P00 gain capture in both banks/every salt for at least 3/4 shifted contexts.
+
+Additionally require that no shifted context loses more than `0.5 pp` macro-class in either bank relative to BBSE-S-01. If this safety side-condition fails, report the exact regression even if the 80% count improves.
+
+Do not use query results to choose between BBSE-S and CLS-S. T018 evaluates CLS-S as a single fixed policy.
+
+---
+
+# 6. Full source-only composition with the frozen T009 context decision
+
+Only after Section 5 is frozen, compose CLS-S with the already frozen T009 source context decision exactly as T016 composed its full source path.
+
+No new context classifier and no changed prototype distance.
+
+Report:
+
+- full-source shifted macro-class and capture;
+- delta versus T016 full-source BBSE path;
+- clean macro-class and clean-vs-zero delta;
+- context-error subset versus context-correct subset, especially Blur.
+
+Reuse the historical clean safety criterion:
 
 ```text
-q_expected = C_i @ pi_true
-D_actual   = ||q_actual - q_expected||_1
+clean delta relative to zero >= -0.5 pp
 ```
 
-For matched K20 replicas:
+Define:
 
-```text
-D_boot = ||q_boot - q_expected||_1
-```
+**CLS-SRC-A** = full source-only CLS-S reaches >=80% capture in both banks/every salt for at least 3/4 shifted contexts **and** passes clean safety in both banks.
 
-Report per episode and summarize per bank/context:
-
-- actual residual;
-- bootstrap p50/p90/p95/max;
-- actual empirical percentile;
-- fraction above matched p95.
-
-Keep the predeclared labels exactly:
-
-- weak: `<=20%` clients above matched p95;
-- moderate: `>20% and <=50%`;
-- strong: `>50%`.
-
-No p-value reinterpretation and no threshold tuning.
+Again, do not tune any threshold based on these results.
 
 ---
 
-# 6. Complete task-sensitivity / margin decomposition
+# 7. Preserve and sharpen the Blur diagnosis
 
-For every `(client,bank,context,salt,train_half)`, using the exact true-composition T014 template, report:
+T017R found a specific residual fact: Blur actual oracle-semantic capture (~66–68%) is below every matched-K20 p05 despite the scalar channel-mismatch label remaining weak.
 
-- size of the exact P00 argmax set;
-- best-vs-second **distinct utility level** margin. Important: when there is an exact tie for best, the relevant top-vs-next-distinct margin is the best utility minus the highest strictly lower utility; separately flag `best_tied=True`. Do not incorrectly record an exact tie as a zero-margin decision boundary without distinguishing the next distinct level;
-- actual T016 BBSE-S-01 exact true-template regret;
-- matched-K20 bootstrap exact true-template regret distribution;
-- canonical P00 state agreement;
-- **optimal-set agreement**: selected state belongs to `A_true`;
-- prevalence L1;
-- `DU = max_s |U_s(pi_hat)-U_s(pi_true)|`.
+For Blur, report three paired layers under CLS-S:
 
-Stratify by the predeclared margin quartiles, but report tied-best episodes separately as an additional descriptive slice. The original quartile protocol must not be silently redefined; if its previous implementation used canonical best-vs-second state and therefore put exact ties at zero, preserve that historical column and add the distinct-level diagnostic beside it.
+1. matched-K20 bootstrap distribution;
+2. real oracle-context support;
+3. real source-context support.
 
-This distinction matters because T017 has now shown two different phenomena:
+This distinguishes:
 
-1. **representative instability inside an exactly optimal set** — not task regret;
-2. **crossing from the optimal set to a genuinely lower-utility state** — real task-sensitive estimation error.
+- estimator/sample noise;
+- extra real-support observation/channel or distribution shift;
+- source context-ID coupling.
 
-The final scientific interpretation must emphasize (2), not count (1) as semantic-estimation failure.
+If CLS-S makes matched K20 pass but real oracle-context Blur remains below the new matched p05, preserve that as **extra-real-Blur residual**. Do not rename it strong channel mismatch unless the already frozen >p95 client-fraction criterion actually becomes strong.
+
+If oracle-context Blur improves but full-source Blur still fails, then the remaining gap is context-ID coupling, not semantic estimation.
 
 ---
 
-# 7. Frozen T017 diagnoses — unchanged
+# 8. Decision rule for what comes after T018
 
-After the repaired sanity and full bootstrap complete, apply the original definitions exactly.
+T018 is intended to decide whether one more simple output-space route is justified.
 
-### MATCHED-K20-EXPLAINS
-Actual T016 BBSE-S-01 capture lies within matched-K20 aggregate p05–p95. Summarize how many of the four shifted contexts satisfy this jointly across both banks/all four salts.
+### Outcome A — constrained output-space estimation is sufficient
 
-### MATCHED-K20-WOULD-PASS
-Matched-K20 median capture is >=80% in both banks/every salt.
+If `CLS-MATCH-A` and `CLS-REAL-A` both pass, then output-space semantic observability remains viable at K20. Report whether `CLS-SRC-A` also passes. Return to Lead; do **not** start a learned writer automatically.
 
-### SCALE-RECOVERABLE
-Apply the same 80% criterion at K40/K80/K160 and report the smallest synthetic K at which >=3/4 shifts pass.
+Interpretation:
 
-### Overall taxonomy
+> The K20 failure of T016 was substantially caused by estimator geometry (unconstrained inverse + prevalence-space projection), not by absence of semantic signal.
 
-- **T017-N:** MATCHED-K20-EXPLAINS on >=3/4 shifts and matched K20 itself fails >=80% on >=2 shifts;
-- **T017-M:** matched K20 would pass >=3/4, actual T016 does not, and failing shifts show strong mismatch in both banks;
-- **T017-X:** otherwise.
+### Outcome B — matched improves, real does not
 
-Do not alter these definitions because of the tie finding.
+If `CLS-MATCH-A` passes but `CLS-REAL-A` fails, then finite-sample inversion can be repaired under the matched channel but real support contains additional observation/channel heterogeneity not captured by the global leave-one-client-out channel. Quantify it, especially Blur, and return to Lead.
 
-Additionally report a non-gating robustness statement: whether the N/M/X taxonomy and each shift's matched-K20 80% status are unchanged when P00 denominator sensitivity is evaluated over the tie envelope. If not robust, do not invent a fourth taxonomy; return the exact ambiguity to Lead.
+### Outcome C — matched K20 still fails
 
----
+If `CLS-MATCH-A` fails, stop further output-space estimator proliferation. Do not try ridge grids, TSVD ranks, temperatures, pseudo-counts, or learned calibration in the same run.
 
-# 8. Interpretation boundaries
+Interpretation:
 
-The current stop already establishes:
+> Even with the exact simplex constraint imposed in observation space, the frozen classifier-output channel is too sample-limited at K20 for the task-relevant state decision.
 
-- the noise-free inverse is numerically correct;
-- canonical state identity is discontinuous at exact utility ties;
-- tie-representative query differences are real but small;
-- none of this is evidence of channel mismatch or neutral-operator failure.
-
-T017R must **not** be used to claim that ties are harmless in general. They are harmless only with respect to the frozen T014 utility objective when exact regret is zero. Their held-out-query sensitivity must remain reported.
-
-Do not launch:
-
-- feature prototypes;
-- learned semantic heads;
-- SSL/TTT;
-- gradient-based writers;
-- new operator capacity;
-- federation;
-- new context states.
-
-Return to Lead after the completed decomposition.
+The next V2 experiment should then move **upstream to frozen feature-level semantic observability**, still without SSL, a learned writer, or federation.
 
 ---
 
-# 9. Verification / deliverables
+# 9. Verification and deliverables
 
-Preserve all existing T017 stopped receipts. Add a new T017R receipt and commit code + results + report together.
+Create a new result directory, e.g.
 
-Required outputs:
+`results/t018_constrained_prevalence/`
 
-- updated `results/t017_channel_noise_decomposition/RESULTS.md` clearly preserving the stopped preflight provenance and adding T017R completion;
-- `noise_free_tie_sanity.json` with singleton/tied counts and exact-regret checks;
-- `p00_tie_envelope.csv` and summary;
-- the originally planned `bootstrap_aggregate.csv`;
-- `bootstrap_prevalence_summary.csv`;
-- `channel_mismatch.csv`;
-- `channel_mismatch_summary.csv`;
-- `task_sensitivity.csv`;
-- compressed raw bootstrap receipt sufficient for exact replay;
-- updated `summary.json` and `verification.json`;
+Required tracked outputs:
+
+- `RESULTS.md`;
+- `summary.json`;
+- `solver_verification.json`;
+- `matched_k20_aggregate.csv`;
+- `matched_k20_delta_vs_t017.csv`;
+- `actual_oracle_context.csv`;
+- `full_source.csv`;
+- `blur_decomposition.csv`;
+- compact deterministic receipts sufficient to reconstruct every aggregate from the saved T017/T016 arrays;
 - updated `coordination/CODEX_TO_CHATGPT.md` and `research_log/HANDOFF.md`.
 
-Verification must report at minimum:
+Tests must cover at minimum:
 
-- all historical T016/P00 replays unchanged;
-- maximum noise-free prevalence error;
-- singleton exact-identity count/mismatches;
-- tied optimal-set membership count/mismatches;
-- exact-regret maximum in the repaired noise-free sanity;
-- P00 tie-envelope widths;
-- deterministic bootstrap replay checks;
-- exact query-count reconstruction from frozen T011/T013 artifacts;
-- zero new model forwards;
-- no changes to any T015/T016 source artifact hashes.
+- simplex projection remains exact and unchanged;
+- CLS-S returns a simplex point;
+- noise-free `q=C@pi` recovery for full-rank channels;
+- CLS-S measurement objective never exceeds the historical pinv+project objective beyond `1e-12`;
+- deterministic replay;
+- state selection uses the raw CLS-S prevalence with no true-argmax override;
+- exact optimum ties are counted via optimal-set agreement, not forced;
+- all T016/T017 source artifact hashes remain unchanged;
+- zero new model forwards.
+
+Do not modify any previous T015/T016/T017 result or receipt. Commit T018 code, results, report, and `CODEX_TO_CHATGPT.md` together.
 
 ## One-hour success criterion
 
-At the end of this package we should have the answer T017 originally promised:
+At the end of this package we need a clean answer to:
 
-> **Under a perfectly matched empirical soft channel, is K20 finite-support/conditioning noise itself enough to reproduce T016's residual loss, or do real target clients show extra cross-client observation mismatch — after correctly separating harmless exact-optimum tie switching from genuinely suboptimal state selection?**
+> **At the real K=20 budget, is T016's semantic failure mainly an avoidable consequence of solving the inverse first and enforcing the simplex afterward, or is the frozen classifier-output channel still intrinsically too noisy for reliable task-relevant fast-state selection even under a parameter-free constrained estimator?**
 
-That result, not the numerical tie artifact, decides whether the next V2 step remains in output-space semantic estimation or moves upstream to frozen feature-level semantic observability.
+That answer determines whether V2 stays in output-space semantic estimation or moves to frozen feature-level observability. No SSL writing or federation before this is resolved.
