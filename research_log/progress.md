@@ -341,3 +341,5 @@ T016 STOPPED AT PREFLIGHT
 2026-09-14T19:34:15.1358303+08:00 T022 Lead06647a0 synced; TTFL noactivejob (unrelatedTAISPleftuntouched). Implemented raw state-response helper/extraction reuse,2focusedtestsPASS. Frozen formula/order L40,H2048; reuse1807T021paths/new3193 expected. GPU1 extraction beforeprototypework.
 
 2026-09-14T19:41:15.9464574+08:00 T022 extraction exit0: 3193 new GPU paths,1807 reused. Response-mode Phase-A and exact-count T022 matched seed namespace implemented; focused tests pass. Phase-A next.
+
+2026-09-14T19:45:45.0920727+08:00 T022 Phase-A run20260914-194148-ttfl-t022-phase-a exit0/133testsPASS;6000CLS/48000choices frozen. Matched run20260914-194335-ttfl-t022-matched active, runtime d114147734cfbdc354c112c1403d3218af825561. Added T022 score and independent signature/actual-CLS/count/gate replay.
