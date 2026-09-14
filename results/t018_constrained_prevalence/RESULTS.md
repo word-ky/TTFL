@@ -1,81 +1,72 @@
-# T018R: real-cell preflight passes; matched solver stops on sum feasibility
+# T018R2: verified exact CLS, Outcome B
 
-2026-09-14T12:50:42+08:00. Lead `8d12997` / unchanged scientific protocol `1744440`.
-
-**Status: numerical blocker. CLS-MATCH-A / CLS-REAL-A / CLS-SRC-A remain NOT EXECUTED; no Outcome A/B/C.** The historical T018 PGD stop is preserved in its original raw receipts and the report below. This is a distinct T018R result.
-
-## What changed and passed
-
-Implemented the prescribed deterministic active-set simplex QP, retaining old PGD unchanged. The objective, warm start, observations, templates, context decisions, K20, tolerances and gates did not change. Face systems are lazily cached as `solve(K, identity)` mappings, as authorized; no added dependency, regularization or statistical tuning. Most-negative removal and greatest-dual-violation insertion use smallest-index tie breaking. Cycles, >100 updates, nonfinite values and failed feasibility stop execution.
-
-Runtime `5f5e1a5a845f743646aea7f67c1d47463f1b9832`; run `20260914-124138-ttfl-t018r-preflight`, exit0. **98 tests pass.** Added tests cover condition numbers 3/50/100/200, 12 fixed synthetic face-reference comparisons, boundary zeros, insertion/removal, replay and input immutability.
-
-- Noise-free 1,000: max prevalence error 4.57634e-13, max objective 3.9975e-27; all 7,914 singleton and 86 tied exact-optimum checks pass.
-- Same fixed 200 actual cases: **all 49 old PGD caps repaired**, all 151 old converged cases reference-equivalent; max prevalence error 5.78725e-13, max objective error 5.01498e-16.
-- All 1,000 real cells: KKT / simplex feasibility / BBSE objective dominance pass; max KKT 4.83169e-13, maximum 11 working-set updates. Full traces and pi vectors are saved.
-
-## New stopped case
-
-Runtime `315a984ee4ba5c26495b48f3a73c081c5f0340bc`; run `20260914-124709-ttfl-t018r-science`, exit1. Before opening query counts or accuracy, the program attempted numerical certification of the saved 128,000 matched-K20 observations. It accepted **45,575** cases then stopped at **client35 / bankB / Dark / replica7**. The remaining cases were not attempted; no partial accuracy or gate was computed. The accepted prefix was in memory and is not a complete persisted result array; its length follows the deterministic loop index and preserved log.
-
-Failing face: classes `[0,1,2,3,6,8,9]`. All coordinates are nonnegative, but cached inverse-map application returns a sum of **1.000000000001048**, absolute error **1.048050535246148e-12**, exceeding the fixed `1e-12` sum tolerance by about 4.8%. `direct_kkt` is 1.04805e-12, which passes its separate `1e-10` bound. Thus this is specifically a **simplex sum feasibility rejection**, not a KKT threshold failure, cycle or update cap.
-
-Same-runtime read-only replay reproduces the exception. The independently solved face and exhaustive reference give sum error 0.0, KKT 2.63834e-17, and prevalence difference from the cached result 4.77188e-13. Objective difference is 3.17781e-17. This evidence localizes the issue to roundoff in the cached inverse-map application; it is very different from the old PGD error of 0.04343. These direct solutions were **diagnostics only**, never substituted into the policy evaluation.
-
-No normalization, tolerance relaxation, alternative solver or second scientific run was applied. Under the specified roundoff rule, clipping/renormalization occurs only when the face solve has a tiny negative coordinate; this failing face had none. The implementation therefore rejected the sum error as required.
-
-## Scope and next decision
-
-The exact original matched q was replayed from saved T017R arrays; no resampling. Zero new model forwards; no query metrics opened. All 85 T015/T016/T017 manifest entries remain byte-identical. No estimator or scientific conclusion follows from this stop.
-
-Return to Lead for a narrow engineering decision on the face-system numerical application, e.g. direct RHS solve while preserving the same active-set trajectory/objective and all current tolerances. This is a suggestion only; no repair or rerun is authorized by this report itself. Do not move to feature semantics, SSL/TTT or FL.
-
-Receipts: `research_log/t018r_receipts/20260914-124138-ttfl-t018r-preflight/` and `research_log/t018r_receipts/20260914-124709-ttfl-t018r-science/`; compact copies under `results/t018_constrained_prevalence/t018r/`. `blocker_diagnosis.json` contains the exact q-derived case, pi vectors and independent numerical comparisons. Scientific CSVs were not fabricated for unexecuted stages.
-
-
----
-
-# CODEX → CHATGPT: T018 solver preflight blocker
-
-2026-09-14T11:44:07+08:00. Scientific Lead `1744440`, confirmed by `e3e9c70`; runtime `87185194a087f09da634a6f88d81e2fd2cfee59c`; release `20260914-113818-ttfl-t018-preflight`; run `20260914-113842-ttfl-t018-preflight`. One preflight run, exit1 after 73.09s. **95 tests PASS. No new model inference, query metrics or bootstrap evaluation.**
+2026-09-14T13:38:04+08:00. Lead `c8aea5b`; frozen science `1744440`. Runtime `e4b83f09ea15357993d4d3fcb6562c4c45104b65`. Preflight `20260914-132551-ttfl-t018r2-preflight` and scientific run `20260914-132634-ttfl-t018r2-science` both exit0. Science took 84.08s. **100 tests PASS; zero new model forwards; no resampling.**
 
 ## Decision
 
-The fixed CLS-S numerical path hits its declared iteration cap on **49/200 actual observations**. **CLS-MATCH-A / CLS-REAL-A / CLS-SRC-A are NOT EXECUTED.** No scientific Outcome A/B/C can be assigned. This is a convergence-budget implementation blocker, not evidence that measurement-space simplex estimation fails at K20.
+**CLS-MATCH-A PASS (4/4); CLS-REAL-A FAIL (1/4); CLS-SRC-A FAIL (1/4): Outcome B.** Real regression safety and source clean safety both pass. The matched empirical K20 channel becomes task-useful when the simplex constraint is enforced in the measurement fit. This improvement does not transfer sufficiently to real support: output-space CLS alone has not solved real semantic estimation. This supports a remaining real-support/channel heterogeneity hypothesis, not a claim that the affine operator failed. No next phase has started.
 
-## Exact implementation
+Ranges below span both banks and all four salts. Passing a context requires every one of its eight bank×salt rows to reach 80%; no average-row substitution.
 
-The objective is unchanged `0.5*||C*pi-q||²` on the simplex. Start from historical `ProjectSimplex(pinv(C)@q)`. Every iteration uses `C.T@(C@pi-q)` and step `eta=1/||C||₂²`, followed by the unchanged T016 simplex projection. Stop requires both max coordinate step<=1e-12 and projected-gradient residual<=1e-10. The residual is `L*maxabs(pi-ProjectSimplex(pi-grad(pi)/L))`, evaluated at the returned iterate. Hard cap20,000 is unchanged. No acceleration, regularization, extra inverse cutoff, temperature, or step search was introduced.
+| Context | Matched median capture, % | Real oracle capture, % | Source capture, % | Matched / real / source |
+|---|---:|---:|---:|---|
+| brightness_dark | 90.783–92.351 | 89.138–91.783 | 89.138–91.783 | True / True / True |
+| contrast_low | 83.432–85.872 | 75.729–83.422 | 75.729–83.422 | True / False / False |
+| gaussian_noise | 84.478–85.748 | 78.334–81.889 | 78.334–81.889 | True / False / False |
+| gaussian_blur | 82.684–84.908 | 74.911–76.690 | 57.308–62.253 | True / False / False |
 
-The fixed independent subset is clients0–19 × banksA/B × all5oraclecontexts:200real observations. This numerical diagnostic completed even after cap events to record the predeclared reference comparison; no capped result was accepted for state-policy evaluation.
 
-## Sanity that passed
+## Paired estimator changes
 
-- All1,000noise-free matched-channel cases pass: maximum prevalence error **5.2735593669694936e-15**, maximum measurement objective **4.7618016021866785e-31**.
-- All7,914singleton and86tied exact-P00 template checks pass under the inherited tie-aware noise-free rule. Historical P00 values and argmax sets reproduce exactly; no state override occurs in CLS-S.
-- All200actual cases satisfy measurement-objective dominance over warm-start BBSE within the required squared-residual tolerance1e-12.
-- The independent reference enumerates all1,023nonempty simplex faces, solves each equality-constrained quadratic problem directly, and chooses the minimum feasible objective. Its maximum direct KKT residual across200cases is **2.2204460492503131e-16**. All channels in this subset are full rank, so the objective optimum is unique.
-- All**151converged cases** satisfy objective agreement<=1e-10 and prevalence max-abs agreement<=1e-7 with this independent reference.
-- All**85T015/T016/T017 source-manifest file hashes** remain unchanged. T017bootstrap arrays were hash-verified but not resampled or evaluated. The preflight does not open frozen query outcomes/count metrics.
+Same q, checkpoint, states, context decisions, template lookups and P00 denominator; only the optimizer now realizes the unchanged CLS objective. Matched values are p50 of paired per-replica accuracy differences, not differences between independently resampled runs.
 
-## Cap failures
+| Context | Matched paired median Δmacro, pp | Real Δmacro vs BBSE, pp | Source Δmacro vs BBSE, pp |
+|---|---:|---:|---:|
+| clean | 0.324–0.376 | 0.599–0.819 | 0.420–0.734 |
+| brightness_dark | 0.750–0.915 | 0.180–0.673 | 0.180–0.673 |
+| contrast_low | 0.657–0.970 | 0.368–1.547 | 0.368–1.547 |
+| gaussian_noise | 0.378–0.446 | 0.772–0.892 | 0.772–0.892 |
+| gaussian_blur | 0.368–0.501 | 0.609–0.970 | 0.747–1.752 |
 
-| context | cap hits / 40 observations |
-|---|---:|
-| clean | 6 |
-| dark | 12 |
-| low contrast | 14 |
-| Gaussian noise | 8 |
-| Gaussian blur | 9 |
 
-Among49cap hits,41fail the prescribed independent objective/prevalence agreement; the other8still fail the hard convergence/cap rule and were not accepted. Across all200cases, maximum objective difference is **2.5703098873673105e-07**, maximum prevalence coordinate difference is **0.043430331826934232**.
+The real oracle path has no shifted regression beyond 0.5pp. Source clean gain over zero is 4.162–4.668pp, passing -0.5pp safety. Each complete bank×context×salt row, its accuracy/capture and semantic diagnostics are in the CSVs; matched tables also include p05/p95 and paired L1, JS, dominant agreement, DU, exact optimal-set/canonical agreement and true-template regret.
 
-Worst case: client6,bankB,contrast_low. At20,000iterations, maxstep=3.967497694851163e-06, projected-gradient residual=5.759853535411254e-06; objective=0.00022592363542161436 versus reference=0.00022566660443287763; prevalence maxerror=0.04343033182693423. There are7active classes. This is a material optimization gap, not a decimal serialization discrepancy.
+| Context | Matched median L1 | Real L1 | Real dominant agreement, % |
+|---|---:|---:|---:|
+| clean | 0.666–0.667 | 0.718–0.718 | 70.000–70.000 |
+| brightness_dark | 0.729–0.739 | 0.768–0.768 | 68.000–68.000 |
+| contrast_low | 0.821–0.824 | 0.918–0.918 | 58.000–59.000 |
+| gaussian_noise | 0.688–0.690 | 0.742–0.743 | 67.000–68.000 |
+| gaussian_blur | 0.686–0.693 | 0.769–0.772 | 68.000–68.000 |
 
-The returned objective decreases substantially from the BBSE warm start, but the fixed plain projected-gradient iteration is too slow on some measured channels to meet the declared precision within the cap. The independent face solution is diagnostic only; it was **not substituted** as the primary estimator. An engineering revision would require Lead authorization and can preserve the same convex objective, but none was made in this run.
 
-## Artifacts and scope
+## Blur decomposition
 
-`solver_subset.csv` records all200iteration counts, step/residuals, direct/reference KKT, objectives, active counts, L1 changes and comparison flags. `solver_vectors.json` records q, returned pi and independent reference pi. `noise_free.csv` records all1,000sanity cases. `protocol_freeze.json`, `input_hashes.json` and `source_hash_replay.json` preserve definitions and source identity. The full process log is retained in `research_log/t018_receipts/20260914-113842-ttfl-t018-preflight`.
+Matched Blur median capture is 82.684–84.908%; its p05 is 73.445–76.765%. Real oracle Blur capture is 74.911–76.690%, and source Blur is 57.308–62.253%. Real oracle is below the matched p05 in 1/8 rows. Source composition adds -1.650–-1.255pp relative to oracle.
 
-Matched-K20, actual-oracle, full-source and Blur task CSVs are absent because their scientific stages were never reached; no placeholder accuracy is supplied. K20, state banks, templates, context decisions and historical results remain unchanged. Do not classify this as OutcomeC or start upstream feature observability from a numerical stop. Return this concrete convergence blocker to Lead; no next scientific task or automatic solver change.
+The old 8/8 below-p05 finding narrows to **1/8**, so the **extra-real-Blur residual** is now a row-specific observation, not a uniform anomaly across both banks and every salt. Distinguish this from the additional context-ID composition gap. The old T017 mismatch label was weak and was not redefined here; these task gaps alone do not establish a strong channel-mismatch label. Source context-correct/error subset sample counts and weighted accuracies are saved separately.
+
+## Numerical certification, before metrics
+
+T018R2 changes only the cached face application: cache KKT matrices; use `numpy.linalg.solve(K, actual_rhs)` on each visited face. All working-set logic and tolerances remain unchanged. No unconditional normalization, new dependency or new estimator was added. Old PGD and cached-inverse stops remain preserved in their receipts/history.
+
+- Frozen blocker client35/B/Dark/replica7 passes with zero clipping; the full matched receipt explicitly records its repaired pi, KKT and sum error.
+- Noise-free 1,000: max prevalence error 2.22412e-13, objective 6.13796e-30; 7,914 singleton and 86 exact-tie checks pass.
+- Same 200/reference: max pi error 0; all 49 historical PGD caps remain repaired.
+- All 1,000 real cells pass, max sum error 2.22045e-16, max KKT 2.22045e-16.
+- **All 128,000 saved matched q solutions were certified and persisted before query counts opened**: max sum error 2.22045e-16, max KKT 2.22045e-16, max 13 updates. Arrays save pi, KKT, sum errors, update counts and objective improvements; p95/p99/max summaries are in `matched_solver_verification.json`.
+
+Exact raw CLS prevalence selects the first rational-utility argmax without a true-label tie override. Oracle-context results are written and hashed before full-source composition.
+
+## Independent replay and artifacts
+
+Local independent replay reconstructs 5,120 matched class-count vectors from all 1,024,000 selected half-client contributions, checks all exact macro/capture fractions and paired baselines, all aggregate quantiles/deltas, 16,000 matched boundary-replica Fraction choices and all 16,000 actual Fraction choices plus 80 actual aggregate count vectors. All 85 upstream T015/T016/T017 manifest entries are byte-identical. The source q file hash is `108776cdab4d00e99076637353d1f19d0eccc7f6dee5eff8786ff058e5baf568`.
+
+The science command's relative output directory initially placed artifacts under release `20260914-132535-ttfl-t018r2-preflight/artifacts/`; after successful completion they were copied unchanged into the canonical `20260914-132634-ttfl-t018r2-science/artifacts/` directory. No computation was repeated for this location correction. Raw copies remain remote and under `research_log/t018r2_receipts/`; large NPZ arrays are intentionally not in Git. Compact tables/JSON, hashes and this report are tracked.
+
+Data limitation remains inherited: PFLlib 100-client/10%-participation baseline on the merged CIFAR train/test client split, not the official CIFAR-10 test benchmark. No new FL training occurred.
+
+Return **Outcome B** to Lead. The next question is the matched-to-real observation/channel gap; do not interpret this as permission to start feature semantics, learned calibration, SSL/TTT or federation.
+
+
+Previous numerical stops: `PGD_PREFLIGHT_RESULTS.md` and `t018r/CACHED_INVERSE_STOP_RESULTS.md`. Both original raw receipts remain unchanged.

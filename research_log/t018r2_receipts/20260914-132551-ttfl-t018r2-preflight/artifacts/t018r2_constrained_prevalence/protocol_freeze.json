@@ -1,0 +1,15 @@
+{
+  "lead": "c8aea5b",
+  "scientific_lead": "1744440",
+  "runtime": "e4b83f09ea15357993d4d3fcb6562c4c45104b65",
+  "objective": "unchanged 0.5*||C*pi-q||^2 on simplex",
+  "repair": "T018R2 direct RHS application only; same active set",
+  "warm_start": "unchanged ProjectSimplex(pinv(C)@q)",
+  "negative_face_tolerance": 1e-12,
+  "dual_KKT_tolerance": 1e-10,
+  "max_updates": 100,
+  "cache": "KKT matrix only; numpy.linalg.solve(K,actual_rhs) on each visit",
+  "subset": "same clients0..19 x banksA/B x five contexts",
+  "new_model_forwards": 0,
+  "query_metrics_opened": false
+}

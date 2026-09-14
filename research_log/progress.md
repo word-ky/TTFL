@@ -257,3 +257,13 @@ T016 STOPPED AT PREFLIGHT
 2026-09-14T12:50:42+08:00. Lead8d12997; preflight runtime5f5e1a5/run20260914-124138-ttfl-t018r-preflight exit0:98tests,1000noise-free,same200reference incl49oldcaps,all1000real audit pass. Science runtime315a984/run20260914-124709-ttfl-t018r-science exit1 before metrics:45,575matched solves accepted then client35/B/Dark/replica7 sum error1.0480505352461478e-12 >1e-12. Same-runtime reproduced; independent face error0, maxpi difference4.77e-13. No scientific gates/outcome; zero new forwards. Read results/t018_constrained_prevalence/t018r/RESULTS.md. No changes to tolerances or solver after stop; await Lead engineering instruction.
 
 2026-09-14T13:25:28.4643111+08:00 T018R2 leadc8aea5b synchronized; previous run exit1/no active tmux confirmed. Changed only cached inverse application to direct KKT RHS solve; added exact frozen blocker fixture regression and many-RHS cache regression. Five focused tests pass; thresholds/working-set logic unchanged. Preparing full100tests and sealed recertification.
+
+2026-09-14T13:26:16.6709323+08:00 T018R2 preflight launched run20260914-132551-ttfl-t018r2-preflight release20260914-132535-ttfl-t018r2-preflight runtimee4b83f09ea15357993d4d3fcb6562c4c45104b65. Full100tests then exact blocker/noise1000/reference200/allactual1000 checks.
+
+2026-09-14T13:27:11.7230756+08:00 T018R2 preflight exit0/100testsPASS. Science launched once as run20260914-132634-ttfl-t018r2-science at samee4b83f0 release20260914-132535-ttfl-t018r2-preflight. Command used --output artifacts/t018r2_constrained_prevalence relative to release cwd; actual output is releases/20260914-132535-ttfl-t018r2-preflight/artifacts/t018r2_constrained_prevalence. After completion copy to canonical run/artifacts for receipts; do not rerun experiment for output location.
+
+2026-09-14T13:37:45.7158461+08:00 Science completed exit0/84.08s: OutcomeB, matched4/4 real1/4 source1/4. Artifacts copied from release output into canonical run and fetched. Local report replay was slow due repeated NPZ decompression inside Fraction-check loop; stopped only own report process42548, cached its two read-only arrays, restarting report only (no experiment rerun).
+
+# T018R2 COMPLETE — Outcome B
+
+2026-09-14T13:38:04+08:00. Leadc8aea5b/runtimee4b83f09ea15357993d4d3fcb6562c4c45104b65; preflight20260914-132551-ttfl-t018r2-preflight, science20260914-132634-ttfl-t018r2-science, bothexit0.100testsPASS; all128000matched numerical solves PASS, maxsum2.22045e-16,maxKKT2.22045e-16. CLS-MATCH-A4/4PASS; CLS-REAL-A1/4FAIL; CLS-SRC-A1/4FAIL (Darkonly). BothsafetychecksPASS. Zero newforwards/noresampling. Read results/t018_constrained_prevalence/t018r2/RESULTS.md and independent_verification.json. Previousstops preserved. ReturntoLead; no nextstage.

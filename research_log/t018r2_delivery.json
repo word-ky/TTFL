@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-09-14T13:38:04+08:00",
+  "lead": "c8aea5b",
+  "runtime": "e4b83f09ea15357993d4d3fcb6562c4c45104b65",
+  "preflight_run": "20260914-132551-ttfl-t018r2-preflight",
+  "science_run": "20260914-132634-ttfl-t018r2-science",
+  "status": "COMPLETE",
+  "outcome": "B",
+  "results": "results/t018_constrained_prevalence/t018r2",
+  "next": "Await Lead next bounded package"
+}

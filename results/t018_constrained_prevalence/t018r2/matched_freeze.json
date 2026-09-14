@@ -1,0 +1,6 @@
+{
+  "choices_sha256": "ee585d3e452a1cde41039690e1fc680f2034f8971c0505185eb1cc8be553f220",
+  "aggregate_sha256": "690a3047ebf1041fba65c473944d0926a559c3a47e643760bbb9e5f6c0e96bd6",
+  "lookup_Fraction_checks": 16000,
+  "old_integer_counts_replayed": true
+}

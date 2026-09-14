@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "subset_cases": 200,
+  "historical_cap_cases_repaired": 49,
+  "historical_converged_cases_equivalent": 151,
+  "all_actual_cases": 1000,
+  "max_prevalence_error": 0.0,
+  "max_objective_error": 0.0,
+  "max_KKT": 2.220446049250313e-16,
+  "max_sum_error": 2.220446049250313e-16,
+  "max_updates": 11,
+  "distributions": {
+    "updates": {
+      "p95": 6.0,
+      "p99": 8.0,
+      "max": 11.0
+    },
+    "active_classes": {
+      "p95": 7.0,
+      "p99": 8.0,
+      "max": 9.0
+    },
+    "direct_KKT": {
+      "p95": 1.1102230246251565e-16,
+      "p99": 2.220446049250313e-16,
+      "max": 2.220446049250313e-16
+    },
+    "sum_error": {
+      "p95": 1.1102230246251565e-16,
+      "p99": 2.220446049250313e-16,
+      "max": 2.220446049250313e-16
+    }
+  },
+  "new_model_forwards": 0,
+  "query_metrics_opened": false
+}
