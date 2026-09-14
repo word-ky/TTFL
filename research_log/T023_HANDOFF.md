@@ -9,3 +9,5 @@
 | ROT-CTX-A | 0/4 | False |
 
 Scoring runtime6d995574f5f452b18b02edc250af14bfd96c73a6; verifierdbf90212afb60d86bf459398f116227872f37339. Read results/t023_rotation_ssl_alignment/RESULTS.md. Raw NPZ remote with manifest; compact receipts local. Stop for Lead; no alternateSSL/writer/FL/T024.
+
+Verified result artifact commit: `f680887537ae751156186d16096454b909d8e27b`. T023-F/CTX- is a verified mechanism failure; await Lead without writer/alternate SSL/FL/T024.

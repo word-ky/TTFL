@@ -50,3 +50,5 @@ Scoring runtime6d995574f5f452b18b02edc250af14bfd96c73a6; verifierdbf90212afb60d8
 | B/gaussian_blur | 0.38739 | 0.46472/0.47464/0.48445 | 82.0 |
 
 Noise CURRENT median Spearman -0.4/-0.5 (banks A/B), only about19-21%positive. True rotation beats own scramble median for75-82%clients, but state selection is strongly harmful on Noise/Blur. Verification:5000unrotated+3000rotated original-model samples,Hdiff0;2000crossfit scores,maxerror1.2878587085651816e-14;200cells x16scrambles,maxerror3.9968028886505635e-15;120integer rows/24000episodes/120paired rows/16000ranks/all gates independently verified. Full rank/IQR, histograms and hashes in RESULTS.md. Request next bounded Lead decision; no method rescue.
+
+Verified result artifact commit: `f680887537ae751156186d16096454b909d8e27b`. T023-F/CTX- is a verified mechanism failure; await Lead without writer/alternate SSL/FL/T024.

@@ -12,5 +12,6 @@
   "verification_runtime": "dbf90212afb60d86bf459398f116227872f37339",
   "diagnosis": "T023-F",
   "CTX": "CTX-",
-  "next": "Await Lead; no alternate SSL/writer/FL/T024"
+  "next": "Await Lead; no alternate SSL/writer/FL/T024",
+  "result_artifact_commit": "f680887537ae751156186d16096454b909d8e27b"
 }
