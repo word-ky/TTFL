@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-09-14T15:54:10+08:00",
+  "lead": "5bb4d6e",
+  "runtime": "29d8443cf698014ec3f938e598e2633381941e77",
+  "run": "20260914-154818-ttfl-t020",
+  "status": "MONTE_CARLO_INSTABILITY",
+  "global_agreement": 0.9795,
+  "results": "results/t020_bootstrap_expected_regret",
+  "next": "Await Lead bounded instruction; no privileged evaluation"
+}

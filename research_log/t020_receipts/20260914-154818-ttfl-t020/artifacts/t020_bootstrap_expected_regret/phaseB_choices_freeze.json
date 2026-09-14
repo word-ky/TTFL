@@ -1,0 +1,14 @@
+{
+  "runtime": "29d8443cf698014ec3f938e598e2633381941e77",
+  "labels_opened": false,
+  "query_outcomes_opened": false,
+  "stability_pass": false,
+  "hashes": {
+    "bootstrap_arrays.npz": "32ae1f88835a91f38c0974bd7fb25017459800b8fb1020f93b5c34e4900e02ba",
+    "utility_means_exact.json.gz": "3bc746909ae3c9bb6ee8ae802ef2952dc94cebfe0c69137b852f74e528137c4d",
+    "bootstrap_uncertainty.csv": "f46c4057cf5394a07e03aa128f92f45f571c54b3dacf766b89899b4806b7c9b0",
+    "bootstrap_stability.csv": "7b5495b245c3450c78e75c7bf16bdb591f37171992f7835bbedfc8f58752f173",
+    "ber_choices.csv": "538e7d2ffdf2eb127ce58f3c19b508fac7674c643100ffc0cf38c023a72c8638",
+    "seed_receipt.json": "1255fa641dd9976b836216e2945b022e4f5b29e61a9a2f2c121c1ac2d3252b97"
+  }
+}

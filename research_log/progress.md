@@ -281,3 +281,11 @@ T016 STOPPED AT PREFLIGHT
 2026-09-14T15:05:51+08:00. Lead d37bbc4. Prep6b5b2c0/run20260914-145145-ttfl-t019;finish15ad29f/run20260914-145757-ttfl-t019-finish;both exit0.107testsPASS;zero newforwards. TASK-MISMATCH-A0/3FAIL;CTX-SPEC-A0/3FAIL;LOCAL-AallcontextsPASS. Contrast/Noise/Blur task tails2–11%,pairedtails12–19%;cleanunion11/17%. Small-margin state errors frequent but upperhalf margins carry62.02%true regret: mixed, not forced S. T017 K20 already fixed class counts; T019 adds decomposition/paired/repair diagnostics. Read results/t019_real_channel_heterogeneity/RESULTS.md and independent_verification.json. Await Lead; no nextstage.
 
 2026-09-14T15:47:29.2771517+08:00 T020 lead5bb4d6e synchronized; previous T019 finish exit0/no running tmux. Added label-blind fixedR256 position bootstrap and exact integer/rational utility aggregation. Eight focused tests pass incl label blindness/ties/BER-regret equivalence/fixed-context dispatch. Protocol frozen global>=99% and perbankcontext>=99%; no label/query unsealing if stability fails.
+
+2026-09-14T15:49:08.2390111+08:00 T020 run20260914-154818-ttfl-t020 launched at29d8443cf698014ec3f938e598e2633381941e77 release20260914-154738-ttfl-t020. Deploy SSH255 at symlink update; confirmed new release present/current old/no job; repaired only symlink+last-release, then launched once. Full115tests and256000label-blind bootstrap cells before any privileged metrics.
+
+2026-09-14T15:53:03.4084889+08:00 T020 numerical bootstrap completed115tests/256000CLS pass, exit1 mandated MC stop:97.95%128vs256 agreement (164/8000 changed), global<99% and9/10bank-context groups<99%. 99.23s, no true composition/utilities/querycount parsing. Fetch same completed run; do not increaseR or launch evaluation.
+
+# T020 STOP — MC instability
+
+2026-09-14T15:54:10+08:00. Lead5bb4d6e/runtime29d8443cf698014ec3f938e598e2633381941e77/run20260914-154818-ttfl-t020,exit1.115testsPASS;256000CLSsolvesPASS. BER128-vs256 agreement97.9500%<99%;164/8000slots differ. Mandatory MCstop before true labels/utilities/querycounts. All scientific gates NOT_EXECUTED; no T020-R/C/F/X. Independent2000CLS+8000exactmeans+16000replicaargsets replayPASS;219upstream hashes unchanged. Read results/t020_bootstrap_expected_regret/RESULTS.md. No increasedR/newseeds/alternatepolicy;awaitLead.

@@ -1,0 +1,21 @@
+{
+  "status": "MONTE_CARLO_INSTABILITY",
+  "runtime": "29d8443cf698014ec3f938e598e2633381941e77",
+  "seconds": 99.22878551483154,
+  "numpy_version": "2.5.3",
+  "global_128_256_agreement": 0.9795,
+  "global_pass": false,
+  "all_bank_context_groups_pass": false,
+  "disagreements": 164,
+  "total_choices": 8000,
+  "max_mean_utility_difference": 0.02955794683885855,
+  "max_vote_frequency_difference": 0.1171875,
+  "BER_REGRET_A": "NOT_EXECUTED",
+  "BER_CAP_A": "NOT_EXECUTED",
+  "BER_SRC_A": "NOT_EXECUTED",
+  "scientific_diagnosis": "NOT_ASSIGNED",
+  "labels_opened": false,
+  "query_outcomes_opened": false,
+  "new_model_forwards": 0,
+  "source_hashes_unchanged": true
+}

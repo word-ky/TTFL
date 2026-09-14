@@ -1,0 +1,14 @@
+{
+  "bootstrap_cells": 256000,
+  "solver_invariants_pass": true,
+  "max_KKT": 4.440892098500626e-16,
+  "max_sum_error": 4.440892098500626e-16,
+  "max_updates": 14,
+  "min_objective_improvement": -4.253089776868326e-30,
+  "probability_replay_bitwise": true,
+  "point_choice_replays": 8000,
+  "independent_position_replays": 2000,
+  "labels_opened": false,
+  "query_outcomes_opened": false,
+  "new_model_forwards": 0
+}

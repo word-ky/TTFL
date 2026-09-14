@@ -1,0 +1,9 @@
+{
+  "MC_STABILITY_PASS": false,
+  "global_agreement": 0.9795,
+  "required_agreement": 0.99,
+  "BER_REGRET_A": "NOT_EXECUTED",
+  "BER_CAP_A": "NOT_EXECUTED",
+  "BER_SRC_A": "NOT_EXECUTED",
+  "scientific_diagnosis": "NOT_ASSIGNED"
+}
