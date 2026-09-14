@@ -395,3 +395,7 @@ Verified result artifact commit: `ae1d5b406845abcbde49cf344e9b11911a614fcf`. Cod
 2026-09-14T21:31:28.7633151+08:00 T023 scorer runtime d9490a3e0355292e6bbf674f0c0ac2920d4c599e/run20260914-212711-ttfl-t023-score exit0. Preliminary T023-F/CTX- (all three gates0/4), independent verification pending. No task tuning/writer/next stage. Separate verifier uses original-model H hook, SciPy LAPACK least-squares, independent SHA splits/scrambles and exact counts/utility gates.
 
 2026-09-14T21:32:54.9783217+08:00 Concurrent Lead38b01e8 reviewed and merged (push correctly rejected before merge; no changes lost). Completion-only requirements preserve protocol. Added explicit sealed flags/input checks and Phase-A runtime receipt before scoring; verifier asserts120aggregate/24000episodes200percell/120paired/16000rank cardinalities and exact historicalPnumerators. Will repeat scoring only to certify new preflight assertions; Phase-A/extraction unchanged.
+
+2026-09-14T21:34:50.0943763+08:00 Verifier deployment20260914-213426-ttfl-t023-verify interrupted atSCPupload;defaultandlegacySCPconnectionclosed. No verifier started. Current canonical scoringrun20260914-213328-ttfl-t023-score-final retained; recover bychecking same log/redeploycodeonly.
+
+2026-09-14T21:37:36.6360701+08:00 SSH recovered; same finalscore20260914-213328-ttfl-t023-score-final confirmedexit0 at21:33:44. OutcomeunchangedpreliminaryT023-F/CTX-. Preparecompactreport and redeployverifier; no prior experiment repeated.
