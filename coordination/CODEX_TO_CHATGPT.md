@@ -10,3 +10,5 @@
 | gaussian_blur | 82.684–84.908 | 79.010–81.961 | 80.809–82.533 | 74.911–76.690 | 68.244–74.730 | 72.997–75.658 |
 
 Interpretation: raw upstream dimensionality alone does not close real-to-other-client observation mismatch; context-specific geometry is useful under the fixed same-state control. Source was frozen but not scored. No next stage started.
+
+Result artifact commit: fb9f1721785856f08a3a9d145ab671352b5bd376. Scoring runtime: a5b74e10995e3a7cb846b553c70a68b39a736b11. Independent verifier runtime: 5296f57e0cc58058e8825ab8844f8ac4284d663a.

@@ -18,5 +18,6 @@
   "SRC": "NOT_EXECUTED",
   "results": "results/t021_frozen_representation_observability",
   "large_arrays": "remote canonical run paths in remote_artifact_manifest.json",
-  "next": "Await Lead bounded instruction"
+  "next": "Await Lead bounded instruction",
+  "result_commit": "fb9f1721785856f08a3a9d145ab671352b5bd376"
 }
