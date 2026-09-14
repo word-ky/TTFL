@@ -1,13 +1,3 @@
-# T022 complete — T022-N
+# T023 active — extraction ready
 
-2026-09-14T19:53:07+08:00. Lead06647a0. 133testsPASS/all5stagesexit0/independentPASS. Flags {"L": {"CTX": "CTX+", "SRC": "NOT_EXECUTED"}, "H": {"CTX": "CTX+", "SRC": "NOT_EXECUTED"}}. Read results/t022_state_response_semantics/RESULTS.md.
-
-| Response | MATCH contexts | REAL contexts | Regression safety | REGRET vs P | CTX | SRC |
-|---|---:|---:|---|---:|---:|---|
-| Phi_L | 1/4 | 1/4 | False | 0/4 | 4/4 | NOT_EXECUTED |
-| Phi_H | 1/4 | 1/4 | False | 0/4 | 4/4 | NOT_EXECUTED |
-
-The frozen first-moment observer branch stops here under the predeclared T022-M/N rule. No further observer trick, rescue or next task was started.
-Scoring runtimec5ba764761561e953680519dbdc27a62c5b915c1, verifier9caac731bd42a9e8e6968f7a5204337f0997756d. Large NPZ remote only with path/hash manifest; compact receipts local.
-
-Verified result artifact commit: `ae1d5b406845abcbde49cf344e9b11911a614fcf`. Code and compact receipts pushed to word-ky/TTFL main. Await Lead; T022-N closes this frozen first-moment observer branch.
+2026-09-14T21:19:17.4425510+08:00. Lead89466b3. New disposable rotation probe module and3focused tests PASS. Extraction code ready; no T023 remote job started yet. Next deploy/run run_t023_extract.sh onA6000GPU1, then support-only probe/independent preflight, complete Phase-A freeze, cached task scoring/all-gate verification. No writer/model update. Protocol results/t023_rotation_ssl_alignment/PROTOCOL_FREEZE.md.
