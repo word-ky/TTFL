@@ -1,0 +1,157 @@
+[
+  {
+    "path": "research_log/t018r_receipts/20260914-124138-ttfl-t018r-preflight/train.log",
+    "bytes": 12082,
+    "sha256": "39965699f7255f5e31b26742d7c12de7d063270d749803b8d05dbd4d6ffdac7d"
+  },
+  {
+    "path": "research_log/t018r_receipts/20260914-124709-ttfl-t018r-science/train.log",
+    "bytes": 2419,
+    "sha256": "ae008e9b294e1c4d6664a8310a35ce45de15a2c95fe1a8b4f640cd724f368d19"
+  },
+  {
+    "path": "research_log/t018r_receipts/20260914-124138-ttfl-t018r-preflight/artifacts/t018r_constrained_prevalence/all_actual_audit.csv",
+    "bytes": 572928,
+    "sha256": "5dcf96067838c07e9b359f8a501d64c889ef6ffb02fb6bb6b4fbcef85266a4d4"
+  },
+  {
+    "path": "research_log/t018r_receipts/20260914-124138-ttfl-t018r-preflight/artifacts/t018r_constrained_prevalence/all_actual_solutions.json",
+    "bytes": 1289935,
+    "sha256": "b0e384850806dd15e911fa820fa393a0be3a4c8bc5ab5b95970debf8fc1ce9e0"
+  },
+  {
+    "path": "research_log/t018r_receipts/20260914-124138-ttfl-t018r-preflight/artifacts/t018r_constrained_prevalence/input_hashes.json",
+    "bytes": 3464,
+    "sha256": "ff7e2a4fe0571ba8696ae22b99730e26aec2a0ec23ff17a417577d313b93e932"
+  },
+  {
+    "path": "research_log/t018r_receipts/20260914-124138-ttfl-t018r-preflight/artifacts/t018r_constrained_prevalence/metadata.json",
+    "bytes": 175,
+    "sha256": "13c1e48a4f16cf86bcf79c75632324b822436a9796f97275f1d0346d36e02efd"
+  },
+  {
+    "path": "research_log/t018r_receipts/20260914-124138-ttfl-t018r-preflight/artifacts/t018r_constrained_prevalence/noise_free.csv",
+    "bytes": 221662,
+    "sha256": "443f0f053a981b7924df29432909b2ab41f7ac878953e45b68a8235e43a9ebf0"
+  },
+  {
+    "path": "research_log/t018r_receipts/20260914-124138-ttfl-t018r-preflight/artifacts/t018r_constrained_prevalence/noise_free_verification.json",
+    "bytes": 172,
+    "sha256": "e9a3873ab48269eeb711010516b16d9bde95e83c0373d5dd7994bef6b330d8d3"
+  },
+  {
+    "path": "research_log/t018r_receipts/20260914-124138-ttfl-t018r-preflight/artifacts/t018r_constrained_prevalence/protocol_freeze.json",
+    "bytes": 580,
+    "sha256": "6bf53c3a9b91ba93a508ae840e83b308e6e83e9b0b1fe6bb5a2f216bb883803f"
+  },
+  {
+    "path": "research_log/t018r_receipts/20260914-124138-ttfl-t018r-preflight/artifacts/t018r_constrained_prevalence/solver_subset.csv",
+    "bytes": 115569,
+    "sha256": "64d449350a352b009a7dd9e54dcfcf4b9bfa376f1f8cc3092c53046136b3b7a5"
+  },
+  {
+    "path": "research_log/t018r_receipts/20260914-124138-ttfl-t018r-preflight/artifacts/t018r_constrained_prevalence/solver_vectors.json",
+    "bytes": 151293,
+    "sha256": "08d09042ad48bc2ac17dbaab0669a767667798d2dd65fdc12c57a5f0478352a7"
+  },
+  {
+    "path": "research_log/t018r_receipts/20260914-124138-ttfl-t018r-preflight/artifacts/t018r_constrained_prevalence/solver_verification.json",
+    "bytes": 374,
+    "sha256": "8b0f337a6ab17273f18b34f25c838ea2f37894598cd52691747503ad7dd81e2d"
+  },
+  {
+    "path": "research_log/t018r_receipts/20260914-124709-ttfl-t018r-science/artifacts/t018r_constrained_prevalence/blocker.json",
+    "bytes": 481,
+    "sha256": "ed3fd86fc73ea3c0621c300a47a4f39ecfc427e6a81b4b4012d1352d464742ff"
+  },
+  {
+    "path": "research_log/t018r_receipts/20260914-124709-ttfl-t018r-science/artifacts/t018r_constrained_prevalence/blocker_diagnosis.json",
+    "bytes": 1638,
+    "sha256": "beac272bee3766308421b2549939079f4d9b68e8bde76e8722ba9172523a1684"
+  },
+  {
+    "path": "research_log/t018r_receipts/20260914-124709-ttfl-t018r-science/artifacts/t018r_constrained_prevalence/protocol_freeze.json",
+    "bytes": 800,
+    "sha256": "5273f62729377488c9fa39017ab2f8ff11969d755b0c90ccc77447dcdfc37f60"
+  },
+  {
+    "path": "results/t018_constrained_prevalence/t018r/RESULTS.md",
+    "bytes": 4567,
+    "sha256": "240cde1aaddd4972281dcaf716a8415d69c2110b761f4ecbbec237aba4702be6"
+  },
+  {
+    "path": "results/t018_constrained_prevalence/t018r/source_hash_replay.json",
+    "bytes": 23072,
+    "sha256": "c42c851e302e07c971ea70a6853d9045e7130d2d8b81ebfbe2f199871f9735ad"
+  },
+  {
+    "path": "results/t018_constrained_prevalence/t018r/summary.json",
+    "bytes": 785,
+    "sha256": "bf47dc9d095ee55c6dbcf9fa7b92cfe1b46eb9f9aec95ab0916971127e19e95f"
+  },
+  {
+    "path": "results/t018_constrained_prevalence/t018r/matched_stop/blocker.json",
+    "bytes": 481,
+    "sha256": "ed3fd86fc73ea3c0621c300a47a4f39ecfc427e6a81b4b4012d1352d464742ff"
+  },
+  {
+    "path": "results/t018_constrained_prevalence/t018r/matched_stop/blocker_diagnosis.json",
+    "bytes": 1638,
+    "sha256": "beac272bee3766308421b2549939079f4d9b68e8bde76e8722ba9172523a1684"
+  },
+  {
+    "path": "results/t018_constrained_prevalence/t018r/matched_stop/protocol_freeze.json",
+    "bytes": 800,
+    "sha256": "5273f62729377488c9fa39017ab2f8ff11969d755b0c90ccc77447dcdfc37f60"
+  },
+  {
+    "path": "results/t018_constrained_prevalence/t018r/preflight/all_actual_audit.csv",
+    "bytes": 572928,
+    "sha256": "5dcf96067838c07e9b359f8a501d64c889ef6ffb02fb6bb6b4fbcef85266a4d4"
+  },
+  {
+    "path": "results/t018_constrained_prevalence/t018r/preflight/all_actual_solutions.json",
+    "bytes": 1289935,
+    "sha256": "b0e384850806dd15e911fa820fa393a0be3a4c8bc5ab5b95970debf8fc1ce9e0"
+  },
+  {
+    "path": "results/t018_constrained_prevalence/t018r/preflight/input_hashes.json",
+    "bytes": 3464,
+    "sha256": "ff7e2a4fe0571ba8696ae22b99730e26aec2a0ec23ff17a417577d313b93e932"
+  },
+  {
+    "path": "results/t018_constrained_prevalence/t018r/preflight/metadata.json",
+    "bytes": 175,
+    "sha256": "13c1e48a4f16cf86bcf79c75632324b822436a9796f97275f1d0346d36e02efd"
+  },
+  {
+    "path": "results/t018_constrained_prevalence/t018r/preflight/noise_free.csv",
+    "bytes": 221662,
+    "sha256": "443f0f053a981b7924df29432909b2ab41f7ac878953e45b68a8235e43a9ebf0"
+  },
+  {
+    "path": "results/t018_constrained_prevalence/t018r/preflight/noise_free_verification.json",
+    "bytes": 172,
+    "sha256": "e9a3873ab48269eeb711010516b16d9bde95e83c0373d5dd7994bef6b330d8d3"
+  },
+  {
+    "path": "results/t018_constrained_prevalence/t018r/preflight/protocol_freeze.json",
+    "bytes": 580,
+    "sha256": "6bf53c3a9b91ba93a508ae840e83b308e6e83e9b0b1fe6bb5a2f216bb883803f"
+  },
+  {
+    "path": "results/t018_constrained_prevalence/t018r/preflight/solver_subset.csv",
+    "bytes": 115569,
+    "sha256": "64d449350a352b009a7dd9e54dcfcf4b9bfa376f1f8cc3092c53046136b3b7a5"
+  },
+  {
+    "path": "results/t018_constrained_prevalence/t018r/preflight/solver_vectors.json",
+    "bytes": 151293,
+    "sha256": "08d09042ad48bc2ac17dbaab0669a767667798d2dd65fdc12c57a5f0478352a7"
+  },
+  {
+    "path": "results/t018_constrained_prevalence/t018r/preflight/solver_verification.json",
+    "bytes": 374,
+    "sha256": "8b0f337a6ab17273f18b34f25c838ea2f37894598cd52691747503ad7dd81e2d"
+  }
+]

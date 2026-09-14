@@ -1,0 +1,27 @@
+{
+  "status": "MATCHED_SOLVER_NUMERICAL_BLOCKER",
+  "CLS_MATCH_A": "NOT_EXECUTED",
+  "CLS_REAL_A": "NOT_EXECUTED",
+  "CLS_SRC_A": "NOT_EXECUTED",
+  "outcome": "NOT_ASSIGNED",
+  "preflight_pass": true,
+  "tests_passed": 98,
+  "noise_free_cases": 1000,
+  "reference_cases": 200,
+  "old_cap_cases_repaired": 49,
+  "all_actual_audit_cases": 1000,
+  "matched_successful_cases": 45575,
+  "first_failing_case": {
+    "client": 35,
+    "bank": "B",
+    "context": "brightness_dark",
+    "replica": 7
+  },
+  "cached_simplex_sum_error": 1.0480505352461478e-12,
+  "required_sum_tolerance": 1e-12,
+  "KKT": 1.0480505352461478e-12,
+  "reference_pi_error": 4.771877337717001e-13,
+  "source_hashes_unchanged": 85,
+  "query_metrics_opened": false,
+  "new_model_forwards": 0
+}

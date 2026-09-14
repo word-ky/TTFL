@@ -1,0 +1,17 @@
+{
+  "lead": "8d12997",
+  "scientific_lead": "1744440",
+  "runtime": "315a984ee4ba5c26495b48f3a73c081c5f0340bc",
+  "preflight": "/home/wenchang/asdasdsad/wjq/TTFL/runs/20260914-124138-ttfl-t018r-preflight/artifacts/t018r_constrained_prevalence",
+  "preflight_sha256": "8b0f337a6ab17273f18b34f25c838ea2f37894598cd52691747503ad7dd81e2d",
+  "estimator": "same CLS-S objective; active-set numerical repair only",
+  "K": 20,
+  "replicas": 128,
+  "resampling": false,
+  "new_model_forwards": 0,
+  "source_q_sha256": "108776cdab4d00e99076637353d1f19d0eccc7f6dee5eff8786ff058e5baf568",
+  "gate": "80% capture both banks/all salts >=3/4 contexts",
+  "real_safety": "no shifted regression >0.5pp",
+  "clean_safety": ">=-0.5pp",
+  "selection": "raw CLS prevalence, exact rational first argmax; no tie override"
+}

@@ -1,0 +1,69 @@
+{
+  "cell": [
+    35,
+    1,
+    1,
+    7
+  ],
+  "reproduced_error": "acceptance failure: KKT=1.0480505352461478e-12, active=(0, 1, 2, 3, 6, 8, 9)",
+  "numpy_version": "2.5.3",
+  "failing_face": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    8,
+    9
+  ],
+  "cached_pi": [
+    0.04452570689928237,
+    0.11210030666256898,
+    0.006510176928777867,
+    0.014595311900222896,
+    0.0,
+    0.0,
+    0.01592821432546998,
+    0.0,
+    0.6132451473802121,
+    0.19309513590451388
+  ],
+  "cached_sum": 1.000000000001048,
+  "cached_sum_error": 1.0480505352461478e-12,
+  "cached_min": 0.0,
+  "cached_direct_KKT": 1.0480505352461478e-12,
+  "cached_objective": 3.223744096106763e-06,
+  "reference_objective": 3.223744096138541e-06,
+  "reference_pi": [
+    0.04452570689880518,
+    0.11210030666211247,
+    0.0065101769286949095,
+    0.01459531190025092,
+    0.0,
+    0.0,
+    0.015928214325490946,
+    0.0,
+    0.6132451473802245,
+    0.19309513590442112
+  ],
+  "reference_KKT": 2.6383382241076947e-17,
+  "reference_max_pi_error": 4.771877337717001e-13,
+  "direct_face_sum_error": 0.0,
+  "direct_face_KKT": 2.6383382241076947e-17,
+  "direct_face_pi": [
+    0.04452570689880518,
+    0.11210030666211247,
+    0.0065101769286949095,
+    0.01459531190025092,
+    0.0,
+    0.0,
+    0.015928214325490946,
+    0.0,
+    0.6132451473802245,
+    0.19309513590442112
+  ],
+  "interpretation": "cached inverse-map application exceeds fixed simplex sum tolerance; direct solve and exhaustive reference are diagnostics only, not accepted policy replacements",
+  "matched_successful_cases_before_stop": 45575,
+  "query_metrics_opened": false,
+  "new_model_forwards": 0
+}

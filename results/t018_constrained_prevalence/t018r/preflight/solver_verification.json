@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "subset_cases": 200,
+  "historical_cap_cases_repaired": 49,
+  "historical_converged_cases_equivalent": 151,
+  "all_actual_cases": 1000,
+  "max_prevalence_error": 5.787245682675746e-13,
+  "max_objective_error": 5.014977148831701e-16,
+  "max_KKT": 4.831690603168681e-13,
+  "max_updates": 11,
+  "new_model_forwards": 0,
+  "query_metrics_opened": false
+}

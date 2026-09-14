@@ -249,3 +249,9 @@ T016 STOPPED AT PREFLIGHT
 2026-09-14T12:41:58.0813363+08:00 T018R preflight launched: run20260914-124138-ttfl-t018r-preflight, release20260914-124118-ttfl-t018r-preflight, runtime5f5e1a5a845f743646aea7f67c1d47463f1b9832. Full98tests then sealed noise-free1000/same200/all1000 numerical checks.
 
 2026-09-14T12:46:06.8190226+08:00 T018R preflight PASS:98tests,1000noise-free,same200reference incl49oldcaps,all1000actual KKT/dominance. Raw receipt fetched. Implemented unchanged cached K20 paired evaluation, oracle freeze before source composition.
+
+2026-09-14T12:47:31.3048309+08:00 T018R science launch run20260914-124709-ttfl-t018r-science runtime315a984ee4ba5c26495b48f3a73c081c5f0340bc release20260914-124625-ttfl-t018r-science. Deploy SSH255 occurred at current-symlink update; confirmed release present/current old/no job, repeated only symlink+last-release update then launched once. Numeric certification of128000matched q before metrics.
+
+# T018R STOP — matched simplex sum tolerance
+
+2026-09-14T12:50:42+08:00. Lead8d12997; preflight runtime5f5e1a5/run20260914-124138-ttfl-t018r-preflight exit0:98tests,1000noise-free,same200reference incl49oldcaps,all1000real audit pass. Science runtime315a984/run20260914-124709-ttfl-t018r-science exit1 before metrics:45,575matched solves accepted then client35/B/Dark/replica7 sum error1.0480505352461478e-12 >1e-12. Same-runtime reproduced; independent face error0, maxpi difference4.77e-13. No scientific gates/outcome; zero new forwards. Read results/t018_constrained_prevalence/t018r/RESULTS.md. No changes to tolerances or solver after stop; await Lead engineering instruction.

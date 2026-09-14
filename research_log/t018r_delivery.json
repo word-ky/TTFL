@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-14T12:50:42+08:00",
+  "lead": "8d12997",
+  "preflight_run": "20260914-124138-ttfl-t018r-preflight",
+  "science_run": "20260914-124709-ttfl-t018r-science",
+  "status": "MATCHED_SOLVER_NUMERICAL_BLOCKER",
+  "results": "results\\t018_constrained_prevalence\\t018r",
+  "next": "Await Lead numerical repair instruction; no scientific gate evaluated"
+}

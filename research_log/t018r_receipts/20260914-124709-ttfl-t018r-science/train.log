@@ -1,0 +1,49 @@
+[autodl] run_id=20260914-124709-ttfl-t018r-science
+[autodl] started_at=2026-09-14T12:47:15+08:00
+T018R_MATCHED_SOLVER_CLIENT 0 seconds 1.6
+T018R_MATCHED_SOLVER_CLIENT 1 seconds 1.9
+T018R_MATCHED_SOLVER_CLIENT 2 seconds 2.2
+T018R_MATCHED_SOLVER_CLIENT 3 seconds 2.5
+T018R_MATCHED_SOLVER_CLIENT 4 seconds 2.8
+T018R_MATCHED_SOLVER_CLIENT 5 seconds 3.2
+T018R_MATCHED_SOLVER_CLIENT 6 seconds 3.5
+T018R_MATCHED_SOLVER_CLIENT 7 seconds 3.8
+T018R_MATCHED_SOLVER_CLIENT 8 seconds 4.2
+T018R_MATCHED_SOLVER_CLIENT 9 seconds 4.6
+T018R_MATCHED_SOLVER_CLIENT 10 seconds 5.0
+T018R_MATCHED_SOLVER_CLIENT 11 seconds 5.2
+T018R_MATCHED_SOLVER_CLIENT 12 seconds 5.6
+T018R_MATCHED_SOLVER_CLIENT 13 seconds 5.9
+T018R_MATCHED_SOLVER_CLIENT 14 seconds 6.2
+T018R_MATCHED_SOLVER_CLIENT 15 seconds 6.5
+T018R_MATCHED_SOLVER_CLIENT 16 seconds 6.8
+T018R_MATCHED_SOLVER_CLIENT 17 seconds 7.1
+T018R_MATCHED_SOLVER_CLIENT 18 seconds 7.4
+T018R_MATCHED_SOLVER_CLIENT 19 seconds 7.7
+T018R_MATCHED_SOLVER_CLIENT 20 seconds 7.9
+T018R_MATCHED_SOLVER_CLIENT 21 seconds 8.3
+T018R_MATCHED_SOLVER_CLIENT 22 seconds 8.6
+T018R_MATCHED_SOLVER_CLIENT 23 seconds 8.9
+T018R_MATCHED_SOLVER_CLIENT 24 seconds 9.3
+T018R_MATCHED_SOLVER_CLIENT 25 seconds 9.6
+T018R_MATCHED_SOLVER_CLIENT 26 seconds 9.8
+T018R_MATCHED_SOLVER_CLIENT 27 seconds 10.1
+T018R_MATCHED_SOLVER_CLIENT 28 seconds 10.5
+T018R_MATCHED_SOLVER_CLIENT 29 seconds 10.7
+T018R_MATCHED_SOLVER_CLIENT 30 seconds 11.0
+T018R_MATCHED_SOLVER_CLIENT 31 seconds 11.3
+T018R_MATCHED_SOLVER_CLIENT 32 seconds 11.6
+T018R_MATCHED_SOLVER_CLIENT 33 seconds 12.0
+T018R_MATCHED_SOLVER_CLIENT 34 seconds 12.3
+Traceback (most recent call last):
+  File "/home/wenchang/asdasdsad/wjq/TTFL/releases/20260914-124625-ttfl-t018r-science/scripts/eval_t018r.py", line 179, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/wenchang/asdasdsad/wjq/TTFL/releases/20260914-124625-ttfl-t018r-science/scripts/eval_t018r.py", line 45, in main
+    pi,receipt=solver.solve(qraw[loc])
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wenchang/asdasdsad/wjq/TTFL/releases/20260914-124625-ttfl-t018r-science/src/context/constrained_prevalence.py", line 94, in solve
+    raise RuntimeError(f'acceptance failure: KKT={kkt}, active={active}')
+RuntimeError: acceptance failure: KKT=1.0480505352461478e-12, active=(0, 1, 2, 3, 6, 8, 9)
+[autodl] finished_at=2026-09-14T12:47:27+08:00
+[autodl] exit_code=1

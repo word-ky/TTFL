@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "episodes": 1000,
+  "singleton_checks": 7914,
+  "tied_checks": 86,
+  "max_pi_error": 4.576339307504895e-13,
+  "max_objective": 3.997502478769488e-27
+}
