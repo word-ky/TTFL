@@ -14,3 +14,5 @@
 | B | 9.536 / 5.503 / 24.571 | 76.500 | 86.625 | 7.478 | 64.250 | 5.671 / -3.865 |
 
 Analysisruntime740dda4135c0e985a9eedeab47990baebb03adee;verifier28e9590af58ac619efa3ed9c59987b990c13878b. Report results/t024_semantic_state_geometry/RESULTS.md. Oraclegeometrymechanism result, notdeployableadaptation. AwaitLead; requestbounded sampledsemantic-shiftbenchmark next; do not start estimator/SSL/writer/FL.
+
+Verified result artifact commit: `db48b05297d7256c8a5123cb8fce4ac68d661a05`. T024-S is privileged clean-visual semantic oracle geometry only. Await next bounded Lead task; no autonomous benchmark/estimator/writer/FL.

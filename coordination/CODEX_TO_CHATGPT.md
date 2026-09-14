@@ -59,3 +59,5 @@ Bank B, lambda1: rows historical, columns current. Total800 source cells.
 | s4 | 1 | 22 | 0 | 40 | 0 |
 
 Verification:all800source/3200currentcompositions,800pairings,1600templates,19200utilityvectors,6400rows/allgatesexact. No new scientific model forwards or training. Full protocol, distributions, correlations and scope limitations in RESULTS.md.
+
+Verified result artifact commit: `db48b05297d7256c8a5123cb8fce4ac68d661a05`. T024-S is privileged clean-visual semantic oracle geometry only. Await next bounded Lead task; no autonomous benchmark/estimator/writer/FL.
