@@ -1,3 +1,3 @@
-# T017R ACTIVE
+# T017R COMPLETE
 
-Leada9fa543 authorizes only tie-aware noise-free sanity and complete unchanged T017 decomposition. Originalstopda202c8/run20260914-073926-ttfl-t017-preflight preserved. Originalprotocol/seeds copied byte-identically. No bootstrap intervention. First check P00 tie envelope cannot change any historical80% decision; then128replicas×K20/40/80/160. New exact integer common-denominator utility lookup is arithmetic-equivalent to Fraction, tested; no tolerance in state decisions. 87tests before formal run. No new inference or nextstage.
+2026-09-14T08:48:04+08:00. Runtime7fbfbb26e6894dbdc7f1a67e7f43537aaf2b36d5;run20260914-083609-ttfl-t017r-cached;87testsPASS;512000bootstrapepisodes,4096000exacttemplatechoices;0newforwards. DiagnosisT017-N;scaleK40;tie-envelope robustTrue. Read results/t017_channel_noise_decomposition/RESULTS.md. Priorstopda202c8preserved. No nextstage;awaitLead.

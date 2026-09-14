@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-09-14T08:48:04+08:00",
+  "lead": "a9fa543",
+  "runtime": "7fbfbb26e6894dbdc7f1a67e7f43537aaf2b36d5",
+  "run": "20260914-083609-ttfl-t017r-cached",
+  "status": "COMPLETE",
+  "diagnosis": "T017-N",
+  "raw": "research_log/t017r_receipts/20260914-083609-ttfl-t017r-cached/artifacts/t017_channel_noise_decomposition",
+  "results": "results/t017_channel_noise_decomposition",
+  "next": "Await Lead"
+}

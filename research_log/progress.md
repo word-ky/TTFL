@@ -223,3 +223,15 @@ T016 STOPPED AT PREFLIGHT
 2026-09-14T07:43:02+08:00. Lead3246221;runtime2f7b88b0bee6f3b587d42f21837f86a8356536b9;run20260914-073926-ttfl-t017-preflight;80testsPASS;historical replayPASS; inverseerror5.27e-15 but71/8000state changes all exactP00ties,zero trueutilityregret.25/40querycountrows change−.067to+.020pp. MandatoryexactP00invariantfails;bootstrap0. Read results/t017_channel_noise_decomposition/RESULTS.md. AwaitLead; no automaticretry or scientifictaxonomy.
 
 2026-09-14 08:34 +08 Leada9fa543 synchronized. Narrow tie-aware sanity implemented; exact lookup accelerates identical rational decisions. Preparing envelope and frozen bootstrap.
+
+2026-09-14 08:36 +08 T017R run20260914-083609-ttfl-t017r-cached launched at7fbfbb2. Raw bootstrap decisions use exact rational utility arithmetic without overrides.
+
+2026-09-14 08:43 +08 T017R experiment finished exit0,174.97s. Initial SFTP download stalled with template_diagnostics.json.gz at32768bytes across repeated checks; stopped only matching local scp PID20768 to trigger existing workflow legacy-SCP fallback. No experiment rerun; formalrun20260914-083609-ttfl-t017r-cached remains source.
+
+# T017R COMPLETE
+
+2026-09-14T08:45:24+08:00. Runtime7fbfbb26e6894dbdc7f1a67e7f43537aaf2b36d5;run20260914-083609-ttfl-t017r-cached;87testsPASS;512000bootstrapepisodes,4096000exacttemplatechoices;0newforwards. DiagnosisT017-N;scaleK40;tie-envelope robustTrue. Read results/t017_channel_noise_decomposition/RESULTS.md. Priorstopda202c8preserved. No nextstage;awaitLead.
+
+# T017R COMPLETE
+
+2026-09-14T08:48:04+08:00. Runtime7fbfbb26e6894dbdc7f1a67e7f43537aaf2b36d5;run20260914-083609-ttfl-t017r-cached;87testsPASS;512000bootstrapepisodes,4096000exacttemplatechoices;0newforwards. DiagnosisT017-N;scaleK40;tie-envelope robustTrue. Read results/t017_channel_noise_decomposition/RESULTS.md. Priorstopda202c8preserved. No nextstage;awaitLead.

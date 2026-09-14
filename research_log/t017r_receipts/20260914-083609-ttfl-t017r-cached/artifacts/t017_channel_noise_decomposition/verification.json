@@ -772,14 +772,5 @@
   "aggregate_counts_from_unchanged_T013": true,
   "query_regret_integer_numerators_saved": true,
   "no_model_forwards": true,
-  "original_inputs_unchanged": true,
-  "independent_all20480_aggregate_counts_exact": true,
-  "independent_all4096000_query_regret_numerators_exact": true,
-  "independent_T011_half_class_count_checks": 40000,
-  "independent_seed_replays": 4000,
-  "independent_seed_q_max_error": 1.1102230246251565e-16,
-  "independent_last_replica_exact_Fraction_state_checks": 8000,
-  "independent_exact_capture_quantiles_and_taxonomy": true,
-  "raw_hashes_unchanged": true,
-  "all_T015_T016_source_manifest_hashes_unchanged": 66
+  "original_inputs_unchanged": true
 }

@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-09-14T00:39:25.470823+00:00",
+  "runtime": "7fbfbb26e6894dbdc7f1a67e7f43537aaf2b36d5",
+  "seconds": 174.7962715625763,
+  "numpy_version": "2.5.3",
+  "shapes": {
+    "q": [
+      4,
+      100,
+      2,
+      5,
+      128,
+      10
+    ],
+    "choices": [
+      4,
+      100,
+      2,
+      5,
+      128,
+      8
+    ],
+    "aggregate_counts": [
+      4,
+      2,
+      5,
+      4,
+      128,
+      10
+    ]
+  },
+  "hashes": {
+    "bootstrap_arrays.npz": "108776cdab4d00e99076637353d1f19d0eccc7f6dee5eff8786ff058e5baf568",
+    "bootstrap_query_counts.npz": "7b6fd5710022103180c8ea0d4b871f39ea82d72f0d876e95d154a962a9969521",
+    "bootstrap_aggregate_replicas.json.gz": "ff52de1b449c797dfc2584ac2939f1ec2a188c8b2a8144af4e5df96be8868fdc",
+    "template_diagnostics.json.gz": "906acceeb4e733e3dc8499249deef0f398a80e35ef1abd74d681848f126eca89",
+    "protocol_freeze.json": "5d59286d0f85025c2298b51eaa1b96e297dc9f704547da11163c747d607b81fe"
+  },
+  "axis_order": "K,client,bank,context,replica,(class or salt*2+train_half)",
+  "no_bootstrap_tie_intervention": true
+}

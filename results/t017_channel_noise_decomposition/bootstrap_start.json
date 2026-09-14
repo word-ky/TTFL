@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-09-14T00:36:34.122966+00:00",
+  "runtime": "7fbfbb26e6894dbdc7f1a67e7f43537aaf2b36d5",
+  "protocol_sha256": "5d59286d0f85025c2298b51eaa1b96e297dc9f704547da11163c747d607b81fe",
+  "tie_envelope_sha256": "4de1358cb231a487bf4308885eba142456e6062667795c759ff36ea92e4778cc",
+  "replicas": 128,
+  "keys": [
+    20,
+    40,
+    80,
+    160
+  ],
+  "finite_K_no_tie_override": true
+}

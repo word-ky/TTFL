@@ -1,0 +1,97 @@
+[
+  {
+    "path": "research_log/t017r_receipts/20260914-083609-ttfl-t017r-cached/artifacts/t017_channel_noise_decomposition/bootstrap_aggregate_replicas.json.gz",
+    "bytes": 1204873,
+    "sha256": "ff52de1b449c797dfc2584ac2939f1ec2a188c8b2a8144af4e5df96be8868fdc"
+  },
+  {
+    "path": "research_log/t017r_receipts/20260914-083609-ttfl-t017r-cached/artifacts/t017_channel_noise_decomposition/bootstrap_arrays.npz",
+    "bytes": 134910345,
+    "sha256": "108776cdab4d00e99076637353d1f19d0eccc7f6dee5eff8786ff058e5baf568"
+  },
+  {
+    "path": "research_log/t017r_receipts/20260914-083609-ttfl-t017r-cached/artifacts/t017_channel_noise_decomposition/bootstrap_query_counts.npz",
+    "bytes": 742488,
+    "sha256": "7b6fd5710022103180c8ea0d4b871f39ea82d72f0d876e95d154a962a9969521"
+  },
+  {
+    "path": "research_log/t017r_receipts/20260914-083609-ttfl-t017r-cached/artifacts/t017_channel_noise_decomposition/bootstrap_receipt.json",
+    "bytes": 1081,
+    "sha256": "b8a91fcb90c4ceccaef33d1ca1cd98475c14cbe959a1cc1be42c3b3831e813cc"
+  },
+  {
+    "path": "research_log/t017r_receipts/20260914-083609-ttfl-t017r-cached/artifacts/t017_channel_noise_decomposition/bootstrap_start.json",
+    "bytes": 396,
+    "sha256": "440327f8513d2c108e5c9a0e6d7c20cea31be37d95bf0a6e821d838f0caaa26f"
+  },
+  {
+    "path": "research_log/t017r_receipts/20260914-083609-ttfl-t017r-cached/artifacts/t017_channel_noise_decomposition/historical_replay.json",
+    "bytes": 8956,
+    "sha256": "ea155761933b6cd36be3d2fe3c27b666f6573a25d75a6a446f1638c67c006b8a"
+  },
+  {
+    "path": "research_log/t017r_receipts/20260914-083609-ttfl-t017r-cached/artifacts/t017_channel_noise_decomposition/matched_emission_receipt.json",
+    "bytes": 1109004,
+    "sha256": "37ba57c0c3141aa81f6d3a84a7dc86987d79bb7f0eb441354b3899b30194911c"
+  },
+  {
+    "path": "research_log/t017r_receipts/20260914-083609-ttfl-t017r-cached/artifacts/t017_channel_noise_decomposition/metadata.json",
+    "bytes": 150,
+    "sha256": "acb5a65a79812764dacd2cfa636650a9d7b4d616497ca47f1e0ccac687a670de"
+  },
+  {
+    "path": "research_log/t017r_receipts/20260914-083609-ttfl-t017r-cached/artifacts/t017_channel_noise_decomposition/noise_free_choice_mismatches.json.gz",
+    "bytes": 6168,
+    "sha256": "a9bbddf23c03e7eb5660ed649cc483639ee6b43aa1c640a39bb11d8fa7a035f2"
+  },
+  {
+    "path": "research_log/t017r_receipts/20260914-083609-ttfl-t017r-cached/artifacts/t017_channel_noise_decomposition/noise_free_inverse.csv",
+    "bytes": 62878,
+    "sha256": "6538c7f444ef2967adee642817fab9c77452c1a6e20970848c892f1752868f62"
+  },
+  {
+    "path": "research_log/t017r_receipts/20260914-083609-ttfl-t017r-cached/artifacts/t017_channel_noise_decomposition/noise_free_replay.json",
+    "bytes": 11972,
+    "sha256": "872fcb4c637adb6e1e52f6be69716f730b492c143209508389cc8003d276f28a"
+  },
+  {
+    "path": "research_log/t017r_receipts/20260914-083609-ttfl-t017r-cached/artifacts/t017_channel_noise_decomposition/noise_free_tie_sanity.json",
+    "bytes": 1957858,
+    "sha256": "008955bd00c17962be5b8739708b4440a95e9a9f08f04c2a9d795694d990d902"
+  },
+  {
+    "path": "research_log/t017r_receipts/20260914-083609-ttfl-t017r-cached/artifacts/t017_channel_noise_decomposition/p00_tie_envelope.csv",
+    "bytes": 11467,
+    "sha256": "4de1358cb231a487bf4308885eba142456e6062667795c759ff36ea92e4778cc"
+  },
+  {
+    "path": "research_log/t017r_receipts/20260914-083609-ttfl-t017r-cached/artifacts/t017_channel_noise_decomposition/p00_tie_envelope_summary.json",
+    "bytes": 1476,
+    "sha256": "7bdf7cbfb9fd08b95ea75c2cf5f1431a30a081749e3749ce98b6ebfddf0cb0fe"
+  },
+  {
+    "path": "research_log/t017r_receipts/20260914-083609-ttfl-t017r-cached/artifacts/t017_channel_noise_decomposition/protocol_freeze.json",
+    "bytes": 1091,
+    "sha256": "5d59286d0f85025c2298b51eaa1b96e297dc9f704547da11163c747d607b81fe"
+  },
+  {
+    "path": "research_log/t017r_receipts/20260914-083609-ttfl-t017r-cached/artifacts/t017_channel_noise_decomposition/repair_receipt.json",
+    "bytes": 280,
+    "sha256": "08c21fb4c67ad05d7934f120a9a1370897ecabfb25967ecfb1cbf603ffbb713d"
+  },
+  {
+    "path": "research_log/t017r_receipts/20260914-083609-ttfl-t017r-cached/artifacts/t017_channel_noise_decomposition/template_diagnostics.json.gz",
+    "bytes": 636998,
+    "sha256": "906acceeb4e733e3dc8499249deef0f398a80e35ef1abd74d681848f126eca89"
+  },
+  {
+    "path": "research_log/t017r_receipts/20260914-083609-ttfl-t017r-cached/artifacts/t017_channel_noise_decomposition/verification.json",
+    "bytes": 13975,
+    "sha256": "bd7c308604e0218f83301e8f3017b446141be5be60b83cd8e949f38a93f8f27d"
+  },
+  {
+    "path": "research_log/t017r_receipts/20260914-083609-ttfl-t017r-cached/train.log",
+    "bytes": 20183,
+    "sha256": "5ba18c72155d8676706636437618ad957e584352336afffff6df885257fe0656"
+  }
+]

@@ -1,0 +1,368 @@
+{
+  "summary": {
+    "status": "COMPLETE",
+    "taxonomy": "T017-N",
+    "MATCHED_K20_EXPLAINS": {
+      "brightness_dark": true,
+      "contrast_low": true,
+      "gaussian_noise": true,
+      "gaussian_blur": false
+    },
+    "MATCHED_K20_WOULD_PASS": {
+      "brightness_dark": true,
+      "contrast_low": false,
+      "gaussian_noise": false,
+      "gaussian_blur": false
+    },
+    "median80_by_K": {
+      "20": {
+        "brightness_dark": true,
+        "contrast_low": false,
+        "gaussian_noise": false,
+        "gaussian_blur": false
+      },
+      "40": {
+        "brightness_dark": true,
+        "contrast_low": true,
+        "gaussian_noise": true,
+        "gaussian_blur": true
+      },
+      "80": {
+        "brightness_dark": true,
+        "contrast_low": true,
+        "gaussian_noise": true,
+        "gaussian_blur": true
+      },
+      "160": {
+        "brightness_dark": true,
+        "contrast_low": true,
+        "gaussian_noise": true,
+        "gaussian_blur": true
+      }
+    },
+    "SCALE_RECOVERABLE": 40,
+    "actual80": {
+      "brightness_dark": true,
+      "contrast_low": false,
+      "gaussian_noise": false,
+      "gaussian_blur": false
+    },
+    "tie_envelope_robust": true,
+    "denominator_sensitivity": {
+      "minimum": {
+        "taxonomy": "T017-N",
+        "MATCHED_K20_EXPLAINS": {
+          "brightness_dark": true,
+          "contrast_low": true,
+          "gaussian_noise": true,
+          "gaussian_blur": false
+        },
+        "MATCHED_K20_WOULD_PASS": {
+          "brightness_dark": true,
+          "contrast_low": false,
+          "gaussian_noise": false,
+          "gaussian_blur": false
+        },
+        "median80_by_K": {
+          "20": {
+            "brightness_dark": true,
+            "contrast_low": false,
+            "gaussian_noise": false,
+            "gaussian_blur": false
+          },
+          "40": {
+            "brightness_dark": true,
+            "contrast_low": true,
+            "gaussian_noise": true,
+            "gaussian_blur": true
+          },
+          "80": {
+            "brightness_dark": true,
+            "contrast_low": true,
+            "gaussian_noise": true,
+            "gaussian_blur": true
+          },
+          "160": {
+            "brightness_dark": true,
+            "contrast_low": true,
+            "gaussian_noise": true,
+            "gaussian_blur": true
+          }
+        },
+        "SCALE_RECOVERABLE": 40,
+        "actual80": {
+          "brightness_dark": true,
+          "contrast_low": false,
+          "gaussian_noise": false,
+          "gaussian_blur": false
+        }
+      },
+      "maximum": {
+        "taxonomy": "T017-N",
+        "MATCHED_K20_EXPLAINS": {
+          "brightness_dark": true,
+          "contrast_low": true,
+          "gaussian_noise": true,
+          "gaussian_blur": false
+        },
+        "MATCHED_K20_WOULD_PASS": {
+          "brightness_dark": true,
+          "contrast_low": false,
+          "gaussian_noise": false,
+          "gaussian_blur": false
+        },
+        "median80_by_K": {
+          "20": {
+            "brightness_dark": true,
+            "contrast_low": false,
+            "gaussian_noise": false,
+            "gaussian_blur": false
+          },
+          "40": {
+            "brightness_dark": true,
+            "contrast_low": true,
+            "gaussian_noise": true,
+            "gaussian_blur": true
+          },
+          "80": {
+            "brightness_dark": true,
+            "contrast_low": true,
+            "gaussian_noise": true,
+            "gaussian_blur": true
+          },
+          "160": {
+            "brightness_dark": true,
+            "contrast_low": true,
+            "gaussian_noise": true,
+            "gaussian_blur": true
+          }
+        },
+        "SCALE_RECOVERABLE": 40,
+        "actual80": {
+          "brightness_dark": true,
+          "contrast_low": false,
+          "gaussian_noise": false,
+          "gaussian_blur": false
+        }
+      }
+    },
+    "bootstrap_replicas": 512000,
+    "template_choices": 4096000,
+    "full_tests_passed": 87,
+    "diagnosis": "T017-N under frozen taxonomy: matched K20 explains Dark/Contrast/Noise; matched K20 itself passes only Dark. Synthetic K40 passes all4shifts. Blur actual capture lies below every matchedK20 p05 despite only weak residual mismatch labels. Ties are a small representative-sensitivity issue, not the main utility loss."
+  },
+  "mismatch": [
+    {
+      "bank": "A",
+      "context": "clean",
+      "median_D_actual": 0.1548725995772238,
+      "median_bootstrap_p50": 0.1500620231428199,
+      "median_empirical_percentile": 0.60546875,
+      "above_p95_fraction": 0.1,
+      "label": "weak"
+    },
+    {
+      "bank": "A",
+      "context": "brightness_dark",
+      "median_D_actual": 0.15526044286879775,
+      "median_bootstrap_p50": 0.14094891677683055,
+      "median_empirical_percentile": 0.6015625,
+      "above_p95_fraction": 0.07,
+      "label": "weak"
+    },
+    {
+      "bank": "A",
+      "context": "contrast_low",
+      "median_D_actual": 0.15723620324572513,
+      "median_bootstrap_p50": 0.14283687672739617,
+      "median_empirical_percentile": 0.609375,
+      "above_p95_fraction": 0.07,
+      "label": "weak"
+    },
+    {
+      "bank": "A",
+      "context": "gaussian_noise",
+      "median_D_actual": 0.15063860439552615,
+      "median_bootstrap_p50": 0.14860286956675206,
+      "median_empirical_percentile": 0.53515625,
+      "above_p95_fraction": 0.08,
+      "label": "weak"
+    },
+    {
+      "bank": "A",
+      "context": "gaussian_blur",
+      "median_D_actual": 0.15906283993747106,
+      "median_bootstrap_p50": 0.15146420952067885,
+      "median_empirical_percentile": 0.56640625,
+      "above_p95_fraction": 0.1,
+      "label": "weak"
+    },
+    {
+      "bank": "B",
+      "context": "clean",
+      "median_D_actual": 0.1548725995772238,
+      "median_bootstrap_p50": 0.14972860424797524,
+      "median_empirical_percentile": 0.5546875,
+      "above_p95_fraction": 0.08,
+      "label": "weak"
+    },
+    {
+      "bank": "B",
+      "context": "brightness_dark",
+      "median_D_actual": 0.1577415017794246,
+      "median_bootstrap_p50": 0.14259941763787407,
+      "median_empirical_percentile": 0.5859375,
+      "above_p95_fraction": 0.07,
+      "label": "weak"
+    },
+    {
+      "bank": "B",
+      "context": "contrast_low",
+      "median_D_actual": 0.15749408552339322,
+      "median_bootstrap_p50": 0.14160110490360506,
+      "median_empirical_percentile": 0.5859375,
+      "above_p95_fraction": 0.08,
+      "label": "weak"
+    },
+    {
+      "bank": "B",
+      "context": "gaussian_noise",
+      "median_D_actual": 0.14764195593703772,
+      "median_bootstrap_p50": 0.1475979912720615,
+      "median_empirical_percentile": 0.51953125,
+      "above_p95_fraction": 0.08,
+      "label": "weak"
+    },
+    {
+      "bank": "B",
+      "context": "gaussian_blur",
+      "median_D_actual": 0.15986695619591298,
+      "median_bootstrap_p50": 0.15019819047454303,
+      "median_empirical_percentile": 0.5546875,
+      "above_p95_fraction": 0.09,
+      "label": "weak"
+    }
+  ],
+  "task_strata": [
+    {
+      "bank": "ALL",
+      "context": "ALL",
+      "stratum": "all",
+      "n": 8000,
+      "actual_true_regret_pp": 2.9666580960231514,
+      "actual_canonical_agreement": 0.615625,
+      "actual_optimal_set_agreement": 0.620875,
+      "actual_L1": 0.7669828989772164,
+      "actual_DU_pp": 10.104670625529739,
+      "boot_true_regret_mean_pp": 2.2801838371745817,
+      "boot_canonical_agreement": 0.6651806640625,
+      "boot_optimal_set_agreement": 0.6719130859375,
+      "boot_L1_mean": 0.7140977809558919,
+      "boot_DU_mean_pp": 9.959359628242554
+    },
+    {
+      "bank": "ALL",
+      "context": "ALL",
+      "stratum": "legacy_quartile_1",
+      "n": 2000,
+      "actual_true_regret_pp": 1.281537313464969,
+      "actual_canonical_agreement": 0.4295,
+      "actual_optimal_set_agreement": 0.4505,
+      "actual_L1": 0.7329900641238989,
+      "actual_DU_pp": 7.805147376122238,
+      "boot_true_regret_mean_pp": 1.1333367517193083,
+      "boot_canonical_agreement": 0.44171875,
+      "boot_optimal_set_agreement": 0.4686484375,
+      "boot_L1_mean": 0.6710269076031552,
+      "boot_DU_mean_pp": 7.781925066042311
+    },
+    {
+      "bank": "ALL",
+      "context": "ALL",
+      "stratum": "legacy_quartile_2",
+      "n": 2000,
+      "actual_true_regret_pp": 2.6847727014216733,
+      "actual_canonical_agreement": 0.5625,
+      "actual_optimal_set_agreement": 0.5625,
+      "actual_L1": 0.7322625102105953,
+      "actual_DU_pp": 9.123258557379078,
+      "boot_true_regret_mean_pp": 1.96318115170976,
+      "boot_canonical_agreement": 0.62392578125,
+      "boot_optimal_set_agreement": 0.62392578125,
+      "boot_L1_mean": 0.7124461229369881,
+      "boot_DU_mean_pp": 9.146421526298546
+    },
+    {
+      "bank": "ALL",
+      "context": "ALL",
+      "stratum": "legacy_quartile_3",
+      "n": 2000,
+      "actual_true_regret_pp": 3.040996637843617,
+      "actual_canonical_agreement": 0.7005,
+      "actual_optimal_set_agreement": 0.7005,
+      "actual_L1": 0.7726717554027361,
+      "actual_DU_pp": 9.989396632314667,
+      "boot_true_regret_mean_pp": 2.2898714396198065,
+      "boot_canonical_agreement": 0.77305859375,
+      "boot_optimal_set_agreement": 0.77305859375,
+      "boot_L1_mean": 0.7085654444593272,
+      "boot_DU_mean_pp": 9.650847733247298
+    },
+    {
+      "bank": "ALL",
+      "context": "ALL",
+      "stratum": "legacy_quartile_4",
+      "n": 2000,
+      "actual_true_regret_pp": 4.859325731362345,
+      "actual_canonical_agreement": 0.77,
+      "actual_optimal_set_agreement": 0.77,
+      "actual_L1": 0.8300072661716348,
+      "actual_DU_pp": 13.500879936302983,
+      "boot_true_regret_mean_pp": 3.7343460056494533,
+      "boot_canonical_agreement": 0.82201953125,
+      "boot_optimal_set_agreement": 0.82201953125,
+      "boot_L1_mean": 0.764352648824097,
+      "boot_DU_mean_pp": 13.25824418738206
+    },
+    {
+      "bank": "ALL",
+      "context": "ALL",
+      "stratum": "best_tied",
+      "n": 86,
+      "actual_true_regret_pp": 0.010859580897439198,
+      "actual_canonical_agreement": 0.46511627906976744,
+      "actual_optimal_set_agreement": 0.9534883720930233,
+      "actual_L1": 0.9300469805821232,
+      "actual_DU_pp": 8.131605906638544,
+      "boot_true_regret_mean_pp": 0.037820157736226725,
+      "boot_canonical_agreement": 0.345203488372093,
+      "boot_optimal_set_agreement": 0.9714752906976745,
+      "boot_L1_mean": 0.4595090705843902,
+      "boot_DU_mean_pp": 5.2104695898764595
+    },
+    {
+      "bank": "ALL",
+      "context": "ALL",
+      "stratum": "singleton",
+      "n": 7914,
+      "actual_true_regret_pp": 2.998778221408647,
+      "actual_canonical_agreement": 0.6172605509224159,
+      "actual_optimal_set_agreement": 0.6172605509224159,
+      "actual_L1": 0.7652109112316994,
+      "actual_DU_pp": 10.12611156131754,
+      "boot_true_regret_mean_pp": 2.3045511958341347,
+      "boot_canonical_agreement": 0.6686577978898155,
+      "boot_optimal_set_agreement": 0.6686577978898155,
+      "boot_L1_mean": 0.7168643502118875,
+      "boot_DU_mean_pp": 10.010964953400435
+    }
+  ],
+  "ties": {
+    "episodes": 8000,
+    "tied_episodes": 86,
+    "tied_fraction": 0.01075,
+    "max_width_pp": 0.10052493480604457,
+    "historical80_flips": [],
+    "passed": true
+  }
+}

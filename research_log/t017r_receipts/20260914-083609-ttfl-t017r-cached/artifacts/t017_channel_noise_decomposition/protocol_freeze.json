@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-09-13T23:39:34.921866+00:00",
+  "lead": "3246221",
+  "runtime": "2f7b88b0bee6f3b587d42f21837f86a8356536b9",
+  "replicas": 128,
+  "diagnostic_K": [
+    20,
+    40,
+    80,
+    160
+  ],
+  "real_K": 20,
+  "seed_key": "T017|client|bank|context|K|replica",
+  "seed_integer": "int.from_bytes(SHA256(key),big)",
+  "rng": "numpy.default_rng PCG64",
+  "context": "oracle01 only",
+  "estimator": "unchanged np.linalg.pinv default + T016 project_simplex",
+  "mismatch_percentile": "fraction bootstrap residuals <= actual",
+  "mismatch_p95": "np.quantile(.95) linear; actual strictly greater",
+  "labels": {
+    "weak": "<=20%",
+    "moderate": ">20% and<=50%",
+    "strong": ">50%"
+  },
+  "margin_quartiles": "global ranks across8000true-P00template episodes, deterministic ties by client/bank/context/salt/train_half; four equal-size groups",
+  "gate": "original T017 matched explained inclusive p05-p95; median capture>=.8 joint bothbanks/all4salts",
+  "prevalence_replay_atol": 1e-08,
+  "utility_choices": "exact Fraction with fixed first argmax, including noise-free check"
+}
