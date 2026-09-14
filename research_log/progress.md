@@ -389,3 +389,5 @@ Verified result artifact commit: `ae1d5b406845abcbde49cf344e9b11911a614fcf`. Cod
 2026-09-14T21:19:17.4915254+08:00 Lead89466b3 T023 accepted. Read current coordination and reuse skills; remote no active tmux jobs. Implemented fixed SHA folds, label permutations and float64 minimum-norm rotation probes.3focused tests PASS against independent lstsq; extraction ready. User replenished quota and requested continuation; task unchanged.
 
 2026-09-14T21:22:08.8718941+08:00 T023 extraction deployed runtimec73385b58e0879e64570e0935de5ddd9bf443989;run20260914-212025-ttfl-t023-extract-gpu1 active. Implemented Phase-A5000state scores+16scramble replicas and independent lstsq2000cross-fitted score audit before choice freeze.
+
+2026-09-14T21:25:58.5467789+08:00 T023 extraction run20260914-212025-ttfl-t023-extract-gpu1 exit0;15000rotated/250unrotated replay batches. Phase-A runtime01038b4d7baadd7f330287b25bde2d2a17f25e3a/run20260914-212245-ttfl-t023-phase-a exit0;5000state scores+16scrambles frozen after2000independentcrossfit probes. Added exact count/utility scorer and diagnostic Spearman with inherited gates;2focused rank/gate tests PASS.
