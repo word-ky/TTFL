@@ -431,3 +431,22 @@ Verified result artifact commit: `f680887537ae751156186d16096454b909d8e27b`. T02
 2026-09-14T23:23:39.9126117+08:00 T024Lead d55a0f9 accepted;repoffsynced,remotejobsnone. ReadT014 source/schema/receipts;templates1600 encode relative-to-noop classaccuracy.800compositions,0uniformdegenerate. Fixedrightcyclic q[c]=pi[(c-k)%10],smallestmaxTVoffset;fixed SHA256pair namespace andlambdaquartersteps.4focused testsPASS forcyclic/scaling/pairing/ties/gateboundaries/oracle. Implemented composition-freeze-beforeutility and exactclean-template reconstruction.
 
 2026-09-14T23:28:14.1106823+08:00 Concurrent Lead96682c0(no new action)mergedwithoutprotocolchange;analysisruntime740dda4135c0e985a9eedeab47990baebb03adee. Localpureanalysis20260914-t024-local exit0 preliminaryT024-S. SemanticfreezeSHA c7d8ed7ff15893ce0efb97e8e0ed44daba9b86191f2d3f98ddde46827f932a71 writtenbeforeutilityaccess.112source manifestentries/800compositions/1600clean templatesPASS;6400exactgeometryrows. Separate fullreconstructionverifier ready; remote fullsuite run20260914-232500-ttfl-t024-tests.
+
+# T024 complete — T024-S
+
+2026-09-14T23:32:46+08:00. Leadd55a0f9;142testsPASS/analysis+independentverificationPASS. Clean visual input, privileged semantic composition, anonymous fixeds0..s4(s0no-op). Exactdiscrepancy0.
+
+| Gate | Bank A | Bank B | Overall |
+|---|---|---|---|
+| SEM-HEADROOM-A | True | True | True |
+| SEM-SPEC-A | True | True | True |
+| SEM-TREND-A | True | True | True |
+
+| Bank | Stale mean / median / p90 pp | Stale >=1pp % | Switch % | Mismatch mean pp | Mismatch >=1pp % | Current−zero / historical−zero pp |
+|---|---:|---:|---:|---:|---:|---:|
+| A | 9.644 / 5.883 / 24.942 | 78.250 | 86.625 | 7.562 | 65.375 | 5.835 / -3.809 |
+| B | 9.536 / 5.503 / 24.571 | 76.500 | 86.625 | 7.478 | 64.250 | 5.671 / -3.865 |
+
+Analysisruntime740dda4135c0e985a9eedeab47990baebb03adee;verifier28e9590af58ac619efa3ed9c59987b990c13878b. Report results/t024_semantic_state_geometry/RESULTS.md. Oraclegeometrymechanism result, notdeployableadaptation. AwaitLead; requestbounded sampledsemantic-shiftbenchmark next; do not start estimator/SSL/writer/FL.
+
+2026-09-14T23:33:16.5425375+08:00 T024-S verified COMPLETE. Bothbanks passHEADROOM/SPEC/TREND. Severe stale mean9.644154/9.535544pp; median5.882614/5.503296pp;p9024.942325/24.570980pp;switch693/800each(86.625%).Mismatchmean7.561808/7.477796pp. Independentruntime28e9590af58ac619efa3ed9c59987b990c13878b reconstructsall800source/3200currentvectors,800pairs,1600cleanother99templates,19200utilityvectors,6400rows/allgatesexact(discrepancy0);JSmax3.33e-16,rhomax1.11e-16.142testsPASS(remote20260914-232500-ttfl-t024-tests). Source112manifestentriesunchanged;semanticfreezeandprotocolbytesunchanged. PureCPUoracleanalysis;no scientificforward/SSL/writer/FL. AwaitLead.

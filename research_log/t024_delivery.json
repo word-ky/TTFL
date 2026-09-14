@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-09-14T23:32:46+08:00",
+  "lead": "d55a0f9",
+  "runtime": "740dda4135c0e985a9eedeab47990baebb03adee",
+  "verification_runtime": "28e9590af58ac619efa3ed9c59987b990c13878b",
+  "analysis_run": "20260914-t024-local",
+  "verification_run": "20260914-t024-verify",
+  "full_test_run": "20260914-232500-ttfl-t024-tests",
+  "diagnosis": "T024-S",
+  "next": "Await Lead; request bounded sampled semantic-shift benchmark; no autonomous next stage"
+}

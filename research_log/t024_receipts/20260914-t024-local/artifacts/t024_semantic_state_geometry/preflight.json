@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "manifest_entries": 112,
+  "source_compositions": 800,
+  "template_cells": 1600,
+  "clean_templates_reconstructed": 1600,
+  "degenerate_compositions": 0,
+  "source_counts_exact": true,
+  "other99_exclusion_verified": true,
+  "zero_state_index": 0,
+  "state_order": [
+    "s0",
+    "s1",
+    "s2",
+    "s3",
+    "s4"
+  ],
+  "semantic_freeze_sha256": "c7d8ed7ff15893ce0efb97e8e0ed44daba9b86191f2d3f98ddde46827f932a71",
+  "utility_loaded_after_freeze": true
+}

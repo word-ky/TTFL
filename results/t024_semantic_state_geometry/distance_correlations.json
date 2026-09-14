@@ -1,0 +1,30 @@
+[
+  {
+    "bank": "A",
+    "distance": "TV",
+    "spearman": 0.5143026313415353,
+    "cells": 3200,
+    "unit": "source cell x lambda, repeated compositions"
+  },
+  {
+    "bank": "A",
+    "distance": "JS_distance",
+    "spearman": 0.5140933351178941,
+    "cells": 3200,
+    "unit": "source cell x lambda, repeated compositions"
+  },
+  {
+    "bank": "B",
+    "distance": "TV",
+    "spearman": 0.5095974625142792,
+    "cells": 3200,
+    "unit": "source cell x lambda, repeated compositions"
+  },
+  {
+    "bank": "B",
+    "distance": "JS_distance",
+    "spearman": 0.5094512910421019,
+    "cells": 3200,
+    "unit": "source cell x lambda, repeated compositions"
+  }
+]

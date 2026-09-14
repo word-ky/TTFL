@@ -1,54 +1,61 @@
-# T023 complete — T023-F / CTX-
+# T024 complete — T024-S
 
-2026-09-14T21:41:32+08:00. Lead89466b3+completion38b01e8.138testsPASS/all4canonicalstagesexit0/independentPASS. Mechanism outcome, no implementation blocker.
+2026-09-14T23:32:46+08:00. Leadd55a0f9;142testsPASS/analysis+independentverificationPASS. Clean visual input, privileged semantic composition, anonymous fixeds0..s4(s0no-op). Exactdiscrepancy0.
 
-| Gate | Shift contexts passing | Overall |
+| Gate | Bank A | Bank B | Overall |
+|---|---|---|---|
+| SEM-HEADROOM-A | True | True | True |
+| SEM-SPEC-A | True | True | True |
+| SEM-TREND-A | True | True | True |
+
+| Bank | Stale mean / median / p90 pp | Stale >=1pp % | Switch % | Mismatch mean pp | Mismatch >=1pp % | Current−zero / historical−zero pp |
+|---|---:|---:|---:|---:|---:|---:|
+| A | 9.644 / 5.883 / 24.942 | 78.250 | 86.625 | 7.562 | 65.375 | 5.835 / -3.809 |
+| B | 9.536 / 5.503 / 24.571 | 76.500 | 86.625 | 7.478 | 64.250 | 5.671 / -3.865 |
+
+Analysisruntime740dda4135c0e985a9eedeab47990baebb03adee;verifier28e9590af58ac619efa3ed9c59987b990c13878b. Report results/t024_semantic_state_geometry/RESULTS.md. Oraclegeometrymechanism result, notdeployableadaptation. AwaitLead; requestbounded sampledsemantic-shiftbenchmark next; do not start estimator/SSL/writer/FL.
+
+| Bank / lambda | Mean stale pp | Median / p75 / p90 pp | Switch % | Mismatch mean pp | Oracle−zero / historical−zero pp |
+|---|---:|---:|---:|---:|---:|
+| A / 1/4 | 0.548 | 0.000 / 0.000 / 1.820 | 24.125 | 5.608 | 4.810 / 4.262 |
+| A / 1/2 | 2.189 | 0.000 / 2.978 / 8.205 | 42.250 | 4.888 | 3.761 / 1.572 |
+| A / 3/4 | 5.385 | 2.494 / 7.591 / 16.210 | 68.375 | 5.587 | 4.266 / -1.119 |
+| A / 1 | 9.644 | 5.883 / 14.353 / 24.942 | 86.625 | 7.562 | 5.835 / -3.809 |
+| B / 1/4 | 0.576 | 0.000 / 0.000 / 1.969 | 24.750 | 5.495 | 4.728 / 4.153 |
+| B / 1/2 | 2.159 | 0.000 / 2.779 / 8.174 | 43.250 | 4.601 | 3.639 / 1.480 |
+| B / 3/4 | 5.303 | 2.340 / 7.405 / 16.099 | 69.000 | 5.573 | 4.111 / -1.192 |
+| B / 1 | 9.536 | 5.503 / 14.458 / 24.571 | 86.625 | 7.478 | 5.671 / -3.865 |
+
+| Bank / salt | Severe mean mismatch pp | >=0.5pp |
 |---|---:|---|
-| ROT-TASK-A | 0/4 | False |
-| ROT-REGRET-A | 0/4 | False |
-| ROT-CTX-A | 0/4 | False |
+| A / T013-S0 | 8.638 | True |
+| A / T013-S1 | 7.152 | True |
+| A / T013-S2 | 6.662 | True |
+| A / T013-S3 | 7.795 | True |
+| B / T013-S0 | 8.621 | True |
+| B / T013-S1 | 7.272 | True |
+| B / T013-S2 | 6.352 | True |
+| B / T013-S3 | 7.667 | True |
 
-Scoring runtime6d995574f5f452b18b02edc250af14bfd96c73a6; verifierdbf90212afb60d86bf459398f116227872f37339. Read results/t023_rotation_ssl_alignment/RESULTS.md. Raw NPZ remote with manifest; compact receipts local. Stop for Lead; no alternateSSL/writer/FL/T024.
 
-| Shift/policy | Capture %, min to max | Median % | Delta vs BBSE-S-01 pp |
-|---|---:|---:|---:|
-| brightness_dark/ROT-CURRENT | 36.960 to 40.117 | 38.614 | -9.090 to -8.546 |
-| brightness_dark/ROT-CLEAN-SURROGATE | 24.723 to 28.364 | 26.593 | -11.268 to -10.653 |
-| brightness_dark/P | 89.138 to 91.783 | 90.851 | 0.180 to 0.673 |
-| contrast_low/ROT-CURRENT | 34.353 to 45.620 | 40.180 | -5.099 to -3.577 |
-| contrast_low/ROT-CLEAN-SURROGATE | 34.289 to 44.241 | 38.951 | -5.143 to -3.700 |
-| contrast_low/P | 75.729 to 83.422 | 81.244 | 0.368 to 1.547 |
-| gaussian_noise/ROT-CURRENT | -140.992 to -126.430 | -133.946 | -14.505 to -13.246 |
-| gaussian_noise/ROT-CLEAN-SURROGATE | -143.537 to -86.551 | -115.157 | -14.681 to -10.504 |
-| gaussian_noise/P | 78.334 to 81.889 | 79.891 | 0.772 to 0.892 |
-| gaussian_blur/ROT-CURRENT | -11.343 to -1.632 | -6.457 | -7.142 to -6.150 |
-| gaussian_blur/ROT-CLEAN-SURROGATE | -12.722 to -0.478 | -6.560 | -7.266 to -6.044 |
-| gaussian_blur/P | 74.911 to 76.690 | 75.694 | 0.609 to 0.970 |
+Bank A, lambda1: rows historical, columns current. Total800 source cells.
 
-| Shift/comparison (CURRENT) | Mean regret reduction % | New p90 | Baseline p90 | Clients better /100 |
-|---|---:|---:|---:|---:|
-| brightness_dark/vs_P | -508.467 to -377.919 | 0.332 to 0.345 | 0.048 to 0.081 | 15.000 to 17.000 |
-| brightness_dark/current_vs_clean | 2.808 to 4.241 | 0.332 to 0.345 | 0.317 to 0.360 | 30.000 to 32.000 |
-| contrast_low/vs_P | -316.060 to -233.736 | 0.294 to 0.326 | 0.082 to 0.100 | 11.000 to 17.000 |
-| contrast_low/current_vs_clean | -14.602 to -4.873 | 0.294 to 0.326 | 0.281 to 0.314 | 16.000 to 20.000 |
-| gaussian_noise/vs_P | -1251.823 to -1049.138 | 0.384 to 0.412 | 0.038 to 0.057 | 7.000 to 9.000 |
-| gaussian_noise/current_vs_clean | -11.499 to 1.452 | 0.384 to 0.412 | 0.383 to 0.458 | 16.000 to 17.000 |
-| gaussian_blur/vs_P | -556.406 to -465.630 | 0.298 to 0.315 | 0.058 to 0.066 | 17.000 to 19.000 |
-| gaussian_blur/current_vs_clean | -6.026 to -5.409 | 0.298 to 0.315 | 0.292 to 0.302 | 23.000 to 24.000 |
+| Historical / current | s0 | s1 | s2 | s3 | s4 |
+|---|---:|---:|---:|---:|---:|
+| s0 | 4 | 36 | 7 | 48 | 5 |
+| s1 | 53 | 49 | 15 | 178 | 7 |
+| s2 | 13 | 15 | 0 | 30 | 0 |
+| s3 | 28 | 114 | 60 | 54 | 36 |
+| s4 | 0 | 14 | 0 | 34 | 0 |
 
-| Bank/context | True MSE mean | Scramble mean MSE p05/median/p95 | Clients true < own scramble median % |
-|---|---:|---:|---:|
-| A/clean | 0.34370 | 0.41944/0.42808/0.43650 | 81.0 |
-| A/brightness_dark | 0.34352 | 0.41893/0.42775/0.43395 | 82.0 |
-| A/contrast_low | 0.45429 | 0.50283/0.51674/0.52436 | 75.0 |
-| A/gaussian_noise | 0.31705 | 0.38484/0.38969/0.39791 | 79.0 |
-| A/gaussian_blur | 0.38739 | 0.46472/0.47464/0.48445 | 82.0 |
-| B/clean | 0.34370 | 0.41944/0.42808/0.43650 | 81.0 |
-| B/brightness_dark | 0.34352 | 0.41893/0.42775/0.43395 | 82.0 |
-| B/contrast_low | 0.45429 | 0.50283/0.51674/0.52436 | 75.0 |
-| B/gaussian_noise | 0.31705 | 0.38484/0.38969/0.39791 | 79.0 |
-| B/gaussian_blur | 0.38739 | 0.46472/0.47464/0.48445 | 82.0 |
+Bank B, lambda1: rows historical, columns current. Total800 source cells.
 
-Noise CURRENT median Spearman -0.4/-0.5 (banks A/B), only about19-21%positive. True rotation beats own scramble median for75-82%clients, but state selection is strongly harmful on Noise/Blur. Verification:5000unrotated+3000rotated original-model samples,Hdiff0;2000crossfit scores,maxerror1.2878587085651816e-14;200cells x16scrambles,maxerror3.9968028886505635e-15;120integer rows/24000episodes/120paired rows/16000ranks/all gates independently verified. Full rank/IQR, histograms and hashes in RESULTS.md. Request next bounded Lead decision; no method rescue.
+| Historical / current | s0 | s1 | s2 | s3 | s4 |
+|---|---:|---:|---:|---:|---:|
+| s0 | 4 | 43 | 6 | 47 | 6 |
+| s1 | 56 | 55 | 13 | 177 | 8 |
+| s2 | 12 | 9 | 0 | 26 | 0 |
+| s3 | 27 | 109 | 53 | 48 | 38 |
+| s4 | 1 | 22 | 0 | 40 | 0 |
 
-Verified result artifact commit: `f680887537ae751156186d16096454b909d8e27b`. T023-F/CTX- is a verified mechanism failure; await Lead without writer/alternate SSL/FL/T024.
+Verification:all800source/3200currentcompositions,800pairings,1600templates,19200utilityvectors,6400rows/allgatesexact. No new scientific model forwards or training. Full protocol, distributions, correlations and scope limitations in RESULTS.md.

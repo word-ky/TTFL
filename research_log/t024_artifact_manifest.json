@@ -1,0 +1,137 @@
+[
+  {
+    "path": "research_log/t024_receipts/full_suite.log",
+    "bytes": 16514,
+    "sha256": "c0b0caf0f75b7fd936363700c5fe89b409ccf6c7691abc2ee2081e79bb865bed"
+  },
+  {
+    "path": "research_log/t024_receipts/20260914-t024-local/run.log",
+    "bytes": 118,
+    "sha256": "0aded002daefaa2df555fd1685727d943a2b033b5d47736da6b0ef417b91f93d"
+  },
+  {
+    "path": "research_log/t024_receipts/20260914-t024-verify/run.log",
+    "bytes": 30,
+    "sha256": "e8a5c7e8b77dccac03984060b83e03625e5806f136933320de959a32996ba48e"
+  },
+  {
+    "path": "research_log/t024_receipts/20260914-t024-local/artifacts/t024_semantic_state_geometry/aggregate_by_lambda.csv",
+    "bytes": 22273,
+    "sha256": "19822c14fb2d3664c5274559879ded993a805091fb568a16e285f775dbc1abbf"
+  },
+  {
+    "path": "research_log/t024_receipts/20260914-t024-local/artifacts/t024_semantic_state_geometry/cell_geometry.json.gz",
+    "bytes": 1123960,
+    "sha256": "e46e0ff936d20275af335df87c3dad5503cc158b3c82ca642417a52c781b2687"
+  },
+  {
+    "path": "research_log/t024_receipts/20260914-t024-local/artifacts/t024_semantic_state_geometry/diagnostic_gates.json",
+    "bytes": 8196,
+    "sha256": "2baea8b3a9b2810373a3f75a87601f9b3caa62cd7ff2cc816a061251b6d2d4ff"
+  },
+  {
+    "path": "research_log/t024_receipts/20260914-t024-local/artifacts/t024_semantic_state_geometry/distance_correlations.json",
+    "bytes": 693,
+    "sha256": "094fd892220adf53652e8909a5a4fba42340ee1251d1ae31b7435ef4227608a1"
+  },
+  {
+    "path": "research_log/t024_receipts/20260914-t024-local/artifacts/t024_semantic_state_geometry/input_hashes.json",
+    "bytes": 26976,
+    "sha256": "f4bc10ca1dfd63f29decb9f2602ac89fc7f63f9401d34aabbd4d166e1c428494"
+  },
+  {
+    "path": "research_log/t024_receipts/20260914-t024-local/artifacts/t024_semantic_state_geometry/mismatch_by_salt.csv",
+    "bytes": 12225,
+    "sha256": "349b723e12121c75ef6ddb4e7010244a79246a0bca0c4435edec8f78408b7693"
+  },
+  {
+    "path": "research_log/t024_receipts/20260914-t024-local/artifacts/t024_semantic_state_geometry/preflight.json",
+    "bytes": 499,
+    "sha256": "471f5c7b54af4373a6951a17f9757322d5b875532c55974b045e84fd661b3246"
+  },
+  {
+    "path": "research_log/t024_receipts/20260914-t024-local/artifacts/t024_semantic_state_geometry/semantic_shift_freeze.json",
+    "bytes": 1750334,
+    "sha256": "c7d8ed7ff15893ce0efb97e8e0ed44daba9b86191f2d3f98ddde46827f932a71"
+  },
+  {
+    "path": "research_log/t024_receipts/20260914-t024-local/artifacts/t024_semantic_state_geometry/state_transitions.json",
+    "bytes": 4759,
+    "sha256": "1c168b59e7dcb05092ad5b7d1ed01bf3fc8edc03041f97695435e74e99e7fc93"
+  },
+  {
+    "path": "research_log/t024_receipts/20260914-t024-local/artifacts/t024_semantic_state_geometry/summary.json",
+    "bytes": 8910,
+    "sha256": "f1389632b45fc43be7bc9b0aa7326a3a35ff4344270509fdf4af266e37d1cba4"
+  },
+  {
+    "path": "research_log/t024_receipts/20260914-t024-verify/artifacts/t024_semantic_state_geometry/independent_verification.json",
+    "bytes": 932,
+    "sha256": "162e8d5f8914bcc796340820d33179c3ee36673637460c875763002705cbe423"
+  },
+  {
+    "path": "results/t024_semantic_state_geometry/aggregate_by_lambda.csv",
+    "bytes": 22273,
+    "sha256": "19822c14fb2d3664c5274559879ded993a805091fb568a16e285f775dbc1abbf"
+  },
+  {
+    "path": "results/t024_semantic_state_geometry/cell_geometry.json.gz",
+    "bytes": 1123960,
+    "sha256": "e46e0ff936d20275af335df87c3dad5503cc158b3c82ca642417a52c781b2687"
+  },
+  {
+    "path": "results/t024_semantic_state_geometry/diagnostic_gates.json",
+    "bytes": 8196,
+    "sha256": "2baea8b3a9b2810373a3f75a87601f9b3caa62cd7ff2cc816a061251b6d2d4ff"
+  },
+  {
+    "path": "results/t024_semantic_state_geometry/distance_correlations.json",
+    "bytes": 693,
+    "sha256": "094fd892220adf53652e8909a5a4fba42340ee1251d1ae31b7435ef4227608a1"
+  },
+  {
+    "path": "results/t024_semantic_state_geometry/independent_verification.json",
+    "bytes": 932,
+    "sha256": "162e8d5f8914bcc796340820d33179c3ee36673637460c875763002705cbe423"
+  },
+  {
+    "path": "results/t024_semantic_state_geometry/input_hashes.json",
+    "bytes": 26976,
+    "sha256": "f4bc10ca1dfd63f29decb9f2602ac89fc7f63f9401d34aabbd4d166e1c428494"
+  },
+  {
+    "path": "results/t024_semantic_state_geometry/mismatch_by_salt.csv",
+    "bytes": 12225,
+    "sha256": "349b723e12121c75ef6ddb4e7010244a79246a0bca0c4435edec8f78408b7693"
+  },
+  {
+    "path": "results/t024_semantic_state_geometry/preflight.json",
+    "bytes": 499,
+    "sha256": "471f5c7b54af4373a6951a17f9757322d5b875532c55974b045e84fd661b3246"
+  },
+  {
+    "path": "results/t024_semantic_state_geometry/PROTOCOL_FREEZE.md",
+    "bytes": 3995,
+    "sha256": "8778549d196ce4fad3459a8871c4dd62cb5f13e9f778956a695d92517ac17937"
+  },
+  {
+    "path": "results/t024_semantic_state_geometry/RESULTS.md",
+    "bytes": 9138,
+    "sha256": "ed1f77bffbae5d598de7128f0173b82e520345ae131827e2a54652b235987591"
+  },
+  {
+    "path": "results/t024_semantic_state_geometry/semantic_shift_freeze.json",
+    "bytes": 1750334,
+    "sha256": "c7d8ed7ff15893ce0efb97e8e0ed44daba9b86191f2d3f98ddde46827f932a71"
+  },
+  {
+    "path": "results/t024_semantic_state_geometry/state_transitions.json",
+    "bytes": 4759,
+    "sha256": "1c168b59e7dcb05092ad5b7d1ed01bf3fc8edc03041f97695435e74e99e7fc93"
+  },
+  {
+    "path": "results/t024_semantic_state_geometry/summary.json",
+    "bytes": 8910,
+    "sha256": "f1389632b45fc43be7bc9b0aa7326a3a35ff4344270509fdf4af266e37d1cba4"
+  }
+]

@@ -7,3 +7,6 @@ research_log/t022_artifact_manifest.json -text
 results/t023_rotation_ssl_alignment/** -text
 research_log/t023_receipts/** -text
 research_log/t023_artifact_manifest.json -text
+results/t024_semantic_state_geometry/** -text
+research_log/t024_receipts/** -text
+research_log/t024_artifact_manifest.json -text
